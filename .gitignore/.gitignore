@@ -1,0 +1,11 @@
+# Ambiente Virtual
+venv/
+__pycache__/
+
+# Arquivos de dados brutos (PDFs)
+# É uma boa prática não versionar arquivos binários grandes.
+# O script ingest.py pode baixá-los novamente quando necessário.
+data/raw_pdfs/
+
+# Arquivos de texto processados (gerados automaticamente)
+data/processed_text/
