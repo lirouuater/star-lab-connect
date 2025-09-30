@@ -19,7 +19,7 @@ def build_knowledge_graph(driver):
     print("Iniciando a construção do Grafo de Conhecimento...")
     try:
         df = pd.read_csv(METADATA_FILE)
-        df.dropna(subset=['local_path'], inplace=True) # Garante que estamos lendo linhas válidas
+        df.dropna(subset=['local_path'], inplace=True)
     except FileNotFoundError:
         print(f"!!! Erro: Arquivo '{METADATA_FILE}' não encontrado. Rode o script de ingestão primeiro.")
         return
@@ -34,8 +34,11 @@ def build_knowledge_graph(driver):
         for index, row in df.iterrows():
             title = row["title"]
             source_url = row["source_url"]
-            # LINHA CORRIGIDA ABAIXO
             text_path = row["local_path"]
+            
+            if not text_path.endswith('.txt'):
+                print(f"Pulando arquivo não processado: {text_path}")
+                continue
             
             print(f"\n-> Processando publicação: {title[:30]}...")
 
@@ -49,17 +52,20 @@ def build_knowledge_graph(driver):
 
             for ent in doc.ents:
                 label = ""
+                # MUDANÇA AQUI: Adicionamos a etiqueta :Author
                 if ent.label_ == "ORG": label = "Organization"
-                elif ent.label_ == "PERSON": label = "Person"
+                elif ent.label_ == "PERSON": label = "Person:Author" # Nós de pessoa também são Autores
                 elif ent.label_ == "GPE": label = "Location"
                 
                 if label:
+                    # O nome do nó será apenas a primeira parte da etiqueta (ex: "Person")
+                    node_label = label.split(':')[0]
                     session.run(f"MERGE (e:{label} {{name: $name}})", name=ent.text)
-                    session.run("""
-                        MATCH (p:Publication {title: $title})
-                        MATCH (e:%s {name: $name})
+                    session.run(f"""
+                        MATCH (p:Publication {{title: $title}})
+                        MATCH (e:{node_label} {{name: $name}})
                         MERGE (p)-[:MENTIONS]->(e)
-                    """ % label, title=title, name=ent.text)
+                    """, title=title, name=ent.text)
             
             print(f"   - Nós e relações criados para a publicação.")
 

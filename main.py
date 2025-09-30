@@ -2,98 +2,92 @@ from fastapi import FastAPI, HTTPException
 from neo4j import GraphDatabase
 from pydantic import BaseModel
 from typing import List, Dict, Any
+import pandas as pd
+from transformers import pipeline
+
+# --- CARREGAMENTO DO MODELO DE IA (FEITO APENAS UMA VEZ) ---
+print("Carregando modelo de sumarização... Isso pode levar um momento.")
+# Usamos um modelo eficiente e bem conceituado para resumos
+summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
+print("Modelo carregado com sucesso.")
 
 # --- CONFIGURAÇÃO NEO4J ---
 URI = "bolt://localhost:7687"
-AUTH = ("neo4j", "password") # Use a mesma senha do seu Neo4j Desktop
+AUTH = ("neo4j", "password")
+METADATA_FILE = "data/metadata.csv"
 
-# Cria a instância da nossa API
 app = FastAPI(
     title="Space Biology Knowledge Engine API",
-    description="API para servir dados do nosso grafo de conhecimento da NASA.",
-    version="0.1.0",
+    description="API para servir dados e análises do nosso grafo de conhecimento.",
+    version="0.3.0",
 )
 
-# --- MODELOS DE DADOS (Pydantic) ---
-# Isso ajuda a FastAPI a validar e formatar os dados de saída
-class Node(BaseModel):
-    id: int
-    label: str
-    properties: Dict[str, Any]
+# --- MODELOS DE DADOS ---
+class TopItem(BaseModel):
+    name: str
+    count: int
 
-class Relationship(BaseModel):
-    id: int
-    type: str
-    start_node: int
-    end_node: int
-    properties: Dict[str, Any]
+class SummaryResponse(BaseModel):
+    title: str
+    summary: str
 
-class GraphData(BaseModel):
-    nodes: List[Node]
-    relationships: List[Relationship]
+# (Outros modelos de dados como Node, Relationship, etc. podem ser adicionados aqui se necessário)
 
-
-# --- LÓGICA DE CONEXÃO COM O BANCO DE DADOS ---
 def get_db_driver():
-    """Retorna uma instância do driver do Neo4j."""
     return GraphDatabase.driver(URI, auth=AUTH)
 
 # --- ENDPOINTS DA API ---
 
 @app.get("/")
 def read_root():
-    """Endpoint inicial da API."""
     return {"message": "Bem-vindo ao motor de conhecimento de Biologia Espacial!"}
 
-# LINHA CORRIGIDA ABAIXO
-@app.get("/graph/publication/{doi:path}", response_model=GraphData)
-def get_publication_graph(doi: str):
-    """
-    Busca no Neo4j a publicação pelo DOI e retorna o subgrafo de todas as
-    entidades diretamente conectadas a ela.
-    """
-    query = """
-    MATCH (p:Publication {doi: $doi})-[r:MENTIONS]->(e)
-    RETURN p, r, e
-    """
-    
-    nodes = []
-    relationships = []
-    node_ids = set() # Para evitar adicionar o mesmo nó duas vezes
+# --- ENDPOINTS DE BIBLIOMETRIA E ANÁLISE ---
 
+@app.get("/analytics/top-organizations", response_model=List[TopItem])
+def get_top_organizations():
+    """Retorna as 10 organizações mais mencionadas nos artigos."""
+    # (Este código não muda)
+    query = "MATCH (o:Organization)<-[:MENTIONS]-(p:Publication) RETURN o.name AS name, count(p) AS count ORDER BY count DESC LIMIT 10"
+    with get_db_driver().session() as session:
+        results = session.run(query)
+        return [TopItem(**record) for record in results]
+
+@app.get("/analytics/top-authors", response_model=List[TopItem])
+def get_top_authors():
+    """Retorna os 10 autores mais mencionados nos artigos."""
+    # (Este código não muda)
+    query = "MATCH (a:Author)<-[:MENTIONS]-(p:Publication) RETURN a.name AS name, count(p) AS count ORDER BY count DESC LIMIT 10"
+    with get_db_driver().session() as session:
+        results = session.run(query)
+        return [TopItem(**record) for record in results]
+
+@app.get("/analytics/summarize/{title:path}", response_model=SummaryResponse)
+def get_summary(title: str):
+    """
+    Gera um resumo automático para um artigo específico com base no título.
+    """
     try:
-        with get_db_driver().session() as session:
-            results = session.run(query, doi=doi)
-            
-            for record in results:
-                pub_node = record["p"]
-                rel = record["r"]
-                entity_node = record["e"]
+        df = pd.read_csv(METADATA_FILE)
+        # Encontra a linha correspondente ao título
+        article_row = df[df['title'] == title]
+        if article_row.empty:
+            raise HTTPException(status_code=404, detail="Artigo não encontrado no metadata.")
+        
+        text_path = article_row.iloc[0]['local_path']
+        
+        with open(text_path, 'r', encoding='utf-8') as f:
+            # Lemos apenas os primeiros 3000 caracteres para um resumo rápido e eficiente
+            text_to_summarize = f.read(3000)
 
-                # Adiciona o nó da publicação se ainda não foi adicionado
-                if pub_node.id not in node_ids:
-                    nodes.append(Node(id=pub_node.id, label=list(pub_node.labels)[0], properties=dict(pub_node)))
-                    node_ids.add(pub_node.id)
+        # Gera o resumo usando o modelo carregado
+        summary_result = summarizer(text_to_summarize, max_length=150, min_length=40, do_sample=False)
+        
+        return SummaryResponse(title=title, summary=summary_result[0]['summary_text'])
 
-                # Adiciona o nó da entidade se ainda não foi adicionado
-                if entity_node.id not in node_ids:
-                    nodes.append(Node(id=entity_node.id, label=list(entity_node.labels)[0], properties=dict(entity_node)))
-                    node_ids.add(entity_node.id)
-                
-                # Adiciona a relação
-                relationships.append(Relationship(
-                    id=rel.id,
-                    type=rel.type,
-                    start_node=rel.start_node.id,
-                    end_node=rel.end_node.id,
-                    properties=dict(rel)
-                ))
-
-        if not nodes:
-            raise HTTPException(status_code=404, detail="Publicação não encontrada no grafo.")
-
-        return GraphData(nodes=nodes, relationships=relationships)
-
+    except FileNotFoundError:
+        raise HTTPException(status_code=404, detail=f"Arquivo de texto para '{title}' não encontrado.")
     except Exception as e:
-        # Em caso de erro, retorna um erro HTTP 500
         raise HTTPException(status_code=500, detail=str(e))
+
+# O endpoint /graph/publication/{title} pode ser adicionado aqui se desejado
