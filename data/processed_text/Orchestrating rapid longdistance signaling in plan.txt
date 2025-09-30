@@ -1,0 +1,1515 @@
+Plant J
+. Author manuscript; available in PMC: 2018 May 1.
+Published in final edited form as:
+Plant J. 2017 Mar 30;90(4):698–707. doi:
+10.1111/tpj.13492
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Orchestrating rapid long-distance signaling in plants with Ca
+2+
+, ROS and electrical signals
+Won-Gyu Choi
+Won-Gyu Choi
+1
+Department of Biochemistry and Molecular Biology, University of Nevada, 1664 North Virginia Street, Reno, NV 89557, USA
+Find articles by
+Won-Gyu Choi
+1,
+*
+,
+Gad Miller
+Gad Miller
+2
+The Mina and Everard Goodman Faculty of Life Sciences, Bar-Ilan University, The Gonda Medical Diagnostic Research Building (204), Room 211, Ramat-Gan 52900, Israel
+Find articles by
+Gad Miller
+2
+,
+Ian Wallace
+Ian Wallace
+1
+Department of Biochemistry and Molecular Biology, University of Nevada, 1664 North Virginia Street, Reno, NV 89557, USA
+Find articles by
+Ian Wallace
+1
+,
+Jeffrey Harper
+Jeffrey Harper
+1
+Department of Biochemistry and Molecular Biology, University of Nevada, 1664 North Virginia Street, Reno, NV 89557, USA
+Find articles by
+Jeffrey Harper
+1,
+*
+,
+Ron Mittler
+Ron Mittler
+3
+Department of Biological Sciences, College of Arts and Sciences, University of North Texas, 1155 Union Circle #305220, Denton, TX 76203, USA
+Find articles by
+Ron Mittler
+3
+,
+Simon Gilroy
+Simon Gilroy
+4
+Department of Botany, University of Wisconsin, Birge Hall, 430 Lincoln Drive, Madison, WI 53706, USA
+Find articles by
+Simon Gilroy
+4
+Author information
+Article notes
+Copyright and License information
+1
+Department of Biochemistry and Molecular Biology, University of Nevada, 1664 North Virginia Street, Reno, NV 89557, USA
+2
+The Mina and Everard Goodman Faculty of Life Sciences, Bar-Ilan University, The Gonda Medical Diagnostic Research Building (204), Room 211, Ramat-Gan 52900, Israel
+3
+Department of Biological Sciences, College of Arts and Sciences, University of North Texas, 1155 Union Circle #305220, Denton, TX 76203, USA
+4
+Department of Botany, University of Wisconsin, Birge Hall, 430 Lincoln Drive, Madison, WI 53706, USA
+*
+For correspondence (
+wgchoi@unr.edu
+or
+jfharper@unr.edu
+)
+Issue date 2017 May.
+PMC Copyright notice
+PMCID: PMC5677518  NIHMSID: NIHMS915018  PMID:
+28112437
+The publisher's version of this article is available at
+Plant J
+SUMMARY
+Plants show a rapid systemic response to a wide range of environmental stresses, where the signals from the site of stimulus perception are transmitted to distal organs to elicit plant-wide responses. A wide range of signaling molecules are trafficked through the plant, but a trio of potentially interacting messengers, reactive oxygen species (ROS), Ca
+2+
+and electrical signaling (‘trio signaling’) appear to form a network supporting rapid signal transmission. The molecular components underlying this rapid communication are beginning to be identified, such as the ROS producing NAPDH oxidase RBOHD, the ion channel two pore channel 1 (TPC1), and glutamate receptor-like channels GLR3.3 and GLR3.6. The plant cell wall presents a plant-specific route for possible propagation of signals from cell to cell. However, the degree to which the cell wall limits information exchange between cells via transfer of small molecules through an extracellular route, or whether it provides an environment to facilitate transmission of regulators such as ROS or H
++
+remains to be determined. Similarly, the role of plasmodesmata as both conduits and gatekeepers for the propagation of rapid cell-to-cell signaling remains a key open question. Regardless of how signals move from cell to cell, they help prepare distant parts of the plant for impending challenges from specific biotic or abiotic stresses.
+Keywords:
+calcium, cell-to-cell communication, plasmodesmata, reactive oxygen species, systemic signaling
+INTRODUCTION
+Plants are constantly bombarded by stimuli and, through a combination of physiological and developmental responses, they adapt to their ever-changing environment. Although some stimuli such as changes in air temperature or day/night transitions essentially arrive simultaneously to aerial parts of the plant, many of the signals that are key to the plant’s success, including herbivory, touch or pathogen attack are perceived locally within the plant, but the responses they elicit are often propagated throughout the entire plant body. Thus, organs not directly receiving the stimulus respond to long-range signals exported from the site of perception. Such systemic signals include cell-to-cell, organ-to-organ (shoot-to-shoot, root-to-root, root-to-shoot and shoot-to-root) and, possibly, even plant-to-plant communication. This long-distance systemic signaling network essentially allows the whole plant to prepare for future challenges. These types of systemic responses can be divided into two major classes: (i) systemic acquired resistance (SAR), typically triggered by pathogens; and (ii) systemic acquired acclimation (SAA) that is induced by abiotic stress stimuli, such as high light, temperature, wounding and osmotic stress. These systemic signal response networks have been shown to improve plant fitness. For example, in Arabidopsis plants responding to a bacterial pathogen, a prior induction of SAR resulted in plants with increased biomass and greater than 50% more seed (
+Traw
+et al.
+, 2007
+). Indeed, priming of defenses (i.e. the ability to mount a larger response after receiving an initial stress) occurs in response to many biotic and abiotic stress signals (
+Conrath
+et al.
+, 2015
+) and, for example, in the case of SAR, the induced improvements in plant defense induction can be passed to the next generation (
+Luna
+et al.
+, 2012
+).
+Such rapid signal propagation throughout the plant body has been proposed to occur through both symplastic (cytoplasmic) and apoplastic (extracellular) pathways. For example, on the symplastic side, the phloem has been shown to rapidly transport systemic signals ranging from proteins and mRNAs to small molecules and metabolites at rates of several hundred μm sec
+−1
+(reviewed in
+Haroldsen
+et al.
+, 2012
+;
+Turnbull and Lopez-Cobollo, 2013
+;
+Ham and Lucas, 2014
+). However, recent evidence suggests that many of the proteins trafficked in the phloem may simply be non-specifically lost from companion cells to the sieve elements and then passively caught and redistributed in the translocation stream (
+Paultre
+et al.
+, 2016
+). Similarly, mRNA movement in phloem may be related to abundance in the companion cell/sieve tube complex, suggesting much of this mobile RNA pool may not be related to selective loading and trafficking of specific information containing molecules in the translocation stream (
+Calderwood
+et al.
+, 2016
+). Indeed, grafting experiments have detected in excess of 2000 mobile RNAs trafficking between root stock and scion, which is perhaps more consistent with a large non-specific trafficking capacity than the targeted exchange of multiple key systemic regulators (
+Thieme
+et al.
+, 2015
+). Thus, mobility alone does not necessarily reveal a messenger carrying specific systemic information. However, there are many cases where a role for phloem mobile signals in the regulation of distant target site activity has been demonstrated. For example, the FLOWERING LOCUS T (FT) protein has been shown to move in the symplasm from the site of light perception (the leaves) to distant target sites, where it elicits the transition from vegetative to floral meristem development. Thus, the FT protein produced by phloem companion cells is loaded to the sieve elements in a highly regulated process that is mediated by other factors such as FT INTERACTING PROTEIN 1 (
+Liu
+et al.
+, 2012
+). FT is then transported from leaves to the shoot apical meristem via the symplastic pathway, resulting in its eventual interaction with FLOWERING LOCUS D, which then promotes flowering (
+Corbesier
+et al.
+, 2007
+;
+Jaeger and Wigge, 2007
+;
+Mathieu
+et al.
+, 2007
+). Critically, inhibiting FT movement prevents the transfer of flowering information (reviewed in
+Ham and Lucas, 2014
+).
+Indeed, a suite of such mobile signals has been defined that trigger systemic response to local stimuli. The molecules carrying this information range from hormones, proteins, RNAs and metabolites, to a rapid, self-reinforcing network of events related to a trio of regulators: reactive oxygen species (ROS), Ca
+2+
+and electrical signals (reviewed in
+Choi
+et al.
+, 2016
+;
+Gilroy
+et al.
+, 2016
+). The machinery behind the cell-to-cell propagating nature of each of these various rapid signaling systems is beginning to emerge (
+Figure 1
+; reviewed in
+Choi
+et al.
+, 2016
+;
+Gilroy
+et al.
+, 2016
+;
+Hedrich
+et al.
+, 2016
+), as are candidates for sensors potentially directly triggering these systems, such as the OSCA1 osmotically responsive Ca
+2+
+channel (
+Yuan
+et al.
+, 2014
+). However, in this update, we will concentrate on asking what information content this signaling network is likely to carry and how the signal itself can move at speeds exceeding 1000 μm sec
+−1
+? That is, what are the challenges to a systemic signal that must traverse tens of cell lengths per second?
+Figure 1.
+Open in a new tab
+Salt-stress-associated Ca
+2+
+and reactive oxygen species (ROS) wave propagation in plants. A salt-stress-triggered cytosolic Ca
+2+
+([Ca
+2+
+]
+cyt
+) increase is dependent on the tonoplast-localized TWO PORE CHANNEL 1 (TPC1) cation channel (
+Choi
+et al.
+, 2014
+). The resultant [Ca
+2+
+]
+cyt
+increase is propagated through the cell in a wave front supported by Ca
+2+
+-induced Ca
+2+
+release (CICR) that is either directly or indirectly supported by TPC1 action. In addition, H
+2
+O
+2
+accumulation in the apoplast is generated by the PM-localized RBOHD NADPH oxidase, that is itself activated by Ca
+2+
+through internal Ca
+2+
+-binding sites (EF-hands) and a variety of Ca
+2+
+-dependent, post-translational regulators (reviewed in
+Choi
+et al.
+, 2016
+). The apoplastic transmission of accumulated extracellular H
+2
+O
+2
+is thought to drive cell-to-cell transmission of the propagating wave (
+Evans
+et al.
+, 2016
+). CW, cell wall; ER, endoplasmic reticulum; RBOHD, respiratory burst oxidase homolog D; EF-hand, Ca
+2+
+-binding domain; TPC1, two pore channel 1; DT, desmotuble.
+CELL-TO-CELL COMMUNICATION IN PLANT AND ANIMAL CELLS
+Cell-to-cell communication plays a key role in the biology of both multicellular and unicellular organisms (
+Raven
+et al.
+, 2014
+). In unicellular organisms such communication is crucial for sexual reproduction, and the formation, maintenance and differentiation of different cell populations such as crusts, biofilms, filaments, fruiting bodies and other communities (
+Claessen
+et al.
+, 2014
+). In multicellular organisms cell-to-cell communication is essential for sexual reproduction, morphological development, physiological homeostasis, defense and acclimation to the environment (
+Raven
+et al.
+, 2014
+). At a basic level and over short distances, cell-to-cell communication in plants is different from that of animal cells (
+Figure 2
+;
+Bloemendal and Kuck, 2013
+). Cell-to-cell communication in animal cells can be mediated through the secretion of small molecules to the medium between cells (that then trigger receptors on systemic target cells), the transfer of extracellular vesicles such as exosomes (30–150 nm) and microvesicles (100–1500 nm), or via direct cytosolic connections such as gap junctions (2–3 nm) and tunneling nanotubes (50–700 nm). In addition, many multicellular animals use a parallel signaling network, where rapid signaling is accomplished using cellular networks highly specialized to rapidly transmit electrical signal over long distances, i.e. a nervous system (reviewed in
+Goodenough and Paul, 2009
+;
+Herve and Derangeon, 2013
+).
+Figure 2.
+Open in a new tab
+Routes of cell-to-cell communication in plant and animal cells. Simplified models for the transmission of signals between two plant (a) and animal (b) cells are shown. Signals are transported between cells via secretion of molecules (a and b) or vesicles (b), or direct physical cell-to-cell connections (PDs in a, and gap junctions and tunneling nanotubes in b). CW, cell wall; ER, endoplasmic reticulum; GJ, gap junction; PD, plasmodesma; PM, plasma membrane; TNT, tunneling nanotubes.
+In plants, the presence of the cell wall between cells constitutes a physical and chemical barrier that keeps neighboring cells at a larger physical distance from each other than most animal cells and so impacts on some of the possible cell-to-cell communication pathways outlined above (
+Figure 2
+). For example, because of the predicted size exclusion limit that is imposed by its constituent polysaccharide networks, the cell wall is likely to significantly limit or prevent extracellular vesicle transport between cells. The cell wall may also alter the chemistry of some small molecules that are secreted into the apoplast due to the presence of peroxidases, oxidases and other enzymes associated with it. In addition, the cell wall contains high levels of Ca
+2+
+and other ions, and is kept at a significantly lower pH compared with that of the cytosol providing a unique chemical environment for signals to move within. However, many plant cells are connected by plasmodesmata (PD), which provide a more direct route for cell-to-cell communication. PD provide a symplastic connection for the transfer of ions, metabolites, hormones, proteins, RNAs and other molecules. Although animal cells have an extracellular matrix and cytoplasmic connections such as gap junctions, the plant cell wall and PD connections are structurally very different and represent plant-specific features that can impact rapid information transfer between cells.
+THE IMPACT OF PD ON RAPID SYSTEMIC SIGNALING
+Plasmodesmata have pore sizes of 20–50 nm, which represent highly regulated cellular transport points. Size exclusion limits of PD are typically measured between ~30 kDa (
+Imlau
+et al.
+, 1999
+;
+Kim
+et al.
+, 2005
+) and ~60–70 kDa (
+Rim
+et al.
+, 2011
+), but are known to vary between cell types, their developmental status and especially in response to environmental stimuli. Even macromolecules such as large proteins can move through PDs to control developmental programs. For example, the Arabidopsis transcription factor SHORTROOT (SHR) is translocated from cells of the stele and the quiescent center to the endodermis via a PD-mediated route (
+Vaten
+et al.
+, 2011
+), resulting in activation of another transcription factor SCARECROW (SCR;
+Helariutta
+et al.
+, 2000
+;
+Nakajima
+et al.
+, 2001
+). In the endodermis, SCR subsequently induces the expression of microRNAs 165 and 166, which are then translocated from the endodermis to pith tissues in the stele through PDs. In the pith, these microRNAs trigger a transcriptional cascade that establishes proper development of pericycle, protoxlem and metaxylem cells (
+Carlsbecker
+et al.
+, 2010
+;
+Miyashima
+et al.
+, 2011
+). Similarly, in the shoot apical meristem of maize, the KNOTTED1 transcriptional regulator is expressed in the L2 layer, but moves to the L1 layer through PDs via a chaperone-dependent mechanism in order to maintain stem cell homeostasis (
+Lucas
+et al.
+, 1995
+;
+Xu
+et al.
+, 2011
+). KNOTTED1 also increases the size exclusion limit of PD to facilitate its own motility.
+Indeed, PD conductivity can be regulated by an array of different factors (
+Figure 2
+;
+Lucas, 1995
+;
+Tilsner
+et al.
+, 2016
+). For example, the size exclusion limit for PDs appears to be tightly regulated by callose deposition, and synthesis of this polymer responds to various stress conditions, such as wounding and pathogen attack (
+Samuels
+et al.
+, 1995
+;
+Parre and Geitmann, 2005
+;
+Chen and Kim, 2009
+). In Arabidopsis, callose synthases are encoded by a 12-member gene family, with CALLOSE SYNTHASE 3 being localized on plasma membranes (PMs) and involved in depositing callose into cell wall (
+Vaten
+et al.
+, 2011
+). As observed by electron microscopy, callose can accumulate in the cell wall surrounding the PD (
+Vaten
+et al.
+, 2011
+). The accumulation of callose in this region is thought to constrict the size of the PD, and thereby restrict or block intercellular movement through the symplast. PDs are known to be enriched in specific proteins (
+Fernandez-Calvino
+et al.
+, 2011
+) and lipids that likely lead to the recruitment of a host of regulators, making these structures exquisitely responsive to their cellular environment. For example, PDs show accumulation of sterols and sphinogolipids that could play a role in defining novel membrane microdomains. Indeed, this novel lipid environment has been proposed to be linked to regulating cell-to-cell connectivity of the PD as well as regulating their callose modifying enzyme activity (
+Grison
+et al.
+, 2015
+).
+The symplastic movement of small molecules such as cytokinin, salicylic acid, auxin and gibberellic acid appear to be highly dependent on PD permeability (
+Kwiatkowska, 1991
+;
+Kwiatkowska and Malinowski, 1995
+;
+Bishopp
+et al.
+, 2011
+;
+Wang
+et al.
+, 2013
+;
+Han
+et al.
+, 2014
+;
+Lee, 2015
+). Thus, both small and large signaling molecules can use the PD as a means to travel systemically from cell to cell, although we are still far from fully understanding the extent to which movement of these kinds of molecules via PDs contributes to systemic response throughout the plant.
+PD, THE APOPLAST AND TRIO-DRIVEN SYSTEMIC SIGNAL PROPAGATION
+In the context of rapid cell-to-cell, long-distance signaling mechanisms that mediate SAA in plants (
+Mittler
+et al.
+, 2011
+;
+Gilroy
+et al.
+, 2016
+), it is still unclear what role PD play in the propagation of ROS, Ca
+2+
+and electric signals (
+Figure 2
+). There are three potential paths for the propagation of these signals from cell to cell. The first is independent of the PD, and might occur directly across cell walls that separate neighboring cells (
+Figure 2
+; ‘apoplastic through cell wall’). The second is via symplastic connections provided by PD, either through the cytosolic cavity, or traversing the endoplasmic reticum (ER) membranes that permeate the PD. The third might occur along the outer surface of the PD between the PM and surrounding cell wall (‘apoplastic not through cell wall’). While there are analogous mechanisms for cell-cell communication in animal cells (e.g. gap junctions provide a cytoplasmic connection between adjacent cells as do PD, although it is important to note that at a structural level, gap junctions and PDs are very different;
+Figure 2
+), an important difference is the potential enhancing or buffering influence of the plant cell wall.
+For the rapid systemic auto-propagating ROS wave, genetic evidence indicates a requirement for the respiratory burst homolog (RBOH) protein RBOHD (
+Miller
+et al.
+, 2009
+;
+Mittler
+et al.
+, 2011
+;
+Evans
+et al.
+, 2016
+). The propagation rate of this ROS-related system ranges from ~400 to 1400 μm sec
+−1
+depending on the type of stress and the type of tissues receiving stress. For example, a salt-stress-triggered apoplastic ROS wave moved through the root at ~400 μm sec
+−1
+, whereas wound-induced activation of the ROS system moved in the aerial parts of the plant in excess of 1000 μm sec
+−1
+. These speeds were calculated from measuring the timing of either the systemic appearance of ROS in the apoplast (salt stress;
+Evans
+et al.
+, 2016
+) or activation of a very rapid (20 sec transcript accumulation response time;
+Suzuki
+et al.
+, 2015
+) transcriptional reporter (
+ZAT12pro:LUC
+) shown to require ROS changes for its systemic induction (wounding;
+Miller
+et al.
+, 2009
+). The current model is that a ROS burst triggers neighboring RBOHs to make another ROS burst, thereby providing a mechanism for a ROS-induced ROS propagation along the surface of the PM. However, in moving this ROS wave from one cell to the next, it is not clear how the wave propagates across the distance that separates neighboring cells. Cell walls represent a significant barrier, not only because of the distance created between cells, but also because the apoplast can provide a high antioxidative capacity that can quench a ROS signal. However, quenching can also be a factor in ROS diffusing through a symplastic connection. Thus, one model for propagating a ROS signal to the next cell is to simply continue the RBOH-mediated ROS-induced ROS burst along the continuum of PM that spans the PD. However, RBOHD has not been observed as a prominent protein in the Arabidopsis plasmodesmal proteome, making it unclear if this simple model is correct (
+Fernandez-Calvino
+et al.
+, 2011
+). Regardless of the specific pathway, isolated plasmodesmal fractions appear to contain a range of ROS-processing enzymes such as peroxidases that would likely regulate ROS dynamics, either on the surface of the PD, or within the symplastic connection (
+Fernandez-Calvino
+et al.
+, 2011
+).
+An alternative model for propagating the ROS wave from cell to cell is that a different signaling molecule is used as a relay to traverse the symplastic or apoplastic connections. For example, the Ca
+2+
+transients observed in the context of long-distance signaling are assisted by RBOHD-generated ROS (
+Evans
+et al.
+, 2016
+), and vice versa, with Ca
+2+
+signals being implicated in activating RBOHD to generate ROS (
+Figure 1
+;
+Dubiella
+et al.
+, 2013
+;
+Kadota
+et al.
+, 2015
+). Because the mobility of Ca
+2+
+in the wall is highly restricted, for example by Ca
+2+
+interactions with free carboxylic groups of pectins, it is generally thought that Ca
+2+
+waves propagate between cells via symplastic connections provided by PD. Indeed, cytosolically targeted Ca
+2+
+imaging bioprobes were instrumental in initially discovering this Ca
+2+
+wave system (
+Choi
+et al.
+, 2014
+;
+Xiong
+et al.
+, 2014
+;
+Kiep
+et al.
+, 2015
+). However, it is not clear if the source of Ca
+2+
+is from influx pathways associated with the PM or ER membranes that traverse the PD, or a simple diffusion of Ca
+2+
+through the cytoplasmic cavity. Nevertheless, modeling suggests a simple cytosolic diffusion-based PD transit cannot support the speed of Ca
+2+
+wave propagation seen
+in vivo
+(
+Evans
+et al.
+, 2016
+). Thus, the Ca
+2+
+wave propagation through PDs is likely to involve regulation of Ca
+2+
+channels associated with either the PM or ER (
+Gilroy
+et al.
+, 2016
+).
+A third alternative is the propagation of an electrical signal along the PM connection through the PD. Mechanisms based on, for example, the gating of voltage-sensitive Ca
+2+
+-permeable channels could then initiate Ca
+2+
+-coupled ROS-response pathways, linking the Ca
+2+
+, ROS and electrical signaling into a single interconnected network. In addition, it is possible that electric waves could jump between cells using a different mechanism that does not utilize PD (
+Gilroy
+et al.
+, 2016
+). Further research is needed to address this and all other questions outlined above.
+CELL TYPE SPECIFICITY AND SIGNAL PROPAGATION
+In addition to the currently open question as to the precise route that transfers rapid systemic signals between adjacent plant cells, understanding the role that the plant cell types or tissues play in mediating these systemic signals also holds promise to help reveal mechanism and function. Thus, while the ROS wave was detected in the apoplast of epidermal cells (
+Miller
+et al.
+, 2009
+), rapid systemic signaling in response to abiotic stress also occurs via the phloem tissue and its companion cells (reviewed in
+Gilroy
+et al.
+, 2014
+;
+Hedrich
+et al.
+, 2016
+). In addition, rapidly propagating signals could also be transferred via parenchyma and other cell types, with, for example, the rapid Ca
+2+
+wave triggered by local salt treatment preferentially propagating through the cortex and endodermal cell layers in the root (
+Choi
+et al.
+, 2014
+). What makes each of these tissues uniquely suited to carry specific stress-related systemic signals remains unknown. From the standpoint of number, size and PD characteristics, phloem tissue, companion cells and the epidermis contain a high number of cellular connections and could be a good pathway for the transfer of different systemic signals that propagate through both the apoplast and PD. Moreover, the transport of coupled signals such as ROS and Ca
+2+
+waves (
+Gilroy
+et al.
+, 2014
+,
+2016
+), Ca
+2+
+and electric signals (
+Mousavi
+et al.
+, 2013
+), and/or ROS and electric signals (
+Suzuki
+et al.
+, 2013
+) suggests that many of these signals use the same tissues and cell types as a conduit, and are not mediated via spatially separated routes. Future studies utilizing more sensitive and specific imaging tools for the ROS, Ca
+2+
+and perhaps even electric signals should help resolve these important questions.
+WHEN A TRIO IS MORE THAN A TRIO: OTHER SIGNALS IN THE APOPLAST
+In addition to ROS signals, the apoplast is also a conduit for systemic changes in extracellular pH and exhibits changes in electrical signals that result from ion flow across the membranes of underlying cells, such as seen in response to mycorrhizal fungus and to wounding (
+Felle
+et al.
+, 2009
+;
+Zimmermann
+et al.
+, 2009
+;
+Mousavi
+et al.
+, 2013
+). Thus, rapid acidification of the apoplast in response to inoculation of the roots with chlamydospores of the mycorrhizal fungus
+Piriformospora indica
+was observed in the root elongation zone within seconds to minutes in barley (
+Hordeum vulgare
+L.). However, surface pH also subsequently decreased by 1 unit in the shootward systemic leaves, suggesting activation of the H
++
+-ATPase at the PM both in local and systemic tissues in response to biotic stress (
+Felle
+et al.
+, 2009
+). The systemic signal in this case would be moving at several hundred μm sec
+−1
+. Similarly, salt stress to the root system triggers a systemic apoplastic pH increase in the leaves in maize (
+Geilfus
+et al.
+, 2015
+). These observations raise the question of whether H
++
+ions exported from the cytosol to the apoplast are themselves transmitted to systemic tissues or, perhaps more likely, is some other signal, such as a propagating electrical wave to activate PM-localized H
++
+-ATPases to acidify the apoplast at distal locations? To answer these questions, measurement of the apoplast pH changes in local and systemic tissues with pH biosensors such as pHusion (
+Gjetting
+et al.
+, 2012
+) or wall targeted pHuji (
+Shen
+et al.
+, 2014
+) should shed light on how the surface pH changes when plants perceive biotic or abiotic stress. Importantly, it is unknown whether these pH changes themselves convey information, or if they are simply occurring as a consequence of changes in the activity of the PM-localized H
++
+-ATPase that is altering other features of the cell such as cytosolic pH or membrane potential.
+Long-distance electrical signals monitored, for example, as surface potential changes have been detected with propagation speeds ranging from 100 sec to >1000 μm sec
+−1
+(reviewed in
+Choi
+et al.
+, 2016
+). This variability in speeds may well relate to the type of stress triggering the signaling events (e.g. wounding versus salt stress), the site of local stress perception (e.g. root versus leaf) and the cell types through which the signal propagates (e.g. parenchyma versus vasculature).
+In Fava bean and barley leaves, similar to the apoplastic systemic pH changes, wounding stress triggered electrical signals that were initially detected in the local wounded leaf, and displayed a long-distance systemic movement at a rate of 800–1600 μm sec
+−1
+(
+Zimmermann
+et al.
+, 2009
+). These wound-induced systemic electrical signals are also thought to be controlled by activating PM-localized H
++
+-ATPases, indicating a possible association of the extracellular systemic pH and the apoplastic long-distance electrical signals. In Arabidopsis leaves, wounding-associated long-distance electrical signals are also detectable using surface potential monitoring electrodes (
+Mousavi
+et al.
+, 2013
+). This long-distance wounding-associated electrical wave traverses the plant at the rate of 1000 μm sec
+−1
+and is dependent on clade III glutamate receptor-like channels (
+GLR3.3
+and
+3.6
+). These GLR-mediated long-range electrical signals appear to play key roles in regulating defense-related gene expression markers, such as
+JAZ7
+and
+JAZ10
+, as well as accumulation of biologically active jasmonate isoleucine (JA-Ile;
+Mousavi
+et al.
+, 2013
+). Indeed, the GLR family has also been implicated in modulating features of electrical signaling in the phloem’s symplastic route for systemic signal propagation, with roles in both propagating and limiting the spread of the signal (
+Hedrich
+et al.
+, 2016
+).
+Because the apoplast is the compartment directly facing the plant’s environment, regulating, the composition of this apoplastic space provides a first layer of defense against pathogen attacks and other environmental stresses (
+Delaunois
+et al.
+, 2014
+). Therefore, it has been long speculated that apoplastic macromolecules such as proteins and oligosaccharides are likely involved in sensing initial environmental interactions and potentially generating or sustaining long-distance signaling. The dynamic nature of cell wall peptide signals is highlighted by the work of
+Hafidh
+et al.
+(2016)
+who demonstrated that tobacco pollen tubes secrete >800 proteins during pollen tube growth. Major classes of secreted proteins were <20 kDa and played critical roles in guiding male pollen tubes to female ovules to facilitate fertilization. This secretome analysis during pollen tube growth hints at the wealth of macromolecules that are dynamically released to the apoplast. These apoplastic peptides can function not only as important developmental regulators, but mechanistic analysis of the small secreted peptide RAPID ALKALINIZATION FACTOR shows that these kinds of regulators could also conceivably play roles in systemic signaling. Thus, RAPID ALKALINIZATION FACTOR and its cognate receptor-like kinase FERONIA likely relay information about the status of the cell wall (
+Shih
+et al.
+, 2014
+) and modulate both Ca
+2+
+and H
++
+dynamics (
+Haruta
+et al.
+, 2008
+,
+2014
+). However, whether such signals are contributing to modulating systemic signaling or potentially even move in a systemic manner themselves remains to be fully defined.
+INTEGRATING SYSTEMIC SIGNALING
+As noted above, many messengers have been described to carry information between cells to generate systemic biological responses, including electric signals, RNA molecules, peptides and proteins, phytohormones, ionic changes and ROS (
+Choi
+et al.
+, 2016
+;
+Gilroy
+et al.
+, 2016
+;
+Hedrich
+et al.
+, 2016
+;
+Tilsner
+et al.
+, 2016
+). Given the identification of azelaic acid (
+Jung
+et al.
+, 2009
+) and glycerol-3-phosphate (
+Chanda
+et al.
+, 2011
+) as novel, rapidly accumulating, mobile signals likely involved in SAR in recent years, it is likely that there are many currently unidentified plant messengers to be discovered.
+However, compared with ‘slow’ mobile messengers, such as jasmonic and salicylic acids that take several minutes to accumulate and then induce SAR within several hours (
+Truman
+et al.
+, 2007
+), the propagation rate of ROS and Ca
+2+
+waves as well as electric signaling is rapid, ranging from ~100 to >1000 μm sec
+−1
+(
+Choi
+et al.
+, 2016
+). It is possible that Ca
+2+
+, ROS and electrical signals all function together as a rapid systemic signal carrying specific information about a local stress to distal parts of the plant (
+Miller
+et al.
+, 2009
+;
+Mousavi
+et al.
+, 2013
+;
+Choi
+et al.
+, 2014
+;
+Evans
+et al.
+, 2016
+). Such specific information would allow the plant to elicit highly focused responses to prepare against further challenges associated with a particular stress (
+Conrath
+et al.
+, 2015
+). For example, the rapid ROS-mediated activation of SAA in the Arabidopsis localized high light stress response protects distal naive rosette or cauline leaves against a subsequent light stress treatment that would have otherwise been lethal (
+Miller
+et al.
+, 2009
+;
+Szechynska-Hebda
+et al.
+, 2010
+;
+Suzuki
+et al.
+, 2013
+).
+The specificity of the systemic signal is dependent on the ability of that signal to elicit responses in unaffected tissue to protect or defend the plant from a second occurrence of that same or tightly associated stress (e.g. salinity or drought both share osmotic stress facets). In some cases, however, cross-protection is also seen, in which one type of locally applied stress is capable of generating a protective response or acclimation to another type of biotic or abiotic stress (
+Traw
+et al.
+, 2007
+;
+Perez and Brown, 2014
+). These types of experiments indicate that a significant degree of overlap exists between systemic signaling events and the mechanisms that respond to it. Yet, in other instances different local stimuli such as heat stress, high light and wounding stress induce distinct stress-specific SAAs that share little overlap in expression of transcripts and metabolites, resulting in very limited to no cross-protection (
+Suzuki
+et al.
+, 2013
+).
+These observations of stress-specific SAAs support the hypothesis that a general non-specific signal is produced and then exported from the local tissue that functions to prime SAA or SAR, but that this initial local signal is not sufficient to protect the systemic tissue from the specific subsequent stress (
+Figure 3
+). The fact that ROS and Ca
+2+
+waves and electrical signals appear in response to many different stimuli suggests that either stimulus-specific signals are encoded within the spatial and temporal dynamics of these waves, or that they may be acting as an initial, general priming signal, preparing the plant to respond in a more selective way to subsequent, stimulus-specific signals.
+Figure 3.
+Open in a new tab
+Model of possible propagation of general and stress-specific systemic signals. Local stress stimuli triggers changes in membrane potentials, increases in cytosolic [Ca
+2+
+] and activation of RBOHD-mediated oxidative burst leading to reactive oxygen species (ROS) accumulation, i.e. trio signaling. The association between the signals generates a wave that rapidly spreads throughout the plant in an auto-propagating manner, traversing through the apoplast outside the cell and/or symplastically through PD. This initial signaling wave acts as a priming signal, which is required, but not sufficient for systemic acquired acclimation (SAA). The priming wave activates the core environmental stress response genes (CESRs). Following the general signaling wave, depending on the type of stress, a second wave of systemic stress-specific systemic signaling starts, activating stress-specific genes and cellular mechanisms that facilitate SAA against the same type of stress that triggered the initial response. APX2, ascorbate peroxidase; GLR, GLUTAMATE RECEPTOR-LIKE channels; JA, jasmonic acid; AsA, ascorbic acid; RBOHD, respiratory burst oxidative homolog D; H
+2
+O
+2
+, hydrogen peroxide; HL, high light; HSR, heat stress response; HS, heat stress; WSR, wounding stress response; HLSR, high light stress response; ABA, abscisic acid; MBF1c, multiprotein bridging factor 1c, PD, plasmodesmata.
+From an evolutionary point of view, sending a general stress message to all parts of the plant may be an efficient means to rapidly prepare all of its tissues for the upcoming challenges and increase its survival chances. As it can often take several hours for pathogens to spread from an infected tissue to healthy tissue, or for damages caused by environmental changes to reach a critical point of massive tissue disruption, there would be enough time for a slower more specific signal to develop and move to distal parts of the plant that are already primed to facilitate stronger stress-specific resistance or acclimation response.
+A possible mechanism of signal propagation based on the interaction of the trio of messengers (Ca
+2+
+, ROS and electrical signals) is outlined in
+Figure 3
+, where changes in these messengers act to propagate a priming signal, with stimulus-specific information being encoded in another downstream signal transduction system operating in parallel. However, the idea of an initial priming wave of ROS, Ca
+2+
+and electric signals, which is followed by stimulus-specific messengers, raises several questions that pose future challenges. (i) How are the ROS, Ca
+2+
+and electrical signals integrated to provide a general priming signal and how could this general message be perceived in target tissues? (ii) What is the relationship between the general systemic signal and the following specific signals? Are they dependent or independent? (iii) What triggers the accumulation of the specific secondary message in the systemic tissue? (iv) How would a general priming signal prepare the systemic tissues for an improved subsequent specific response?
+The ROS-responsive transcription factor ZAT12 is one of the best-known markers for transcript-level systemic activation and may provide clues as to what a general priming mechanism may look like.
+ZAT12
+transcription is activated by ROS (
+Davletova
+et al.
+, 2005
+;
+Miller
+et al.
+, 2009
+;
+Suzuki
+et al.
+, 2015
+) and by the Ca
+2+
+wave (
+Choi
+et al.
+, 2014
+) within 20–60 sec of stress perception (
+Suzuki
+et al.
+, 2015
+).
+ZAT12
+is also part of a cluster of Arabidopsis early-inducing genes commonly responsive to a wide range of abiotic stresses. Indeed, this grouping was classified as containing plant general response genes and core environmental stress response components (CESR;
+Ma and Bohnert, 2007
+;
+Hahn
+et al.
+, 2013
+). These genes may represent the frontline of general systemic response to the initial priming signal common to most abiotic stresses. It can therefore be postulated that CESR genes are also likely targets for transcriptional and post-transcriptional regulatory/signaling components that are activated by ROS/redox changes induced by the NADPH oxidase (RBOH) family.
+NADPH oxidase-mediated activation cascades are well-described in human growth hormone-induced oxidative signaling, in which an increase in intracellular concentration of H
+2
+O
+2
+switches off redox-responsive phosphatases, driving signal transduction by enabling kinase activity (
+Finkel, 2011
+). Similar oxidative-signaling cascades may well be activated by plant RBOHs.
+Further, ZAT12 is a direct target of transcriptional regulators such as ETHYLENE INSENSITIVE 3 (
+Chang
+et al.
+, 2013
+) and CIRCADEAN CLOCK ASSOCIATED 1 (CCA1;
+Lai
+et al.
+, 2012
+), as well as a host of other regulatory proteins including bZIP29, NAC91 (
+Ben Daniel
+et al.
+, 2016
+) and probably many other unidentified transcriptional regulators. Some of these
+Zat12
+and other CESR gene regulators may act as redox-sensitive proteins that are either directly activated by dithiol-disulfide exchanges between cysteine residues or indirectly by other post-transcription modifications, such as phosphorylation. Such post-translational regulation would provide a pathway to translate the trio of Ca
+2+
+/ROS/electrical signals, via its ROS component, to transcriptional regulation of general stress response genes that represent the priming effect in the systemic tissue.
+A signal-carrying specificity would need to modulate this general priming response system. Clues to this process may again be seen in the ROS responsive network. For example, the hormone abscisic acid (ABA) acts as a heat-stress-specific component of SAA signaling (
+Suzuki
+et al.
+, 2013
+), showing a transient increase in systemic leaves after 10 min of heat stress is applied at a distal site. Yet, ABA accumulation was dependent on ROS production by RBOHD. These findings suggest that the specific signal, in this case ABA, is modulated by the systemic ROS (priming) signal. Thus, we hypothesize that complex synergistic relationships exist between the initial priming signaling wave and stress-specific signals. These interactions may influence one another, governing both the general priming events of systemic response and associated stimulus-specific changes. Such regulatory loops may perhaps help to explain some of the perplexing questions of the rapid systemic signaling system, such as why the ROS or Ca
+2+
+waves are required but not sufficient for the induction of a complete SAA response (
+Miller
+et al.
+, 2009
+;
+Choi
+et al.
+, 2014
+).
+Acknowledgments
+The authors apologize to the many research groups whose work is not cited in this review due to space limitation. The authors gratefully acknowledge the support of the National Science Foundation MCB-1329723, MCB-1613462, IOS-1557899, IOS-1353886, IOS-0639964, IOS-0743954, IOS-1557787 and NASA NNX14AT25G, and the OVPRI research funding (University of Nevada, Reno), and the University of North Texas, College of Arts and Sciences, Grant No. IS-4652-13 R from BARD, The United States–Israel Binational Agricultural Research and Development Fund, and from the Nevada Agricultural Experiment Station (Grant No. NEV00382 and NEV00384), and the Israel Science Foundation (grant no. 938/11).
+Footnotes
+CONFLICT OF INTEREST
+The authors declare no conflict of interest.
+References
+Ben Daniel BH, Cattan E, Wachtel C, Avrahami D, Glick Y, Malichy A, Gerber D, Miller G. Identification of novel transcriptional regulators of Zat12 using comprehensive yeast one-hybrid screens. Physiol Plant. 2016;157:422–441. doi: 10.1111/ppl.12439.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Bishopp A, Lehesranta S, Vaten A, Help H, El-Showk S, Scheres B, Helariutta K, Mahonen AP, Sakakibara H, Helariutta Y. Phloem-transported cytokinin regulates polar auxin transport and maintains vascular pattern in the root meristem. Curr Biol. 2011;21:927–932. doi: 10.1016/j.cub.2011.04.049.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Bloemendal S, Kuck U. Cell-to-cell communication in plants, animals, and fungi: a comparative review. Naturwissenschaften. 2013;100:3–19. doi: 10.1007/s00114-012-0988-z.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Calderwood A, Kopriva S, Morris RJ. Transcript abundance explains mRNA mobility data in Arabidopsis thaliana. Plant Cell. 2016;28:610–615. doi: 10.1105/tpc.15.00956.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Carlsbecker A, Lee JY, Roberts CJ, et al.  Cell signalling by micro-RNA165/6 directs gene dose-dependent root cell fate. Nature. 2010;465:316–321. doi: 10.1038/nature08977.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Chanda B, Xia Y, Mandal MK, et al.  Glycerol-3-phosphate is a critical mobile inducer of systemic immunity in plants. Nat Genet. 2011;43:421–427. doi: 10.1038/ng.798.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Chang KN, Zhong S, Weirauch MT, et al.  Temporal transcriptional response to ethylene gas drives growth hormone cross-regulation in Arabidopsis. Elife. 2013;2:e00675. doi: 10.7554/eLife.00675.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Chen XY, Kim JY. Callose synthesis in higher plants. Plant Signal Behav. 2009;4:489–492. doi: 10.4161/psb.4.6.8359.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Choi WG, Toyota M, Kim SH, Hilleary R, Gilroy S. Salt stress-induced Ca2+ waves are associated with rapid, long-distance root-to-shoot signaling in plants. Proc Natl Acad Sci USA. 2014;111:6497–6502. doi: 10.1073/pnas.1319955111.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Choi WG, Hilleary R, Swanson SJ, Kim SH, Gilroy S. Rapid, long-distance electrical and calcium signaling in plants. Annu Rev Plant Biol. 2016;67:287–307. doi: 10.1146/annurev-arplant-043015-112130.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Claessen D, Rozen DE, Kuipers OP, Sogaard-Andersen L, van Wezel GP. Bacterial solutions to multicellularity: a tale of biofilms, filaments and fruiting bodies. Nat Rev Microbiol. 2014;12:115–124. doi: 10.1038/nrmicro3178.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Conrath U, Beckers GJ, Langenbach CJ, Jaskiewicz MR. Priming for enhanced defense. Annu Rev Phytopathol. 2015;53:97–119. doi: 10.1146/annurev-phyto-080614-120132.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Corbesier L, Vincent C, Jang S, et al.  FT protein movement contributes to long-distance signaling in floral induction of Arabidopsis. Science. 2007;316:1030–1033. doi: 10.1126/science.1141752.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Davletova S, Schlauch K, Coutu J, Mittler R. The zinc-finger protein Zat12 plays a central role in reactive oxygen and abiotic stress signaling in Arabidopsis. Plant Physiol. 2005;139:847–856. doi: 10.1104/pp.105.068254.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Delaunois B, Jeandet P, Clement C, Baillieul F, Dorey S, Cordelier S. Uncovering plant-pathogen crosstalk through apoplastic proteomic studies. Front Plant Sci. 2014;5:249. doi: 10.3389/fpls.2014.00249.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Dubiella U, Seybold H, Durian G, Komander E, Lassig R, Witte CP, Schulze WX, Romeis T. Calcium-dependent protein kinase/NADPH oxidase activation circuit is required for rapid defense signal propagation. Proc Natl Acad Sci USA. 2013;110:8744–8749. doi: 10.1073/pnas.1221294110.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Evans MJ, Choi WG, Gilroy S, Morris RJ. A ROS-assisted calcium wave dependent on the AtRBOHD NADPH oxidase and TPC1 cation channel propagates the systemic response to salt stress. Plant Physiol. 2016;171:1771–1784. doi: 10.1104/pp.16.00215.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Felle HH, Waller F, Molitor A, Kogel KH. The mycorrhiza fungus Piriformospora indica induces fast root-surface pH signaling and primes systemic alkalinization of the leaf apoplast upon powdery mildew infection. Mol Plant Microbe Interact. 2009;22:1179–1185. doi: 10.1094/MPMI-22-9-1179.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Fernandez-Calvino L, Faulkner C, Walshaw J, Saalbach G, Bayer E, Benitez-Alfonso Y, Maule A. Arabidopsis plasmodesmal proteome. PLoS ONE. 2011;6:e18880. doi: 10.1371/journal.pone.0018880.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Finkel T. Signal transduction by reactive oxygen species. J Cell Biol. 2011;194:7–15. doi: 10.1083/jcb.201102095.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Geilfus CM, Mithofer A, Ludwig-Muller J, Zorb C, Muehling KH. Chloride-inducible transient apoplastic alkalinizations induce stomata closure by controlling abscisic acid distribution between leaf apoplast and guard cells in salt-stressed Vicia faba. New Phytol. 2015;208:803–816. doi: 10.1111/nph.13507.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Gilroy S, Suzuki N, Miller G, Choi WG, Toyota M, Devireddy AR, Mittler R. A tidal wave of signals: calcium and ROS at the forefront of rapid systemic signaling. Trends Plant Sci. 2014;19:623–630. doi: 10.1016/j.tplants.2014.06.013.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Gilroy S, Bialasek M, Suzuki N, Gorecka M, Devireddy AR, Karpinski S, Mittler R. ROS, calcium, and electric signals: key mediators of rapid systemic signaling in plants. Plant Physiol. 2016;171:1606–1615. doi: 10.1104/pp.16.00434.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Gjetting KS, Ytting CK, Schulz A, Fuglsang AT. Live imaging of intra- and extracellular pH in plants using pHusion, a novel genetically encoded biosensor. J Exp Bot. 2012;63:3207–3218. doi: 10.1093/jxb/ers040.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Goodenough DA, Paul DL. Gap junctions. Cold Spring Harb Perspect Biol. 2009;1:a002576. doi: 10.1101/cshperspect.a002576.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Grison MS, Brocard L, Fouillen L, et al.  Specific membrane lipid composition is important for plasmodesmata function in Arabidopsis. Plant Cell. 2015;27:1228–1250. doi: 10.1105/tpc.114.135731.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Hafidh S, Potesil D, Fila J, Capkova V, Zdrahal Z, Honys D. Quantitative proteomics of the tobacco pollen tube secretome identifies novel pollen tube guidance proteins important for fertilization. Genome Biol. 2016;17:81. doi: 10.1186/s13059-016-0928-x.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Hahn A, Kilian J, Mohrholz A, Ladwig F, Peschke F, Dautel R, Harter K, Berendzen KW, Wanke D. Plant core environmental stress response genes are systemically coordinated during abiotic stresses. Int J Mol Sci. 2013;14:7617–7641. doi: 10.3390/ijms14047617.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ham BK, Lucas WJ. The angiosperm phloem sieve tube system: a role in mediating traits important to modern agriculture. J Exp Bot. 2014;65:1799–1816. doi: 10.1093/jxb/ert417.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Han X, Hyun TK, Zhang M, Kumar R, Koh EJ, Kang BH, Lucas WJ, Kim JY. Auxin-callose-mediated plasmodesmal gating is essential for tropic auxin gradient formation and signaling. Dev Cell. 2014;28:132–146. doi: 10.1016/j.devcel.2013.12.008.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Haroldsen VM, Szczerba MW, Aktas H, Lopez-Baltazar J, Odias MJ, Chi-Ham CL, Labavitch JM, Bennett AB, Powell AL. Mobility of transgenic nucleic acids and proteins within grafted root-stocks for agricultural improvement. Front Plant Sci. 2012;3:39. doi: 10.3389/fpls.2012.00039.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Haruta M, Monshausen G, Gilroy S, Sussman MR. A cytoplasmic Ca2+ functional assay for identifying and purifying endogenous cell signaling peptides in Arabidopsis seedlings: identification of AtRALF1 peptide. Biochemistry. 2008;47:6311–6321. doi: 10.1021/bi8001488.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Haruta M, Sabat G, Stecker K, Minkoff BB, Sussman MR. A peptide hormone and its receptor protein kinase regulate plant cell expansion. Science. 2014;343:408–411. doi: 10.1126/science.1244454.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Hedrich R, Salvador-Recatala V, Dreyer I. Electrical wiring and long-distance plant communication. Trends Plant Sci. 2016;21:376–387. doi: 10.1016/j.tplants.2016.01.016.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Helariutta Y, Fukaki H, Wysocka-Diller J, Nakajima K, Jung J, Sena G, Hauser MT, Benfey PN. The SHORT-ROOT gene controls radial patterning of the Arabidopsis root through radial signaling. Cell. 2000;101:555–567. doi: 10.1016/s0092-8674(00)80865-x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Herve JC, Derangeon M. Gap-junction-mediated cell-to-cell communication. Cell Tissue Res. 2013;352:21–31. doi: 10.1007/s00441-012-1485-6.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Imlau A, Truernit E, Sauer N. Cell-to-cell and long-distance trafficking of the green fluorescent protein in the phloem and symplastic unloading of the protein into sink tissues. Plant Cell. 1999;11:309–322. doi: 10.1105/tpc.11.3.309.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Jaeger KE, Wigge PA. FT protein acts as a long-range signal in Arabidopsis. Curr Biol. 2007;17:1050–1054. doi: 10.1016/j.cub.2007.05.008.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Jung HW, Tschaplinski TJ, Wang L, Glazebrook J, Greenberg JT. Priming in systemic plant immunity. Science. 2009;324:89–91. doi: 10.1126/science.1170025.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Kadota Y, Shirasu K, Zipfel C. Regulation of the NADPH oxidase RBOHD during plant immunity. Plant Cell Physiol. 2015;56:1472–1480. doi: 10.1093/pcp/pcv063.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Kiep V, Vadassery J, Lattke J, Maass JP, Boland W, Peiter E, Mithofer A. Systemic cytosolic Ca(2+) elevation is activated upon wounding and herbivory in Arabidopsis. New Phytol. 2015;207:996–1004. doi: 10.1111/nph.13493.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Kim I, Cho E, Crawford K, Hempel FD, Zambryski PC. Cell-to-cell movement of GFP during embryogenesis and early seedling development in Arabidopsis. Proc Natl Acad Sci USA. 2005;102:2227–2231. doi: 10.1073/pnas.0409193102.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kwiatkowska M. Autoradiographic studies on the role of plasmodesmata in the transport of gibberellin. Planta. 1991;183:294–299. doi: 10.1007/BF00197801.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Kwiatkowska M, Malinowski S. The influence of the disappearance of plasmodesmal connections between antheridia and thallus on 3H-GA3 transport. Folia Histochem Cytobiol. 1995;33:53–55.
+[
+PubMed
+] [
+Google Scholar
+]
+Lai AG, Doherty CJ, Mueller-Roeber B, Kay SA, Schippers JH, Dijkwel PP. CIRCADIAN CLOCK-ASSOCIATED 1 regulates ROS homeostasis and oxidative stress responses. Proc Natl Acad Sci USA. 2012;109:17129–17134. doi: 10.1073/pnas.1209148109.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Lee JY. Plasmodesmata: a signaling hub at the cellular boundary. Curr Opin Plant Biol. 2015;27:133–140. doi: 10.1016/j.pbi.2015.06.019.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Liu L, Liu C, Hou X, Xi W, Shen L, Tao Z, Wang Y, Yu H. FTIP1 is an essential regulator required for florigen transport. PLoS Biol. 2012;10:e1001313. doi: 10.1371/journal.pbio.1001313.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Lucas WJ. Plasmodesmata: intercellular channels for macromolecular transport in plants. Curr Opin Cell Biol. 1995;7:673–680. doi: 10.1016/0955-0674(95)80109-x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Lucas WJ, Bouche-Pillon S, Jackson DP, Nguyen L, Baker L, Ding B, Hake S. Selective trafficking of KNOTTED1 homeodomain protein and its mRNA through plasmodesmata. Science. 1995;270:1980–1983. doi: 10.1126/science.270.5244.1980.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Luna E, Bruce TJ, Roberts MR, Flors V, Ton J. Next-generation systemic acquired resistance. Plant Physiol. 2012;158:844–853. doi: 10.1104/pp.111.187468.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ma S, Bohnert HJ. Integration of Arabidopsis thaliana stress-related transcript profiles, promoter structures, and cell-specific expression. Genome Biol. 2007;8:R49. doi: 10.1186/gb-2007-8-4-r49.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Mathieu J, Warthmann N, Kuttner F, Schmid M. Export of FT protein from phloem companion cells is sufficient for floral induction in Arabidopsis. Curr Biol. 2007;17:1055–1060. doi: 10.1016/j.cub.2007.05.009.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Miller G, Schlauch K, Tam R, Cortes D, Torres MA, Shulaev V, Dangl JL, Mittler R. The plant NADPH oxidase RBOHD mediates rapid systemic signaling in response to diverse stimuli. Sci Signal. 2009;2:ra45. doi: 10.1126/scisignal.2000448.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Mittler R, Vanderauwera S, Suzuki N, Miller G, Tognetti VB, Vandepoele K, Gollery M, Shulaev V, Van Breusegem F. ROS signaling: the new wave? Trends Plant Sci. 2011;16:300–309. doi: 10.1016/j.tplants.2011.03.007.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Miyashima S, Koi S, Hashimoto T, Nakajima K. Non-cell-autonomous microRNA165 acts in a dose-dependent manner to regulate multiple differentiation status in the Arabidopsis root. Development. 2011;138:2303–2313. doi: 10.1242/dev.060491.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Mousavi SA, Chauvin A, Pascaud F, Kellenberger S, Farmer EE. GLUTAMATE RECEPTOR-LIKE genes mediate leaf-to-leaf wound signalling. Nature. 2013;500:422–426. doi: 10.1038/nature12478.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Nakajima K, Sena G, Nawy T, Benfey PN. Intercellular movement of the putative transcription factor SHR in root patterning. Nature. 2001;413:307–311. doi: 10.1038/35095061.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Parre E, Geitmann A. More than a leak sealant. The mechanical properties of callose in pollen tubes. Plant Physiol. 2005;137:274–286. doi: 10.1104/pp.104.050773.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Paultre DS, Gustin MP, Molnar A, Oparka KJ. Lost in transit: long-distance trafficking and phloem unloading of protein signals in Arabidopsis homografts. Plant Cell. 2016;28:2016–2025. doi: 10.1105/tpc.16.00249.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Perez IB, Brown PJ. The role of ROS signaling in cross-tolerance: from model to crop. Front Plant Sci. 2014;5:754. doi: 10.3389/fpls.2014.00754.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Raven PH, Mason KA, Losos JB, Singer SR, Johnson GB.  In: Biology. 10th. AP, editor. Dubuque, Iowa: McGraw-Hill; 2014.
+[
+Google Scholar
+]
+Rim Y, Huang L, Chu H, Han X, Cho WK, Jeon CO, Kim HJ, Hong JC, Lucas WJ, Kim JY. Analysis of Arabidopsis transcription factor families revealed extensive capacity for cell-to-cell movement as well as discrete trafficking patterns. Mol Cells. 2011;32:519–526. doi: 10.1007/s10059-011-0135-2.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Samuels AL, Giddings TH, Jr, Staehelin LA. Cytokinesis in tobacco BY-2 and root tip cells: a new model of cell plate formation in higher plants. J Cell Biol. 1995;130:1345–1357. doi: 10.1083/jcb.130.6.1345.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Shen Y, Rosendale M, Campbell RE, Perrais D. pHuji, a pH-sensitive red fluorescent protein for imaging of exo- and endocytosis. J Cell Biol. 2014;207:419–432. doi: 10.1083/jcb.201404107.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Shih HW, Miller ND, Dai C, Spalding EP, Monshausen GB. The receptor-like kinase FERONIA is required for mechanical signal transduction in Arabidopsis seedlings. Curr Biol. 2014;24:1887–1892. doi: 10.1016/j.cub.2014.06.064.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Suzuki N, Miller G, Salazar C, et al.  Temporal-spatial interaction between reactive oxygen species and abscisic acid regulates rapid systemic acclimation in plants. Plant Cell. 2013;25:3553–3569. doi: 10.1105/tpc.113.114595.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Suzuki N, Devireddy AR, Inupakutika MA, Baxter A, Miller G, Song L, Shulaev E, Azad RK, Shulaev V, Mittler R. Ultra-fast alterations in mRNA levels uncover multiple players in light stress acclimation in plants. Plant J. 2015;84:760–772. doi: 10.1111/tpj.13039.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Szechynska-Hebda M, Kruk J, Gorecka M, Karpinska B, Karpinski S. Evidence for light wavelength-specific photoelectrophysiological signaling and memory of excess light episodes in Arabidopsis. Plant Cell. 2010;22:2201–2218. doi: 10.1105/tpc.109.069302.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Thieme CJ, Rojas-Triana M, Stecyk E, et al.  Endogenous Arabidopsis messenger RNAs transported to distant tissues. Nat Plants. 2015;1:15025. doi: 10.1038/nplants.2015.25.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Tilsner J, Nicolas W, Rosado A, Bayer EM. Staying tight: plasmodesmal membrane contact sites and the control of cell-to-cell connectivity in plants. Annu Rev Plant Biol. 2016;67:337–364. doi: 10.1146/annurev-arplant-043015-111840.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Traw MB, Kniskern JM, Bergelson J. SAR increases fitness of Arabidopsis thaliana in the presence of natural bacterial pathogens. Evolution. 2007;61:2444–2449. doi: 10.1111/j.1558-5646.2007.00211.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Truman W, Bennett MH, Kubigsteltig I, Turnbull C, Grant M. Arabidopsis systemic immunity uses conserved defense signaling pathways and is mediated by jasmonates. Proc Natl Acad Sci USA. 2007;104:1075–1080. doi: 10.1073/pnas.0605423104.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Turnbull CG, Lopez-Cobollo RM. Heavy traffic in the fast lane: long-distance signalling by macromolecules. New Phytol. 2013;198:33–51. doi: 10.1111/nph.12167.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Vaten A, Dettmer J, Wu S, et al.  Callose biosynthesis regulates symplastic trafficking during root development. Dev Cell. 2011;21:1144–1155. doi: 10.1016/j.devcel.2011.10.006.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Wang X, Sager R, Cui W, Zhang C, Lu H, Lee JY. Salicylic acid regulates plasmodesmata closure during innate immune responses in Arabidopsis. Plant Cell. 2013;25:2315–2329. doi: 10.1105/tpc.113.110676.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Xiong TC, Ronzier E, Sanchez F, Corratge-Faillie C, Mazars C, Thibaud JB. Imaging long distance propagating calcium signals in intact plant leaves with the BRET-based GFP-aequorin reporter. Front Plant Sci. 2014;5:43. doi: 10.3389/fpls.2014.00043.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Xu XM, Wang J, Xuan Z, Goldshmidt A, Borrill PG, Hariharan N, Kim JY, Jackson D. Chaperonins facilitate KNOTTED1 cell-to-cell trafficking and stem cell function. Science. 2011;333:1141–1144. doi: 10.1126/science.1205727.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Yuan F, Yang H, Xue Y, et al.  OSCA1 mediates osmotic-stress-evoked Ca2+ increases vital for osmosensing in Arabidopsis. Nature. 2014;514:367–371. doi: 10.1038/nature13593.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zimmermann MR, Maischak H, Mithofer A, Boland W, Felle HH. System potentials, a novel electrical long-distance apoplastic signal in plants, induced by wounding. Plant Physiol. 2009;149:1593–1600. doi: 10.1104/pp.108.133884.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]

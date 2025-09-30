@@ -1,0 +1,2751 @@
+PLoS One
+. 2019 Feb 12;14(2):e0211897. doi:
+10.1371/journal.pone.0211897
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+A combined computational strategy of sequence and structural analysis predicts the existence of a functional eicosanoid pathway in
+Drosophila melanogaster
+Michael Scarpati
+Michael Scarpati
+1
+Brooklyn College of the City University of New York, Brooklyn, New York, United States of America
+2
+PhD program in Biology, Graduate Center of the City University of New York, New York, New York, United States of America
+Formal analysis, Validation, Visualization, Writing – original draft, Writing – review & editing
+Find articles by
+Michael Scarpati
+1,
+2
+,
+Yan Qi
+Yan Qi
+1
+Brooklyn College of the City University of New York, Brooklyn, New York, United States of America
+2
+PhD program in Biology, Graduate Center of the City University of New York, New York, New York, United States of America
+Formal analysis, Writing – review & editing
+Find articles by
+Yan Qi
+1,
+2
+,
+Shubha Govind
+Shubha Govind
+2
+PhD program in Biology, Graduate Center of the City University of New York, New York, New York, United States of America
+3
+PhD program in Biochemistry, Graduate Center of the City University of New York, New York, New York, United States of America
+4
+The City College of the City University of New York, New York, New York, United States of America
+Conceptualization, Supervision, Writing – original draft, Writing – review & editing
+Find articles by
+Shubha Govind
+2,
+3,
+4
+,
+Shaneen Singh
+Shaneen Singh
+1
+Brooklyn College of the City University of New York, Brooklyn, New York, United States of America
+2
+PhD program in Biology, Graduate Center of the City University of New York, New York, New York, United States of America
+3
+PhD program in Biochemistry, Graduate Center of the City University of New York, New York, New York, United States of America
+Conceptualization, Supervision, Visualization, Writing – original draft, Writing – review & editing
+Find articles by
+Shaneen Singh
+1,
+2,
+3,
+*
+Editor:
+Claudio M Soares
+5
+Author information
+Article notes
+Copyright and License information
+1
+Brooklyn College of the City University of New York, Brooklyn, New York, United States of America
+2
+PhD program in Biology, Graduate Center of the City University of New York, New York, New York, United States of America
+3
+PhD program in Biochemistry, Graduate Center of the City University of New York, New York, New York, United States of America
+4
+The City College of the City University of New York, New York, New York, United States of America
+5
+Universidade Nova de Lisboa Instituto de Tecnologia Quimica e Biologica, PORTUGAL
+Competing Interests:
+The authors have declared that no competing interests exist.
+✉
+* E-mail:
+ssingh@brooklyn.cuny.edu
+Roles
+Michael Scarpati
+:
+Formal analysis, Validation, Visualization, Writing – original draft, Writing – review & editing
+Yan Qi
+:
+Formal analysis, Writing – review & editing
+Shubha Govind
+:
+Conceptualization, Supervision, Writing – original draft, Writing – review & editing
+Shaneen Singh
+:
+Conceptualization, Supervision, Visualization, Writing – original draft, Writing – review & editing
+Claudio M Soares
+:
+Editor
+Received 2018 Jul 24; Accepted 2019 Jan 22; Collection date 2019.
+© 2019 Scarpati et al
+This is an open access article distributed under the terms of the
+Creative Commons Attribution License
+, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+PMC Copyright notice
+PMCID: PMC6372189  PMID:
+30753230
+Abstract
+This study reports on a putative eicosanoid biosynthesis pathway in
+Drosophila melanogaster
+and challenges the currently held view that mechanistic routes to synthesize eicosanoid or eicosanoid-like biolipids do not exist in insects, since to date, putative fly homologs of most mammalian enzymes have not been identified. Here we use systematic and comprehensive bioinformatics approaches to identify most of the mammalian eicosanoid synthesis enzymes. Sensitive sequence analysis techniques identified candidate
+Drosophila
+enzymes that share low global sequence identities with their human counterparts. Twenty
+Drosophila
+candidates were selected based upon (a) sequence identity with human enzymes of the cyclooxygenase and lipoxygenase branches, (b) similar domain architecture and structural conservation of the catalytic domain, and (c) presence of potentially equivalent functional residues. Evaluation of full-length structural models for these 20 top-scoring
+Drosophila
+candidates revealed a surprising degree of conservation in their overall folds and potential analogs for functional residues in all 20 enzymes. Although we were unable to identify any suitable candidate for lipoxygenase enzymes, we report structural homology models of three fly cyclooxygenases. Our findings predict that the
+D
+.
+melanogaster
+genome likely codes for one or more pathways for eicosanoid or eicosanoid-like biolipid synthesis. Our study suggests that classical and/or novel eicosanoids mediators must regulate biological functions in insects–predictions that can be tested with the power of
+Drosophila
+genetics. Such experimental analysis of eicosanoid biology in a simple model organism will have high relevance to human development and health.
+Introduction
+The eicosanoids are a family of biologically active lipids that have been implicated in various signaling pathways, with a central role in mammalian immunity and inflammation [
+1
+–
+3
+]. The canonical eicosanoid biosynthesis pathway begins with the release of fatty acids, primarily arachidonic acid (AA), from membrane phospholipids when phospholipase A
+2
+is activated [
+4
+,
+5
+]. The canonical pathway then diverges, depending on whether the fatty acid substrate is processed by a cyclooxygenase (COX), lipoxygenase (LOX), or a P450 epoxygenase (P450E). The COX enzymes generate prostanoids (prostaglandins, prostacyclins, and thromboxanes), resolvins, and electrophilic oxo-derivatives (EFOX) of docosahexaenoic acid (DHA) [
+6
+–
+8
+] whereas the LOX enzymes produce the leukotrienes, hydroperoxyeicosatetraenoic acids (HPETEs), hydroxyeicosatetraenoic acids (HETEs), and lipoxins [
+9
+]. There is some cross-talk between the COX and LOX pathways, as both are known to produce hydroxyoctadecadienoic acids (HODEs) [
+10
+,
+11
+]. The P450 epoxygenase pathway yields epoxyeicosatrienoic acids (EETs) [
+12
+]. These downstream products regulate diverse signaling pathways and biological processes [
+2
+,
+3
+,
+12
+–
+14
+]
+The COX and LOX branches of the eicosanoid pathway are well-characterized in humans. The COX enzymes (prostaglandin G/H synthases) are encoded by
+COX-1
+(
+PTGS1
+) and
+COX-2
+(
+PTGS2
+) [
+6
+].
+COX-1
+is constitutively expressed at low levels by most cells. In contrast,
+COX-2
+is upregulated at sites of inflammation and during tumor progression [
+6
+,
+15
+]. COX-1 and COX-2 are membrane-associated heme-containing homodimers that catalyze the conversion of an 18–22 carbon polyunsaturated fatty acid (PUFA, typically AA, an ω-6, 20-carbon fatty acid) into prostaglandins G
+2
+and H
+2
+[
+16
+]. Although AA is the preferred substrate, the COX enzymes are known to oxygenate eicosapentaenoic acid (EPA, 20:5 n-3), linoleic acid (LA, 18:2 n-6), dihomo-gamma-linolenic acid (DHLA), and docosahexaenoic acid (DHA), with varying efficiencies [
+16
+–
+18
+]. This initial substrate choice is significant, as it determines whether the downstream prostanoid will tend to be pro- or anti-inflammatory. Fatty acids with two double bonds (e.g., AA) are converted into series-2 prostanoids (
+e
+.
+g
+., PGH
+2
+, PGE
+2
+), which are associated with pro-inflammatory signaling. In contrast, fatty acid substrates with three or four double bonds (e.g., EPA, DHLA, respectively) yield series-1 and 3 prostanoids (PGH
+1
+, PGE
+3
+), which are associated with anti-inflammatory signaling. Some COX products, such as the anti-inflammatory resolvins are synthesized only from EPA and DHA, whereas the pro- and anti-inflammatory 9- and 13-HODEs are generated from LA by COX enzymes [
+8
+,
+10
+]. Nevertheless, AA is the primary substrate for COX enzymes and so COX signaling tends to be pro-inflammatory. As a result, non-steroidal anti-inflammatory drugs (NSAIDs) which inhibit COX-1/2’s ability to generate pro-inflammatory products, are particularly important. PGH2 is subsequently converted to a variety of downstream eicosanoids, including PGD
+2
+, PGE
+2
+, PGF
+1α
+PGF
+2α
+, PGI
+2
+(prostacyclin), and the thromboxanes TXA
+2
+and TXB
+2
+. The downstream processing route depends on the availability of enzymes in a given cell type. For example, endothelial cells primarily produce PGI
+2
+, whereas platelets mainly produce TXA
+2
+[
+19
+].
+The LOX pathway operates independently from the COX pathway, diverging at the initial fatty acid processing stage. In humans, LOX enzymes are encoded by several genes (
+ALOX5
+,
+ALOX12
+,
+ALOX12B
+,
+ALOX15
+). Mammalian LOX enzymes catalyze the stereospecific dehydrogenation and dioxygenation of a PUFA, such as AA or LA, leading to the formation of a hydroxyperoxide containing a 1-hydroxyperoxy-2-
+trans
+-4-
+cis
+-pentadiene fragment [
+13
+,
+20
+]. The mammalian LOXs have been named according to the position of the carbon at which the oxygen molecule is inserted into AA, the primary fatty acid substrate,
+e
+.
+g
+., as 5-, 12-, or 15-LOX) [
+21
+]. The primary products are 5S-, 12S-, or 15S-HPETE, which can be further reduced by glutathione peroxidase to hydroxy forms (5-, 12-, 15-HETE), respectively [
+20
+,
+21
+]. 5-LOX is the only LOX that produces leukotrienes, and it is notable that catalytic activity requires the presence of a second protein (ALOX5AP), though the precise function of Five-Lipoxygenase Activating Protein (FLAP) is not known [
+20
+,
+22
+]. Following conversion of a fatty acid into 5-HPETE, downstream processing results in the terminal leukotrienes LTB
+4
+, LTC
+4
+, LTD
+4
+, and LTE
+4
+. The leukotrienes are clinically significant, as they are implicated in the allergic response and maintenance of chronic inflammation. 15-LOX (and to a lesser extent 5-LOX) produce the lipoxins LXA and LXB [
+23
+].
+CYP450Es convert fatty acid substrates (
+e
+.
+g
+., AA) into four EET isomers, 5,6-, 8,9-, 11,12-, and 14,15-EETs, which function as autocrine and paracrine mediators. CYP450Es also convert EPA into epoxy-derivatives, and endocannabinoids containing 11,12- and 14,15-EETs [
+12
+]. The CYP450E protein is not examined in this study.
+The COX family enzymes are highly conserved across the animal kingdom, with orthologs found in the primitive marine corals as well as the higher vertebrates [
+24
+]. Traditional genomic analyses have failed to identify COX orthologs in the known genomes of insects, unicellular organisms, or plants, although prostaglandins, their primary products, have been found in some of these organisms [
+25
+–
+28
+]. Recent studies have suggested that an insect cyclooxygenase may exist in orthologs of the
+Drosophila
+gene
+Pxt
+[
+27
+,
+29
+,
+30
+]. LOX enzymes display an even broader degree of conservation, with orthologs found across the animal kingdom and in a variety of plants [
+9
+]. Sequence and biochemical analyses have failed to identify any insect LOX orthologs, with the exception of LOX activity in the primitive insect,
+Thermobia domestica
+[
+31
+] and one report in
+D
+.
+melanogaster
+[
+28
+]. Thus, there is conflicting information regarding the existence of functional COX or LOX pathway in insects. Given the complexity and biomedical importance of eicosanoid biology, defining the COX and LOX pathways in a model organism is a research priority. Identification of a functionally conserved COX or LOX pathway in
+D
+.
+melanogaster
+opens up exciting research avenues for understanding the genetic basis of eicosanoid-mediated inflammation in this well-established and simple model organism.
+To this end, we conducted a thorough computational analysis of the genome of
+D
+.
+melanogaster
+. While an initial BLAST search revealed candidates for the most conserved enzymes, it failed to identify likely orthologs for some of these enzymes. A more rigorous approach using iterative sequence searches combined with structural modeling revealed a surprising degree of similarity between mammalian and fly enzymes and the apparent conservation of functionally important residues even in these most distant candidate enzymes. Although we could not identify any suitable candidates for lipoxygenase enzymes, other component enzymes of the LOX branch of the pathway were identified. This suggests the possibility that eicosanoid pathway may adopt a non-canonical form in
+D
+.
+melanogaster
+and insects in general. Our study challenges the current view that insects lack a functional eicosanoid pathway and opens up tremendous possibilities of utilizing a well-established model organism for eicosanoid research.
+Materials and methods
+A flowchart summarizing the general protocol of the present study with the various tools used to identify and characterize putative
+D
+.
+melanogaster
+orthologs for the classic eicosanoid synthesis enzymes discussed in detail below is shown in
+Fig 1
+.
+Fig 1. Summary of the workflow and tools used to carry out the present study.
+Open in a new tab
+A schematic of the workflow devised to identify, model, and characterize various orthologs of the human eicosanoid pathway.
+Identification and characterization of human eicosanoid synthesis enzymes
+A canonical eicosanoid synthesis pathway in humans was compiled from the NCBI BioSystems Database using the Eicosanoid Synthesis (BSID: 198888) and Arachidonic Acid pathway maps (BSID: 829971) [
+32
+]. Protein sequence(s) for each human canonical pathway gene were obtained from the NCBI RefSeq database [
+33
+]. Enzymes selected for this study are listed in
+Table 1
+(see
+Results
+section). For each enzyme, either the sole protein product or the major isoform was selected as the representative sequence. Known and high-confidence predicted orthologs for each enzyme were identified using the Kyoto encyclopedia of genes and genomes (KEGG) Orthology database [
+34
+]. A multiple sequence alignment (MSA) for each target enzyme with the selected orthologs was then generated using PROMALS3D, followed by manual editing [
+35
+]. Domains and active sites on each identified enzyme were annotated using the Pfam, InterPro, CDART, and Uniprot databases [
+36
+–
+38
+]. Consensus secondary structure profiles were generated using the PsiPred, JPred and PSSPred servers [
+39
+–
+41
+] to confirm identified functional domains and to ascertain domain boundaries.
+Table 1. Summary of
+D
+.
+melanogaster
+eicosanoid synthesis enzymes candidates.
+Human Gene
+D
+.
+melanogaster
+Candidate(s)
+Annotation Identifier
+Flybase Identifier
+Percentage Identity
+Percentage Similarity
+E-value
+Query Coverage
+Template(Software) used for modeling the candidate enzyme
+PTGS1, PTGS2
+CG4009, isoform B
+CG4009
+FBgn0038469
+25%
+41%
+1e-10
+49%
+Multiple: 4HHR, 3FAQ, 3Q9K, 1CXP, 2GJ1, and 1CVU (I-TASSER)
+Peroxinectin-like (Pxt)
+CG7660
+FBgn0261987
+22%
+39%
+2e-09
+59%
+Cardinal
+CG6969
+FBgn0263986
+20%
+36%
+1e-05
+61%
+PTGDS
+Neural Lazarillo (Nlaz)
+CG33126
+FBgn0053126
+20%*
+62%*
+9e-13*
+97%*
+2HZQ, 5WY9(I-TASSER, Modeller)
+HPGDS
+Glutathione S transferase S1 (GST S1)
+CG8938
+FBgn0010226
+36%
+60%
+3e-37
+98%
+¥
+1M0U (Modeller)
+PTGIS
+CYP450-4D2
+CG3466
+FBgn0011576
+23%
+26%*
+44%
+72%*
+0.015
+3e-70*
+34%
+93%*
+3NXU, 4LXJ (I-TASSER, Modeller)
+PTGES
+Microsomal glutathione S-transferase-like (MGST-like, isoform A)
+CG1742
+FBgn0025814
+36%
+54%
+2e-24
+97%
+4AL0 (Modeller)
+PTGES2
+Suppressor of Ref(2)p (SupRef(2)p)
+CG4086
+FBgn0004465
+42%
+62%
+3e-70
+73%
+1Z9H (Modeller)
+PTGES3
+CG16817, isoform A
+CG16817
+FBgn0037728
+27%
+45%
+6e-12
+83%
+2KMW, 1EFJ (Modeller; I-TASSER)
+TBXAS1
+CG3616
+CG3616
+FBgn0015040
+31%
+49%
+6e-69
+97%
+3NXU, 4LXJ (I-TASSER)
+AKR1A1, AKR1B1, AKR1C3
+CG6084, isoform D
+CG6084
+FBgn0086254
+49%
+68%
+5e-94
+97%
+1AH4 (Modeller)
+CBR1
+Carbonyl reductase (CBR, isoform B)
+CG11200
+FBgn0034500
+30%
+45%
+8e-19
+95%
+4NBV, 3BHJ (Modeller, I-TASSER)
+ALOX5, ALOX12, ALOX12B, ALOX15
+None identified
+N/A
+N/A
+ALOX5AP
+CG33177
+CG33177
+FBgn0053177
+33%*
+82%*
+6e-20*
+88%*
+4AL0,2Q7M (Modeller, I-TASSER)
+LTA4H
+CG10602, isoform C
+CG10602
+FBgn0032721
+44%
+62%
+4e-179
+99%
+4GAA (Modeller)
+LTC4S
+CG33178, isoform A
+CG33178
+FBgn0053178
+28%*
+61%*
+4e-4*
+84%*
+4AL0, 2PNO (Modeller, I-TASSER)
+GGT1
+Gamma-glutamyl transpeptidase (GGT, isoform A)
+CG6461
+FBgn0030932
+45%
+58%
+4e-133
+92%
+2E0W(Modeller)
+DPEP1
+CG6154, isoform C
+CG6154
+FBgn0039420
+49%
+65%
+3e-125
+88%
+1ITU (Modeller)
+HPGD
+CG18814
+CG18814
+FBgn0042137
+34%
+53%
+9e-35
+76%
+2GDZ (Modeller)
+GPX1
+PHGPx, isoform A
+CG12013
+FBgn0035438
+35%
+52%
+6e-32
+90%
+2F8A (Modeller)
+CPA1
+CG18585, isoform A
+CG18585
+FBgn0031929
+35%
+55%
+9e-82
+98%
+2V77 (Modeller)
+Open in a new tab
+Note: Statistics for each identified candidate gene are based on BLASTP and/or JACKHMMER results (when marked with an asterisk; the percentage identity and similarity refer to the match to the HMM profile and not the actual sequence) and are current as of November 2018. The candidates are denoted in the Annotation identifier column as high-confidence (regular font), mid-range (
+underlined
+), and distant (
+italicized and bold font
+). Gene annotation IDs (distinct from gene symbols) are represented in a common way: a species-specific 2 letter prefix followed by a four or five digit integer. CG is the 2-letter prefix for
+D
+.
+melanogaster
+for protein-coding genes.
+¥
+The template 1M0U is the crystal structure for a fragment of this protein (position 48–249). The N-terminal region was built using MODELLER’s
+ab initio
+methods.
+Identification of potential eicosanoid synthesis enzymes in
+D
+.
+melanogaster
+We used several different sequence analysis algorithms to identify candidate
+Drosophila
+orthologs for each human enzyme. Specifically, each human enzyme reference sequence was queried against a subset of the
+D
+.
+melanogaster
+NCBI non-redundant sequence database using PSI-BLAST, DELTA-BLAST or JACKHMMER [
+42
+–
+44
+]. For this, each human enzyme reference sequence was queried against a subset of the
+D
+.
+melanogaster
+NCBI non-redundant sequence database. DELTA-BLAST is a more sensitive variant of the traditional BLAST algorithm that incorporates domain information from pre-constructed position specific scoring matrices (PSSMs) in order to improve detection of homology [
+42
+]. JACKHMMER is an alternative sequence analysis and alignment tool that operates in an iterative fashion by generating a profile hidden Markov model (HMM) for a query protein, searching the target sequence database, and then updating the HMM to include sequences that score above a given cut-off value [
+44
+]. For this study, specialized BLAST and HMMer algorithms were leveraged as part of a combined approach to identify candidates which may be remote homologs for the human eicosanoid synthesis enzymes.
+Each search was conducted with three iterations using the default parameters.
+D
+.
+melanogaster
+candidates with statistically significant full-length alignments to the query were selected after each round. These candidates were then analyzed using the same secondary structure and domain analysis tools as discussed above. Each candidate was then aligned against the previously generated MSA (containing the human enzyme and known/predicted orthologs) in order to screen out hits that lacked required functional residues and/or those with substantially dissimilar secondary structure or domain architecture.
+In silico
+modeling of
+D
+.
+melanogaster
+candidates
+Full-length three-dimensional models were generated for each top-scoring
+D
+.
+melanogaster
+candidate protein thus identified using the HHpred, MODELLER, LOMETS and I-TASSER software packages [
+45
+–
+48
+] HHpred performs sensitive searches to detect protein homology, function, and structure prediction based on HMM–HMM comparison and uses MODELLER to create the models. MODELLER, a homology modeling tool, predicts the tertiary structure of a protein based on satisfaction of spatial restraints derived from sequentially similar templates whose structure is known (
+i
+.
+e
+., a sequence-sequence comparison). In contrast, I-TASSER utilizes a multi-threading algorithm (
+i
+.
+e
+., a sequence-structure comparison) to identify suitable templates followed by an iterative template fragment assembly approach based on replica-exchange Monte Carlo simulations to generate the full length model; unaligned primary sequence regions are built using
+ab initio
+methods. LOMETS is a meta-server that generates and ranks modeling results produced using several alternative threading algorithms which are executed in parallel. The accuracy of homology modeling depends largely on the target-template alignment, with ≥40% sequence identity generally yielding high quality models and 25% sequence identity being the lower threshold for an acceptable model [
+49
+]. However, threading based modeling tools are generally less sensitive to sequence identity differences and some packages (e.g., I-TASSER) are known to generate high quality models using templates sharing as little as 20–30% sequence identity with the target sequence [
+50
+,
+51
+].
+Each
+D
+.
+melanogaster
+candidate sequence was searched against the Protein Data Bank database of published structures [
+52
+] using PSI-BLAST and JACKHMMER [
+43
+,
+44
+]. Potential templates with ≥30%, full-length sequence identity were aligned against the candidate using PROMALS3D, MAFFT, and T-Coffee [
+35
+,
+53
+,
+54
+] and evaluated. If a suitable single full-length template was not found, either due to a lack of coverage or low sequence identity within the aligned range, I-TASSER was used to generate a composite model based on several templates. In each case, the initial model was used to generate a refined full atomic model using ModRefiner, which also optimizes sidechain placement [
+55
+]. All of the refined models were then evaluated using the ProSa, ProQ2 and MODFOLD4 servers [
+56
+–
+58
+]. Loops and unstructured N- and C-terminal regions in these models were optimized using
+ab initio
+methods (e.g., MODELLER’s loop routines or QUARK), refined using ModRefiner and reevaluated as necessary [
+48
+,
+59
+]. Unsuitable models were rejected and rebuilt using alternatives templates according to the preceding protocol. Models were analyzed using the surface property tools in the Chimera and PyMol visualization and structural modeling packages, in addition to online tools including COFACTOR, and COACH [
+60
+–
+63
+]TM-Score was used to perform structural comparisons of the models with the known target human enzymes [
+64
+].
+Results
+Identification and characterization of candidate eicosanoid synthesis enzymes in
+D
+.
+melanogaster
+A purely sequence-based analysis of the
+D
+.
+melanogaster
+genome (Release 6.04, February 24th, 2015) using traditional sequence analysis tools (
+e
+.
+g
+., BLASTP) failed to identify potential orthologs for some of the human eicosanoid synthesis enzymes. However, using a more sensitive approach based on iterative HMMER searches, we uncovered potential
+D
+.
+melanogaster
+candidates that may function as eicosanoid synthesis enzymes. A majority of these candidates were shown to adopt a highly similar tertiary structure with the human target enzymes. Template based modeling approaches produce models that are structurally similar to the templates used, so the modeled enzymes were validated using evaluation techniques that confirm that the primary sequence is compatible with its modeled three dimensional structure. To rule out potential false positives, the structure was evaluated carefully for conservation of the necessary catalytic residues in a structural context as well. A summary of our findings is provided in
+Table 1
+.
+Group 1: The high scoring matches
+Eight putative orthologs identified in this search have particularly high confidence matches: CG1742, CG4086, CG6084, CG10602, CG6461, CG6154, CG12013 and CG18585. These proteins share at least 30% sequence identity with the human enzyme, possess the same overall fold, and display conservation of one or more key functional residue needed for activity.
+The first gene in this set, CG1742 (Microsomal glutathione S-transferase (MGST) -like, isoform A,
+NP_524696.1
+), encodes a protein of 152 residues and is predicted to have a single domain, Membrane Associated Proteins in Eicosanoid and Glutathione metabolism (MAPEG, Pfam ID: PF01124) spanning residues18 to 148 amino. This gene has also been identified in a bioinformatics screen for MAPEG family member [
+65
+]. This protein displays 36% identity and 54% similarity to the sequence of human prostaglandin E synthase (PTGES,
+NP_004869.1
+). The human PTGES (PS-1) is an integral membrane protein that operates as a homotrimer and is known to catalyze the oxidoreduction of prostaglandin endoperoxide H
+2
+(PGH
+2
+) to prostaglandin E
+2
+(PGE
+2
+) [
+66
+]. PTGES is characterized by the presence of a single MAPEG domain, which spans the region 16–146. PTGES (
+e
+.
+g
+., PDB ID: 4AL0; [
+67
+]) and is characteristic of several proteins belonging to the MAPEG family which includes MSGT and PTGES proteins [
+68
+]. This sequence is annotated as “MSGT-like” but the predicted structure of CG1742 is nearly identical and displays an RMSD 1.15 Å over 152 residues when superimposed with PTGES. PTGES, earlier referred to as MGST1-L1[
+69
+] is a glutathione-binding protein, and residues R38, R70, E77, R110, Y117, R126, and Y130 of human PTGES are associated with enzymatic activity as well as binding to glutathione [
+66
+,
+70
+]. Structural superposition reveals that CG1742 has a fully conserved set of these key functional residues, (R40, R71, E78, R111, Y118, R128, and F132). With respect to the last residue, a tyrosine to phenylalanine substitution is likely to be functionally equivalent as phenylalanine and tyrosine have side chains with a single aromatic ring of similar volume. Phenylalanine differs only in that it lacks the hydroxyl group in the ortho position on the benzene ring. Since previous studies suggest that the aromatic ring of Y130 is likely important for PGH2-binding, an analog for this structural element is provided by F132 [
+70
+]. Details of modeled fly candidate PTGES and its comparison with human PTGES are provided in
+S1 Fig
+and a similar format is followed for all the candidate orthologs identified.
+The second gene in this set, CG4086 (Suppressor of ref(2)P sterility (Su(P)),
+NP_524116.2
+) encodes a 417 residue protein. CG4086 displays 42% identity and 62% similarity to the sequence of human prostaglandin E synthase 2 (PTGES2,
+NP_079348.1
+). PTGES2 is membrane-associated, as opposed to PTGES which is an integral membrane protein, though both catalyze the same reaction [
+71
+]. Despite the functional similarities, PTGES2 possesses a substantially different domain architecture and tertiary structure. The human PTGES2 possesses a GST-N3 domain (Pfam ID: PF13417) spanning amino acids 104–175 and a GST-C3 (Pfam ID: PF14497) domain spanning amino acids 201–368. CG4086 shares a highly similar domain architecture with the same domains spanning amino acids 125–184 and 248–396 respectively. PTGES2’s catalytic activity requires an essential residue, C110 [
+72
+]. The crystal structure of truncated PTGES2 has been published (PDB ID: 1Z9H; [
+73
+]), with the N-terminal membrane-associated region omitted (residues 1 to 99). Superposition of this truncated structure against the predicted structure of CG4086 reveals an RMSD of 0.814 Å over 377 residues. CG4086’s C133 overlaps with PTGES2’s C110, suggesting a match for this catalytic residue (
+S2 Fig
+).
+The third gene in this set, CG6084, encodes a 316 amino acid protein that is a high confidence match for the human Alcohol dehydrogenase NADP(+) (AKR1B1”,
+NP_001619.1
+). This enzyme, along with enzymes encoded by the related genes in this family (
+e
+.
+g
+., AKR1B15 and AKR1C3), catalyzes the NADPH-dependent reduction of a variety of aromatic and aliphatic aldehydes to their corresponding alcohols. In particular, AKR1B1 and AKR1B15 are known to function as prostacyclin F synthases, converting prostaglandin endoperoxide H
+2
+(PGH
+2
+) to prostaglandin F
+2α
+(PGF
+2α
+) [
+74
+,
+75
+]. CG6084 and AKR1B1 share identical domain architectures [a single aldo/keto reductase family (Pfam ID: PF00248) domain], as well as 49% identity and 68% similarity at the level of primary structure. Three residues required for AKR1B1’s catalytic activity are Y48, K77 and H110 [
+76
+,
+77
+]. CG6084 possesses analogs for this triad of residues in the form of Y50, K79 and H112. In addition, the structural overlap of the predicted structure for CG6084 and human AKR1A1 (PDB ID: 2ALR; [
+78
+]) displays an RMSD of 0.847 Å over 316 residues (
+S3 Fig
+).
+The fourth gene in this set, CG10602 encodes a protein with 613 residues that displays 44% identity and 62% similarity to human leukotriene A4 hydrolase (LTA4H,
+NP_000886.1
+). LTA4H is an epoxide hydrolase that catalyzes the hydrolysis of the epoxide LTA4 to the diol, LTB4. This catalytic activity requires the presence of a zinc ion, which is coordinated by the catalytic triad of H296, H300 and E319. Residues E297, D376 and Y384 are also reportedly essential for efficient catalysis [
+79
+]. LTA4H’s domain architecture consists of Peptidase family M1 (Pfam ID: PF01433) spanning 13–387 and a Leukotriene A4 hydrolase, C-terminal domain (Pfam ID: PF09127) spanning amino acids 464–608. CG10602 shares an identical domain organization as well as the critical residues at H293, H297, E316 (the zinc triad) and E294, D374 and Y382. The tertiary structure similarity is readily apparent, as evidenced by a superposition of human LTA4H (PDB ID: 3B7U; [
+80
+]) and the predicted structure of CG10602, which results in an RMSD of 0.891 Å over 611 residues (
+S4 Fig
+).
+The fifth gene in this set, CG6461, encodes a 579 residue protein (Gamma-glutamyltranspeptidase,
+NP_573303.1
+) that shares 45% identity and 58% similarity to human Gamma-glutamyltranspeptidase 1 (GGT1,
+NP_001275762.1
+). GGT1 cleaves the gamma-glutamyl bond of extracellular glutathione (gamma-Glu-Cys-Gly), glutathione conjugates, and other gamma-glutamyl compounds. With respect to eicosanoid synthesis, GGT1 catalyzes the conversion of leukotriene C4 (LTC4) to leukotriene D4 (LTD4). GGT1 operates as a heterodimer consisting of small and large subunits which are produced from the same precursor that undergoes autocatalytic cleavage to produce the mature form of the enzyme. The only reported catalytic residue is T381, which corresponds to T382 in CG6461. GGT1 residues R107, T399 and E420 are believed to play a role in glutamate binding [
+81
+]. CG6461 possesses putative analogs for each of these residues, namely R107, T400 and E421, respectively. CG6461 and GGT1 also share identical domain architecture, with Gamma-glutamyltranspeptidase (Pfam ID: PF01019) domains spanning the majority of each protein. Superimposed, the human structure (PDB ID: 4GDX; [
+82
+]) and CG6461’s predicted structure displays an RMSD of 1.126 Å over 569 residues (
+S5 Fig
+).
+The sixth gene in this set, CG6154 (“DPEP,”
+NP_733146.2
+), encodes a 434 residue metallopeptidase that shares 49% identity and 65% similarity with human Dipeptidase, renal (DPEP1,
+NP_004404.1
+). Both enzymes contain a single Membrane dipeptidase (Pfam ID: PF01244) domain spanning the majority of the protein. DPEP1 is known to regulate leukotriene activity by catalyzing the conversion of leukotriene D
+4
+(LTD4) to leukotriene E
+4
+(LTE4) using zinc as a cofactor. To that end, the residues H36, D38, E141, H214 and H235 are reported to be essential for coordinating the zinc ions required for catalysis [
+83
+]. Aligned against CG6154, these residues correspond to H71, D73, E184, H257 and H278. This high degree of similarity extends to the tertiary structure, as the superimposed structure of human DPEP1 (PDB ID: 1ITQ; [
+83
+]) and the predicted structure of CG6154 display an RMSD of 0.523 Å over 411 residues (
+S6 Fig
+).
+The seventh gene in this set, CG12013 (“glutathione peroxidase,”
+NP_728870.1
+), encodes a 169 residue selenoprotein that is 35% identical and 52% similar to human glutathione peroxidase 1 (GPX1,
+NP_000572.2
+) and both contain a single glutathione peroxidase domain (Pfam ID: PF00255). As part of the eicosanoid pathway, GPX-1 converts the 12(S)-HpETE produced by lipoxygenase-12 (12-LOX) into 12(S)-HETE [
+84
+]. GPX1 requires a selenocysteine residue (U49) for catalysis [
+85
+]. CG12013’s amino acid sequence indicates that a cysteine residue is present at the corresponding position in this enzyme. However, this residue may in fact be a selenocysteine, as this substitution is unlikely to be detected by sequencing alone. Similarly, the tryptophan and glutamine residue that complete the catalytic triad are also conserved. A structural alignment of human GPX1 (PDB ID: 2F8A; unpublished, Structural Genomics Consortium (SGC)) and the predicted structure of CG12013 reveals an RMSD of 0.699 Å over 169 residues (
+S7 Fig
+).
+The eighth and final gene in this set, CG18585 (Carboxypeptidase A (CPA),
+NP_609132.1
+) encodes a 422 amino acid protein that is 35% identical and 55% similar to human Carboxypeptidase A1 (CPA1,
+NP_001859.1
+). CPA1 is a metallocarboxypeptidase that requires a zinc atom as a cofactor for catalysis. CPA1 has been shown to convert the potent leukotriene C4 (LTC4) to the less potent leukotriene F4 (LTF4) by hydrolysis of an amide bond, suggesting that CPA1 serves to reduce inflammation [
+86
+]. The residues H179, E182, H306 and E380 are required for catalysis and coordinating zinc. These residues correspond to H178, E181, H305 and E382 in CPA. Aligned, the structure of human CPA1 (PDB ID: 3FJU; [
+87
+]) and the predicted structure of CG18585 display an RMSD of 0.753 Å over 419 residues (
+S8 Fig
+).
+Group 2: The midrange candidates
+Five candidates were identified in the search based on approaches focused more on structural similarity than underlying sequence conservation. Members of this set share at least 20% sequence identity with the human target but share similarity at the fold level and possess at least a partial set of conserved functional residue.
+The first gene in this set, CG8938 (GST-S1,
+NP_725653.1
+) encodes a 249 residue glutathione-S-transferase enzyme, which displays 36% identity and 60% similarity to human Hematopoietic Prostaglandin D synthase (HPGDS,
+NP_055300.1
+). HPGDS, alternatively known as Prostaglandin-H2 D-isomerase, is a glutathione-requiring prostaglandin D synthase. HPGDS operates as a homodimer, which can optionally be activated by Ca
+2+
+and Mg
+2+
+to increase catalytic efficiency to 150% of the basal level. Coordination of the metallic ion ligands is coordinated by D93, D96 and D97 [
+88
+]. CG8938 and GST-S1 share an identical domain architecture, with an N-terminal GST-N domain (Pfam ID: PF02798) and a C-terminal GST-C domain (Pfam ID: PF00043). Similarly, CG8938 possesses matches for two of the three aspartic residues required for enhanced catalytic activity, at positions D139 and D143 (corresponding to D93 and D97 in HPGDS). At the corresponding position aligned to D96, CG8938 instead has an asparagine (N142). However, mutagenesis studies by Inouie
+et al
+. have shown that a D to N substitution at this same position in HPGDS actually increases PGD
+2
+synthesis [
+88
+]. In addition to this sequence-based evidence, superposition of the predicted CG8938 structure and human HPGDS (PDB ID: 1IYI; [
+88
+]) reveals an RMSD of 1.045 Å over 160 residues (
+S9 Fig
+).
+The second gene in this set, CG16817 (
+NP_649925.1
+) encodes a 184 residue protein, which displays 27% identity and 45% similarity to human Prostaglandin E synthase 3 (PTGES3,
+NP_006592.3
+). In contrast to PTGES1 and PTGES2 discussed above, PTGES3 is a cytosolic protein. However, all three enzymes share the same catalytic function, i.e., oxidoreduction of prostaglandin endoperoxide H
+2
+(PGH
+2
+) to prostaglandin E
+2
+(PGE
+2
+) [
+89
+]. PTGES3 and CG16817 share an identical domain architecture, with the bipartite CHORD-containing proteins and SGT1 (CS) Domain (Pfam ID: PF04969) spanning the N-terminus to the middle of the protein. The C-terminal region of PTGES3 is notable for showing a compositional bias towards aspartic acid and glutamic acid residues in the range spanning 108 to 160. Currently, only one crystal structure for PTGES3 has been published (PDB ID: 1EJF; [
+90
+]) and this structure is limited to a truncated version of the protein spanning residue 1 to 110,
+i
+.
+e
+., the acidic C-terminal region has not been crystalized. An alignment of PTGES3 and CG16817 shows that CG16817 also displays a compositional bias towards acidic residues at its C-terminus, though it is unclear what role this bias serves in either protein. We were unable to generate a full-length model of CG16817 due to a lack of any suitable template structure for the C-terminal acidic region. However, the truncated CG16817 model (residues 1 to 113) shows an RMSD of 0.823 Å compared to PTGES3 over 160 residues (
+S10 Fig
+).
+The third gene in this set, CG11200 (Carbonyl reductase (CBR),
+NP_611471.1
+) encodes a 355 residue protein that displays 30% identity and 45% similarity to human carbonyl reductase 1 (CBR1,
+NP_001748.1
+). CBR1 is a NADPH-dependent reductase with broad substrate specificity,
+e
+.
+g
+., it can convert PGE
+2
+to PGF
+2α
+. It has been reported that CBR1 binds to NADP via N90 and that Y194 serves as a proton acceptor for the reaction [
+91
+]. A corresponding match for both of these residues can be found in CG11200 at positions N154 and Y233. An alignment of human CBR1 (PDB ID: 3BHJ; [
+92
+]) against the predicted model for CG11200 shows an RMSD of 1.153 Å over 277 residues (
+S11 Fig
+).
+The fourth gene in this set, CG18814 (
+NP_652673.2
+), encodes a 267 amino acid protein that displays 34% identity and 53% similarity to human 15-hydroxyprostaglandin dehydrogenase NAD(+)(HPGD,
+NP_000851.2
+). HPGD catalyzes the conversion of the 15-hydroxyl group of prostaglandins into a keto group, which strongly reduces the biologic activity of these molecules. As a result, HPGD is considered the primary enzyme responsible for degradation of prostaglandins. It has been reported that N91, S138, Q148 and Y151 are required for catalysis [
+93
+]. CG18814 residues N89, S137 and Y150 of CG18814 align with these catalytic residues and are oriented at overlapping or directly adjacent positions in close proximity in the structural alignment of the CG18814 model against the structure of HPGD. CG18814 lacks an obvious analog for Q148, which is located in a flexible loop region. However, CG18814 possesses a structurally-aligned loop region which contains Q142. Q148 and Q142 are located within approximately 5Å of each other and oriented similarly in a static superposition of the predicted model and crystal structure and may be functionally analogous. Moreover, both proteins have an identical domain architecture, with a short-chain dehydrogenase domain (Pfam ID: PF00106) spanning from the N-terminus to approximately residue 180. Superposition of human HPGD (PDB ID: 2GDZ; [
+93
+]) and the predicted structure of CG18814 reveals an RMSD of 0.715 Å over 266 residues (
+S12 Fig
+).
+The fifth and final gene in this set, CG3616 (CYP450-9c1,
+NP_523850.1
+) encodes a cytochrome P450 oxidase, which displays 31% identity and 49% similarity to human Thromboxane A synthase (TBXAS1,
+NP_001052.2
+). TBXAS1 localizes to the endoplasmic reticulum membrane, where it catalyzes the conversion of PGH
+2
+to thromboxane A
+2
+(TBA
+2
+) [
+94
+]. TBXAS1 is categorized as a cytochrome p450 family (CYP450) enzyme based on sequence similarity. This categorization is illustrated by the fact that the only domain identified in TBXAS1 is a Cytochrome P450 domain (Pfam ID: PF00067) spanning most of the protein. CYP450 enzymes are highly conserved in eukaryotes, where they catalyze reactions in drug metabolism and synthesis of cholesterol, steroids and other lipids [
+95
+]. However, this ubiquitous nature of CYP450 enzymes makes it difficult to identify potential orthologs for any one specific enzyme within the family. CG3616 was selected as a candidate from the set of eight fly candidates with similar sequences after taking into account the initial sequence comparison, the transmembrane helix pattern (calculated using TOPCONS [
+96
+]), and the alignment score against a multiple sequence alignment of known or high confidence TBXAS1 orthologs. A structural superposition of a modeled human TBXAS1 (no structure available) with the predicted model of CG3616 showed an RMSD of 0.699 Å over 518 residues (
+S13 Fig
+).
+Group 3: The most distant candidates
+Many of the putative orthologs identified in
+D
+.
+melanogaster
+, although divergent in sequence from the human target, are similar enough that traditional methods for analyzing and aligning sequences can be utilized. However, we identified 6 sequences that could not be detected by or showed low sequence identity and/or low query coverage using traditional sequence alignment algorithms such as BLASTP and therefore, required more intensive analysis.
+The search for a cyclooxygenase ortholog proved to be one of these difficult cases. As noted above, it is widely accepted that
+D
+.
+melanogaster
+lacks a cyclooxygenase ortholog. However, there have been sporadic reports of prostaglandin detected in
+D
+.
+melanogaster
+extracts over the years [
+27
+]. The human genome encodes three major cyclooxygenase isozymes via two loci. PTGS1 encodes COX-1 (a constitutive cyclooxygenase), whereas PTGS2 encodes COX-2 (which is inducible and expressed in a tissue-specific manner). A truncated and poorly characterized isoform of PTGS1, COX-3 is also expressed in certain cells, and reportedly demonstrates reduced prostaglandin synthesis activity relative to COX-1 [
+97
+]. COX-1 and COX-2 operate as homodimers and are characterized by two domains: An N-terminal EGF-like domain (Pfam ID: IPR000742) and an animal heme peroxidase domain (Pfam ID: PF03098). The former allows for association with the cell and nuclear membrane while the latter is responsible for the cyclooxygenase activity. The COX enzymes initiate the prostaglandin synthesis pathway by converting arachidonic acid, or other polyunsaturated fatty acid (PUFA) substrates, into the unstable intermediate PGG
+2
+followed by PGH
+2
+. During this process, it has been reported that a small amount of the PUFA substrate is converted into a racemic mixture of 15-Hydroxyicosatetraenoic acids (
+i
+.
+e
+., 15-HETEs), which may be processed into lipoxins, a poorly understood class of anti-inflammatory eicosanoids. The COX-1 and COX-2 enzymes contain two active sites: a heme with peroxidase activity, responsible for the reduction of PGG
+2
+to PGH
+2
+, and a cyclooxygenase site, where arachidonic acid is converted into the hydroperoxy endoperoxide prostaglandin G
+2
+(PGG
+2
+) [
+6
+]. Extensive studies have been performed on the sheep ortholog of COX-1(
+NP_001009476.1
+; PDB ID: 1CQE), which is a proxy for the human orthologs [
+98
+]. These studies reveal that cyclooxygenase activity is mediated by Y385, which forms a radical capable of abstracting a hydrogen from the PUFA substrate (
+e
+.
+g
+., carbon-13 of arachidonic acid). H207 and H388 are also required for the dual peroxidase and cyclooxygenase functions of these enzymes [
+99
+,
+100
+]. Other functional residues identified in the literature include R120, Q203, V349, and S530 [
+101
+]. R120 interacts with C-1 of the PUFA substrate, arachidonic acid [
+102
+]. Q203 is conserved among mammalian COX enzymes, though the function of this residue is currently unknown. V349 is believed to play a role in substrate specificity; mammalian COX enzymes share this residue and show a substrate preference for arachidonic acid, while invertebrate COX enzymes that have a leucine at this position display specificity for linoleic acid [
+103
+] and S530 acetylation is the basis for COX-2 inhibition by aspirin [
+99
+].
+Although an initial screen of
+D
+.
+melanogaster
+using BLASTP reported similar sequences with local matches, further investigation was needed to confirm if these candidates possessed the requisite features of a COX enzyme. Iterative HMMER searches confirmed four potential candidates: CG4009 (
+NP_650588.2
+), CG6969 (Cardinal,
+NP_651081.1
+), CG7660 (Pxt,
+NP_650648.3
+) and CG3477 (Pxd,
+NP_996223.1
+). Each of these candidates was added to a previously generated multiple sequence alignment containing PTGS1 and known or high confidence predicted orthologs using MAFFT as illustrated for CG4009 in
+Fig 2
+. The presence or absence of functional residues at or near aligned positions was noted. Similarly, the candidates were analyzed to determine the secondary structure and domain architecture of each protein. Following this filtering step, only three proteins remained as viable candidates for further study: CG4009, CG6969, and CG7660. CG7660 has been shown to demonstrate COX-like activity that plays an important role in Drosophila reproduction [
+29
+]. All three candidates appear to have the requisite catalytic triad and share a similar domain architecture, though they each lack the N-terminal EGF-like domain. Putative analogs for the H206, Y384 and H387 catalytic triad appear to be present on CG4009 at H163, Y399, H401 and on CG7660 at H222, Y564, H568, respectively.
+Fig 2. A multiple sequence alignment of the
+D
+.
+melanogaster
+candidate CG4009 with human PTGS1 and known or high confidence predicted orthologs.
+Open in a new tab
+Red asterisks below the MSA denotes conserved key catalytic residues. The green asterisk marks the putative analog for the tyrosine. The blue asterisk denotes an insertion of 42 residues in CG4009 and reads X in the alignment.
+Structural models of CG4009, CG6969, and CG7660 were built and validated as described above. PTGS1 (PDB ID: 3N8V; [
+104
+]) and the predicted structure for CG4009 both display a cyclooxygenase fold, and the predicted catalytic domains are superimposable with an RMSD of 2.660 Å over 599 residues (
+S14 Fig
+). CG7660 and CG6969 each display a similar tertiary structure and with predicted catalytic domains that overlap with PTGS1 with an RMSD of 2.810 and 2.942 Å, respectively. The predicted structures differ from PTGS1 at their N-termini, which is expected given the absence of the EGF-like domain, though the CG4009 structure is marginally closer. However, these three structures present the necessary catalytic residues in a similar orientation as in PTGS1 and so likely possess cyclooxygenase activity.
+The search for a potential ortholog for PTGDS also proved to be difficult. PTGDS is a second prostaglandin-D-synthase, which operates in conjunction with the isozyme HPGDS (discussed previously). BLAST-based searching failed to identify any
+D
+.
+melanogaster
+candidates for the human enzyme (
+NP_000945.3
+). However, iterative HMMER searches suggested CG33126 (Neural Lazarillo (NLaz),
+NP_787960.1
+) merits further scrutiny despite having only 12% identity and 31% similarity to PTGDS based on a structure based sequence alignment. Both proteins share similar domain architecture, namely a Lipocalin domain (Pfam ID: PF00061), which is known to take the form of a beta barrel structure. Structural superposition revealed that human PTGDS (PDB ID: 5WY9; unpublished) and the CG33126 model overlap with an RMSD of 2.084 Å over 190 residues and that CG33126 has an aligned match for PTGDS’s catalytic cysteine (C65) at position C67 [
+105
+]. CG33126 contains an N-terminal alpha helix that is absent from PTGDS, however this helix is predicted to be a signal peptide. PTGDS contains a similar N-terminal signal peptide that is cleaved during processing
+i
+.
+e
+., omitted from the 5WY9 crystal structure (
+S15 Fig
+).
+Prostacyclin synthase (PTGIS) is another enzyme that does not have a clear ortholog in
+D
+.
+melanogaster
+. PTGIS catalyzes the isomerization of PGH
+2
+to prostacyclin, the only prostaglandin with a bicyclic ring structure [
+106
+]. PTGIS encodes a 500 amino acid enzyme characterized by a cytochrome p450 family domain ranging from position 30 to 494. The N-terminus is predicted to contain a 200 amino acid signal sequence. BLAST and iterative HMMER searches reveal multiple high-scoring full length matches among the various CYP450 enzymes encoded in the
+D
+.
+melanogaster
+genome. However, CG3466 (CYP450-4d2,
+NP_525043.1
+) was identified as the top candidate based upon similarity of its secondary structure profile. CG3466 possesses an aligned match for PTGIS’s heme axial ligand (C441) at position C449. PTGIS (PDB ID: 2IAG; [
+107
+]) and the modeled CG3466 are superimposable with an RMSD of 1.213 Å over 500 residues, despite sharing only 14% identity and 30% similarity at the sequence level gauged from a structure based sequence alignment (
+S16 Fig
+).
+Leukotriene C4 synthase (LTC4S), is a 150 amino acid enzyme that catalyzes the conjugation of leukotriene A4 with reduced glutathione to form leukotriene C4. BLAST searches against
+D
+.
+melanogaster
+fail to identify an obvious ortholog. However, an iterative HMMER search identified the 165 amino acid protein CG33178 (
+NP_788904.1
+) as a potential candidate. The two proteins share full length identity of 18% and similarity of 31% discerned from a structure based sequence alignment and have an identical domain architecture in the form of a single MAPEG domain (Pfam ID: PF01124) spanning the bulk of the protein. Studies of the crystal structure of LTC4S (PDB ID: 2PNO; [
+108
+]) have revealed that it is an integral membrane protein composed of four transmembrane helices and that it functions as a homotrimer. The predicted model of CG33178 displays a similar fold, consisting of a bundle of four alpha helices, and it superimposes on 2PNO with an RMSD of 1.257 Å over 150 residues (
+S17 Fig
+). CG33178 also displays potential equivalents for each of LTC4S’s catalytically relevant residues (R30, R31 and R104) at positions R51, R53 and R139.
+Arachidonate 5-lipoxygenase-activating protein (ALOX5AP,
+NP_001620.2
+), the final target protein in this set, is required for leukotriene synthesis by arachidonate 5-lipoxygenase (ALOX5). It has been reported that ALOX5AP functions by binding ALOX5 to the membrane and loading polyunsaturated fatty acid substrates (e.g., arachidonic acid) onto ALOX5 for conversion into leukotriene A
+4
+. Like LTC4S above, ALOX5AP is a MAPEG family protein that functions as a membrane-associated homotrimer. BLAST searches for a potential ortholog do not identify a clear match in
+D
+.
+melanogaster
+, though iterative HMMER searches reveal CG33177 and CG33178 as potential candidates. Both are MAPEG family proteins with highly similar sequences and predicted tertiary structures. CG33178 displays greater sequence similarity to LTC4S and analogs for the catalytically relevant residues and so was assigned as the top candidate for LTC4S. As a result, CG33177 was selected as the top candidate for a potential ortholog for ALOX5AP. The CG33177 structural model displays 13% identity and 28% similarity with human ALOX5A based on a structural overlap (PDB ID: 2Q7M; [
+109
+]) with an RMSD of 1.024 Å over 161 residues (
+S18 Fig
+).
+Discussion
+A schematic of a putative
+D
+.
+melanogaster
+eicosanoid synthesis pathway based on our analysis is shown in
+Fig 3
+. Notably, the pathway appears to account for a full complement of prostaglandin synthesis enzymes. A functional thromboxane synthesis pathway may also be present, as potential orthologs for thromboxane A synthase have been identified. However, given the structural and sequence similarity of TBXA synthase to the numerous functionally unrelated cytochrome P450 oxidase in the
+D
+.
+melanogaster
+genome, speculation must be reserved pending experimental validation.
+Fig 3. A theoretical eicosanoid synthesis pathway in
+D
+.
+melanogaster
+.
+Open in a new tab
+A graphical overview of fly candidates in the putative pathway shown alongside the human enzymes as well as superposed with it. Boxed names represent the intermediates or end products (Red: Prostaglandins; Blue: Thromboxanes; Green: Leukotrienes; Yellow: HETEs). Enzymes for which orthologs could not be identified are represented by dashed ovals. The three candidate groups are marked next to the enzymes in a similar manner as
+Table 1
+: high-confidence (regular font; Group 1), mid-range (
+underlined; Group 2
+), and distant (
+italicized and bold font; Group 3
+).
+The existence of a leukotriene synthesis arm of the pathway could not be fully resolved since a thorough search of the
+D
+.
+melanogaster
+genome has failed to identify a potential lipoxygenase, which is critical for the initial processing of the PUFA substrate into leukotriene intermediates. Interestingly, potential orthologs exist for each of the downstream leukotriene processing enzymes. Based upon our current understanding of the mammalian pathway, a functional lipoxygenase is necessary for HETE intermediates and the corresponding final products (
+e
+.
+g
+., lipoxins and other non-canonical eicosanoids) [
+110
+].
+Our data challenges that view that
+D
+.
+melanogaster
+lacks a functional eicosanoid synthesis pathway [
+110
+–
+112
+] and suggests that it may in fact possess potential orthologs for some or majority of the eicosanoid synthesis enzymes. These candidates may have thus far eluded detection because of high sequence divergence compared to the mammalian enzymes. However, the modeling results from our study, suggest that these candidates share the same overall fold and matches for the known or predicted catalytic residues. The prediction of eicosanoid synthesis enzymes may explain the
+in vivo
+effects of aspirin and prostaglandins in oogenesis [
+29
+] and possibly the existence of eicosanoid-like compounds in
+D
+.
+melanogaster
+[
+27
+,
+28
+,
+113
+]. Our results however raise many questions: (a) What are the exact roles of individual enzymes; do they catalyze the reactions their structures predict they should? (b) What are the intermediate and final end products of the pathway? (c) What are the principal physiological events these intermediate and final biosynthetic products control and how similar are the signaling mechanisms by which their effects are mediated in cells and tissues?
+The apparent absence of lipoxygenase may be explained in part by the multiple cyclooxygenase genes in the
+D
+.
+melanogaster
+genome where one of more of these may only or also possess lipoxygenase like activity. Dual function cyclooxygenases can generate prostaglandins and lipoxygenase products (e.g. HPETEs). For example, mammalian cyclooxygenases can produce limited amounts of 11- and 15-HPETE as a by-product in addition to PGH [
+114
+–
+116
+] and aspirin-acetylated COX-2 has been shown to produce 15R-HETEs [
+117
+]. Similar activity by one of the putative
+D
+.
+melanogaster
+COX orthologs could provide upstream processing needed for 11- and 15-HPETE, though this fails to provide the 5-HPETE intermediate needed for downstream leukotriene synthesis. Alternatively, 5-HETEs may be produced using an unconventional mechanism by the COX candidates or perhaps by an unidentified enzyme.
+The existence of structurally conserved downstream leukotriene synthesis enzymes suggests that the upstream intermediates are likely present in some form.
+Drosophila
+may possess a CYP450 enzyme capable of synthesizing 5-HETE; lipoxygenase-like CYP450s have been identified that produce 5-, 8-, 9-, 11-, 12- and 20-HETEs [
+118
+,
+119
+]. Recent studies have reported on bacterial lipoxygenases which are highly divergent from animal and plant lipoxygenases, both in terms of overall sequence conservation and the presence of expected catalytic residues [
+120
+]. There is also a possibility that
+D
+.
+melanogaster
+and other insect expresses a functional 5-LOX that differs radically from the canonical profile of a lipoxygenase.
+The existence of a functional eicosanoid synthesis pathway requires both the presence of the requisite synthetic enzymes and suitable substrates. The mammalian eicosanoids are primarily derived from 20-carbon PUFAs (arachidonic acid, eicosapentaenoic acid and dihomo-γ-linolenic acid), as well as from 18-carbon PUFAs (γ-linolenic acid, α-linolenic acid and linoleic acid). In the vertebrate pathway, the 18-carbon fatty acids linoleic acid and α-linolenic acid can be processed into the 20-carbon PUFAs arachidonic acid and eicosapentaenoic acid, respectively, via a three-step process involving a Δ6 desaturase, an elongase, and, a Δ5 desaturase. These 20-carbon PUFAs are then capable of being processed by COX or LOX to generate the canonical eicosanoids. 18-carbon PUFAs (
+e
+.
+g
+., linoleic acid) may also be processed by 15-LOX into 9- and 13-HODEs, a subfamily of non-canonical eicosanoids.
+According to previous studies
+Drosophila
+appear to lack homologs for the mammalian Δ5 and Δ6 desaturases based upon sequence analyses, and so it should be unable to synthesize 20–22 carbon PUFAs from essential fatty acid precursors [
+112
+]. Furthermore, flies raised in the absence of 20-carbon PUFAs for several generations remain healthy, implying that 20-carbon PUFAs are non-essential [
+112
+]. Thus, it is generally accepted that
+Drosophila
+rely on PUFAs obtained from its vegetarian diet, which is generally limited to the essential 18-carbon fatty acids linoleic acid (18:2n-6) and α-linolenic acid (18:3n-3). Based on the current understanding that
+D
+.
+melanogaster
+lacks Δ5 and Δ6 desaturase activity, it would be expected that the 18-carbon PUFAs obtained from its diet are processed into HODEs as opposed to eicosanoid derivatives of the 20-carbon PUFAs. Recent studies have validated this hypothesis, and confirmed the presence of 9- and 13-HODEs in
+D
+.
+melanogaster
+extracts (Govind lab, unpublished work); [
+121
+]. However, given the reports of prostaglandin-like molecules in
+D
+.
+melanogaster
+extracts, it is probable that additional lipid processing occurs to produce compounds similar to the canonical eicosanoids but the biosynthetic components have not been identified yet. Further computational and experimental work is needed to fully resolve these issues.
+Altogether, the present study suggests that
+D
+.
+melanogaster
+may possess a functional equivalent for the mammalian eicosanoid synthesis pathway. Our results highlight the need for customizing advanced prediction methods to identify orthologs, and to build structural models that predict the requisite biochemistry for function. These findings, combined with other recent biochemical studies, suggest the possibility that
+D
+.
+melanogaster
+likely utilizes eicosanoid signaling. However, further experimental studies will be needed to be address the exact role and physiological context of these biosynthetic enzymes. The importance of our study lies in opening up this powerful model organism for the study of eicosanoid signaling, in the context of inflammation as well as non-inflammation related physiology.
+Supporting information
+S1 Fig. Sequence and structural details of the modeled fly PTGES candidate.
+A. Domain architecture of PTGES and CG1742 and known/predicted functional residues B. Pairwise alignment of CG1742 and 4AL0 generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with a red asterisk) C. Pairwise alignment of CG1742 and 4AL0 generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG1742 model: ProQ2 quality score mapped to a 3D model of CG1742 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. PTGES (4AL0, cyan-blue) superimposed on the predicted structure of CG1742 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by PTGES and potential
+D
+.
+melanogaster
+ortholog CG1742.
+(PDF)
+Click here for additional data file.
+(1.3MB, pdf)
+S2 Fig. Sequence and structural details of the modeled fly PTGES2 candidate.
+A. Domain architecture of PTGES2 and CG4086 and known/predicted functional residues B. Pairwise alignment of CG4086 and 1Z9H generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with a red asterisk) C. Pairwise alignment of CG4086 and 1Z9H generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG4086 model: ProQ2 quality score mapped to a 3D model of CG4086 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. Truncated PTGES2 (1Z9H, cyan-blue) superimposed on the predicted structure of CG4086 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by PTGES2 and potential
+D
+.
+melanogaster
+ortholog CG4086.
+(PDF)
+Click here for additional data file.
+(2.1MB, pdf)
+S3 Fig. Sequence and structural details of the modeled fly Prostacyclin F synthase candidate.
+A. Domain architecture of AKR1A1 and CG6084 and known/predicted functional residues B. Pairwise alignment of CG6084 and 2ALR generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with a red asterisk) C. Pairwise alignment of CG6084 and 2ALR generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG6084 model: ProQ2 quality score mapped to a 3D model of CG6084 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. AKR1A1 (2ALR, cyan-blue) superimposed on the predicted structure of CG6084 (green-red). RMSD: 0.847 Å with potential matches for conserved functional residues highlighted F. Summary of features shared by Prostacyclin F synthase and potential
+D
+.
+melanogaster
+ortholog CG6084.
+(PDF)
+Click here for additional data file.
+(1.5MB, pdf)
+S4 Fig. Sequence and structural details of the modeled fly LTA4H candidate.
+A. Domain architecture of LTA4H and CG10602 and known/predicted functional residues B. Pairwise alignment of CG10602 and 3B7U generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks) C. Pairwise alignment of CG10602 and 3B7U generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG10602 model: ProQ2 quality score mapped to a 3D model of CG10602 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. LTA4H (3B7U, cyan-blue) superimposed on the predicted structure of CG10602 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by LTA4H and potential
+D
+.
+melanogaster
+ortholog CG10602.
+(PDF)
+Click here for additional data file.
+(2.2MB, pdf)
+S5 Fig. Sequence and structural details of the modeled fly GGT1 candidate.
+A. Domain architecture of GGT1 and CG6461 and known/predicted functional residues B. Pairwise alignment of CG6461 and 4GDX generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks) C. Pairwise alignment of CG6461 and 4GDX generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG6461 model: ProQ2 quality score mapped to a 3D model of CG6461 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. GGT1 (4GDX, cyan-blue) superimposed on the predicted structure of CG6461 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by GGT1 and potential
+D
+.
+melanogaster
+ortholog CG6461.
+(PDF)
+Click here for additional data file.
+(2.2MB, pdf)
+S6 Fig. Sequence and structural details of the modeled fly DPEP1 candidate.
+A. Domain architecture of DPEP1 and CG6154 and known/predicted functional residues B. Pairwise alignment of CG6154 and 1ITQ generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks) C. Pairwise alignment of CG6154 and 1ITQ generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG6154 model: ProQ2 quality score mapped to a 3D model of CG6154 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. DPEP1 (1ITQ, cyan-blue) superimposed on the predicted structure of CG6154 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by DPEP1 and potential
+D
+.
+melanogaster
+ortholog CG6154.
+(PDF)
+Click here for additional data file.
+(2MB, pdf)
+S7 Fig. Sequence and structural details of the modeled fly GPX1 candidate.
+A. Domain architecture of GPX1 and CG12013 and known/predicted functional residues B. Pairwise alignment of CG12013 and 2F8A generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisk; in the GPX1 crystal structure, the selenocysteine is mutated to a glycine) C. Pairwise alignment of CG12013 and 2F8A generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG12013 model: ProQ2 quality score mapped to a 3D model of CG12013 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. GPX1 (2F8A, cyan-blue) superimposed on the predicted structure of CG12013 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by GPX1 and potential
+D
+.
+melanogaster
+ortholog CG12013.
+(PDF)
+Click here for additional data file.
+(1.1MB, pdf)
+S8 Fig. Sequence and structural details of the modeled fly CPA1 candidate.
+A. Domain architecture of CPA1 and CG18585 and known/predicted functional residues B. Pairwise alignment of CG18585 and 3FJU generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks) C. Pairwise alignment of CG18585 and 3FJU generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG18585 model: ProQ2 quality score mapped to a 3D model of CG18585 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. CPA1 (3FJU, cyan-blue) superimposed on the predicted structure of CG18585 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by CPA1 and potential
+D
+.
+melanogaster
+ortholog CG18585.
+(PDF)
+Click here for additional data file.
+(1.8MB, pdf)
+S9 Fig. Sequence and structural details of the modeled fly HPGDS candidate.
+A. Domain architecture of HPGDS and CG8938 and known/predicted functional residues B. Pairwise alignment of CG8938 and 1IYI generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks) C. Pairwise alignment of CG8938 and 1IYI generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG8938 model: ProQ2 quality score mapped to a 3D model of CG8938 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. CPA1 (1IYI, cyan-blue) superimposed on the predicted structure of CG8938 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by HPGDS and potential
+D
+.
+melanogaster
+ortholog CG8938.
+(PDF)
+Click here for additional data file.
+(1.3MB, pdf)
+S10 Fig. Sequence and structural details of the modeled fly PTGES3 candidate.
+A. Domain architecture of PTGES3 and CG16817 and known/predicted functional residues B. Pairwise alignment of CG16817 and 1EFJ generated from structural superposition showing shared secondary structure elements C. Pairwise alignment of CG16817 and 1EFJ generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG16817 model: ProQ2 quality score mapped to a 3D model of CG16817 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. CPA1 (1EFJ, cyan-blue) superimposed on the predicted structure of CG16817 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by PTGES3 and potential
+D
+.
+melanogaster
+ortholog CG16817.
+(PDF)
+Click here for additional data file.
+(1.5MB, pdf)
+S11 Fig. Sequence and structural details of the modeled fly CBR1 candidate.
+A. Domain architecture of CBR1 and CG11200 and known/predicted functional residues B. Pairwise alignment of CG11200 and 3BHJ generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks) C. Pairwise alignment of CG11200 and 3BHJ generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG11200 model: ProQ2 quality score mapped to a 3D model of CG11200 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. CPA1 (3BHJ, cyan-blue) superimposed on the predicted structure of CG11200 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by CBR1 and potential
+D
+.
+melanogaster
+ortholog CG11200.
+(PDF)
+Click here for additional data file.
+(1.5MB, pdf)
+S12 Fig. Sequence and structural details of the modeled fly HPGD candidate.
+A. Domain architecture of HPGD and CG18814 and known/predicted functional residues B. Pairwise alignment of CG18814 and 2GDZ generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks) C. Pairwise alignment of CG18814 and 2GDZ generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG18814 model: ProQ2 quality score mapped to a 3D model of CG18814 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. HPGD (2GDZ, cyan-blue) superimposed on the predicted structure of CG18814 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by HPGD and potential
+D
+.
+melanogaster
+ortholog CG18814.
+(PDF)
+Click here for additional data file.
+(1,002KB, pdf)
+S13 Fig. Sequence and structural details of the modeled fly TBXAS1 candidate.
+A. Domain architecture of TBXAS1 and CG3616 and known/predicted functional residues B. Pairwise alignment of CG3616 and the modeled human TBXAS1 generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with a red asterisk) C. Pairwise alignment of CG3616 and the modeled human TBXAS1 generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG3616 model: ProQ2 quality score mapped to a 3D model of CG3616 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. TBXAS1 (model, cyan-blue) superimposed on the predicted structure of CG3616 (green-red) F. Summary of features shared by TBXAS1 and potential
+D
+.
+melanogaster
+ortholog CG3616.
+(PDF)
+Click here for additional data file.
+(1.9MB, pdf)
+S14 Fig. Sequence and structural details of the modeled fly PTGS1 candidate.
+A. Domain architecture of PTGS1 and CG4009 and known/predicted functional residues B. Pairwise alignment of CG4009 and 3N8V generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisk; the green asterisk marks the putative analog for Y384) C. Pairwise alignment of CG4009 and 3N8V generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG4009 model: ProQ2 quality score mapped to a 3D model of CG4009 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. PTGS1 (3N8V, cyan-blue) superimposed on the predicted structure of CG4009 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by PTGS1 and potential
+D
+.
+melanogaster
+ortholog CG4009.
+(PDF)
+Click here for additional data file.
+(2.2MB, pdf)
+S15 Fig. Sequence and structural details of the modeled fly PTGDS candidate.
+A. Domain architecture of PTGDS and CG33126 and known/predicted functional residues B. Pairwise alignment of CG33126 and 5WY9 generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with a red asterisk; the green asterisk denotes the putative analog for C65) C. Pairwise alignment of CG33126 and 5WY9 generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG33126 model: ProQ2 quality score mapped to a 3D model of CG33126 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. PTGDS (5WY9, cyan-blue) superimposed on the predicted structure of CG33126 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by PTGDS and potential
+D
+.
+melanogaster
+ortholog CG33126.
+(PDF)
+Click here for additional data file.
+(1.2MB, pdf)
+S16 Fig. Sequence and structural details of the modeled fly PTGIS candidate.
+A. Domain architecture of PTG1S and CG3466 and known/predicted functional residues B. Pairwise alignment of CG34666 and 2IAG generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with a red asterisk) C. Pairwise alignment of CG3466 and 2IAG generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG3466 model: ProQ2 quality score mapped to a 3D model of CG3466 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. PTG1S (2IAG, cyan-blue) superimposed on the predicted structure of CG3466 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by PTG1S and potential
+D
+.
+melanogaster
+ortholog CG3466.
+(PDF)
+Click here for additional data file.
+(1.9MB, pdf)
+S17 Fig. Sequence and structural details of the modeled fly LTC4S candidate.
+A. Domain architecture of LTCS4 and CG33178 and known/predicted functional residues B. Pairwise alignment of CG33178 and 2PNO generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks; the green asterisk denotes the analog for R31) C. Pairwise alignment of CG33178 and 2PNO generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG33178 model: ProQ2 quality score mapped to a 3D model of CG33178 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. LTCS4 (2PNO, cyan-blue) superimposed on the predicted structure of CG33178 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by LTCS4 and potential
+D
+.
+melanogaster
+ortholog CG33178.
+(PDF)
+Click here for additional data file.
+(1,006.5KB, pdf)
+S18 Fig. Sequence and structural details of the modeled fly ALOX5AP candidate.
+A. Domain architecture of ALOX5AP and CG33177 and known/predicted functional residues B. Pairwise alignment of CG33177 and 2Q7M generated from structural superposition showing shared secondary structure elements C. Pairwise alignment of CG33177 and 2Q7M generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG33177 model: ProQ2 quality score mapped to a 3D model of CG33177 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. ALOX5AP (2Q7M, cyan-blue) superimposed on the predicted structure of CG33177 (green-red) F. Summary of features shared by ALOX5AP and potential
+D
+.
+melanogaster
+ortholog CG33177.
+(PDF)
+Click here for additional data file.
+(1.5MB, pdf)
+Data Availability
+All relevant data are within the paper and its Supporting Information files.
+Funding Statement
+This work was supported in part by PSC CUNY 61298-00 49 and NSF 0618233 to SMS and NASA NNX15AB42G to SG.
+References
+1.
+Boyce JA. Eicosanoids in asthma, allergic inflammation, and host defense. Curr Mol Med. 2008;8: 335–349.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Khanapure SP, Garvey DS, Janero DR, Letts LG. Eicosanoids in inflammation: biosynthesis, pharmacology, and therapeutic frontiers. Curr Top Med Chem. 2007;7: 311–340.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Rocha PN, Plumb TJ, Coffman TM. Eicosanoids: lipid mediators of inflammation in transplantation. Springer Semin Immunopathol. 2003;25: 215–227. 10.1007/s00281-003-0132-4
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Balsinde J, Winstead MV, Dennis EA. Phospholipase A(2) regulation of arachidonic acid mobilization. FEBS Lett. 2002;531: 2–6.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Gijón MA, Leslie CC. Regulation of arachidonic acid release and cytosolic phospholipase A2 activation. J Leukoc Biol. 1999;65: 330–336.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Chandrasekharan NV, Simmons DL. The cyclooxygenases. Genome Biol. 2004;5: 241
+10.1186/gb-2004-5-9-241
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Groeger AL, Cipollina C, Cole MP, Woodcock SR, Bonacci G, Rudolph TK, et al. 
+Cyclooxygenase-2 generates anti-inflammatory mediators from omega-3 fatty acids. Nat Chem Biol. 2010;6: 433–441. 10.1038/nchembio.367
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Serhan CN, Hong S, Gronert K, Colgan SP, Devchand PR, Mirick G, et al. 
+Resolvins: a family of bioactive products of omega-3 fatty acid transformation circuits initiated by aspirin treatment that counter proinflammation signals. J Exp Med. 2002;196: 1025–1037.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Ivanov I, Heydeck D, Hofheinz K, Roffeis J, O’Donnell VB, Kuhn H, et al. 
+Molecular enzymology of lipoxygenases. Arch Biochem Biophys. 2010;503: 161–174. 10.1016/j.abb.2010.08.016
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Fang X, Kaduce TL, Spector AA. 13-(S)-hydroxyoctadecadienoic acid (13-HODE) incorporation and conversion to novel products by endothelial cells. J Lipid Res. 1999;40: 699–707.
+[
+PubMed
+] [
+Google Scholar
+]
+11.
+Yoshida Y, Kodai S, Takemura S, Minamiyama Y, Niki E. Simultaneous measurement of F2-isoprostane, hydroxyoctadecadienoic acid, hydroxyeicosatetraenoic acid, and hydroxycholesterols from physiological samples. Anal Biochem. 2008;379: 105–115. 10.1016/j.ab.2008.04.028
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Spector AA. Arachidonic acid cytochrome P450 epoxygenase pathway. J Lipid Res. 2009;50
+Suppl: 52
+10.1194/jlr.R800038-JLR200
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Funk CD. Prostaglandins and leukotrienes: advances in eicosanoid biology. Science. 2001;294: 1871–1875. 10.1126/science.294.5548.1871
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+Shimizu T. Lipid mediators in health and disease: enzymes and receptors as therapeutic targets for the regulation of immunity and inflammation. Annu Rev Pharmacol Toxicol. 2009;49: 123–150. 10.1146/annurev.pharmtox.011008.145616
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Wang D, Dubois RN. Eicosanoids and cancer. Nat Rev Cancer. 2010;10: 181–193. 10.1038/nrc2809
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Vecchio AJ, Simmons DM, Malkowski MG. Structural basis of fatty acid substrate binding to cyclooxygenase-2. J Biol Chem. 2010;285: 22152–22163. 10.1074/jbc.M110.119867
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Malkowski MG, Thuresson ED, Lakkides KM, Rieke CJ, Micielli R, Smith WL, et al. 
+Structure of eicosapentaenoic and linoleic acids in the cyclooxygenase site of prostaglandin endoperoxide H synthase-1. J Biol Chem. 2001;276: 37547–37555. 10.1074/jbc.M105982200
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Vecchio AJ, Orlando BJ, Nandagiri R, Malkowski MG. Investigating substrate promiscuity in cyclooxygenase-2: the role of Arg-120 and residues lining the hydrophobic groove. J Biol Chem. 2012;287: 24619–24630. 10.1074/jbc.M112.372243
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Dubois RN, Abramson SB, Crofford L, Gupta RA, Simon LS, Van De Putte L B, et al. 
+Cyclooxygenase in biology and disease. FASEB J. 1998;12: 1063–1073.
+[
+PubMed
+] [
+Google Scholar
+]
+20.
+Funk CD. The molecular biology of mammalian lipoxygenases and the quest for eicosanoid functions using lipoxygenase-deficient mice. Biochim Biophys Acta. 1996;1304: 65–84.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Adrian TE, Hennig R, Friess H, Ding X. The Role of PPARgamma Receptors and Leukotriene B(4) Receptors in Mediating the Effects of LY293111 in Pancreatic Cancer. PPAR Res. 2008;2008: 827096
+10.1155/2008/827096
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Peters-Golden M, Brock TG. 5-lipoxygenase and FLAP. Prostaglandins Leukot Essent Fatty Acids. 2003;69: 99–109.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Sobrado M, Pereira MP, Ballesteros I, Hurtado O, Fernández-López D, Pradillo JM, et al. 
+Synthesis of lipoxin A4 by 5-lipoxygenase mediates PPARgamma-dependent, neuroprotective effects of rosiglitazone in experimental stroke. J Neurosci. 2009;29: 3875–3884. 10.1523/JNEUROSCI.5529-08.2009
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Järving R, Järving I, Kurg R, Brash AR, Samel N. On the evolutionary origin of cyclooxygenase (COX) isozymes: characterization of marine invertebrate COX genes points to independent duplication events in vertebrate and invertebrate lineages. J Biol Chem. 2004;279: 13624–13633. 10.1074/jbc.M313258200
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+25.
+Bundy GL. Nonmammalian sources of eicosanoids. Adv Prostaglandin Thromboxane Leukot Res. 1985;14: 229–262.
+[
+PubMed
+] [
+Google Scholar
+]
+26.
+Casas J, Roselló J, Gelpí E, Camps F, Baldellou M, Bellés X, et al. 
+Determination by HPLC-RIA of immunoreactive prostaglandin E2 in Blattella germanica and Gryllus bimaculatus. Rev Esp Fisiol. 1986;42: 507–511.
+[
+PubMed
+] [
+Google Scholar
+]
+27.
+Kim Y, Ahmed S, Stanley D, An C. Eicosanoid-mediated immunity in insects. Dev Comp Immunol. 2018;83: 130–143. 10.1016/j.dci.2017.12.005
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Pagés M, Roselló J, Casa J, Gelpí E, Gualde N, Rigaud M. Cyclooxygenase and lipoxygenase-like activity in drosophila melanogaster. Prostaglandins. 1986;32: 729–740. 10.1016/0090-6980(86)90195-4
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Tootle TL, Spradling AC. Drosophila Pxt: a cyclooxygenase-like facilitator of follicle maturation. Development. 2008;135: 839–847. 10.1242/dev.017590
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+Park J, Stanley D, Kim Y. Roles of peroxinectin in PGE2-mediated cellular immunity in Spodoptera exigua. PLoS ONE. 2014;9: e105717
+10.1371/journal.pone.0105717
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+31.
+Ragab A, Bitsch C, Thomas JMF, Bitsch J, Chap H. Lipoxygenase conversion of arachidonic acid in males and inseminated females of the firebrat, Thermobia domestica (Thysanura). Insect Biochemistry. 1987;17: 863–870. 10.1016/0020-1790(87)90021-7
+[
+DOI
+] [
+Google Scholar
+]
+32.
+Liavonchanka A, Feussner I. Lipoxygenases: occurrence, functions and catalysis. J Plant Physiol. 2006;163: 348–357. 10.1016/j.jplph.2005.11.006
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Pruitt KD, Brown GR, Hiatt SM, Thibaud-Nissen F, Astashyn A, Ermolaeva O, et al. 
+RefSeq: an update on mammalian reference sequences. Nucleic Acids Res. 2014;42: 756
+10.1093/nar/gkt1114
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Kanehisa M, Goto S. KEGG: kyoto encyclopedia of genes and genomes. Nucleic Acids Res. 2000;28: 27–30.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Pei J, Grishin NV. PROMALS3D: multiple protein sequence alignment enhanced with evolutionary and three-dimensional structural information. Methods Mol Biol. 2014;1079: 263–271. 10.1007/978-1-62703-646-7_17
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+36.
+Finn RD, Bateman A, Clements J, Coggill P, Eberhardt RY, Eddy SR, et al. 
+Pfam: the protein families database. Nucleic Acids Res. 2014;42: 222
+10.1093/nar/gkt1223
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+37.
+Jones P, Binns D, Chang H, Fraser M, Li W, McAnulla C, et al. 
+InterProScan 5: genome-scale protein function classification. Bioinformatics. 2014;30: 1236–1240. 10.1093/bioinformatics/btu031
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+38.
+Pundir S, Magrane M, Martin MJ, O’Donovan C. Searching and Navigating UniProt Databases. Curr Protoc Bioinformatics. 2015;50: 10.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+39.
+Buchan DWA, Minneci F, Nugent TCO, Bryson K, Jones DT. Scalable web services for the PSIPRED Protein Analysis Workbench. Nucleic Acids Res. 2013;41: 349
+10.1093/nar/gkt381
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+40.
+Drozdetskiy A, Cole C, Procter J, Barton GJ. JPred4: a protein secondary structure prediction server. Nucleic Acids Res. 2015;43: 389
+10.1093/nar/gkv332
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+41.
+Yan R, Xu D, Yang J, Walker S, Zhang Y. A comparative assessment and analysis of 20 representative sequence alignment methods for protein structure prediction. Sci Rep. 2013;3: 2619
+10.1038/srep02619
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+42.
+Boratyn GM, Schäffer AA, Agarwala R, Altschul SF, Lipman DJ, Madden TL. Domain enhanced lookup time accelerated BLAST. Biol Direct. 2012;7: 12
+10.1186/1745-6150-7-12
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+43.
+Altschul SF, Madden TL, Schäffer AA, Zhang J, Zhang Z, Miller W, et al. 
+Gapped BLAST and PSI-BLAST: a new generation of protein database search programs. Nucleic Acids Res. 1997;25: 3389–3402.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+44.
+Finn RD, Clements J, Eddy SR. HMMER web server: interactive sequence similarity searching. Nucleic Acids Res. 2011;39: 29
+10.1093/nar/gkr367
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+45.
+John B, Sali A. Comparative protein structure modeling by iterative alignment, model building and model assessment. Nucleic Acids Res. 2003;31: 3982–3992.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+46.
+Wu S, Zhang Y. LOMETS: a local meta-threading-server for protein structure prediction. Nucleic Acids Res. 2007;35: 3375–3382. 10.1093/nar/gkm251
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+47.
+Zhang Y. I-TASSER server for protein 3D structure prediction. BMC Bioinformatics. 2008;9: 40
+10.1186/1471-2105-9-40
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+48.
+Webb B, Sali A. Comparative Protein Structure Modeling Using MODELLER. Curr Protoc Bioinformatics. 2014;47: 32
+10.1002/0471250953.bi0506s47
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+49.
+Nayeem A, Sitkoff D, Krystek S. A comparative study of available software for high-accuracy homology modeling: from sequence alignments to structural models. Protein Sci. 2006;15: 808–824. 10.1110/ps.051892906
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+50.
+Roy A, Kucukural A, Zhang Y. I-TASSER: a unified platform for automated protein structure and function prediction. Nat Protoc. 2010;5: 725–738. 10.1038/nprot.2010.5
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+51.
+Khor BY, Tye GJ, Lim TS, Choong YS. General overview on structure prediction of twilight-zone proteins. Theor Biol Med Model. 2015;12: 15
+10.1186/s12976-015-0014-1
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+52.
+Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, et al. 
+The Protein Data Bank. Nucleic Acids Res. 2000;28: 235–242.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+53.
+Katoh K, Misawa K, Kuma K, Miyata T. MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform. Nucleic Acids Res. 2002;30: 3059–3066.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+54.
+Poirot O, O’Toole E, Notredame C. Tcoffee@igs: a web server for computing, evaluating and combining multiple sequence alignments. Nucleic Acids Research. 2003;31: 3503–3506. 10.1093/nar/gkg522
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+55.
+Xu D, Zhang Y. Improving the physical realism and structural accuracy of protein models by a two-step atomic-level energy minimization. Biophys J. 2011;101: 2525–2534. 10.1016/j.bpj.2011.10.024
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+56.
+Wiederstein M, Sippl MJ. ProSA-web: interactive web service for the recognition of errors in three-dimensional structures of proteins. Nucleic Acids Res. 2007;35: 407.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+57.
+Roche DB, Buenavista MT, McGuffin LJ. Assessing the quality of modelled 3D protein structures using the ModFOLD server. Methods Mol Biol. 2014;1137: 83–103. 10.1007/978-1-4939-0366-5_7
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+58.
+Ray A, Lindahl E, Wallner B. Improved model quality assessment using ProQ2. BMC Bioinformatics. 2012;13: 224
+10.1186/1471-2105-13-224
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+59.
+Xu D, Zhang Y. Ab initio protein structure assembly using continuous structure fragments and optimized knowledge-based force field. Proteins. 2012;80: 1715–1735. 10.1002/prot.24065
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+60.
+Pettersen EF, Goddard TD, Huang CC, Couch GS, Greenblatt DM, Meng EC, et al. 
+UCSF Chimera—a visualization system for exploratory research and analysis. J Comput Chem. 2004;25: 1605–1612. 10.1002/jcc.20084
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+61.
+Roy A, Yang J, Zhang Y. COFACTOR: an accurate comparative algorithm for structure-based protein function annotation. Nucleic Acids Res. 2012;40: 471
+10.1093/nar/gks372
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+62.
+Schrödinger L. The PyMOL Molecular Graphics System, Version 1.8. 2015: In press.
+63.
+Yang J, Roy A, Zhang Y. Protein-ligand binding site recognition using complementary binding-specific substructure comparison and sequence profile alignment. Bioinformatics. 2013;29: 2588–2595. 10.1093/bioinformatics/btt447
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+64.
+Zhang Y, Skolnick J. TM-align: a protein structure alignment algorithm based on the TM-score. Nucleic Acids Res. 2005;33: 2302–2309. 10.1093/nar/gki524
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+65.
+Bresell A, Weinander R, Lundqvist G, Raza H, Shimoji M, Sun T, et al. 
+Bioinformatic and enzymatic characterization of the MAPEG superfamily. FEBS J. 2005;272: 1688–1703. 10.1111/j.1742-4658.2005.04596.x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+66.
+Jegerschöld C, Pawelzik S, Purhonen P, Bhakat P, Gheorghe KR, Gyobu N, et al. 
+Structural basis for induced formation of the inflammatory mediator prostaglandin E2. Proc Natl Acad Sci U S A. 2008;105: 11110–11115. 10.1073/pnas.0802894105
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+67.
+Sjögren T, Nord J, Ek M, Johansson P, Liu G, Geschwindner S. Crystal structure of microsomal prostaglandin E2 synthase provides insight into diversity in the MAPEG superfamily. Proc Natl Acad Sci U S A. 2013;110: 3806–3811. 10.1073/pnas.1218504110
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+68.
+Jakobsson PJ, Morgenstern R, Mancini J, Ford-Hutchinson A, Persson B. Common structural features of MAPEG—a widespread superfamily of membrane associated proteins with highly divergent functions in eicosanoid and glutathione metabolism. Protein Sci. 1999;8: 689–692. 10.1110/ps.8.3.689
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+69.
+Jakobsson PJ, Thorén S, Morgenstern R, Samuelsson B. Identification of human prostaglandin E synthase: a microsomal, glutathione-dependent, inducible enzyme, constituting a potential novel drug target. Proc Natl Acad Sci U S A. 1999;96: 7220–7225.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+70.
+Huang X, Yan W, Gao D, Tong M, Tai H, Zhan C. Structural and functional characterization of human microsomal prostaglandin E synthase-1 by computational modeling and site-directed mutagenesis. Bioorg Med Chem. 2006;14: 3553–3562. 10.1016/j.bmc.2006.01.010
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+71.
+Tanikawa N, Ohmiya Y, Ohkubo H, Hashimoto K, Kangawa K, Kojima M, et al. 
+Identification and characterization of a novel type of membrane-associated prostaglandin E synthase. Biochem Biophys Res Commun. 2002;291: 884–889. 10.1006/bbrc.2002.6531
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+72.
+Watanabe K, Ohkubo H, Niwa H, Tanikawa N, Koda N, Ito S, et al. 
+Essential 110Cys in active site of membrane-associated prostaglandin E synthase-2. Biochem Biophys Res Commun. 2003;306: 577–581.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+73.
+Yamada T, Komoto J, Watanabe K, Ohmiya Y, Takusagawa F. Crystal structure and possible catalytic mechanism of microsomal prostaglandin E synthase type 2 (mPGES-2). J Mol Biol. 2005;348: 1163–1176. 10.1016/j.jmb.2005.03.035
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+74.
+Bresson E, Lacroix-Pépin N, Boucher-Kovalik S, Chapdelaine P, Fortier MA. The Prostaglandin F Synthase Activity of the Human Aldose Reductase AKR1B1 Brings New Lenses to Look at Pathologic Conditions. Front Pharmacol. 2012;3: 98
+10.3389/fphar.2012.00098
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+75.
+Bresson E, Boucher-Kovalik S, Chapdelaine P, Madore E, Harvey N, Laberge PY, et al. 
+The human aldose reductase AKR1B1 qualifies as the primary prostaglandin F synthase in the endometrium. J Clin Endocrinol Metab. 2011;96: 210–219.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+76.
+Ruiz F, Hazemann I, Mitschler A, Joachimiak A, Schneider T, Karplus M, et al. 
+The crystallographic structure of the aldose reductase-IDD552 complex shows direct proton donation from tyrosine 48. Acta Crystallogr D Biol Crystallogr. 2004;60: 1347–1354. 10.1107/S0907444904011370
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+77.
+Bohren KM, Grimshaw CE, Lai CJ, Harrison DH, Ringe D, Petsko GA, et al. 
+Tyrosine-48 is the proton donor and histidine-110 directs substrate stereochemical selectivity in the reduction reaction of human aldose reductase: enzyme kinetics and crystal structure of the Y48H mutant enzyme. Biochemistry. 1994;33: 2021–2032.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+78.
+El-Kabbani O, Green NC, Lin G, Carson M, Narayana SV, Moore KM, et al. 
+Structures of human and porcine aldehyde reductase: an enzyme implicated in diabetic complications. Acta Crystallogr D Biol Crystallogr. 1994;50: 859–868. 10.1107/S0907444994005275
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+79.
+Thunnissen Marjolein M G M, Andersson B, Samuelsson B, Wong C, Haeggström JZ. Crystal structures of leukotriene A4 hydrolase in complex with captopril and two competitive tight-binding inhibitors. FASEB J. 2002;16: 1648–1650. 10.1096/fj.01-1017fje
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+80.
+Tholander F, Muroya A, Roques B, Fournié-Zaluski M, Thunnissen Marjolein M G M, Haeggström JZ. Structure-based dissection of the active site chemistry of leukotriene A4 hydrolase: implications for M1 aminopeptidases and inhibitor design. Chem Biol. 2008;15: 920–929. 10.1016/j.chembiol.2008.07.018
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+81.
+Castonguay R, Halim D, Morin M, Furtos A, Lherbet C, Bonneil E, et al. 
+Kinetic characterization and identification of the acylation and glycosylation sites of recombinant human gamma-glutamyltranspeptidase. Biochemistry. 2007;46: 12253–12262. 10.1021/bi700956c
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+82.
+West MB, Chen Y, Wickham S, Heroux A, Cahill K, Hanigan MH, et al. 
+Novel insights into eukaryotic γ-glutamyltranspeptidase 1 from the crystal structure of the glutamate-bound human enzyme. J Biol Chem. 2013;288: 31902–31913. 10.1074/jbc.M113.498139
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+83.
+Nitanai Y, Satow Y, Adachi H, Tsujimoto M. Crystal structure of human renal dipeptidase involved in beta-lactam hydrolysis. J Mol Biol. 2002;321: 177–184.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+84.
+Sutherland M, Shankaranarayanan P, Schewe T, Nigam S. Evidence for the presence of phospholipid hydroperoxide glutathione peroxidase in human platelets: implications for its involvement in the regulatory network of the 12-lipoxygenase pathway of arachidonic acid metabolism. Biochem J. 2001;353: 91–100.
+[
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+85.
+Tosatto SCE, Bosello V, Fogolari F, Mauri P, Roveri A, Toppo S, et al. 
+The catalytic site of glutathione peroxidases. Antioxid Redox Signal. 2008;10: 1515–1526. 10.1089/ars.2008.2055
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+86.
+Reddanna P, Prabhu KS, Whelan J, Reddy CC. Carboxypeptidase A-catalyzed direct conversion of leukotriene C4 to leukotriene F4. Arch Biochem Biophys. 2003;413: 158–163.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+87.
+Sanglas L, Aviles FX, Huber R, Gomis-Rüth FX, Arolas JL. Mammalian metallopeptidase inhibition at the defense barrier of Ascaris parasite. Proc Natl Acad Sci U S A. 2009;106: 1743–1747. 10.1073/pnas.0812623106
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+88.
+Inoue T, Irikura D, Okazaki N, Kinugasa S, Matsumura H, Uodome N, et al. 
+Mechanism of metal activation of human hematopoietic prostaglandin D synthase. Nat Struct Biol. 2003;10: 291–296. 10.1038/nsb907
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+89.
+Tanioka T, Nakatani Y, Semmyo N, Murakami M, Kudo I. Molecular identification of cytosolic prostaglandin E2 synthase that is functionally coupled with cyclooxygenase-1 in immediate prostaglandin E2 biosynthesis. J Biol Chem. 2000;275: 32775–32782. 10.1074/jbc.M003504200
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+90.
+Weaver AJ, Sullivan WP, Felts SJ, Owen BA, Toft DO. Crystal structure and activity of human p23, a heat shock protein 90 co-chaperone. J Biol Chem. 2000;275: 23045–23052. 10.1074/jbc.M003410200
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+91.
+El-Hawari Y, Favia AD, Pilka ES, Kisiela M, Oppermann U, Martin H, et al. 
+Analysis of the substrate-binding site of human carbonyl reductases CBR1 and CBR3 by site-directed mutagenesis. Chem Biol Interact. 2009;178: 234–241. 10.1016/j.cbi.2008.11.004
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+92.
+Bateman RL, Rauh D, Tavshanjian B, Shokat KM. Human carbonyl reductase 1 is an S-nitrosoglutathione reductase. J Biol Chem. 2008;283: 35756–35762. 10.1074/jbc.M807125200
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+93.
+Niesen FH, Schultz L, Jadhav A, Bhatia C, Guo K, Maloney DJ, et al. 
+High-affinity inhibitors of human NAD-dependent 15-hydroxyprostaglandin dehydrogenase: mechanisms of inhibition and structure-activity relationships. PLoS ONE. 2010;5: e13719
+10.1371/journal.pone.0013719
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+94.
+Wang L, Kulmacz RJ. Thromboxane synthase: structure and function of protein and gene. Prostaglandins Other Lipid Mediat. 2002;68–69: 409–422.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+95.
+Guengerich FP, Waterman MR, Egli M. Recent Structural Insights into Cytochrome P450 Function. Trends Pharmacol Sci. 2016;37: 625–640. 10.1016/j.tips.2016.05.006
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+96.
+Tsirigos KD, Peters C, Shu N, Käll L, Elofsson A. The TOPCONS web server for consensus prediction of membrane protein topology and signal peptides. Nucleic Acids Res. 2015;43: 401
+10.1093/nar/gkv485
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+97.
+Simmons DL, Botting RM, Hla T. Cyclooxygenase isozymes: the biology of prostaglandin synthesis and inhibition. Pharmacol Rev. 2004;56: 387–437. 10.1124/pr.56.3.3
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+98.
+Picot D, Loll PJ, Garavito RM. The X-ray crystal structure of the membrane protein prostaglandin H2 synthase-1. Nature. 1994;367: 243–249. 10.1038/367243a0
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+99.
+Loll PJ, Picot D, Garavito RM. The structural basis of aspirin activity inferred from the crystal structure of inactivated prostaglandin H2 synthase. Nat Struct Biol. 1995;2: 637–643.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+100.
+Smith WL, DeWitt DL, Garavito RM. Cyclooxygenases: structural, cellular, and molecular biology. Annu Rev Biochem. 2000;69: 145–182. 10.1146/annurev.biochem.69.1.145
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+101.
+Valmsen K, Boeglin WE, Järving I, Schneider C, Varvas K, Brash AR, et al. 
+Structural and functional comparison of 15S- and 15R-specific cyclooxygenases from the coral Plexaura homomalla. Eur J Biochem. 2004;271: 3533–3538. 10.1111/j.0014-2956.2004.04289.x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+102.
+Kalgutkar AS, Crews BC, Rowlinson SW, Marnett AB, Kozak KR, Remmel RP, et al. 
+Biochemically based design of cyclooxygenase-2 (COX-2) inhibitors: facile conversion of nonsteroidal antiinflammatory drugs to potent and highly selective COX-2 inhibitors. Proc Natl Acad Sci U S A. 2000;97: 925–930.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+103.
+Garscha U, Oliw EH. Leucine/valine residues direct oxygenation of linoleic acid by (10R)- and (8R)-dioxygenases: expression and site-directed mutagenesis oF (10R)-dioxygenase with epoxyalcohol synthase activity. J Biol Chem. 2009;284: 13755–13765. 10.1074/jbc.M808665200
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+104.
+Sidhu RS, Lee JY, Yuan C, Smith WL. Comparison of cyclooxygenase-1 crystal structures: cross-talk between monomers comprising cyclooxygenase-1 homodimers. Biochemistry. 2010;49: 7069–7079. 10.1021/bi1003298
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+105.
+Shimamoto S, Yoshida T, Inui T, Gohda K, Kobayashi Y, Fujimori K, et al. 
+NMR solution structure of lipocalin-type prostaglandin D synthase: evidence for partial overlapping of catalytic pocket and retinoic acid-binding pocket within the central cavity. J Biol Chem. 2007;282: 31373–31379. 10.1074/jbc.M700123200
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+106.
+Schneider MR, Tang DG, Schirner M, Honn KV. Prostacyclin and its analogues: antimetastatic effects and mechanisms of action. Cancer Metastasis Rev. 1994;13: 349–364.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+107.
+Chiang C, Yeh H, Wang L, Chan N. Crystal structure of the human prostacyclin synthase. J Mol Biol. 2006;364: 266–274. 10.1016/j.jmb.2006.09.039
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+108.
+Ago H, Kanaoka Y, Irikura D, Lam BK, Shimamura T, Austen KF, et al. 
+Crystal structure of a human membrane protein involved in cysteinyl leukotriene biosynthesis. Nature. 2007;448: 609–612. 10.1038/nature05936
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+109.
+Ferguson AD, McKeever BM, Xu S, Wisniewski D, Miller DK, Yamin T, et al. 
+Crystal structure of inhibitor-bound human 5-lipoxygenase-activating protein. Science. 2007;317: 510–512. 10.1126/science.1144346
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+110.
+Horn T, Adel S, Schumann R, Sur S, Kakularam KR, Polamarasetty A, et al. 
+Evolutionary aspects of lipoxygenases and genetic diversity of human leukotriene signaling. Prog Lipid Res. 2015;57: 13–39. 10.1016/j.plipres.2014.11.001
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+111.
+Tan L, Xin X, Zhai L, Shen L. Drosophila Fed ARA and EPA Yields Eicosanoids, 15S-Hydroxy-5Z,8Z, 11Z, 13E-Eicosatetraenoic Acid, and 15S-Hydroxy-5Z,8Z,11Z,13E,17Z-Eicosapentaenoic Acid. Lipids. 2016;51: 435–449. 10.1007/s11745-016-4131-3
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+112.
+Shen LR, Lai CQ, Feng X, Parnell LD, Wan JB, Wang JD, et al. 
+Drosophila lacks C20 and C22 PUFAs. J Lipid Res. 2010;51: 2985–2992. 10.1194/jlr.M008524
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+113.
+Stanley D, Kim Y. Prostaglandins and their receptors in insect biology. Front Endocrinol (Lausanne). 2011;2: 105
+10.3389/fendo.2011.00105
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+114.
+Thuresson ED, Lakkides KM, Smith WL. PGG2, 11R-HPETE and 15R/S-HPETE are formed from different conformers of arachidonic acid in the prostaglandin endoperoxide H synthase-1 cyclooxygenase site. Adv Exp Med Biol. 2002;507: 67–72.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+115.
+Hecker M, Ullrich V, Fischer C, Meese CO. Identification of novel arachidonic acid metabolites formed by prostaglandin H synthase. Eur J Biochem. 1987;169: 113–123.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+116.
+Xiao G, Tsai AL, Palmer G, Boyar WC, Marshall PJ, Kulmacz RJ. Analysis of hydroperoxide-induced tyrosyl radicals and lipoxygenase activity in aspirin-treated human prostaglandin H synthase-2. Biochemistry. 1997;36: 1836–1845. 10.1021/bi962476u
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+117.
+Schneider C, Brash AR. Stereospecificity of hydrogen abstraction in the conversion of arachidonic acid to 15R-HETE by aspirin-treated cyclooxygenase-2. Implications for the alignment of substrate in the active site. J Biol Chem. 2000;275: 4743–4746.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+118.
+Chuang SS, Helvig C, Taimi M, Ramshaw HA, Collop AH, Amad M, et al. 
+CYP2U1, a novel human thymus- and brain-specific cytochrome P450, catalyzes omega- and (omega-1)-hydroxylation of fatty acids. J Biol Chem. 2004;279: 6305–6314. 10.1074/jbc.M311830200
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+119.
+Capdevila JH, Falck JR. Biochemical and molecular properties of the cytochrome P450 arachidonic acid monooxygenases. Prostaglandins Other Lipid Mediat. 2002;68–69: 325–344.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+120.
+Hansen J, Garreta A, Benincasa M, Fusté MC, Busquets M, Manresa A. Bacterial lipoxygenases, a new subfamily of enzymes? A phylogenetic approach. Appl Microbiol Biotechnol. 2013;97: 4737–4747. 10.1007/s00253-013-4887-9
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+121.
+Watson M. Identification of lipid mediators using Drosophila to dissect function and role in inflammatory disease, University of Birmingham; 
+2014.
+http://etheses.bham.ac.uk/4933/
+.
+[
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+S1 Fig. Sequence and structural details of the modeled fly PTGES candidate.
+A. Domain architecture of PTGES and CG1742 and known/predicted functional residues B. Pairwise alignment of CG1742 and 4AL0 generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with a red asterisk) C. Pairwise alignment of CG1742 and 4AL0 generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG1742 model: ProQ2 quality score mapped to a 3D model of CG1742 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. PTGES (4AL0, cyan-blue) superimposed on the predicted structure of CG1742 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by PTGES and potential
+D
+.
+melanogaster
+ortholog CG1742.
+(PDF)
+Click here for additional data file.
+(1.3MB, pdf)
+S2 Fig. Sequence and structural details of the modeled fly PTGES2 candidate.
+A. Domain architecture of PTGES2 and CG4086 and known/predicted functional residues B. Pairwise alignment of CG4086 and 1Z9H generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with a red asterisk) C. Pairwise alignment of CG4086 and 1Z9H generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG4086 model: ProQ2 quality score mapped to a 3D model of CG4086 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. Truncated PTGES2 (1Z9H, cyan-blue) superimposed on the predicted structure of CG4086 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by PTGES2 and potential
+D
+.
+melanogaster
+ortholog CG4086.
+(PDF)
+Click here for additional data file.
+(2.1MB, pdf)
+S3 Fig. Sequence and structural details of the modeled fly Prostacyclin F synthase candidate.
+A. Domain architecture of AKR1A1 and CG6084 and known/predicted functional residues B. Pairwise alignment of CG6084 and 2ALR generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with a red asterisk) C. Pairwise alignment of CG6084 and 2ALR generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG6084 model: ProQ2 quality score mapped to a 3D model of CG6084 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. AKR1A1 (2ALR, cyan-blue) superimposed on the predicted structure of CG6084 (green-red). RMSD: 0.847 Å with potential matches for conserved functional residues highlighted F. Summary of features shared by Prostacyclin F synthase and potential
+D
+.
+melanogaster
+ortholog CG6084.
+(PDF)
+Click here for additional data file.
+(1.5MB, pdf)
+S4 Fig. Sequence and structural details of the modeled fly LTA4H candidate.
+A. Domain architecture of LTA4H and CG10602 and known/predicted functional residues B. Pairwise alignment of CG10602 and 3B7U generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks) C. Pairwise alignment of CG10602 and 3B7U generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG10602 model: ProQ2 quality score mapped to a 3D model of CG10602 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. LTA4H (3B7U, cyan-blue) superimposed on the predicted structure of CG10602 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by LTA4H and potential
+D
+.
+melanogaster
+ortholog CG10602.
+(PDF)
+Click here for additional data file.
+(2.2MB, pdf)
+S5 Fig. Sequence and structural details of the modeled fly GGT1 candidate.
+A. Domain architecture of GGT1 and CG6461 and known/predicted functional residues B. Pairwise alignment of CG6461 and 4GDX generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks) C. Pairwise alignment of CG6461 and 4GDX generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG6461 model: ProQ2 quality score mapped to a 3D model of CG6461 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. GGT1 (4GDX, cyan-blue) superimposed on the predicted structure of CG6461 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by GGT1 and potential
+D
+.
+melanogaster
+ortholog CG6461.
+(PDF)
+Click here for additional data file.
+(2.2MB, pdf)
+S6 Fig. Sequence and structural details of the modeled fly DPEP1 candidate.
+A. Domain architecture of DPEP1 and CG6154 and known/predicted functional residues B. Pairwise alignment of CG6154 and 1ITQ generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks) C. Pairwise alignment of CG6154 and 1ITQ generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG6154 model: ProQ2 quality score mapped to a 3D model of CG6154 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. DPEP1 (1ITQ, cyan-blue) superimposed on the predicted structure of CG6154 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by DPEP1 and potential
+D
+.
+melanogaster
+ortholog CG6154.
+(PDF)
+Click here for additional data file.
+(2MB, pdf)
+S7 Fig. Sequence and structural details of the modeled fly GPX1 candidate.
+A. Domain architecture of GPX1 and CG12013 and known/predicted functional residues B. Pairwise alignment of CG12013 and 2F8A generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisk; in the GPX1 crystal structure, the selenocysteine is mutated to a glycine) C. Pairwise alignment of CG12013 and 2F8A generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG12013 model: ProQ2 quality score mapped to a 3D model of CG12013 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. GPX1 (2F8A, cyan-blue) superimposed on the predicted structure of CG12013 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by GPX1 and potential
+D
+.
+melanogaster
+ortholog CG12013.
+(PDF)
+Click here for additional data file.
+(1.1MB, pdf)
+S8 Fig. Sequence and structural details of the modeled fly CPA1 candidate.
+A. Domain architecture of CPA1 and CG18585 and known/predicted functional residues B. Pairwise alignment of CG18585 and 3FJU generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks) C. Pairwise alignment of CG18585 and 3FJU generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG18585 model: ProQ2 quality score mapped to a 3D model of CG18585 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. CPA1 (3FJU, cyan-blue) superimposed on the predicted structure of CG18585 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by CPA1 and potential
+D
+.
+melanogaster
+ortholog CG18585.
+(PDF)
+Click here for additional data file.
+(1.8MB, pdf)
+S9 Fig. Sequence and structural details of the modeled fly HPGDS candidate.
+A. Domain architecture of HPGDS and CG8938 and known/predicted functional residues B. Pairwise alignment of CG8938 and 1IYI generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks) C. Pairwise alignment of CG8938 and 1IYI generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG8938 model: ProQ2 quality score mapped to a 3D model of CG8938 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. CPA1 (1IYI, cyan-blue) superimposed on the predicted structure of CG8938 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by HPGDS and potential
+D
+.
+melanogaster
+ortholog CG8938.
+(PDF)
+Click here for additional data file.
+(1.3MB, pdf)
+S10 Fig. Sequence and structural details of the modeled fly PTGES3 candidate.
+A. Domain architecture of PTGES3 and CG16817 and known/predicted functional residues B. Pairwise alignment of CG16817 and 1EFJ generated from structural superposition showing shared secondary structure elements C. Pairwise alignment of CG16817 and 1EFJ generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG16817 model: ProQ2 quality score mapped to a 3D model of CG16817 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. CPA1 (1EFJ, cyan-blue) superimposed on the predicted structure of CG16817 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by PTGES3 and potential
+D
+.
+melanogaster
+ortholog CG16817.
+(PDF)
+Click here for additional data file.
+(1.5MB, pdf)
+S11 Fig. Sequence and structural details of the modeled fly CBR1 candidate.
+A. Domain architecture of CBR1 and CG11200 and known/predicted functional residues B. Pairwise alignment of CG11200 and 3BHJ generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks) C. Pairwise alignment of CG11200 and 3BHJ generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG11200 model: ProQ2 quality score mapped to a 3D model of CG11200 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. CPA1 (3BHJ, cyan-blue) superimposed on the predicted structure of CG11200 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by CBR1 and potential
+D
+.
+melanogaster
+ortholog CG11200.
+(PDF)
+Click here for additional data file.
+(1.5MB, pdf)
+S12 Fig. Sequence and structural details of the modeled fly HPGD candidate.
+A. Domain architecture of HPGD and CG18814 and known/predicted functional residues B. Pairwise alignment of CG18814 and 2GDZ generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks) C. Pairwise alignment of CG18814 and 2GDZ generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG18814 model: ProQ2 quality score mapped to a 3D model of CG18814 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. HPGD (2GDZ, cyan-blue) superimposed on the predicted structure of CG18814 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by HPGD and potential
+D
+.
+melanogaster
+ortholog CG18814.
+(PDF)
+Click here for additional data file.
+(1,002KB, pdf)
+S13 Fig. Sequence and structural details of the modeled fly TBXAS1 candidate.
+A. Domain architecture of TBXAS1 and CG3616 and known/predicted functional residues B. Pairwise alignment of CG3616 and the modeled human TBXAS1 generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with a red asterisk) C. Pairwise alignment of CG3616 and the modeled human TBXAS1 generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG3616 model: ProQ2 quality score mapped to a 3D model of CG3616 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. TBXAS1 (model, cyan-blue) superimposed on the predicted structure of CG3616 (green-red) F. Summary of features shared by TBXAS1 and potential
+D
+.
+melanogaster
+ortholog CG3616.
+(PDF)
+Click here for additional data file.
+(1.9MB, pdf)
+S14 Fig. Sequence and structural details of the modeled fly PTGS1 candidate.
+A. Domain architecture of PTGS1 and CG4009 and known/predicted functional residues B. Pairwise alignment of CG4009 and 3N8V generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisk; the green asterisk marks the putative analog for Y384) C. Pairwise alignment of CG4009 and 3N8V generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG4009 model: ProQ2 quality score mapped to a 3D model of CG4009 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. PTGS1 (3N8V, cyan-blue) superimposed on the predicted structure of CG4009 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by PTGS1 and potential
+D
+.
+melanogaster
+ortholog CG4009.
+(PDF)
+Click here for additional data file.
+(2.2MB, pdf)
+S15 Fig. Sequence and structural details of the modeled fly PTGDS candidate.
+A. Domain architecture of PTGDS and CG33126 and known/predicted functional residues B. Pairwise alignment of CG33126 and 5WY9 generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with a red asterisk; the green asterisk denotes the putative analog for C65) C. Pairwise alignment of CG33126 and 5WY9 generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG33126 model: ProQ2 quality score mapped to a 3D model of CG33126 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. PTGDS (5WY9, cyan-blue) superimposed on the predicted structure of CG33126 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by PTGDS and potential
+D
+.
+melanogaster
+ortholog CG33126.
+(PDF)
+Click here for additional data file.
+(1.2MB, pdf)
+S16 Fig. Sequence and structural details of the modeled fly PTGIS candidate.
+A. Domain architecture of PTG1S and CG3466 and known/predicted functional residues B. Pairwise alignment of CG34666 and 2IAG generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with a red asterisk) C. Pairwise alignment of CG3466 and 2IAG generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG3466 model: ProQ2 quality score mapped to a 3D model of CG3466 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. PTG1S (2IAG, cyan-blue) superimposed on the predicted structure of CG3466 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by PTG1S and potential
+D
+.
+melanogaster
+ortholog CG3466.
+(PDF)
+Click here for additional data file.
+(1.9MB, pdf)
+S17 Fig. Sequence and structural details of the modeled fly LTC4S candidate.
+A. Domain architecture of LTCS4 and CG33178 and known/predicted functional residues B. Pairwise alignment of CG33178 and 2PNO generated from structural superposition showing shared secondary structure elements and known/predicted functional residues (marked with red asterisks; the green asterisk denotes the analog for R31) C. Pairwise alignment of CG33178 and 2PNO generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG33178 model: ProQ2 quality score mapped to a 3D model of CG33178 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. LTCS4 (2PNO, cyan-blue) superimposed on the predicted structure of CG33178 (green-red) with potential matches for conserved functional residues highlighted F. Summary of features shared by LTCS4 and potential
+D
+.
+melanogaster
+ortholog CG33178.
+(PDF)
+Click here for additional data file.
+(1,006.5KB, pdf)
+S18 Fig. Sequence and structural details of the modeled fly ALOX5AP candidate.
+A. Domain architecture of ALOX5AP and CG33177 and known/predicted functional residues B. Pairwise alignment of CG33177 and 2Q7M generated from structural superposition showing shared secondary structure elements C. Pairwise alignment of CG33177 and 2Q7M generated from structural superposition with conserved residues highlighted using the physiochemical color scheme (CLUSTALX) D. Validation of the CG33177 model: ProQ2 quality score mapped to a 3D model of CG33177 (left); ProSA global quality score ranking (middle) and per-residue quality graph (right) E. ALOX5AP (2Q7M, cyan-blue) superimposed on the predicted structure of CG33177 (green-red) F. Summary of features shared by ALOX5AP and potential
+D
+.
+melanogaster
+ortholog CG33177.
+(PDF)
+Click here for additional data file.
+(1.5MB, pdf)
+Data Availability Statement
+All relevant data are within the paper and its Supporting Information files.
+Articles from PLoS ONE are provided here courtesy of
+PLOS

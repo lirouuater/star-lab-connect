@@ -1,0 +1,2007 @@
+Cancers (Basel)
+. 2020 Feb 7;12(2):381. doi:
+10.3390/cancers12020381
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+NASA GeneLab Platform Utilized for Biological Response to Space Radiation in Animal Models
+J Tyson McDonald
+J Tyson McDonald
+1
+RadBioX Services LLC, Okemos, MI 48864, USA; RadBioX@RadBioX.com
+Find articles by
+J Tyson McDonald
+1
+,
+Robert Stainforth
+Robert Stainforth
+2
+Consumer and Clinical Radiation Protection Bureau, Health Canada, Ottawa, ON K1A-1C1, Canada; robert.stainforth@cananda.ca (R.S.); vinita.chauhan@canada.ca (V.C.)
+Find articles by
+Robert Stainforth
+2
+,
+Jack Miller
+Jack Miller
+3
+KBR, NASA Ames Research Center, Moffett Field, CA 94035, USA; j_miller@lbl.gov
+Find articles by
+Jack Miller
+3
+,
+Thomas Cahill
+Thomas Cahill
+4
+School of Biological Sciences & Institute for Global Food Security, Queens University Belfast, Belfast BT9 5DL, UK; tcahill01@qub.ac.uk (T.C.); W.daSilveira@qub.ac.uk (W.A.d.S.)
+Find articles by
+Thomas Cahill
+4
+,
+Willian A da Silveira
+Willian A da Silveira
+4
+School of Biological Sciences & Institute for Global Food Security, Queens University Belfast, Belfast BT9 5DL, UK; tcahill01@qub.ac.uk (T.C.); W.daSilveira@qub.ac.uk (W.A.d.S.)
+Find articles by
+Willian A da Silveira
+4
+,
+Komal S Rathi
+Komal S Rathi
+5
+Department of Biomedical Informatics, The Children’s Hospital of Philadelphia, Philadelphia, PA 19104, USA; rathik@email.chop.edu
+Find articles by
+Komal S Rathi
+5
+,
+Gary Hardiman
+Gary Hardiman
+4
+School of Biological Sciences & Institute for Global Food Security, Queens University Belfast, Belfast BT9 5DL, UK; tcahill01@qub.ac.uk (T.C.); W.daSilveira@qub.ac.uk (W.A.d.S.)
+6
+Department of Medicine, Medical University of South Carolina, Charleston, SC 29425, USA; G.Hardiman@qub.ac.uk
+Find articles by
+Gary Hardiman
+4,
+6
+,
+Deanne Taylor
+Deanne Taylor
+5
+Department of Biomedical Informatics, The Children’s Hospital of Philadelphia, Philadelphia, PA 19104, USA; rathik@email.chop.edu
+7
+The Center for Mitochondrial and Epigenomic Medicine, The Children’s Hospital of Philadelphia, Philadelphia, PA 19104, USA; taylordm@email.chop.edu
+8
+The Department of Pediatrics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+Find articles by
+Deanne Taylor
+5,
+7,
+8
+,
+Sylvain V Costes
+Sylvain V Costes
+9
+NASA Ames Research Center, Space Biosciences Division, Moffett Field, CA 94035, USA; sylvain.v.costes@nasa.gov
+Find articles by
+Sylvain V Costes
+9
+,
+Vinita Chauhan
+Vinita Chauhan
+2
+Consumer and Clinical Radiation Protection Bureau, Health Canada, Ottawa, ON K1A-1C1, Canada; robert.stainforth@cananda.ca (R.S.); vinita.chauhan@canada.ca (V.C.)
+Find articles by
+Vinita Chauhan
+2
+,
+Robert Meller
+Robert Meller
+10
+Department of Neurobiology and Pharmacology, Morehouse School of Medicine, Atlanta, GA 30310, USA; rmeller@msm.edu
+Find articles by
+Robert Meller
+10
+,
+Afshin Beheshti
+Afshin Beheshti
+3
+KBR, NASA Ames Research Center, Moffett Field, CA 94035, USA; j_miller@lbl.gov
+Find articles by
+Afshin Beheshti
+3,
+*
+Author information
+Article notes
+Copyright and License information
+1
+RadBioX Services LLC, Okemos, MI 48864, USA; RadBioX@RadBioX.com
+2
+Consumer and Clinical Radiation Protection Bureau, Health Canada, Ottawa, ON K1A-1C1, Canada; robert.stainforth@cananda.ca (R.S.); vinita.chauhan@canada.ca (V.C.)
+3
+KBR, NASA Ames Research Center, Moffett Field, CA 94035, USA; j_miller@lbl.gov
+4
+School of Biological Sciences & Institute for Global Food Security, Queens University Belfast, Belfast BT9 5DL, UK; tcahill01@qub.ac.uk (T.C.); W.daSilveira@qub.ac.uk (W.A.d.S.)
+5
+Department of Biomedical Informatics, The Children’s Hospital of Philadelphia, Philadelphia, PA 19104, USA; rathik@email.chop.edu
+6
+Department of Medicine, Medical University of South Carolina, Charleston, SC 29425, USA; G.Hardiman@qub.ac.uk
+7
+The Center for Mitochondrial and Epigenomic Medicine, The Children’s Hospital of Philadelphia, Philadelphia, PA 19104, USA; taylordm@email.chop.edu
+8
+The Department of Pediatrics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+9
+NASA Ames Research Center, Space Biosciences Division, Moffett Field, CA 94035, USA; sylvain.v.costes@nasa.gov
+10
+Department of Neurobiology and Pharmacology, Morehouse School of Medicine, Atlanta, GA 30310, USA; rmeller@msm.edu
+*
+Correspondence:
+afshin.beheshti@nasa.gov
+Received 2020 Jan 19; Accepted 2020 Feb 3; Collection date 2020 Feb.
+© 2020 by the authors.
+Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (
+http://creativecommons.org/licenses/by/4.0/
+).
+PMC Copyright notice
+PMCID: PMC7072278  PMID:
+32045996
+Abstract
+Background:
+Ionizing radiation from galactic cosmic rays (GCR) is one of the major risk factors that will impact the health of astronauts on extended missions outside the protective effects of the Earth’s magnetic field. The NASA GeneLab project has detailed information on radiation exposure using animal models with curated dosimetry information for spaceflight experiments.
+Methods:
+We analyzed multiple GeneLab omics datasets associated with both ground-based and spaceflight radiation studies that included in vivo and in vitro approaches. A range of ions from protons to iron particles with doses from 0.1 to 1.0 Gy for ground studies, as well as samples flown in low Earth orbit (LEO) with total doses of 1.0 mGy to 30 mGy, were utilized.
+Results:
+From this analysis, we were able to identify distinct biological signatures associating specific ions with specific biological responses due to radiation exposure in space. For example, we discovered changes in mitochondrial function, ribosomal assembly, and immune pathways as a function of dose.
+Conclusions:
+We provided a summary of how the GeneLab’s rich database of omics experiments with animal models can be used to generate novel hypotheses to better understand human health risks from GCR exposures.
+Keywords:
+GeneLab, NASA, space radiation, HZE, galactic cosmic rays, transcriptomics, dosimetry, radiation
+1. Introduction
+Space is a hostile environment, and human space travel will entail effects at many levels of biological organization leading to related physiological effects. One of the major environmental factors in space is radiation. Ionizing radiation in space is composed of a complex mixture of particles including protons from the sun and galactic cosmic rays (GCRs) originating from outside the solar system. The GCR is composed of atomic nuclei, including a component of heavy charged and energetic (HZE) particles that are relatively few in number but highly ionizing. A major risk-factor for human spaceflight is exposure GCR HZE that can cause DNA damage that is unrepaired or mis-repaired [
+1
+].
+Current research has shown measurable impact on in several areas affecting human health bone loss [
+2
+], skeletal muscle atrophy [
+3
+,
+4
+,
+5
+], reproductive hazards in women and men [
+6
+], cognitive/behavioral changes [
+7
+], central nervous system (CNS) decrements [
+8
+,
+9
+], and changes in cardiovascular physiology [
+10
+]. The possibility that space radiation exposure to increase cardiovascular disease risk requires additional validation similar to the ongoing observations of increased cardiac impairment observed in radiotherapy-treated cancer survivors [
+11
+,
+12
+]. Spaceflight has also been shown to have an impact on established cancer hallmarks [
+13
+], possibly increasing carcinogenic risk [
+14
+].
+At the molecular level, space radiation from high energy photons and atomic nuclei can cause damage to cellular components, in particular deoxyribonucleic acid (DNA). Damaged DNA, which is inadequately repaired, can led to mutations and chromosomal aberrations that have potential to propagate into RNA, potentially leading to cancer. Simulations using ground-based datasets representative of a combined space radiation and microgravity exposure have demonstrated that oxidative stress processes and mitochondrial dysfunctions are important contributors to biological effects from spaceflight. Simulated microgravity studies have demonstrated an inhibitory effect on cell cycle and cell proliferation [
+15
+]. These studies show the value of research centered on understanding the totality of space exposures [
+16
+]. A multitude of other biological processes that are affected include increased genomic instability and mutation rates [
+17
+], immune dysregulation [
+18
+], and deregulated cellular energetics [
+19
+]. Conflicting results on cellular stemness [
+20
+] have been reported with effects such as elongation of telomere and altered telomerase function that require clarification [
+21
+,
+22
+].
+A substantial amount of work has also been generated in the area of omics. For several decades, omics animal-based studies have been performed to understand the human health risks due to spaceflight missions using the International Space Station, the space shuttle, biosatellites, and ground-based experiments. NASA’s growing GeneLab omics database now hosts almost 250 experimental studies on spaceflight exposure and analogous ground-based experiments from microbes, plants, animal models, and human/animal-derived cell cultures [
+23
+]. These data are available as an open-access resource for single- and multi-omic analyses on microarray, RNA-sequencing, bisulfite-sequencing, proteomic, metabolomic, and metagenomic datasets. Although these data are targeted to better understand the risks associated with human spaceflight, these experiments also demonstrate a unique stress that provides a better understanding of adverse human health effects due to alterations in cellular behavior owing to factors such as microgravity, altered carbon dioxide levels, psychological stressors, and damaging ionizing radiation exposures from GCR and protons in the Earth’s radiation belts. These datasets, and in particular the in vivo animal models used, present a unique experimental setting to study the cellular and host-level interactions that impact human health.
+In this study, a meta-analysis of these accumulated transcriptomic datasets in GeneLab relevant to spaceflight was undertaken to uncover potential dose-dependent biological responses that will help in understanding the human health risks experienced in the spaceflight environment. The studies identified were from human- and animal-derived tissues or cells exposed to protons and GCR HZEs at doses ranging from 0.1 to 1.0 Gy for ground studies and using samples flown to the International Space Station or shuttle missions with total doses between 1.0 and 30 mGy. Ground experiments are a well-established analog for space flight, but are limited in that they are relatively high dose, high dose rate, and in most cases use single particle species, in contrast to the low dose, low dose rate mixed radiation in space. Further work is needed to elucidate platform-dependent differences (mixed fields now being offered at the NASA Space Radiation Laboratory [
+24
+] are a step in this direction). The datasets were pooled and subjected to gene set enrichment analysis (GSEA) to identify clusters of gene sets and associated biological processes. The results from this analysis highlight novel cellular responses that may be relevant contributors to the combined effects of microgravity and space radiation and therefore critical drivers of health risks from space radiation.
+2. Results
+Using primarily in vivo animal models and their associated curated datasets available from the NASA GeneLab’s omics database, an examination of biological responses as a function of radiation dose was made using transcriptional and sequencing data. A total of 30 experimental conditions from 25 GeneLab Data System (GLDS) datasets were collected (
+Table 1
+). Multiple datasets were included from human or murine cell cultures or animal tissues from several anatomical sites (adrenal gland, blood, bone marrow, brain, breast, heart, cartilage, skin, eye, hair follicle, kidney, liver, lung, muscle, spleen, or thymus). For the simulated space radiation ground studies (GLDS-73, -80, -109, and -117) information related to energy, linear energy transfer (LET, a measure of energy deposition at the cellular and molecular scale), dose rate, particle charge, and particle mass are available and can be viewed in
+Table S1
+. The dose data for all spaceflight experiments, with the exception of GLDS-111, were from instruments available on the Space Shuttle and the International Space Station. Analysis was completed by subject matter experts from the Space Radiation Analysis Group (SRAG), Johnson Space Center, NASA. The provenance of data from GLDS-111 (Bion-M1) is detailed in the environmental data section of the GLDS for Bion-M1. The doses and dose rates for ground-based exposures are from the NASA Space Radiation Laboratory with uncertainties that are less than 2% [
+24
+].
+Table 1.
+Summary of the NASA GeneLab datasets for samples exposed to cosmic radiation during spaceflight or analogous ground-based radiation experiments curated for analysis.
+GLDS
+Condition
+Dose (mGy)
+Radiation Type *
+Species
+Tissue/Cell Culture
+Ref.
+63
+Spaceflight
+1.04
+LEO
+Rat
+Mammary
+[
+25
+,
+26
+,
+27
+]
+52
+Spaceflight
+1.54
+LEO
+Human
+Endothelial cells (HUVEC)
+[
+28
+,
+29
+]
+114
+Spaceflight
+1.83
+LEO
+Human
+Fibroblast cells (AG01522)
+[
+30
+]
+21
+Spaceflight
+2.19
+LEO
+Mouse (C57BL/6)
+Skeletal muscle
+[
+31
+,
+32
+,
+33
+]
+4
+Spaceflight
+3.25
+LEO
+Mouse (C57BL/6)
+Thymus
+[
+32
+,
+34
+]
+47
+Spaceflight
+4.62
+LEO
+Mouse (C57BL/6)
+Liver
+[
+35
+]
+25
+Spaceflight
+4.66
+LEO
+Mouse (C57BL/6)
+Liver
+[
+32
+,
+33
+,
+36
+,
+37
+,
+38
+,
+39
+,
+40
+,
+41
+,
+42
+]
+98
+Spaceflight
+7.78
+LEO
+Mouse (C57BL/6)
+Adrenal gland
+[
+32
+]
+99
+Spaceflight
+7.78
+LEO
+Mouse (C57BL/6)
+Muscle (extensor digitorum longus)
+[
+32
+]
+100
+Spaceflight
+7.78
+LEO
+Mouse (C57BL/6)
+Eye
+[
+43
+]
+101
+Spaceflight
+7.78
+LEO
+Mouse (C57BL/6)
+Muscle (gastrocnemius)
+[
+32
+]
+102
+Spaceflight
+7.78
+LEO
+Mouse (C57BL/6)
+Kidney
+[
+32
+]
+103
+Spaceflight
+7.78
+LEO
+Mouse (C57BL/6)
+Muscle (quadriceps)
+[
+32
+]
+104
+Spaceflight
+7.78
+LEO
+Mouse (C57BL/6)
+Muscle (soleus)
+[
+32
+]
+105
+Spaceflight
+7.78
+LEO
+Mouse (C57BL/6)
+Muscle (tibialis anterior)
+[
+32
+]
+168
+Spaceflight
+7.78
+LEO
+Mouse (C57BL/6)
+Liver
+[
+42
+,
+44
+]
+242
+Spaceflight
+8.03
+LEO
+Mouse (C57BL/6)
+Liver
+[
+45
+]
+161
+Spaceflight
+9.20
+LEO
+Mouse (BALB/C)
+Adrenal gland
+[
+46
+]
+162
+Spaceflight
+9.20
+LEO
+Mouse (BALB/C)
+Eye
+[
+47
+]
+163
+Spaceflight
+9.20
+LEO
+Mouse (BALB/C)
+Kidney
+[
+48
+]
+168
+Spaceflight
+9.20
+LEO
+Mouse (BALB/C)
+Liver
+[
+42
+,
+44
+]
+61
+Spaceflight
+28.80
+LEO
+Mouse (C57BL/6)
+Skin
+[
+32
+,
+49
+]
+111
+Spaceflight
+29.90
+LEO
+Mouse (C57BL/6)
+Muscle (extensor digitorum longus)
+[
+5
+,
+32
+,
+33
+]
+111
+Spaceflight
+29.90
+LEO
+Mouse (C57BL/6)
+Muscle (soleus)
+[
+5
+,
+32
+,
+33
+]
+80
+Ground
+100
+Silicon
+Mouse (BALB/C)
+Mammary tissue
+[
+50
+]
+109
+Ground
+150
+Iron
+Mouse (C57BL/6)
+Cardiomyocytes
+[
+29
+,
+51
+]
+80
+Ground
+300
+Silicon
+Mouse (BALB/C)
+Mammary tissue
+[
+50
+]
+73
+Ground
+500
+Iron
+Human
+Bronchial epithelial cells
+[
+52
+]
+73
+Ground
+500
+Silicon
+Human
+Bronchial epithelial cells
+[
+52
+]
+117
+Ground
+900
+Proton
+Mouse (C57BL/6)
+Cardiomyocytes
+[
+29
+,
+51
+]
+73
+Ground
+1000
+Iron
+Human
+Bronchial epithelial cells
+[
+52
+]
+73
+Ground
+1000
+Silicon
+Human
+Bronchial epithelial cells
+[
+52
+]
+Open in a new tab
+* LEO: low Earth orbit radiation for flight experiments is due to a combination of cosmic radiation (protons, galactic cosmic rays (GCR), and heavier ions) as well as protons trapped in Earth radiation belts.
+2.1. Changes in RNA-Specific Error Rates Comparing Spaceflight Versus Ground Control Samples
+DNA mutations caused by ionizing radiation have been shown to propagate onto RNA during translation, unless they are adequately removed by transcription-coupled repair. Higher doses of radiation exposure to a cell will result in greater accumulated damage, up to a point where the cellular repair mechanisms are overwhelmed. However, lower levels of damage may be replicated into RNA with aberrant effects on translation and cellular function. Thus, RNA-sequencing data using mice liver samples from two experiments were analyzed to identify potential error rates due to spaceflight. Analysis of the GLDS-168 dataset showed no difference in overall mapping error rates across the entire genome (approximately 0.5%). Further investigation of the mismatches with respect to each chromosome identified error rates to be near 0.5%; however, there was no difference between the spaceflight and ground control groups (
+Figure 1
+A,B). Interestingly, there were differential error rates across some chromosomes, in particular the sex-associated chromosomes, and error rates for genes associated with mitochondrial DNA were lower than genomic DNA, supporting dynamic DNA damage repair in mitochondria (reviewed in [
+53
+]). Further analysis revealed increased rates of substitution in specific base sequences in GLDS-168 samples (
+Figure 1
+C) but not in the GLDS-242 dataset (
+Figure 1
+D). Specific base substitutions showed an increase in A>G and C>T substitutions in only GLDS-168 samples. We also observed a significant increase in CGT and GTA errors but a decrease in CAC and GTG errors in spaceflight animals versus ground controls (all corrected
+p
+< 0.05;
+Figure 1
+E). In contrast the GLDS-242 dataset showed an overall reduction, though non-significant, in specific base errors with a significant change in substitutions (
+p
+< 0.05, corrected) in spaceflight animals compared to ground controls (
+Figure 1
+D,F).
+Figure 1.
+Open in a new tab
+RNA-sequencing error rates in mouse livers from GLDS-168 (left column) and GLDS-242 (right column) experiments for spaceflight (black bars) compared to ground control samples (white bars). Error rates were examined as follows: (
+A
+,
+B
+) mismatch rates across chromosomes normalized by the number of bases sequenced; (
+C
+,
+D
+) single base substitution rates; (
+E
+,
+F
+) CAC, CGT, GTA, or GTG error rates. Significance indicated by *
+p
+-value < 0.05 and **
+p
+-value < 0.01.
+2.2. Comparison of Multiple Genelab Datasets Using Principal Component Analysis
+Each individual transcriptome dataset was analyzed by comparing flight/radiation exposure versus ground/control treatment. Utilizing standard bioinformatics pipelines for RNA-sequencing and microarray analyses, we obtained expression data for each dataset for use in gene set enrichment analysis (GSEA) [
+54
+]. The results indicated a wide variance of significantly regulated gene sets per dataset (
+Figure 2
+). When considering a false discovery rate (FDR) < 0.05, we observed some datasets with a low number of significantly regulated gene sets, whereas others had a high amount of significant results for the three GSEA molecular signature database collections (i.e., C5, C2, and C6). Thus, for further analysis, individual gene sets were considered for analysis if they had a FDR < 0.25 in 50% or more of the total datasets examined. Then, using Cytoscape’s enrichment mapper, these gene sets were grouped into networks and further examined using the auto-annotate feature to cluster similar gene sets on the basis of biological similarity, referred to as “annotated gene sets”.
+Figure 2.
+Open in a new tab
+The number of statistically significant gene sets from gene set enrichment analysis (GSEA) with a false discovery rate (FDR) < 0.05 for each dataset for the major molecular signatures database collections (i.e., C5, C2, and C6). The black bars represent the unaltered genes and the white bars represent the annotated gene sets.
+To observe if any trends or batch issues arise from this type of analysis, we compared the normalized enrichment scores (NES) for all the gene sets resulting from each molecular signature database collection (
+Figure 3
+and
+Figures S1–S3
+). Principal component analysis (PCA) plots indicated that there were no batch issues occurring globally for either the pre- or post-annotated gene sets as a function of dose (
+Figure 3
+). In addition, we did not observe any tissue dependence or clustering for the pre- or post-annotated gene sets (
+Figure S1
+). Lastly, these samples were also clustered with t-distributed stochastic neighbor embedding (t-SNE) plots to observe whether different methods would produce conflicting results (
+Figures S2 and S3
+). The t-SNE plots also provided additional validation that no batch issues are observed with this type of analysis when considering dose or tissue dependence.
+Figure 3.
+Open in a new tab
+Principal component analysis (PCA) plots on GLDS datasets using the gene set enrichment analysis (GSEA) nominal enrichment scores before (top row) and after (bottom row) auto-annotation using Cytoscape’s enrichment map software. GSEA gene sets used were as follows: (
+A
+,
+B
+) C5 Gene Ontology (GO) terms, (
+C
+,
+D
+) C2 curated terms, and (
+E
+,
+F
+) C6 oncogenic signature terms. Each data point is represented by experimental radiation dose (color) or radiation type (shape).
+To compare the number of genes sets with the annotated gene sets, we provided heatmaps and clustering for all the datasets based on the NES for each molecular signature database collection for the analysis with the FDR < 0.25 (
+Figure 4
+). As expected, the annotated gene sets provided fewer gene sets, enabling a more streamlined analysis downstream. The overall pattern of the datasets between the annotated gene sets and all the genes sets did not change. This indicates that any analysis on the annotated gene sets should provide similar results for all the gene sets.
+Figure 4.
+Open in a new tab
+Heatmaps on all gene sets and also annotated gene sets for each molecular signature database collection. Euclidean clustering was used for clustering the rows and columns.
+2.3. Transcriptome Evaluation of Biological Functions Impacted by Spaceflight Exposure in Animal Models
+To observe the impact of radiation exposure, transcriptional data from experiments spanning 1 to 1000 mGy doses in animal models and cell cultures were examined for alteration in multiple biological pathways. This analysis combined statistically significant biological pathways that resulted from GSEA analysis for each individual dataset [
+54
+]. This included the following three major molecular signatures database collections: (1) the Gene Ontology (GO; C5) gene sets from biological processes, cellular components, and molecular functions; (2) the curated dataset (C2) gene sets from chemical and genetic perturbations and canonical pathways such as the BioCarta, Kyoto Encyclopedia of Genes and Genomes (KEGG), Pathway Interaction Database (PID), and Reactome pathway databases; and (3) the oncogenic signatures (C6) gene sets representing major pathways altered in cancer.
+2.3.1. GSEA C5: Gene Ontology Results
+Using Cytoscape’s enrichment mapper, 63 statistically significant GSEA gene sets from the Gene Ontology (C5) database had a FDR < 25% in 50% or more of the GeneLab datasets analyzed. Using the auto-annotate clustering tool, these 63 gene sets represented 7 major biological pathways including: (1) ribosome assembly, (2) mitochondrial function, (3) interferon-gamma response, (4) chemotaxis, (5) cellular differentiation, (6) extracellular organization, and (7) cytokine production (
+Figure 5
+A). Each of these clusters was driven by an overrepresented enrichment of genes related to these pathways.
+Figure 5.
+Open in a new tab
+Analysis of all GeneLab datasets utilized for direct comparisons with Gene Ontology (GO) GSEA analysis. (
+A
+) Auto-annotated GO GSEA terms from Cytoscape’s enrichment mapper. Each node represents one specific GO term with each wedge representing one GeneLab datasets utilized for this manuscript. The yellow circles represent the auto-annotated go terms with common related pathways. (
+B
+) Heatmap with
+k
+-means clustering for the specific GO pathways. Six specific pathways were found to be clustered together through
+k
+-means clustering. (
+C
+) Scatter plots comparing the normalized enrichment scores (NES) to dose in milligrays and fitting with a generalized additive model (GAM) on each cluster (represented in (
+C
+)). Each panel represents one of the clusters and the color-coded lines represent GAM fits performed on each GO-annotated term in the cluster. The circles in the plots represent the gene sets and the pink shade around the GAM fits represent the standard error.
+In addition to understanding common biological pathways disrupted by spaceflight and ground-based radiation exposure, these results were also used to examine possible dose-dependent trends. Using a
+k
+-means clustering of the heatmaps representing each clustering nominal enrichment scores, six major annotated clusters were overwhelmingly represented this data, including (1) mitochondrial pathways, (2) leukocyte and adaptive immune response, (3) wound healing and VEGF pathways, (4) ribosome, (5) lipid pathways, and (6) mitotic nuclear division (
+Figure 5
+B). The nominal enrichment score (NES) for these annotated gene sets was plotted from 1mGy to 1000 mGy and fitted using a generalized additive model (GAM) smoothing plot [
+55
+,
+56
+] (
+Figure 5
+C). Indeed, there was an observed activation as a function of dose for the mitochondrial pathway, whereas the clusters for the ribosome, lipid pathways, and mitotic nuclear division were generally inactivated. A more uncertain trend was observed for the immune related clusters involving leukocyte and adaptive immune response as well as wound healing and VEGF pathways, demonstrating the complex nature of normal tissue responses to inflammation and immune responses.
+We also performed an analysis with less stringent statistics, involving a larger set of gene sets, to observe whether other functions or pathways would appear. We performed the same analysis as above but included significant GSEA gene sets from the Gene Ontology (C5) database that had an FDR < 0.05 in only three of the GeneLab datasets analyzed. Although the FDR was set at a lower threshold, the lower number of required datasets with an FDR < 0.05 threshold (
+Figure 2
+) would result in more gene sets for the downstream analysis. We saw this as true when observing the number of gene sets (
+Figure S4
+). Some
+k
+-means clusters were too dense and were split into sub-clusters (
+Figures S5 and S6
+). The GAM fits were provided for each cluster and sub-cluster (
+Figures S7–S9
+). As expected, this less stringent analysis approach produced less statistically significant fits with more noise confounding the data. Interestingly, some new trends appeared that can be related to space radiation-induced health risks, including decreases in muscle-related pathways as a function of increasing dose (
+Figure S7
+) and decreases in chromosome pathways with increasing dose (
+Figure S8
+). This inclusive analysis strategy demonstrated that analyzing the data in many different ways can reveal relevant results when that can easily be missed with only one methodology and overly strict statistical cutoffs.
+2.3.2. GSEA C2: Curated Dataset Results
+To expand these results, the canonical pathways (C2) molecular signatures database collection was examined in a similar manner to the gene ontology collection (C5) above. For this analysis, there were 30 total datasets as opposed to 28 for the C5 gene set analysis. We determined 411 significantly regulated C2 gene sets using Cytoscape’s enrichment mapper with an FDR ≤ 25% in 50% of the GeneLab datasets analyzed. Due to the C2 GSEA database containing more gene sets, a larger number of gene sets and auto-annotated terms was expected. From these terms, we observed several key pathways, including mitotic and cell cycle pathways, cancer-related pathways, hypoxia-related pathways, interferon pathways, and pathways related to radiation impact on cells (
+Figure 6
+A). Cell cycle pathways [
+57
+], hypoxia [
+58
+], interferon dysregulation [
+59
+], and cancer [
+60
+,
+61
+,
+62
+] have all been observed in previous research studies as dysregulated due to spaceflight.
+Figure 6.
+Open in a new tab
+Analysis of all GeneLab datasets utilized for direct comparisons with the GSEA C2 curated collection analysis. (
+A
+) Auto-annotated C2 GSEA terms from Cytoscape’s enrichment mapper. Each node represents one specific C2 term with each wedge representing one GeneLab dataset utilized for this manuscript. The yellow circles represent the auto-annotated GO terms with common related pathways. (
+B
+) Heatmap with
+k
+-means clustering for the specific C2 pathways. A total of 15 specific pathways were found to be clustered together through
+k
+-means clustering. (
+C
+) Scatter plots comparing the normalized enrichment scores (NES) to dose in mGy and fits with a generalized additive model (GAM) on each cluster (represented in (
+B
+)). Each panel represents one of the clusters and the color-coded lines represent GAM fits performed on each C2-annotated term in the cluster. The circles in the plots represent the gene sets and the pink shade around the GAM fits represent the standard error.
+We performed a similar analysis with C2 genes sets as we did with the C5 dose-dependent analysis (
+Figure 5
+and
+Figure 6
+). Using
+k
+-means clustering for heatmaps representing each clustering nominal enrichment scores, 15 major annotated clusters overwhelmingly represented these data, including (1) hypoxia, MYC, and phospholipid pathways; (2) EGF, TNF, and hematopoietic pathways; (3) E2F3, EGFR2, p53, and cell cycle pathways; (4) luminal, miR-21 targets, KRAS, and transformation pathways; (5) RB1, metastasis, mitotic division, and progenitor pathways; (6) hematopoiesis, interferons, and methylation pathways; (7) obesity-, oxidation-, and adipogenic-related pathways; (8) mitochondrial and adipogenesis pathways; (9) complex EIF binding; (10) progesterone; (11) apoptosis and phospholipid pathways; (12) inflammatory, invasion, NOTCH, and HNF1a pathways; (13) carcinoma, hypoxia, and IL1a pathways; (14) PKD1, ZMPSTE24, and cardiac dysfunctions; and (15) ICP with H3K27ME3 pathway (
+Figure 6
+B,C). Similar to the C5 GO analysis, we observed an increase in mitochondrial pathways as a function of dose. Observing this trend with another pathway database provided additional confidence with these results. A clear decrease with cardiac dysfunctions, PKD1, and ZMPSTE24 was revealed as a function of dose. Interestingly, deficiencies or decreases in both
+PKD1
+[
+63
+] and
+ZMPSTE24
+[
+64
+] expression have been previously shown to cause cardiac dysfunction. These observed biological functions seem to follow a trend that may have be missed by manual analysis.
+Lastly, less stringent statistics with an FDR < 0.05 in only three of the GeneLab Datasets was also analyzed for C2 gene sets (
+Figures S10–S17
+). Like the C5 analysis, more gene sets were clustered per group after
+k
+-means clustering (
+Figure S10
+), leading to three clusters requiring additional
+k
+-means sub-clustering analysis (
+Figures S11–S13
+). This less statistically stringent analysis on C2 produced additional trends through the GAM fits that were not observed in the more conservative analysis (
+Figures S14–S17
+). A clear decrease in TNF pathways was observed with increasing dose (
+Figure S16
+), and a novel pathway related to taste transduction was observed as increasing with dose (
+Figure S17
+). Interestingly, it has been reported that both olfactory pathways and taste are altered in astronauts, which was previously thought to be due to fluid shifts in the head caused by microgravity conditions [
+65
+,
+66
+,
+67
+]. These data also indicate that space radiation may have some impact on this interesting phenomenon.
+2.3.3. GSEA C6: Oncogenic Signatures
+To observe specific oncogenic pathways that may change as a function of space radiation exposure, we also included an analysis of the GSEA C6 oncology-specific collection from the molecular signatures database (
+Figure 7
+). From the annotation analysis, we discovered that the main oncogenic pathway impacted by space radiation was KRAS (
+Figure 7
+A). KRAS is a known oncogene and has been heavily shown in the literature to be involved with lung cancer induced by space radiation [
+14
+]. The
+k
+-means clustering on the annotated gene sets produced the following five clusters: (1) KRAS- and LEF1-related pathways; (2) p53-, mTOR-, KRAS-, and CRX-related pathways; (3) PDGF- and TGFβ-related pathways; (4) TBK1, VEGFA, and ERBB2 pathways; and (5) embryonic stem cells (ESC) pathway (
+Figure 7
+B). When observing each cluster as a function of dose, there were interesting trends that can shed light on predicting potential oncogenic risk for longer exposure to space radiation. Thus, the following known oncogenes as well as the most regulated C6 oncogenic signatures were specifically analyzed as a function of dose for all datasets: (1) KRAS, (2) CSR, (3) p53, (4) ESC, (5) TGFβ, (6), VEGFa, and (7) mTOR pathways (
+Figure 8
+). These trends as a function of dose across multiple experimental datasets emphasized a need to functionally valid these observations.
+Figure 7.
+Open in a new tab
+Analysis of all GeneLab datasets utilized for direct comparisons with the GSEA C6 oncology signature collection analysis. (
+A
+) Auto-annotated C6 GSEA terms from Cytoscape’s enrichment mapper. Each node represents one specific C6 term with each wedge representing one GeneLab dataset utilized for this manuscript. The yellow circles represent the auto-annotated GO terms with common related pathways. (
+B
+) Heatmap with
+k
+-means clustering for the specific C6 pathways. Five specific pathways were found to be clustered together through
+k
+-means clustering. (
+C
+) Scatter plots comparing the normalized enrichment scores (NES) to dose in milligrays and fits with a generalized additive model (GAM) on each cluster (represented in (B)). Each panel represents one of the clusters and the color-coded lines represent GAM fits performed on each C6-annotated term in the cluster. The circles in the plots represent the gene sets and the pink shade around the GAM fits represent the standard error.
+Figure 8.
+Open in a new tab
+Analysis of all GeneLab datasets utilized for direct comparisons with the GSEA C6 oncology signature collection analysis. Scatter plots comparing the normalized enrichment scores (NES) to dose in milligrays and fits with a generalized additive model (GAM) on specific C6 oncogenes. Each panel represents one specific oncogene and the color-coded lines represent GAM fits performed on the multiple C6 pathways associated with that oncogene. The circles in the plots represent the gene sets and the pink shade around the GAM fits represent the standard error.
+As in the previous sections, we also performed analysis with less stringent statistics with a FDR < 0.05 in only three of the GeneLab Datasets analyzed for C6 gene sets (
+Figures S18–S21
+). Because there are fewer gene sets in the C6 database, this analysis started to yield some of the same results as the analysis with the higher thresholds. The GAM fits for each cluster and sub-cluster produced similar results, with one sub-cluster purely associated with TGFβ demonstrating the same trend (
+Figure S21
+). Interestingly, one cluster associated with TBK1 did not appear in the higher threshold analysis and demonstrated a clear decrease in as a function of dose (
+Figure S20
+). Lastly, a major oncogene MYC [
+68
+,
+69
+] did not show up in the higher threshold analysis, whereas in this analysis MYC was clearly being activated with increasing dose (
+Figure S20
+), indicating that space radiation exposure would increase the potential for carcinogenesis.
+2.4. Common Genes as a Function of Dose and Association with Biological Pathways
+To look at specific genes that might be common across all datasets, we performed analysis on the log2 fold-change values for all datasets. Nine genes (
+COPB2, UBE2D3, LYPLA2, ARF1, COPB1, CAPNS1, PHB2, DAD1, PRPF8
+) identified to be common across the spaceflight missions (1.0 to 30 mGy) and ground studies (0.1 to 1.0 Gy) were plotted as a function of dose and average log2 fold-change and fit to a complex polynomial model. These genes, which were expressed across the various tissue types, displayed no significant expression effects from spaceflight up to 100 mGy. At doses higher than 100 mGy, a slight deviation from baseline expression was observed (
+Figure 9
+A). The spaceflight studies alone showed slight fluctuations in expression across the identified gene sets (
+Figure 9
+B).
+Figure 9.
+Open in a new tab
+Common genes across all datasets. (
+A
+) Log2 fold-change with respect to dose for a subset of 9 genes that appeared across all 19 spaceflight studies and 3 ground studies. A polynomial of degree 2 was fit to each dose response in the range 1–1000 mGy. (
+B
+) Log2 fold-change with respect to dose for a subset of nine genes that appeared across spaceflight studies in the range 1–30 mGy. A polynomial of degree 1 was fit to each dose response. (
+C
+) Log2 fold-change with respect to dose for a subset of nine genes that appeared across all eight spaceflight studies specifically related to the muscle tissues. A polynomial of degree 1 was fit to each dose response in the range 1–30 mGy. The dashed lines denote the +/-1 sigma errors on the fitted polynomials. (
+D
+) The functional impact of the nine common genes determined by ToppCluster [
+70
+] and displayed using Cytoscape.
+A focused analysis of only the muscle tissue datasets identified a subset of nine different genes that were differentially expressed across the spaceflight studies from 0 to 30 mGy (
+Figure 9
+C). These genes displayed dose-response trends. The nine common genes associated with all tissue types were associated with pathways centered on Golgi to endoplasmic reticulum transport and post-translational protein modifications (
+Figure 9
+D). In addition, these genes also were predicted to regulated phospholipid activity, immune dysregulation, and embryonic lethality. We observed these pathways to also be involved with our GSEA analysis as a function of dose.
+3. Discussion
+Here, we presented a novel approach in using publicly available transcriptomic data to determine potential health risks and dysregulation of biological pathways as a function of space radiation exposure. The use of NASA’s GeneLab platform [
+23
+] allowed us to mine data that might not have otherwise been possible to obtain from individual experimental datasets. The large number of radiation datasets available through this platform allowed the creative combination of different datasets from former experiments to generate new hypotheses [
+71
+].
+Our hypothesis for this work suspected that there was a tissue independent dysregulation as a function of space radiation-absorbed dose that impacted key biological pathways associated with increased health risks such as induction of cancer. Because the GeneLab Data System contains spaceflight transcriptomic data from mice and tissues flown in low Earth orbit (LEO) for various time durations, we were able to obtain accumulated space radiation doses from 1 to 30 mGy. To obtain doses that will be more relevant to long-term deep space travel [
+7
+,
+14
+], we combined our analysis with simulated space radiation ground experiments performed in the NASA Space Radiation Laboratory (NSRL) at Brookhaven National Laboratory [
+24
+]. These experiments were performed on both mice and in vitro cell cultures with single ions (protons,
+56
+Fe, and
+26
+Si) at doses from 100 to 1000 mGy. By combining 25 GeneLab datasets over these doses, this work represents the first time a study has provided a comprehensive biological analysis and produced relevant and novel results indicating which relevant biological processes are being regulated as a function of space radiation exposure. These results may be further utilized to generate health risk assessment models and uncover potential targets for mitigation of space radiation effects via novel therapeutics.
+We chose to first look at the distribution of mapping errors within the RNA-sequencing results from liver samples by examining whether mice exposure to spaceflight resulted in detectable changes compared to ground controls. We chose to focus on liver tissue datasets from GeneLab with mice exposed to space radiation because on in the GLDS liver is the organ with the largest number of sequenced tissue thus far from rodent research missions [
+71
+]. This extremely novel analysis demonstrates how RNA-sequence data can be used to generate useful data other than the standard techniques to generate counts. With a cumulative exposure of 9.20 mGy for GLDS-168 mice, significant increases in A > G and C > T base substitutions were detected, as well as changes in CAC, CGT, GTA, or GTG error rates (
+Figure 1
+). However, there were no significant base-specific substitutions detected, and CAC, CGT, GTA, or GTG error rates all decreased significantly in GLDS-242 where mice received a cumulative dose of 8.03 mGy; however, due to the uncertainty inherent in the flight dosimetry, it was not possible to definitively determine whether this was the case.
+A major difference potentially impacting the observed differences between GLDS-168 and GLDS-242 was the animal sacrificing time at sample collection, which occurred during spaceflight for GLDS-168, but was 2 weeks after returning to Earth for GLDS-242. The recovery time for the mice after 2 weeks back on Earth might possibly allow recovery of the base substitutions and error rates observed during exposure to space radiation. The ability to detect single nucleotide variants (SNVs) in RNA and DNA datasets has been performed previously on the basis of the assumption of a homogeneous genomic sample for example from a tumor [
+70
+], whereas the sporadic and stochastic nature of HZE exposure is expected to result in random damage throughout the genome [
+72
+]. Therefore, approaches to map SNVs on the basis of bulk tissue approaches may not be able to account for the stochastic nature of the SNV damage accumulated in a tissue. Our interpretation of these results was that the spaceflight animals may have experienced more DNA damage/mutation than ground controls, but in the animals that were returned to Earth, the recovery of the animals allowed for repair to take place.
+Next, purely on the basis of statistical analysis, we were able to determine key biological functions that were being dysregulated as a function of space radiation. For example, in the C5 Gene Ontology (GO) terms (
+Figure 5
+C), ribosomal pathways were observed as decreasing with dose. Ribosomal assembly consisted of a number of ribosomal protein large (rpl) genes that are necessary in the assembly of the eukaryotic ribosome 60S subunit, as well as the ribosomal protein small genes involved 40S and/or 60S subunit assembly. Indeed, ribosome-related genes have been previously reported to be disrupted following exposure to ionizing radiation [
+73
+,
+74
+,
+75
+].
+We observed a clear trend of increased activation of mitochondrial-related pathways in multiple different pathway databases, which include both the C5 GO terms (
+Figure 5
+C) and C2 curated gene sets (
+Figure 6
+C). Mitochondrial gene expression is susceptible to radiation-sensitivity [
+76
+]. A number of gene sets in these clusters showed dysregulation of the NADH: ubiquinone oxidoreductase (NDUF) gene family and mitochondria-related function, in agreement with effects of ionizing radiation on the mitochondrial respiratory chain complexes in previous studies [
+77
+,
+78
+,
+79
+]. This is especially relevant to human health, as the NASA Twins Study recently revealed mitochondrial stress and increased mitochondrial debris in the blood [
+21
+].
+A distinct elicitation of inflammatory and immune-related cellular functions was also observed in this analysis with alteration in chemokine, cytokine, and interferon expression (
+Figure 5
+C and
+Figure 6
+C). Indeed, it has been very well appreciated that ionizing radiation exposure will cause both pro-inflammatory and anti-inflammatory expression as cellular signals attempt to resolve the unique normal tissue radiation injury that occurs both acutely and longer-term [
+80
+,
+81
+,
+82
+]. This immune signaling dysregulation has also been reported to occur when exposed to space radiation [
+83
+,
+84
+].
+We also explored the potential cancer risk as a function of space radiation. The datasets we utilized for this study were from both in vitro and in vivo samples that did not have any cancer present and were not prone to induction of cancer. From our analysis, we observed several interesting results indicative of increased risk for the induction of cancer. In our analysis on the C6 Oncogenic Signature database, we observed that PDGF and TGFβ were clustered together, purely on the basis of the statistics, and both were decreasing with increasing dose (cluster 3 in
+Figure 7
+C). This observation is closely tied to previously established findings. In the literature, PDGF and TGFβ are closely related to cancer progression [
+85
+]. In addition, it has been shown in the clinic that decreases in PDGF and TGFβ levels after radiotherapy for breast cancer can cause echocardiographic alterations affecting cardiovascular morbidity [
+86
+]. We also observed the highest frequency of the KRAS pathway, a known oncogene [
+87
+], being impacted as a function dose (
+Figure 7
+A). It has been previously described in experiments with single ion species that KRAS can induce lung cancer due to HZE particles [
+14
+]. Our tissue-independent analysis did not demonstrate any significant induction of KRAS with increasing dose (cluster 1 in
+Figure 7
+C and
+Figure 8
+). This might indicate that either previous experiments done with single ions at higher HZE doses did not capture the dose-dependent trend in tissues, or when considering the full spectrum of ions at lower doses KRAS might not be the key driver in inducing tumor growth.
+Other oncogenic trends we observed were decreases in CSR, ESC, TGFβ, VEGFA, and mTOR C6 pathway levels as a function of increasing radiation dose (
+Figure 7
+and
+Figure 8
+). TGFβ, VEGFa, and mTOR have all previously shown similar trends with increasing dose of simulated space radiation [
+32
+,
+88
+]. The ESC C6 term is refers to differentiation of embryonic stem cells (ESC) [
+89
+]. This rather surprising result indicates that increasing dose of space radiation reduces the efficiency of stem cell differentiation. It has been reported that after ionizing radiation exposure, mitochondria are heavily involved with stem cell development [
+90
+]. Exploiting these different pathway databases (i.e., GO, C2, and C6) provided key insights on how these different pathway trends are intertwined.
+The CSR C6 term refers to “common serum response” (CSR) specifically related to fibroblast serum [
+91
+]. Fibroblast serum response refers to factors released in the serum from fibroblasts involved in assisting with wound healing during tumorigenesis [
+91
+]. We can relate the decrease to the CSR pathways to what we observed in the GO analysis (cluster 3 in
+Figure 5
+) related to wound healing and VEGF pathways. We also observed with that wound healing should decrease with increasing doses of space radiation. This decrease can also reduce wound healing due to CSR and has shown that it can lead to tumorigenesis [
+91
+]. In addition, it has been reported that impairment occurs in space wound healing [
+92
+,
+93
+], and these data can potentially indicate an increased chance for tumor induction.
+These observed trends as a function of space radiation exposure revealed unique pathways that seem to be specifically related to GCR, whereas some pathways from our analysis are known to be universal responses to radiation. The mechanisms of damage are common to highly ionizing radiation regardless of the source [
+94
+]; what is unique to chronic space radiation exposure is the combination of highly ionizing particles, low dose, and a low dose rate, which may have implications for DNA repair [
+17
+], mitochondrial pathways [
+16
+], and lipid pathways [
+42
+] as just a few examples of what emerged from our analysis. In addition, we found specific cancer-related pathways that may be unique to space radiation. For example, decreases in TGFβ [
+32
+], embryonic stem cells (ESC) [
+95
+], and VEGFa seem to be unique to space radiation. Spaceflight studies have previously revealed a plethora of effects that radiation can have at individual doses or over a small range of discreet doses. However, the pooling and meta-analysis of these datasets in this study allowed for a unique visualization and comparison over a larger range of radiation doses. This in turn made it possible to identify trends in physiological response from low to high doses and provided insight into the response to accumulating doses that may occur in long duration space missions or over a few days during solar particle events.
+This technique may also be utilized to determine potential targets for therapeutic intervention. For example, because we report that mitochondrial pathways decrease as a function of space radiation, this argues for additional validation and research on specific mitochondrial targets for countermeasure development. In addition, from this analysis we can extrapolate to specific doses that may pose greater health risks. This analysis can only be done by utilizing a large number of datasets that are available from platforms such as NASA’s GeneLab. The resolution obtained from this analysis can easily be lost once we lower the number datasets that will be used.
+Our analysis has indicated several different health risks that may occur with increasing exposure to space radiation. Through an unbiased technique purely driven by statistics and utilizing a large amount of transcriptomic data from NASA’s GeneLab platform, we were able to identify tissue-independent biological pathways that are dysregulated as a function of space radiation dose. We believe this technique can further be used with other datasets and databases to generate more hypotheses that will assist with determining optimal therapeutic countermeasures and targets that can mitigate space radiation response in humans.
+4. Materials and Methods
+4.1. Chromosomal and Subsitution Error Rate Mapping
+Two mouse liver RNA-sequencing datasets (GLDS-168 and GLDS-242) from NASA spaceflight experiments were specifically analyzed for chromosomal or substitution error rates. Compressed fastq files were cleaned using TRIM galore (v0.6.4,
+https://github.com/FelixKrueger/TrimGalore/blob/master/Docs/Trim_Galore_User_Guide.md
+) to remove adapters and bases falling below a Q20 Phred quality score. Paired reads were aligned to the mouse mm10 reference genome using bowtie2 (v2.3.4.1,) and the output piped through samtools to generate a bam file. The bam file had read group information added and was coordinate sorted using Picard tools (v2.21.3,). Mapping metrics were calculated using Picard tools and final mismatches (MN flag) extracted with genomic coordinates using Bedtools (v2.26.0,
+https://bedtools.readthedocs.io/en/latest/
+). Data were analyzed in R to determine the frequency of mismatches with respect to chromosome number and plotted. Mapping quality data from Picard tools was analyzed using GraphpadPrism (v7.0, GraphPad Software, La Jolla California USA).
+4.2. Bioinformatics, Gene Set Enrichment Analysis, and Visulization Using Cytoscape
+The transcriptome datasets used for this study were from openly available data housed by NASA’s GeneLab platform (genelab.nasa.gov,). There was a total of 25 GeneLab datasets (GLDS) with 30 experimental comparisons from RNA-sequencing or microarray platforms (
+Table 1
+). Data pre-processing was performed as previously published to obtain normalized expression values for the majority of the datasets [
+32
+,
+33
+,
+42
+]. For GLDS-73, human bronchial epithelial cells (HBECs) were exposed to gamma-rays (1 Gy or 3 Gy), iron (
+56
+Fe), or silicon (
+26
+Si) particles (0.5 Gy or 1 Gy each). RNA extraction was executed 1 hr after exposure and the transcriptome data were evaluate by microarray technology using the Illumina HumanWG-6 V2 BeadChip (Illumina, Inc.) [
+52
+]. The raw data files were normalized using the quantile method and then background subtraction was performed using R Package PIMENTo (v1.0).
+Fold-change values between spaceflight/radiation exposure versus ground/control samples were calculated and used for gene set enrichment analysis (GSEA,) with three molecular signature dataset collections (C2, C5, and C6 gene sets) [
+54
+]. These results were imported into Cytoscape (v3.7) for further visualization and interpretation by the Enrichment Map tool [
+96
+]. Only gene set nodes with a false-detection rate (FDR) < 0.25 in at least 50% of the total datasets analyzed were considered for network evaluation. To reduce the complexity of the newly developed networks, we utilized the AutoAnnotate tool (v1.3.2,
+http://baderlab.org/Software/AutoAnnotate
+) in Cytoscape to group-related gene set nodes together. The newly annotated gene sets were then used for further analysis.
+4.3. Principal Component Analysis, t-Distributed Stochastic Neighbor Embedding, k-Means Clustering, Heatmaps, and Generalized Additive Model Fits
+The GSEA-produced nominal enrichment scores (NES) were compared using principle component analysis (PCA) plots from the R-program pca3d (v0.10,
+https://cran.r-project.org/web/packages/pca3d/pca3d.pdf
+) [
+97
+], and t-distributed stochastic neighbor embedding (t-SNE) plots using R-program Rtsne (v0.15,
+https://cran.r-project.org/web/packages/Rtsne/Rtsne.pdf
+). Further characterization was performed by hierarchical
+k
+-means clustering on the NES. Heatmaps were generated using the R-program pheatmap (v1.0.12,
+https://cran.r-project.org/web/packages/pheatmap/pheatmap.pdf
+). The auto-annotated gene sets for each
+k
+-means cluster were then plotted with the NES versus the dose for associated for each GeneLab dataset (
+Table 1
+) with R-program ggplot2 (v3.2.1,). Data points were then fit using a generalized additive model (GAM) [
+55
+,
+56
+] across all dose ranges from 1 to 1000 mGy with R-program mgcv (v1.8-28,
+https://cran.r-project.org/web/packages/mgcv/mgcv.pdf
+)
+4.4. Analysis on Common Individual Genes with Fold-Change Values and Fits as a Function of Dose
+A total of 19 spaceflight studies and 3 ground studies were selected from the GeneLab database.
+Table 1
+summarizes the datasets including the tissue, species, the radiation type, and the measured dose. From each study, the fold-change value between irradiated and control for each gene was calculated. For spaceflight studies, the log
+2
+fold-change was computed as the ratio of the spaceflight measurement to a ground control value. In studies where terrestrial measurements for ground control values were made in both an animal enclosure module (AEM, also referred to as the Rodent Habitat) and a vivarium, the AEM ground control value was used due to the similar module conditions experienced by tissue in the spaceflight AEMs. For the terrestrial studies that simulated space radiation, the experimental values were the samples that were irradiated with a specific ion (i.e.,
+56
+Fe,
+26
+Si, or proton) compared to the sham unirradiated samples closest to the time of irradiation. Across all of the studies, the most common genes probed were chosen, which produced nine genes present with all the GLDS sets used for this manuscript. A polynomial of degree 2 was fit to the data in the range 1–1000 mGy for all datasets. For fits involving only spaceflight samples and only muscle tissues, due to the smaller range of doses up to 30 mGy, data were fit using a polynomial of degree 1. All fits were performed using a chi-square method via CERN’s ROOT toolkit (v.6.18/02,) [
+98
+]. The nine genes were entered in ToppCluster [
+99
+] to determine the predicted pathways and functions these genes will impact. The results from ToppCluster were imported into Cytoscape, where the predicted functions were displayed as a network.
+5. Conclusions
+This work is an example of how GeneLab’s rich database of omics experiments with animal models can be exploited to better understand the effects of ionizing radiation and the resulting potential risks to humans. This large-scale analysis of multiple transcriptome datasets including RNA-sequencing and microarray datasets provides a valuable examination of dose-dependent perturbations of cellular function across multiple tissue types in animal models. Individually, these experiments were limited by flight duration, resulting in a single accumulated dose from a micture of particles or, in ground-based studies, exposure to a single particle species. When analyzing multiple molecular databases using our approach to many omics datasets, a more comprehensive analysis of significantly impacted biological factors can be obtained than was previously possible.
+Supplementary Materials
+The following are available online at
+https://www.mdpi.com/2072-6694/12/2/381/s1
+: Figure S1: Principal component analysis (PCA) plots on GeneLab datasets (GLDS) using the gene set enrichment analysis (GSEA) nominal enrichment scores before (top row) and after (bottom row) auto-annotation using Cytoscape’s enrichment map software, Figure S2: t-Distributed stochastic neighbor embedding (tSNE) plots on GeneLab datasets (GLDS) using the gene set enrichment analysis (GSEA) nominal enrichment scores before (top row) and after (bottom row) auto-annotation using Cytoscape’s enrichment map software, Figure S3: t-Distributed stochastic neighbor embedding (tSNE) plots on GeneLab datasets (GLDS) using the gene set enrichment analysis (GSEA) nominal enrichment scores before (top row) and after (bottom row) auto-annotation using Cytoscape’s enrichment map software, Figure S4: Analysis of all GeneLab datasets utilized for direct comparisons with Gene Ontology (GO) GSEA analysis with false discovery rate (FDR) < 0.05 for three datasets, Figure S5: Analysis of all GeneLab datasets utilized for direct comparisons with Gene Ontology (GO) GSEA analysis with FDR < 0.05 for three datasets for cluster 2, Figure S6: Analysis of all GeneLab Datasets utilized for direct comparisons with Gene Ontology (GO) GSEA analysis with FDR < 0.05 for three datasets for cluster 3, Figure S7: Scatter plots comparing the normalized enrichment scores (NES) to dose in mGy and fits with a generalized additive model (GAM) on each cluster (represented in Figure S4), Figure S8: Scatter plots comparing the normalized enrichment scores (NES) to dose in mGy and fits with a generalized additive model (GAM) on each cluster (represented in Figure S5), Figure S9: Scatter plots comparing the normalized enrichment scores (NES) to dose in mGy and fits with a generalized additive model (GAM) on each cluster (represented in Figure S5), Figure S10: Analysis of all GeneLab Datasets utilized for direct comparisons with C2 curated gene sets GSEA analysis with FDR < 0.05 for three datasets, Figure S11: Analysis of all GeneLab datasets utilized for direct comparisons with C2-curated gene set GSEA analysis with FDR < 0.05 for three datasets for cluster 1, Figure S12: Analysis of all GeneLab datasets utilized for direct comparisons with C2-curated gene set GSEA analysis with FDR < 0.05 for three datasets for cluster 2, Figure S13: Analysis of all GeneLab datasets utilized for direct comparisons with C2-curated gene set GSEA analysis with FDR < 0.05 for three datasets for cluster 3, Figure S14: Scatter plots comparing the normalized enrichment scores (NES) to dose in mGy and fits with a generalized additive model (GAM) on each cluster (represented in Figure S10), Figure S15: Scatter plots comparing the normalized enrichment scores (NES) to dose in mGy and fits with a generalized additive model (GAM) on each cluster (represented in Figure S11), Figure S16: Scatter plots comparing the normalized enrichment scores (NES) to dose in mGy and fits with a generalized additive model (GAM) on each cluster (represented in Figure S12), Figure S17: Scatter plots comparing the normalized enrichment scores (NES) to dose in mGy and fits with a generalized additive model (GAM) on each cluster (represented in Figure S13), Figure S18: Analysis of all GeneLab datasets utilized for direct comparisons with C6 Oncogenic Signature GSEA analysis with FDR < 0.05 for three datasets, Figure S19: Analysis of all GeneLab datasets utilized for direct comparisons with C6 Oncogenic Signature GSEA analysis with FDR < 0.05 for three datasets for cluster 1, Figure S20: Scatter plots comparing the normalized enrichment scores (NES) to dose in mGy and fits with a generalized additive model (GAM) on each cluster (represented in Figure S18), Figure S21: Scatter plots comparing the normalized enrichment scores (NES) to dose in mGy and fits with a generalized additive model (GAM) on each cluster (represented in Figure S19), Table S1: Doses and dose rates for ground-based exposures at the NASA Space Radiation Laboratory (NSRL) at Brookhaven National Laboratory.
+Click here for additional data file.
+(1.9MB, zip)
+Author Contributions
+Individual contributions were as follows: conceptualization, A.B.; methodology, A.B., J.T.M, R.M. and R.S.; formal analysis, A.B., R.M., R.S., T.C., W.A.d.S., K.S.R., D.T. and J.T.M.; investigation, A.B., J.T.M., R.M. and R.S.; resources, R.M., D.T., G.H., S.V.C. and V.C.; data curation, J.M. and A.B.; writing—original draft preparation, J.T.M and A.B.; writing—review and editing, V.C., D.T., W.A.S., S.V.C., R.M., R.S., J.M., A.B. and J.T.M.; visualization, A.B., R.M. and R.S.; supervision, A.B.; project administration, A.B.; funding acquisition, S.V.C. All authors have read and agreed to the published version of the manuscript.
+Funding
+Research funding was provided by the GeneLab Project at NASA Ames Research Center, through NASA’s Space Biology Program in the Division of Space Life and Physical Sciences Research and Applications (SLPSRA). Any use of trade names is for descriptive purposes only and does not imply endorsement by the U.S. Government. R.M. is funded by U54CA118638 from NCI/NIH and
+MD007602
+.
+Conflicts of Interest
+The authors declare no conflict of interest.
+References
+1.
+Chancellor J.C., Scott G.B., Sutton J.P. Space Radiation: The Number One Risk to Astronaut Health beyond Low Earth Orbit. Life (Basel) 2014;4:491–510. doi: 10.3390/life4030491.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Blaber E.A., Dvorochkin N., Lee C., Alwood J.S., Yousuf R., Pianetta P., Globus R.K., Burns B.P., Almeida E.A. Microgravity induces pelvic bone loss through osteoclastic activity, osteocytic osteolysis, and osteoblastic cell cycle inhibition by CDKN1a/p21. PLoS ONE. 2013;8:e61372.  doi: 10.1371/journal.pone.0061372.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Riley D.A. Review of primary spaceflight-induced and secondary reloading-induced changes in slow antigravity muscles of rats. Adv. Space Res. 1998;21:1073–1075. doi: 10.1016/S0273-1177(98)00029-5.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Baldwin K.M. Effect of spaceflight on the functional, biochemical, and metabolic properties of skeletal muscle. Med. Sci. Sports Exerc. 1996;28:983–987. doi: 10.1097/00005768-199608000-00008.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Gambara G., Salanova M., Ciciliot S., Furlan S., Gutsmann M., Schiffl G., Ungethuem U., Volpe P., Gunga H.C., Blottner D. Gene Expression Profiling in Slow-Type Calf Soleus Muscle of 30 Days Space-Flown Mice. PLoS ONE. 2017;12:e0169314.  doi: 10.1371/journal.pone.0169314.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Mishra B., Luderer U. Reproductive hazards of space travel in women and men. Nat. Rev. Endocrinol. 2019;15:713–730. doi: 10.1038/s41574-019-0267-6.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Cucinotta F.A., Cacao E. Risks of cognitive detriments after low dose heavy ion and proton exposures. Int. J. Radiat. Biol. 2019;95:985–998. doi: 10.1080/09553002.2019.1623427.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Rabin B.M., Shukitt-Hale B., Joseph J., Todd P. Diet as a factor in behavioral radiation protection following exposure to heavy particles. Gravit. Space Biol. Bull. 2005;18:71–77.
+[
+PubMed
+] [
+Google Scholar
+]
+9.
+Dutta S.M., Hadley M.M., Peterman S., Jewell J.S., Duncan V.D., Britten R.A. Quantitative Proteomic Analysis of the Hippocampus of Rats with GCR-Induced Spatial Memory Impairment. Radiat. Res. 2018;189:136–145. doi: 10.1667/RR14822.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Shen M., Frishman W.H. Effects of Spaceflight on Cardiovascular Physiology and Health. Cardiol. Rev. 2019;27:122–126. doi: 10.1097/CRD.0000000000000236.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Boerma M., Nelson G.A., Sridharan V., Mao X.W., Koturbash I., Hauer-Jensen M. Space radiation and cardiovascular disease risk. World J. Cardiol. 2015;7:882–888. doi: 10.4330/wjc.v7.i12.882.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Raghunathan D., Khilji M.I., Hassan S.A., Yusuf S.W. Radiation-Induced Cardiovascular Disease. Curr. Atheroscler. Rep. 2017;19:22. doi: 10.1007/s11883-017-0658-x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Hanahan D., Weinberg R.A. Hallmarks of cancer: the next generation. Cell. 2011;144:646–674. doi: 10.1016/j.cell.2011.02.013.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+Barcellos-Hoff M.H., Blakely E.A., Burma S., Fornace A.J., Gerson S., Hlatky L., Kirsch D.G., Luderer U., Shay J., Wang Y., et al.  Concepts and challenges in cancer risk prediction for the space radiation environment. Life Sci. Space Res. (Amst) 2015;6:92–103. doi: 10.1016/j.lssr.2015.07.006.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Vidyasekar P., Shyamsunder P., Arun R., Santhakumar R., Kapadia N.K., Kumar R., Verma R.S. Genome Wide Expression Profiling of Cancer Cell Lines Cultured in Microgravity Reveals Significant Dysregulation of Cell Cycle and MicroRNA Gene Networks. PLoS ONE. 2015;10:e0135958.  doi: 10.1371/journal.pone.0135958.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Yatagai F., Honma M., Dohmae N., Ishioka N. Biological effects of space environmental factors: A possible interaction between space radiation and microgravity. Life Sci. Space Res. (Amst) 2019;20:113–123. doi: 10.1016/j.lssr.2018.10.004.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Maxwell C.A., Fleisch M.C., Costes S.V., Erickson A.C., Boissiere A., Gupta R., Ravani S.A., Parvin B., Barcellos-Hoff M.H. Targeted and nontargeted effects of ionizing radiation that impact genomic instability. Cancer Res. 2008;68:8304–8311. doi: 10.1158/0008-5472.CAN-08-1212.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Crucian B.E., Chouker A., Simpson R.J., Mehta S., Marshall G., Smith S.M., Zwart S.R., Heer M., Ponomarev S., Whitmire A., et al.  Immune System Dysregulation During Spaceflight: Potential Countermeasures for Deep Space Exploration Missions. Front Immunol. 2018;9:1437. doi: 10.3389/fimmu.2018.01437.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Michaletti A., Gioia M., Tarantino U., Zolla L. Effects of microgravity on osteoblast mitochondria: A proteomic and metabolomics profile. Sci. Rep. 2017;7:15376. doi: 10.1038/s41598-017-15612-1.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Andreazzoli A., Fossati C., Spaccamiglio A., Salvo R., Quaranta F., Minganti C., Di Luigi L., Borrione P. Assessment of pN-GAL as a marker of renal function in elite cyclists during professional competitions. J. Biol. Regul. Homeost Agents. 2017;31:829–835.
+[
+PubMed
+] [
+Google Scholar
+]
+21.
+Garrett-Bakelman F.E., Darshi M., Green S.J., Gur R.C., Lin L., Macias B.R., McKenna M.J., Meydan C., Mishra T., Nasrini J., et al.  The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight. Science. 2019;364 doi: 10.1126/science.aau8650.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Gao Y., Xu D., Zhao L., Zhang M., Sun Y. Effects of microgravity on DNA damage response in Caenorhabditis elegans during Shenzhou-8 spaceflight. Int. J. Radiat. Biol. 2015;91:531–539. doi: 10.3109/09553002.2015.1043754.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Ray S., Gebre S., Fogle H., Berrios D.C., Tran P.B., Galazka J.M., Costes S.V. GeneLab: Omics database for spaceflight experiments. Bioinformatics. 2019;35:1753–1759. doi: 10.1093/bioinformatics/bty884.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+La Tessa C., Sivertz M., Chiang I.H., Lowenstein D., Rusek A. Overview of the NASA space radiation laboratory. Life Sci. Space Res. (Amst) 2016;11:18–23. doi: 10.1016/j.lssr.2016.10.002.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+25.
+Casey T., Patel O.V., Plaut K. Transcriptomes reveal alterations in gravity impact circadian clocks and activate mechanotransduction pathways with adaptation through epigenetic change. Physiol. Genom. 2015;47:113–128. doi: 10.1152/physiolgenomics.00117.2014.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+26.
+Patel O.V., Casey T., Dover H., Plaut K. Homeorhetic adaptation to lactation: comparative transcriptome analysis of mammary, liver, and adipose tissue during the transition from pregnancy to lactation in rats. Funct. Integr. Genom. 2011;11:193–202. doi: 10.1007/s10142-010-0193-0.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Casey T., Patel O., Dykema K., Dover H., Furge K., Plaut K. Molecular signatures reveal circadian clocks may orchestrate the homeorhetic response to lactation. PLoS ONE. 2009;4:e7395.  doi: 10.1371/journal.pone.0007395.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Versari S., Longinotti G., Barenghi L., Maier J.A., Bradamante S. The challenging environment on board the International Space Station affects endothelial cell function by triggering oxidative stress through thioredoxin interacting protein overexpression: the ESA-SPHINX experiment. FASEB J. 2013;27:4466–4475. doi: 10.1096/fj.13-229195.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Beheshti A., McDonald J.T., Miller J., Grabham P., Costes S.V. GeneLab Database Analyses Suggest Long-Term Impact of Space Radiation on the Cardiovascular System by the Activation of FYN Through Reactive Oxygen Species. Int. J. Mol. Sci. 2019;20:661.  doi: 10.3390/ijms20030661.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+Lu T., Zhang Y., Kidane Y., Feiveson A., Stodieck L., Karouia F., Ramesh G., Rohde L., Wu H. Cellular responses and gene expression profile changes due to bleomycin-induced DNA damage in human fibroblasts in space. PLoS ONE. 2017;12:e0170358.  doi: 10.1371/journal.pone.0170358.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+31.
+Allen D.L., Bandstra E.R., Harrison B.C., Thorng S., Stodieck L.S., Kostenuik P.J., Morony S., Lacey D.L., Hammond T.G., Leinwand L.L., et al.  Effects of spaceflight on murine skeletal muscle gene expression. J. Appl. Physiol. (1985) 2009;106:582–595. doi: 10.1152/japplphysiol.90780.2008.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+32.
+Beheshti A., Ray S., Fogle H., Berrios D., Costes S.V. A microRNA signature and TGF-beta1 response were identified as the key master regulators for spaceflight response. PLoS ONE. 2018;13:e0199621.  doi: 10.1371/journal.pone.0199621.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Beheshti A., Cekanaviciute E., Smith D.J., Costes S.V. Global transcriptomic analysis suggests carbon dioxide as an environmental stressor in spaceflight: A systems biology GeneLab case study. Sci. Rep. 2018;8:4191. doi: 10.1038/s41598-018-22613-1.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Lebsack T.W., Fa V., Woods C.C., Gruener R., Manziello A.M., Pecaut M.J., Gridley D.S., Stodieck L.S., Ferguson V.L., Deluca D. Microarray analysis of spaceflown murine thymus tissue reveals changes in gene expression regulating stress and glucocorticoid receptors. J. Cell Biochem. 2010;110:372–381. doi: 10.1002/jcb.22547.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Globus R., Cadena S. Rodent Research-1 (RR1) National Lab Validation Flight: Mouse Liver Transcriptomic, Proteomic, and Epigenomic Data.  [(accessed on 5 February 2020)]; Available online:
+https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-47/
+36.
+Gridley D.S., Mao X.W., Stodieck L.S., Ferguson V.L., Bateman T.A., Moldovan M., Cunningham C.E., Jones T.A., Slater J.M., Pecaut M.J. Changes in mouse thymus and spleen after return from the STS-135 mission in space. PLoS ONE. 2013;8:e75097.  doi: 10.1371/annotation/e66bdc4e-2409-4582-b163-7bc182db275e.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+37.
+Mao X.W., Pecaut M.J., Stodieck L.S., Ferguson V.L., Bateman T.A., Bouxsein M., Jones T.A., Moldovan M., Cunningham C.E., Chieu J., et al.  Spaceflight environment induces mitochondrial oxidative damage in ocular tissue. Radiat. Res. 2013;180:340–350. doi: 10.1667/RR3309.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+38.
+Jonscher K.R., Alfonso-Garcia A., Suhalim J.L., Orlicky D.J., Potma E.O., Ferguson V.L., Bouxsein M.L., Bateman T.A., Stodieck L.S., Levi M., et al.  Spaceflight Activates Lipotoxic Pathways in Mouse Liver. PLoS ONE. 2016;11:e0152877.  doi: 10.1371/journal.pone.0152877.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+39.
+Pecaut M.J., Mao X.W., Bellinger D.L., Jonscher K.R., Stodieck L.S., Ferguson V.L., Bateman T.A., Mohney R.P., Gridley D.S. Is spaceflight-induced immune dysfunction linked to systemic changes in metabolism? PLoS ONE. 2017;12:e0174174.  doi: 10.1371/journal.pone.0174174.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+40.
+Blaber E.A., Pecaut M.J., Jonscher K.R. Spaceflight Activates Autophagy Programs and the Proteasome in Mouse Liver. Int. J. Mol. Sci. 2017;18:2062.  doi: 10.3390/ijms18102062.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+41.
+Mao X.W., Pecaut M.J., Stodieck L.S., Ferguson V.L., Bateman T.A., Bouxsein M.L., Gridley D.S. Biological and metabolic response in STS-135 space-flown mouse skin. Free Radic. Res. 2014;48:890–897. doi: 10.3109/10715762.2014.920086.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+42.
+Beheshti A., Chakravarty K., Fogle H., Fazelinia H., Silveira W.A.D., Boyko V., Polo S.L., Saravia-Butler A.M., Hardiman G., Taylor D., et al.  Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver. Sci. Rep. 2019;9:19195. doi: 10.1038/s41598-019-55869-2.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+43.
+Globus R, G.N. Rodent Research-1 (RR1) NASA Validation Flight: Mouse Eye Transcriptomic and Epigenomic Data.  [(accessed on 5 February 2020)]; Available online:
+https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-100/
+44.
+Jiang P., Green S.J., Chlipala G.E., Turek F.W., Vitaterna M.H. Reproducible changes in the gut microbiome suggest a shift in microbial and host metabolism during spaceflight. Microbiome. 2019;7:113. doi: 10.1186/s40168-019-0724-4.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+45.
+Galazka J. Effect of Spaceflight on Liver from Mice Flown on the ISS for 33 Days: Transcriptional Analysis. NASA GENELAB: 2019.  [(accessed on 5 February 2020)]; Available online:
+https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-242/.
+46.
+Smith R, C.M.G.R.G.N. Rodent Research-3-CASIS: Mouse Adrenal Gland Transcriptomic, Proteomic, and Epigenomic Data.  [(accessed on 5 February 2020)]; Available online:
+https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-161/
+47.
+Smith R, C.M.G.R.G.N. Rodent Research-3-CASIS: Mouse Eye Transcriptomic and Proteomic Data.  [(accessed on 5 February 2020)]; Available online:
+https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-162/
+48.
+Smith R, C.M.G.R.G.N. Rodent Research-3-CASIS: Mouse Kidney Transcriptomic, Proteomic, and Epigenomic Data.  [(accessed on 5 February 2020)]; Available online:
+https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-163/
+49.
+Neutelings T., Nusgens B.V., Liu Y., Tavella S., Ruggiu A., Cancedda R., Gabriel M., Colige A., Lambert C. Skin physiology in microgravity: A 3-month stay aboard ISS induces dermal atrophy and affects cutaneous muscle and hair follicles cycling in mice. NPJ Microgravity. 2015;1:15002. doi: 10.1038/npjmgrav.2015.2.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+50.
+Tang J., Fernandez-Garcia I., Vijayakumar S., Martinez-Ruis H., Illa-Bochaca I., Nguyen D.H., Mao J.H., Costes S.V., Barcellos-Hoff M.H. Irradiation of juvenile, but not adult, mammary gland increases stem cell self-renewal and estrogen receptor negative tumors. Stem Cells. 2014;32:649–661. doi: 10.1002/stem.1533.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+51.
+Coleman M.A., Sasi S.P., Onufrak J., Natarajan M., Manickam K., Schwab J., Muralidharan S., Peterson L.E., Alekseyev Y.O., Yan X., et al.  Low-dose radiation affects cardiac physiology: gene networks and molecular signaling in cardiomyocytes. Am. J. Physiol. Heart Circ. Physiol. 2015;309:H1947–H1963. doi: 10.1152/ajpheart.00050.2015.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+52.
+Ding L.H., Park S., Peyton M., Girard L., Xie Y., Minna J.D., Story M.D. Distinct transcriptome profiles identified in normal human bronchial epithelial cells after exposure to gamma-rays and different elemental particles of high Z and energy. BMC Genom. 2013;14:372.  doi: 10.1186/1471-2164-14-372.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+53.
+Alexeyev M., Shokolenko I., Wilson G., LeDoux S. The maintenance of mitochondrial DNA integrity--critical analysis and update. Cold Spring Harb. Perspect. Biol. 2013;5:a012641. doi: 10.1101/cshperspect.a012641.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+54.
+Subramanian A., Tamayo P., Mootha V.K., Mukherjee S., Ebert B.L., Gillette M.A., Paulovich A., Pomeroy S.L., Golub T.R., Lander E.S., et al.  Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles. Proc. Natl. Acad. Sci. USA. 2005;102:15545–15550. doi: 10.1073/pnas.0506580102.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+55.
+Hastie T., Tibshirani R. Generalized Additive Models. Stat. Sci. 1986;1:297–310. doi: 10.1214/ss/1177013604.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+56.
+Wood S.N., Pya N., Säfken B. Smoothing Parameter and Model Selection for General Smooth Models. J. Am. Stat. Assoc. 2015;111:1548–1563. doi: 10.1080/01621459.2016.1180986.
+[
+DOI
+] [
+Google Scholar
+]
+57.
+Moreno-Villanueva M., Wong M., Lu T., Zhang Y., Wu H. Interplay of space radiation and microgravity in DNA damage and DNA damage response. NPJ Microgravity. 2017;3:14. doi: 10.1038/s41526-017-0019-7.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+58.
+Raber J., Allen A.R., Sharma S., Allen B., Rosi S., Olsen R.H., Davis M.J., Eiwaz M., Fike J.R., Nelson G.A. Effects of Proton and Combined Proton and (56)Fe Radiation on the Hippocampus. Radiat. Res. 2016;185:20–30. doi: 10.1667/RR14222.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+59.
+Martinez E.M., Yoshida M.C., Candelario T.L., Hughes-Fulford M. Spaceflight and simulated microgravity cause a significant reduction of key gene expression in early T-cell activation. Am. J. Physiol. Regul. Integr. Comp. Physiol. 2015;308:R480–R488. doi: 10.1152/ajpregu.00449.2014.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+60.
+Beheshti A., Peluso M., Lamont C., Hahnfeldt P., Hlatky L. Proton irradiation augments the suppression of tumor progression observed with advanced age. Radiat. Res. 2014;181:272–283. doi: 10.1667/RR13538.1.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+61.
+Beheshti A., Sachs R.K., Peluso M., Rietman E., Hahnfeldt P., Hlatky L. Age and space irradiation modulate tumor progression: implications for carcinogenesis risk. Radiat. Res. 2013;179:208–220. doi: 10.1667/RR3100.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+62.
+Wage J., Ma L., Peluso M., Lamont C., Evens A.M., Hahnfeldt P., Hlatky L., Beheshti A. Proton irradiation impacts age-driven modulations of cancer progression influenced by immune system transcriptome modifications from splenic tissue. J. Radiat. Res. 2015;56:792–803. doi: 10.1093/jrr/rrv043.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+63.
+Balbo B.E., Amaral A.G., Fonseca J.M., de Castro I., Salemi V.M., Souza L.E., Dos Santos F., Irigoyen M.C., Qian F., Chammas R., et al.  Cardiac dysfunction in Pkd1-deficient mice with phenotype rescue by galectin-3 knockout. Kidney Int. 2016;90:580–597. doi: 10.1016/j.kint.2016.04.028.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+64.
+Galant D., Gaborit B., Desgrouas C., Abdesselam I., Bernard M., Levy N., Merono F., Coirault C., Roll P., Lagarde A., et al.  A Heterozygous ZMPSTE24 Mutation Associated with Severe Metabolic Syndrome, Ectopic Fat Accumulation, and Dilated Cardiomyopathy. Cells. 2016;5:21.  doi: 10.3390/cells5020021.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+65.
+Olabi A.A., Lawless H.T., Hunter J.B., Levitsky D.A., Halpern B.P. The effect of microgravity and space flight on the chemical senses. J. Food Sci. 2002;67:468–478. doi: 10.1111/j.1365-2621.2002.tb10622.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+66.
+Mukhopadhyay S., Saha R., Palanisamy A., Ghosh M., Biswas A., Roy S., Pal A., Sarkar K., Bagh S. A systems biology pipeline identifies new immune and disease related molecular signatures and networks in human cells during microgravity exposure. Sci. Rep. 2016;6:25975. doi: 10.1038/srep25975.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+67.
+Vickers Z.M., Rice B.L., Rose M.S., Lane H.W. Simulated microgravity [bed rest] has little influence on taste, odor or trigeminal sensitivity. J. Sens. Stud. 2001;16:23–32. doi: 10.1111/j.1745-459X.2001.tb00288.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+68.
+Wang X.N., Su X.X., Cheng S.Q., Sun Z.Y., Huang Z.S., Ou T.M. MYC modulators in cancer: A patent review. Expert Opin. Ther. Pat. 2019;29:353–367. doi: 10.1080/13543776.2019.1612878.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+69.
+Garcia-Gutierrez L., Delgado M.D., Leon J. MYC Oncogene Contributions to Release of Cell Cycle Brakes. Genes (Basel) 2019;10:244.  doi: 10.3390/genes10030244.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+70.
+Xu C. A review of somatic single nucleotide variant calling algorithms for next-generation sequencing data. Comput. Struct. Biotechnol. J. 2018;16:15–24. doi: 10.1016/j.csbj.2018.01.003.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+71.
+Beheshti A., Miller J., Kidane Y., Berrios D., Gebre S.G., Costes S.V. NASA GeneLab Project: Bridging Space Radiation Omics with Ground Studies. Radiat Res. 2018;189:553–559. doi: 10.1667/RR15062.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+72.
+Asaithamby A., Chen D.J. Mechanism of cluster DNA damage repair in response to high-atomic number and energy particles radiation. Mutat. Res. 2011;711:87–99. doi: 10.1016/j.mrfmmm.2010.11.002.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+73.
+Lanza V., Pretazzoli V., Olivieri G., Pascarella G., Panconesi A., Negri R. Transcriptional response of human umbilical vein endothelial cells to low doses of ionizing radiation. J. Radiat. Res. 2005;46:265–276. doi: 10.1269/jrr.46.265.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+74.
+Eberhard R., Stergiou L., Hofmann E.R., Hofmann J., Haenni S., Teo Y., Furger A., Hengartner M.O. Ribosome synthesis and MAPK activity modulate ionizing radiation-induced germ cell apoptosis in Caenorhabditis elegans. PLoS Genet. 2013;9:e1003943.  doi: 10.1371/journal.pgen.1003943.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+75.
+Pucci M., Masi A., Marsilii G. Ribosome changes induced by irradiation of isolated rat liver in vitro. Acta Radiol. Oncol. 1982;21:449–453. doi: 10.3109/02841868209134326.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+76.
+Kulkarni R., Marples B., Balasubramaniam M., Thomas R.A., Tucker J.D. Mitochondrial gene expression changes in normal and mitochondrial mutant cells after exposure to ionizing radiation. Radiat. Res. 2010;173:635–644. doi: 10.1667/RR1737.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+77.
+Barjaktarovic Z., Schmaltz D., Shyla A., Azimzadeh O., Schulz S., Haagen J., Dorr W., Sarioglu H., Schafer A., Atkinson M.J., et al.  Radiation-induced signaling results in mitochondrial impairment in mouse heart at 4 weeks after exposure to X-rays. PLoS ONE. 2011;6:e27811.  doi: 10.1371/journal.pone.0027811.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+78.
+Pearce L.L., Epperly M.W., Greenberger J.S., Pitt B.R., Peterson J. Identification of Respiratory Complexes I and III as Mitochondrial Sites of Damage Following Exposure to Ionizing Radiation and Nitric Oxide. Nitric. Oxide. 2001;5:128–136. doi: 10.1006/niox.2001.0338.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+79.
+Yin Z., Yang G., Deng S., Wang Q. Oxidative stress levels and dynamic changes in mitochondrial gene expression in a radiation-induced lung injury model. J. Radiat. Res. 2018;60:204–214. doi: 10.1093/jrr/rry105.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+80.
+Brush J., Lipnick S.L., Phillips T., Sitko J., McDonald J.T., McBride W.H. Molecular mechanisms of late normal tissue injury. Semin. Radiat. Oncol. 2007;17:121–130. doi: 10.1016/j.semradonc.2006.11.008.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+81.
+Schaue D., Kachikwu E.L., McBride W.H. Cytokines in radiobiological responses: A review. Radiat. Res. 2012;178:505–523. doi: 10.1667/RR3031.1.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+82.
+McBride W.H., Ganapathy E., Lee M.H., Nesseler J.P., Nguyen C., Schaue D. A perspective on the impact of radiation therapy on the immune rheostat. Br. J. Radiol. 2017;90:20170272. doi: 10.1259/bjr.20170272.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+83.
+Smith J.K. IL-6 and the dysregulation of immune, bone, muscle, and metabolic homeostasis during spaceflight. NPJ Microgravity. 2018;4:24. doi: 10.1038/s41526-018-0057-9.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+84.
+Crucian B.E., Zwart S.R., Mehta S., Uchakin P., Quiriarte H.D., Pierson D., Sams C.F., Smith S.M. Plasma cytokine concentrations indicate that in vivo hormonal regulation of immunity is altered during long-duration spaceflight. J. Interferon Cytokine Res. 2014;34:778–786. doi: 10.1089/jir.2013.0129.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+85.
+Shibuya H., Yoshitomi H., Murata K., Kobayashi S., Furu M., Ishikawa M., Fujii T., Ito H., Matsuda S. TNFalpha, PDGF, and TGFbeta synergistically induce synovial lining hyperplasia via inducible PI3Kdelta. Mod. Rheumatol. 2015;25:72–78. doi: 10.3109/14397595.2014.900847.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+86.
+Aula H., Skytta T., Tuohinen S., Luukkaala T., Hamalainen M., Virtanen V., Raatikainen P., Moilanen E., Kellokumpu-Lehtinen P.L. Decreases in TGF-beta1 and PDGF levels are associated with echocardiographic changes during adjuvant radiotherapy for breast cancer. Radiat. Oncol. 2018;13:201. doi: 10.1186/s13014-018-1150-7.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+87.
+Tsuchida N., Murugan A.K., Grieco M. Kirsten Ras* oncogene: significance of its discovery in human cancer research. Oncotarget. 2016;7:46717–46733. doi: 10.18632/oncotarget.8773.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+88.
+Grabham P., Sharma P. The effects of radiation on angiogenesis. Vascular Cell. 2013;5:19. doi: 10.1186/2045-824X-5-19.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+89.
+Hailesellasse Sene K., Porter C.J., Palidwor G., Perez-Iratxeta C., Muro E.M., Campbell P.A., Rudnicki M.A., Andrade-Navarro M.A. Gene function in early mouse embryonic stem cell differentiation. BMC Genom. 2007;8:85.  doi: 10.1186/1471-2164-8-85.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+90.
+Mieloch A.A., Suchorska W.M. The concept of radiation-enhanced stem cell differentiation. Radiol. Oncol. 2015;49:209–216. doi: 10.1515/raon-2015-0022.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+91.
+Chang H.Y., Sneddon J.B., Alizadeh A.A., Sood R., West R.B., Montgomery K., Chi J.T., van de Rijn M., Botstein D., Brown P.O. Gene expression signature of fibroblast serum response predicts human cancer progression: similarities between tumors and wounds. PLoS Biol. 2004;2:E7.  doi: 10.1371/journal.pbio.0020007.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+92.
+Demontis G.C., Germani M.M., Caiani E.G., Barravecchia I., Passino C., Angeloni D. Human Pathophysiological Adaptations to the Space Environment. Front. Physiol. 2017;8:547. doi: 10.3389/fphys.2017.00547.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+93.
+Chancellor J.C., Blue R.S., Cengel K.A., Aunon-Chancellor S.M., Rubins K.H., Katzgraber H.G., Kennedy A.R. Limitations in predicting the space radiation health risk for exploration astronauts. NPJ Microgravity. 2018;4:8. doi: 10.1038/s41526-018-0043-2.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+94.
+Reisz J.A., Bansal N., Qian J., Zhao W., Furdui C.M. Effects of ionizing radiation on biological molecules--mechanisms of damage and emerging methods of detection. Antioxid. Redox Signal. 2014;21:260–292. doi: 10.1089/ars.2013.5489.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+95.
+Farin A.M., Manzo N.D., Kirsch D.G., Stripp B.R. Low- and high-LET radiation drives clonal expansion of lung progenitor cells in vivo. Radiat. Res. 2015;183:124–132. doi: 10.1667/RR13878.1.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+96.
+Merico D., Isserlin R., Stueker O., Emili A., Bader G.D. Enrichment map: A network-based method for gene-set enrichment visualization and interpretation. PLoS ONE. 2010;5:e13984.  doi: 10.1371/journal.pone.0013984.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+97.
+Weiner J., 3rd, Parida S.K., Maertzdorf J., Black G.F., Repsilber D., Telaar A., Mohney R.P., Arndt-Sullivan C., Ganoza C.A., Fae K.C., et al.  Biomarkers of inflammation, immunosuppression and stress with active disease are revealed by metabolomic profiling of tuberculosis patients. PLoS ONE. 2012;7:e40221.  doi: 10.1371/annotation/b7f554bc-ad78-4745-9cd6-e14954d6a01d.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+98.
+Brun R., Rademakers F. ROOT — An object oriented data analysis framework. Nucl. Instrum. Meth. A. 1997;389:81–86. doi: 10.1016/S0168-9002(97)00048-X.
+[
+DOI
+] [
+Google Scholar
+]
+99.
+Kaimal V., Bardes E.E., Tabar S.C., Jegga A.G., Aronow B.J. ToppCluster: A multiple gene list feature analyzer for comparative enrichment clustering and network-based dissection of biological systems. Nucleic Acids Res. 2010;38:W96–W102. doi: 10.1093/nar/gkq418.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Click here for additional data file.
+(1.9MB, zip)
+Articles from Cancers are provided here courtesy of
+Multidisciplinary Digital Publishing Institute  (MDPI)

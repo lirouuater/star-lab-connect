@@ -1,0 +1,575 @@
+Genome Announc
+. 2017 Apr 13;5(15):e01602-16. doi:
+10.1128/genomeA.01602-16
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Draft Genome Sequences of Several Fungal Strains Selected for Exposure to Microgravity at the International Space Station
+Nitin K Singh
+Nitin K Singh
+a
+Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA
+Find articles by
+Nitin K Singh
+a
+,
+Adriana Blachowicz
+Adriana Blachowicz
+a
+Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA
+b
+Department of Pharmacology and Pharmaceutical Sciences, School of Pharmacy, University of Southern California, Los Angeles, California, USA
+Find articles by
+Adriana Blachowicz
+a,
+b
+,
+Jillian Romsdahl
+Jillian Romsdahl
+b
+Department of Pharmacology and Pharmaceutical Sciences, School of Pharmacy, University of Southern California, Los Angeles, California, USA
+Find articles by
+Jillian Romsdahl
+b
+,
+Clay Wang
+Clay Wang
+b
+Department of Pharmacology and Pharmaceutical Sciences, School of Pharmacy, University of Southern California, Los Angeles, California, USA
+c
+Department of Chemistry, Dornsife College of Letters, Arts and Sciences, University of Southern California, Los Angeles, California, USA
+Find articles by
+Clay Wang
+b,
+c
+,
+Tamas Torok
+Tamas Torok
+d
+Lawrence Berkeley National Laboratory, Berkeley, California, USA
+Find articles by
+Tamas Torok
+d
+,
+Kasthuri Venkateswaran
+Kasthuri Venkateswaran
+a
+Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA
+Find articles by
+Kasthuri Venkateswaran
+a,
+✉
+Author information
+Article notes
+Copyright and License information
+a
+Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA
+b
+Department of Pharmacology and Pharmaceutical Sciences, School of Pharmacy, University of Southern California, Los Angeles, California, USA
+c
+Department of Chemistry, Dornsife College of Letters, Arts and Sciences, University of Southern California, Los Angeles, California, USA
+d
+Lawrence Berkeley National Laboratory, Berkeley, California, USA
+✉
+Address correspondence to Kasthuri Venkateswaran,
+kjvenkat@jpl.nasa.gov
+.
+✉
+Corresponding author.
+Received 2016 Dec 22; Accepted 2017 Feb 16; Collection date 2017 Apr.
+Copyright © 2017 Singh et al.
+This is an open-access article distributed under the terms of the
+Creative Commons Attribution 4.0 International license
+.
+PMC Copyright notice
+PMCID: PMC5391430  PMID:
+28408692
+ABSTRACT
+The whole-genome sequences of eight fungal strains that were selected for exposure to microgravity at the International Space Station are presented here. These baseline sequences will help to understand the observed production of novel bioactive compounds.
+GENOME ANNOUNCEMENT
+In a screening project of natural products, fungal strains isolated from environments associated with the Chernobyl nuclear power plant (ChNPP) accident (
+1
+) have been investigated. The radiation-tolerant microorganisms selected for exposure to microgravity at the International Space Station were known to produce valuable natural products; their genomic sequences coded for secondary metabolism pathways; or they displayed positive radiotropism.
+Aspergillus niger
+, an industrially important filamentous fungus, contains a sequence resembling the fumonisin gene cluster, which suggests that the fungus has the genetic potential to produce carcinogenic fumonisins (
+2
+).
+A. niger
+also produces an abundance of naphtho-gamma-pyrone secondary metabolites, which have been shown to have antibacterial, antifungal (
+3
+), antitumor (
+4
+), and cytotoxic (
+3
+,
+4
+) activity.
+Aspergillus terreus
+is used to produce organic acids, such as itaconic acid (
+5
+), or enzymes, such as xylanases (
+6
+,
+7
+). One of the most important secondary metabolites made by
+A. terreus
+is the cholesterol-lowering molecule lovastatin. Discovery of this potent compound revolutionized the treatment of hypercholesterolemia (
+8
+,
+9
+).
+Aureobasidium pullulans
+is an important producer of pullulan, a homopolysaccharide of glucose that is widely used in the food, pharmaceutical, and electronics industries (
+10
+,
+11
+). The whole-genome sequence of
+A. pullulans
+revealed significant biotechnological potential but also the presence of virulence factors that cannot be overlooked (
+12
+).
+Beauveria bassiana
+is an entomopathogenic fungus used to produce biodegradable, nonpoisonous, and cost-efficient bioinsecticides (
+13
+). Genomic analysis of
+B. bassiana
+exhibits its capacity to produce a plethora of secondary metabolites, such as oosporein, bassianin, beauvericin, or oxalic acid (
+14
+). Beauvericin possesses antimicrobial, antiviral, antifungal, and antitumor activity (
+15
+).
+Cladosporium cladosporioides
+, a ubiquitous organism, produces cladosporin and isocladosporin—secondary metabolites known to have antifungal activities. Its genome has not been sequenced yet (
+16
+,
+17
+).
+Cladosporium sphaerospermum
+is a plant endophyte but also an allergen to immunocompromised populations. It has the capacity to produce a variety of allergens, such as enolase, mannitol, dehydrogenase, and aldehyde dehydrogenase (
+18
+).
+Fusarium solani
+is a plant pathogen that produces multiple phytotoxins, such as marticin, isomarticin, anhydrofusarubin, and javanicin, that cause sudden death syndrome of soybean (
+19
+), for example.
+Trichoderma virens
+is a common rhizosphere fungus beneficial to plants and reported to induce a defense response of cotton to
+Rhizoctonia solani
+–incited seedling disease (
+20
+,
+21
+).
+The whole-genome sequences of these eight fungal strains were obtained by shotgun sequencing performed on an Illumina HiSeq2500 platform with a paired-end module. The NGS QC toolkit version 2.3 (
+22
+) was used to filter the data for high-quality vector- and adaptor-free reads for genome assembly (cutoff read length for high quality: 80%; cutoff quality score: 20). High-quality vector-filtered reads were used for assembly with the MaSuRCA genome assembler (
+k
+-mer size = 70) (
+23
+). Data from the final assembly of the strains, including number of scaffolds, total size,
+N
+50
+contig length, G+C content, and GenBank accession numbers, are given in
+Table 1
+.
+TABLE 1 .
+Statistical summary for the eight draft fungal genome sequences
+Strain
+Strain designation
+NCBI accession no.
+Isolation location
+a
+No. of contigs
+Genome size (bp)
+N
+50
+(bp)
+G+C content (%)
+Aspergillus niger
+JSC-093350089
+MSJD00000000
+ISS environmental surface
+223
+36,080,355
+543,773
+49.46
+Aspergillus terreus
+IMV 01167
+MSJE00000000
+Soil, Kirovograd region
+331
+31,580,414
+482,632
+52.24
+Aureobasidium pullulans
+IMV 00882
+MSJF00000000
+Wall surface, unit 4, ChNPP
+879
+40,984,331
+98,085
+51.01
+Beauveria bassiana
+IMV 00265
+MSJG00000000
+Wall surface, unit 4, ChNPP
+735
+35,190,057
+138,299
+51.72
+Cladosporium cladosporioides
+IMV 00236
+MSJH00000000
+Wall surface, unit 4, ChNPP
+843
+47,573,060
+186,555
+42.89
+Cladosporium sphaerospermum
+IMV 00045
+MSJI00000000
+Wall surface, unit 4, ChNPP
+959
+50,156,125
+72,128
+53.05
+Fusarium solani
+IMV 00293
+MSJJ00000000
+Wall surface, unit 4, ChNPP
+876
+51,318,644
+812,484
+47.58
+Trichoderma virens
+IMV 00454
+MSJK00000000
+Soil, 10-km ChEZ
+197
+42,025,033
+1,319,489
+48.44
+Open in a new tab
+a
+ISS, International Space Station; ChNPP, Chernobyl nuclear power plant; ChEZ, Chernobyl exclusion zone.
+Accession number(s).
+This whole-genome shotgun project has been deposited in DDBJ/ENA/GenBank under the accession numbers given in
+Table 1
+. The versions described in this paper are the second versions.
+ACKNOWLEDGMENTS
+We thank the implementation team of the Center for Advanced Study in Space and Duane Pierson, Johnson Space Center for providing the
+A. niger
+strain. The other fungal strains are maintained at Lawrence Berkeley National Laboratory.
+Part of the research described in this publication was carried out at the Jet Propulsion Laboratory (JPL), California Institute of Technology, under a contract with NASA. This research was supported by the JPL Advanced Concept Development fund awarded to K.V. that funded a student fellowship to A.B. Part of the research described in this publication was carried out at Lawrence Berkeley National Laboratory (T.T.) and the University of Southern California (C.W.), which funded a student fellowship to J.R.
+Footnotes
+Citation
+Singh NK, Blachowicz A, Romsdahl J, Wang C, Torok T, Venkateswaran K. 2017. Draft genome sequences of several fungal strains selected for exposure to microgravity at the International Space Station. Genome Announc 5:e01602-16.
+https://doi.org/10.1128/genomeA.01602-16
+.
+REFERENCES
+1.
+Kessler G, Veser A, Schlüter F-H, Raskob W, Landman C, Päsler-Sauer J. 
+2014. 
+The severe reactor accidents of Three Mile Island, Chernobyl, and Fukushima, p 173–198.
+In
+The risks of nuclear energy technology. Springer, Berlin.
+[
+Google Scholar
+]
+2.
+Baker SE.
+2006.
+Aspergillus niger
+genomics: past, present and into the future. Med Mycol
+44(suppl 1):S17–S21. doi: 10.1080/13693780600921037.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Koyama K, Ominato K, Natori S, Tashiro T, Tsuruo T. 
+1988. 
+Cytotoxicity and antitumor activities of fungal bis(naphtho-gamma-pyrone) derivatives. J Pharmacobiodyn
+11:630–635. doi: 10.1248/bpb1978.11.630.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Song YC, Li H, Ye YH, Shan CY, Yang YM, Tan RX. 
+2004. 
+Endophytic naphthopyrone metabolites are co-inhibitors of xanthine oxidase, SW1116 cell and some microbial growths. FEMS Microbiol Lett
+241:67–72. doi: 10.1016/j.femsle.2004.10.005.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Okabe M, Lies D, Kanamasa S, Park EY. 
+2009. 
+Biotechnological production of itaconic acid and its biosynthesis in
+Aspergillus terreus
+. Appl Microbiol Biotechnol
+84:597–606. doi: 10.1007/s00253-009-2132-3.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Lakshmi GS, Rao CS, Rao RS, Hobbs PJ, Prakasham RS. 
+2009. 
+Enhanced production of xylanase by a newly isolated
+Aspergillus terreus
+under solid state fermentation using palm industrial waste: a statistical optimization. Biochem Eng J
+48:51–57. doi: 10.1016/j.bej.2009.08.005.
+[
+DOI
+] [
+Google Scholar
+]
+7.
+Ghanem NB, Yusef HH, Mahrouse HK. 
+2000. 
+Production of
+Aspergillus terreus
+xylanase in solid-state cultures: application of the Plackett–Burman experimental design to evaluate nutritional requirements. Bioresour Technol
+73:113–121. doi: 10.1016/S0960-8524(99)00155-8.
+[
+DOI
+] [
+Google Scholar
+]
+8.
+Alberts AW.
+1988. 
+Discovery, biochemistry and biology of lovastatin. Am J Cardiol
+62:10J–15J. doi: 10.1016/0002-9149(88)90002-1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Mulder KCL, Mulinari F, Franco OL, Soares MSF, Magalhães BS, Parachin NS. 
+2015. 
+Lovastatin production: From molecular basis to industrial process optimization. Biotechnol Adv
+33:648–665. doi: 10.1016/j.biotechadv.2015.04.001.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Cheng KC, Demirci A, Catchmark JM. 
+2011. 
+Pullulan: biosynthesis, production, and applications. Appl Microbiol Biotechnol
+92:29–44. doi: 10.1007/s00253-011-3477-y.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Leathers TD.
+2003. 
+Biotechnological production and applications of pullulan. Appl Microbiol Biotechnol
+62:468–473. doi: 10.1007/s00253-003-1386-4.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Chan GF, Bamadhaj HM, Gan HM, Rashid NAA. 
+2012. 
+Genome sequence of
+Aureobasidium pullulans
+AY4, an emerging opportunistic fungal pathogen with diverse biotechnological potential. Eukaryot Cell
+11:1419–1420. doi: 10.1128/EC.00245-12.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Feng MG, Poprawski TJ, Khachatourians GG. 
+1994. 
+Production, formulation and application of the entomopathogenic fungus
+Beauveria bassiana
+for insect control: current status. Biocontrol Sci Technol
+4:3–34. doi: 10.1080/09583159409355309.
+[
+DOI
+] [
+Google Scholar
+]
+14.
+Xiao G, Ying SH, Zheng P, Wang ZL, Zhang S, Xie XQ, Shang Y, St Leger RJ, Zhao GP, Wang C, Feng MG. 
+2012. 
+Genomic perspectives on the evolution of fungal entomopathogenicity in
+Beauveria bassiana
+. Sci Rep
+2:483. doi: 10.1038/srep00483.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Wang Q, Xu L. 
+2012. 
+Beauvericin, a bioactive compound produced by fungi: a short review. Molecules
+17:2367–2377. doi: 10.3390/molecules17032367.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Scott PM, Van Walbeek WV, Maclean WM. 
+1971. 
+Cladosporin, a new antifungal metabolite from
+Cladosporium cladosporioides
+. J Antibiot (Tokyo)
+24:747–755. doi: 10.7164/antibiotics.24.747.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Jacyno JM, Harwood JS, Cutler HG, Lee MK. 
+1993. 
+Isocladosporin, a biologically active isomer of cladosporin from
+Cladosporium cladosporioides
+. J Nat Prod
+56:1397–1401. doi: 10.1021/np50098a023.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Ng KP, Yew SM, Chan CL, Soo-Hoo TS, Na SL, Hassan H, Ngeow YF, Hoh CC, Lee KW, Yee WY. 
+2012. 
+Sequencing of
+Cladosporium sphaerospermum
+, a dematiaceous fungus isolated from blood culture. Eukaryot Cell
+11:705–706. doi: 10.1128/EC.00081-12.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Jin H.
+1996. 
+Characterization and purification of a phytotoxin produced by
+Fusarium solani
+, the causal agent of soybean sudden death syndrome. Phytopathology
+86:277. doi: 10.1094/Phyto-86-277.
+[
+DOI
+] [
+Google Scholar
+]
+20.
+Howell CR, Hanson LE, Stipanovic RD, Puckhaber LS. 
+2000. 
+Induction of terpenoid synthesis in cotton roots and control of
+Rhizoctonia solani
+by seed treatment with
+Trichoderma virens
+. Phytopathology
+90:248–252. doi: 10.1094/PHYTO.2000.90.3.248.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Harman GE, Howell CR, Viterbo A, Chet I, Lorito M. 
+2004.
+Trichoderma
+species—opportunistic, avirulent plant symbionts. Nat Rev Microbiol
+2:43–56. doi: 10.1038/nrmicro797.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Patel RK, Jain M. 
+2012. 
+NGS QC toolkit: a toolkit for quality control of next generation sequencing data. PLoS One
+7:e30619. doi: 10.1371/journal.pone.0030619.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Zimin AV, Marçais G, Puiu D, Roberts M, Salzberg SL, Yorke JA. 
+2013. 
+The MaSuRCA genome assembler. Bioinformatics
+29:2669–2677. doi: 10.1093/bioinformatics/btt476.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Articles from Genome Announcements are provided here courtesy of
+American Society for Microbiology (ASM)

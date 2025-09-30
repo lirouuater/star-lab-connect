@@ -1,0 +1,1614 @@
+Appl Environ Microbiol
+. 2014 Aug;80(16):4788–4794. doi:
+10.1128/AEM.00885-14
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Exposure of
+Bacillus subtilis
+to Low Pressure (5 Kilopascals) Induces Several Global Regulons, Including Those Involved in the SigB-Mediated General Stress Response
+Samantha M Waters
+Samantha M Waters
+1
+Department of Microbiology and Cell Science, University of Florida, Merritt Island, Florida, USA
+Find articles by
+Samantha M Waters
+1
+,
+José A Robles-Martínez
+José A Robles-Martínez
+1
+Department of Microbiology and Cell Science, University of Florida, Merritt Island, Florida, USA
+Find articles by
+José A Robles-Martínez
+1,
+*
+,
+Wayne L Nicholson
+Wayne L Nicholson
+1
+Department of Microbiology and Cell Science, University of Florida, Merritt Island, Florida, USA
+Find articles by
+Wayne L Nicholson
+1,
+✉
+Editor:
+J L Schottel
+Author information
+Article notes
+Copyright and License information
+1
+Department of Microbiology and Cell Science, University of Florida, Merritt Island, Florida, USA
+✉
+Address correspondence to Wayne L. Nicholson,
+WLN@ufl.edu
+.
+*
+Present address: José A. Robles-Martínez, Australian Curriculum, Assessment and Reporting Authority, Sydney, NSW, Australia.
+✉
+Corresponding author.
+Roles
+J L Schottel
+:
+Editor
+Received 2014 Mar 14; Accepted 2014 May 23.
+Copyright © 2014, American Society for Microbiology. All Rights Reserved.
+PMC Copyright notice
+PMCID: PMC4135744  PMID:
+24878601
+Abstract
+Studies of how microorganisms respond to pressure have been limited mostly to the extreme high pressures of the deep sea (i.e., the piezosphere). In contrast, despite the fact that the growth of most bacteria is inhibited at pressures below ∼2.5 kPa, little is known of microbial responses to low pressure (LP). To study the global LP response, we performed transcription microarrays on
+Bacillus subtilis
+cells grown under normal atmospheric pressure (∼101 kPa) and a nearly inhibitory LP (5 kPa), equivalent to the pressure found at an altitude of ∼20 km. Microarray analysis revealed altered levels of 363 transcripts belonging to several global regulons (AbrB, CcpA, CodY, Fur, IolR, ResD, Rok, SigH, Spo0A). Notably, the highest number of upregulated genes, 86, belonged to the SigB-mediated general stress response (GSR) regulon. Upregulation of the GSR by LP was confirmed by monitoring the expression of the SigB-dependent
+ctc-lacZ
+reporter fusion. Measuring transcriptome changes resulting from exposure of bacterial cells to LP reveals insights into cellular processes that may respond to LP exposure.
+INTRODUCTION
+On Earth, there are a number of harsh environments that challenge microbial life due to extremes of fundamental physical factors, such as temperature, pressure, pH, or osmolarity. It is thus of prime importance to understand the cellular and molecular mechanisms that enable microbes to grow and, indeed, to flourish at such physical extremes. Pressure is a fundamental thermodynamic parameter that affects biological processes and conditions at nearly every level, such as protein folding, the hydration state of molecules, enzyme reaction kinetics, membrane fluidity, and protein-nucleic acid binding affinity, to name but a few (
+1
+,
+2
+). High-pressure (HP) environments, ranging from those at sea level (∼101 kPa) to those at the depths of the Mariana Trench (∼100 MPa), are widespread beneath the world's oceans (i.e., the piezosphere). In contrast, hypobaric (i.e., low-pressure [LP]) environments are scarcely represented on Earth; nearly all surface life is located at the bottom of the troposphere, where the lowest terrestrial barometric pressure, at the top of Mt. Everest, is ∼34 kPa. However, recent reports of microbial metabolic processes occurring at high altitudes within clouds (
+3
+,
+4
+) are beginning to challenge this paradigm.
+Despite a lack of natural LP environments on the Earth's surface, knowledge of the microbiology of LP environments is gaining importance due to (i) the increasing use of hypobaric chambers for long-term storage of high-value perishable agricultural commodities (
+5
+), (ii) the sampling of microbes in the limits of the upper atmosphere (
+4
+,
+6
+–
+9
+), and (iii) the astrobiological implications of terrestrial microorganisms capable of living in extreme LP environments, such as those found on Mars (
+10
+,
+11
+).
+Current knowledge of bacterial pressure responses is confined mostly to studies of (i) hyperbaric, or piezophilic, microbes and (ii) exposure to HP of pressure mesophiles, such as
+Escherichia coli
+or spores of
+Bacillus
+spp. (
+12
+–
+14
+). Ribosomal pyrosequencing analysis and culturing of deep-sea samples revealed that numerous species of
+Bacteria
+,
+Archaea
+, and micro-
+Eukarya
+exist at HP in the deep-sea piezosphere (
+15
+). Various mechanisms that contribute to the adaptation of piezophilic microbes to growth at HP have been discovered or postulated, such as changes in the composition of permeases in the outer membrane (
+16
+), pressure-sensing mechanisms (
+17
+), differential expression of terminal oxidases (
+18
+), differences in the lipid composition of membranes (
+19
+–
+21
+), differences in the structure and amino acid composition of proteins (
+22
+), elongation of helical regions within 16S rRNA (
+23
+), and changes in enzymatic volumes (
+2
+,
+24
+–
+26
+).
+In contrast to the relative wealth of studies on how HP affects bacterial cells, there is a nearly complete lack of literature on mechanisms of microbial cellular responses to LP. Just as life over the entire range of extreme temperatures is represented by both cold- and heat-tolerant organisms, the study of the effect of HP on microbes alone does not fully describe the effects of pressure on cellular functions. The closest experimental analogue of the microbial cellular response to LP was a comparison of the transcriptomes of the piezophilic organism
+Photobacterium profundum
+strain SS9 when it was grown at atmospheric pressure (∼101 kPa) and when it was grown at HP (28 MPa) (
+27
+). This exposure of SS9 to a relatively low pressure resulted in the upregulation of transcripts involved in amino acid and ion transport, amino acid metabolism, and a variety of other cellular processes (
+27
+).
+To date, several bacterial species have been tested for growth and/or metabolism under various LP regimes (
+28
+–
+31
+). In most species tested, growth was observed to be essentially normal from ∼101 kPa down to 10 kPa, but the growth of most microorganisms slowed dramatically at pressures below 10 kPa and essentially ceased at 2.5 kPa (
+11
+,
+31
+). Two notable exceptions reported recently were six
+Carnobacterium
+isolates from Siberian permafrost (
+10
+) and a strain of
+Serratia liquefaciens
+identified in a screen of multiple laboratory strains of bacteria (
+11
+); both the
+Carnobacterium
+isolates and the
+S. liquefaciens
+strain were demonstrated to be able to grow at 0°C and 0.7 kPa in an anoxic, CO
+2
+-dominated atmosphere (i.e., a simulation of the Martian atmosphere).
+Growth of the model bacterium
+Bacillus subtilis
+is completely inhibited at 2.5 kPa and severely compromised at 5 kPa (
+11
+,
+32
+). In order to probe the global response of
+B. subtilis
+to LP, we describe here transcription microarray experiments comparing the transcript levels of cells cultivated at 5 kPa and those of cells cultivated at ∼101 kPa.
+MATERIALS AND METHODS
+Bacterial strains, media, and growth conditions.
+All strains and plasmids used in this study are listed in
+Table 1
+. Strain WN624 (
+trpC2 amyE
+::
+spc
+) has been described in detail previously (
+32
+,
+33
+).
+B. subtilis
+strain PB344, harboring a deletion-insertion mutation inactivating
+sigB
+, was obtained from Chet Price (
+34
+).
+B. subtilis
+strain BSM151, carrying a
+lacZ
+fusion to the SigB-dependent, general stress response (GSR)-induced
+ctc
+gene, was obtained from Uwe Völker (
+35
+). Standard protocols were used for the isolation of chromosomal DNA from donor strains (
+36
+), preparation of competent
+B. subtilis
+cells, and DNA-mediated transformation (
+37
+). Miller LB liquid or agar medium (
+38
+) was used throughout and supplemented, when necessary, with the appropriate antibiotic (final concentration): chloramphenicol (Cm; 5 μg/ml), neomycin (Neo; 5 μg/ml), spectinomycin (Spc; 100 μg/ml), or erythromycin (Erm, 1 μg/ml). Cells were grown under normal laboratory atmospheric pressure (∼101 kPa) or at low pressure (5 kPa) in an airtight desiccator attached to a programmable vacuum pump, as described in detail previously (
+32
+,
+39
+). Cultures were shaken at moderate speed (∼150 rpm) on a rotary shaker at 27°C. The optical density was measured using a Klett-Summerson photometer fitted with a no. 66 (660 nm; red) filter. Under these conditions, 100 Klett units is equal to an optical density at 660 nm (OD
+660
+) of 1, which is equal to ∼1 × 10
+8
+CFU per ml. Microscopic examination showed that cells grown at 5 kPa were the same size and shape as those grown at ∼101 kPa; thus, an increase in the optical density corresponded to an increase in the total number of cells.
+TABLE 1.
+Strains and plasmids used in this study
+Strain or plasmid
+Genotype or phenotype
+Source or reference
+a
+B. subtilis
+strains
+BSM151
+trpC2
+SPβ::
+ctc-lacZ
+Cm
+r
+Erm
+r
+Uwe Völker (
+35
+)
+PB344
+trpC2 sigB
+Δ
+3
+::
+spc
+Spc
+r
+Chet Price (
+34
+)
+WN624
+trpC2 amyE
+::
+spc
+Spc
+r
+, wild type, congenic with WN628
+66
+WN628
+trpC2 amyE
+::
+cat
+Cm
+r
+, wild type, congenic with WN624
+66
+WN1261
+trpC2 amyE
+::
+neo
+Neo
+r
+pECE73 → WN628 Neo
+r
+Cm
+s
+WN1392
+trpC2 amyE
+::
+neo sigB
+Δ
+3
+::
+spc
+Neo
+r
+Spc
+r
+PB344 → WN1261 Spc
+r
+WN1400
+trpC2 amyE
+::
+neo
+SPβ::
+ctc-lacZ
+Neo
+r
+Cm
+r
+Erm
+r
+BSM151 → WN1261 Cm
+r
+Erm
+r
+WN1407
+trpC2 amyE
+::
+neo sigB
+Δ
+3
+::
+spc
+SPβ::
+ctc-lacZ
+Neo
+r
+Spc
+r
+Cm
+r
+Erm
+r
+BSM151 → WN1392 Cm
+r
+Erm
+r
+Plasmid pECE73
+pCm::Neo antibiotic switching cassette
+BGSC (
+67
+)
+Open in a new tab
+a
+Abbreviations: BGSC,
+Bacillus
+Genetic Stock Center; →, transformation.
+Isolation and labeling of total RNA.
+Equivalent masses of WN624 cells, obtained from 10 ml or 100 ml of overnight cultures grown at ∼101 kPa or 5 kPa, respectively, were harvested by centrifugation, and the cell pellets were frozen at −70°C. Overnight cultures were used due to the low optical density after 24 h of growth at 5 kPa (OD
+660
+, ∼0.4 to 0.8). Approximately 4 × 10
+9
+cells, estimated from the culture optical densities determined before centrifugation, were obtained from each sample. Total RNA was extracted from cells and treated with RNase-free DNase using a RiboPure-Bacteria kit (Ambion) following the manufacturer's protocol. The resulting RNA sample concentrations and purity were determined by measurement of the UV absorbance at 260 and 280 nm (
+40
+). RNA integrity numbers (RINs) (
+41
+) were obtained using an RNA 6000 Nano kit on an Agilent 2100 bioanalyzer (Agilent Technologies); the average RIN of total RNA samples was 9.71.
+Transcription microarray experiments.
+Total RNA samples were sent to the University of Florida Interdisciplinary Center for Biotechnology Research (UF-ICBR) for fluorescent labeling with Cy3 or Cy5 and microarray analyses. A custom glass slide microarray (GE 8x15K 60-mer; Agilent Technologies) was designed and built using the
+B. subtilis
+strain 168 genome sequence (
+42
+). For each sample, approximately 12 μl of RNA at a concentration of 500 ng/μl was loaded for a total RNA content of 6 μg. For sample layouts, refer to Table S1 in the supplemental material.
+Microarray data analysis and normalization.
+Gene names, locations, and descriptions were cross-referenced using the GenoList archive server (
+http://genolist.pasteur.fr
+). Each microarray chip yielded 15,209 data points, equivalent to data for 4,103 genes with an average number of 3.7 measurements per gene. The raw data, green and red mean intensities, and dispersions were consistent across the sample comparisons. Raw data scatter plots for each control comparison indicated the high quality of the data, i.e., a high level of correlation for control chips and a high level of dispersion for test chips (
+Fig. 1
+). Loess normalization was applied to the microarray data to correct for the bias caused by inconsistencies in the relative fluorescence intensity between the Cy3 and Cy5 dyes. Variations between the multiple microarray experiments were removed using quantile normalization. The analysis of differential gene expression was performed using the Linear Models for Microarray Analysis (LIMMA) package (freely available at
+http://bioconductor.org
+) in the R programming language. The LIMMA package uses empirical Bayesian methods to provide stable results by moderating the standard errors of the estimated fold changes. Comparisons among the microarray chips were conducted graphically using the R program and are displayed as tables (see Tables S2 and S3 in the supplemental material).
+FIG 1.
+Open in a new tab
+Scatter plots of fluorescence intensity of Cy3-labeled (
+x
+axes) versus Cy5-labeled (
+y
+axes) RNAs in microarray experiments (log
+2
+scale). (A) Dye-flip control experiment of strain WN624 grown at ∼101 kPa and labeled with Cy3 and strain WN624 grown at ∼101 kPa and labeled with Cy5. (B) Dye-flip control experiment of strain WN624 grown at 5 kPa and labeled with Cy3 and strain WN624 grown at 5 kPa and labeled with Cy5. (C) Experiment of strain WN624 grown at 5 kPa and labeled with Cy3 and strain WN624 grown at ∼101 kPa and labeled with Cy5.
+β-Galactosidase assays.
+Constructed strains carrying the SigB-dependent, GSR-inducible
+ctc-lacZ
+gene fusion (
+Table 1
+) were first tested for induction of β-galactosidase activity by ethanol, a known inducer of the GSR (
+34
+). Cultures were grown in liquid LB medium at 27°C to early logarithmic phase (∼30 Klett units) and then split. To one subculture was added ethanol to a final concentration of 5%, and incubation was continued for 45 min. To test for LP induction of
+ctc-lacZ
+expression, cultures were inoculated into LB medium at ∼5 Klett units and grown at 27°C to early logarithmic phase (∼20 Klett units). A zero-time sample was taken, and then the cultures were split into 12 2-ml subcultures, of which 6 were incubated at ∼101 kPa and 6 were incubated under various LP conditions (5, 10, 25, or 50 kPa) for a further 2.5 h. Culture OD
+660
+values were determined, and then a 1-ml sample from each tube was centrifuged and the resulting cell pellet was frozen at −20°C for subsequent β-galactosidase assay. Thawed cells were lysed and assayed for β-galactosidase activity as described previously (
+43
+). β-Galactosidase activity is expressed in Miller units (
+38
+).
+Microarray data accession number.
+The complete set of microarray data has been deposited in the Gene Expression Omnibus (GEO) database at the National Center for Biotechnology Information (
+http://www.ncbi.nlm.nih.gov/geo/
+) under accession number
+GSE50653
+.
+RESULTS AND DISCUSSION
+Transcriptome analysis of strain WN624 at 5 kPa and ∼101 kPa.
+In order to gain a greater understanding of the global gene expression changes occurring in response to LP, strain WN624 was studied using transcriptional microarrays. Total RNA was extracted from cells after 24 h of growth at either 5 kPa or ∼101 kPa, and RNA labeling and chip analyses were conducted as described in Materials and Methods. The data are summarized by 2-dimemsional plots (
+Fig. 1
+). To confirm RNA integrity and the consistency of probe labeling, a dye-switch experiment was performed using the same total RNA labeled with Cy3 and Cy5; the RNA had been purified from strain WN624 cultured at ∼101 kPa (
+Fig. 1A
+) or 5 kPa (
+Fig. 1B
+). In each case, the data were tightly clustered and displayed high correlation coefficients (
+R
+2
+) of 0.9912 and 0.9959, respectively (
+Fig. 1A
+and
+B
+). In contrast, microarrays probed with total RNA isolated from strain WN624 cultivated at 5 kPa or ∼101 kPa exhibited much greater dispersion and a lower
+R
+2
+of 0.6114 (
+Fig. 1C
+), indicating a profound alteration of the WN624 transcriptome in response to LP. In total, exposure of strain WN624 to 5 kPa resulted in the identification of 223 significantly upregulated transcripts (see Table S2 in the supplemental material) and 140 significantly downregulated transcripts (see Table S3 in the supplemental material), totaling approximately 9% of the
+Bacillus subtilis
+genome. Exposure to LP was found to lead to up- and/or downregulation of target genes for a large number of global regulons (see Tables S2 and S3 in the supplemental material). The regulons found to be the most dramatically altered by exposure to 5 kPa are listed in
+Table 2
+. Exposure of
+B. subtilis
+to LP most notably induced the SigB-mediated general stress response (GSR) (
+44
+); transition-state regulons such as AbrB/Abh (
+45
+,
+46
+), CodY (
+47
+), Rok (
+48
+), SigH (
+49
+), Spo0A (
+50
+), and, to a lesser extent, SigD (
+51
+); anaerobic regulons, such as ResD (
+52
+) and, to a lesser extent, Fnr (
+53
+) and Rex (
+54
+); the carbon catabolite repression regulator CcpA (
+55
+); and the IolR regulator of
+myo
+-inositol catabolism (
+56
+). Interestingly, a large number of transcripts (88 in total) belonging to no known regulons were both induced and repressed by LP exposure (
+Table 2
+). Because LP exposure most strongly induced the SigB-mediated GSR regulon, we chose to study LP induction of the GSR in further detail.
+TABLE 2.
+Summary of regulons with at least 10 target genes affected
+a
+Regulator(s)
+No. of genes:
+Response
+Upregulated
+Downregulated
+Total
+SigB
+86
+2
+88
+Transcription of GSR genes
+Unknown
+41
+47
+88
+Unknown
+AbrB/Abh
+42
+16
+58
+Transition from growth to stationary phase
+CcpA
+12
+26
+38
+Carbon catabolite repression
+Fur
+1
+25
+26
+Regulation of iron homoeostasis
+ResD
+22
+0
+22
+Regulation of aerobic/anaerobic respiration
+CodY
+19
+1
+20
+Response to nutritional starvation
+Rok
+13
+1
+14
+Regulation of genetic competence
+Spo0A
+13
+0
+13
+Phosphorelay regulator of sporulation initiation
+SigH
+11
+1
+12
+Early-stationary-phase gene expression
+IolR
+0
+11
+11
+Regulation of
+myo
+-inositol catabolism
+Open in a new tab
+a
+For a detailed list of all regulons affected, refer to Tables S2 and S3 in the supplemental material.
+The GSR regulon in
+B. subtilis
+consists of ∼185 target genes, expression of which is induced in response to nutrient starvation and a variety of environmental stresses, such as heat, cold, ethanol, or salt (
+44
+,
+57
+,
+58
+). Transcriptional activation of GSR genes is under the control of the alternate sigma factor sigma B (σ
+B
+or SigB), encoded by the
+sigB
+gene (
+44
+). The
+sigB
+gene is located within the
+rsbRSTUVW-sigB-rsbX
+operon, with a SigB-dependent promoter embedded upstream of
+rsbV
+allowing SigB-dependent transcriptional induction of the last four genes in the operon, including autoinduction of
+sigB
+. The activity of SigB is regulated by the RsbW anti-sigma factor system and the RsbV anti-anti-sigma factor system in response to a complex system of regulators encoded by the upstream
+rsbRSTU
+operon and the
+rsbX
+gene, whose products are responsive to various environmental stresses (
+44
+), and
+rsbPQ
+, whose products are involved in energy stress activation of the SigB response (
+59
+). Exposure of strain WN624 to an LP of 5 kPa resulted in a dramatic (∼35- to 55-fold) upregulation of mRNA levels for genes of the
+rsbWV-sigB-rsbX
+operon (Table S4 in the supplemental material) but not of
+rsbRSTU
+or
+rsbPQ
+transcripts. Of the 185 target genes in the GSR regulon (listed in Table S4 in the supplemental material), 88 of these genes (genes with underlined names in Table S4 in the supplemental material) are known to be strictly dependent upon SigB for their induction (
+57
+,
+58
+,
+60
+). Of these, 63 (70%) were upregulated in the microarray measuring mRNA from cells exposed to 5 kPa compared with their regulation in the microarray measuring mRNA from cells exposed to ∼101 kPa (
+Fig. 1C
+, Table S4 in the supplemental material).
+In order to compare GSR gene expression resulting from LP exposure to that resulting from other physical stresses, we compared the LP-mediated GSR of strain WN624 to the global GSR of
+B. subtilis
+exposed to ethanol, heat, or salt stress in previous studies (
+57
+,
+60
+,
+61
+) (
+Fig. 2
+). Very good concordance between the two responses was observed; LP exposure induced the upregulation of 86 genes, 70 of which (81%) were also induced by exposure to heat, ethanol, or salt (
+Fig. 2
+). Notably, 30 ethanol-, heat-, or salt-inducible GSR genes were not induced by LP, and LP exposure induced the expression of 16 genes not reported to be induced by ethanol, heat, or salt stress (
+Fig. 2
+), indicating that LP induced a GSR that only partially overlapped with that induced by ethanol, heat, or salt stress.
+FIG 2.
+Open in a new tab
+Venn diagram comparison of the set of genes belonging to the GSR regulon in strain WN624 induced by LP; the classical GSR inducers ethanol (EtOH), heat, and salt (taken from reference
+60
+); both treatments; or neither treatment. The numbers of genes belonging to each category is indicated in parentheses, and gene names are listed. Underlined genes are strictly SigB dependent (see Table S4 in the supplemental material and the text for details).
+Induction of
+ctc-lacZ
+expression by LP.
+The observations described above led us to the notion that exposure of
+B. subtilis
+cells to LP induced the SigB-mediated GSR. Activation of the SigB-dependent
+ctc-lacZ
+reporter gene fusion is a reliable and well-established marker for GSR induction by all stresses studied to date (
+35
+). We therefore tested expression of a
+ctc-lacZ
+fusion in strains carrying either the wild-type
+sigB
+gene (strain WN1400) or the
+sigB
+Δ
+3
+::
+spc
+knockout mutation (strain WN1407) (
+Fig. 3
+). First, in order to ensure that
+ctc-lacZ
+expression was properly regulated by SigB in our strains, we induced the GSR by the classical treatment of exponentially growing cells with ethanol at a 5% final concentration and assayed for β-galactosidase activity after 45 min (
+Fig. 3A
+). In strain WN1400 carrying the
+sigB
++
+allele, expression of
+ctc-lacZ
+was strongly induced (∼7-fold) by ethanol treatment (
+Fig. 3A
+). In comparison, the basal level of expression of
+ctc-lacZ
+in strain WN1407 carrying the
+sigB
+Δ
+3
+::
+spc
+knockout mutation was lower, and its induction by ethanol was much weaker (∼2-fold) (
+Fig. 3A
+). These results were as expected; thus, the
+ctc-lacZ
+fusion appeared to be a reliable reporter of the SigB-dependent GSR in our strains. Next, the same two
+ctc-lacZ
+reporter strains were tested for induction of the GSR by exposure to 5 kPa of LP (
+Fig. 3A
+). After exposure to 5 kPa of LP for 2.5 h,
+ctc-lacZ
+expression was induced ∼4-fold in strain WN1400 carrying the wild-type
+sigB
+allele (
+Fig. 3A
+). In contrast, strain WN1407 carrying the
+sigB
+Δ
+3
+::
+spc
+knockout mutation exhibited a much lower basal level of
+ctc-lacZ
+expression and only very weak induction of the GSR (less than 2-fold) by LP (
+Fig. 3A
+). The results support the notion that LP induction of signals belonging to the GSR was indeed SigB dependent.
+FIG 3.
+Open in a new tab
+Determination of LP induction of the SigB-dependent GSR using a
+ctc-lacZ
+reporter fusion. The relevant genotypes of strains WN1400 (
+sigB
++
+) and WN1407 (Δ
+sigB
+::
+spc
+) are denoted. (A)
+ctc-lacZ
+expression induced by 5% (vol/vol) ethanol or by exposure to 5 kPa (shaded bars) versus that in the uninduced controls (open bars). (B) Induction of
+ctc-lacZ
+expression at ∼101 kPa and various LPs (50, 25, 10, and 5 kPa) in strain WN1400 (
+sigB
++
+). Data are averages and standard deviations for triplicate samples taken from two independent experiments.
+We were interested in determining the level of LP required to trigger the SigB-dependent GSR, so we measured the expression of the
+ctc-lacZ
+fusion in strain WN1400 (
+sigB
++
+) at pressures of ∼101, 50, 25, 10, and 5 kPa (
+Fig. 3B
+). Strain WN1400 did not induce
+ctc-lacZ
+expression until the pressure was lowered to either 10 or 5 kPa (
+Fig. 3B
+).
+Inactivation of
+sigB
+does not alter fitness at ∼101 kPa or at 5 kPa.
+The microarray data (
+Table 2
+;
+Fig. 2
+) and the results of the
+ctc-lacZ
+reporter experiments (
+Fig. 3
+) indicated that the SigB-dependent GSR was induced by exposure to LP in
+B. subtilis
+. We were interested in investigating what effect, if any, a
+sigB
+knockout mutation would have on the relative fitness of
+B. subtilis
+at 5 kPa. Competition experiments, performed as described previously (
+32
+,
+39
+), between 2 congenic strains carrying either the wild-type
+sigB
+gene or a
+sigB
+Δ
+2
+::
+cat
+insertion-deletion mutation showed that inactivation of
+sigB
+did not significantly change its relative fitness either at ∼101 kPa or at 5 kPa (data not shown). This result is consistent with the results of previous experiments showing that a
+sigB
+null mutant had no noticeable disadvantage compared to the wild type when grown under any of the stress conditions known to induce the SigB-mediated GSR (
+34
+,
+44
+). Therefore, as with other physical stresses, LP exposure appeared to induce a subset of the SigB-dependent GSR; however, GSR induction did not improve growth under LP.
+Relatively little is known about how hypobaria affects cellular processes or how microbial life is affected by and responds to LP. In this study, we found by microarray experiments that
+Bacillus subtilis
+strain WN624 sensed and responded to LP stress by activation of at least a dozen known regulons, including the SigB-mediated GSR, and this notion was confirmed by the SigB-dependent induction of
+ctc-lacZ
+fusion expression by exposure of cells to LP. The nonoptimal pressure responses of both piezophiles grown at standard atmospheric pressure (
+27
+) and pressure mesophiles grown at elevated pressures (
+14
+) are known to be the induction of stress response genes, such as heat and cold shock proteins. In this communication, we show that exposure of a pressure mesophile to LP upregulated several global regulons, including the SigB-dependent GSR. It was interesting to note that strain WN624 did not induce the GSR until the pressure was lowered to 10 kPa, the equivalent of the pressure at an altitude of ∼18 km, over twice the height of Mt. Everest (8,848 m). As stated previously, the known biosphere is contained within the troposphere, where the low-pressure limit is ∼10 kPa (
+62
+). Interestingly, this is also the lower limit of pressure before significant decreases in growth rate and colony size were demonstrated in a number of Gram-positive and Gram-negative bacterial species (
+10
+,
+11
+,
+29
+,
+31
+). Therefore, it appears for most bacteria (with a few notable recent exceptions mentioned above [
+10
+,
+11
+]) that there exists a low-pressure limit at ∼10 kPa, below which cellular processes begin to be inhibited and the GSR is induced in
+B. subtilis
+. As observed previously with other environmental stresses (ethanol, heat, high salt), the SigB-mediated GSR does not seem to be required for growth at 5 kPa. This does not rule out the possibility that a stress-related, SigB-independent gene(s) might be necessary for
+B. subtilis
+growth at LP. Future experiments to address this issue are in progress.
+Toward an understanding of the LP response.
+A previous study compared the growth kinetics of
+B. subtilis
+in LB medium at either ∼101 kPa or 5 kPa (
+32
+). At normal atmospheric pressure, cells grew to a high density (>300 Klett units), but at 5 kPa, growth ceased abruptly at ∼40 Klett units and remained unchanged for 24 h. Growth inhibition was apparently caused by some aspect of LP exposure and not by nutrient limitation, as cells immediately resumed exponential growth upon an increase of pressure back to ∼101 kPa (
+32
+). In an attempt to integrate these prior observations with the results obtained with the transcription microarrays, the following scenario might be envisioned as a preliminary working model, although others are certainly possible.
+One consequence of lowering the headspace pressure from ∼101 to 5 kPa is to lower the partial pressure of oxygen in the medium by a factor of roughly 20; this might immediately lead to induction of the anaerobic response involving the ResD, Fnr, and Rex regulons (see Tables S2 and S3 in the supplemental material). These regulators in turn induce expression of a host of genes involved in fermentation and anaerobic respiration. However, because Miller LB medium lacks fermentable sugars or alternative electron acceptors, such as nitrate, cessation of growth and entrance into stationary phase rapidly ensue. Entrance into stationary phase activates the SigB-mediated GSR as well as a number of regulators of the transition state, such as AbrB/Adh, CodY, Rok, Spo0A, and SigH; in addition, CcpA has been shown to remodel carbon metabolism in the early stationary phase (
+63
+). Induction of IolR by LP is difficult to fit into this scheme because IolR is not a global regulator but is a specific regulator of genes involved in
+myo
+-inositol catabolism (the operons
+iolABCDEFGHIJ
+and
+iolRS
+and the
+iolT
+gene) (
+56
+). However, expression of this small regulon has also been documented to be strongly induced upon entrance into the stationary phase (
+64
+).
+In summary, exposure of
+B. subtilis
+to LP activates a large number of responses, including the SigB-dependent GSR. At present, it is known that activation of
+sigB
+expression can occur in response to three pathways responsive to energy stress (
+65
+); exposure to physical stresses, such as ethanol, heat, or high salt (
+34
+); or cold stress (
+35
+). Determining which signaling pathway(s) is induced by LP will shed further insight into how the GSR is induced, directly or indirectly, by LP and is a course for future work.
+Supplementary Material
+Supplemental material
+supp_80_16_4788__index.html
+(1.3KB, html)
+ACKNOWLEDGMENTS
+We thank Uwe Völker and Chet Price for the generous donation of strains.
+This work was funded in part by grants from the NASA Astrobiology: Exobiology and Evolutionary Biology program (NNX08AO15G) to W.L.N., the NASA Planetary Biology Internship (PBI) program to J.A.R.-M., and the NASA Earth and Space Science Fellowship (NESSF) program (13-PLANET13F-0084) to S.M.W.
+Footnotes
+Published ahead of print
+30 May 2014
+Supplemental material for this article may be found at
+http://dx.doi.org/10.1128/AEM.00885-14
+.
+REFERENCES
+1.
+Chilukuri LN, Bartlett DH, Fortes PA.
+2002. 
+Comparison of high pressure-induced dissociation of single-stranded DNA-binding protein (SSB) from high pressure-sensitive and high pressure-adapted marine Shewanella species. Extremophiles
+6:377–383. 10.1007/s00792-002-0267-6
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Oger PM, Jebbar M.
+2010. 
+The many ways of coping with pressure. Res. Microbiol.
+161:799–809. 10.1016/j.resmic.2010.09.017
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Morris CE, Sands DC, Bardin M, Jaenicke R, Vogel B, Leyronas C, Ariya PA, Psenner R.
+2011. 
+Microbiology and atmospheric processes: research challenges concerning the impact of airborne micro-organisms on the atmosphere and climate. Biogeosciences
+8:17–25. 10.5194/bg-8-17-2011
+[
+DOI
+] [
+Google Scholar
+]
+4.
+DeLeon-Rodriguez N, Lathem TL, Rodriguez-R LM, Barazesh JM, Anderson BE, Beyersdorf AJ, Ziemba LD, Bergin M, Nenes A, Konstantinidis KT.
+2013. 
+Microbiome of the upper troposphere: species composition and prevalence, effects of tropical storms, and atmospheric implications. Proc. Natl. Acad. Sci. U. S. A.
+110:2575–2580. 10.1073/pnas.1212089110
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Burg SP.
+2004. 
+Postharvest physiology and hypobaric storage of fresh produce. CABI Publishing, Cambridge, MA
+[
+Google Scholar
+]
+6.
+Rogers LA, Meier FC.
+1937. 
+The National Geographic Society-U.S. Army Air Corps stratosphere flight of 1935 in the balloon “Explorer II.”
+Q. J. R. Meteorol. Soc.
+63:217–218
+[
+Google Scholar
+]
+7.
+Smith DJ, Griffin DW, Schuerger AC.
+2010. 
+Stratospheric microbiology at 20 km over the Pacific Ocean. Aerobiologia
+26:35–46. 10.1007/s10453-009-9141-7
+[
+DOI
+] [
+Google Scholar
+]
+8.
+Smith DJ, Griffin DW, McPeters RD, Ward PD, Schuerger AC.
+2011. 
+Microbial survival in the stratosphere and implications for global dispersal. Aerobiologia
+27:319–332. 10.1007/s10453-011-9203-5
+[
+DOI
+] [
+Google Scholar
+]
+9.
+Smith DJ, Timonen HJ, Jaffe DA, Griffin DW, Birmele MN, Perry KD, Ward PD, Roberts MS.
+2013. 
+Intercontinental dispersal of bacteria and archaea by transpacific winds. Appl. Environ. Microbiol.
+79:1134–1139. 10.1128/AEM.03029-12
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Nicholson WL, Krivushin K, Gilichinsky D, Schuerger AC.
+2013. 
+Growth of Carnobacterium spp. from permafrost under low pressure, temperature, and anoxic atmosphere has implications for Earth microbes on Mars. Proc. Natl. Acad. Sci. U. S. A.
+110:666–671. 10.1073/pnas.1209793110
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Schuerger AC, Ulrich R, Berry BJ, Nicholson WL.
+2013. 
+Growth of Serratia liquefaciens under 7 mbar, 0°C, and CO
+2
+-enriched anoxic atmospheres. Astrobiology
+13:115–131. 10.1089/ast.2011.0811
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Setlow P.
+2008. 
+Effects of high pressure on bacterial spores, p 35–52
+In
+Michiels C, Bartlett DH, Aertsen A. (ed), High-pressure microbiology. ASM Press, Washington, DC
+[
+Google Scholar
+]
+13.
+Michiels C, Bartlett DH, Aertsen A. (ed). 2008. 
+High-pressure microbiology. ASM Press, Washington, DC
+[
+Google Scholar
+]
+14.
+Welch TJ, Farewell A, Neidhardt FC, Bartlett DH.
+1993. 
+Stress response of Escherichia coli to elevated hydrostatic pressure. J. Bacteriol.
+175:7170–7177
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Brown MV, Philip GK, Bunge JA, Smith MC, Bissett A, Lauro FM, Fuhrman JA, Donachie SP.
+2009. 
+Microbial community structure in the North Pacific Ocean. ISME J.
+3:1374–1386. 10.1038/ismej.2009.86
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Bartlett D, Wright M, Yayanos AA, Silverman M.
+1989. 
+Isolation of a gene regulated by hydrostatic pressure in a deep-sea bacterium. Nature
+342:572–574. 10.1038/342572a0
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Welch TJ, Bartlett DH.
+1998. 
+Identification of a regulatory protein required for pressure-responsive gene expression in the deep-sea bacterium Photobacterium species strain SS9. Mol. Microbiol.
+27:977–985. 10.1046/j.1365-2958.1998.00742.x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Qureshi MH, Kato C, Horikoshi K.
+1998. 
+Purification of a ccb-type quinol oxidase specifically induced in a deep-sea barophilic bacterium, Shewanella sp. strain DB-172F. Extremophiles
+2:93–99. 10.1007/s007920050047
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Allen EE, Facciotti D, Bartlett DH.
+1999. 
+Monounsaturated but not polyunsaturated fatty acids are required for growth of the deep-sea bacterium Photobacterium profundum SS9 at high pressure and low temperature. Appl. Environ. Microbiol.
+65:1710–1720
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Valentine RC, Valentine DL.
+2004. 
+Omega-3 fatty acids in cellular membranes: a unified concept. Prog. Lipid Res.
+43:383–402. 10.1016/j.plipres.2004.05.004
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Winter R, Jeworrek C.
+2009. 
+Effect of pressure on membranes. Soft Matter
+5:3157–3173. 10.1039/b901690b
+[
+DOI
+] [
+Google Scholar
+]
+22.
+Campanaro S, Treu L, Valle G.
+2008. 
+Protein evolution in deep sea bacteria: an analysis of amino acids substitution rates. BMC Evol. Biol.
+8:313. 10.1186/1471-2148-8-313
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Lauro FM, Chastain RA, Blankenship LE, Yayanos AA, Bartlett DH.
+2007. 
+The unique 16S rRNA genes of piezophiles reflect both phylogeny and adaptation. Appl. Environ. Microbiol.
+73:838–845. 10.1128/AEM.01726-06
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Bartlett DH.
+2002. 
+Pressure effects on in vivo microbial processes. Biochim. Biophys. Acta
+1595:367–381. 10.1016/S0167-4838(01)00357-0
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+25.
+Simonato F, Campanaro S, Lauro FM, Vezzi A, D'Angelo M, Vitulo N, Valle G, Bartlett DH.
+2006. 
+Piezophilic adaptation: a genomic point of view. J. Biotechnol.
+126:11–25. 10.1016/j.jbiotec.2006.03.038
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+26.
+Rivalain N, Roquain J, Demazeau G.
+2010. 
+Development of high hydrostatic pressure in biosciences: pressure effect on biological structures and potential applications in biotechnologies. Biotechnol. Adv.
+28:659–672. 10.1016/j.biotechadv.2010.04.001
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Vezzi A, Campanaro S, D'Angelo M, Simonato F, Vitulo N, Lauro FM, Cestaro A, Malacrida G, Simionati B, Cannata N, Romualdi C, Bartlett DH, Valle G.
+2005. 
+Life at depth: Photobacterium profundum genome sequence and expression analysis. Science
+307:1459–1461. 10.1126/science.1103341
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Kanervo E, Lehto K, Stahle K, Lehto J, Maenpaa P.
+2005. 
+Characterization of growth and photosynthesis of Synechocystis sp. PCC6803 cultures under reduced atmospheric pressures and enhanced CO
+2
+levels. Int. J. Astrobiol.
+4:979–1000. 10.1017/S1473550405002466
+[
+DOI
+] [
+Google Scholar
+]
+29.
+Pokorny NJ, Boulter-Bitzer JI, Hart MM, Storey L, Lee H, Trevors JT.
+2005. 
+Hypobaric bacteriology: growth, cytoplasmic membrane polarization and total cellular fatty acids in Escherichia coli and Bacillus subtilis. Int. J. Astrobiol.
+4:187–193. 10.1017/S1473550405002727
+[
+DOI
+] [
+Google Scholar
+]
+30.
+Kral TA, Altheide TS, Lueders AE, Schuerger AC.
+2011. 
+Low pressure and desiccation effects on methanogens: implications for life on Mars. Planet Space Sci.
+59:264–270. 10.1016/j.pss.2010.07.012
+[
+DOI
+] [
+Google Scholar
+]
+31.
+Schuerger AC, Nicholson WL.
+2006. 
+Interactive effects of hypobaria, low temperature, and CO
+2
+atmospheres inhibit the growth of mesophilic Bacillus spp. under simulated Martian conditions. Icarus
+185:143–152. 10.1016/j.icarus.2006.06.014
+[
+DOI
+] [
+Google Scholar
+]
+32.
+Nicholson WL, Fajardo-Cavazos P, Fedenko J, Ortiz-Lugo JL, Rivas-Castillo A, Waters SM, Schuerger AC.
+2010. 
+Exploring the low-pressure growth limit: evolution of Bacillus subtilis in the laboratory to enhanced growth at 5 kilopascals. Appl. Environ. Microbiol.
+76:7559–7565. 10.1128/AEM.01126-10
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Maughan H, Nicholson WL.
+2011. 
+Increased fitness and alteration of metabolic pathways during Bacillus subtilis evolution in the laboratory. Appl. Environ. Microbiol.
+77:4105–4118. 10.1128/AEM.00374-11
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Boylan SA, Redfield AR, Brody MS, Price CW.
+1993. 
+Stress-induced activation of the sigma B transcription factor of Bacillus subtilis. J. Bacteriol.
+175:7931–7937
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Brigulla M, Hoffmann T, Krisp A, Völker A, Bremer E, Völker U.
+2003. 
+Chill induction of the SigB-dependent general stress response in Bacillus subtilis and its contribution to low-temperature adaptation. J. Bacteriol.
+185:4305–4314. 10.1128/JB.185.15.4305-4314.2003
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+36.
+Cutting SM, Vander Horn PB.
+1990. 
+Genetic analysis, p 27–74
+In
+Harwood CR, Cutting SM. (ed), Molecular biological methods for
+Bacillus
+. John Wiley & Sons, Sussex, United Kingdom
+[
+Google Scholar
+]
+37.
+Boylan RJ, Brooks D, Young FE, Mendelson NH.
+1972. 
+Regulation of the bacterial cell wall: analysis of a mutant of Bacillus subtilis defective in biosynthesis of teichoic acid. J. Bacteriol.
+110:281–290
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+38.
+Miller JH.
+1972. 
+Experiments in molecular genetics. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY
+[
+Google Scholar
+]
+39.
+Fajardo-Cavazos P, Waters SM, Schuerger AC, George S, Marois JJ, Nicholson WL.
+2012. 
+Evolution of Bacillus subtilis to enhanced growth at low pressure: up-regulated transcription of
+des-desKR
+, encoding the fatty acid desaturase system. Astrobiology
+12:258–270. 10.1089/ast.2011.0728
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+40.
+Sambrook J, Russell DW.
+2001. 
+Molecular cloning: a laboratory manual, 3rd ed.
+Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY
+[
+Google Scholar
+]
+41.
+Schroeder A, Mueller O, Stocker S, Salowsky R, Leiber M, Gassmann M, Lightfoot S, Menzel W, Granzow M, Ragg T.
+2006. 
+The RIN: an RNA integrity number for assigning integrity values to RNA measurements. BMC Mol. Biol.
+7:3. 10.1186/1471-2199-7-3
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+42.
+Kunst F, Ogasawara N, Moszer I, Albertini AM, Alloni G, Azevedo V, Bertero MG, Bessieres P, Bolotin A, Borchert S, Borriss R, Boursier L, Brans A, Braun M, Brignell SC, Bron S, Brouillet S, Bruschi CV, Caldwell B, Capuano V, Carter NM, Choi SK, Codani JJ, Connerton IF, Cummings NJ, Daniel RA, Denizot F, Devine KM, Düsterhöft A, Ehrlich SD, Emmerson PT, Entian KD, Errington J, Fabret C, Ferrari E, Foulger D, Fritz C, Fujita M, Fujita Y, Fuma S, Galizzi A, Galleron N, Ghim S-Y, Glaser P, Goffeau A, Golightly EJ, Grandi G, Guiseppi G, Guy BJ, Haga K, et al. 
+1997. 
+The complete genome sequence of the gram-positive bacterium Bacillus subtilis. Nature
+390:249–256. 10.1038/36786
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+43.
+Nicholson WL, Setlow P.
+1990. 
+Sporulation, germination, and outgrowth, p 391–450
+In
+Harwood CR, Cutting SM. (ed), Molecular biological methods for
+Bacillus
+. John Wiley & Sons, Inc, New York, NY
+[
+Google Scholar
+]
+44.
+Price CW.
+2003. 
+General stress response, p 369–384
+In
+Sonenshein AL, Hoch JA, Losick R. (ed),
+Bacillus subtilis
+and its closest relatives: from genes to cells. ASM Press, Washington, DC
+[
+Google Scholar
+]
+45.
+Strauch MA, Bobay BG, Cavanagh J, Yao F, Wilson A, Le Breton Y.
+2007. 
+Abh and AbrB control of Bacillus subtilis antimicrobial gene expression. J. Bacteriol.
+189:7720–7732. 10.1128/JB.01081-07
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+46.
+Phillips ZE, Strauch MA.
+2002. 
+Bacillus subtilis sporulation and stationary phase gene expression. Cell. Mol. Life Sci.
+59:392–402. 10.1007/s00018-002-8431-9
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+47.
+Belitsky BR, Sonenshein AL.
+2013. 
+Genome-wide identification of Bacillus subtilis CodY-binding sites at single-nucleotide resolution. Proc. Natl. Acad. Sci. U. S. A.
+110:7026–7031. 10.1073/pnas.1300428110
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+48.
+Albano M, Smits WK, Ho LT, Kraigher B, Mandic-Mulec I, Kuipers OP, Dubnau D.
+2005. 
+The Rok protein of Bacillus subtilis represses genes for cell surface and extracellular functions. J. Bacteriol.
+187:2010–2019. 10.1128/JB.187.6.2010-2019.2005
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+49.
+Britton RA, Eichenberger P, Gonzalez-Pastor JE, Fawcett P, Monson R, Losick R, Grossman AD.
+2002. 
+Genome-wide analysis of the stationary-phase sigma factor (sigma-H) regulon of Bacillus subtilis. J. Bacteriol.
+184:4881–4890. 10.1128/JB.184.17.4881-4890.2002
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+50.
+Molle V, Fujita M, Jensen ST, Eichenberger P, González-Pastor JE, Liu JS, Losick R.
+2003. 
+The Spo0A regulon of Bacillus subtilis. Mol. Microbiol.
+50:1683–1701. 10.1046/j.1365-2958.2003.03818.x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+51.
+Haldenwang WG.
+1995. 
+The sigma factors of Bacillus subtilis. Microbiol. Rev.
+59:1–30
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+52.
+Ye R, Tao W, Bedzyk L, Young T, Chen M, Li L.
+2000. 
+Global gene expression profiles of Bacillus subtilis grown under anaerobic conditions. J. Bacteriol.
+182:4458–4465. 10.1128/JB.182.16.4458-4465.2000
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+53.
+Reents H, Münch R, Dammeyer T, Jahn D, Härtig E.
+2006. 
+The Fnr regulon of Bacillus subtilis. J. Bacteriol.
+188:1103–1112. 10.1128/JB.188.3.1103-1112.2006
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+54.
+Härtig E, Jahn D.
+2012. 
+Regulation of the anaerobic metabolism in Bacillus subtilis. Adv. Microb. Physiol.
+61:195–216. 10.1016/B978-0-12-394423-8.00005-6
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+55.
+Henkin TM.
+1996. 
+The role of CcpA transcriptional regulator in carbon metabolism in Bacillus subtilis. FEMS Microbiol. Lett.
+135:9–15. 10.1111/j.1574-6968.1996.tb07959.x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+56.
+Yoshida K, Yamaguchi M, Morinaga T, Kinehara M, Ikeuchi M, Ashida H, Fujita Y.
+2008.
+myo
+-Inositol catabolism in Bacillus subtilis. J. Biol. Chem.
+283:10415–10424. 10.1074/jbc.M708043200
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+57.
+Höper D, Völker U, Hecker M.
+2005. 
+Comprehensive characterization of the contribution of individual SigB-dependent general stress genes to stress resistance of Bacillus subtilis. J. Bacteriol.
+187:2810–2826. 10.1128/JB.187.8.2810-2826.2005
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+58.
+Hecker M, Pané-Farré J, Völker U.
+2007. 
+SigB-dependent general stress response in Bacillus subtilis and related gram-positive bacteria. Annu. Rev. Microbiol.
+61:215–236. 10.1146/annurev.micro.61.080706.093445
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+59.
+Brody MS, Vijay K, Price CW.
+2001. 
+Catalytic function of an alpha/beta hydrolase is required for energy stress activation of the sigma(B) transcription factor in Bacillus subtilis. J. Bacteriol.
+183:6422–6428. 10.1128/JB.183.21.6422-6428.2001
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+60.
+Petersohn A, Brigulla M, Haas S, Hoheisel JD, Völker U, Hecker M.
+2001. 
+Global analysis of the general stress response of Bacillus subtilis. J. Bacteriol.
+183:5617–5631. 10.1128/JB.183.19.5617-5631.2001
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+61.
+Helmann JD, Wu MF, Kobel PA, Gamo FJ, Wilson M, Morshedi MM, Navre M, Paddon C.
+2001. 
+Global transcriptional response of Bacillus subtilis to heat shock. J. Bacteriol.
+183:7318–7328. 10.1128/JB.183.24.7318-7328.2001
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+62.
+Holton JR, Haynes PH, McIntyre ME, Douglass AR, Rood RB, Pfister L.
+1995. 
+Stratosphere-troposphere exchange. Rev. Geophys.
+33:403–439. 10.1029/95RG02097
+[
+DOI
+] [
+Google Scholar
+]
+63.
+Lulko AT, Buist G, Kok J, Kuipers OP.
+2007. 
+Transcriptome analysis of temporal regulation of carbon metabolism by CcpA in Bacillus subtilis reveals additional target genes. J. Mol. Microbiol. Biotechnol.
+12:82–95. 10.1159/000096463
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+64.
+Michna RH, Commichau FM, Tödter D, Zschiedrich CP, Stülke J.
+2014. 
+SubtiWiki—a database for the model organism Bacillus subtilis that links pathway, interaction and expression information. Nucleic Acids Res.
+42:D692–D698. 10.1093/nar/gkt1002
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+65.
+Boylan SA, Rutherford A, Thomas SM, Price CW.
+1992. 
+Activation of Bacillus subtilis transcription factor sigma B by a regulatory pathway responsive to stationary-phase signals. J. Bacteriol.
+174:3695–3706
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+66.
+Maughan H, Callicotte V, Hancock A, Birky CW, Nicholson WL, Masel J.
+2006. 
+The population genetics of phenotypic deterioration in experimental populations of Bacillus subtilis. Evolution
+60:686–695. 10.1554/05-370.1
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+67.
+Steinmetz M, Richter R.
+1994. 
+Plasmids designed to alter the antibiotic resistance expressed by insertion mutations in Bacillus subtilis, through in vivo recombination. Gene
+142:79–83. 10.1016/0378-1119(94)90358-1
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Supplemental material
+supp_80_16_4788__index.html
+(1.3KB, html)
+AEM.00885-14_zam999105542so1.pdf
+(209.6KB, pdf)
+Articles from Applied and Environmental Microbiology are provided here courtesy of
+American Society for Microbiology (ASM)

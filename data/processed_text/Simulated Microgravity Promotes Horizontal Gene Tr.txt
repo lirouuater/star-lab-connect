@@ -1,0 +1,1002 @@
+Life (Basel)
+. 2021 Sep 13;11(9):960. doi:
+10.3390/life11090960
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Simulated Microgravity Promotes Horizontal Gene Transfer of Antimicrobial Resistance Genes between Bacterial Genera in the Absence of Antibiotic Selective Pressure
+Camilla Urbaniak
+Camilla Urbaniak
+1
+NASA Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA 91109, USA; camilla.urbaniak@jpl.nasa.gov (C.U.); tgrams@ufl.edu (T.G.)
+2
+ZIN Technologies Inc., Middleburg Heights, OH 44130, USA
+Find articles by
+Camilla Urbaniak
+1,
+2
+,
+Tristan Grams
+Tristan Grams
+1
+NASA Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA 91109, USA; camilla.urbaniak@jpl.nasa.gov (C.U.); tgrams@ufl.edu (T.G.)
+Find articles by
+Tristan Grams
+1
+,
+Christopher E Mason
+Christopher E Mason
+3
+Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA; chm2042@med.cornell.edu
+4
+The World Quant Initiative for Quantitative Prediction, Weill Cornell Medicine, New York, NY 10065, USA
+Find articles by
+Christopher E Mason
+3,
+4
+,
+Kasthuri Venkateswaran
+Kasthuri Venkateswaran
+1
+NASA Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA 91109, USA; camilla.urbaniak@jpl.nasa.gov (C.U.); tgrams@ufl.edu (T.G.)
+Find articles by
+Kasthuri Venkateswaran
+1,
+*
+Editors:
+Fathi Karouia
+,
+Christopher H House
+Author information
+Article notes
+Copyright and License information
+1
+NASA Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA 91109, USA; camilla.urbaniak@jpl.nasa.gov (C.U.); tgrams@ufl.edu (T.G.)
+2
+ZIN Technologies Inc., Middleburg Heights, OH 44130, USA
+3
+Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA; chm2042@med.cornell.edu
+4
+The World Quant Initiative for Quantitative Prediction, Weill Cornell Medicine, New York, NY 10065, USA
+*
+Correspondence:
+kjvenkat@jpl.nasa.gov
+Roles
+Fathi Karouia
+:
+Academic Editor
+Christopher H House
+:
+Academic Editor
+Received 2021 Aug 24; Accepted 2021 Sep 9; Collection date 2021 Sep.
+© 2021 by the authors.
+Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (
+https://creativecommons.org/licenses/by/4.0/
+).
+PMC Copyright notice
+PMCID: PMC8468678  PMID:
+34575109
+Abstract
+Bacteria are able to adapt and survive in harsh and changing environments through many mechanisms, with one of them being horizontal gene transfer (HGT). This process is one of the leading culprits in the spread of antimicrobial resistance (AMR) within bacterial communities and could pose a significant health threat to astronauts if they fell ill, especially on long-duration space missions. In order to better understand the degree of HGT activity that could occur in space, biosafety level-2, donor and recipient bacteria were co-cultured under simulated microgravity (SMG) on Earth with concomitant 1G controls. Two AMR genes,
+bla
+OXA-500
+and
+ISAba1,
+from the donor
+Acinetobacter pittii,
+were tracked in four recipient strains of
+Staphylococcus aureus
+(which did not harbor those genes) using polymerase chain reaction. All four
+S. aureus
+strains that were co-cultured with
+A. pittii
+under SMG had a significantly higher number of isolates that were now
+bla
+OXA-500
+- and
+ISAba1
+-positive compared to growth at 1G. The acquisition of these genes by the recipient induced a phenotypic change, as these isolates were now resistant to oxacillin, which they were previously susceptible to. This is a novel study, presenting, for the first time, increased HGT activity under SMG and the potential impact of the space environment in promoting increased gene dissemination within bacterial communities.
+Keywords:
+horizontal gene transfer, simulated microgravity, high aspect ratio vessel (HARV), antimicrobial resistance, space environment,
+Staphylococcus aureus
+,
+Acinetobacter pittii
+1. Introduction
+Bacteria are able to adapt to a wide variety of conditions, as evidenced by their survival and growth in extreme environments, such as the arid Atacama desert [
+1
+], hypersaline salt mines and lakes [
+2
+,
+3
+], acidic rocks in the Yellowstone geothermal environment [
+4
+], and the multi-stressor environment of Antarctica [
+5
+]. Bacterial communities have also been found beyond the Earth’s surface on the International Space Station (ISS), a low-gravity, high-radiation, hermetically sealed built environment [
+6
+]. The microbial communities characterized here consist of environmental organisms, human-associated commensal bacteria and biosafety level 2 (BSL-2) microbes, resistant to various antibiotics, and carrying numerous anti-microbial resistance genes [
+7
+,
+8
+,
+9
+]. This resistance could potentially pose a serious threat to astronauts if they fell ill, especially on long-duration space missions, as medical attention would not be readily available.
+Horizontal gene transfer (HGT) is the movement of genetic material (i.e., DNA) between microorganisms through either transformation, conjugation or transduction, and is considered to be central to microbial evolution [
+10
+,
+11
+]. In dynamic mixed communities, either human or environmental, HGT between species may confer an overall fitness advantage to the community, as the acquisition of new traits in individual cells within that community allows them to better adapt to changing conditions [
+12
+,
+13
+,
+14
+,
+15
+]. In other cases, HGT may have an unfavorable effect if it leads to an excessive accumulation of genes, or a neutral one [
+16
+], if there is no impact on the fitness of the organism [
+16
+].
+In a recent study comparing bacteria from two extreme built environments, one on Earth (Concordia Research Station in Antarctica) and one in space (International Space Station), a comparison between isolates of the same species showed that those from the International Space Station (ISS) had more mobile genetic elements within their genomes than those from Concordia [
+17
+]. In a follow-up analysis conducted by our group using the ISS resistome and microbiome data presented by Urbaniak et al. 2018 [
+7
+], we performed a series of correlation analyses to determine which antimicrobial resistance (AMR) genes were associated with which species. Interestingly, no statistically significant correlations were found. These data, coupled by the Concordia/ISS study, led us to hypothesize that the stressors of the ISS, specifically microgravity, promote enhanced HGT between organisms, compared to what would be observed on Earth.
+To address this hypothesis, co-cultures between donor and recipient strains were grown under simulated microgravity (SMG) (which we used as a proxy for µgravity conditions on the ISS) and normal gravity (1G), using the high-aspect-ratio vessel (HARV), with gene transfer tracked using polymerase chain reaction (PCR). The donor and recipient strains were
+Acinetobacter pittii
+(strain IIF1SW-P1) and
+Staphylococcus aureus
+(strains IF4SW, IIF6SW, IF7SW, IIF8SW), respectively. All strains were previously isolated from various locations on the ISS as part of the Microbial-1 Tracking study [
+8
+].
+A. pittii
+IIF1SW-P1 was chosen as the donor, since it was previously shown by our group to be resistant to oxacillin and contained the chromosomally located
+bla
+OXA-500
+gene within its genome [
+7
+], a beta-lactamase which alone can confer resistance to oxacillin [
+18
+]. The four
+S. aureus
+strains, IF4SW, IIF6SW, IF7SW, IIF8SW, were chosen as recipients because they were susceptible to oxacillin and harbored neither the
+bla
+OXA-500
+gene nor any other beta-lactamase genes [
+7
+]. The donor,
+A. pittii,
+harbored
+ISAba1
+, a transposable element that can jump between segments of the genome and, in some cases, can act as a promoter region for
+bla
+OXA
+genes, allowing for increased resistance to oxacillin and other beta-lactam antibiotics [
+19
+,
+20
+].
+ISAba1
+was not found in either of the recipient
+S. aureus
+strains. HGT ability was, therefore, tracked between
+A. pittii
+and
+S. aureus
+using the AMR genes,
+bla
+OXA-500
+and
+ISAba1
+.
+2. Methods
+2.1. Co-Culture Experiments
+All strains examined in this study were cultivated from the ISS environment collected during Flight 2 (May 2015) as per the published protocol [
+8
+].
+A. pittii
+strain, IIF1SW-P1, was isolated at Location #1, the Port panel of the Cupola. The Cupola is a small module devoted to the observation of operations outside the ISS, such as robotic activities, spacecraft approaches, and extravehicular activities.
+S. aureus
+strain IF4SW was isolated from Location #4, the surface of the dining table. Even though the main function of the table was for dining, crew members also used the table for experimental work.
+S. aureus
+strain IIF6SW was cultured from the sample collected at Location #6, a stowage rack where experimental materials were stored for long duration.
+S. aureus
+strain IF7SW was isolated from Location #7, an overhead three-panel surface of the Materials Science Research Rack 1, which is used for basic material research in the microgravity environment of the ISS.
+S. aureus
+strain IIF8SW was retrieved from the samples at Location #8, an exterior aft wall of crew quarters. The crew quarters are a permanent personal space for crewmembers to sleep and perform personal recreation and communication, as well as provide on-orbit stowage of personal belongings.
+Donor (
+A. pittii
+strain IIF1SW-P1) and recipient (
+S. aureus
+strains IF4SW-P1, IIF6SW-P1, IF7SW-P3, IIF8SW-P1) bacteria were streaked from −80 °C freezer stocks onto tryptic soy agar plates (Hardy Diagnostics, Santa Maria, CA, USA) and incubated overnight (~16 h) at 37 °C. A single colony from each plate was added to 10 mL of tryptic soy broth (TSB) in a 50 mL Falcon tube for
+S. aureus
+, and 8 mL of TSB in a snap cap tube for
+A. pittii
+and grown overnight (~20 h) in a shaking incubator at 85 rpm. A low speed was chosen, so as to not dislodge pili or flagella that could be used for HGT, but high enough that the bacteria did not settle out of culture over time. The overnight culture was centrifuged for 10 min at 3000×
+g
+, the supernatant decanted, and the pellet washed in 1× sterile phosphate-buffered saline (PBS). Pellets were then resuspended in 10 mL of 1× PBS. For
+S. aureus
+, 1 mL was then transferred to 9 mL of PBS and, for
+A. pittii
+, the tube was topped with 3 mL of PBS. The biomass of the cultures was measured with DENSICHEK
+®
+(bioMérieux, Marcy-l’Étoile, France) and adjusted with PBS to reach a concentration of 10
+8
+cfu/mL, which was then serially diluted to 10
+6
+cfu/mL. 100 µL of one
+S. aureus
+recipient strain was added to 10 mL of TSB and 100 µL of the donor
+A. pittii
+was added to the same 10 mL tube to set up the co-cultures. After gentle mixing, the complete 10 mL volume containing the donor and recipient was carefully added to HARVs to avoid any bubbles. HARVs were grown under SMG (vertical position) and 1G (horizontal position) at 33 rpm for 20 h at 37 °C.
+2.2. Isolation of Colonies after HARV Growth
+After incubation, the liquid from each HARV vessel was collected and 100 µL, in duplicate, was plated on MSA (selective for
+S. aureus
+) (VWR, Radnor, PA, USA), MSA+ 4 µg/mL oxacillin sodium salt monohydrate (VWR, USA) (selective for
+S. aureus
+that had become resistant to oxacillin) and Leeds agar (selective for
+A. pittii
+) (VWR, USA). MSA and Leeds plates were incubated overnight at 37 °C and MSA+ oxacillin plates were incubated for 72 h at 37 °C. Colonies on MSA, MSA+ oxacillin, and Leeds plates were counted, and cfu/mL was calculated. Colonies that grew on MSA+ oxacillin plates were picked and placed in 250 µL 1× PBS and stored at 4 °C until DNA extraction. DNA was extracted using the ZymoBIOMICS DNA Microprep Kit (ZymoResearch, Irvine, CA, USA) following the manufacturer’s instructions.
+2.3. Designing Primers
+Primers were designed using the
+A. pittii
+IIF1SW-P1 draft genome that we had previously published, in which
+bla
+OXA-500
+gene resides on scaffold 5 and
+ISAba1
+gene on both scaffolds 44 and 70 [
+21
+]. Primers were designed using IDT DNA PrimerQuest for genes of interest. IDT DNA OligoAnalyzer was used to ensure no hairpins and correct PCR melting temperature. NCBI BLAST was used to ensure no off-target binding sites for strains used in this study. Amplification product of the primers for
+bla
+OXA-500
+and the location within the genome is shown in
+Figure S3A
+and for
+ISAba1
+, in
+Figure S3B in Supplementary Materials
+. The product size of
+bla
+OXA-500
+is 591 bp and for
+ISAba1
+, is 390 bp.
+2.4. PCR
+Each 25-μL reaction consisted of 12.5 μL of GoTaq
+®
+Green Master Mix (Promega, Madison, WI, USA), 1 μL each of forward and reverse oligonucleotide primers (10 μM each), 5.5 µL of nuclease free water (Promega, USA) and 5 μL of template DNA. The following primer pairs were used:
+bla
+OXA-500
+_F (5′-CCGAGTTGTTCCAATCCCTTAT-3′) and
+bla
+OXA-500
+_R (5′-ATATGTTCCCGCCTCTACCT-3′) to amplify
+bla
+OXA-500
+and
+ISAba1
+_F (5′-ATGCAGCGCTTCTTTGCAGG-3′) and
+ISAba1
+_R (5′-AATGATTGGTGACAATGAAG-3′) to amplify
+ISAba1
+.
+The reaction conditions were as follows: 95 °C for 5 min, 35 cycles of 95 °C for 30 s, 55 °C for 30 s, 72 °C for 1 min and then a final extension of 72 °C for 5 min. Amplified PCR products were run on the E-Gel™ Power Snap Electrophoresis System (Thermo Fischer, Waltham, MA, USA, cat # G8300) using their pre-cast 1.2% SYBR Safe, E-gels (cat # G521801). Gels were run with a 1 Kb plus DNA ladder (cat # 10488090). Gel images were captured with the built-in camera. The positive control consisted of DNA isolated from the parental
+A. pittii
+strain and the negative controls were DNA isolated from the parental
+S. aureus
+strains. A no-template control (NTC) consisting of molecular-grade water instead of DNA was used.
+For PCR reactions that were negative, a follow-up PCR was performed using the 16S rRNA gene to confirm that the DNA extraction procedure produced sufficient DNA. The following primers were used for 16S rRNA gene amplification: the forward primer, 27F (5′-AGA GTT TGA TCC TGG CTC AG-3′) and the reverse primer, 1492R (5′-GGT TAC CTT GTT ACG ACT T-3′). The PCR conditions were as follows: denaturation at 95 °C for 5 min, followed by 35 cycles consisting of denaturation at 95 °C for 50 s, annealing at 55 °C for 50 s, and extension at 72 °C for 1 min 30 s and finalized by extension at 72 °C for 10 min. PCR with the 16S rRNA gene showed that all our samples did indeed have the DNA product and that extraction was successful.
+2.5. Calculating the Efficiency of Gene Transfer
+The number of colonies that had grown on MSA+ oxacillin and were positive for at least one gene (
+bla
+OXA-500
+or
+ISAba1
+) was divided by 0.1 mL (the volume of the HARV culture used for plating). This number represents the theoretical concentration (cfu/mL) of cells in the culture that have acquired one of the genes. This number was then divided by the total concentration of
+S. aureus
+cells (cfu/mL) in the culture, which was calculated from the number of colonies that grew on MSA.
+2.6. Chromosome vs. Plasmid Location of bla
+OXA-500
+Others have documented in the literature that
+bla
+OXA-500
+is located on the chromosome and is not a plasmid. To confirm that the same was true for our donor strain,
+A. pittii
+IIF1SW-P1, the following analyses were performed. plasmidSPAdes was used to assemble plasmid sequences from the whole genome-sequencing data of our strain. A simple blastn comparison between the
+bla
+OXA-500
+sequence and the plasmid sequences showed the absence of the gene from the plasmid-assembled contigs. Furthermore, oriTfinder was used to determine whether scaffold_5 (length = 172 kb), on which
+bla
+OXA-500
+was found, as well as the assembled sequences not characterized as plasmid sequences (from the plasmidSPAdes output above), contained evidence of plasmid markers, such as an origin of transfer site (
+oriT
+) and relaxases. None of these plasmid markers were detected on scaffold_5 and the “chromosomal” sequences.
+3. Results
+In order to determine whether HGT occurred between donor and recipient, suitable PCR primers were designed to amplify regions of the
+bla
+OXA-500
+and
+ISAba1
+genes from
+A. pittii
+IIF1SW-P1. The sequences of the two genes, used to design the primers, were extracted from the draft whole-genome sequence of
+A. pittii
+IIF1SW-P1 [
+21
+]. PCR analysis performed on DNA isolated from
+A. pittii
+IIF1SW-P1 using the designed
+bla
+OXA-500
+and
+ISAba1
+primers showed strong bands on an agarose gel, while PCR analysis performed on DNA isolated from the four
+S. aureus
+strains showed no amplicons.
+To compare HGT potential between SMG and 1G, co-cultures of
+A. pittii
+(donor strain) and
+S. aureus
+(recipient strain) were grown in the HARV under SMG (vertical rotation) or 1G (horizontal rotation) for 20 h, after which the culture was plated on mannitol salt agar (MSA) to select for
+S. aureus
+. The MSA was also supplemented with oxacillin to select only those
+S. aureus
+colonies that had acquired resistance to the antibiotic. To verify that this newly acquired resistance to oxacillin was not due to spontaneous mutations but rather through the HGT of
+bla
+OXA-500
+and
+ISAba1
+from
+A. pittii
+, the
+S. aureus
+colonies that grew on MSA supplemented with oxacillin were picked for PCR analysis. A schematic of the experimental set-up is shown in
+Figure 1
+.
+Figure 1.
+Open in a new tab
+Schematic of experimental protocol.
+Figure 2
+shows the proportion of colonies that grew on MSA supplemented with oxacillin that were positive for
+bla
+OXA-500
+(
+Figure 2
+A),
+ISAba1
+(
+Figure 2
+B) and both (
+Figure 2
+C). Representative gel images are shown in
+Figure S1
+. On average, 77% of the
+S. aureus
+colonies that were grown with
+A. pittii
+under SMG and had acquired resistance to oxacillin now harbored both
+bla
+OXA-500
+and
+ISAba1
+(89% of the colonies had acquired at least one). This is in contrast with 1G, where only 1% of
+S. aureus
+colonies that had acquired oxacillin resistance were positive for both
+bla
+OXA-500
+and
+ISAba1
+(8% of the colonies had acquired at least one).
+Figure 2.
+Open in a new tab
+Comparison of HGT activity between SMG and 1G. Four strains of
+S. aureus
+(IF4SW, IIF6SW, IF7SW, IIF8SW) were used as the recipient and were co-cultured (separately) with the donor strain
+A. pittii
+for 20 h at 37 °C under SMG or 1G conditions. Cultures were plated on MSA containing 4 µg/mL of oxacillin. Colonies that grew were picked, subjected to DNA extraction and then analyzed by PCR with primers specific to
+bla
+OXA-500
+and
+ISAba1
+from the donor strain. The graphs show the percent of
+S. aureus
+colonies, from each strain, that grew on MSA+ oxacillin that had acquired (
+A
+)
+bla
+OXA-500
+, (
+B
+)
+ISAba1
+or (
+C
+) both genes from the donor
+A. pittii
+.
+The differences in proportions observed between SMG and 1G were not due to differences in growth at these different conditions, as each strain showed the same biomass after 20 h, whether grown under SMG or 1G (
+Figure S2
+).
+The efficiency of transfer under SMG for all four strains was, on average, 3.06 × 10
+−7
+while, for 1G, it was 3.21 × 10
+−9
+(
+Table 1
+). While all strains had similar efficiencies, IIF8SW had the highest and IIF6SW the lowest.
+Table 1.
+Efficiency of HGT. Average values of the three biological replicates, with the range of the values shown in parentheses. Efficiency was based on colonies that at acquired at least one gene (either
+bla
+OXA-500
+or
+ISAba1
+).
+S. aureus
+Recipient Strain
+SMG (Range)
+1G (Range)
+IF4SW
+4.21 × 10
+−7
+(1.1 × 10
+−6
+to 5.2 × 10
+−8
+)
+2.05 × 10
+−9
+(0.0 to 4.1 × 10
+−9
+)
+IIF6SW
+4.54 × 10
+−8
+(7.5 × 10
+−8
+to 6.3 × 10
+−9
+)
+0.0 (no transfer)
+IF7SW
+3.20 × 10
+−7
+(7.2 × 10
+−7
+to 9.9 × 10
+−8
+)
+4.33 × 10
+−9
+(7.5 × 10
+−9
+to 2.2 × 10
+−9
+)
+IIF8SW
+4.38 × 10
+−7
+(6.8 × 10
+−7
+to 3.1 × 10
+−9
+)
+6.07 × 10
+−9
+(0.0 to 1.2 × 10
+−9
+)
+Open in a new tab
+To determine how stable these donor genes were in the recipient, two resistant
+S. aureus
+1F4SW colonies that had acquired both genes were sub-cultured on MSA + oxacillin plates, a total of four times. Even after the 4th sub-culture, the colonies were still resistant to oxacillin, and PCR confirmed that
+bla
+OXA-500
+and
+ISAba1
+were still present within the genome.
+4. Discussion
+We have shown that HGT is increased under SMG compared to 1G. The transfer of AMR genes, which were tracked by PCR, occurred in the absence of selective pressure by antibiotics. This transfer led to functional changes, as the acquisition of the two AMR genes,
+bla
+OXA-500
+and
+ISAba1
+, that were tracked in the four strains of
+S. aureus
+, made them resistant to oxacillin, to which they were previously susceptible. These results have significant implications for long-duration space missions because pathogens that are susceptible to antibiotics could become resistant and thus harder to treat. In addition, even if astronauts are screened for problematic microbes prior to flight, issues could still arise, as commensals are known to act as reservoirs for AMR genes that can be disseminated to (opportunistic) pathogens [
+22
+,
+23
+,
+24
+]. For example, a study conducted in a hospital in the Netherlands showed that
+mecA
+gene transfer occurred in a patient between
+mecA
++
+S. epidermidis
+and a
+mecA
+−
+strain of
+S. aureus
+[
+25
+].
+It was beyond the scope of the study to determine the cause of the increased HGT that was observed, but one mechanism could be increased competence, allowing for transformation to occur, one of three modes of gene transfer. Competence allows bacterial cells to uptake DNA from its environment and increase the response to different stressors [
+26
+,
+27
+,
+28
+,
+29
+]. In this case, naked DNA released from dead
+A. pittii
+cells could have been readily taken up by
+S. aureus
+when exposed to SMG due to an increase in its competence. While
+S. aureus
+is not classically considered to be naturally competent, as
+Streptococcus pneumoniae
+and
+Bacillus subtilis
+are, it does harbor genes that are involved in competence and thought to promote natural competence under the right conditions [
+30
+,
+31
+]. The conditions that
+S. aureus
+needs are not yet known, but, similar to other bacteria, it could be an adverse environment. Indeed, when
+S. aureus
+cells were subjected to heat-shock, cold-shock and the stringent response, there was increased expression of competence gene orthologs compared to the non-stressed conditions [
+32
+]. In
+S. pneumoniae
+and
+B. subtilis
+, competence confers a survival advantage when cells are subjected to stress [
+33
+,
+34
+], so there is a possibility that growth under SMG led to an adverse environment for
+S. aureus
+, causing cells to become more competent to increase survival. Conjugation is a less likely scenario since, consistent with what others have documented in the literature,
+bla
+OXA-500
+is located on the chromosome and not a plasmid. A second mechanism could be increased transduction caused by growth under SMG. Transduction is the transfer of genetic material via bacterial phages. It is well known that prophage activity is increased during stress, leading to increased phage production, helping the host survive these adverse conditions [
+35
+,
+36
+].
+5. Conclusions
+This paper describes, for the first time, the effects of SMG on HGT and has shown that it is increased in SMG compared to 1G. If the same trend is observed on the ISS, this will have a significant impact on how we view bacterial interactions in space and its effects on astronaut health. The next steps would be to elucidate the mechanisms behind the HGT, to develop appropriate countermeasures for long-duration space missions.
+Supplementary Materials
+The following are available online at
+https://www.mdpi.com/article/10.3390/life11090960/s1
+, Figure S1: Representative gel images of PCR analysis. Figure S2: Colony forming units of strains grown in SMG and 1G. Figure S3: Schematic of designed primers and their location within the donor genome.
+Click here for additional data file.
+(1.4MB, zip)
+Author Contributions
+C.U. conceptualized the study, designed the primers, performed all experiments, analyzed the data, and wrote the manuscript. T.G. helped design the primers and optimize the initial protocol. C.E.M. provides ongoing whole genome sequencing capabilities for the lab. K.V. provided guidance during concept maturation, critically reviewed the data and the manuscript. All authors have read and agreed to the published version of the manuscript.
+Funding
+This study was funded by the National Aeronautics and Space Administration 2020 Space Biology (NNH18ZTT001N-FG2) grant (80NSSC21K0320) awarded to CU and a 2012 Space Biology NNH12ZTT001N Grant No. 19-12829-26 under Task Order NNN13D111T awarded to KV.
+Institutional Review Board Statement
+Not applicable.
+Informed Consent Statement
+Not applicable.
+Data Availability Statement
+The draft genomes of the parental strains used for the co-cultures can be found in NCBI under accession number
+MIZX00000000
+,
+MIZH00000000
+,
+MIZN00000000
+,
+MIZM00000000
+,
+MIZP00000000
+and are presented in the manuscript by Checinska Sielaff A et al. [
+21
+].
+Conflicts of Interest
+The authors declare no conflict of interest.
+Footnotes
+Publisher’s Note:
+MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+References
+1.
+Schulze-Makuch D., Wagner D., Kounaves S.P., Mangelsdorf K., Devine K.G., de Vera J.-P., Schmitt-Kopplin P., Grossart H.-P., Parro V., Kaupenjohann M., et al.  Transitory microbial habitat in the hyperarid Atacama Desert. Proc. Natl. Acad. Sci. USA. 2018;115:2670–2675. doi: 10.1073/pnas.1714341115.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Carpa R., Keul A., Muntean V., Dobrotă C. Characterization of halophilic bacterial communities in Turda Salt Mine (Romania) Orig. Life Evol. Biosph. 2014;44:223–230. doi: 10.1007/s11084-014-9375-4.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Humayoun S.B., Bano N., Hollibaugh J.T. Depth distribution of microbial diversity in Mono Lake, a meromictic soda lake in California. Appl. Environ. Microbiol. 2003;69:1030–1042. doi: 10.1128/AEM.69.2.1030-1042.2003.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Walker J.J., Spear J.R., Pace N.R. Geobiology of a microbial endolithic community in the Yellowstone geothermal environment. Nature. 2005;434:1011–1014. doi: 10.1038/nature03447.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Ji M., Greening C., Vanwonterghem I., Carere C.R., Bay S.K., Steen J.A., Montgomery K., Lines T., Beardall J., van Dorst J., et al.  Atmospheric trace gases support primary production in Antarctic desert surface soil. Nature. 2017;552:400. doi: 10.1038/nature25014.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Yamaguchi N., Roberts M., Castro S., Oubre C., Makimura K., Leys N., Grohmann E., Sugita T., Ichijo T., Nasu M. Microbial monitoring of crewed habitats in space-current status and future perspectives. Microb. Environ. 2014;29:250–260. doi: 10.1264/jsme2.ME14031.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Urbaniak C., Sielaff A.C., Frey K.G., Allen J.E., Singh N., Jaing C., Wheeler K., Venkateswaran K. Detection of antimicrobial resistance genes associated with the International Space Station environmental surfaces. Sci. Rep. 2018;8:814. doi: 10.1038/s41598-017-18506-4.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Checinska Sielaff A., Urbaniak C., Mohan G.B.M., Stepanov V.G., Tran Q., Wood J.M., Minich J., McDonald D., Mayer T., Knight R., et al.  Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces. Microbiome. 2019;7:50. doi: 10.1186/s40168-019-0666-x.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Singh N.K., Wood J.M., Karouia F., Venkateswaran K. Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces. Microbiome. 2018;6:204. doi: 10.1186/s40168-018-0585-2.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Soucy S.M., Huang J., Gogarten J.P. Horizontal gene transfer: Building the web of life. Nat. Rev. Genet. 2015;16:472–482. doi: 10.1038/nrg3962.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Frost L.S., Leplae R., Summers A.O., Toussaint A. Mobile genetic elements: The agents of open source evolution. Nat. Rev. Microbiol. 2005;3:722–732. doi: 10.1038/nrmicro1235.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Roberts A.P., Kreth J. The impact of horizontal gene transfer on the adaptive ability of the human oral microbiome. Front. Cell. Infect. Microbiol. 2014;4:124. doi: 10.3389/fcimb.2014.00124.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Webster N.S., Reusch T.B.H. Microbial contributions to the persistence of coral reefs. ISME J. 2017;11:2167. doi: 10.1038/ismej.2017.66.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+Koonin E.V., Makarova K.S., Aravind L. Horizontal gene transfer in prokaryotes: Quantification and classification. Annu. Rev. Microbiol. 2001;55:709–742. doi: 10.1146/annurev.micro.55.1.709.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Brooks A.N., Turkarslan S., Beer K.D., Lo F.Y., Baliga N.S. Adaptation of cells to new environments. Wiley Interdiscip. Rev. Syst. Biol. Med. 2011;3:544–561. doi: 10.1002/wsbm.136.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Vogan A.A., Higgs P.G. The advantages and disadvantages of horizontal gene transfer and the emergence of the first species. Biol. Direct. 2011;6:1. doi: 10.1186/1745-6150-6-1.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Schiwon K., Arends K., Rogowski K.M., Fürch S., Prescha K., Sakinc T., Van Houdt R., Werner G., Grohmann E. Comparison of antibiotic resistance, biofilm formation and conjugative transfer of Staphylococcus and Enterococcus isolates from International Space Station and Antarctic Research Station Concordia. Microb. Ecol. 2013;65:638–651. doi: 10.1007/s00248-013-0193-4.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Evans B.A., Amyes S.G.B. OXA β-lactamases. Clin. Microbiol. Rev. 2014;27:241–263. doi: 10.1128/CMR.00117-13.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Khurshid M., Rasool M.H., Ashfaq U.A., Aslam B., Waseem M. Emergence of ISAba1 harboring carbapenem-resistant Acinetobacter baumannii isolates in Pakistan. Future Microbiol. 2017;12:1261–1269. doi: 10.2217/fmb-2017-0080.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Mugnier P.D., Poirel L., Nordmann P. Functional analysis of insertion sequence ISAba1, responsible for genomic plasticity of Acinetobacter baumannii. J. Bacteriol. 2009;191:2414–2418. doi: 10.1128/JB.01258-08.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Checinska Sielaff A., Singh N.K., Allen J.E., Thissen J., Jaing C., Venkateswaran K. Draft Genome Sequences of Biosafety Level 2 Opportunistic Pathogens Isolated from the Environmental Surfaces of the International Space Station. Genome Announc. 2016;4:e01263–e01316. doi: 10.1128/genomeA.01263-16.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Brinkac L., Voorhies A., Gomez A., Nelson K.E. The Threat of Antimicrobial Resistance on the Human Microbiome. Microb. Ecol. 2017;74:1001–1008. doi: 10.1007/s00248-017-0985-z.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Penders J., Stobberingh E.E., Savelkoul P.H.M., Wolffs P.F.G. The human microbiome as a reservoir of antimicrobial resistance. Front. Microbiol. 2013;4:87. doi: 10.3389/fmicb.2013.00087.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Huddleston J.R. Horizontal gene transfer in the human gastrointestinal tract: Potential spread of antibiotic resistance genes. Infect. Drug Resist. 2014;7:167–176. doi: 10.2147/IDR.S48820.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+25.
+Wielders C.L.C., Vriens M.R., Brisse S., de Graaf-Miltenburg L.A.M., Troelstra A., Fleer A., Schmitz F.J., Verhoef J., Fluit A.C. Evidence for in-vivo transfer of mecA DNA between strains of Staphylococcus aureus. Lancet. 2001;357:1674–1675. doi: 10.1016/S0140-6736(00)04832-7.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+26.
+Charpentier X., Kay E., Schneider D., Shuman H.A. Antibiotics and UV Radiation Induce Competence for Natural Transformation in Legionella pneumophila. J. Bacteriol. 2011;193:1114–1121. doi: 10.1128/JB.01146-10.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Claverys J.-P., Prudhomme M., Martin B. Induction of Competence Regulons as a General Response to Stress in Gram-Positive Bacteria. Annu. Rev. Microbiol. 2006;60:451–475. doi: 10.1146/annurev.micro.60.080805.142139.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Manna S., Waring A., Papanicolaou A., Hall N.E., Bozinovski S., Dunne E.M., Satzke C. The transcriptomic response of Streptococcus pneumoniae following exposure to cigarette smoke extract. Sci. Rep. 2018;8:15716. doi: 10.1038/s41598-018-34103-5.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Slager J., Kjos M., Attaiech L., Veening J.W. Antibiotic-induced replication stress triggers bacterial competence by increasing gene dosage near the origin. Cell. 2014;157:395–406. doi: 10.1016/j.cell.2014.01.068.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+Fagerlund A., Granum P.E., Håvarstein L.S. Staphylococcus aureus competence genes: Mapping of the SigH, ComK1 and ComK2 regulons by transcriptome sequencing. Mol. Microbiol. 2014;94:557–579. doi: 10.1111/mmi.12767.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+31.
+Morikawa K., Takemura A.J., Inose Y., Tsai M., Nguyen Thi le T., Ohta T., Msadek T. Expression of a cryptic secondary sigma factor gene unveils natural competence for DNA transformation in Staphylococcus aureus. PLoS Pathog. 2012;8:e1003003.  doi: 10.1371/journal.ppat.1003003.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+32.
+Anderson K.L., Roberts C., Disz T., Vonstein V., Hwang K., Overbeek R., Olson P.D., Projan S.J., Dunman P.M. Characterization of the Staphylococcus aureus heat shock, cold shock, stringent, and SOS responses and their effects on log-phase mRNA turnover. J. Bacteriol. 2006;188:6739–6756. doi: 10.1128/JB.00609-06.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Engelmoer D.J., Rozen D.E. Competence increases survival during stress in Streptococcus pneumoniae. Evol. Int. J. Org. Evol. 2011;65:3475–3485. doi: 10.1111/j.1558-5646.2011.01402.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Schultz D., Wolynes P.G., Jacob E.B., Onuchic J.N. Deciding fate in adverse times: Sporulation and competence in Bacillus subtilis. Proc. Natl. Acad. Sci. USA. 2009;106:21027–21034. doi: 10.1073/pnas.0912185106.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Wang X., Kim Y., Ma Q., Hong S.H., Pokusaeva K., Sturino J.M., Wood T.K. Cryptic prophages help bacteria cope with adverse environments. Nat. Commun. 2010;1:147. doi: 10.1038/ncomms1146.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+36.
+Du Toit A. Phage induction in different contexts. Nat. Rev. Microbiol. 2019;17:126–127. doi: 10.1038/s41579-019-0150-4.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Click here for additional data file.
+(1.4MB, zip)
+Data Availability Statement
+The draft genomes of the parental strains used for the co-cultures can be found in NCBI under accession number
+MIZX00000000
+,
+MIZH00000000
+,
+MIZN00000000
+,
+MIZM00000000
+,
+MIZP00000000
+and are presented in the manuscript by Checinska Sielaff A et al. [
+21
+].
+Articles from Life are provided here courtesy of
+Multidisciplinary Digital Publishing Institute  (MDPI)

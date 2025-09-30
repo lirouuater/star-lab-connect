@@ -1,0 +1,2185 @@
+Development
+. 2016 Sep 15;143(18):3382–3393. doi:
+10.1242/dev.136234
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Plastid osmotic stress influences cell differentiation at the plant shoot apex
+Margaret E Wilson
+Margaret E Wilson
+1
+Department of Biology, Mailbox 1137, One Brookings Drive, Washington University in Saint Louis, Saint Louis, MO 63130, USA
+Find articles by
+Margaret E Wilson
+1
+,
+Matthew Mixdorf
+Matthew Mixdorf
+1
+Department of Biology, Mailbox 1137, One Brookings Drive, Washington University in Saint Louis, Saint Louis, MO 63130, USA
+Find articles by
+Matthew Mixdorf
+1
+,
+R Howard Berg
+R Howard Berg
+2
+Integrated Microscopy Facility, Donald Danforth Plant Science Center, 975 North Warson Rd., Saint Louis, MO 63132, USA
+Find articles by
+R Howard Berg
+2
+,
+Elizabeth S Haswell
+Elizabeth S Haswell
+1
+Department of Biology, Mailbox 1137, One Brookings Drive, Washington University in Saint Louis, Saint Louis, MO 63130, USA
+Find articles by
+Elizabeth S Haswell
+1,
+*
+Author information
+Article notes
+Copyright and License information
+1
+Department of Biology, Mailbox 1137, One Brookings Drive, Washington University in Saint Louis, Saint Louis, MO 63130, USA
+2
+Integrated Microscopy Facility, Donald Danforth Plant Science Center, 975 North Warson Rd., Saint Louis, MO 63132, USA
+*
+Author for correspondence (
+ehaswell@wustl.edu
+)
+Received 2016 Feb 7; Accepted 2016 Aug 2.
+© 2016. Published by The Company of Biologists Ltd
+PMC Copyright notice
+PMCID: PMC5047659  PMID:
+27510974
+Abstract
+The balance between proliferation and differentiation in the plant shoot apical meristem is controlled by regulatory loops involving the phytohormone cytokinin and stem cell identity genes. Concurrently, cellular differentiation in the developing shoot is coordinated with the environmental and developmental status of plastids within those cells. Here, we employ an
+Arabidopsis thaliana
+mutant exhibiting constitutive plastid osmotic stress to investigate the molecular and genetic pathways connecting plastid osmotic stress with cell differentiation at the shoot apex.
+msl2 msl3
+mutants exhibit dramatically enlarged and deformed plastids in the shoot apical meristem, and develop a mass of callus tissue at the shoot apex. Callus production in this mutant requires the cytokinin receptor AHK2 and is characterized by increased cytokinin levels, downregulation of cytokinin signaling inhibitors ARR7 and ARR15, and induction of the stem cell identity gene
+WUSCHEL
+. Furthermore, plastid stress-induced apical callus production requires elevated plastidic reactive oxygen species, ABA biosynthesis, the retrograde signaling protein GUN1, and ABI4. These results are consistent with a model wherein the cytokinin/WUS pathway and retrograde signaling control cell differentiation at the shoot apex.
+KEY WORDS:
+Arabidopsis thaliana
+, Cytokinin, Plastid, Reactive oxygen species, Retrograde signaling, Shoot apical meristem
+Summary:
+During plastid stress-induced apical callus production in
+Arabidopsis
+, the cytokinin/WUSCHEL pathway and a plastid-to-nucleus signaling pathway are implicated in cell differentiation at the shoot apex.
+INTRODUCTION
+The development of land plants provides a unique opportunity to study how cell differentiation is determined, as plant cell identity is highly plastic (
+Gaillochet and Lohmann, 2015
+). A classic illustration of plant cell pluripotency is the ability to produce a mass of undifferentiated cells referred to as callus. In nature, callus production is triggered by wounding or exposure to pathogens (
+Ikeuchi et al., 2013
+). In the laboratory, callus is typically induced by exogenous treatment with two phytohormones, cytokinin (CK) and auxin (
+Skoog and Miller, 1957
+).
+Callus is frequently derived from meristem or meristem-like cells (
+Jiang et al., 2015
+;
+Sugimoto et al., 2011
+). Meristems are small self-renewing pools of undifferentiated cells from which new organs are derived as the plant grows (
+Aichinger et al., 2012
+;
+Gaillochet and Lohmann, 2015
+). Above ground, the maintenance and regulation of the shoot apical meristem (SAM) is crucial for the proper specification and positioning of leaves (
+Barton, 2010
+). SAM identity requires both the imposition of stem cell fate by the WUSCHEL (WUS)/CLAVATA (CLV) signaling circuit (
+Fletcher et al., 1999
+;
+Schoof et al., 2000
+) and the suppression of differentiation by SHOOTMERISTEMLESS (STM) (
+Endrizzi et al., 1996
+;
+Long et al., 1996
+).
+CK plays a key role in the function of the SAM. In the central zone (CZ), CK promotes proliferation, while auxin promotes differentiation in the peripheral zone (PZ) (
+Schaller et al., 2015
+). Localized CK perception and response specifies the organizing center of the SAM, also the region of
+WUS
+expression (
+Chickarmane et al., 2012
+;
+Gordon et al., 2009
+;
+Zurcher et al., 2013
+). WUS activity maintains itself through a positive feedback loop involving the CK response via type-A
+Arabidopsis
+response regulators (ARRs), key negative regulators of CK signaling (
+Leibfried et al., 2005
+;
+Schuster et al., 2014
+;
+To et al., 2007
+;
+Zhao et al., 2010
+). In the SAM, auxin acts to repress
+ARR7
+and
+ARR15
+, (
+Zhao et al., 2010
+). Thus, auxin and CK synergize to regulate the core WUS/CLV pathway, maintaining a balance between differentiation and proliferation in the SAM (
+Gaillochet and Lohmann, 2015
+;
+Ikeuchi et al., 2013
+).
+Shoot development also depends on plastids, which are endosymbiotic organelles responsible for photosynthesis, amino acid, starch and fatty acid biosynthesis, and the production of many hormones and secondary metabolites (
+Neuhaus and Emes, 2000
+). As cells leave the SAM and take on the appropriate cell identity within leaf primordia, the small, undifferentiated plastids – called proplastids – inside them must also differentiate, usually into chloroplasts. Many mutants lacking functional plastid-localized proteins exhibit secondary defects in leaf cell specification (
+Larkin, 2014
+;
+Luesse et al., 2015
+;
+Moschopoulos et al., 2012
+), providing genetic evidence that normal leaf development depends upon plastid homeostasis. The integration of plastid differentiation into the process of development probably requires tightly regulated and finely tuned two-way communication between the plastid and the nucleus, including both anterograde (nucleus-to-plastid) and retrograde (plastid-to-nucleus) signaling. An increasing number of overlapping retrograde signaling pathways that are triggered by developmental or environmental defects in plastid function have been identified (
+Chan et al., 201
+6;
+Woodson and Chory, 2012
+). Numerous retrograde signals have been proposed, including intermediates in isoprenoid (
+Xiao et al., 2012
+) biosynthesis, heme (
+Woodson et al., 2011
+), phosphonucleotides (
+Estavillo et al., 2011
+), reactive oxygen species (ROS) (
+Wagner et al., 2004
+) and oxidized carotenoids (
+Ramel et al., 2012
+). Despite the diversity, all these pathways and signals link a disruption in plastid homeostasis to altered nuclear gene expression (
+Chan et al., 201
+6).
+One retrograde signaling pathway that may serve to connect plastid signals to shoot development is the GENOMES UNCOUPLED (GUN1)/ABA-INSENSITIVE 4 (ABI4) pathway (
+Fernandez and Strand, 2008
+;
+Leon et al., 2012
+). ABI4 is a nuclear transcription factor involved in many plant developmental pathways, including the response to ABA, sugar signaling, and mitochondrial retrograde signaling (
+Leon et al., 2012
+). GUN1 is a plastid protein of unclear molecular function that is thought to act with ABI4 in at least two retrograde signaling pathways: one that coordinates plastid and nuclear gene expression during development, and one that respond to defects in chlorophyll biosynthesis (
+Cottage et al., 2010
+;
+Koussevitzky et al., 2007
+;
+Sun et al., 2011
+).
+We have been using an
+Arabidopsis
+mutant with constitutively osmotically stressed plastids [
+msl2 msl3
+(
+Veley et al., 2012
+)] as a model system to address the developmental effects of plastid dysfunction. MSL2 and MSL3 are two members of the MscS-Like (MSL) family of mechanosensitive ion channels that localize to the plastid envelope and are required for normal plastid size, shape and division site selection (
+Haswell and Meyerowitz, 2006
+;
+Wilson et al., 2011
+). By analogy to family members in bacteria (
+Levina et al., 1999
+) and plants (
+Hamilton et al., 2015
+) and based on
+in vivo
+experiments (
+Veley et al., 2012
+), MSL2 and MSL3 are likely to serve as osmotic ‘safety valves’, allowing plastids to continuously maintain osmotic homeostasis during normal growth and development. In addition,
+msl2 msl3
+mutant plants exhibit small stature, variegated leaf color and ruffled leaf margins. These whole-plant defects can be attributed to plastid osmotic stress, as they are suppressed by environmental and genetic manipulations that increase cytoplasmic osmolarity and draw water out of the plastid (
+Veley et al., 2012
+;
+Wilson et al., 2014
+). Here, we report a new and unexpected phenotype associated with
+msl2 msl3
+mutants, and establish the molecular and genetic pathways that underlie it.
+RESULTS
+msl2 msl3
+double mutants develop callus at the shoot apex
+When grown on solid medium for over 14 days,
+msl2 msl3
+double mutant plants developed a proliferating mass of undifferentiated cells, or callus, at the apex of the plant (
+Fig. 1
+A-D). A single mass at the center of the apex, twin masses associated with the cotyledon petioles or, occasionally, three masses were observed (
+Fig. 1
+A-C). New green tissue was frequently observed growing out of the apical callus (white arrow,
+Fig. 1
+D). This phenotype was not observed in soil-grown plants.
+Fig. 1.
+Open in a new tab
+msl2 msl3
+double mutants develop callus at the shoot apex.
+(A-D) Bright-field images of 21-day-old
+msl2 msl3
+seedlings grown on solid medium. Shooty callus is indicated with a white arrowhead in D. (E) Time course of callus formation. (F) Mean percentage of
+msl2 msl3
+seedlings with visible callus at the indicated time after germination. Five plates of seedlings,
+n
+>10 seedlings per plate, were analyzed per time point. Error bars indicate s.d. (G) 21-day-old seedlings (top) or seedlings transferred from MS with 82 mM NaCl to MS at indicated time points (bottom). (H) Mean percentage of
+msl2 msl3
+seedlings showing visible callus at 21 DAG after transfer from MS to MS (black bars) or from MS to MS with 82 mM NaCl (gray bars) at the indicated time points. Three plates of seedlings,
+n
+>10 seedlings per plate, were analyzed per treatment. Error bars indicate s.e.m. *
+P
+<0.01 (Student's
+t
+-test). (I-L) Close-up images of individual seedlings shown in (G) grown without NaCl (I) or transferred to NaCl plates at 2 (J), 5 (K), or 7 (L) DAG. (M) Bright-field images of 14-day-old
+msl2 msl3
+seedlings harboring the
+MSL2
+transgene (
+MSL2g
+) or
+MSL2
+under the control of the
+SCR
+promoter. Scale bars: 1 mm (A-E), 5 mm (G,M) and 2.5 mm (I-L).
+Masses of callus tissue were apparent to the naked eye at the apex of
+msl2 msl3
+seedlings between 14 and 16 days after germination (DAG) and continued to grow in size to 22 DAG (
+Fig. 1
+E, second row from top). As previously documented (
+Haswell and Meyerowitz, 2006
+;
+Jensen and Haswell, 2012
+;
+Wilson et al., 2014
+),
+msl2 msl3
+leaves were small and malformed. To facilitate comparison, the same leaf from each genotype is marked with an asterisk in the time course in
+Fig. 1
+E. The percentage of
+msl2 msl3
+seedlings with callus increased to ∼82% by 21 DAG (
+Fig. 1
+F); callus was not observed in any wild-type plants at any developmental stage.
+We previously showed that growth on medium containing increased levels of osmolytes (sugars or salt) suppressed the plastid morphology and leaf development phenotypes of
+msl2 msl3
+mutants, probably by increasing cytoplasmic osmolarity and reducing plastid hypo-osmotic stress (
+Veley et al., 2012
+;
+Wilson et al., 2014
+). To determine if the same was true for callus formation, and to assess the dependence of suppression on age and developmental stage, seedlings were germinated on MS solid medium and transferred to medium containing 82 mM NaCl at 2, 5, 7, or 9 DAG and assessed at 21 DAG for callus formation and leaf development. Full suppression of callus formation and abnormal leaf development was only observed in seedlings transferred to solid medium containing NaCl from MS at 2 DAG (
+Fig. 1
+G-L), establishing a small developmental window after which alleviation of plastid hypo-osmotic stress can no longer suppress leaf morphology defects and apical callus production in
+msl2 msl3
+mutants. Suppression was also observed when seedlings were grown on medium containing sucrose, sorbitol or mannitol, indicating that the effect is osmotic (
+Fig. S1A
+). The converse experiment, in which seedlings were transferred from salt-containing medium to normal MS showed that plastid osmotic homoeostasis is continuously required to maintain normal leaf development (
+Fig. 1
+G,H and
+Fig. S1B
+).
+MSL2 function is required in the SAM or leaf primordia to prevent callus production
+To determine if MSL2 expression in the SAM and leaf primordia is required to prevent callus production in the
+msl2 msl3
+background, we examined apical callus production in
+msl2 msl3
+mutant plants expressing
+MSL2
+from the
+SCARECROW
+(
+SCR
+) promoter, which is expressed in the L1 cell layer of the meristem and leaf primordia (
+Wysocka-Diller et al., 2000
+). As shown in
+Fig. 1
+M, apical callus formation was fully suppressed in T2
+msl2 msl3 SCRpMSL2
+lines. Although these plants developed multiple sets of developmentally normal true leaves, the majority of T2 lines examined exhibited reduced stature.
+Cells and plastids at the apex of young
+msl2 msl3
+mutants are morphologically abnormal
+Closer examination of the apex of young (4-day-old)
+msl2 msl3
+mutant seedlings revealed a cluster of disorganized and heterologously shaped cells at the expected location of the SAM (
+Fig. 2
+A). Most cells within the cluster contained large, spherical, clear entities. In comparison, the SAM cells of a wild-type seedling were organized into cell layers and had small vacuoles. We next used transmission electron microscopy to further characterize the morphology of developing chloroplasts and proplastids in the SAM and surrounding tissue of
+msl2 msl3
+mutant seedlings (
+Fig. 2
+B). In the
+msl2 msl3
+mutant, young chloroplasts were enlarged, lacked the lens shape of wild-type chloroplasts and exhibited a disorganized developing thylakoid network (
+Fig. 2
+B,D and
+Fig. S2B
+). In agreement with previous reports (
+Charuvi et al., 2012
+), wild-type proplastids appeared as small structures (0.5-1 µm in diameter) containing rudimentary thylakoid networks of varying developmental stages, plastoglobules and double membranes (
+Fig. 2
+E and
+Fig. S2A
+). However, in the SAM of
+msl2 msl3
+mutants, entities with these established features had decreased stromal density and were greatly enlarged compared with the wild type (asterisks in
+Fig. 2
+A and
+Fig. S2B
+,
+Fig. 2
+F). Many exceeded 5 µm in diameter. All were clearly bound by a double membrane (white arrow,
+Fig. 2
+G and
+Fig. S2C,D
+). These data show that the greatly enlarged phenotype of non-green plastids of the leaf epidermis (
+Haswell and Meyerowitz, 2006
+;
+Veley et al., 2012
+) extends to proplastids of the SAM.
+Fig. 2.
+Open in a new tab
+Four-day-old
+msl2 msl3
+mutants exhibit abnormal cellular organization and plastids at the SAM.
+(A) Phase contrast images of the SAM region of seedlings of the indicated genotypes. (B-G) Transmission electron microscope (TEM) images of
+msl2 msl3
+mutant SAM (B) and developing chloroplasts (C-D) and proplastids (E-F) in wild-type and
+msl2 msl3
+mutant seedlings. (G) Magnified region of
+msl2 msl3
+plastid envelope, indicated by box in F. Examples of proplastids and developing chloroplasts are indicated in
+msl2 msl3
+mutant by asterisks and black arrowheads, respectively. Plastoglobules (PG), double membrane (white arrowheads) and thylakoids (double black arrowheads) are indicated. Scale bars: 50 µm (A), 10 µm (B-D), 1 µm (F) and 100 nm (E,G).
+Callus produced in
+msl2 msl3
+mutants is associated with an altered cytokinin to auxin ratio and requires CK perception
+The production of shooty callus has been associated with increased production or availability of CKs and an imbalance in the cytokinin:auxin ratio (
+Frank et al., 2002
+,
+2000
+;
+Lee et al., 2004
+). Consistent with these observations, apical callus production, dwarfing and leaf phenotypes of the
+msl2 msl3
+double mutant were strongly suppressed when seedlings were grown on medium with the synthetic auxin 1-naphthaleneacetic acid (NAA) (
+Fig. 3
+A,C). The leaf epidermis of
+msl2 msl3
+seedlings contain grossly enlarged and round non-green plastids, as visualized with the fluorescent plastid marker RecA-dsRED (
+Haswell and Meyerowitz, 2006
+;
+Veley et al., 2012
+;
+Wilson et al., 2014
+). This phenotype was not altered by growth on 2 µM NAA (
+Fig. 3
+B), indicating that NAA treatment suppresses callus formation downstream of effects on plastid morphology. In agreement with previous data, growth on medium supplemented with salt fully suppressed the plastid morphology defects (
+Veley et al., 2012
+). Trans-zeatin-riboside levels were increased ∼6.5-fold in
+msl2 msl3
+mutant seedlings compared with the wild type, but IAA levels were not significantly changed (
+Fig. 3
+D).
+Fig. 3.
+Open in a new tab
+Callus produced in
+msl2 msl3
+mutants is associated with increased CK production and requires CK signaling.
+(A) Seedlings grown for 21 days on solid medium containing the indicated concentration of NAA. (B) Confocal micrographs of non-green plastids in the first true leaf of
+msl2 msl3
+mutants harboring the RecA-dsRED plastid marker and grown on indicated medium. (C) Percentage of
+msl2 msl3
+mutants exhibiting callus when grown on NAA. The average of three biological replicates of ≥20 seedlings each is presented. Statistical groups were determined by ANOVA followed by Tukey's HSD test,
+P
+<0.01. (D) Trans-zeatin-riboside and IAA levels of 21-day-old seedlings determined by liquid chromatography-mass spectrometry/mass spectrometry analysis as in
+Chen et al. (2009)
+. The average of three biological replicates of ≥30 seedlings each is presented. Error bars indicate s.d. *
+P
+<0.01 compared with wild type (Student's
+t
+-test). Images of seedlings (E) and callus production (F) in
+msl2 msl3 ahk2-2
+triple mutant and parental lines. White arrows mark deformed leaves. The average of four biological replicates of ≥20 seedlings each is presented. Error bars indicate s.e.m. *
+P
+<0.01, compared with
+msl2 msl3
+(Student's
+t
+-test). (G) Quantitative RT-PCR analysis of gene expression in the
+msl2 msl3
+mutant. The average of three biological replicates (two technical replicates;
+n
+≥25 seedlings each) is presented. Error bars indicate s.e.m. **
+P
+≤0.05, **
+P
+≤0.01 compared with wild type of same age (Student's
+t
+-test). Scale bars: 1 mm (A,E), 10 µm (B).
+ARABIDOPSIS HISTIDINE KINASE 2
+(
+AHK2
+) encodes one of three related histidine kinases known to function as CK receptors in
+Arabidopsis
+(
+Ueguchi et al., 2001
+;
+Yamada et al., 2001
+) and an
+AHK2
+loss-of-function mutant,
+ahk2-2
+(
+Higuchi et al., 2004
+) is impaired in CK-induced upregulation of
+WUS
+(
+Gordon et al., 2009
+). Two independently isolated
+msl2 msl3 ahk2-2
+triple mutants showed a significant reduction in apical callus formation, with less than 40% of seedlings developing callus (
+Fig. 3
+F). However, the
+msl2 msl3 ahk2-2
+triple mutants were similar to the
+msl2 msl3
+double with respect to the leaf developmental defect (
+Fig. 3
+E). Incomplete suppression may be due to redundancy among CK receptors (
+Gordon et al., 2009
+), or callus formation and leaf morphology defects may be produced through different pathways.
+To determine if feedback loops involving
+WUS
+, ARR genes (
+Gordon et al., 2009
+;
+Schuster et al., 2014
+), or the meristem identity gene
+STM
+(
+Scofield et al., 2013
+) were misregulated in
+msl2 msl3
+seedlings, quantitative RT-PCR was used to determine transcript levels in the aerial tissue of 7- and 21-day-old seedlings (
+Fig. 3
+G). In
+msl2 msl3
+mutant seedlings
+WUS
+transcript levels were upregulated 5.3-fold compared with the wild type by 7 DAG (prior to visible callus development,
+Fig. 1
+E); and 4-fold by 21 DAG.
+STM
+expression levels were upregulated 2.1-fold in 7-day-old
+msl2 msl3
+mutants, but were not distinguishable from the wild type at 21 DAG. Consistent with previous observations that they inhibit callus formation (
+Buechel et al., 2010
+;
+Liu et al., 2016
+),
+ARR7
+and
+ARR15
+transcript levels were reduced in both 7- and 21-day-old
+msl2 msl3
+mutant seedlings compared with the wild type, exhibiting 43-55% and 13-44% decreases, respectively. Transcriptional repression is specific to
+ARR7
+and
+ARR15
+, as transcript levels of two other A-type ARR genes,
+ARR4
+and
+ARR5
+, were elevated in
+msl2 msl3
+mutant seedlings compared with the wild type. Hypocotyls from
+msl2 msl3
+mutants did not efficiently produce callus
+in vitro
+, indicating that an additional signal or signals are required to produce callus outside the SAM in these mutants (
+Fig. S3A
+). Furthermore, multiple genes involved in wound-inducible and auxin-inducible callus production show altered expression in
+msl2 msl3
+mutants, including
+WIND1
+,
+WIND3
+,
+KPR2
+,
+KPR7
+,
+TSD1
+and
+TSD2
+(
+Anzola et al., 2010
+;
+Frank et al., 2002
+;
+Iwase et al., 2011
+;
+Krupkova and Schmulling, 2009
+) (
+Fig. S3B
+).
+Preventing Pro biosynthesis results in a dramatic increase in callus formation and CK levels in the
+msl2 msl3
+background
+It was not obvious how the constitutive plastid osmotic stress experienced by
+msl2 msl3
+mutants might elicit these effects, but we reasoned that the hyper-accumulation of solutes previously observed in
+msl2 msl3
+mutants, especially the compatible osmolyte Proline (Pro) (
+Wilson et al., 2014
+), might be responsible. To test this hypothesis, we crossed the
+pyrroline-5-carboxylate synthetase 1-1
+(
+p5cs1-4
+) lesion into the
+msl2 msl3
+mutant background. P5CS1 catalyzes the primary step in the inducible production of Pro (
+Verslues and Sharma, 2010
+) and stress-induced Pro levels are low in this mutant (
+Szekely et al., 2008
+).
+msl2 msl3 p5cs1-4
+triple mutant seedlings exhibited larger calluses than the
+msl2 msl3
+double mutant, frequently forming multiple calluses (
+Fig. 1
+E and
+Fig. S4A
+). Callus formation was also observed more frequently at earlier stages of development in
+msl2 msl3 p5cs1-4
+triple compared with
+msl2 msl3
+double mutants (
+Fig. 4
+A, light blue bars): at 14 DAG, over 40% of triple mutant seedlings had visible callus, while only 15% of the double
+msl2 msl3
+mutants did (
+Fig. 4
+A, light blue bars). Neither the wild type nor
+p5cs1-4
+single mutants produced callus at any time point (
+Fig. 1
+E, bottom two rows). A different mutant allele of
+P5CS1
+,
+p5cs1-1
+(
+Szekely et al., 2008
+), also enhanced callus formation in the
+msl2 msl3
+background (
+Fig. S4B-C
+). In addition,
+msl2 msl3 p5cs1-4
+triple mutants contained seven times more trans-zeatin-riboside than
+msl2 msl3
+mutants (
+Fig. 3
+D). Supplementing growth medium with Pro had no effect on callus production in
+msl2 msl3
+double or
+msl2 msl3 p5cs1-4
+triple mutants at any time point (
+Fig. 4
+A), even though
+msl2 msl3 p5cs1-4
+triple mutant seedlings grown on 20 mM Pro for 21 DAG contained as much Pro as the
+msl2 msl3
+double mutant (
+Fig. 4
+B).
+Fig. 4.
+Open in a new tab
+Preventing Pro biosynthesis results in a dramatic increase in callus formation in the
+msl2 msl3
+background.
+(A) Production of apical callus in
+msl2 msl3
+and
+msl2 msl3 p5cs1-4
+seedlings in the presence and absence of exogenous Pro. The average of three biological replicates is presented,
+n
+≥25 seedlings each. Error bars represent s.d. *
+P
+<0.01, compared with
+msl2 msl3
+seedlings of the same age (Student's
+t-
+test). (B) Pro content of the aerial tissue of mutant and wild-type seedlings grown as in A, measured as in
+Wilson et al. (2014)
+. The average of two biological replicates (each performed in triplicate;
+n
+≥30 seedlings each) is presented. (C) Images of the meristematic region of seedlings stained with DAB or NBT. Scale bars: 1 mm. Quantification of H
+2
+O
+2
+content by Amplex Red (D) and O
+2
+−
+production by NBT and formazan (E) in mutant and wild-type seedlings of indicated age. The average of three biological replicates (
+n
+≥20 seedlings each), two technical replicates each, is presented in both D and E. Statistical grouping in B,D,E was performed by ANOVA followed by Tukey's HSD test,
+P
+<0.01. Error bars indicate s.e.m. FW, fresh weight.
+Thus, it is not the absence of Pro itself that leads to the enhanced callus production in the
+msl2 msl3 p5cs1-4
+triple mutants. Instead, disrupting the process of Pro biosynthesis could enhance callus formation in the
+msl2 msl3
+mutant background if ROS accumulation were involved, as Pro biosynthesis is a reductive pathway that helps maintain cellular redox homeostasis (
+Szabados and Savoure, 2010
+). To characterize the levels and localization of ROS in
+msl2 msl3
+double and
+msl2 msl3 p5cs1-4
+triple mutants, 7-, 14- and 21-day-old mutant and wild-type seedlings were stained with 3,3-diaminobenzidine (DAB) to detect hydrogen peroxide (H
+2
+O
+2
+) or NitroBlue Tetrazolium (NBT) to detect superoxide (O
+2
+−
+) (
+Fig. 4
+C). Both double and triple mutants accumulated high levels of H
+2
+O
+2
+and O
+2
+−
+in the SAM region relative to the
+p5cs1-4
+single mutant or the wild type. Precipitate was visible earlier in the
+msl2 msl3 p5cs1-4
+triple mutant (by 14 DAG compared with 21 DAG in the double
+msl2 msl3
+mutant). Quantification of H
+2
+O
+2
+levels using an Amplex Red enzyme assay at these same time points showed consistent accumulation of H
+2
+O
+2
+in the double and triple mutants, rising to nearly three times the wild-type level by 21 DAG (
+Fig. 4
+D). Levels of formazan, the product of NBT reduction by O
+2
+−
+, increased in
+msl2 msl3
+and
+msl2 msl3 p5cs1-4
+to more than 2.5 times wild-type levels at 21 DAG (
+Fig. 4
+E). Calluses generated by incubating
+Arabidopsis thaliana
+Col-
+0
+root explants on callus inducing medium also showed strong NBT staining in areas of cell proliferation (
+Fig. S3C
+), providing evidence that ROS accumulation may be a general feature of callus tissue (
+Lee et al., 2004
+).
+The accumulation of superoxide in response to plastid hypo-osmotic stress is required for callus formation in the
+msl2 msl3
+background
+In plastids, the photoreduction of molecular O
+2
+generates O
+2
+−
+, which is then rapidly converted into H
+2
+O
+2
+by plastid-localized superoxide dismutase enzymes (
+Asada, 2006
+). To determine if plastid osmotic stress and the accumulation of O
+2
+−
+at the apex of
+msl2 msl3
+double and
+msl2 msl3 p5cs1-4
+triple mutants play causative roles in callus formation, plants were germinated on or transferred to solid medium with 82 mM NaCl or with TEMPOL (a O
+2
+−
+scavenger) at 3 or 7 DAG and stained with NBT at 21 DAG. Growth on medium containing NaCl suppressed O
+2
+−
+accumulation in
+msl2 msl3
+double and
+msl2 msl3 p5cs1-4
+triple mutant seedlings (
+Fig. 5
+A), completely prevented callus formation (
+Fig. 5
+B) and suppressed defects in non-green plastid morphology (
+Fig. 5
+C) and leaf morphology (
+Fig. 5
+A). Thus, plastid osmotic stress is responsible for O
+2
+−
+accumulation as well as callus formation in
+msl2 msl3
+and
+msl2 msl3 p5cs1-4
+mutants. Consistent with
+Fig. 1
+H, growth on NaCl suppressed callus formation and ROS accumulation only if supplied prior to 7 DAG.
+Fig. 5.
+Open in a new tab
+Hyper-accumulation of superoxide is required for callus formation in
+msl2 msl3
+and
+msl2 msl3 p5cs1
+seedlings.
+(A) NBT-stained seedlings provided with TEMPOL or NaCl at 0, 3 or 7 DAG. Scale bars: 1 mm. (B) Callus production in mutant seedlings when grown on MS, MS with 1 mM TEMPOL or MS with 82 mM NaCl. (C) Confocal micrographs of non-green plastids in the first true leaf of
+msl2 msl3
+mutants harboring the RecA-dsRED plastid marker grown on the indicated medium. Scale bar: 10 µm. (D) Apical callus production in T2 lines segregating transgenes that overexpress
+CSD2
+or
+mCSD2
+. The mean of four biological replicates (
+n
+≥35 seedlings each replicate) is presented. Error bars indicate s.d. Statistical grouping was performed by ANOVA followed by Tukey's HSD test,
+P
+<0.01. (E) Percentage of seedlings from D stained with NBT in three phenotypic categories (
+n
+≥20 seedlings). (F) Images of
+CSD2
+overexpression T2 lines. White arrows indicate deformed leaves. Scale bars: 5 mm.
+Growth on TEMPOL-containing medium successfully prevented the accumulation of O
+2
+−
+in the SAM of
+msl2 msl3
+and
+msl2 msl3 p5cs1-4
+mutants, regardless of seedling age at time of application (
+Fig. 5
+A), but did not affect plastid morphology (
+Fig. 5
+C) or leaf morphology defects (
+Fig. 5
+A). Treating double and triple mutant seedlings with TEMPOL at all developmental stages partially suppressed callus formation (
+Fig. 5
+B). Less than 40% of double mutant seedlings exhibited apical calluses when grown in the presence of TEMPOL, compared with >90% when grown on MS without TEMPOL. TEMPOL-mediated callus suppression is thus independent or downstream of the developmental window in which addition of osmotic support must be provided for complete suppression of aerial phenotypes (
+Fig. 1
+H and
+Fig. 5
+A,B).
+A complementary genetic approach to suppressing O
+2
+−
+accumulation in the plastid was taken by overexpressing wild-type or miR398-resistant forms of the chloroplast-localized Cu/Zn superoxide dismutase CSD2 (
+Kliebenstein et al., 1998
+;
+Sunkar et al., 2006
+) in the
+msl2 msl3
+mutant background. The percentage of seedlings with visible apical callus at 21 DAG was decreased to 50% or less in six independent T2 lines expressing either wild-type (
+CSD2
+, lines 2, 4 and 7) or miR398-resistant (
+mCSD2
+, lines 1, 3, 5)
+CSD2
+(
+Fig. 5
+D). Approximately 50% of T2 seedlings showed strong O
+2
+−
+accumulation by NBT staining, which was localized to developing callus, compared with 90% of
+msl2 msl3
+seedlings (
+Fig. 5
+E). In the
+CDS2
+overexpression lines, 15-30% of seedlings exhibited low levels of O
+2
+−
+accumulation at their shoot apex and did not develop callus; less than 5% of
+msl2 msl3
+seedlings had these characteristics. Overexpression of
+CSD2
+did not suppress abnormal leaf development (white arrows,
+Fig. 5
+F).
+Callus production requires ABA biosynthesis, ABI4 and GUN1
+As
+msl2 msl3
+double mutants exhibit increased levels of ABA and upregulation of ABA biosynthesis genes (
+Wilson et al., 2014
+), we hypothesized that a pathway involving the hormone ABA and the
+GUN1
+and
+ABI4
+gene products might account for the pleiotropic defects in the
+msl2 msl3
+mutant (
+Koussevitzky et al., 2007
+;
+Zhang et al., 2013
+). To determine if ABA biosynthesis was required for callus production, we assessed the effect of introducing the
+abscisic acid-deficient 2-1
+allele (
+Schwartz et al., 1997
+) on callus formation in the
+msl2 msl3
+background. Indeed, callus formation and leaf development defects were strongly suppressed in a triple
+msl2 msl3 aba2-1
+mutant, with only ∼20% of seedlings developing callus at the shoot apex by 21 DAG (
+Fig. 6
+A,B). Similar suppression of
+msl2 msl3
+aerial defects was observed in four other independently isolated
+msl2 msl3 aba2-1
+triple mutant lines. The
+msl2 msl3 aba2-1
+triple mutant accumulated trans-zeatin-riboside to levels similar to those in the
+msl2 msl3
+double mutant (
+Fig. 3
+D), suggesting that ABA and CK promote callus formation through independent pathways.
+Fig. 6.
+Open in a new tab
+Callus production requires ABA biosynthesis, GUN1 and ABI4.
+(A) 21-day-old
+msl2 msl3
+double and
+msl2 msl3 aba2-1
+triple mutant seedlings. (B) Callus production in higher order mutants at 21 DAG. The mean of three biological replicates (
+n
+≥15 seedlings per replicate) is presented. Error bars indicate s.e.m. (C-E) 21-day-old
+msl2 msl3 gun1-9
+(+/−) (C) and
+msl2 msl3 gun1-9
+(−/−) (D,E) siblings at 21 DAG. (F) 21-day-old
+msl2 msl3 abi4-1
+seedlings with relevant parental controls. (G) 21-day-old seedlings of the indicated genotypes stained with DAB or NBT. Scale bars: 1 mm (A,F,G) and 2.5 cm (C-E).
+To test if GUN1 is involved in the perception of signals generated by plastid osmotic stress, we crossed the
+gun1-9
+(
+Koussevitzky et al., 2007
+) allele into the
+msl2 msl3
+mutant background and analyzed the offspring of a single
+msl2 msl3 gun1-2
+(
++/−
+) mutant plant. Of 27 triple
+msl2 msl3 gun1-9
+seedlings identified by PCR genotyping, none formed apical callus when grown on solid medium, whereas 16 of 19 genotyped sibling
+msl2 msl3 gun1-9
+(+/−) seedlings did
+.
+In addition,
+msl2 msl3 gun1-9
+triple mutant siblings produced larger, greener and more normally shaped true leaves than their
+msl2 msl3
+and
+msl2 msl3 gun1-9+/1
+siblings (
+Fig. 6
+C-E,
+Fig. S5
+). In some seedlings, small and chlorotic true leaves developed at the seedling apex (
+Fig. 6
+E,
+Fig. S5
+).
+The strong
+abi4-1
+allele (
+Finkelstein et al., 1998
+) was introduced into the
+msl2 msl3
+background and
+msl2 msl3 abi4-1
+mutants also exhibited reduced apical callus formation; only ∼26% of
+msl2 msl3 abi4-1
+seedlings from two independently isolated lines developed callus (
+Fig. 6
+B,F). Neither leaf developmental defects nor ROS accumulation was suppressed in the
+msl2 msl3 abi4-1
+mutant and
+msl2 msl3 abi4-1
+seedlings stained with DAB or NBT showed a pattern of ROS accumulation similar to the
+msl2 msl3
+double mutant (
+Fig. 6
+F,G). These staining patterns were not observed in the wild type or
+abi4-1
+single mutants. These results are consistent with a model wherein ABI4 functions downstream of ROS accumulation, probably in a pathway with GUN1, to induce apical callus formation in response to plastid osmotic stress.
+DISCUSSION
+One of the most fundamental decisions a cell can make is whether to proliferate or to differentiate. In the plant SAM, this decision must be spatially and temporally controlled, so that cells remain in an undifferentiated, pluripotent state in the central zone of the meristem and then differentiate properly as they are recruited into organs at the PZ. Here, we use the
+msl2 msl3
+mutant as a model system to show that, in the
+Arabidopsis
+SAM, proliferation versus differentiation signals are coordinated not only at the tissue and cellular level, but also at the organellar level. We further applied genetic, molecular, biochemical and pharmacological approaches to identify two non-redundant pathways through which plastid osmotic stress may produce apical callus (illustrated in
+Fig. S6
+).
+Plastid osmotic stress results in the production of callus at the plant SAM
+Plants lacking functional versions of the mechanosensitive ion channel homologs MSL2 and MSL3 robustly produce callus tissue at the apex of the plant when grown on solid medium (
+Fig. 1
+). Molecular complementation with
+MSL2
+under the control of the
+SCARECROW
+promoter established that MSL2/MSL3 are required only in the L1 layer of the CZ and/or PZ of the SAM to prevent callus formation (
+Fig. 1
+M) and that their function is crucial during the first 5 days after germination (
+Fig. 1
+G-L). The production of apical callus in the
+msl2 msl3
+mutant is associated with dramatically enlarged and developmentally abnormal plastids, specifically in the SAM (
+Fig. 2
+,
+Fig. S2
+). Developmentally defective plastids were also observed in the SAM of another apical callus-producing mutant,
+tumorous shoot development 1
+(
+tsd1
+) (
+Frank et al., 2002
+).
+Increased proliferation and the production of callus in
+msl2 msl3
+mutants is associated with a disruption in the CK/WUS feedback loop
+The
+msl2 msl3
+mutants exhibit several previously established hallmarks of increased proliferation at the SAM, including increased levels of CK, upregulation of the stem cell identity gene
+WUSCHEL
+and downregulation of CK signaling inhibitors (
+Fig. 3
+D,G), suggesting that plastid osmotic stress activates the CK/WUS feedback loop (
+Gaillochet et al., 2015
+;
+Ikeuchi et al., 2013
+) (top pathway,
+Fig. S6
+). The resulting imbalance in the cytokinin: auxin ratio may underlie callus formation in the
+msl2 msl3
+background, as supplementing seedlings with exogenous auxin robustly suppresses all mutant phenotypes (
+Fig. 3
+A,C) without affecting plastid osmotic stress (
+Fig. 3
+B). In addition, the CK receptor AHK2 is required for efficient callus formation (
+Fig. 3
+E,F).
+AHK2
+is required to maintain WUS expression in the meristem in response to CK treatment in the CK/WUS feedback loop (
+Gordon et al., 2009
+). As cytokinin and auxin are involved in the production of all types of callus (
+Perianez-Rodriguez et al., 2014
+;
+Skoog and Miller, 1957
+), alternative pathways to callus production cannot be ruled out.
+Several previously identified callus-producing mutants in
+Arabidopsis
+and
+Helianthus
+also exhibit upregulated CK signaling and defects in meristem identity gene expression, including
+tsd1
+(
+Frank et al., 2002
+;
+Krupkova and Schmulling, 2009
+), EMB-2 (
+Chiappetta et al., 2006
+) and the
+pasticcino
+mutants (
+Faure et al., 1998
+;
+Harrar et al., 2003
+). These data suggest that the CK-induced pathway, the wound-induced pathway and the meristematic identity pathway are interconnected for callus production. Furthermore, the
+msl2 msl3
+double mutant is the only callus-producing mutant identified to date with a primary defect in plastid-localized proteins, adding a novel regulatory aspect to these known pathways, and suggesting that plastid osmotic stress is uniquely able to trigger these pathways. While we favor the model shown in
+Fig. S6
+, other interpretations are possible. Also consistent with these data is a model wherein the
+msl2 msl3
+lesions lead to downregulation of
+TSD1
+and/or
+TSD2
+, or upregulation of WIND genes, either of which could disrupt the CK/WUS loop.
+Plastid retrograde signaling is required for increased proliferation and the production of callus
+Genetic lesions that reduce Pro biosynthesis significantly exacerbated callus production in the
+msl2 msl3
+background – an effect that cannot be attributed to low levels of Pro itself (
+Fig. 1
+E,
+Fig. 4
+,
+Fig. S4
+). Instead, the hyper-accumulation of ROS that results from blocking Pro biosynthesis is required (
+Fig. 5
+). Treatment with exogenous ROS scavenger TEMPOL as well as overproduction of CSD2, a chloroplast-localized superoxide-scavenging enzyme, prevented or reduced callus formation. Plastid osmotic stress was required for hyper-accumulation of ROS (
+Fig. 5
+A-C). In addition, our analysis of callus formation in higher-order mutants established that ABA biosynthesis, the retrograde signaling protein GUN1, and the transcription factor ABI4 were required for callus formation and act downstream of ROS (
+Fig. 6
+; bottom pathway in
+Fig. S6
+). Because we were able to specifically suppress callus production, ROS accumulation and impaired leaf development by increasing cytoplasmic osmolarity in the
+msl2 msl3
+background, this phenotype is very unlikely to be due to a loss of specific signaling by MSL2 or MSL3.
+Multiple genetic links between plastid function and cell differentiation in the shoot have been previously described and are often cited as evidence for retrograde signaling (
+Inaba and Ito-Inaba, 2010
+;
+Lepisto and Rintamaki, 2012
+;
+Lundquist et al., 2014
+). ROS accumulation has been documented in at least one other callus-producing mutant,
+tsd2
+/
+quasimodo2
+(
+Raggi et al., 2015
+). Whether ROS and/or an ABA/GUN1/ABI4 retrograde signaling pathway are employed to communicate plastid dysfunction to shoot development in any of these other mutants is not known. However, the application of pharmacological inhibitors of plastid development or function was used to demonstrate that leaf adaxial/abaxial patterning is regulated by plastid protein translation in a GUN1-dependent pathway (
+Tameshige et al., 2013
+), a pathway that is required to facilitate the switch from leaf cell proliferation to expansion and differentiation (
+Andriankaja et al., 2012
+). Taken together with the results reported here, these data support previously proposed models wherein a variety of plastid dysfunctions are communicated to leaf development through similar or overlapping pathways that include GUN1 (
+Koussevitzky et al., 2007
+;
+Leon et al., 2012
+). ABI4 may function with GUN1 in this retrograde signaling pathway, or the reduction in
+msl2 msl3
+callus production in the
+abi4-1
+mutant background may result from indirect effects on sugar signaling or ABA biosynthesis.
+We note that only a few of the genetic or pharmacological treatments that suppressed callus formation in the
+msl2 msl3
+mutant also suppressed the leaf developmental defects. Growth on exogenous auxin was the only treatment to completely suppress all of the mutant phenotypes, whereas preventing CK signaling, ABA biosynthesis, ROS accumulation or GUN1 or ABI4 function only partially rescued leaf defects (
+Fig. 3
+E,
+Fig. 5
+F,
+Fig. 6
+). It is possible that these differences are due to genetic redundancy or to limited uptake or transport of TEMPOL. Alternatively, there may be two fundamentally different processes that respond to plastid osmotic stress in the
+msl2 msl3
+mutant: one that functions in the SAM during early development and one that functions later on in the leaves. In support of the latter proposal, subjecting seedlings to mild hyperosmotic stress has been shown to prevent leaf cell proliferation (
+Skirycz et al., 2011
+).
+msl2 msl3
+mutants may provide a functional link between the CK/WUS feedback loop and plastid retrograde signaling to control cell differentiation at the plant apex
+Our working model, illustrated in
+Fig. S6
+, is that the production of apical callus in
+msl2 msl3
+mutants operates through two non-redundant pathways: the CK/WUS feedback loop and a retrograde signaling pathway involving ROS, ABA, ABI4 and GUN1. While the data presented here establish that both of these pathways are required for callus formation in the
+msl2 msl3
+background, whether they operate completely independently or are interconnected is not yet clear. Here, we present them as separate pathways; support for this comes from the fact that CK levels remain elevated in the
+aba2 msl2 msl3
+triple mutant (
+Fig. 3
+D), indicating that ABA biosynthesis is not upstream of the CK/WUS feedback loop. Furthermore, mutants that solely overproduce plastid ROS (
+Myouga et al., 2008
+) upregulate CK signaling (
+To et al., 2004
+), or hyper-accumulate Pro (
+Mattioli et al., 2008
+) have not been reported to produce apical callus, implying that a combination of these signals is required.
+We speculate that two-way communication between plastids and cell differentiation is essential to coordinate the developmental and functional state of the plastid with that of the cell within which it resides, and that it therefore necessarily involves multiple pathways. These results add yet another layer of complexity to the many regulatory pathways and feedback loops that govern dynamic cell identity decision-making at the plant shoot apex and provide a foundation for future investigation into the relationship between meristem identity and plastid osmotic homeostasis in the SAM.
+MATERIALS AND METHODS
+Arabidopsis thaliana
+mutants
+The
+aba2-1
+(CS156),
+abi4-1
+(CS8104),
+p5cs1-4
+(SALK_063517),
+p5cs1-1
+(SALK_058000),
+ahk2-2
+(SALK_052531),
+gun1-9
+, and
+msl2-3
+alleles are in the Columbia
+-0
+background. The
+msl3-1
+allele is in the Wassilewskija background (
+Haswell and Meyerowitz, 2006
+). Derived cleaved-amplified polymorphic sequence genotyping (
+Neff et al., 1998
+) of the
+gun1-9
+allele was performed using oligos CGAACGACGAAAGATTGTGAGGAGGGTCT and CCTGCAAGCATTCAGAATCGCTGAAAAAGG, and digesting with
+Pst
+I. The
+abi4-1
+allele was genotyped with oligos TCAATCCGATTCCACCACCGAC and CCACTTCCTCCTTGTTCCTGC, and digesting with
+Nla
+I. PCR genotyping of
+msl
+,
+p5cs1
+and
+aba2-1
+alleles was performed as previously described (
+Sharma and Verslues, 2010
+;
+Szekely et al., 2008
+;
+Wilson et al., 2011
+).
+Plant growth
+Plants were grown on full-strength Murashige and Skoog (MS) medium (pH 5.7; Caisson Labs) with 0.8% (w/v) agar (Caisson Labs). NaCl, L-Pro (Sigma) and TEMPOL (Sigma) were added before autoclaving. For transfer assays, seed was surface-sterilized, sown on nylon mesh strips overlaid on 1× MS or 1× MS+82 mM NaCl and stratified for 2 days at 4°C before growth and transfer as described. All plants were grown at 23°C under a 16 h light regime of 130-160 µmol m
+−1
+s
+−1
+.
+In vitro
+callus production
+In vitro
+callus was produced as previously described (
+Iwase et al., 2011
+) using conditions detailed in
+supplementary Materials and Methods
+.
+Microscopy
+Confocal microscopy of ds-Red-labeled non-green plastids was performed as in (
+Wilson et al., 2014
+). Bright-field images were captured with an Olympus DP71 microscope digital camera and processed with DP-BSW software. Apical meristems were ultra-rapidly frozen in a Baltec high-pressure freezer (Bal-Tec HPM010), excluding air with packing buffer (75 mM PIPES, pH 6.8, 50 mM sucrose). Samples were freeze-substituted in 2% osmium tetroxide in acetone at −85°C for 5 days, slowly thawed to 25°C over 16 h and embedded in Spurr’s resin. Sections (1 μm) for phase microscopy were stained for 30 s with 1% Toluidine Blue O in 1% boric acid. Transmission electron microscopy was done on thin sections of tissue fixed for 2 h in 2% glutaraldehyde, post-fixed for 90 min in 2% osmium tetroxide and embedded in Spurr's resin. Sections were stained in uranyl acetate and lead salts.
+ROS detection and quantification
+Detection of H
+2
+O
+2
+using 3,3′-diaminobenzidine (DAB, Sigma) was performed as described (
+Wu et al., 2012
+) with the following modifications. Whole seedlings were incubated for 2 h in 1 mg/ml DAB prior to vacuum infiltration, incubated in the dark for an additional 12 h, then cleared with an ethanol series. An Amplex Red Hydrogen Peroxide/Peroxidase Assay Kit (Invitrogen) was used to measure H
+2
+O
+2
+production in seedlings. For
+in vitro
+localization of O
+2
+−
+with NitroBlue Tetrazolium chloride (NBT; Sigma), whole seedlings were vacuum-infiltrated with 0.1% (w/v) NBT in a 10 mM potassium phosphate buffer (pH 7.8) containing 10 mM NaN
+3
+. After incubation for 1 h in the dark at room temperature, seedlings were cleared with an ethanol series. Quantification of formazan levels was performed as described in
+Myouga et al. (2008)
+.
+Subcloning and transgenic lines
+pENTR-MSL2 (
+Haswell and Meyerowitz, 2006
+) was used in a Gateway technology (Life Technologies) recombination reaction with pSCR:GW (
+Michniewicz et al., 2015
+) to create
+pSCR:MSL2
+.
+Quantitative reverse transcription-PCR
+Quantitative reverse transcription-PCR was performed as previously described (
+Wilson et al., 2011
+). Primers used for gene expression analysis of
+ACTIN
+and ARR genes were previously described (
+Wilson et al., 2014
+;
+Zhao et al., 2010
+). The following primer pairs were used to amplify
+WUS
+(GCGATGCTTATCTGGAACAT and CTTCCAGATGGCACCACTAC) and
+STM
+(CAAATGGCCTTACCCTTCG and GCCGTTTCCTCTGGTTTATG). For details of other primers used, see
+supplementary Materials and Methods
+.
+Acknowledgements
+We thank Kelsey Kropp, Jeffrey Berry and the Proteomics and Mass Spectrometry Facility of the Donald Danforth Plant Science Center for technical assistance, Lucia Strader for
+abi4-1
+seeds and pSCR:GW, Ramanjulu Sunkar for pBIB-CSD2 and pBIB-mCSD2, and Joanne Chory for
+gun1-9
+seeds.
+Footnotes
+Competing interests
+The authors declare no competing or financial interests.
+Author contributions
+Study conception and manuscript preparation, M.E.W., E.S.H.; conducting research and formal analysis, M.E.W., R.H.B., M.M.; funding acquisition, E.S.H.
+Funding
+This research was funded by the National Science Foundation (NSF) [MCB-1253103]; and National Aeronautics and Space Administration (NASA) [NNX13AM55G]. Deposited in PMC for release after 12 months.
+Supplementary information
+Supplementary information available online at
+http://dev.biologists.org/lookup/doi/10.1242/dev.136234.supplemental
+References
+Aichinger E., Kornet N., Friedrich T. and Laux T. (2012). Plant stem cell niches.
+Annu. Rev. Plant Biol.
+63, 615-636. 10.1146/annurev-arplant-042811-105555
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Andriankaja M., Dhondt S., De Bodt S., Vanhaeren H., Coppens F., De Milde L., Mühlenbock P., Skirycz A., Gonzalez N., Beemster G. T. S. et al.  (2012). Exit from proliferation during leaf development in
+Arabidopsis thaliana
+: a not-so-gradual process.
+Dev. Cell
+22, 64-78. 10.1016/j.devcel.2011.11.011
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Anzola J. M., Sieberer T., Ortbauer M., Butt H., Korbei B., Weinhofer I., Mullner A. E. and Luschnig C. (2010). Putative Arabidopsis transcriptional adaptor protein (PROPORZ1) is required to modulate histone acetylation in response to auxin.
+Proc. Natl. Acad. Sci. USA
+107, 10308-10313. 10.1073/pnas.0913918107
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Asada K. (2006). Production and scavenging of reactive oxygen species in chloroplasts and their functions.
+Plant Physiol.
+141, 391-396. 10.1104/pp.106.082040
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Barton M. K. (2010). Twenty years on: the inner workings of the shoot apical meristem, a developmental dynamo.
+Dev. Biol.
+341, 95-113. 10.1016/j.ydbio.2009.11.029
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Buechel S., Leibfried A., To J. P. C., Zhao Z., Andersen S. U., Kieber J. J. and Lohmann J. U. (2010). Role of A-type Arabidopsis response regulators in meristem maintenance and regeneration.
+Eur. J. Cell Biol.
+89, 279-284. 10.1016/j.ejcb.2009.11.016
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Chan K. X., Phua S. Y., Crisp P., McQuinn R. and Pogson B. J. (2016). Learning the languages of the chloroplast: retrograde signaling and beyond.
+Annu. Rev. Plant Biol.
+67, 25-53. 10.1146/annurev-arplant-043015-111854
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Charuvi D., Kiss V., Nevo R., Shimoni E., Adam Z. and Reich Z. (2012). Gain and loss of photosynthetic membranes during plastid differentiation in the shoot apex of Arabidopsis.
+Plant Cell
+24, 1143-1157. 10.1105/tpc.111.094458
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Chen Q., Zhang B., Hicks L. M., Wang S. and Jez J. M. (2009). A liquid chromatography-tandem mass spectrometry-based assay for indole-3-acetic acid-amido synthetase.
+Anal. Biochem.
+390, 149-154. 10.1016/j.ab.2009.04.027
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Chiappetta A., Michelotti V., Fambrini M., Bruno L., Salvini M., Petrarulo M., Azmi A., Van Onckelen H., Pugliesi C. and Bitonti M. B. (2006). Zeatin accumulation and misexpression of a class I knox gene are intimately linked in the epiphyllous response of the interspecific hybrid EMB-2 (
+Helianthus annuus
+×
+H. tuberosus
+).
+Planta
+223, 917-931. 10.1007/s00425-005-0150-7
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Chickarmane V. S., Gordon S. P., Tarr P. T., Heisler M. G. and Meyerowitz E. M. (2012). Cytokinin signaling as a positional cue for patterning the apical-basal axis of the growing Arabidopsis shoot meristem.
+Proc. Natl. Acad. Sci. USA
+109, 4002-4007. 10.1073/pnas.1200636109
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Cottage A., Mott E. K., Kempster J. A. and Gray J. C. (2010). The Arabidopsis plastid-signalling mutant gun1 (genomes uncoupled1) shows altered sensitivity to sucrose and abscisic acid and alterations in early seedling development.
+J. Exp. Bot.
+61, 3773-3786. 10.1093/jxb/erq186
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Endrizzi K., Moussian B., Haecker A., Levin J. Z. and Laux T. (1996). The SHOOT MERISTEMLESS gene is required for maintenance of undifferentiated cells in Arabidopsis shoot and floral meristems and acts at a different regulatory level than the meristem genes WUSCHEL and ZWILLE.
+Plant J.
+10, 967-979. 10.1046/j.1365-313X.1996.10060967.x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Estavillo G. M., Crisp P. A., Pornsiriwong W., Wirtz M., Collinge D., Carrie C., Giraud E., Whelan J., David P., Javot H. et al.  (2011). Evidence for a SAL1-PAP chloroplast retrograde pathway that functions in drought and high light signaling in Arabidopsis.
+Plant Cell
+23, 3992-4012. 10.1105/tpc.111.091033
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Faure J. D., Vittorioso P., Santoni V., Fraisier V., Prinsen E., Barlier I., Van Onckelen H., Caboche M. and Bellini C. (1998). The PASTICCINO genes of
+Arabidopsis thaliana
+are involved in the control of cell division and differentiation.
+Development
+125, 909-918.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Fernández A. P. and Strand A. (2008). Retrograde signaling and plant stress: plastid signals initiate cellular stress responses.
+Curr. Opin. Plant Biol.
+11, 509-513. 10.1016/j.pbi.2008.06.002
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Finkelstein R. R., Wang M. L., Lynch T. J., Rao S. and Goodman H. M. (1998). The Arabidopsis abscisic acid response locus ABI4 encodes an APETALA 2 domain protein.
+Plant Cell
+10, 1043-1054. 10.1105/tpc.10.6.1043
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Fletcher J. C., Brand U., Running M. P., Simon R. and Meyerowitz E. M. (1999). Signaling of cell fate decisions by CLAVATA3 in Arabidopsis shoot meristems.
+Science
+283, 1911-1914. 10.1126/science.283.5409.1911
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Frank M., Rupp H.-M., Prinsen E., Motyka V., Van Onckelen H. and Schmülling T. (2000). Hormone autotrophic growth and differentiation identifies mutant lines of Arabidopsis with altered cytokinin and auxin content or signaling.
+Plant Physiol.
+122, 721-729. 10.1104/pp.122.3.721
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Frank M., Guivarc'h A., Krupková E., Lorenz-Meyer I., Chriqui D. and Schmülling T. (2002). Tumorous shoot development (TSD) genes are required for co-ordinated plant shoot development.
+Plant J.
+29, 73-85. 10.1046/j.1365-313x.2002.01197.x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Gaillochet C. and Lohmann J. U. (2015). The never-ending story: from pluripotency to plant developmental plasticity.
+Development
+142, 2237-2249. 10.1242/dev.117614
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Gaillochet C., Daum G. and Lohmann J. U. (2015). O cell, where art thou? The mechanisms of shoot meristem patterning.
+Curr. Opin. Plant Biol.
+23, 91-97. 10.1016/j.pbi.2014.11.002
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Gordon S. P., Chickarmane V. S., Ohno C. and Meyerowitz E. M. (2009). Multiple feedback loops through cytokinin signaling control stem cell number within the Arabidopsis shoot meristem.
+Proc. Natl. Acad. Sci. USA
+106, 16529-16534. 10.1073/pnas.0908122106
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Hamilton E. S., Jensen G. S., Maksaev G., Katims A., Sherp A. M. and Haswell E. S. (2015). Mechanosensitive channel MSL8 regulates osmotic forces during pollen hydration and germination.
+Science
+350, 438-441. 10.1126/science.aac6014
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Harrar Y., Bellec Y., Bellini C. and Faure J. D. (2003). Hormonal control of cell proliferation requires PASTICCINO genes.
+Plant Physiol.
+132, 1217-1227. 10.1104/pp.102.019026
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Haswell E. S. and Meyerowitz E. M. (2006). MscS-like proteins control plastid size and shape in
+Arabidopsis thaliana
+.
+Curr. Biol.
+16, 1-11. 10.1016/j.cub.2005.11.044
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Higuchi M., Pischke M. S., Mahonen A. P., Miyawaki K., Hashimoto Y., Seki M., Kobayashi M., Shinozaki K., Kato T., Tabata S. et al.  (2004). In planta functions of the Arabidopsis cytokinin receptor family.
+Proc. Natl. Acad. Sci. USA
+101, 8821-8826. 10.1073/pnas.0402887101
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ikeuchi M., Sugimoto K. and Iwase A. (2013). Plant callus: mechanisms of induction and repression.
+Plant Cell
+25, 3159-3173. 10.1105/tpc.113.116053
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Inaba T. and Ito-Inaba Y. (2010). Versatile roles of plastids in plant growth and development.
+Plant Cell Physiol.
+51, 1847-1853. 10.1093/pcp/pcq147
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Iwase A., Mitsuda N., Koyama T., Hiratsu K., Kojima M., Arai T., Inoue Y., Seki M., Sakakibara H., Sugimoto K. et al.  (2011). The AP2/ERF transcription factor WIND1 controls cell dedifferentiation in Arabidopsis.
+Curr. Biol.
+21, 508-514. 10.1016/j.cub.2011.02.020
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Jensen G. S. and Haswell E. S. (2012). Functional analysis of conserved motifs in the mechanosensitive channel homolog MscS-Like2 from
+Arabidopsis thaliana
+.
+PLoS ONE
+7, e40336
+10.1371/journal.pone.0040336
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Jiang F., Feng Z., Liu H. and Zhu J. (2015). Involvement of plant stem cells or stem cell-like cells in dedifferentiation.
+Front. Plant Sci.
+6, 1028
+10.3389/fpls.2015.01028
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kliebenstein D. J., Monde R. A. and Last R. L. (1998). Superoxide dismutase in Arabidopsis: an eclectic enzyme family with disparate regulation and protein localization.
+Plant Physiol.
+118, 637-650. 10.1104/pp.118.2.637
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Koussevitzky S., Nott A., Mockler T. C., Hong F., Sachetto-Martins G., Surpin M., Lim J., Mittler R. and Chory J. (2007). Signals from chloroplasts converge to regulate nuclear gene expression.
+Science
+316, 715-719. 10.1126/science.1140516
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Krupková E. and Schmulling T. (2009). Developmental consequences of the tumorous shoot development1 mutation, a novel allele of the cellulose-synthesizing KORRIGAN1 gene.
+Plant Mol. Biol.
+71, 641-655. 10.1007/s11103-009-9546-2
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Larkin R. M. (2014). Influence of plastids on light signalling and development.
+Philos. Trans. R. Soc. Lond. B Biol. Sci.
+369, 20130232
+10.1098/rstb.2013.0232
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Lee J. H., Kim D.-M., Lim Y. P. and Pai H.-S. (2004). The shooty callus induced by suppression of tobacco CHRK1 receptor-like kinase is a phenocopy of the tobacco genetic tumor.
+Plant Cell Rep.
+23, 397-403. 10.1007/s00299-004-0850-7
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Leibfried A., To J. P. C., Busch W., Stehling S., Kehle A., Demar M., Kieber J. J. and Lohmann J. U. (2005). WUSCHEL controls meristem function by direct regulation of cytokinin-inducible response regulators.
+Nature
+438, 1172-1175. 10.1038/nature04270
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Leon P., Gregorio J. and Cordoba E. (2012). ABI4 and its role in chloroplast retrograde communication.
+Front. Plant Sci.
+3, 304
+10.3389/fpls.2012.00304
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Lepistö A. and Rintamäki E. (2012). Coordination of plastid and light signaling pathways upon development of Arabidopsis leaves under various photoperiods.
+Mol. Plant
+5, 799-816. 10.1093/mp/ssr106
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Levina N., Totemeyer S., Stokes N. R., Louis P., Jones M. A. and Booth I. R. (1999). Protection of
+Escherichia coli
+cells against extreme turgor by activation of MscS and MscL mechanosensitive channels: identification of genes required for MscS activity.
+EMBO J.
+18, 1730-1737. 10.1093/emboj/18.7.1730
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Liu Z., Li J., Wang L., Li Q., Lu Q., Yu Y., Li S., Bai M. Y., Hu Y. and Xiang F. (2016). Repression of callus initiation by the miRNA-directed interaction of auxin-cytokinin in
+Arabidopsis thaliana
+.
+Plant J.
+(in press).
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Long J. A., Moan E. I., Medford J. I. and Barton M. K. (1996). A member of the KNOTTED class of homeodomain proteins encoded by the STM gene of Arabidopsis.
+Nature
+379, 66-69. 10.1038/379066a0
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Luesse D. R., Wilson M. E. and Haswell E. S. (2015). RNA sequencing analysis of the
+msl2msl3, crl,
+and
+ggps1
+mutants indicates that diverse sources of plastid dysfunction do not alter leaf morphology through a common signaling pathway.
+Front. Plant Sci.
+6, 1148
+10.3389/fpls.2015.01148
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Lundquist P. K., Rosar C., Bräutigam A. and Weber A. P. M. (2014). Plastid signals and the bundle sheath: mesophyll development in reticulate mutants.
+Mol. Plant
+7, 14-29. 10.1093/mp/sst133
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Mattioli R., Marchese D., D'Angeli S., Altamura M. M., Costantino P. and Trovato M. (2008). Modulation of intracellular proline levels affects flowering time and inflorescence architecture in Arabidopsis.
+Plant Mol. Biol.
+66, 277-288. 10.1007/s11103-007-9269-1
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Michniewicz M., Frick E. M. and Strader L. C. (2015). Gateway-compatible tissue-specific vectors for plant transformation.
+BMC Res. Notes
+8, 63
+10.1186/s13104-015-1010-6
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Moschopoulos A., Derbyshire P. and Byrne M. E. (2012). The Arabidopsis organelle-localized glycyl-tRNA synthetase encoded by EMBRYO DEFECTIVE DEVELOPMENT1 is required for organ patterning.
+J. Exp. Bot.
+63, 5233-5243. 10.1093/jxb/ers184
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Myouga F., Hosoda C., Umezawa T., Iizumi H., Kuromori T., Motohashi R., Shono Y., Nagata N., Ikeuchi M. and Shinozaki K. (2008). A heterocomplex of iron superoxide dismutases defends chloroplast nucleoids against oxidative stress and is essential for chloroplast development in Arabidopsis.
+Plant Cell
+20, 3148-3162. 10.1105/tpc.108.061341
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Neff M. M., Neff J. D., Chory J. and Pepper A. E. (1998). dCAPS, a simple technique for the genetic analysis of single nucleotide polymorphisms: experimental applications in
+Arabidopsis thaliana
+genetics.
+Plant J.
+14, 387-392. 10.1046/j.1365-313X.1998.00124.x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Neuhaus H. E. and Emes M. J. (2000). Nonphotosynthetic metabolism in plastids.
+Annu. Rev. Plant Physiol. Plant Mol. Biol.
+51, 111-140. 10.1146/annurev.arplant.51.1.111
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Perianez-Rodriguez J., Manzano C. and Moreno-Risueno M. A. (2014). Post-embryonic organogenesis and plant regeneration from tissues: two sides of the same coin?
+Front. Plant Sci.
+5, 219
+10.3389/fpls.2014.00219
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Raggi S., Ferrarini A., Delledonne M., Dunand C., Ranocha P., De Lorenzo G., Cervone F. and Ferrari S. (2015). The Arabidopsis class III peroxidase AtPRX71 negatively regulates growth under physiological conditions and in response to cell wall damage.
+Plant Physiol.
+169, 2513-2525. 10.1104/pp.15.01464
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ramel F., Birtic S., Ginies C., Soubigou-Taconnat L., Triantaphylides C. and Havaux M. (2012). Carotenoid oxidation products are stress signals that mediate gene responses to singlet oxygen in plants.
+Proc. Natl. Acad. Sci. USA
+109, 5535-5540. 10.1073/pnas.1115982109
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Schaller G. E., Bishopp A. and Kieber J. J. (2015). The yin-yang of hormones: cytokinin and auxin interactions in plant development.
+Plant Cell
+27, 44-63. 10.1105/tpc.114.133595
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Schoof H., Lenhard M., Haecker A., Mayer K. F. X., Jürgens G. and Laux T. (2000). The stem cell population of Arabidopsis shoot meristems in maintained by a regulatory loop between the CLAVATA and WUSCHEL genes.
+Cell
+100, 635-644. 10.1016/S0092-8674(00)80700-X
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Schuster C., Gaillochet C., Medzihradszky A., Busch W., Daum G., Krebs M., Kehle A. and Lohmann J. U. (2014). A regulatory framework for shoot stem cell control integrating metabolic, transcriptional, and phytohormone signals.
+Dev. Cell
+28, 438-449. 10.1016/j.devcel.2014.01.013
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Schwartz S. H., Leon-Kloosterziel K. M., Koornneef M. and Zeevaart J. A. D. (1997). Biochemical characterization of the aba2 and aba3 mutants in
+Arabidopsis thaliana
+.
+Plant Physiol.
+114, 161-166. 10.1104/pp.114.1.161
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Scofield S., Dewitte W., Nieuwland J. and Murray J. A. (2013). The Arabidopsis homeobox gene SHOOT MERISTEMLESS has cellular and meristem-organisational roles with differential requirements for cytokinin and CYCD3 activity.
+Plant J.
+75, 53-66. 10.1111/tpj.12198
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Sharma S. and Verslues P. E. (2010). Mechanisms independent of abscisic acid (ABA) or proline feedback have a predominant role in transcriptional regulation of proline metabolism during low water potential and stress recovery.
+Plant Cell Environ.
+33, 1838-1851. 10.1111/j.1365-3040.2010.02188.x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Skirycz A., Claeys H., De Bodt S., Oikawa A., Shinoda S., Andriankaja M., Maleux K., Eloy N. B., Coppens F., Yoo S.-D. et al.  (2011). Pause-and-stop: the effects of osmotic stress on cell proliferation during early leaf development in Arabidopsis and a role for ethylene signaling in cell cycle arrest.
+Plant Cell
+23, 1876-1888. 10.1105/tpc.111.084160
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Skoog F. and Miller C. O. (1957). Chemical regulation of growth and organ formation in plant tissues cultured in vitro.
+Symp. Soc. Exp. Biol.
+11, 118-130.
+[
+PubMed
+] [
+Google Scholar
+]
+Sugimoto K., Gordon S. P. and Meyerowitz E. M. (2011). Regeneration in plants and animals: dedifferentiation, transdifferentiation, or just differentiation?
+Trends Cell Biol.
+21, 212-218. 10.1016/j.tcb.2010.12.004
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Sun X., Feng P., Xu X., Guo H., Ma J., Chi W., Lin R., Lu C. and Zhang L. (2011). A chloroplast envelope-bound PHD transcription factor mediates chloroplast signals to the nucleus.
+Nat. Commun.
+2, 477
+10.1038/ncomms1486
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Sunkar R., Kapoor A. and Zhu J. K. (2006). Posttranscriptional induction of two Cu/Zn superoxide dismutase genes in Arabidopsis is mediated by downregulation of miR398 and important for oxidative stress tolerance.
+Plant Cell
+18, 2051-2065. 10.1105/tpc.106.041673
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Szabados L. and Savoure A. (2010). Proline: a multifunctional amino acid.
+Trends Plant Sci.
+15, 89-97. 10.1016/j.tplants.2009.11.009
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Szekély G., Abrahám E., Cséplo A., Rigó G., Zsigmond L., Csiszár J., Ayaydin F., Strizhov N., Jásik J., Schmelzer E. et al.  (2008). Duplicated P5CS genes of Arabidopsis play distinct roles in stress regulation and developmental control of proline biosynthesis.
+Plant J.
+53, 11-28. 10.1111/j.1365-313X.2007.03318.x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Tameshige T., Fujita H., Watanabe K., Toyokura K., Kondo M., Tatematsu K., Matsumoto N., Tsugeki R., Kawaguchi M., Nishimura M. et al.  (2013). Pattern dynamics in adaxial-abaxial specific gene expression are modulated by a plastid retrograde signal during
+Arabidopsis thaliana
+leaf development.
+PLoS Genet.
+9, e1003655
+10.1371/journal.pgen.1003655
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+To J. P. C., Haberer G., Ferreira F. J., Deruère J., Mason M. G., Schaller G. E., Alonso J. M., Ecker J. R. and Kieber J. J. (2004). Type-A Arabidopsis response regulators are partially redundant negative regulators of cytokinin signaling.
+Plant Cell
+16, 658-671. 10.1105/tpc.018978
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+To J. P. C., Deruere J., Maxwell B. B., Morris V. F., Hutchison C. E., Ferreira F. J., Schaller G. E. and Kieber J. J. (2007). Cytokinin regulates type-A Arabidopsis Response Regulator activity and protein stability via two-component phosphorelay.
+Plant Cell
+19, 3901-3914. 10.1105/tpc.107.052662
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ueguchi C., Koizumi H., Suzuki T. and Mizuno T. (2001). Novel family of sensor histidine kinase genes in
+Arabidopsis thaliana
+.
+Plant Cell Physiol.
+42, 231-235. 10.1093/pcp/pce015
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Veley K. M., Marshburn S., Clure C. E. and Haswell E. S. (2012). Mechanosensitive channels protect plastids from hypoosmotic stress during normal plant growth.
+Curr. Biol.
+22, 408-413. 10.1016/j.cub.2012.01.027
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Verslues P. E. and Sharma S. (2010). Proline metabolism and its implications for plant-environment interaction.
+Arabidopsis Book
+8, e0140
+10.1199/tab.0140
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Wagner D., Przybyla D., Op den Camp R., Kim C., Landgraf F., Lee K. P., Würsch M., Laloi C., Nater M., Hideg E. et al.  (2004). The genetic basis of singlet oxygen-induced stress responses of
+Arabidopsis thaliana
+.
+Science
+306, 1183-1185. 10.1126/science.1103178
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Wilson M. E., Basu M. R., Bhaskara G. B., Verslues P. E. and Haswell E. S. (2014). Plastid osmotic stress activates cellular stress responses in Arabidopsis.
+Plant Physiol.
+165, 119-128. 10.1104/pp.114.236620
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Wilson M. E., Jensen G. S. and Haswell E. S. (2011). Two mechanosensitive channel homologs influence division ring placement in Arabidopsis chloroplasts.
+Plant Cell
+23, 2939-2949. 10.1105/tpc.111.088112
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Woodson J. D. and Chory J. (2012). Organelle signaling: how stressed chloroplasts communicate with the nucleus.
+Curr. Biol.
+22, R690-R692. 10.1016/j.cub.2012.07.028
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Woodson J. D., Perez-Ruiz J. M. and Chory J. (2011). Heme synthesis by plastid ferrochelatase I regulates nuclear gene expression in plants.
+Curr. Biol.
+21, 897-903. 10.1016/j.cub.2011.04.004
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Wu A., Allu A. D., Garapati P., Siddiqui H., Dortay H., Zanor M.-I., Asensi-Fabado M. A., Munne-Bosch S., Antonio C., Tohge T. et al.  (2012). JUNGBRUNNEN1, a reactive oxygen species-responsive NAC transcription factor, regulates longevity in Arabidopsis.
+Plant Cell
+24, 482-506. 10.1105/tpc.111.090894
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Wysocka-Diller J. W., Helariutta Y., Fukaki H., Malamy J. E. and Benfey P. N. (2000). Molecular analysis of SCARECROW function reveals a radial patterning mechanism common to root and shoot.
+Development
+127, 595-603.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Xiao Y., Savchenko T., Baidoo E. E. K., Chehab W. E., Hayden D. M., Tolstikov V., Corwin J. A., Kliebenstein D. J., Keasling J. D. and Dehesh K. (2012). Retrograde signaling by the plastidial metabolite MEcPP regulates expression of nuclear stress-response genes.
+Cell
+149, 1525-1535. 10.1016/j.cell.2012.04.038
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Yamada H., Suzuki T., Terada K., Takei K., Ishikawa K., Miwa K., Yamashino T. and Mizuno T. (2001). The Arabidopsis AHK4 histidine kinase is a cytokinin-binding receptor that transduces cytokinin signals across the membrane.
+Plant Cell Physiol.
+42, 1017-1023. 10.1093/pcp/pce127
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zhang Z.-W., Feng L.-Y., Cheng J., Tang H., Xu F., Zhu F., Zhao Z.-Y., Yuan M., Chen Y.-E., Wang J.-H. et al.  (2013). The roles of two transcription factors, ABI4 and CBFA, in ABA and plastid signalling and stress responses.
+Plant Mol. Biol.
+83, 445-458. 10.1007/s11103-013-0102-8
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zhao Z., Andersen S. U., Ljung K., Dolezal K., Miotk A., Schultheiss S. J. and Lohmann J. U. (2010). Hormonal control of the shoot stem-cell niche.
+Nature
+465, 1089-1092. 10.1038/nature09126
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zurcher E., Tavor-Deslex D., Lituiev D., Enkerli K., Tarr P. T. and Muller B. (2013). A robust and sensitive synthetic sensor to monitor the transcriptional output of the cytokinin signaling network in planta.
+Plant Physiol.
+161, 1066-1075. 10.1104/pp.112.211763
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Articles from Development (Cambridge, England) are provided here courtesy of
+Company of Biologists

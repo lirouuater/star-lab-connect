@@ -1,0 +1,827 @@
+PLoS Biol
+. 2010 Dec 7;8(12):e1000555. doi:
+10.1371/journal.pbio.1000555
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+S. aureus
+MscL Is a Pentamer In Vivo but of Variable Stoichiometries In Vitro: Implications for Detergent-Solubilized Membrane Proteins
+Michael R Dorwart
+Michael R Dorwart
+1
+Department of Physiology, University of Texas Southwestern Medical Center at Dallas, Dallas, Texas, United States of America
+2
+Howard Hughes Medical Institute, University of Texas Southwestern Medical Center at Dallas, Dallas, Texas, United States of America
+Find articles by
+Michael R Dorwart
+1,
+2
+,
+Robin Wray
+Robin Wray
+1
+Department of Physiology, University of Texas Southwestern Medical Center at Dallas, Dallas, Texas, United States of America
+Find articles by
+Robin Wray
+1
+,
+Chad A Brautigam
+Chad A Brautigam
+3
+Department of Biochemistry, University of Texas Southwestern Medical Center at Dallas, Dallas, Texas, United States of America
+Find articles by
+Chad A Brautigam
+3
+,
+Youxing Jiang
+Youxing Jiang
+1
+Department of Physiology, University of Texas Southwestern Medical Center at Dallas, Dallas, Texas, United States of America
+2
+Howard Hughes Medical Institute, University of Texas Southwestern Medical Center at Dallas, Dallas, Texas, United States of America
+Find articles by
+Youxing Jiang
+1,
+2
+,
+Paul Blount
+Paul Blount
+1
+Department of Physiology, University of Texas Southwestern Medical Center at Dallas, Dallas, Texas, United States of America
+Find articles by
+Paul Blount
+1,
+*
+Editor:
+Gregory A Petsko
+4
+Author information
+Article notes
+Copyright and License information
+1
+Department of Physiology, University of Texas Southwestern Medical Center at Dallas, Dallas, Texas, United States of America
+2
+Howard Hughes Medical Institute, University of Texas Southwestern Medical Center at Dallas, Dallas, Texas, United States of America
+3
+Department of Biochemistry, University of Texas Southwestern Medical Center at Dallas, Dallas, Texas, United States of America
+4
+Brandeis University, United States of America
+✉
+* E-mail:
+Paul.Blount@UTSouthwestern.edu
+The author(s) have made the following declarations about their contributions: Conceived and designed the experiments: MRD RW CAB YJ PB. Performed the experiments: MRD RW CAB. Analyzed the data: MRD RW CAB PB. Wrote the paper: MRD PB.
+Roles
+Gregory A Petsko
+:
+Academic Editor
+Received 2010 Jul 9; Accepted 2010 Oct 27; Collection date 2010 Dec.
+Dorwart et al.
+This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.
+PMC Copyright notice
+PMCID: PMC2998437  PMID:
+21151884
+Detergent-induced rearrangements of membrane-protein subunits explain why two MscL channel stoichiometries have been resolved by X-ray crystallography - but
+S. aureus
+MscL is truly a pentamer in vivo.
+Abstract
+While the bacterial mechanosensitive channel of large conductance (MscL) is the best studied biological mechanosensor and serves as a paradigm for how a protein can sense and respond to membrane tension, the simple matter of its oligomeric state has led to debate, with models ranging from tetramers to hexamers. Indeed, two different oligomeric states of the bacterial mechanosensitive channel MscL have been resolved by X-ray crystallography: The
+M. tuberculosis
+channel (MtMscL) is a pentamer, while the
+S. aureus
+protein (SaMscL) forms a tetramer. Because several studies suggest that, like MtMscL, the
+E. coli
+MscL (EcoMscL) is a pentamer, we re-investigated the oligomeric state of SaMscL. To determine the structural organization of MscL in the cell membrane we developed a disulfide-trapping approach. Surprisingly, we found that virtually all SaMscL channels in vivo are pentameric, indicating this as the physiologically relevant and functional oligomeric state. Complementing our in vivo results, we purified SaMscL and assessed its oligomeric state using three independent approaches (sedimentation equilibrium centrifugation, crosslinking, and light scattering) and established that SaMscL is a pentamer when solubilized in Triton X-100 and C
+8
+E
+5
+detergents. However, performing similar experiments on SaMscL solubilized in LDAO, the detergent used in the crystallographic study, confirmed the tetrameric oligomerization resolved by X-ray crystallography. We further demonstrate that this stoichiometric shift is reversible by conventional detergent exchange experiments. Our results firmly establish the pentameric organization of SaMscL in vivo. Furthermore they demonstrate that detergents can alter the subunit stoichiometry of membrane protein complexes in vitro; thus, in vivo assays are necessary to firmly establish a membrane protein's true functionally relevant oligomeric state.
+Author Summary
+The ability to detect mechanical forces is at the basis of not only the senses of touch hearing and balance but also cardiovascular and osmotic regulation. One of the primary ways that organisms detect forces is through mechanosensitive channels, and mechanosensation is so vital that essentially all organisms have at least one such sensor. Indeed, the best-studied mechanosensitive channel is from bacteria, and because relatively little is known of mechanosensors from higher organisms, these channels are a model for how a protein can sense and respond to mechanical forces. Although the bacterial mechanosensitive channel MscL has been well studied, the simple issue of how many subunits it has is hotly debated. There are even two published crystal structures showing either tetrameric or pentameric complexes. Here we show that the channel is actually pentameric in vivo and that the detergent used to solubilize the protein can rearrange the complexes from pentamers to tetramers. The finding that detergents can have such a profound effect on structure may have broad implications for the study of other membrane proteins.
+Introduction
+The bacterial mechanosensitive channel MscL serves as a biological “emergency release valve,” allowing rapid loss of solutes in response to a sudden decrease in the osmolarity of a bacterium's environment
+[1]
+. It is perhaps the best characterized mechanosensor
+[2]
+, thus serving as a paradigm of how a membrane protein can detect and respond to mechanical forces
+[3]
+. Ironically, something as simple as the stoichiometry of the MscL complex has plagued the field with debate since its inception.
+The original model for the
+E. coli
+MscL (EcoMscL) stoichiometry was a homo-hexameric organization, which was suggested by crosslinking and the study of tandem subunits
+[4]
+. This model then appeared to be supported by low-resolution two-dimensional crystallization of EcoMscL
+[5]
+. But the subsequent elucidation of the
+M. tuberculosis
+channel (MtMscL) by X-ray crystallography
+[6]
+then suggested a pentameric organization, at least for this orthologue. This result led to a re-evaluation of EcoMscL stoichiometry
+[6]
+,
+[7]
+, which supported a pentameric organization and brought into question whether the two-dimensional crystallization data could be fit by 5-fold as well as 6-fold symmetry. Thus, the field transiently seemed to have settled that MscL was most likely a pentamer. However, the recent crystallographic structure of the
+S. aureus
+homolog (SaMscL) reveals a tetramer variant
+[8]
+. This latter finding has again raised questions regarding the true oligomeric state of MscL and evokes the possibilities either that MscL from different species assemble into complexes with different stoichiometries or that the channel exists as multiple functional oligomeric complexes in the cell membrane. Therefore, we set out to identify the MscL oligomeric state in the cell membrane and to understand how the SaMscL channel, which shares approximately 40% sequence identity with EcoMscL and MtMscL
+[8]
+, could exist in the non-pentameric subunit organization resolved by X-ray crystallography. We found not only that the true in vivo oligomeric state of SaMscL is a pentamer but also that at least one detergent, LDAO, artificially but reversibly reorganizes this structure into a tetrameric stoichiometry.
+Results
+With multiple oligomeric states identified in vitro, we devised a disulfide-trapping strategy to identify the oligomeric state of MscL in bacterial membranes. Using this approach, we were able to directly measure the subunit stoichiometry of SaMscL in vivo by generating a series of double-cysteine mutants in regions predicted to be in close proximity from both existing crystal structures (
+Figure 1A
+). These modifications allow crosslinking in the cell membrane via disulfide bonds as previously described
+[9]
+,
+[10]
+. Briefly, the cells were osmotically shocked in the presence of the oxidizing agent copper-phenanthroline, centrifuged, and then immediately resuspended in SDS loading buffer to avoid unnecessary manipulation of the proteins. As we previously observed
+[9]
+, osmotic shock increased disulfide bridging, presumably because reductants including glutathione and thioredoxin are released from the cell
+[11]
+, thus decreasing the reducing potential of the cytosol. The protein content of the lysed cells was evaluated using SDS-PAGE and molecular weight standards. For the L10C/L89C or L10C/M91C SaMscL channels, we were able to observe efficient in vivo disulfide trapping (
+Figure 1B
+). For the L10C/L89C protein, a range of oligomeric states was observed, a pentamer being the maximal state. However, for the L10C/M91C protein, one primary band was observed that reflects a pentameric complex. These data demonstrate that the pentamer is by far the major species within the cell membrane and thus appears to be the true structural and functional unit in vivo.
+Figure 1.
+S. aureus
+MscL is a pentamer in the cell membrane.
+Open in a new tab
+(A) Two orientations of the SaMscL and MtMscL crystal structures are shown with the molecules viewed from the periplasmic side (top) and from the lipid bilayer (bottom). The locations of the residues used to perform the in vivo disulfide crosslinking experiments are highlighted on the structures in surface representation: blue represents L10 (SaMscL) and A10 (MtMscL), orange represents T89 (SaMscL) and T96 (MtMscL), and red represents M91 (SaMscL) and R98 (MtMscL). (B) Western blot analysis of L10C/L89C and L10C/M91C SaMscL channels after in vivo disulfide bond trapping using copper-phenanthroline in both osmotically shocked (S+) and non-shocked (NS) samples.
+With SaMscL pentamers being the predominant oligomeric state in the cell membrane, we wanted to understand why SaMscL crystallized as a tetramer. We began by confirming the previously observed pentameric and tetrameric states of MscL by performing crosslinking experiments of purified EcoMscL and SaMscL, visualizing their oligomeric state by Western blot analysis (
+Figure 2
+). Five crosslinked EcoMscL products were observed, consistent with previous reports showing that EcoMscL is a pentamer
+[6]
+,
+[7]
+. In contrast with previous findings
+[8]
+, SaMscL also presented five crosslinked products, suggesting that SaMscL also exists in a pentameric oligomeric state. No difference was observed between proteins expressed by a high-expressing plasmid (pET) and those encoded a moderate-expressing plasmid (pB10), demonstrating that expressions levels have no effect on MscL oligomerization. To substantiate these results, sedimentation equilibrium analytical ultracentrifugation (SE) was performed to directly measure the mass of the SaMscL channel. The results for SaMscL were fit to a single-species model and yielded a molar mass of 71.2 kDa, consistent with a pentameric subunit organization (SaMscL theoretical pentameric molar mass is 72.2 kDa) (
+Figure 3A, B
+). As a third independent method to directly measure the mass of the SaMscL channel, we performed size exclusion chromatography multi-angle light scattering (SEC-MALS) experiments
+[12]
+. Analysis of nine independent SEC-MALS experiments resulted in an average calculated SaMscL mass of 72.8±0.8 kDa (Ave ± SD,
+n
+= 9), again consistent with a pentameric subunit organization of SaMscL (representative experiment shown in
+Figure 3C
+).
+Figure 2.
+E. coli
+and
+S. aureus
+MscL are pentameric multimers by crosslinking.
+Open in a new tab
+Western blot analysis of DSS-treated
+E. coli
+-MscL (Eco) and
+S. aureus
+-MscL (Sa) expressed with either the pET21a (pET) or pB10 vector show five distinct bands at both expression levels. Molecular weight markers are shown to the left of the blot and the approximate location of monomers (1×) to pentamers (5×) is shown between the blots. The right-hand blot shows a separate experiment where the majority of the EcoMscL and the SaMscL protein are in the pentameric and monomeric forms.
+Figure 3. Purified
+S. aureus
+MscL is pentameric by equilibrium sedimentation centrifugation and SEC-MALS.
+Open in a new tab
+Sedimentation equilibrium centrifugation was performed on 40 µM SaMscL in the neutrally buoyant detergent C
+8
+E
+5
+. The upper two panels in (A) and (B) show scans from three different rotor speeds monitored at either 250 nm (A) or 280 nm (B). The lines represent fits to the data of a single species model that yield a calculated protein mass of 71.2 kDa with a local rmsd of 0.005799 (A) and 0.005059 (B) (SaMscL monomer mass is 14.4 kDa; pentamer mass is 72.2 kDa). The lower two panels in (A) and (B) show the residuals from the data fitting. A representative SEC-MALS experiment of SaMscL in C
+8
+E
+5
+is shown in (C) with the UV chromatogram colored blue and the 90° light scattering chromatogram colored red. The total computed mass is shown as the black line across the elution peak, with the SaMscL and C
+8
+E
+5
+mass shown in green and orange, respectively.
+The data presented in
+Figures 2
+and
+3
+show three independent approaches that all confirm the pentameric oligomeric state of SaMscL, in agreement with our in vivo crosslinking results. These data are also consistent with the MtMscL crystal structure
+[6]
+,
+[13]
+and biochemical studies of EcoMscL
+[7]
+but inconsistent with the subunit organization in the SaMscL crystal structure
+[8]
+. The major difference in the protein handling between our experiments and those previously published for the SaMscL channel
+[8]
+was the choice of solubilizing detergent. Our measurements were made in the presence of either Triton X-100 (crosslinking) or pentaethylene glycol monooctyl ether (C
+8
+E
+5
+) detergent (SE and SEC-MALS), not Lauryldimethylamine-oxide (LDAO), the detergent used previously to crystallize SaMscL and evaluate its oligomeric state
+[8]
+. To determine if the solubilizing detergent could account for the discrepancies in the data, we tested whether LDAO may affect the oligomeric state of SaMscL.
+We performed SaMscL crosslinking experiments in the presence of LDAO and found essentially no crosslinked pentamer and a substantial increase in tetramers when compared to the experiments performed in Triton X-100 (
+Figure 4A
+). To confirm that LDAO was altering the oligomeric state of the SaMscL channel rather than simply affecting our crosslinking efficiency, we directly measured the mass of the SaMscL protein in the presence of LDAO by SEC-MALS (representative experiment shown in
+Figure 4B
+). The results show that the average protein mass in the presence of LDAO is 60.0±2.8 kDa (Ave ± SD,
+n
+= 8), a mass that is dramatically reduced compared to the C
+8
+E
+5
+experiments (72.8±0.8 kDa) and that is consistent with a tetrameric oligomeric state (theoretical SaMscL tetramer is 57.8 kDa). As a third independent approach to assess the oligomeric state of the protein, we performed sedimentation velocity experiments on the SaMscL protein in LDAO. Two different methods were used to calculate the molar mass of the protein from these data (see
+Methods
+for details). Both resulted in similar values: 62.3±1.3 kDa (“
+s
+and
+D
+” method,
+Figure 4C
+) and 64±3 kDa (“Stokes radius” method) (Weighted Ave ± 1σ). These results again show a protein molar mass well below that of a pentamer, consistent with LDAO affecting the oligomeric state of the SaMscL channel.
+Figure 4. LDAO stabilizes a MscL tetrameric oligomeric state as measured by crosslinking, SEC-MALS, and Sedimentation Velocity Centrifugation.
+Open in a new tab
+(A) Western blot analysis of DSS-treated SaMscL solubilized with either Triton-X100 or LDAO yield different quantities of tetramers and pentamers. (B) A representative SEC-MALS experiment of SaMscL in LDAO is shown with the UV chromatogram colored blue and the 90° light scattering chromatogram colored red. The total, SaMscL, and LDAO masses are shown as black, green, and orange lines across the elution peak, respectively. The mass of the SaMscL monomer is 14.4 kDa and the tetramer mass is 57.8 kDa. (C) SaMscL in 4 mM LDAO was subjected to sedimentation velocity centrifugation at 50,000 rpm, and the data were analyzed using the noninteracting “species model” of SEDPHAT. Four species, including the detergent micelles, were analyzed. The molar mass of the dominant sedimenting species was 62.5 kDa. In the
+upper part
+, the individual data points are depicted as circles, and the best-fit model to those data is shown as lines. The data and fit lines are color coded by color: Violet for the earliest scans, then progressing through indigo, blue, green, yellow, orange, and red as the scans go further forward in time. For clarity only every other scan used in the data analysis is shown. In the
+lower part
+, the residuals between the data points and the fitted line are shown and color coded as above.
+We also tested the reversibility of this oligomeric state reorganization by using SaMscL purified in LDAO and then exchanged the LDAO detergent for C
+8
+E
+5
+. This protocol resulted in the SaMscL mass increasing from 61.4±0.7 kDa (Ave ± SD,
+n
+= 3) to 72.0±2.6 kDa (Ave ± SD,
+n
+= 4) as measured by SEC-MALS (
+Figure 5
+). The choice of initial detergent made no difference in the reversibility, as purifying SaMscL in C
+8
+E
+5
+and then exchanging the detergent for LDAO showed a mass decrease from 72.2±0.5 kDa in C
+8
+E
+5
+(Ave ± SD,
+n
+= 5) to 58.7±0.7 kDa in LDAO (Ave ± SD,
+n
+= 3). Hence, the oligomeric rearrangement is reversible and is completely dependent upon the detergent solubilizing the MscL protein.
+Figure 5. The
+S. aureus
+MscL stoichiometry change is reversible.
+Open in a new tab
+(A) The oligomeric state of SaMscL in 4 mM LDAO was determined using SEC-MALS, which measured a protein mass of 61.3 kDa, consistent with a tetrameric channel (top chromatogram). (B) The SaMscL-LDAO sample was exchanged into C
+8
+E
+5
+, and the following day the oligomeric state of SaMscL-C
+8
+E
+5
+sample was measured by SEC-MALS. Analysis of the SEC-MALS results for the SaMscL-C
+8
+E
+5
+sample showed a protein mass of 74.4 kDa, consistent with the channel in a pentameric state.
+Discussion
+Essentially all previous structural studies on MscL, as with most membrane proteins, have been performed on channels that have been solubilized, under the assumption that detergents do not alter the subunit stoichiometry. Our data examining the effect of different detergents on the oligomeric state of SaMscL have far-reaching implications for membrane protein research, as we now clearly demonstrate that changes in oligomeric state can and do occur upon detergent solubilization, and these alterations are not easily detected by SEC (see
+Figures 3C
+and
+4B
+). To circumvent these artifacts associated with solubilization, we have developed an in vivo cross-linking assay. Although the pentamer is by far the major product observed in
+Figure 1B
+, very small amounts of smaller oligomers can be resolved upon overloading of protein gels and long Western blot exposures. The small amount of tetramers and smaller complexes observed upon long exposure could be incompletely assembled protein or may simply be due to the lack of disulfide bridging, which is rarely observed to be this efficient (e.g. see
+[9]
+,
+[10]
+). In addition, we cannot completely rule out the possibility that oligomerization is a dynamic and even reversible process in vivo. Regardless, it seems unlikely that oligomeric species smaller than pentamers have a physiological role given that there are tens of channels per cell
+[14]
+, and the smaller species compose only a few percent of the total channels. Our data definitively show that the vast majority of the SaMscL channel adopts a pentameric structure in the cell membrane, consistent with the MtMscL crystal structure
+[6]
+, but incompatible with the SaMscL crystal structure
+[8]
+.
+A close inspection of the recent tetrameric SaMscL structure, which was speculated to be in an expanded gating intermediate state, reveals structural interactions between residues in TM1 and TM2 residues of a neighboring subunit similar to those in the closed MtMscL structure. This result was surprising because several studies using various techniques have suggested TM1 undergoes a significant clockwise rotation (as viewed from the periplasmic side) upon channel gating. The approaches supporting this interpretation include: spin labeling combined with electron paramagnetic resonance (EPR) studies
+[15]
+, accessibility of sulfhydryl reagents to cysteine mutants in TM1 upon gating
+[16]
+,
+[17]
+, accessibility of heavy metals to engineered binding sites in the pore
+[18]
+, suppression mutagenesis demonstrating interactions between TM1 and TM2 upon gating
+[19]
+, and confirmation of multiple interaction sites between TM1 and TM2 upon gating by using an electrostatic repulsion approach as well as disulfide trapping
+[10]
+. Both the EPR studies as well as the heavy-metal binding in the pore strongly suggest that this rotation occurs quite early in the gating process, before ion permeation. By this model, V21 and G24 (V23 and G26 in EcoMscL) should rotate away from the pore constriction, allowing V22 and the positively charged K29 (I24 and K31 in EcoMscL) to line the open pore. The observation that this rearrangement has not occurred strongly suggests that the crystal SaMscL structure actually reflects a strained closed state due to improper oligomeriazation, rather than an expanded intermediate state.
+The observed stoichiometry changes in detergents also evoke questions regarding how membrane protein subunits assemble into physiological multimeric complexes. A previous report on EcoMscL demonstrated that when the protein is translated in vitro in the absence of any lipid or detergent and is subsequently purified in the presence of Triton X-100, the channel spontaneously assembles into pentamers
+[20]
+. A separate study demonstrated that even synthetically synthesized EcoMscL will oligomerize into functional channels when incorporated into lipid membranes
+[21]
+. These studies demonstrate that the EcoMscL channel has the ability to self-assemble into the functional oligomer in vitro. Similarly, it appears that C
+8
+E
+5
+and Triton X-100 allow SaMscL to properly fold and assemble into a pentameric structure, which correlates with the observed oligomeric state in vivo. In contrast, LDAO reorganizes SaMscL into tetramers that do not appear to exist in significant quantities in vivo, suggesting that they are not physiologically relevant. The observed self-assembly properties of EcoMscL under many conditions, combined with the reversible nature of the detergent-induced oligomeric state changes for SaMscL, may explain why Liu et al. observed channel function for the LDAO solubilized SaMscL tetramers
+[8]
+; presumably, once the tetrameric LDAO-solubilized SaMscL is reconstituted into lipids, it rearranges back into functional pentameric structures.
+The crystal structure of the SaMscL was derived from a truncation mutant in which several amino acids at the C-terminus had been removed
+[8]
+. One previous study suggested that at least some C-terminus deletions of EcoMscL could lead to the formation of larger aggregates when translated in a cell-free system
+[22]
+. While we cannot rule out the possibility that the SaMscL deletion contributed to the stabilization of the tetramer in the crystal, our data do demonstrate that detergents alone can stabilize alternative oligomeric states of the full-length SaMscL in solution.
+Our observations make it tempting to speculate that larger, more hydrated head groups (i.e. the head groups of C
+8
+E
+5
+and Triton X-100) promote pentamer formation, while smaller head groups (i.e. LDAO) promote tetramer formation. However, with such a small number of detergents tested thus far, additional experiments will be required to identify what chemical properties of the detergents cause the oligomeric state change and what effect, if any, lipids may have on the stabilization of specific oligomeric states.
+In sum, our data demonstrate that the physiologically active SaMscL oligomer in vivo is a pentamer and that purification in detergents can cause a reorganization of the SaMscL channel's oligomeric state. Our findings also show that SEC alone is insufficient to evaluate the usefulness of a particular detergent for the study of membrane proteins; ideally, SEC-MALS and/or analytical ultracentrifugation should be correlated with in vivo experiments that can more confidently determine the functional and physiologically relevant oligomeric state of membrane proteins.
+Materials and Methods
+Purification
+SaMscL (accession number:
+CAG43065
+) was expressed using the pET21a vector in PB116
+E. coli
+cells grown to O.D.
+600
+0.6–0.8 and induced with 1 mM IPTG for 2–3 h at 37°C. Cells were harvested and stored at −80°C until needed. Cells containing SaMscL were lysed in 50 mM NaPi pH 8.0, 300 mM NaCl, 0.5 µg/ml DNAse, 1 mg/ml lysozyme, and 150 µl protease inhibitors (Sigma) using a French press at 16K PSI at 4°C. The cell lysate was incubated with 40 mM n-Decyl-β-D-Maltopyranoside (DM) for 1 h at 4°C and then centrifuged at 24,000× g for 30 min at 4°C to clarify the lysate. 4 mM imidazol was added to the resulting supernatant and then bound to 4 ml of Ni-NTA slury pre-equilibrated with 50 mM NaPi pH 8.0, 300 mM NaCl, 5 mM imidazol, and 40 mM DM for 1 h at 4°C. Standard metal affinity chromatography was performed with 10 column volumes of wash buffer containing 50 mM NaPi pH 8.0, 300 mM NaCl, 30 mM imidazol, 4 mM DM, and SaMscL was eluted with 50 mM NaPi pH 8.0, 300 mM NaCl, 300 mM imidazol, and 4 mM DM. The purest protein fractions were combined and concentrated using a 10,000 molecular weight cutoff filter (Amicon). Detergent exchange was accomplished by adding 40 mM Lauryldimethylamine-oxide (LDAO) or 5% (w/v) pentaethylene glycol monooctyl ether (C
+8
+E
+5
+) to the concentrated SaMscL and allowing the protein-detergent complex to equilibrate overnight at room temperature. The following day the protein was subjected to size exclusion chromatography using a superdex 200 column (GE Healthcare) in 20 mM NaPi pH 7.5, 170 mM NaCl, and 4 mM LDAO or 0.5% (w/v) C
+8
+E
+5
+. The eluting peak was collected and concentrated using a 50,000 molecular weight cutoff filter (Amicon) and used for either sedimentation equilibrium experiments or size exclusion chromatography-multiangle light scattering experiments (SEC-MALS).
+Crosslinking
+SaMscL and EcoMscL were cloned into pB10 and pET21a vectors and transformed into PB104 or PB116
+E. coli
+and purified as previously described
+[10]
+. 2% Triton X-100 or 44 mM LDAO was used for MscL extraction with a final concentration of 0.2% and 2.1 mM, respectively, after purification. For crosslinking reactions 5 µg of protein was incubated with 2 mM DSS (Thermo Scientific) on ice for 5 min. The reaction was quenched with a final concentration of 100 mM Tris pH 7.5 for 15 min at room temperature as recommended by the manufacturer. Samples were brought up in non-reducing sample buffer, were loaded on a Criterion 4–20% gel, and were subjected to Western as previously described
+[10]
+. The primary antibody anti-Penta His (Qiagen) was used at 1∶4,000 and the secondary Goat anti-Mouse HRP (Bio-Rad) at 1∶100,000. Blots were developed using HRP substrate (Millipore) and exposed to film.
+In Vivo Disulfide Trapping
+Overnight cultures were diluted 1∶100 and grown 1 h at 37°C in LB. LB with 1 M NaCl was then added for a final concentration of 0.5 M. Cultures were then induced with 1 mM IPTG for 1 h when an OD 600 of 0.2 was reached. Cultures were either Mock shocked (0.5 M NaCl LB) or shocked (water with 1.5 µM copper phenanthroline) at a 1∶20 dilution for 15 min at 37°C. Samples were spun down at 4,000 g for 20 min and immediately re-suspended in non-reducing sample buffer, adjusted for final OD, and run on a 4%–20% gel (Bio-Rad) for Western blot analysis
+[10]
+. The primary antibody anti-Penta His (Qiagen) was used at 1∶4,000 and the secondary Goat anti-Mouse HRP (Bio-Rad) at 1∶40,000. Blots were developed using HRP substrate (Millipore) and exposed to film.
+SEC-MALS
+A Shimadzu Prominence HPLC system equipped with a Shodex KW-803 SEC column was connected in line with a miniDAWN-TREOS light scattering instrument (Wyatt Technologies) and Optilab rEX refractometer (Wyatt Technologies). The light scattering and refractive index instruments were calibrated following the manufacturer's guidelines, and 40 ml of running buffer (20 mM NaPi pH 7.5, 170 mM NaCl and 4 mM LDAO or 0.5% (w/v) C
+8
+E
+5
+) was used to equilibrate the SEC column and establish stable baselines for the light scattering and refractive index instruments. 25–75 µg of purified protein was used for each SEC-MALS experiment, and data were collected using ASTRA V software (Wyatt Technologies) and processed following the manufacturer's guidelines. LDAO and C
+8
+E
+5
+dn/dc values (0.1490 and 0.1240, respectively) were measured using the Optilab rEX following the manufacturer's guidelines and the SaMscL extinction coefficient was calculated from the amino acid sequence.
+Analytical Ultracentrifugation
+Buffer density-matching experiments were performed in a Beckman Coulter XL-I Analytical Ultracentrifuge to identify the appropriate solution density to match the density of the C
+8
+E
+5
+detergent. Volumes of 180 µL of solutions containing 20 mM NaPi pH 7.5, 0.5% (w/v) C
+8
+E
+5
+, and various concentrations of NaCl were placed in the sample sector of a dual-sectored, charcoal-filled Epon centerpiece (Beckman-Coulter; all AUC experiments were carried out in such centerpieces) that was sandwiched between sapphire windows. Identical buffers without detergent were placed in the reference sector. The centrifugation cells were centrifuged at a temperature of 25°C and a rotor speed of 50,000 rpm; an An-50Ti rotor was used for all centrifugation experiments. The formation of any detergent concentration gradient was monitored using interference optics. C
+8
+E
+5
+was found to be neutrally buoyant in 20 mM NaPi pH 7.5, 170 mM NaCl, which was then used for all sedimentation equilibrium centrifugation experiments with 0.5% C
+8
+E
+5
+at 25°C. 4, 8, 40, and 80 µM SaMscL samples were prepared and loaded into the assembled ultracentrifuge cells; buffer with detergent was deposited in the reference sector. Long solution columns (180 µL) were also used in this experiment. Centrifugation was performed at 25°C at 9,500, 14,000, and 17,500 rpm. The data were analyzed using SEDFIT to determine if the samples had come to equilibrium, and SEDPHAT
+[23]
+was used to fit the sedimentation equilibrium data to a single species model. Multispeed analysis with mass-conservation constraints was performed, allowing the time-invariant and radially invariant noise elements to be calculated and subtracted from the data
+[23]
+. A 68.3% confidence interval was calculated as previously described
+[24]
+,
+[25]
+. The error number reported is the average of the positive and negative deviations from best mass value. For the determination of the amount of detergent bound per gram of protein (δ
+D
+), buffer without detergent was used in the reference sector, and two different concentrations (41 and 66 µM) of MscL were placed in the sample sector. The volume of each sample and reference was 390 µl. The rotor speed used was 50,000 rpm, and the temperature setting was 20°C. The data were analyzed in SEDFIT using the non-interacting discrete species model
+[26]
+,
+[27]
+. The flotation of the detergent micelles (the density of LDAO is less than that of water) was explicitly accounted for by giving that species a negative sedimentation coefficient. The amounts of absorbance units and interference fringes present for the main sedimenting species were derived from this analysis. Using the calculated extinction coefficient of the protein and the known refractive index increments of the detergent and the protein,
+δ
+D
+was calculated as in le Maire et al.
+[28]
+. Subsequent sedimentation velocity experiments were performed with 20, 32, and 64 µM SaMscL samples in 4 mM LDAO at 50,000 rpm at 20°C. The volume centrifuged was 390 µL. In these cases, the reference buffer contained the same [LDAO] as the sample. The absorbance data (interference data were not collected) were initially analyzed using the
+c
+(
+s
+) model in SEDFIT
+[26]
+. Although LDAO has a very low extinction coefficient at 280 nm, its floatation was detectable; the range of data near to the meniscus was therefore eliminated for this analysis. In these analyses, small quantities (2%–3% of the total signal) of large species were detected. Using this information, all species, including the floating detergent, were modeled in the “species analysis” model in SEDPHAT
+[26]
+. This approach is referred to as the “
+s
+and
+D
+” method in the text, because both the sedimentation coefficient and the diffusion coefficient are refined to arrive at the buoyant molar mass (
+M
+b
+).
+M
+b
+was transformed to
+M
+(the molar mass of the protein) using the formula
+(1)
+where
+(2)
+[29]
+The symbol
+ρ
+is the solution density,
+is the partial specific volume of the protein, and
+is the partial specific volume of the detergent. Any lipids bound to SaMscL were neglected in these calculations.
+M
+b
+was also calculated using the relationship
+(3)
+where
+N
+0
+is Avogadro's number,
+η
+is the solution viscosity,
+R
+s
+is the Stokes radius of the protein/detergent complex, and
+s
+is the sedimentation coefficient. The Stokes radius of the protein was obtained by calibrating the SEC column described above with proteins of known Stokes radius.
+R
+s
+for SaMscL in LDAO was 4.2 nm. Again,
+M
+b
+was transformed to
+M
+using Eq. 1. Values for
+,
+η
+, and
+ρ
+were estimated using the program SEDNTERP
+[30]
+. The value of
+was taken as 1.13 mL/g
+[31]
+. Confidence intervals of
+s
+and
+M
+b
+were calculated as detailed above. A confidence interval for the value of Stokes radius, which was derived from a linear regression, was:
+where
+t
+is the
+t
+statistic,
+s
+s
+is the estimate of
+σ
+for the regression line,
+V
+e
+is the elution volume of MscL from the SEC column,
+is the average elution volume of the standards,
+n
+is the number of standards, and
+S
+VV
+is the sum of squared deviations of the individual standard compared to
+. In cases of asymmetric error intervals, the
+σ
+was taken as the average of the difference between the boundary value and the best-fitted value. Because multiple experiments, each having different errors, were performed, the value of
+M
+reported in the main text is the weighted mean
+μ
+w
+± the weighted
+σ
+(
+σ
+w
+), calculated using the formulas:
+for the
+I
+experiments preformed (
+i
+= 3 in this case).
+Acknowledgments
+The authors thank Christina Eaton and Drs. Irene Iscla, Yuezhou Li, and Limin Yang for helpful discussions.
+Abbreviations
+C
+8
+E
+5
+pentaethylene glycol monooctyl ether
+EcoMscL
+E. coli
+MscL
+LDAO
+n-dodecyl-N,N-dimethylamine-N-oxide
+MtMscL
+M. tuberculosis
+MscL
+SaMscL
+S. auresus
+MscL
+SDS
+sodium dodecyl sulphate
+SE
+sedimentation equilibrium analytical ultracentrifugation
+SEC-MALS
+size exclusion chromatography multi-angle light scattering
+Footnotes
+The authors have declared that no competing interests exist.
+MRD and YJ were supported by the Howard Hughes Medical Institute, the National Institutes of Health (grant GM079179 to YJ) and the Welch Foundation (grant I-1578 to YJ). RW and PB were supported by grant I-1420 of the Welch Foundation, grant NNH08ZTT003N NRA from NASA, grant RP100146 from the Cancer Prevention & Research Institute of Texas (CPRIT), and grant GM61028 and its supplement from the National Institutes of Health. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+References
+1.
+Levina N, Totemeyer S, Stokes N. R, Louis P, Jones M. A, et al.  Protection of Escherichia coli cells against extreme turgor by activation of MscS and MscL mechanosensitive channels: identification of genes required for MscS activity. EMBO Journal. 1999;18:1730–1737. doi: 10.1093/emboj/18.7.1730.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Blount P, Iscla I, Moe P. C, Li Y.  MscL: the bacterial mechanosensitive channel of large conductance. In: Hamill O. P, editor. Mechanosensitive ion channels (a volume in the current topics in membranes series) St. Louis, MO: Elsievier Press; 2007. pp. 202–233.
+[
+Google Scholar
+]
+3.
+Blount P, Li Y, Moe P. C, Iscla I.  Mechanosensitive channels gated by membrane tension: bacteria and beyond. In: Kamkin A, Kiseleva I, editors. Mechanosensitive ion channels (a volume in the mechanosensitivity in cells and tissues, Moscow Academia series) New York: Springer Press; 2008. pp. 71–101.
+[
+Google Scholar
+]
+4.
+Blount P, Sukharev S. I, Moe P. C, Schroeder M. J, Guy H. R, et al.  Membrane topology and multimeric structure of a mechanosensitive channel protein of Escherichia coli. EMBO Journal. 1996;15:4798–4805.
+[
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Saint N, Lacapere J. J, Gu L. Q, Ghazi A, Martinac B, et al.  A hexameric transmembrane pore revealed by two-dimensional crystallization of the large mechanosensitive ion channel (MscL) of Escherichia coli. Journal of Biological Chemistry. 1998;273:14667–14670. doi: 10.1074/jbc.273.24.14667.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Chang G, Spencer R. H, Lee A. T, Barclay M. T, Rees D. C. Structure of the MscL homolog from Mycobacterium tuberculosis: a gated mechanosensitive ion channel. Science. 1998;282:2220–2226. doi: 10.1126/science.282.5397.2220.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Sukharev S. I, Schroeder M. J, McCaslin D. R. Stoichiometry of the large conductance bacterial mechanosensitive channel of E. coli. A biochemical study. Journal of Membrane Biology. 1999;171:183–193. doi: 10.1007/s002329900570.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Liu Z, Gandhi C. S, Rees D. C. Structure of a tetrameric MscL in an expanded intermediate state. Nature. 2009;461:120–124. doi: 10.1038/nature08277.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Iscla I, Wray R, Blount P. On the structure of the N-terminal domain of the MscL channel: helical bundle or membrane interface. Biophys J. 2008;95:2283–2291. doi: 10.1529/biophysj.107.127423.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Li Y, Wray R, Eaton C, Blount P. An open-pore structure of the mechanosensitive channel MscL derived by determining transmembrane domain interactions upon gating. FASEB J. 2009;23:2197–2204. doi: 10.1096/fj.09-129296.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Ajouz B, Berrier C, Garrigues A, Besnard M, Ghazi A. Release of thioredoxin via the mechanosensitive channel MscL during osmotic downshock of Escherichia coli cells. Journal of Biological Chemistry. 1998;273:26670–26674. doi: 10.1074/jbc.273.41.26670.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Slotboom D. J, Duurkens R. H, Olieman K, Erkens G. B. Static light scattering to characterize membrane proteins in detergent solution. Methods. 2008;46:73–82. doi: 10.1016/j.ymeth.2008.06.012.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Steinbacher S, Bass R, Strop P, Rees D. C.  Structures of the prokaryotic mechanosensitive channels MscL and MscS. In: Hamill O. P, editor. Mechanosensitive ion channels (a volume in the Current Topics in Membranes series) St. Louis, MO: Elsievier Press; 2007. pp. 1–20.
+[
+Google Scholar
+]
+14.
+Blount P, Sukharev S. I, Moe P. C, Martinac B, Kung C.  Mechanosensitive channels of bacteria. In: Conn P. M, editor. Methods in enzymology. San Diego, CA: Academic Press; 1999. pp. 458–482.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Perozo E, Cortes D. M, Sompornpisut P, Kloda A, Martinac B. Open channel structure of MscL and the gating mechanism of mechanosensitive channels. Nature. 2002;418:942–948. doi: 10.1038/nature00992.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Bartlett J. L, Levin G, Blount P. An in vivo assay identifies changes in residue accessibility on mechanosensitive channel gating. Proc Natl Acad Sci U S A. 2004;101:10161–10165. doi: 10.1073/pnas.0402040101.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Bartlett J. L, Li Y, Blount P. Mechanosensitive channel gating transitions resolved by functional changes upon pore modification. Biophys J. 2006;91:3684–3691. doi: 10.1529/biophysj.106.088062.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Iscla I, Levin G, Wray R, Reynolds R, Blount P. Defining the physical gate of a mechanosensitive channel, MscL, by engineering metal-binding sites. Biophys J. 2004;87(5):3172–3180. doi: 10.1529/biophysj.104.049833.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Li Y, Wray R, Blount P. Intragenic suppression of gain-of-function mutations in the Escherichia coli mechanosensitive channel, MscL. Mol Microbiol. 2004;53:485–495. doi: 10.1111/j.1365-2958.2004.04150.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Berrier C, Park K. H, Abes S, Bibonne A, Betton J. M, et al.  Cell-free synthesis of a functional ion channel in the absence of a membrane and in the presence of detergent. Biochemistry. 2004;43:12585–12591. doi: 10.1021/bi049049y.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Clayton D, Shapovalov G, Maurer J. A, Dougherty D. A, Lester H. A, et al.  Total chemical synthesis and electrophysiological characterization of mechanosensitive channels from Escherichia coli and Mycobacterium tuberculosis. Proc Natl Acad Sci U S A. 2004;101:4764–4769. doi: 10.1073/pnas.0305693101.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Yoshimura K, Usukura J, Sokabe M. Gating-associated conformational changes in the mechanosensitive channel MscL. Proc Natl Acad Sci U S A. 2008;105:4033–4038. doi: 10.1073/pnas.0709436105.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Vistica J, Dam J, Balbo A, Yikilmaz E, Mariuzza R. A, et al.  Sedimentation equilibrium analysis of protein interactions with global implicit mass conservation constraints and systematic noise decomposition. Anal Biochem. 2004;326:234–256. doi: 10.1016/j.ab.2003.12.014.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Bevington P, Robinson D. K. Data reduction and error analysis for the physical sciences: McGraw Hill. 2002:336.
+[
+Google Scholar
+]
+25.
+Houtman J. C, Brown P. H, Bowden B, Yamaguchi H, Appella E, et al.  Studying multisite binary and ternary protein interactions by global analysis of isothermal titration calorimetry data in SEDPHAT: application to adaptor protein complexes in cell signaling. Protein Sci. 2007;16:30–42. doi: 10.1110/ps.062558507.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+26.
+Brown P. H, Schuck P. A new adaptive grid-size algorithm for the simulation of sedimentation velocity profiles in analytical ultracentrifugation. Comput Phys Commun. 2008;178:105–120. doi: 10.1016/j.cpc.2007.08.012.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Schuck P. Size-distribution analysis of macromolecules by sedimentation velocity ultracentrifugation and lamm equation modeling. Biophys J. 2000;78:1606–1619. doi: 10.1016/S0006-3495(00)76713-0.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+le Maire M, Arnou B, Olesen C, Georgin D, Ebel C, et al.  Gel chromatography and analytical ultracentrifugation to determine the extent of detergent binding and aggregation, and Stokes radius of membrane proteins using sarcoplasmic reticulum Ca2+-ATPase as an example. Nat Protoc. 2008;3:1782–1795. doi: 10.1038/nprot.2008.177.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Tanford C, Reynolds J. A. Characterization of membrane proteins in detergent solutions. Biochim Biophys Acta. 1976;457:133–170. doi: 10.1016/0304-4157(76)90009-5.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+Laue T. M, Shah B. D, Ridgeway R. M, Pelletier S. L.  Computer-aided interpretation of analytical sedimentation data for proteins. In: Harding S. E, Rowe A. J, Horton J. C, editors. Analytical ultracentrifugation in biochemistry and polymer science. Cambridge, UK: The Royal Society of Chemistry; 1992. pp. 90–125.
+[
+Google Scholar
+]
+31.
+le Maire M, Champeil P, Moller J. V. Interaction of membrane proteins and lipids with solubilizing detergents. Biochim Biophys Acta. 2000;1508:86–111. doi: 10.1016/s0304-4157(00)00010-1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Articles from PLoS Biology are provided here courtesy of
+PLOS

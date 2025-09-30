@@ -1,0 +1,1886 @@
+Microbiol Resour Announc
+. 2021 Apr 29;10(17):e00214-21. doi:
+10.1128/MRA.00214-21
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Draft Genome Sequences of Various Bacterial Phyla Isolated from the International Space Station
+Anna C Simpson
+Anna C Simpson
+a
+Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA
+Find articles by
+Anna C Simpson
+a
+,
+Camilla Urbaniak
+Camilla Urbaniak
+a
+Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA
+Find articles by
+Camilla Urbaniak
+a
+,
+Nitin K Singh
+Nitin K Singh
+a
+Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA
+Find articles by
+Nitin K Singh
+a
+,
+Jason M Wood
+Jason M Wood
+a
+Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA
+Find articles by
+Jason M Wood
+a
+,
+Marilyne Debieu
+Marilyne Debieu
+b
+Biotia, New York, New York, USA
+Find articles by
+Marilyne Debieu
+b
+,
+Niamh B O’Hara
+Niamh B O’Hara
+b
+Biotia, New York, New York, USA
+c
+Department of Cell Biology, College of Medicine, SUNY Downstate Health Sciences University, Brooklyn, New York, USA
+Find articles by
+Niamh B O’Hara
+b,
+c
+,
+Christopher E Mason
+Christopher E Mason
+d
+Department of Physiology and Biophysics, Weill Cornell Medicine, New York, New York, USA
+e
+WorldQuant Initiative for Quantitative Prediction, Weill Cornell Medicine, New York, New York, USA
+Find articles by
+Christopher E Mason
+d,
+e
+,
+Kasthuri Venkateswaran
+Kasthuri Venkateswaran
+a
+Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA
+Find articles by
+Kasthuri Venkateswaran
+a,
+✉
+Editor:
+David Rasko
+f
+Author information
+Article notes
+Copyright and License information
+a
+Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA
+b
+Biotia, New York, New York, USA
+c
+Department of Cell Biology, College of Medicine, SUNY Downstate Health Sciences University, Brooklyn, New York, USA
+d
+Department of Physiology and Biophysics, Weill Cornell Medicine, New York, New York, USA
+e
+WorldQuant Initiative for Quantitative Prediction, Weill Cornell Medicine, New York, New York, USA
+f
+University of Maryland School of Medicine
+✉
+Address correspondence to Kasthuri Venkateswaran,
+kasthuri.j.venkateswaran@jpl.nasa.gov
+.
+Citation
+Simpson AC, Urbaniak C, Singh NK, Wood JM, Debieu M, O’Hara NB, Mason CE, Venkateswaran K. 2021. Draft genome sequences of various bacterial phyla isolated from the International Space Station. Microbiol Resour Announc 10:e00214-21.
+https://doi.org/10.1128/MRA.00214-21
+.
+✉
+Corresponding author.
+Roles
+David Rasko
+:
+Editor
+Received 2021 Mar 4; Accepted 2021 Mar 31; Collection date 2021 Apr.
+This is a work of the U.S. Government and is not subject to copyright protection in the United States. Foreign copyrights may apply.
+PMC Copyright notice
+PMCID: PMC8086211  PMID:
+33927037
+Whole-genome sequences were generated from 96 bacterial strains of 14 species that were isolated from International Space Station surfaces during the Microbial Tracking 2 study. Continued characterization of this closed habitat's microbiome enables tracking of the spread and evolution of secondary pathogens, which is vital for astronaut health.
+ABSTRACT
+Whole-genome sequences were generated from 96 bacterial strains of 14 species that were isolated from International Space Station surfaces during the Microbial Tracking 2 study. Continued characterization of this closed habitat's microbiome enables tracking of the spread and evolution of secondary pathogens, which is vital for astronaut health.
+ANNOUNCEMENT
+The International Space Station (ISS) is currently the only long-term human habitat in space. Microgravity disrupts human immune function (
+1
+), and close monitoring of the ISS microbiome for increased pathogenicity is thus an ongoing critical task. Here, we report the draft genomes of 96 bacterial strains that were isolated from the ISS (
+Table 1
+). Eleven of the 14 species found are common members of the human microbiome, and most can act as opportunistic human pathogens.
+TABLE 1.
+Accession numbers, sampling locations, and assembly details for bacterial strains isolated from the ISS
+Sample name
+Bacterial species
+WGS accession no.
+SRA accession no.
+Flight no.
+Location
+a
+Medium, temp (°C)
+b
+No. of contigs
+Genome size (bp)
+N
+50
+(bp)
+Depth of coverage (×)
+G+C content (%)
+No. of filtered reads
+F8_7S_12B
+Acinetobacter pittii
+JAFDRK000000000
+SRR13530731
+F8
+Lab 3 overhead
+R2A, 25
+66
+3,996,855
+150,281
+922.13
+38.75
+23,547,006
+F8_7S_13B
+Acinetobacter pittii
+JAFDRL000000000
+SRR13530730
+F8
+Lab 3 overhead
+R2A, 25
+71
+3,995,968
+150,376
+735.67
+38.75
+18,785,602
+F8_7S_14B
+Acinetobacter pittii
+JAFDRM000000000
+SRR13530729
+F8
+Lab 3 overhead
+R2A, 25
+68
+3,996,346
+150,379
+908.88
+38.75
+23,208,680
+F8_7S_15B
+Acinetobacter pittii
+JAFDRN000000000
+SRR13530728
+F8
+Lab 3 overhead
+R2A, 25
+70
+3,995,502
+132,238
+679.63
+38.74
+17,354,664
+F8_7S_16B
+Acinetobacter pittii
+JAFDRO000000000
+SRR13530727
+F8
+Lab 3 overhead
+R2A, 25
+67
+3,996,494
+150,378
+768.58
+38.75
+19,625,886
+F8_7S_17B
+Acinetobacter pittii
+JAFDRP000000000
+SRR13530725
+F8
+Lab 3 overhead
+R2A, 25
+69
+3,996,521
+150,203
+717.48
+38.75
+18,321,172
+F8_7S_18B
+Acinetobacter pittii
+JAFDRQ000000000
+SRR13530724
+F8
+Lab 3 overhead
+R2A, 25
+69
+3,995,985
+150,209
+813.82
+38.75
+20,781,150
+F8_7S_4B
+Acinetobacter pittii
+JAFDRX000000000
+SRR13530717
+F8
+Lab 3 overhead
+R2A, 25
+69
+3,995,609
+150,378
+704.76
+38.74
+17,996,396
+F8_7S_5B
+Acinetobacter pittii
+JAFDRY000000000
+SRR13530716
+F8
+Lab 3 overhead
+R2A, 25
+66
+3,995,688
+150,370
+583.20
+38.74
+14,892,212
+F8_7S_6P
+Acinetobacter pittii
+JAFDSA000000000
+SRR13530713
+F8
+Lab 3 overhead
+BA, 37
+67
+3,996,523
+150,212
+1,115.49
+38.75
+28,484,452
+F8_7S_7B
+Acinetobacter pittii
+JAFDSB000000000
+SRR13530712
+F8
+Lab 3 overhead
+R2A, 25
+70
+3,996,147
+132,238
+828.46
+38.75
+21,155,182
+F8_8S_11B
+Acinetobacter pittii
+JAFDSE000000000
+SRR13530709
+F8
+Crew quarters
+R2A, 25
+70
+3,997,471
+150,204
+735.21
+38.75
+18,773,974
+F8_8S_12B
+Acinetobacter pittii
+JAFDSF000000000
+SRR13530708
+F8
+Crew quarters
+R2A, 25
+71
+3,996,218
+150,204
+903.60
+38.75
+23,073,890
+F8_8S_2P
+Acinetobacter pittii
+JAFDSJ000000000
+SRR13530703
+F8
+Crew quarters
+BA, 37
+70
+3,994,221
+150,204
+1,039.96
+38.74
+26,555,916
+F8_8S_6P
+Acinetobacter pittii
+JAFDSL000000000
+SRR13530701
+F8
+Crew quarters
+BA, 37
+71
+3,997,028
+150,211
+939.87
+38.75
+24,000,022
+F8_2S_1P
+Cytobacillus horneckiae
+JAFDQP000000000
+SRR13530754
+F8
+WHC
+BA, 37
+44
+5,324,298
+329,620
+397.27
+37.7
+14,551,974
+F5_7S_P6
+Kocuria indica
+JAFDPQ000000000
+SRR13530782
+F5
+Lab 3 overhead
+BA, 37
+28
+2,803,228
+245,667
+825.53
+68.78
+15,829,868
+F6_3S_P_1B
+Kocuria indica
+JAFDPV000000000
+SRR13530776
+F6
+ARED
+BA, 37
+27
+2,803,211
+245,667
+1,412.10
+68.78
+27,077,776
+F5_7S_P11C
+Kocuria palustris
+JAFDPC000000000
+SRR13530748
+F5
+Lab 3 overhead
+BA, 37
+36
+2,843,288
+191,163
+862.77
+70.54
+16,418,232
+F5_7S_P2A
+Kocuria palustris
+JAFDPI000000000
+SRR13530790
+F5
+Lab 3 overhead
+BA, 37
+33
+2,844,036
+191,163
+873.89
+70.54
+16,629,878
+F5_7S_P2B
+Kocuria palustris
+JAFDPJ000000000
+SRR13530789
+F5
+Lab 3 overhead
+BA, 37
+32
+2,843,686
+262,144
+1,100.95
+70.54
+20,950,750
+F5_7S_P7
+Kocuria palustris
+JAFDPR000000000
+SRR13530780
+F5
+Lab 3 overhead
+BA, 37
+32
+2,844,494
+271,586
+897.37
+70.54
+17,076,656
+F5_7S_P8
+Kocuria palustris
+JAFDPS000000000
+SRR13530779
+F5
+Lab 3 overhead
+BA, 37
+49
+2,843,644
+130,397
+648.47
+70.54
+12,340,212
+F6_1S_P_2
+Kocuria palustris
+JAFDPT000000000
+SRR13530778
+F6
+Cupola
+BA, 37
+31
+2,844,162
+271,218
+1,262.76
+70.54
+24,029,822
+F6_7S_B_1
+Kocuria palustris
+JAFDQD000000000
+SRR13530767
+F6
+Lab 3 overhead
+R2A, 25
+34
+2,843,704
+191,187
+595.66
+70.54
+11,335,110
+F4_5S_F1_F
+Methylobacterium organophilum
+JAFDOX000000000
+SRR13530793
+F4
+Overhead 4
+PDA, 25
+219
+7,153,721
+73,806
+525.12
+71
+23,633,880
+F5_7S_P10B
+Micrococcus luteus
+JAFDOZ000000000
+SRR13530781
+F5
+Lab 3 overhead
+BA, 37
+309
+2,634,797
+18,596
+695.07
+72.51
+11,589,510
+F5_7S_P11A
+Micrococcus luteus
+JAFDPA000000000
+SRR13530770
+F5
+Lab 3 overhead
+BA, 37
+249
+2,437,588
+21,893
+526.53
+72.95
+8,779,392
+F5_7S_P1A
+Micrococcus luteus
+JAFDPG000000000
+SRR13530704
+F5
+Lab 3 overhead
+BA, 37
+289
+2,643,054
+17,191
+831.59
+72.54
+13,865,910
+F5_7S_P1B
+Micrococcus luteus
+JAFDPH000000000
+SRR13530791
+F5
+Lab 3 overhead
+BA, 37
+163
+2,662,630
+32,991
+717.06
+72.61
+11,956,220
+F5_7S_P2C
+Micrococcus luteus
+JAFDPK000000000
+SRR13530788
+F5
+Lab 3 overhead
+BA, 37
+274
+2,435,899
+17,792
+894.45
+72.84
+14,913,960
+F5_7S_P3
+Micrococcus luteus
+JAFDPL000000000
+SRR13530787
+F5
+Lab 3 overhead
+BA, 37
+534
+2,325,956
+7,231
+679.00
+72.6
+11,321,680
+F6_3S_P_1A
+Micrococcus luteus
+JAFDPU000000000
+SRR13530777
+F6
+ARED
+BA, 37
+68
+2,461,417
+58,867
+1,075.33
+73.05
+17,930,076
+F6_7S_P_2
+Micrococcus luteus
+JAFDQF000000000
+SRR13530765
+F6
+Lab 3 overhead
+BA, 37
+103
+2,458,603
+49,739
+1,387.39
+73.03
+23,133,344
+F6_3S_P_6
+Pseudoclavibacter alba
+JAFDPW000000000
+SRR13530775
+F6
+ARED
+BA, 37
+8
+2,211,951
+1,246,034
+2,314.39
+64.46
+33,024,422
+F8_1S_1P
+Pseudomonas fulva
+JAFDQI000000000
+SRR13530762
+F8
+Cupola
+BA, 37
+52
+5,220,099
+212,004
+747.60
+61.24
+23,764,838
+F8_1S_2P
+Pseudomonas fulva
+JAFDQJ000000000
+SRR13530761
+F8
+Cupola
+BA, 37
+49
+5,219,879
+271,973
+527.41
+61.24
+16,765,304
+F8_1S_3P
+Pseudomonas fulva
+JAFDQK000000000
+SRR13530760
+F8
+Cupola
+BA, 37
+45
+5,222,637
+279,059
+640.19
+61.24
+20,350,344
+F8_1S_4B
+Pseudomonas fulva
+JAFDQL000000000
+SRR13530758
+F8
+Cupola
+R2A, 25
+50
+5,219,467
+212,004
+595.41
+61.24
+18,927,008
+F8_1S_5B
+Pseudomonas fulva
+JAFDQM000000000
+SRR13530757
+F8
+Cupola
+R2A, 25
+50
+5,220,771
+212,004
+522.35
+61.24
+16,604,570
+F8_1S_6B
+Pseudomonas fulva
+JAFDQN000000000
+SRR13530756
+F8
+Cupola
+R2A, 25
+51
+5,220,269
+228,990
+581.78
+61.24
+18,493,586
+F8_2S_1B
+Pseudomonas fulva
+JAFDQO000000000
+SRR13530755
+F8
+WHC
+R2A, 25
+51
+5,220,561
+212,004
+672.65
+61.24
+21,382,176
+F8_2S_2P
+Pseudomonas fulva
+JAFDQQ000000000
+SRR13530753
+F8
+WHC
+BA, 37
+51
+5,220,953
+212,004
+504.33
+61.24
+16,031,608
+F8_2S_3P
+Pseudomonas fulva
+JAFDQR000000000
+SRR13530752
+F8
+WHC
+BA, 37
+51
+5,219,857
+266,892
+746.18
+61.24
+23,719,826
+F8_4S_1B
+Pseudomonas fulva
+JAFDQS000000000
+SRR13530751
+F8
+Dining table
+R2A, 25
+47
+5,221,731
+212,004
+679.90
+61.24
+21,612,934
+F8_5S_16B
+Pseudomonas fulva
+JAFDQT000000000
+SRR13530750
+F8
+Overhead 4
+R2A, 25
+46
+5,221,547
+266,892
+690.69
+61.24
+21,955,880
+F8_6S_10B
+Pseudomonas fulva
+JAFDQU000000000
+SRR13530749
+F8
+PMM port 1
+R2A, 25
+43
+5,222,049
+276,378
+692.43
+61.24
+22,011,252
+F8_6S_11B
+Pseudomonas fulva
+JAFDQV000000000
+SRR13530747
+F8
+PMM port 1
+R2A, 25
+45
+5,221,141
+272,009
+763.66
+61.24
+24,275,474
+F8_6S_12B
+Pseudomonas fulva
+JAFDQW000000000
+SRR13530746
+F8
+PMM port 1
+R2A, 25
+47
+5,220,530
+212,004
+553.11
+61.24
+17,582,460
+F8_6S_13B
+Pseudomonas fulva
+JAFDQX000000000
+SRR13530745
+F8
+PMM port 1
+R2A, 25
+46
+5,222,282
+228,990
+767.70
+61.24
+24,403,836
+F8_6S_14B
+Pseudomonas fulva
+JAFDQY000000000
+SRR13530744
+F8
+PMM port 1
+R2A, 25
+165
+5,214,942
+53,221
+58.63
+61.25
+1,863,658
+F8_6S_15B
+Pseudomonas fulva
+JAFDQZ000000000
+SRR13530743
+F8
+PMM port 1
+R2A, 25
+45
+5,221,469
+212,004
+644.90
+61.24
+20,500,186
+F8_6S_1P
+Pseudomonas fulva
+JAFDRA000000000
+SRR13530742
+F8
+PMM port 1
+BA, 37
+47
+5,219,969
+212,004
+1,065.14
+61.24
+33,859,008
+F8_6S_3B
+Pseudomonas fulva
+JAFDRB000000000
+SRR13530741
+F8
+PMM port 1
+R2A, 25
+45
+5,222,269
+271,999
+911.16
+61.24
+28,964,010
+F8_6S_3P
+Pseudomonas fulva
+JAFDRC000000000
+SRR13530740
+F8
+PMM port 1
+BA, 37
+45
+5,221,425
+212,004
+1,002.77
+61.24
+31,876,344
+F8_6S_4B
+Pseudomonas fulva
+JAFDRD000000000
+SRR13530739
+F8
+PMM port 1
+R2A, 25
+47
+5,220,883
+212,004
+587.52
+61.24
+18,676,250
+F8_6S_5B
+Pseudomonas fulva
+JAFDRE000000000
+SRR13530738
+F8
+PMM port 1
+R2A, 25
+44
+5,222,120
+276,382
+507.87
+61.24
+16,144,410
+F8_6S_7B
+Pseudomonas fulva
+JAFDRF000000000
+SRR13530736
+F8
+PMM port 1
+R2A, 25
+48
+5,221,613
+266,937
+817.23
+61.24
+25,978,110
+F8_6S_8B
+Pseudomonas fulva
+JAFDRG000000000
+SRR13530735
+F8
+PMM port 1
+R2A, 25
+48
+5,220,807
+266,892
+666.04
+61.24
+21,172,172
+F8_6S_9B
+Pseudomonas fulva
+JAFDRH000000000
+SRR13530734
+F8
+PMM port 1
+R2A, 25
+47
+5,221,098
+266,892
+857.16
+61.24
+27,247,530
+F8_7S_10B
+Pseudomonas fulva
+JAFDRI000000000
+SRR13530733
+F8
+Lab 3 overhead
+R2A, 25
+45
+5,221,475
+248,885
+615.92
+61.24
+19,579,074
+F8_7S_11B
+Pseudomonas fulva
+JAFDRJ000000000
+SRR13530732
+F8
+Lab 3 overhead
+R2A, 25
+44
+5,223,496
+276,366
+714.44
+61.24
+22,710,854
+F8_7S_1B
+Pseudomonas fulva
+JAFDRR000000000
+SRR13530723
+F8
+Lab 3 overhead
+R2A, 25
+46
+5,221,397
+248,885
+734.17
+61.24
+23,338,010
+F8_7S_1P
+Pseudomonas fulva
+JAFDRS000000000
+SRR13530722
+F8
+Lab 3 overhead
+BA, 37
+43
+5,221,447
+266,892
+995.57
+61.24
+31,647,224
+F8_7S_2B
+Pseudomonas fulva
+JAFDRT000000000
+SRR13530721
+F8
+Lab 3 overhead
+R2A, 25
+46
+5,221,320
+248,885
+792.01
+61.24
+25,176,512
+F8_7S_2P
+Pseudomonas fulva
+JAFDRU000000000
+SRR13530720
+F8
+Lab 3 overhead
+BA, 37
+48
+5,221,068
+211,998
+726.98
+61.24
+23,109,428
+F8_7S_3B
+Pseudomonas fulva
+JAFDRV000000000
+SRR13530719
+F8
+Lab 3 overhead
+R2A, 25
+43
+5,222,387
+279,059
+657.54
+61.24
+20,901,852
+F8_7S_3P
+Pseudomonas fulva
+JAFDRW000000000
+SRR13530718
+F8
+Lab 3 overhead
+BA, 37
+47
+5,220,873
+211,998
+916.50
+61.24
+29,133,940
+F8_7S_6B
+Pseudomonas fulva
+JAFDRZ000000000
+SRR13530714
+F8
+Lab 3 overhead
+R2A, 25
+48
+5,222,006
+211,998
+610.88
+61.24
+19,418,924
+F8_7S_8B
+Pseudomonas fulva
+JAFDSC000000000
+SRR13530711
+F8
+Lab 3 overhead
+R2A, 25
+45
+5,221,151
+211,998
+675.48
+61.24
+21,472,302
+F8_7S_9B
+Pseudomonas fulva
+JAFDSD000000000
+SRR13530710
+F8
+Lab 3 overhead
+R2A, 25
+43
+5,221,838
+248,885
+817.24
+61.24
+25,978,556
+F8_8S_13B
+Pseudomonas fulva
+JAFDSG000000000
+SRR13530707
+F8
+Crew quarters
+R2A, 25
+48
+5,220,177
+276,366
+396.21
+61.24
+12,594,644
+F8_8S_1B
+Pseudomonas fulva
+JAFDSH000000000
+SRR13530706
+F8
+Crew quarters
+R2A, 25
+45
+5,222,394
+326,740
+612.35
+61.24
+19,465,438
+F8_8S_2B
+Pseudomonas fulva
+JAFDSI000000000
+SRR13530705
+F8
+Crew quarters
+R2A, 25
+47
+5,220,003
+211,998
+950.52
+61.24
+30,215,290
+F8_8S_3B
+Pseudomonas fulva
+JAFDSK000000000
+SRR13530702
+F8
+Crew quarters
+R2A, 25
+49
+5,220,696
+228,990
+740.00
+61.24
+23,523,202
+F8_8S_7P
+Pseudomonas fulva
+JAFDSM000000000
+SRR13530700
+F8
+Crew quarters
+BA, 37
+48
+5,221,111
+212,004
+877.89
+61.24
+27,906,690
+F8_8S_8P
+Pseudomonas fulva
+JAFDSN000000000
+SRR13530699
+F8
+Crew quarters
+BA, 37
+50
+5,221,099
+212,004
+1,153.25
+61.24
+36,659,886
+F8_8S_9P
+Pseudomonas fulva
+JAFDSO000000000
+SRR13530698
+F8
+Crew quarters
+BA, 37
+44
+5,216,552
+212,004
+725.04
+61.25
+23,047,660
+F6_4S_P_1A
+Pseudomonas granadensis
+JAFDPY000000000
+SRR13530773
+F6
+Dining table
+BA, 37
+32
+6,075,880
+499,949
+543.50
+60.13
+21,534,088
+F6_4S_P_1B
+Pseudomonas granadensis
+JAFDPZ000000000
+SRR13530772
+F6
+Dining table
+BA, 37
+40
+6,075,550
+404,503
+681.05
+60.13
+26,983,966
+F6_4S_P_1C
+Pseudomonas granadensis
+JAFDQA000000000
+SRR13530771
+F6
+Dining table
+BA, 37
+36
+6,074,831
+411,755
+526.75
+60.13
+20,870,328
+F6_4S_P_2
+Pseudomonas granadensis
+JAFDQB000000000
+SRR13530769
+F6
+Dining table
+BA, 37
+36
+6,075,345
+409,624
+849.89
+60.13
+33,673,758
+F6_4S_P_5C
+Pseudomonas granadensis
+JAFDQC000000000
+SRR13530768
+F6
+Dining table
+BA, 37
+35
+6,076,644
+529,557
+356.66
+60.13
+14,131,340
+F6_7S_P_1
+Staphylococcus capitis
+JAFDQE000000000
+SRR13530766
+F6
+Lab 3 overhead
+BA, 37
+23
+2,502,093
+1,289,580
+716.11
+32.83
+11,624,446
+F6_7S_P_4
+Staphylococcus capitis
+JAFDQG000000000
+SRR13530764
+F6
+Lab 3 overhead
+BA, 37
+16
+2,451,586
+1,282,189
+1,422.62
+32.78
+23,092,982
+F5_7S_P12B
+Staphylococcus caprae
+JAFDPE000000000
+SRR13530726
+F5
+Lab 3 overhead
+BA, 37
+12
+2,636,914
+684,748
+848.08
+33.49
+14,738,340
+F6_3S_P_7
+Staphylococcus epidermidis
+JAFDPX000000000
+SRR13530774
+F6
+ARED
+BA, 37
+32
+2,474,746
+167,947
+1,420.95
+32.03
+22,991,394
+F5_7S_P10A
+Staphylococcus saprophyticus
+JAFDOY000000000
+SRR13530792
+F5
+Lab 3 overhead
+BA, 37
+27
+2,660,926
+711,481
+814.84
+32.99
+14,003,764
+F5_7S_P11B
+Staphylococcus saprophyticus
+JAFDPB000000000
+SRR13530759
+F5
+Lab 3 overhead
+BA, 37
+26
+2,617,222
+1,361,305
+964.97
+32.98
+16,583,928
+F5_7S_P12A
+Staphylococcus saprophyticus
+JAFDPD000000000
+SRR13530737
+F5
+Lab 3 overhead
+BA, 37
+27
+2,663,655
+707,529
+1,202.62
+32.99
+20,668,282
+F5_7S_P13
+Staphylococcus saprophyticus
+JAFDPF000000000
+SRR13530715
+F5
+Lab 3 overhead
+BA, 37
+24
+2,662,145
+711,479
+1,165.31
+32.99
+20,027,056
+F5_7S_P5A
+Staphylococcus saprophyticus
+JAFDPN000000000
+SRR13530785
+F5
+Lab 3 overhead
+BA, 37
+27
+2,661,845
+711,479
+1,391.99
+32.99
+23,922,656
+F5_7S_P5B
+Staphylococcus saprophyticus
+JAFDPO000000000
+SRR13530784
+F5
+Lab 3 overhead
+BA, 37
+27
+2,661,424
+711,481
+989.97
+32.99
+17,013,600
+F5_7S_P5C
+Staphylococcus saprophyticus
+JAFDPP000000000
+SRR13530783
+F5
+Lab 3 overhead
+BA, 37
+25
+2,663,767
+711,481
+1,176.36
+32.99
+20,216,888
+F6_7S_P_5
+Staphylococcus saprophyticus
+JAFDQH000000000
+SRR13530763
+F6
+Lab 3 overhead
+BA, 37
+23
+2,664,922
+711,479
+1,502.54
+32.99
+25,822,574
+F5_7S_P4
+Staphylococcus warneri
+JAFDPM000000000
+SRR13530786
+F5
+Lab 3 overhead
+BA, 37
+26
+2,558,875
+420,301
+813.75
+32.46
+13,169,560
+Open in a new tab
+a
+WHC, waste and hygiene compartment; ARED, advanced resistive exercise device; PMM, permanent multipurpose module.
+b
+BA, blood agar.
+Four species from the phylum
+Actinobacteria
+were isolated, from the genera
+Pseudoclavibacter
+,
+Kocuria
+, and
+Micrococcus
+, all of which are common in both environmental and human microbiomes (
+2
+–
+5
+).
+Kocuria palustris
+and
+Micrococcus luteus
+are opportunistic pathogens (
+5
+,
+6
+).
+M. luteus
+can survive in a dormant state under extreme oligotrophic conditions (
+7
+) and has increased growth and increased biomass yield in microgravity (
+8
+).
+Multiple coagulase-negative staphylococci (CoNS) were also isolated. CoNS are normal components of human skin flora (
+9
+) and are often resistant to antibiotics because of their ability to form biofilms (
+10
+); all CoNS in this report are documented opportunistic pathogens (
+11
+–
+15
+).
+Three species from the phylum
+Proteobacteria
+were identified.
+Acinetobacter pittii
+is a less common nosocomial pathogen that causes pneumonia and meningitis in intensive care patients (
+16
+),
+Pseudomonas fulva
+is a commensal plant endophyte (
+17
+) that can also infect immunocompromised patients (
+18
+,
+19
+), and
+Pseudomonas granadensis
+is a recently discovered soil bacterium (
+20
+).
+Two other species in this report that are not associated with the human microbiome are
+Cytobacillus horneckiae
+, a Gram-positive UV-resistant endospore-former that was isolated from a clean room at the Kennedy Space Center (
+21
+), and
+Methylobacterium organophilum
+, a facultative methylotroph (
+22
+).
+All strains reported here were collected aboard the ISS over the course of five flight missions between June 2017 and December 2018 (
+Table 1
+). Premoistened polyester wipes were used to collect samples from eight predetermined surfaces during each flight (see
+Table 1
+for locations). After transport to Earth, the wipes were agitated in sterile phosphate-buffered saline, and the buffer was concentrated with an InnovaPrep CP-150 concentrator. Concentrates were plated onto Reasoner’s 2A (R2A) agar (25°C for 7 days), potato dextrose agar (PDA) (25°C for 7 days), and blood agar (37°C for 2 days) using appropriate concentrations for microbial isolation. Isolated colonies were restreaked on tryptic soy agar (TSA) (25°C), and genomic DNA was extracted using the ZymoBIOMICS DNA MagBead kit according to the manufacturer’s instructions. Libraries for whole-genome shotgun sequencing (WGS) were prepared using the Illumina Nextera DNA Flex library preparation kit as in previous studies (
+23
+) and were sequenced using the NovaSeq 6000 S4 flow cell paired-end 2 × 150-bp platform.
+Sequencing reads were quality filtered and trimmed, and adapter sequences were removed, using FastQC v0.11.7 (
+24
+) and fastp v0.20.0 (
+25
+). Scaffolds were assembled with SPAdes v3.11.1 (
+26
+). QUAST v5.0.2 (
+27
+) was used to determine assembly quality, including the number of contigs, genome size, and
+N
+50
+value. Default settings were used for all steps except for fastp, which included 512 adapters screening. OrthoANIu (
+28
+) was used to confirm the species identity for each strain against the species type strain sequence, with a minimum average nucleotide identity of 95% for identification. Genomes were annotated using the NCBI Prokaryotic Genome Annotation Pipeline (
+29
+).
+Data availability.
+The WGS data and raw data have been deposited in GenBank under the BioProject accession number
+PRJNA690512
+. This project has also been deposited in the NASA GeneLab system (
+30
+) under the project number
+GLDS-361
+. The versions described in this paper are the first versions.
+ACKNOWLEDGMENTS
+Part of the research described was carried out at the Jet Propulsion Laboratory of the California Institute of Technology under a contract with NASA. This research was funded by a 2014 Space Biology NNH14ZTT002N award (grant 80NSSC18K0113) to Crystal Jaing and K.V., which also partially funded postdoctoral fellowships for C.U. and J.M.W. Additionally, A.C.S. was supported by grant 80NM0018D0004, funded to K.V.
+We thank astronauts Colonel Jack Fischer, Colonel Mark Vande Hei, Norishige Kanai, and Alexander Gerst for collecting samples aboard the ISS, the implementation team (Fathi Karouia) at NASA Ames Research Center for coordinating this effort, and Crystal Jaing (Lawrence Livermore National Laboratory), principal investigator of the team. We thank Ryan Kemp (Zymo Corp.) for extracting the DNA and Dan Butler (Weill Cornell Medicine) for generating the shotgun sequencing. The Jet Propulsion Laboratory supercomputing facility staff is acknowledged, notably, Narendra J. Patel (Jimmy) and Edward Villanueva, for continuous support in providing the best possible infrastructure for BIG-DATA analysis.
+REFERENCES
+1.
+Taylor PW. 2015. Impact of space flight on bacterial virulence and antibiotic susceptibility. Infect Drug Resist
+8:249–262. doi: 10.2147/IDR.S67275.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Lin Y-C, Uemori K, de Briel DA, Arunpairojana V, Yokota A. 2004.
+Zimmermannella helvola
+gen. nov., sp. nov.,
+Zimmermannella alba
+sp. nov.,
+Zimmermannella bifida
+sp. nov.,
+Zimmermannella faecalis
+sp. nov. and
+Leucobacter albus
+sp. nov., novel members of the family
+Microbacteriaceae
+. Int J Syst Evol Microbiol
+54:1669–1676. doi: 10.1099/ijs.0.02741-0.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Dastager SG, Tang S-K, Srinivasan K, Lee J-C, Li W-J. 2014.
+Kocuria indica
+sp. nov., isolated from a sediment sample. Int J Syst Evol Microbiol
+64:869–874. doi: 10.1099/ijs.0.052548-0.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Lee K, Ganzorig M, Jung JY, Badaya SK, Lim JY. 2019. Complete genome sequence of
+Kocuria indica
+CE7, isolated from human skin. Microbiol Resour Announc
+8:e00607-19. doi: 10.1128/MRA.00607-19.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Kooken JM, Fox KF, Fox A. 2012. Characterization of
+Micrococcus strains
+isolated from indoor air. Mol Cell Probes
+26:1–5. doi: 10.1016/j.mcp.2011.09.003.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Mattern R, Ding J. 2014. Keratitis with
+Kocuria palustris
+and
+Rothia mucilaginosa
+in vitamin A deficiency. Case Rep Ophthalmol
+5:72–77. doi: 10.1159/000360391.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Greenblatt CL, Baum J, Klein BY, Nachshon S, Koltunov V, Cano RJ. 2004.
+Micrococcus luteus
+-survival in amber. Microb Ecol
+48:120–127. doi: 10.1007/s00248-003-2016-5.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Mauclaire L, Egli M. 2010. Effect of simulated microgravity on growth and production of exopolymeric substances of
+Micrococcus luteus
+space and earth isolates. FEMS Immunol Med Microbiol
+59:350–356. doi: 10.1111/j.1574-695X.2010.00683.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Gowda A, Pensiero AL, Packer CD. 2018.
+Staphylococcus caprae
+: a skin commensal with pathogenic potential. Cureus
+10:e3485. doi: 10.7759/cureus.3485.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Becker K, Heilmann C, Peters G. 2014. Coagulase-negative staphylococci. Clin Microbiol Rev
+27:870–926. doi: 10.1128/CMR.00109-13.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Cameron D, Jiang J-H, Hassan K, Elbourne L, Tuck K, Paulsen I, Peleg A. 2015. Insights on virulence from the complete genome of
+Staphylococcus capitis
+. Front Microbiol
+6:980. doi: 10.3389/fmicb.2015.00980.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Laurent F, Butin M. 2019.
+Staphylococcus capitis
+and NRCS-A clone: the story of an unrecognized pathogen in neonatal intensive care units. Clin Microbiol Infect
+25:1081–1085. doi: 10.1016/j.cmi.2019.03.009.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Xu Z, Misra R, Jamrozy D, Paterson GK, Cutler RR, Holmes MA, Gharbia S, Mkrtchyan HV. 2018. Whole genome sequence and comparative genomics analysis of multi-drug resistant environmental
+Staphylococcus epidermidis
+ST59. G3 (Bethesda)
+8:2225–2230. doi: 10.1534/g3.118.200314.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+Raz R, Colodner R, Kunin CM. 2005. Who are you:
+Staphylococcus saprophyticus
+?
+Clin Infect Dis
+40:896–898. doi: 10.1086/428353.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Campoccia D, Montanaro L, Visai L, Corazzari T, Poggio C, Pegreffi F, Maso A, Pirini V, Ravaioli S, Cangini I, Speziale P, Arciola CR. 2010. Characterization of 26
+Staphylococcus warneri
+isolates from orthopedic infections. Int J Artif Organs
+33:575–581. doi: 10.1177/039139881003300903.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Wisplinghoff H, Paulus T, Lugenheim M, Stefanik D, Higgins PG, Edmond MB, Wenzel RP, Seifert H. 2012. Nosocomial bloodstream infections due to
+Acinetobacter baumannii
+,
+Acinetobacter pittii
+and
+Acinetobacter nosocomialis
+in the United States. J Infect
+64:282–290. doi: 10.1016/j.jinf.2011.12.008.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Adeniji AA, Aremu OS, Loots DT, Babalola OO. 2020.
+Pseudomonas fulva
+HARBPS9.1: candidate anti-
+Fusarium
+agent in South Africa. Eur J Plant Pathol
+157:767–781. doi: 10.1007/s10658-020-02035-4.
+[
+DOI
+] [
+Google Scholar
+]
+18.
+Almuzara MN, Vazquez M, Tanaka N, Turco M, Ramirez MS, Lopez EL, Pasteran F, Rapoport M, Procopio A, Vay CA. 2010. First case of human infection due to
+Pseudomonas fulva
+, an environmental bacterium isolated from cerebrospinal fluid. J Clin Microbiol
+48:660–664. doi: 10.1128/JCM.01849-09.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Seok Y, Shin H, Lee Y, Cho I, Na S, Yong D, Jeong SH, Lee K. 2010. First report of bloodstream infection caused by
+Pseudomonas fulva
+. J Clin Microbiol
+48:2656–2657. doi: 10.1128/JCM.01609-09.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Pascual J, García-López M, Bills GF, Genilloud O. 2015.
+Pseudomonas granadensis
+sp. nov., a new bacterial species isolated from the Tejeda, Almijara and Alhama Natural Park, Granada, Spain. Int J Syst Evol Microbiol
+65:625–632. doi: 10.1099/ijs.0.069260-0.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Vaishampayan P, Probst A, Krishnamurthi S, Ghosh S, Osman S, McDowall A, Ruckmani A, Mayilraj S, Venkateswaran K. 2010.
+Bacillus horneckiae
+sp. nov., isolated from a spacecraft-assembly clean room. Int J Syst Evol Microbiol
+60:1031–1037. doi: 10.1099/ijs.0.008979-0.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Green PN. 2015. Methylobacterium.
+In
+DeVos P, Dedysh S, Hedlund B, Kämpfer P, Rainey F, Trujillo ME, Bowman JP, Brown DR, Glöckner FO, Oren A, Paster BJ, Wade W, Ward N, Busse H-J, Reysenbach AL (ed), Bergey's manual of systematics of archaea and bacteria.
+John Wiley & Sons, Hoboken, NJ. doi: 10.1002/9781118960608.gbm00830.
+[
+DOI
+] [
+Google Scholar
+]
+23.
+Be NA, Avila-Herrera A, Allen JE, Singh N, Checinska Sielaff A, Jaing C, Venkateswaran K. 2017. Whole metagenome profiles of particulates collected from the International Space Station. Microbiome
+5:81. doi: 10.1186/s40168-017-0292-4.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Andrews S. 2011. FastQC: a quality control tool for high throughput sequence data.
+https://www.bioinformatics.babraham.ac.uk/projects/fastqc
+.
+25.
+Chen S, Zhou Y, Chen Y, Gu J. 2018. fastp: an ultra-fast all-in-one FASTQ preprocessor. Bioinformatics
+34:i884–i890. doi: 10.1093/bioinformatics/bty560.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+26.
+Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin M, Kulikov AS, Lesin VM, Nikolenko SI, Pham S, Prjibelski AD, Pyshkin AV, Sirotkin AV, Vyahhi N, Tesler G, Alekseyev MA, Pevzner PA. 2012. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. J Comput Biol
+19:455–477. doi: 10.1089/cmb.2012.0021.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Gurevich A, Saveliev V, Vyahhi N, Tesler G. 2013. QUAST: quality assessment tool for genome assemblies. Bioinformatics
+29:1072–1075. doi: 10.1093/bioinformatics/btt086.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Yoon S-H, Ha S-M, Lim J, Kwon S, Chun J. 2017. A large-scale evaluation of algorithms to calculate average nucleotide identity. Antonie Van Leeuwenhoek
+110:1281–1286. doi: 10.1007/s10482-017-0844-4.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Tatusova T, DiCuccio M, Badretdin A, Chetvernin V, Nawrocki EP, Zaslavsky L, Lomsadze A, Pruitt KD, Borodovsky M, Ostell J. 2016. NCBI Prokaryotic Genome Annotation Pipeline. Nucleic Acids Res
+44:6614–6624. doi: 10.1093/nar/gkw569.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+Ray S, Gebre S, Fogle H, Berrios DC, Tran PB, Galazka JM, Costes SV. 2019. GeneLab: Omics database for spaceflight experiments. Bioinformatics
+35:1753–1759. doi: 10.1093/bioinformatics/bty884.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Data Availability Statement
+The WGS data and raw data have been deposited in GenBank under the BioProject accession number
+PRJNA690512
+. This project has also been deposited in the NASA GeneLab system (
+30
+) under the project number
+GLDS-361
+. The versions described in this paper are the first versions.
+Articles from Microbiology Resource Announcements are provided here courtesy of
+American Society for Microbiology (ASM)

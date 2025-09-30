@@ -1,0 +1,4291 @@
+Plant Cell
+. 2016 Mar 3;28(3):746–769. doi:
+10.1105/tpc.15.00794
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+HLB1 Is a Tetratricopeptide Repeat Domain-Containing Protein That Operates at the Intersection of the Exocytic and Endocytic Pathways at the TGN/EE in Arabidopsis
+[OPEN]
+J Alan Sparks
+J Alan Sparks
+a
+Plant Biology Division, The Samuel Roberts Noble Foundation, Ardmore, Oklahoma 73401
+Find articles by
+J Alan Sparks
+a
+,
+Taegun Kwon
+Taegun Kwon
+a
+Plant Biology Division, The Samuel Roberts Noble Foundation, Ardmore, Oklahoma 73401
+Find articles by
+Taegun Kwon
+a
+,
+Luciana Renna
+Luciana Renna
+b
+Department of Energy, Plant Research Laboratory, Michigan State University, East Lansing, Michigan 48824
+Find articles by
+Luciana Renna
+b
+,
+Fuqi Liao
+Fuqi Liao
+c
+Computing Services Department, The Samuel Roberts Noble Foundation, Ardmore, Oklahoma 73401
+Find articles by
+Fuqi Liao
+c
+,
+Federica Brandizzi
+Federica Brandizzi
+b
+Department of Energy, Plant Research Laboratory, Michigan State University, East Lansing, Michigan 48824
+Find articles by
+Federica Brandizzi
+b
+,
+Elison B Blancaflor
+Elison B Blancaflor
+a
+Plant Biology Division, The Samuel Roberts Noble Foundation, Ardmore, Oklahoma 73401
+Find articles by
+Elison B Blancaflor
+a,
+1
+Author information
+Article notes
+Copyright and License information
+a
+Plant Biology Division, The Samuel Roberts Noble Foundation, Ardmore, Oklahoma 73401
+b
+Department of Energy, Plant Research Laboratory, Michigan State University, East Lansing, Michigan 48824
+c
+Computing Services Department, The Samuel Roberts Noble Foundation, Ardmore, Oklahoma 73401
+www.plantcell.org/cgi/doi/10.1105/tpc.15.00794
+1
+Address correspondence to
+eblancaflor@noble.org
+.
+The author responsible for distribution of materials integral to the findings presented in this article in accordance with the policy described in the Instructions for Authors (
+www.plantcell.org
+) is: Elison B. Blancaflor (
+eblancaflor@noble.org
+).
+Received 2015 Sep 15; Revised 2016 Feb 16; Accepted 2016 Feb 25; Issue date 2016 Mar.
+© 2016 American Society of Plant Biologists. All rights reserved.
+PMC Copyright notice
+PMCID: PMC4826010  PMID:
+26941089
+A forward-genetic screen for Arabidopsis mutants hypersensitive to latrunculin B identifies HLB1 as a plant-specific protein that functions in post-Golgi traffic.
+Abstract
+The endomembrane system plays essential roles in plant development, but the proteome responsible for its function and organization remains largely uncharacterized in plants. Here, we identified and characterized the HYPERSENSITIVE TO LATRUNCULIN B1 (HLB1) protein isolated through a forward-genetic screen in
+Arabidopsis thaliana
+for mutants with heightened sensitivity to actin-disrupting drugs. HLB1 is a plant-specific tetratricopeptide repeat domain-containing protein of unknown function encoded by a single Arabidopsis gene. HLB1 associated with the
+trans
+-Golgi network (
+TGN
+)/early endosome (
+EE
+) and tracked along filamentous actin, indicating that it could link post-Golgi traffic with the actin cytoskeleton in plants. HLB1 was found to interact with the ADP-ribosylation-factor guanine nucleotide exchange factor, MIN7/BEN1 (HOPM INTERACTOR7/BREFELDIN A-VISUALIZED ENDOCYTIC TRAFFICKING DEFECTIVE1) by coimmunoprecipitation. The
+min7/ben1
+mutant phenocopied the mild root developmental defects and latrunculin B hypersensitivity of
+hlb1
+, and analyses of a
+hlb1/ min7/ben1
+double mutant showed that
+hlb1
+and
+min7/ben1
+operate in common genetic pathways. Based on these data, we propose that HLB1 together with MIN7/BEN1 form a complex with actin to modulate the function of the
+TGN
+/
+EE
+at the intersection of the exocytic and endocytic pathways in plants.
+INTRODUCTION
+Normal plant development relies on the endomembrane system as it plays a central role in directing the delivery of enzyme complexes and polysaccharide precursors to the cell surface and to the vacuole (
+Kim and Brandizzi, 2014
+;
+Kim et al., 2015
+). In addition, protein traffic through endomembranes is pivotal for specifying how plants respond and adapt to a range of biotic and abiotic stresses (
+Chen et al., 2008
+;
+Lozano‐Durán et al., 2014
+;
+Garcia de la Garma et al., 2015
+). The endomembrane system is highly dynamic and consists of a network of functionally interconnected organelles beginning with the endoplasmic reticulum (
+ER
+) where proteins are synthesized and then trafficked to the plasma membrane (
+PM
+) and vacuole after processing and sorting in the Golgi apparatus and post-Golgi organelles (
+Richter et al., 2009
+;
+Brandizzi and Barlowe, 2013
+). Recycling and degradation of
+PM
+proteins, which also are facilitated by the endomembrane trafficking machinery, are essential for establishing and maintaining the polar localization of lipids and critical proteins, including auxin carriers, transmembrane receptors, channels, and ion transporters that regulate diverse physiological processes in plants (
+Geldner et al., 2007
+;
+Takano et al., 2010
+;
+Barberon and Geldner, 2014
+;
+Hachez et al., 2014
+;
+Doyle et al., 2015
+).
+Among the various organelles that comprise the endomembrane system, the
+trans
+-Golgi network (
+TGN
+) is arguably the most mysterious. The complexity of
+TGN
+function stems from the fact that it lies at the intersection of secretory and endocytic pathways, through which cargo destined for the
+PM
+and vacuole transit (
+Contento and Bassham, 2012
+;
+Gendre et al., 2015
+). In contrast to mammalian cells, there is mounting evidence that the
+TGN
+in plants functions as an early endosome (
+EE
+) that directly receives cargo taken up via endocytosis for recycling back to the
+PM
+or directed to the vacuole for degradation (
+Dettmer et al., 2006
+;
+Viotti et al., 2010
+). In recent years, much has been learned about the structure and dynamics of the plant
+TGN
+. Using transmission electron tomography on high-pressure frozen
+Arabidopsis thaliana
+roots, for example, it was shown that the formation of the
+TGN
+occurs through distinct structural changes including separation of
+trans
+-most Golgi cisterna via a peeling mechanism and secretory vesicle budding from the plane of the original
+trans
+-Golgi cisterna (
+Kang et al., 2011
+). In another study, live-cell spinning-disc confocal microscopy of Arabidopsis hypocotyl cells uncovered the formation of thin tube-like protrusions connecting two
+TGN
+/
+EE
+units prior to their homotypic fusion (
+Viotti et al., 2010
+). Furthermore, live-cell super-resolution microscopy described two types of
+TGN
+in Arabidopsis roots: a Golgi-associated
+TGN
+on the
+trans
+-side of the Golgi apparatus and a Golgi-independent
+TGN
+that moved independently of Golgi bodies (
+Uemura et al., 2014
+).
+In addition to new knowledge about its structure and dynamics, several protein components of the plant
+TGN
+have been discovered that mediate crucial aspects of post-Golgi membrane traffic and maintain
+TGN
+integrity. These
+TGN
+resident proteins include soluble
+N
+-ethylmaleimide-sensitive factor attachment protein receptors, the so-called SYNTAXINS of PLANTS (SYPs), vacuolar H
++
+-ATPases, adaptor protein complexes, small monomeric GTPases of the ADP ribosylation factor (ARF) and RAS genes from rat brain (RAB) families, and the ECHIDNA/YPT/RAB GTPase complex (
+Dettmer et al., 2006
+;
+Chow et al., 2008
+;
+Zouhar et al., 2009
+;
+Gendre et al., 2011, 2013
+;
+Uemura et al., 2012
+;
+Asaoka et al., 2013
+;
+Naramoto et al., 2014
+). Whereas many of the plant
+TGN
+-localized proteins are evolutionarily conserved in eukaryotes, some appear to be unique to the plant post-Golgi trafficking machinery (
+Ebine et al., 2008
+,
+2011
+;
+Fujimoto and Ueda, 2012
+), and it is likely that more factors remain uncharacterized.
+Mobility of organelles within the cell is typically driven by the cytoskeleton, a network of filamentous proteins that consists of microtubules, microfilaments, and intermediate filaments. Microfilaments, also known as filamentous actin (F-actin), assemble in an energy-dependent manner from monomeric globular actin (G-actin) units to form two-stranded, helical structures that are ∼5 to 7 nm in diameter (
+Li et al., 2014
+). The higher order organization of the actin cytoskeleton consists mostly of bundles and cables, and their assembly into these structures is specified by several actin binding proteins such as fimbrin, villin, profilin, LIM domain-containing proteins, thrumin, and crolin (
+Papuga et al., 2010
+;
+Whippo et al., 2011
+;
+Su et al., 2012
+;
+Jia et al., 2013
+;
+Qu et al., 2013
+;
+Sun et al., 2013
+). The movement and dynamics of the
+ER
+and the various organelles that make up the plant endomembrane system are largely dependent on the actin cytoskeleton, as demonstrated using actin-disrupting drugs such as latrunculin B (
+LatB
+) and cytochalasin D (
+Boevink et al., 1998
+;
+Nebenführ et al., 1999
+;
+Sparkes et al., 2009
+). However, actin appears to be dispensable for protein transport between the
+ER
+and Golgi apparatus (
+Brandizzi et al., 2002
+). While it was shown that cargo traffic from the Golgi to the vacuoles requires an intact actin cytoskeleton, the underlying mechanisms by which this process is accomplished are unknown (
+Kim et al., 2005
+).
+There is a wealth of information on the relationship between post-Golgi traffic and its mediation by the actin cytoskeleton in yeast and animal cells. Most of the evidence to date in these systems has pointed toward a pivotal role for F-actin and its associated regulatory and motor proteins in post-Golgi vesicle biogenesis and membrane deformation (
+Anitei and Hoflack, 2012
+). In mammalian HeLa cells, for example, myosin 1b was shown to generate the forces that regulate the assembly of F-actin foci for tubule formation at the
+TGN
+(
+Almeida et al., 2011
+). In another class of mammalian cells called 3T3, the actin-related protein 2/3 (ARP2/3) complex and their activators in the WASP (Wiskott-Aldrich syndrome protein) family drive the nucleation of F-actin on endosomes, which is necessary to promote endosome fission (
+Derivery et al., 2009
+). Recently, a combination of elegant optical tweezer and live-cell confocal imaging in human epithelial cells demonstrated that the actin cytoskeleton confers rigidity to the Golgi complex, making it stiffer than the surrounding cytoplasm. It was proposed that mechanical stress imposed by actin affects membrane budding and fission during intra-Golgi transport (
+Guet et al., 2014
+).
+In plants, several actin binding proteins appear to link actin dynamics with membrane trafficking. Many of these proteins, such as the ARP2/3 complex, profilin, formins, and capping proteins, which localize to the
+PM
+and various membranes of organelles within the endomembrane system, have orthologs in other eukaryotes (
+Zhang et al., 2010
+,
+2013
+;
+Sun et al., 2013
+;
+Jimenez-Lopez et al., 2014
+;
+Cvrčková et al., 2015
+). In fact, some of the mechanisms by which F-actin on membranes is nucleated and polymerized in plants mirror those of animals and yeast, where small GTPases of the Rho family directly activate membrane-localized actin nucleators (
+Takenawa and Suetsugu, 2007
+). For example, genetic and biochemical studies in Arabidopsis showed that a Rho of plants (ROP)-guanine nucleotide exchange factor (GEF) protein called SPIKE1 regulates F-actin polymerization through the ARP2/3 complex (
+Basu et al., 2008
+;
+Zhang et al., 2010
+).
+Recently, a number of plant-specific proteins that function as actin membrane adaptors have been uncovered. One example is RISAP, a
+TGN
+-localized ROP-GTPase effector that interacts with F-actin and binds to the globular tail domain of myosin XI in tobacco (
+Nicotiana tabacum
+) pollen tubes. RISAP is ∼33% identical to the Arabidopsis family of myosin binding proteins at the amino acid level (
+Peremyslov et al., 2013
+). It was proposed that the RISAP-mediated interaction between the actin cytoskeleton and endomembrane system is an essential component of the tip growth machinery in pollen tubes (
+Stephan et al., 2014
+). Another family of plant-specific proteins that mediate actin-endomembrane crosstalk is the 13-member Networked (NET) proteins. These NET proteins interacted directly with F-actin through a conserved N-terminal domain. The NET proteins were also shown to localize to
+PM
+-
+ER
+contact sites and the tonoplast (
+Deeks et al., 2012
+;
+Wang et al., 2014
+).
+Here, we report the discovery of a plant-specific protein called HLB1 (for HYPERSENSITIVE TO LATRUNCULIN B1) through a forward-genetic screen in Arabidopsis seedlings for mutants that exhibited differential responses to the inhibitory effects of
+LatB
+on primary root growth. We determined that HLB1 tracks along F-actin and colocalizes with the
+TGN
+/
+EE
+in vivo and that
+hlb1
+has marked defects in the recycling of proteins to the
+PM
+after endocytic uptake. Furthermore, we identified the ARF-GEF, MIN7/BEN1 (
+Nomura et al., 2006
+;
+Tanaka et al., 2009
+), as an HLB1 interactor and showed that
+hlb1
+functions in a common genetic pathway as
+min7/ben1
+in regard to
+LatB
+hypersensitivity despite their opposite effects on membrane trafficking. These findings are significant because they support the conclusion that HLB1 represents a class of plant-specific proteins that function at the crossroads of exocytic and endocytic trafficking pathways, possibly through mechanisms coordinated by the actin cytoskeleton.
+RESULTS
+Isolation and Characterization of Arabidopsis Mutants Hypersensitive to
+LatB
+Approximately 20,000 T-DNA activation-tagged seedlings in the Col-0 background were grown on media supplemented with 100 nM
+LatB
+. Seedlings with significantly reduced primary root length were isolated and their progeny were retested for increased
+LatB
+sensitivity. Three nonallelic mutants whose primary roots were hypersensitive to
+LatB
+were identified and
+hlb1
+was selected for further study (
+Figures 1A
+to
+1D
+). Hypocotyls of
+hlb1
+grown in the dark and root hairs of light-grown seedlings were also hypersensitive to
+LatB
+(
+Supplemental Figure 1
+). Moreover,
+hlb1
+primary roots displayed increased sensitivity to cytochalasins, another class of actin-disrupting compounds (
+Supplemental Figure 2
+). Analysis of 224 F2 seedlings revealed a 172:52 segregation of wild type:mutant for a 3:1 ratio (calculated χ
+2
+= 0.381 < χ
+2
+0.95
+= 3.841), indicating that
+hlb1
+is recessive in a single Mendelian locus. Homozygous
+hlb1
+plants were backcrossed at least three times with Col-0 to reduce the frequency of extraneous mutations.
+Figure 1.
+Open in a new tab
+Primary Root Growth of
+hlb1
+Is Hypersensitive to
+LatB
+.
+(A)
+to
+(C)
+Seedlings of the wild type (Col-0 ecotype) and
+hlb1
+2 d (
+[A]
+and
+[B]
+) and 6 d
+(C)
+after transplanting 3-d-old seedlings to growth media supplemented with the solvent control solution
+(A)
+or 50 nM
+LatB
+(
+[B]
+and
+[C]
+). Note
+hlb1
+grown in
+LatB
+has shorter primary roots compared with the wild type. Bars = 5 mm.
+(D)
+Dose–response analyses of primary root growth (expressed as percent of control) of the wild type and
+hlb1
+7 d after transplanting 4-d-old seedlings to different concentrations of
+LatB
+. Statistical significance was determined by one-way ANOVA. Means (
+n
+= 45 to 60 roots) ±
+se
+. Different letters are significantly different (P < 0.05, Tukey’s test).
+Osmotic stress, salt stress, and the auxins indole-3-acetic acid and 1-naphthaleneacetic acid inhibited primary root growth in
+hlb1
+to a similar extent as in the wild type, indicating that
+hlb1
+is hypersensitive only to
+LatB
+and cytochalasin, compounds that directly interfere with actin polymerization (
+Supplemental Figure 3
+). The response of other mutants to genes encoding actin regulatory proteins including single mutants
+brk1
+,
+arp2
+,
+adf4
+,
+cpa1
+,
+cpb1
+, and
+cpb3
+and quadruple mutant
+scar1234
+(
+Mathur et al., 2003
+;
+Dyachok et al., 2011
+;
+Li et al., 2012
+,
+2015
+;
+Henty-Ridilla et al., 2014
+) to
+LatB
+was also compared with
+hlb1
+. These mutants exhibited wild-type sensitivity to
+LatB
+.
+act8
+, a mutant of a root-expressed vegetative actin isoform, also showed wild-type sensitivity to
+LatB
+. Although
+act2
+, a mutant of another root-expressed vegetative actin isoform (
+Kandasamy et al., 2009
+), was hypersensitive to
+LatB
+, its heightened sensitivity to the chemical was not as severe as that of
+hlb1
+(
+Supplemental Figure 4
+).
+Cell Division, Cell Expansion, and F-Actin Organization in
+hlb1
+Are Hypersensitive to
+LatB
+We asked whether the increased sensitivity of
+hlb1
+roots to
+LatB
+could be explained by inhibition of cell division, cell expansion, or both. To address this question, cortical cell length in the root elongation zone and cortical cell number in the meristem was obtained from confocal microscopy analyses of propidium iodide-stained roots 2 d after transplanting seedlings on media with or without 50 nM
+LatB
+(
+Supplemental Figure 5A
+). Both cortical cell number in the root meristem and cortical cell length in the elongation zone were reduced in
+LatB
+-treated
+hlb1
+seedlings compared with the wild type, indicating that inhibition of both processes contributed to the hypersensitivity of the mutant to the drug (
+Supplemental Figures 5B to 5E
+).
+We next analyzed F-actin organization in cells of the elongation zone of wild-type and
+hlb1
+seedlings expressing the live-cell F-actin reporter
+UBQ10pro:GFP-ABD2-GFP
+(
+Dyachok et al., 2014
+) transplanted to growth media with or without 50 nM
+LatB
+. Cells in the root elongation zone of both genotypes on control medium showed dense and random F-actin arrays, a feature typical of cells within this region (
+Figure 2A
+). When transplanted on
+LatB
+, wild-type cells maintained their dense network of F-actin that roughly mirrored the controls with the exception of a few fluorescent aggregates. By contrast, cells in the root elongation zone of
+LatB
+-treated
+hlb1
+had mostly diffuse fluorescence, fewer distinct F-actin arrays, and more numerous fluorescent aggregates compared with the wild type (
+Figure 2A
+). To quantify the effect of
+LatB
+on F-actin integrity, filament density (occupancy) in cells from the elongation zone was measured using an algorithm developed earlier (
+Higaki et al., 2010
+). Whereas the wild type and
+hlb1
+on the control medium and wild type on
+LatB
+-supplemented medium had similar occupancy values,
+LatB
+-treated
+hlb1
+had significantly lower F-actin occupancy values, indicating that F-actin structures of
+hlb1
+were indeed more sensitive to the chemical (
+Figure 2B
+).
+Figure 2.
+Open in a new tab
+F-Actin of
+hlb1
+Roots Is More Sensitive to
+LatB
+.
+(A)
+Representative images of F-actin organization in the elongation zone of the wild type and
+hlb1
+expressing
+UBQ10pro:GFP-ABD2-GFP
+2 d after transplanting 3-d-old seedlings on media supplemented with the solvent control solution or 50 nM
+LatB
+. Bar = 20 μm.
+(B)
+Quantitative analysis of F-actin density (occupancy) in epidermal cells from the root elongation zone. Statistical significance was determined by one way ANOVA. Means (
+n
+> 50 cells) ±
+se
+. Different letters are significantly different (P < 0.05, Tukey’s test).
+hlb1
+Exhibits Reduced Root Hair and Primary Root Growth in the Absence of
+LatB
+Close examination of
+hlb1
+seedlings revealed that they had mild growth defects even when
+LatB
+was excluded from the growth medium. Primary roots of
+hlb1
+were slightly shorter than the wild type at 3, 5, and 7 d after planting (
+Figures 3A
+and
+3B
+).
+hlb1
+root hairs were also shorter than those of the wild type (
+Figures 3C
+to
+3E
+). Furthermore, differential interference contrast (
+DIC
+) microscopy showed that
+hlb1
+root hairs were wider and had subtle shape distortions when compared with wild-type root hairs (
+Figure 3F
+).
+Figure 3.
+Open in a new tab
+Primary Roots and Root Hairs of
+hlb1
+Are Shorter Than the Wild Type in the Absence of
+LatB
+.
+(A)
+Seven-day-old wild-type and
+hlb1
+seedlings grown vertically on
+LatB
+-free growth medium. Bar = 5 mm.
+(B)
+Quantification of primary root length at 3, 5, and 7 d after planting on
+LatB
+-free medium. Values are means (
+n
+= 50 to 65 roots) ±
+se
+(
+t
+test, ***P < 0.0001).
+(C)
+and
+(D)
+Low magnification images of wild-type
+(C)
+and
+hlb1
+(D)
+seedlings grown on
+LatB
+-free medium showing multiple root hairs. Note the shorter root hairs of
+hlb1
+compared with the wild type. Bar = 100 μm.
+(E)
+Average root hair length of wild-type and
+hlb1
+seedlings. Values are means (
+n
+= 86 to 120 root hairs) ±
+se
+(
+t
+test, ***P < 0.0001).
+(F)
+DIC
+images of single root hairs from 5-d-old seedlings of the wild type and
+hlb1
+grown on
+LatB
+-free medium. Bar = 20 μm.
+As noted, distinct qualitative and quantitative differences in F-actin organization in cells of the root elongation zone were observed between wild-type and
+hlb1
+seedlings but only when treated with 50 nM
+LatB
+(
+Figure 2
+). We therefore evaluated F-actin dynamics in root hairs, where growth differences between the wild type and
+hlb1
+appeared to be more pronounced (
+Figures 3C
+to
+3F
+). In wild-type seedlings, the majority of the actively elongating root hairs were characterized by a distinct enrichment of fine and dynamic meshwork of F-actin at the extreme apex (
+Figure 4A
+;
+Supplemental Movie 1
+). In
+hlb1
+root hairs, the tip-focused fine meshwork of F-actin was not always observed, and in cases where it was present, it would often dissipate rapidly (
+Figure 4A
+;
+Supplemental Movie 1
+). Similar results were obtained with wild-type and
+hlb1
+root hairs expressing the F-actin marker
+UBQ10pro:Lifeact-mGFP
+, which was previously reported to clearly label apical F-actin meshwork at the apex of pollen tubes and moss protonema (
+Vidali et al., 2009
+). Using a 100× oil immersion objective on the spinning-disc confocal microscope, wild-type root hairs expressing
+UBQ10pro:Lifeact-mGFP
+had distinct filamentous meshwork at the tip that would often dissipate in the tips of
+hlb1
+root hairs (
+Figure 4B
+;
+Supplemental Movie 2
+). F-actin tip dynamics in the wild type and
+hlb1
+were quantified from 3-min time-lapse movies of growing roots hairs by obtaining the ratio of the total time where the apical meshwork of F-actin was clearly visible to the total time elapsed (
+Figure 4B
+). This ratio provided an indication of the percentage of time that the root hair was able to maintain its tip-focused fine meshwork of F-actin as it elongated. These analyses showed that
+hlb1
+root hairs had a significantly lower ratio value than the wild type, indicating that the mutant largely failed to maintain its tip-focused fine meshwork of F-actin (
+Figure 4C
+).
+Figure 4.
+Open in a new tab
+Apical F-Actin Organization Is Disrupted in
+hlb1
+Root Hairs.
+(A)
+Fine, dynamic mesh works of F-actin at the extreme tip or subapical region of wild-type root hairs (arrows) expressing
+UBQ10pro:GFP-ABD2-GFP
+. The fine apical mesh works of F-actin is often absent or occasionally dissipates in
+hlb1
+root hairs. See
+Supplemental Movie 1
+for a corresponding time-lapse sequence. Bar = 20 μm.
+(B)
+F-actin labeled using
+UBQ10pro:Lifeact-mGFP
+in root hair tips of the wild-type and
+hlb1
+backgrounds. Filamentous structures are distinct in the apex of wild-type root hairs (arrow). F-actin dynamics in growing root hairs was quantified by obtaining the total time where the apical F-actin gradient was visible (arrow) divided by 180 s (total elapsed time of the video) to obtain the average ratio values shown in
+(C)
+.
+(C)
+Quantification of tip F-actin dynamics in growing wild-type and
+hlb1
+root hairs. Means (
+n
+= 28 to 42 root hairs) ±
+se
+(
+t
+test, **P < 0.001).
+We also asked whether
+hlb1
+mutants had any measureable differences in global F-actin dynamics when compared with the wild type. Global F-actin dynamics was quantified from time-lapse movie sequences obtained from a spinning-disc confocal microscope using the metrics of pixel difference and correlation values developed earlier (
+Vidali et al., 2010
+). For this type of analysis, we focused our imaging on cortical F-actin in root epidermal cells in the mature zone and the center of growing root hairs because cells in these areas of the root stayed within the same field of view during the entire 1-min time-lapse sequence (
+Supplemental Movie 3
+). Time-lapse data sets from epidermal cells of the root transition or elongation zone were significantly displaced as the primary root grew in the medium and therefore were not suitable for the global F-actin analysis described here. Based on changes in pixel difference and correlation coefficient decay, there were no dramatic differences in global F-actin dynamics between the wild type and
+hlb1
+(
+Supplemental Figure 6
+).
+Cloning of the Gene Conferring the
+hlb1
+Phenotype
+Because attempts to identify the mutation responsible for the
+hlb1
+phenotype by standard thermal asymmetric interlaced-PCR were unsuccessful, we conducted map-based cloning to identify the
+HLB1
+gene. We found that the
+AT5G41950
+gene had a 2-bp deletion in the first exon corresponding to amino acid 63 in the
+hlb1
+mutant (Arabidopsis Chromosome 5 Positions 16786010 and 16786011). This frameshift mutation resulted in a premature stop codon at amino acid 67, which may possibly lead to a truncated protein (
+Supplemental Figure 7A
+). To confirm whether loss of
+AT5G41950
+corresponds to
+hlb1
+, we searched the publicly available SALK collection for T-DNA insertions in the
+AT5G41950
+gene (
+Alonso et al., 2003
+). We genotyped the segregating progeny by PCR and identified homozygous plants for three SALK lines (SALK_046760, SALK_144501, and SALK_065836), which had insertions in the 8th exon, the 7th intron, and the 10th intron of
+AT5G41950
+, respectively (
+Supplemental Figure 7B
+). Seedlings of these three T-DNA insertion mutants exhibited similar hypersensitivity to
+LatB
+and root hair growth defects as
+hlb1
+, indicating that these were mutant alleles of
+hlb1
+(
+Supplemental Figures 7C and 7D
+). The original
+hlb1
+mutant was designated as
+hlb1-1
+, whereas SALK_046760, SALK_144501, and SALK_065836 were named
+hlb1-2
+,
+hlb1-3
+, and
+hlb1-4
+, respectively (
+Supplemental Figure 7B
+). The average primary root length was significantly less than that of the wild type only in
+hlb1-2
+, which had an insertion in an exon, suggesting that
+hlb1-3
+and
+hlb1-4
+are weaker alleles (
+Supplemental Figure 7D
+). The
+hlb1-1
+mutant allele was used for the analyses detailed below. Further evidence showing that
+hlb1
+is linked to
+AT5G41950
+was obtained from functional complementation of
+hlb1
+by expression of an HLB1-GFP fusion protein that restored the wild-type phenotype (see below).
+HLB1 Is a Tetratricopeptide Repeat-Containing Protein Encoded by a Single Arabidopsis Gene
+HLB1
+encodes a 565-amino acid protein of unknown function (
+Figure 5A
+). We analyzed 141 HLB1 homologs from 79 plant species to understand their phylogenetic relationship. Phylogenetic relationships were inferred by the maximum likelihood method (
+Le and Gascuel, 2008
+) using MEGA6 software (
+Tamura et al., 2013
+). Based on this analysis, HLB1 appears to be well conserved across the land plant lineage (
+Supplemental Figure 8
+). Sequence alignment of HLB1 homologs from six plant species representing moss, monocots, and eudicots showed that HLB1 has a highly variable N terminus, six tetratricopeptide repeat (
+TPR
+) motifs, and a well conserved C terminus predicted to form a helical structure. The conservation of amino acids at the C terminus of several plant HLB1 proteins suggests that HLB1 has functional domains that have yet to be characterized (
+Figure 5B
+).
+Figure 5.
+Open in a new tab
+HLB1 Domain Structure and Amino Acid Sequence Alignment with Homologs from Selected Land Plants.
+(A)
+Full-length HLB1 domain structure showing the position of six TPR motifs and C-terminal conserved domain (CTD).
+(B)
+Alignment of Arabidopsis HLB1 with HLB1 homologs from the five selected model species:
+Medicago truncatula
+,
+Populus trichocarpa
+,
+Oryza sativa
+,
+Brachypodium distachyon
+, and
+Physcomitrella patens
+. Dark-green shading depicts identical amino acid residues. Light green indicates other conserved residues.
+Including HLB1, the Arabidopsis genome has 147 proteins containing a total of 839
+TPR
+motifs that are predicted to function in a range of biological processes and localize to a variety of subcellular compartments (
+Supplemental Data Set 1
+). However, HLB1 has no paralogs among any of the 146
+TPR
+motif-containing Arabidopsis proteins, indicating that it exists as a single gene. Furthermore, HLB1 is specific to land plants, as no homologous sequences were identified in fungi and animals.
+TPR
+domains mediate protein-protein interactions, and proteins containing these domains are part of protein complexes with diverse functions including transcriptional repression, protein import, heat shock, and cell cycle regulation (
+Blatch and Lässle, 1999
+;
+D’Andrea and Regan, 2003
+).
+TPR
+domain-containing proteins in plants have been implicated in responses to various hormones, assembly of the photosynthetic machinery, plastid partitioning, and root development (
+Jacobsen et al., 1996
+;
+Rosado et al., 2006
+;
+Yang et al., 2011
+;
+Hu et al., 2014
+;
+Bhuiyan et al., 2015
+).
+HLB1 Colocalizes with
+TGN
+and
+EE
+Markers through Its Conserved C-Terminal Domain
+HLB1 fusions to GFP under the control of the native
+HLB1
+promoter (
+HLB1pro:HLB1-GFP
+) and the
+CaMV 35S
+promoter (
+35Spro:GFP-HLB1
+) were generated to gain more insight into HLB1 function. Both
+HLB1pro:HLB1-GFP
+and
+35Spro:GFP-HLB1
+complemented the
+LatB
+-hypersensitive and root hair phenotypes of
+hlb1-1
+in young seedlings, indicating that the HLB1 fluorescent protein fusions are functional (
+Figures 6A
+and
+6B
+;
+Supplemental Figure 9
+).
+Figure 6.
+Open in a new tab
+A Functional HLB1-GFP Fusion Localizes to Endomembranes.
+(A)
+and
+(B)
+HLBpro:HLB1-GFP
+complements the hypersensitivity to
+LatB
+and short root hair phenotypes of
+hlb1-1
+. Bars = 5 mm in
+(A)
+and 200 μm in
+(B)
+.
+(C)
+and
+(D)
+HLB1-GFP decorates distinct fluorescent bodies (arrowheads) in the root elongation zone and growing root hairs. See
+Supplemental Movie 4
+for a corresponding time-lapse sequence.
+(E)
+and
+(F)
+HLB1-GFP in the root elongation zone and root hairs form intracellular agglomerates (arrows) upon treatment with 50 μM
+BFA
+. Bars = 20 μm.
+Confocal microscopy of cells from the elongation zone and root hairs of
+hlb1-1
+seedlings expressing
+HLB1pro:HLB1-GFP
+revealed that the fusion protein localized to the cytoplasm and decorated distinct and dynamic foci (
+Figures 6C
+and
+6D
+;
+Supplemental Movie 4
+). The fluorescent bodies decorated by HLB1-GFP were reminiscent of those observed in plant cells expressing fluorescently tagged compartments of the endomembrane system (
+Geldner et al., 2009
+). Endomembrane compartments such as endosomes visualized with GFP have been shown to form large intracellular fluorescent agglomerates when treated with the fungal metabolite Brefeldin A (
+BFA
+) (
+Robinson et al., 2008
+). Consistent with the hypothesis that the HLB1-GFP bodies were associated with the endomembrane system, seedlings expressing
+HLB1pro:HLB1-GFP
+treated with 50 μM
+BFA
+for 1 h developed intracellular fluorescent agglomerates (
+Figures 6E
+and
+6F
+).
+To determine the identity of the endomembrane compartment with which HLB1 is associated,
+HLB1pro:HLB1-GFP
+lines were crossed with a set of marker lines expressing mCherry and CFP endomembrane markers (
+Nelson et al., 2007
+;
+Geldner et al., 2009
+). HLB1-GFP overlapped substantially with the
+TGN
+markers mCherry-VTI12 and SYP61-CFP and an early/recycling endosomal marker, mCherry-RabA1g (
+Figures 7A
+to
+7D
+;
+Supplemental Movies 5 and 6
+), but not with the Golgi marker Man49-mCherry. Although the bodies decorated by HLB1-GFP and Man49-mCherry were clearly distinct, many HLB1-GFP bodies were adjacent to the larger Golgi bodies and often moved alongside Golgi stacks, a feature typical of
+TGN
+dynamics (
+Supplemental Movie 7
+) (
+Uemura et al., 2014
+). A number of HLB1-GFP bodies were also observed to move independently of Man49-mCherry (
+Supplemental Movie 7
+). HLB1-GFP did not overlap substantially with mCherry-ARA6, a marker for the late endosomes/prevacuolar compartment (
+PVC
+) (
+Figure 7E
+;
+Supplemental Movie 8
+). The extent of colocalization of HLB1-GFP with selected endomembrane markers was quantified by extracting Pearson’s correlation coefficients from scatterplots of green-red image pairs (
+Manders et al., 1993
+;
+Costes et al., 2004
+;
+Bottanelli et al., 2012
+) (
+Figure 7F
+). The Pearson’s correlation coefficient was higher in the HLB1-GFP-mCherry-VTI12 pair when compared with the HLB1-GFP-mCherry-RabA1g pair. The higher value for the HLB1-GFP-mCherry-VTI12 pair indicates that HLB1 foci are associated more closely with the VTI12-resident
+TGN
+/
+EE
+population and to a lesser extent with recycling endosomes decorated by RabA1g (
+Figure 7G
+). Lower Pearson’s correlation coefficients were obtained from the HLB1-GFP-mCherry-ARA6 pair, consistent with visual observations of minimal overlap between HLB1 and late endosomes/
+PVC
+(
+Figures 7E
+and
+7G
+;
+Supplemental Movie 8
+). Together, these data strongly support the conclusion that HLB1 is a
+TGN
+/
+EE
+-localized protein.
+Figure 7.
+Open in a new tab
+HLB1-GFP Colocalizes with
+Trans
+-Golgi Network and Early/Recycling Endosome Markers.
+(A)
+and
+(B)
+Peripheral root cap
+(A)
+and epidermal cells in the root elongation zone
+(B)
+coexpressing HLB1-GFP and mCherry-VTI12, a
+TGN
+marker. Arrows indicate where HLB1-GFP and mCherry-VTI12 overlap. See
+Supplemental Movie 5
+for a corresponding time-lapse sequence.
+(C)
+Epidermal cells in the root elongation zone coexpressing HLB1-GFP and SYP61-CFP, another
+TGN
+marker. Arrows indicate where HLB1-GFP and SYP61-CFP overlap.
+(D)
+Peripheral root cap cells coexpressing HLB1-GFP and mCherry-RabA1g, an early/recycling endosome marker. Arrows indicate where HLB1-GFP and mCherry- RabA1g overlap. See
+Supplemental Movie 6
+for a corresponding time-lapse sequence.
+(E)
+Peripheral root cap cells coexpressing HLB1-GFP and mCherry-ARA6, a late endosome/
+PVC
+marker. Note that HLB1-GFP (arrows) and mCherry-ARA6 (arrowheads) do not overlap. See
+Supplemental Movie 8
+for a corresponding time-lapse sequence. Bars = 5 μm in
+(A)
+to
+(E)
+.
+(F)
+A representative scatterplot for quantification of the extent of colocalization between green- and red-emitting organelles. The scatterplot for colocalization was obtained from an individual cell as indicated by the white rectangle in
+(A)
+.
+(G)
+Pearson’s correlation coefficients were calculated from scatterplots using Volocity quantitation software. Statistical significance was determined by one-way ANOVA. Means (
+n
+> 170 cells) ±
+se
+. Different letters are significantly different (P < 0.05, Tukey’s test).
+As noted above, HLB1 contains six
+TPR
+motifs and a conserved C-terminal domain of unknown function. To determine whether these domains target HLB1 to the
+TGN
+/
+EE
+, we generated GFP fusions to truncated HLB1 where either the six
+TPR
+motifs (GFP-HLB1
+∆TPR
+) or the conserved C terminus (GFP-HLB1
+∆CTD
+) was deleted (
+Supplemental Figure 10A
+). When expressed in seedlings, the GFP-HLB1
+∆CTD
+fusion that had the intact
+TPR
+motifs localized exclusively to the cytoplasm. By contrast, the GFP-HLB1
+∆TPR
+with the conserved C terminus localized to both the cytoplasm and
+TGN
+/
+EE
+bodies, similar to the localization of full-length HLB1 (
+Supplemental Figure 10B
+). Taken together, the data indicate that the C terminus of HLB1 is responsible for its localization to the
+TGN
+/
+EE
+.
+HLB1-GFP Bodies Track along F-Actin in Planta
+Given that the
+hlb1
+mutant is hypersensitive to
+LatB
+, we tested the association of HLB1-GFP TGNs with F-actin in planta. HLB1-GFP plants were crossed with plants expressing the red fluorescent F-actin construct
+UBQ10pro:mCherry-ABD2-mCherry
+(
+Dyachok et al., 2014
+). It was difficult to obtain clear images of mCherry-ABD2-mCherry and HLB1-GFP bodies together in root cells that were highly cytoplasmic because the HLB1-GFP cytoplasmic component would often obscure the red F-actin label. Thus, imaging of mCherry-ABD2-mCherry and HLB1-GFP was conducted on vacuolated epidermal cells of the root maturation zone and fully mature root hairs, where signal from the cytoplasm was minimal. In these cell types, HLB1-GFP bodies aligned with and tracked along F-actin bundles in a “beads-on-a-string”-like localization, typical of actin membrane adaptors such as the NET proteins, which are associated with the actin cytoskeleton in vivo (
+Figures 8A
+and
+8B
+;
+Supplemental Movies 9 and 10
+) (
+Wang et al., 2014
+).
+Figure 8.
+Open in a new tab
+HLB1-GFP Tracks along F-Actin Cables in Living Cells.
+Root epidermal cell from the maturation zone
+(A)
+and the base of a mature root hair
+(B)
+coexpressing HLB1-GFP and mCherry-ABD2-mCherry (mCh-ABD2-mCh), an F-actin marker. Arrows indicate individual or clusters of HLB1-GFP bodies aligned along the red-emitting F-actin cables. See
+Supplemental Movies 9 and 10
+for corresponding time-lapse sequences. Bars = 10 μm.
+The increased sensitivity of
+hlb1
+to
+LatB
+prompted us to ask whether the HLB1-GFP bodies themselves responded to
+LatB
+treatment. We found that roots of seedlings formed intracellular HLB1-GFP agglomerates within 10 min of
+LatB
+application. However, other
+TGN
+markers, including YFP-VTI12 and SYP61-CFP, formed similar aggregates as HLB1-GFP after
+LatB
+treatment, indicating that the compound has a global effect on
+TGN
+distribution in root cells (
+Supplemental Figure 11
+).
+The Rice Ortholog of Arabidopsis
+HLB1
+Partially Complements
+hlb1
+Bioinformatic analyses indicated that HLB1 is a highly conserved protein that did not diverge much during the split between eudicots and monocots (
+Supplemental Figure 8
+). To test whether an HLB1 ortholog from a monocot could have similar functions as the Arabidopsis HLB1, the rice (
+Oryza sativa
+)
+HLB1
+gene (Os-
+HLB1
+) was cloned and a
+35Spro:OsHLB1-GFP
+construct was generated. The OsHLB1-GFP fusion partially complemented the
+LatB
+-hypersensitive phenotype of Arabidopsis
+hlb1
+but fully complemented its short primary root defects. Furthermore, OsHLB1-GFP localized to the cytoplasm and labeled similar dynamic punctate bodies as the Arabidopsis HLB1-GFP in the
+hlb1-1
+mutant background (
+Supplemental Figures 12A and 12B
+). The partial complementation of
+hlb1
+by OsHLB1-GFP and similar localization patterns as the Arabidopsis HLB1 supports the conclusion that the role of HLB1 in endomembrane traffic is likely conserved in land plants.
+Coimmunoprecipitation Identifies HOPM INTERACTOR7/BREFELDIN A-VISUALIZED ENDOCYTIC TRAFFICKING DEFECTIVE1 as a Potential HLB1 Interactor
+Because
+TPR
+domains are known to mediate protein-protein interactions (
+D’Andrea and Regan, 2003
+), coimmunoprecipitation (
+co-IP
+) experiments were performed to identify proteins interacting with HLB1 using roots of
+hlb1-1
+seedlings complemented with the
+35Spro:GFP-HLB1
+construct (
+Supplemental Figure 9
+). Seedlings expressing
+35Spro:GFP
+served as control plants. GFP-HLB1 and its putative interactors were coimmunoprecipitated using anti-GFP serum. Coimmunoprecipitated proteins from
+35Spro:GFP-HLB1
+and
+35Spro:GFP
+seedlings were analyzed with SDS-PAGE, and the components were identified by mass spectrometry-based proteomic analysis. Peptides corresponding to both HLB1 and GFP were readily detected in the coimmunoprecipitates from the roots of the
+35Spro:GFP-HLB1
+line, indicating successful isolation of chimeric GFP-HLB1 from the root extracts (
+Figure 9A
+;
+Supplemental Data Set 2
+).
+Figure 9.
+Open in a new tab
+MIN7/BEN1 Interacts with HLB1 and
+ben1
+Phenocopies the Hypersensitivity to
+LatB
+and Root Hair Phenotypes of
+hlb1
+.
+(A)
+Heat map of two independent
+co-IP
+experiments from roots of the GFP-only control and GFP-HLB1 seedlings indicating relative abundance of peptides. GFP peptides were detected in all the samples. HLB1 and MIN7/BEN1 peptides were detected in the respective GFP-HLB1 and MIN7/BEN1-GFP samples, but not in the GFP-only controls (a value of 0 indicates absence of peptide). Note that HLB1 and MIN7/BEN1 were pulled down, reciprocally.
+(B)
+Hypersensitivity of
+ben1
+and
+hlb1
+to
+LatB
+. Three-day-old seedlings were transplanted onto 50 nM
+LatB
+and the image was taken 6 d later. Bar
+=
+5 mm.
+(C)
+Representative bright-field images of wild-type,
+hlb1
+, and
+ben1
+root hairs from seedlings without
+LatB
+treatment. Bar = 20 μm.
+(D)
+MIN7/BEN1-GFP and HLB1-mCherry colocalize (arrows) in common
+TGN
+/
+EE
+compartments in root peripheral cap cells. Bar = 10 μm.
+(E)
+Pearson’s correlation coefficients were similar between MIN7/BEN1-GFP and HLB1-mCherry and HLB1-GFP and mCherry-VTI12 (
+t
+test; n.s., not significant).
+Two independent
+co-IP
+experiments were conducted, and proteins present in
+35Spro:GFP-HLB1
+immunoprecipitates but not in
+35Spro:GFP
+controls were considered for further analyses. Surprisingly, the first
+co-IP
+experiment yielded a limited number of proteins with only 22 proteins unique to
+35Spro:GFP-HLB1
+. By contrast, the second
+co-IP
+experiment yielded ∼650 proteins unique to
+35Spro:GFP-HLB1
+. It is unclear why there was a large discrepancy in the protein list between two independent
+co-IP
+experiments. In both
+co-IP
+experiments, however, peptides of HOPM INTERACTOR7/BREFELDIN A-VISUALIZED ENDOCYTIC TRAFFICKING DEFECTIVE1 (MIN7/BEN1) were detected as unique to
+35Spro:GFP-HLB1
+root extracts (
+Nomura et al., 2006
+;
+Tanaka et al., 2009
+). To validate the results of the two
+co-IP
+experiments, a reciprocal
+co-IP
+was conducted with root extracts of
+35Spro:MIN7/BEN1-GFP
+(
+Nomura et al., 2011
+). Consistent with the possibility that MIN7/BEN1 interacts with HLB1, HLB1 peptides were identified in the immunoprecipitates of
+35Spro:MIN7/BEN1-GFP
+but not in the
+35Spro:GFP
+controls (
+Figure 9A
+).
+MIN7/BEN1 has been previously shown to localize to the
+TGN
+/
+EE
+and function in endocytosis of
+PM
+proteins (
+Tanaka et al., 2009
+;
+Nomura et al., 2011
+;
+Tanaka et al., 2013
+). Therefore, its connection to HLB1 was evaluated in more detail. Genetic and pharmacological evidence that MIN7/BEN1 is biologically relevant to HLB1 function was obtained from analyses of
+min7/ben1
+mutants (SALK_013761), which we refer to here as
+ben1
+for simplicity. Roots of the
+ben1
+mutant were hypersensitive to
+LatB
+, as much as
+hlb1
+(
+Figure 9B
+). Even in the absence of
+LatB
+,
+ben1
+had short primary roots and root hairs, mirroring
+hlb1
+phenotypes (
+Figure 9C
+;
+Supplemental Figure 13
+). To determine if HLB1 and MIN7/BEN1 colocalized in planta, we generated an HLB1-mCherry fusion and expressed it in plants harboring MIN7/BEN1-GFP (
+Nomura et al., 2011
+). Spinning-disc confocal microscopy observations followed by quantitative colocalization analyses revealed that HLB1-mCherry bodies overlapped significantly with MIN7/BEN1-GFP foci, providing support to our
+co-IP
+results that the two proteins indeed interact in vivo (
+Figures 9D
+and
+9E
+;
+Supplemental Movie 11
+).
+The
+ben1
+and
+hlb1
+Mutations Affect Distinct Membrane Trafficking Pathways
+A mutant allele of
+ben1
+was isolated from a confocal microscopy-based forward-genetic screen for defects in the internalization of the PIN-FORMED (PIN)
+PM
+-localized auxin efflux carriers.
+ben1
+was found to be defective in endocytic trafficking as it had diminished ability to form PIN-GFP agglomerates when treated with
+BFA
+(
+Tanaka et al., 2009
+,
+2013
+). Because
+ben1
+mirrored the
+LatB
+hypersensitivity and root hair phenotypes of
+hlb1
+(
+Figure 9
+), we hypothesized that
+hlb1
+could also have defects in the formation of intracellular PIN agglomerates when exposed to
+BFA
+. PIN2-GFP was therefore expressed in
+hlb1
+and treated with
+BFA
+. Like wild-type roots,
+hlb1
+roots accumulated intracellular PIN2-GFP agglomerates after 1 h exposure to 50 μM
+BFA
+(
+Figure 10A
+). Although the number of PIN2-GFP agglomerates per cell in
+hlb1
+and the wild type was not statistically different, fluorescence of
+BFA
+-induced agglomerates was more intense in
+hlb1
+compared with the wild type when imaged under similar confocal microscopy settings (
+Figures 10B
+and
+10C
+). The stronger fluorescence intensity of PIN2-GFP agglomerates in
+hlb1
+prompted us to ask whether the
+hlb1
+mutation might be affecting the recycling of PIN2-GFP to the
+PM
+. To address this question,
+BFA
+washout experiments were conducted on wild-type and
+hlb1
+seedlings expressing PIN2-GFP. After 1 to 2 h of
+BFA
+washout, the number of PIN2-GFP agglomerates in wild-type roots decreased significantly, whereas those in the
+hlb1
+mutant background persisted (
+Figures 10A
+and
+10C
+).
+Figure 10.
+Open in a new tab
+hlb1
+Is Defective in Recycling of PIN2-GFP to the Plasma Membrane.
+(A)
+One-hour treatment with
+BFA
+results in the formation of intracellular PIN2-GFP agglomerates in both the wild type and
+hlb1
+. Two-hour washout of
+BFA
+led to a significant reduction in the number of PIN2-GFP agglomerates in the wild type but not in
+hlb1
+. Bar = 20 μm.
+(B)
+Relative fluorescence intensity of PIN2-GFP agglomerates in root cells of the wild type and
+hlb1
+treated with
+BFA
+for 1 h. Values are means (
+n
+= 200 to 276 PIN2-GFP bodies) ±
+se
+from >120 cells from at least 15 seedlings (
+t
+test, **P < 0.001).
+(C)
+Quantification of PIN2-GFP agglomerates after 1 h
+BFA
+treatment and after 1 h of
+BFA
+washout. Values are means (
+n
+= 70 to 171 cells) ±
+se
+from at least 20 seedlings. Statistical significance was determined by one-way ANOVA. Different letters indicate significant differences among means (P < 0.05; Tukey’s test).
+(D)
+hlb1
+forms more PIN2-GFP agglomerates in response to low (10 μM)
+BFA
+than the wild type after 1 and 3 h. Bar = 20 μm.
+(E)
+Quantification of PIN2-GFP agglomerates at 1 and 3 h treatment with 10 μM
+BFA
+. Values are means (
+n
+= 125 to 170 cells) ±
+se
+from at least 15 seedlings. Statistical significance was determined by one-way ANOVA. Different letters indicate significant differences among means (P < 0.05; Tukey’s test).
+(F)
+One-hour treatment with 50 nM
+LatB
+results in more significant accumulation of PIN2-GFP agglomerates in
+hlb1
+compared with the wild type. Bar = 20 μm.
+(G)
+Relative fluorescence intensity of PIN2-GFP agglomerates in root cells of the wild type and
+hlb1
+treated with
+LatB
+for 1 h. Values are means (
+n
+= 104 to 898 PIN2-GFP bodies) ±
+se
+from >300 root cortical cells and at least 15 independent seedlings (
+t
+test, **P < 0.001).
+(H)
+Quantification of the number of PIN2-GFP agglomerates in root cells of the wild type and
+hlb1
+after treatment with
+LatB
+for 1 h. Values are means (
+n
+= 341 root cortical cells) ±
+se
+from at least 15 independent seedlings (
+t
+test, ***P < 0.0001).
+The PIN2 trafficking phenotypes observed in
+hlb1
+were surprisingly opposite to those reported for
+ben1
+but strikingly similar to those described for a class of dominant membrane trafficking mutants called
+bex
+(for
+bfa-visualized exocytic trafficking defective
+) (
+Feraru et al., 2012
+;
+Tanaka et al., 2014
+). In addition to the persistence of PIN agglomerates after
+BFA
+washout,
+bex1
+and
+bex5
+mutants formed intracellular PIN2-GFP agglomerates in response to low (10 μM) concentrations of
+BFA
+, whereas the wild type showed only minor agglomerate formation (
+Feraru et al., 2012
+;
+Tanaka et al., 2014
+).
+hlb1
+seedlings expressing PIN2-GFP were therefore treated with 10 μM
+BFA
+for 1 and 3 h to determine if
+hlb1
+trafficking defects mirrored those reported for
+bex1
+and
+bex5
+. Consistent with previous studies, 10 μM
+BFA
+induced only minor intracellular accumulation of PIN2-GFP in wild-type seedlings (
+Figure 10D
+). By contrast,
+hlb1
+roots exposed to 10 μM
+BFA
+for the same time periods as the wild type showed significant formation of PIN2-GFP agglomerates that were reminiscent of the
+bex
+mutants (
+Figures 10D
+and
+10E
+) (
+Feraru et al., 2012
+;
+Tanaka et al., 2014
+). Taken together, the data indicate that HLB1 functions in protein recycling to the
+PM
+.
+Recycling of PIN2-GFP to the Plasma Membrane in
+hlb1
+Is Hypersensitive to
+LatB
+Because
+hlb1
+is hypersensitive to
+LatB
+and the actin cytoskeleton has been implicated in the intracellular trafficking of PIN proteins (
+Geldner et al., 2001
+;
+Nagawa et al., 2012
+), we hypothesized that PIN2-GFP recycling in the
+hlb1
+background could also exhibit heightened sensitivity to concentrations of
+LatB
+that only minimally affected PIN2-GFP recycling in the wild type. To test this hypothesis, the wild type and
+hlb1
+expressing PIN2-GFP were treated with 50 nM
+LatB
+. At this
+LatB
+concentration, PIN2-GFP in roots of the wild type formed a few, weakly fluorescing intracellular PIN2-GFP agglomerates within 1 h of exposure to the drug. On the other hand, roots of
+hlb1
+seedlings formed bright and numerous PIN2-GFP intracellular agglomerates that were reminiscent of
+BFA
+-induced PIN2-GFP bodies (
+Figures 10F
+to
+10H
+). These results indicate that the recycling of PIN2-GFP to the
+PM
+in
+hlb1
+is more sensitive to
+LatB
+compared with the wild type and consistent with the heightened response of its roots and F-actin structures to the chemical.
+hlb1
+Exhibits Enhanced Accumulation of PIN2-GFP at the
+PM
+and Endosomes but Has No Measurable Defects in
+TGN
+and MIN1/BEN1 Dynamics
+We next asked if the localization of PIN2-GFP was altered in
+hlb1
+root cells without
+BFA
+or
+LatB
+treatment. Live-cell microscopy and corresponding quantitative analyses showed that PIN2-GFP signal in the
+hlb1
+background was higher in the
+PM
+and in the cell interior compared with the wild type when imaged with similar confocal microscopy settings. The stronger fluorescence in the cell interior of
+hlb1
+root cells was due to brighter and more distinct PIN2-GFP foci (
+Figures 11A
+and
+11B
+).
+Figure 11.
+Open in a new tab
+PIN2-GFP Distribution, Constitutive Secretion, and Traffic to the Vacuole Are Partially Disrupted in
+hlb1
+.
+(A)
+Representative images of non-
+LatB
+-treated root cells expressing PIN2-GFP. Bar = 10 μm.
+(B)
+Quantitative analysis of PIN2-GFP fluorescence in the
+PM
+(arrows) and cell interior (white rectangle). Mean fluorescence intensity was obtained from at least 20 roots ±
+se
+(
+t
+test, ***P < 0.0001).
+(C)
+Representative images of non-
+LatB
+-treated root hairs expressing SEC-RFP. Note the intense SEC-RFP signal at the extreme root hair tip of wild type (arrow). See
+Supplemental Movie 13
+for a corresponding time-lapse sequence. Bar = 10 μm.
+(D)
+Root hair tip secretion was quantified by dividing average fluorescence intensity at the apex by average fluorescence intensity at the subapex as marked by the white elliptical area to obtain ratio values shown in
+(E)
+.
+(E)
+Apex to subapex SEC-RFP ratio taken every 10 s for 1 min. A higher ratio indicates a stronger tip-focused SEC-RFP gradient. Values are means (
+n
+= 28 to 41 root hairs) ±
+se
+(
+t
+test, ***P < 0.0001).
+(F)
+SEC-RFP in epidermal cells from cotyledons of 5-d-old seedlings. SEC-RFP is detected in the apoplast of the wild type and
+hlb1
+but appears to be retained strongly in the
+ER
+(arrows) in
+hlb1
+. Bars = 5 μm.
+(G)
+RFP-AFVY accumulates in the vacuole (
+V
+) lumen of epidermal cells of wild-type and
+hlb1
+hypocotyls. In
+hlb1
+, RFP-AFVY is mis-sorted to the apoplast (
+Ap
+). Bar = 20 μm.
+(H)
+Mis-sorting of RFP-AFVY was quantified by dividing the average fluorescence intensity of the apoplast by the average fluorescence intensity of the vacuole as indicated by the white rectangles in
+(G)
+. A higher ratio indicates strong RFP-AFVY accumulation in the apoplast. Values are means (
+n
+= 38 to 43 cells from 15 independent seedlings) ±
+se
+(
+t
+test, ***P < 0.0001).
+The more intense PIN2-GFP signals in the
+PM
+and cell interior of
+hlb1
+roots was reminiscent of observations made in
+bex5
+, which showed similar PIN2-GFP recycling defects as
+hlb1
+(
+Feraru et al., 2012
+). Given the defects in PIN2-GFP recycling in
+hlb1
+, we asked whether the distribution of a
+TGN
+/
+EE
+marker was altered in the mutant. To address this question, we expressed YFP-VTI12 in the
+hlb1
+background. The distribution of YFP-VTI12 foci in peripheral root cap cells was similar in the wild type and
+hlb1
+(
+Supplemental Figure 14A
+). Furthermore, global analyses of YFP-VTI12 dynamics in root hairs revealed no appreciable differences between the wild type and
+hlb1
+(
+Supplemental Figures 14B and 14C
+and
+Supplemental Movie 12
+). Because we established that MIN7/BEN1 is an HLB1 interactor at the
+TGN
+/
+EE
+, we also looked at the distribution of MIN7/BEN1-GFP in the
+hlb1
+background. Unfortunately, lines expressing MIN7/BEN1-GFP in
+hlb1
+and the wild type were extensively silenced and we could observe GFP signal only from cells in the peripheral root cap. Like YFP-VTI12, the distribution of MIN7/BEN1-GFP in these cells was similar between the wild type and
+hlb1
+(
+Supplemental Figure 14D
+). Although we did not detect any substantial differences between the wild type and
+hlb1
+with regard to VTI12 or MIN7/BEN1 distribution at the light microscope level, we cannot discount the possibility that
+TGN
+/
+EE
+ultrastructure might be affected in the
+hlb1
+mutant as has been reported in
+bex5
+(
+Feraru et al., 2012
+).
+Because conspicuous differences between the wild type and
+hlb1
+were noted with regard to PIN2-GFP intensity in the
+PM
+and cell interior (
+Figures 11A
+and
+11B
+), we next asked if
+hlb1
+displayed any
+pin2
+-like phenotypes in regard to seedling root development. Consistent with previous reports,
+pin2
+seedlings had distinct root agravitropic defects as evident from their high deviation from vertical growth (
+Müller et al., 1998
+). By contrast, the deviation from vertical growth of
+hlb1
+roots was similar to the wild type (
+Supplemental Figures 15A and 15B
+). Moreover, although the deviation from vertical growth of
+pin2
+roots appeared to be enhanced by
+LatB
+, their primary roots exhibited wild-type growth sensitivity to
+LatB
+(
+Supplemental Figures 15C and 15D
+). Root deviation from vertical growth of
+ben1
+and
+hlb1 ben1
+was similar to
+hlb1
+and the wild type (
+Supplemental Figures 15A and 15B
+). These data indicate that the HLB1-MIN7/BEN1-resident
+TGN
+complex is not required for full functionality of PIN2.
+Because PIN2 recycling is defective in
+hlb1
+and post-Golgi traffic of some PIN proteins is a crucial component of the root gravitropic response (
+Kleine-Vehn et al., 2008
+;
+Kleine-Vehn et al., 2010
+), we next asked whether
+hlb1
+roots were compromised in gravitropism. Seedlings of the wild type and
+hlb1
+with roots growing vertically were rotated by 90 degrees, and the kinetics of root curvature was monitored at various time points for a 12-h period. No measureable differences in root gravitropic response between wild-type and
+hlb1
+seedlings under our growth conditions were noted (
+Supplemental Figures 15E and 15F
+).
+hlb1
+Has Partial Defects in Bulk Flow Secretion and Trafficking to the Vacuole
+The impaired trafficking of PIN2-GFP to the
+PM
+in
+hlb1
+could be due to defects in protein secretion or recycling. We therefore expressed the secreted (SEC)-RFP fusion, a bulk-flow secretion reporter, in
+hlb1
+(
+Faso et al., 2009
+;
+Renna et al., 2013
+) to determine whether the mutant has defects in constitutive secretion mechanisms. We first examined SEC-RFP in actively elongating root hairs because the tips of these cell types are characterized by active secretion (
+Preuss et al., 2004
+), and the most obvious growth and F-actin organizational defects of
+hlb1
+seedlings were observed in root hairs (
+Figures 3
+and
+4
+). Using spinning-disc confocal microscopy, we found that growing root hairs of the wild type had intense SEC-RFP fluorescence at the extreme tip. By contrast, most
+hlb1
+root hairs had weak SEC-RFP fluorescence at the tip or failed to maintain a distinct tip-focused SEC-RFP gradient (
+Figure 11C
+;
+Supplemental Movie 13
+). The tip-focused SEC-RFP gradient was quantified by obtaining the ratio of the average SEC-RFP fluorescence at the tip apex to the average SEC-RFP fluorescence at the subapex from 1-min time-lapse movie sequences (
+Figure 11D
+). We found that ratio values at every 10-s time point were higher in the wild type compared with
+hlb1
+, verifying our visual observations that secretion in root hair tips of
+hlb1
+is altered (
+Figure 11E
+). Furthermore, retention of SEC-RFP in the
+ER
+appeared to be more pronounced in
+hlb1
+cotyledons compared with the wild type (
+Figure 11F
+). However, like in the wild type, strong SEC-RFP fluorescence was still observed in the apoplast of various cell types of
+hlb1
+seedlings (
+Figure 11F
+;
+Supplemental Figures 16A to 16D
+). Taken together, our results indicate that bulk flow secretion in
+hlb1
+is only partially affected, a defect that is most strongly manifested in growing root hairs, which have measurable F-actin defects.
+The localization of HLB1 to the
+TGN
+/
+EE
+suggests that other post-Golgi trafficking pathways such as trafficking to the vacuole might be affected in the
+hlb1
+mutant. To address this question, we expressed RFP-AFVY, a fusion to the C-terminal of phaseolin that accumulates in the vacuole lumen (
+Hunter et al., 2007
+). Because RFP-AFVY was strongly silenced in root cells, we focused our analyses on hypocotyls and cotyledons. We found that RFP-AFVY in hypocotyl and cotyledon epidermal cells of
+hlb1
+seedlings appeared to be mis-sorted to the apoplast (
+Figure 11G
+). Mis-sorting of RFP-AFVY was quantified by obtaining the ratio of fluorescence from a fixed region of the apoplast to an equivalent area within the vacuole lumen in epidermal cells of the hypocotyl (
+Figure 11G
+). The higher ratio values for
+hlb1
+compared with the wild type support that RFP-AFVY is mis-sorted in the mutant (
+Figure 11H
+). However, RFP-AFVY still accumulated in the vacuole lumen of several cell types in
+hlb1
+similar to the wild type, indicating that vacuolar targeting defects in the mutant are only partial (
+Figure 11G
+).
+Other evidence showing that trafficking to the vacuole in
+hlb1
+is not completely compromised was obtained from incubating wild-type and
+hlb1
+seedlings expressing PIN2-GFP in the dark for 12 h. Under such conditions, PIN2-GFP in the wild type was shown to accumulate in lytic vacuoles (
+Feraru et al., 2012
+). Here, we observed that both the wild type and
+hlb1
+accumulated PIN2-GFP in lytic vacuoles in the dark (
+Supplemental Figure 16E
+). In addition, the styryl dye FM1-43 labeled the tonoplast in elongating root cells of light-grown
+hlb1
+seedlings, indicating that trafficking to the vacuole can still proceed in the mutant. FM1-43 labeling of root cells in the elongation zone and
+DIC
+microscopy of peripheral root cap cells also did not reveal dramatic differences in vacuolar morphology between the wild type and
+hlb1
+(
+Supplemental Figures 16F and 16G
+). However, the possibility that there are subtle differences in vacuolar dynamics and morphology between the wild type and
+hlb1
+cannot be ruled out. Furthermore, differences in vacuole morphology between the wild type and
+hlb1
+could be more apparent in other cell types or amplified under certain growth conditions (e.g., light versus dark).
+Genetic Interaction Studies Indicate that
+hlb1
+and
+ben1
+Function in Common Root Developmental Pathways despite Opposite Effects on Membrane Trafficking
+As noted above, it was previously shown that
+ben1
+had reduced intracellular accumulation of PIN-GFP following treatment with 50 μM
+BFA
+, a phenotype opposite to that of
+hlb1
+(
+Tanaka et al., 2009
+,
+2013
+). The opposite trafficking phenotypes of
+ben1
+and
+hlb1
+were surprising given their similar root developmental phenotypes and
+LatB
+hypersensitivity (
+Figure 9
+). To better understand the genetic relationship between
+hlb1
+and
+ben1
+,
+hlb1 ben1
+double mutants were generated and their phenotypes were compared with
+hlb1
+and
+ben1
+single mutants. The extent of hypersensitivity of
+hlb1 ben1
+double mutants to
+LatB
+was similar to single
+hlb1
+and
+ben1
+mutants (
+Supplemental Figure 13A
+). Furthermore, root hair length of
+hlb1 ben1
+in the absence of
+LatB
+was slightly shorter than
+hlb1
+single mutants but similar to
+ben1
+single mutants. In addition,
+hlb1 ben1
+had slightly shorter primary roots in
+LatB
+-free media compared with
+hlb1
+and
+ben1
+single mutants (
+Supplemental Figures 13B to 13D
+).
+We next asked how trafficking of
+PM
+markers is affected in
+hlb1 ben1
+double mutants compared with
+hlb1
+and
+ben1
+single mutants. For these assays, we used the endocytic styryl tracer dye FM1-43. Consistent with the PIN2-GFP assays, FM1-43 in the wild type and
+hlb1
+formed fluorescent agglomerates after a 1-h treatment with 50 μM
+BFA
+(
+Figures 12A
+and
+12B
+). Also in agreement with the PIN2-GFP assays was the observation that FM1-43 agglomerates persisted in
+hlb1
+compared with the wild type after
+BFA
+washout (
+Supplemental Figure 17
+). By contrast,
+ben1
+had diminished accumulation of FM1-43 agglomerates after
+BFA
+treatment, in agreement with previous reports (
+Figure 12C
+) (
+Tanaka et al., 2009
+,
+2013
+). In
+hlb1 ben1
+, FM1-43 accumulation was diminished to a similar extent as
+ben1
+single mutants (
+Figures 12D
+and
+12E
+). The similar
+LatB
+-hypersensitive response and root growth defects of
+hlb1 ben1
+to single
+hlb1
+and
+ben1
+mutants indicate that
+hlb1
+and
+ben1
+function in common genetic pathways. Because
+hlb1 ben1
+trafficking and root hair defects mirrored those of the
+ben1
+single mutant,
+ben1
+likely functions upstream of
+hlb1
+.
+Figure 12.
+Open in a new tab
+HLB1
+Acts Downstream of
+BEN1
+.
+(A)
+to
+(D)
+Intracellular accumulation of the styryl dye FM 1-43 is altered in
+ben1
+and
+hlb1 ben1
+but not in the wild type or
+hlb1
+. FM1-43 intracellular agglomerates after treatment with
+BFA
+in
+ben1
+and
+hlb1 ben1
+are fewer and have less intense fluorescence than the wild type and
+hlb1
+. Bar = 20 μm.
+(E)
+Quantification of FM1-43 agglomerates in root cells after treatment with
+BFA
+for 1 h. Statistical significance was determined by one-way ANOVA. Values are means (
+n
+> 200 cells) ±
+se
+from at least 20 independent seedlings. Different letters indicate significant differences among means (P < 0.05; Tukey’s test).
+(F)
+Growth of
+ben1
+and
+hlb1 ben1
+seedlings is more sensitive to 5 μM
+BFA
+compared with the wild type and
+hlb1
+. Bar = 5 mm.
+(G)
+Quantification of primary root growth (expressed as percent of controls) of the wild type,
+hlb1
+,
+ben1
+, and
+hlb1 ben1
+in 5 μM
+BFA
+. Statistical significance was determined by one-way ANOVA. Values are means (
+n
+= 18 to 32 roots) ±
+se
+. Different letters indicate significant differences among means (P < 0.05; Tukey’s test).
+Another phenotype reported for
+ben1
+seedlings is their hypersensitivity to growth on moderate concentrations of
+BFA
+(
+Tanaka et al., 2009
+). Given that both
+ben1
+and
+hlb1
+phenocopied each other in regard to root development and hypersensitivity to
+LatB
+, the response of
+hlb1
+to
+BFA
+was examined. Consistent with previous reports,
+ben1
+seedlings displayed heightened sensitivity to low doses of
+BFA
+compared with the wild type. By contrast,
+hlb1
+seedlings showed wild-type sensitivity to
+BFA
+. Furthermore, seedlings of the
+hlb1 ben1
+double mutant displayed similar hypersensitivity to
+BFA
+compared to seedlings of
+ben1
+single mutants, providing additional genetic evidence that
+ben1
+functions upstream of
+hlb1
+(
+Figures 12F
+and
+12G
+).
+DISCUSSION
+The endomembrane system is essential for normal plant cell development, yet many protein components that modulate its function remain to be identified. The distinct effects of cytoskeleton-disrupting chemicals on plant growth provide the basis for convenient forward-genetic screens to isolate mutants with altered sensitivity to these compounds. However, such screens have rarely been applied for studies on the plant cytoskeleton despite their strong potential to uncover mechanisms underlying the cytoskeletal basis of plant development. Forward-genetic screens to isolate mutants that respond differentially to cytoskeleton-disrupting compounds have been limited to those that alter microtubules (
+Naoi and Hashimoto, 2004
+;
+Paredez et al., 2008
+). Here, we used a forward-genetic approach with the potent actin-disrupting compound
+LatB
+and identified the recessive mutant
+hlb1
+, which displayed enhanced
+LatB
+sensitivity compared with the wild type. We determined that
+HLB1
+encodes a six
+TPR
+motif-containing protein with a conserved C-terminal domain. We found that HLB1 is a plant-specific protein that could potentially link the actin cytoskeleton with post-Golgi traffic. Loss of function of
+HLB1
+leads to alterations in protein recycling to the
+PM
+and to an F-actin network that is more susceptible to actin-specific chemical antagonists. This, in turn, results in seedlings with root hair polarity defects and reduced primary root growth. We demonstrated that HLB1 associates with the
+TGN
+/
+EE
+through its conserved C-terminal domain and functions with the
+TGN
+/
+EE
+-localized ARF-GEF protein MIN7/BEN1 (
+Nomura et al., 2006
+;
+Tanaka et al., 2009
+) in overlapping endomembrane trafficking pathways. These data provide important insight into a previously undescribed component of the endomembrane trafficking machinery that is highly conserved and unique to land plants.
+HLB1 Is a Component of the Plant Post-Golgi Trafficking Machinery
+Our work experimentally demonstrates that a
+TPR
+domain protein, namely, HLB1, is localized to post-Golgi compartments. Other
+TPR
+domain-containing proteins among the 147 in Arabidopsis, including SHORT AND SWOLLEN ROOT1 and MET1, localize to mitochondria and chloroplasts, respectively, consistent with their functions in oxidative stress-mediated root development and in the assembly of the photosynthetic apparatus (
+Bhuiyan et al., 2015
+;
+Zhang et al., 2015
+). The
+TPR
+protein CLUMPED CHLOROPLAST1 (CLMP1) localizes to distinct foci in the cytoplasm. Although the exact identity of the CLMP1 foci remains unknown, their adjacent location to chloroplasts supports their role in plastid partitioning and distribution (
+Yang et al., 2011
+). Here, we show that the
+TGN
+/
+EE
+-localized HLB1 protein functions in the recycling of proteins and other lipophilic cargo from post-Golgi compartments to the
+PM
+after their uptake by endocytosis. This conclusion is supported by the observation that
+BFA
+-induced PIN2-GFP and FM1-43 agglomerates persisted in
+hlb1
+mutants after
+BFA
+washout.
+hlb1
+also had partial defects in constitutive secretion, which were most apparent in cells of young seedlings including root hairs and epidermal pavement cells of cotyledons. In this regard,
+LatB
+treatment was previously shown to alter the tip localization of the
+TGN
+-localized secretory marker YFP-RabA4B in growing root hairs (
+Preuss et al., 2004
+). The disrupted gradient of F-actin meshwork in
+hlb1
+root hairs could explain the tip secretion and root hair growth defects of the mutant. The mis-sorting of RFP-AFVY to the apoplast of
+hlb1
+is reminiscent of another post-Golgi trafficking mutant called
+unhinged-1
+, which is disrupted in a gene encoding VASCULAR SORTING PROTEIN51 (
+Pahari et al., 2014
+). Mis-sorting of RFP-AFVY was only partial as the marker still accumulated to a large extent in the vacuole lumen of
+hlb1
+. The RFP-AFVY assays were verified by observations that PIN2-GFP accumulated in lytic vacuoles when incubated in the dark and that FM1-43 decorated the tonoplast in
+hlb1
+. Future studies will determine whether other markers of vacuolar targeting and morphology are altered in
+hlb1
+.
+In animals, some
+TPR
+domain proteins localize to the endomembrane system. For instance, the endosome-localized sorting nexins SNX20 and SNX21 contain
+TPR
+motifs in addition to their phox homology (PX) phosphoinositide binding domain. These sorting nexins have been proposed to function as membrane-associated scaffolding proteins that could potentially interact with transmembrane ligands for transport through the endomembrane system (
+Clairfeuille et al., 2015
+). In addition to the
+TPR
+motifs, HLB1 contains a C-terminal domain that is highly conserved among land plants. Protein domain prediction software indicates that this C-terminal domain can form a helical structure and manual annotation revealed that it had weak similarity (∼15%) to the pleckstrin homology (PH) domain of Arabidopsis PLECKSTRIN HOMOLOG1. Like PX domains, PH domains bind to phosphoinositides and could facilitate targeting of proteins containing these domains to membranes (
+Boss and Im, 2012
+). Consistent with the possibility that the C-terminal domain of HLB1 has similar functions to canonical PX or PH domains, we showed through GFP-HLB1 deletion constructs that HLB1 localized to
+TGN
+/
+EE
+compartments primarily through its C-terminal domain. Although direct binding of the HLB1 to lipids has yet to be demonstrated, the root hair defects of
+hlb1
+suggest that the HLB1 C-terminal domain could provide a mechanism for integrating phosphoinositide signaling with actin-mediated tip growth regulation. In this regard, phosphoinositides have been implicated in actin-mediated root hair tip growth (
+Vincent et al., 2005
+;
+Yoo et al., 2012
+) and mutants disrupted in various steps of phosphoinositide metabolism have altered root hair development (
+Kusano et al., 2008
+;
+Stenzel et al., 2008
+;
+Thole et al., 2008
+) that mirrors the root hair phenotypes of
+hlb1
+. One explanation for the root hair defects of the
+hlb1
+mutant is that HLB1 functions in recycling of phosphoinositide metabolizing enzymes or phosphoinositides to the
+PM
+of the root hair apex. Future studies will test this hypothesis using fluorescently tagged phosphoinositide reporters and enzymes.
+The trafficking defects of
+hlb1
+were similar to the previously characterized dominant
+bex1
+and
+bex5
+mutants (
+Feraru et al., 2012
+;
+Tanaka et al., 2014
+). In this regard, we speculate that BEX1, an ARF1A1C small GTPase, and BEX5, a RABA1b small GTPase, could functionally converge onto similar trafficking pathways mediated by HLB1. It is important to note, however, that despite the similarities in membrane trafficking phenotypes of
+hlb1
+to those of the
+bex
+mutants, they differed in their seedling sensitivity to
+BFA
+. Whereas
+bex1
+and
+bex5
+seedling growth was reported to be hypersensitive to moderate
+BFA
+concentrations (
+Feraru et al., 2012
+;
+Tanaka et al., 2014
+),
+hlb1
+seedlings showed wild-type
+BFA
+sensitivity. T-DNA knockout
+bex5
+mutants did not show the trafficking defects characteristic of the dominant-negative
+bex5-1
+, suggesting functional redundancy with other closely related RABA1b GTPases (
+Feraru et al., 2012
+). In the future, it will be interesting to test how
+bex
+loss-of-function mutants respond to
+LatB
+and to determine whether ARF1A1C and RABA1b operate in common exocytic trafficking pathways as HLB1. Although HLB1 is encoded by a single Arabidopsis gene and the
+hlb1
+mutant showed clear defects in exocytosis and heightened sensitivity to
+LatB
+, the mild root phenotypes of
+hlb1
+in the absence of
+LatB
+suggests that HLB1 could function redundantly with other unknown nonhomologous proteins in plant development.
+A significant finding from our study is the identification of MIN7/BEN1, a
+TGN
+/
+EE
+-localized ARF-GEF protein belonging to the BIG subfamily (
+Nomura et al., 2006
+;
+Tanaka et al., 2009
+), as an HLB1 interactor. Although the nature of the HLB1-MIN7/BEN1 interaction at the biochemical level has yet to be established, results presented here point to HLB1 and MIN7/BEN1 operating in converging endomembrane trafficking pathways. In addition to the clear colocalization of HLB1 and MIN7/BEN1 in distinct
+TGN
+/
+EE
+foci, double mutant studies demonstrate that
+ben1
+is epistatic to
+hlb1
+with regard to
+LatB
+hypersensitivity, FM1-43 recycling, root hair growth, and sensitivity to moderate concentrations of
+BFA
+. Because the
+hlb1 ben1
+double mutant most closely resembles the phenotypes of the
+ben1
+single mutant,
+MIN7/BEN1
+likely functions upstream of
+HLB1
+. This observation reinforces the conclusion that the
+hlb1
+mutant is deficient specifically in endocytic membrane recycling. The epistatic effect of
+ben1
+on
+hlb1
+with respect to the formation of FM1-43
+BFA
+bodies suggests that in
+hlb1
+, the pool of
+PM
+-derived cargo for
+TGN
+-regulated recycling likely originates from endocytic uptake mediated by BEN1.
+HLB1 Potentially Links Post-Golgi Traffic to the Actin Cytoskeleton in Plants
+In addition to the root hair tip growth defects and strong hypersensitivity of
+hlb1
+seedlings to
+LatB
+, our results support the possibility that HLB1 may exert its functions in endomembrane traffic through actin. This is supported by several lines of evidence. First, confocal microscopy analyses showed that the HLB1-GFP bodies tracked along F-actin bundles in vivo. HLB1-GFP localization was reminiscent of the “beads-on-a-string” pattern exhibited by the NET family of actin membrane adaptors (
+Wang et al., 2014
+). Second, the localization of the HLB1-GFP foci was rapidly disrupted by low doses of
+LatB
+. Third, PIN2-GFP recycling to the
+PM
+, which was only minimally affected by low doses of
+LatB
+in the wild type, was severely inhibited in
+hlb1
+. The
+LatB
+-induced PIN2-GFP agglomerates were strikingly similar to those induced by high concentrations of
+BFA
+. Despite these results, we cannot discard the possibility that the movement of HLB1-GFP punctae along F-actin could simply reflect that HLB1 is on the
+TGN
+/
+EE
+surface, which would not support specific functional linkage between actin and HLB1. Furthermore, we have found that
+LatB
+also rapidly affected the distribution of other
+TGN
+/
+EE
+markers in root cells, indicating that the observed effects of the drug on HLB1 localization are not exclusive for this protein. Nonetheless, we showed that actin dynamics in the tip of elongating root hairs are disrupted in
+hlb1
+in support of the notion that HLB1 could be linked to actin function. The lack of differences in F-actin organization and dynamics in cells of the root elongation zone between non-
+LatB
+-treated wild type and
+hlb1
+does not preclude the possibility that subtle differences in F-actin dynamics exist between the wild type and
+hlb1
+, and such differences may manifest only at the level of single actin filaments (
+Staiger et al., 2009
+). While a direct interaction between HLB1 with actin awaits for experimental validation, our analyses support that HLB1 exerts a role in post-Golgi membrane traffic in relation to the actin cytoskeleton, which may occur either directly or through interactions with actin modulators.
+The involvement of the actin cytoskeleton in endocytosis and protein recycling has been documented in plants using both pharmacological and genetic approaches. For example, sterol endocytosis was found to be disrupted in
+act2
+mutants and by treating wild-type plants with cytochalasin D (
+Grebe et al., 2003
+).
+LatB
+and cytochalasin were also shown to influence the recycling and polar localization of PIN proteins in root and leaf epidermal cells (
+Geldner et al., 2001
+;
+Nagawa et al., 2012
+). Finally,
+LatB
+was reported to interfere with protein traffic to the vacuole in protoplasts and intact roots (
+Kim et al., 2005
+). It is important to note, however, that in the aforementioned studies, high micromolar concentrations of
+LatB
+were used to trigger the reported effects on protein trafficking. The fact that
+hlb1
+displayed strong protein trafficking and seedling growth defects in response to low nanomolar doses of
+LatB
+supports the hypothesis that HLB1 is a crucial component of post-Golgi traffic that is strongly dependent on the maintenance of an intact actin cytoskeleton. This hypothesis is further reinforced by the observation that heightened sensitivity to
+LatB
+was more pronounced in
+hlb1
+and
+ben1
+mutants compared with mutants with lesions in genes encoding actin itself (e.g.,
+act2
+and
+act8
+) or mutants to a suite of other actin regulatory proteins, most of which were not
+LatB
+hypersensitive. In this regard, another possible explanation for the hypersensitivity of
+hlb1
+mutants to
+LatB
+is that loss of function of
+HLB1
+causes mild recycling defects of several proteins directly involved in actin function particularly those that localized to the
+PM
+. The collective recycling defects of several
+PM
+-localized actin regulatory proteins, although mild, could sensitize
+hlb1
+to even low doses of actin antagonists.
+Despite the recycling defects of PIN2-GFP in the
+hlb1
+background,
+hlb1
+did not exhibit the agravitropic phenotype characteristic of
+pin2
+mutants and were not compromised in root gravitropism when reoriented by 90 degrees. The absence of any measurable
+pin2
+-like phenotypes in
+hlb1
+,
+ben1
+, and
+hlb1 ben1
+double mutants supports that the protein recycling defects resulting from loss of HLB1 and BEN1 function may not be sufficient to completely alter certain PIN2-mediated seedling root growth processes. This observation further reinforces the hypothesis that HLB1 and BEN1 function redundantly with other yet to be identified
+TGN
+/
+EE
+-localized proteins in cargo recycling. The possibility that HLB1 has redundant functions with other nonhomologous proteins can also be inferred from the lack of global defects in VTI12 and MIN7/BEN1 distribution in the
+hlb1
+mutant. Alternatively, MIN7/BEN1 could recruit HLB1 to the
+TGN
+/
+EE
+explaining the lack of any dramatic differences in MIN7/BEN1-GFP distribution between the wild type and
+hlb1
+. By contrast, root gravitropism has been shown to be driven by differential degradation of PIN2 in the vacuole of cells in the elongation zone and PIN3 relocalization to the bottom side of the columella cell
+PM
+(
+Kleine-Vehn et al., 2008
+,
+2010
+). The lack of root gravitropism defects in
+hlb1
+is consistent with the observation that loss of HLB1 function has only mild effects on vacuolar trafficking and suggests that HLB1-mediated PIN2 recycling to the
+PM
+has minimal contributions to root gravitropic responses. The normal root gravity response of
+hlb1
+also indicates that unlike PIN2, recycling of PIN3 and possibly other PIN proteins is independent of HLB1 function. However, additional experiments are needed to determine whether the trafficking of other PIN or
+PM
+-localized proteins is affected in the
+hlb1
+mutant.
+In summary, a forward-genetic screen for altered sensitivity to the actin-disrupting drug
+LatB
+led to the discovery of a previously uncharacterized protein involved in endomembrane trafficking in plants. The
+TPR
+domain-containing HLB1 protein, which is encoded by a single gene in Arabidopsis, functions in protein recycling to the
+PM
+but could also contribute to constitutive secretion and trafficking to the vacuole in specific cell types. The shared phenotypes of
+hlb1
+with other exocytic and endocytic trafficking mutants such as
+ben1
+,
+bex1
+, and
+bex5
+indicate that the
+TGN
+/
+EE
+-localized HLB1 protein lies at a crucial step where exocytic and endocytic pathways converge and therefore represent a class of plant-specific membrane scaffolding proteins likely involved in linking post-Golgi traffic with the actin cytoskeleton.
+METHODS
+Forward-Genetic Screening and Mapping of
+hlb1
+An
+Arabidopsis thaliana
+activation-tagged T-DNA seed stock (CS31100) from the ABRC was sterilized in 95% ethanol and 20% bleach according to
+Dyachok et al. (2009)
+. Sterilized seeds were suspended in an autoclaved solution of 0.5× Murashige and Skoog (
+MS
+) medium supplemented with 1% sucrose (pH 5.7), 100 nM
+LatB
+(Calbiochem-EMD Chemicals), and 0.5% agar (Sigma-Aldrich) after the solution had cooled to 55°C. The seed suspension was gently swirled in a 500-mL Erlenmeyer flask to disperse the seeds uniformly and poured into 10 × 10-cm square Petri plates before the agar solidified. Petri dishes were left at 4°C for 2 d and transferred to a growth chamber with 120 μmol m
+−2
+s
+−1
+light intensity supplied with fluorescent bulbs and set to a 14-h-light and 10-h-dark cycle. Temperature in the chamber was maintained at 23°C while keeping plates in a vertical position. After 5 to 6 d, seedlings with severely inhibited primary root growth were selected. Primary root growth of the progeny of selected seedlings was compared with the wild type on a range of
+LatB
+concentrations.
+Homozygous
+hlb1
+(Col-0 ecotype) was crossed to the Landsberg
+erecta
+ecotype, and F2 seedlings were selected based on their enhanced sensitivity to 50 nM
+LatB
+. Simple sequence length polymorphism and cleavage of amplified polymorphic site markers were used to map
+hlb1
+to a 60-kb region on the lower arm of chromosome 5 (
+Lukowitz et al., 2000
+). DNA was extracted from root tissue of 2-week-old
+hlb1
+seedlings by grinding in liquid nitrogen with a mortar and pestle followed by mixing with an equal volume of Plant DNAzol Reagent (Invitrogen) and chloroform. After precipitation with ethanol, DNA was washed multiple times and then dissolved in 50 μL water. Full-length genomic DNA of various genes in the 60-kb region was sequenced and compared with the Arabidopsis reference genome (TAIR10) until the 2-bp deletion was found in
+AT5G41950
+.
+Three SALK lines with predicted insertions in
+AT5G41950
+(SALK_046760, SALK_144501, and SALK_065836) were obtained from ABRC and genotyped to ensure homozygosity using the following primers: SALK_046760LP (5′-TTGCTGGAGGAAGCTTGTAAG-3′), SALK_046760RP (5′-TGGCTGTATAACTCACCAGGG-3′), SALK_065836LP (5′-TTCCCTCTCGCATAAATTGTG-3′), SALK_065836RP (5′-TCAGGTTGCAATTTGATTTCC-3′), and LBb1.3 (5′-ATTTTGCCGATTTCGGAAC-3′). The primer pair used for SALK_144501 was the same as SALK_046760.
+One SALK line (SALK_013761) with a predicted exon insertion in
+AT3G43300
+(
+MIN7/BEN1
+) was obtained from ABRC. Homozygous
+ben1
+mutants were isolated using the following primers: SALK_013761LP (5′-TGGAAAGTGAAATTGGTGAGC-3′), SALK_013761RP (5′-CAAGGATTCTTCTCTGCATGG-3′), and LBb1.3.
+Chemical Treatments and Seedling Growth Assays
+Working solutions of
+LatB
+(Calbiochem),
+BFA
+(Sigma-Aldrich), cytochalasin B and D (MP Biomedicals), indole-3-acetic acid, and 1-naphthaleneacetic acid (Sigma-Aldrich) were diluted from stock solutions in DMSO. Working solutions of sodium chloride and mannitol (Sigma-Aldrich) were prepared directly from solids from the manufacturer’s containers. Seedling growth assays were conducted by transplanting 3- to 4-d-old seedlings grown on solid (1% agar) onto
+MS
+medium supplemented with the various chemicals. Seedlings were grown vertically for an additional 4 to 7 d after transplanting in a 14-h-light (120 μmol m
+−2
+s
+−1
+) and 10-h-dark cycle or in complete darkness in a growth chamber set to 23°C. In another set of experiments, 4-d-old seedlings with straight primary roots were transplanted on new Petri plates with
+MS
+medium. After 1 h of vertical growth, plates were reoriented by 90 degrees and primary roots were photographed every hour for 12 h. Images of seedlings were captured using a DXM1200C digital camera (Nikon) mounted on a copy stand or an SZX12 stereomicroscope (Olympus). Hypocotyl, primary root and root hair lengths, and root curvature were measured using the Image J v1.49 software (
+http://rsb.info.nih.gov/ij/
+).
+The 3- to 4-d-old wild-type (Col-0 ecotype) and
+hlb1
+seedlings expressing
+PIN2-GFP
+or
+HLB1-GFP
+were incubated on
+BFA
+or
+LatB
+diluted with
+MS
+medium on welled plates for various time periods and mounted on glass slides prior to imaging with a Leica TCS AOBS confocal scanning laser microscope (Leica Microsystems). For endocytic assays, a working solution of 4 μM FM1-43 (Invitrogen) was prepared in
+MS
+medium from a 10 mM aqueous solution. After incubating for 30 min in liquid
+MS
+medium, 3- to 4-d-old seedlings were pulse labeled with FM1-43 for 5 min at room temperature. Seedlings were then treated with 50 μM
+BFA
+for 1 h prior to confocal imaging. In a separate set of seedlings expressing PIN2-GFP or pulse-labeled with FM1-43,
+BFA
+was washed out by transferring seedlings to liquid
+MS
+medium prior to imaging.
+Generation of HLB1-Green Fluorescent Protein Constructs
+The
+HLB1pro:HLB1-GFP
+construct was generated from full-length
+HLB1
+gDNA extracted from roots of 2-week-old wild-type Arabidopsis seedlings using the Plant DNAzol Reagent (Invitrogen). Full-length
+HLB1
+gDNA including ∼400 bp immediately preceding the start codon (3319 bp total) was amplified using the following primers: HLBpro-F-XmaI (5′-CATCCCGGGGACTACTTATATCTTTCACTCTTGTTC-3′) and HLBpro-R-XmaI (5′-TACCCCGGGCACCGGTGATAATACCGGCTA-3′). The product was cloned into a modified pCAMBIA1390 vector as described (
+Wang et al., 2008
+).
+35Spro:GFP-HLB1
+was generated from full-length
+HLB1
+cDNA (1698 bp) amplified using the following primers: HLB-F-NcoI (5′-CATCCATGGTAATGGCGGATACTGTTGAAGAG-3′) and HLB-R-SpeI (5′- CATACTAGTTTAACCGGTGATAATACCGGC-3′). The resulting product was digested with
+Nco
+I and
+Spe
+I (New England Biolabs) and cloned into a modified pCAMBIA1390 vector behind the CaMV 35S promoter driving expression of GFP (
+Wang et al., 2008
+). To generate the GFP-HLB1
+∆CTD
+fusion, a truncated
+HLB1
+cDNA fragment, from position 1 to 1482 bp, was amplified using the primers HLB1-F-NcoI and HLB1
+∆CTD
+-R-SpeI (5′-TACACTAGTTTATACCGTCTTCCTCTCCACGT-3′), and the resulting product was digested with
+Nco
+I and
+Spe
+I (New England Biolabs) and cloned into a modified pCAMBIA1390 vector. Similarly, the GFP-HLB1
+∆TPR
+fusion was created by first amplifying
+HLB1
+cDNA from position 1 to 609 bp with the following primers: HLB1
+∆TPR
+-F-NcoI (5′-CATCCATGGTAATGGCGGATACTGTTGAAGAG-3′) and HLB1
+∆TPR
+-R-SpeI (5′-TACACTAGTACGTTGGCGAGATCGACC-3′). This fragment was digested with
+Nco
+I and
+Spe
+I (New England Biolabs) and cloned into a modified pCAMBIA1390 vector to created HLB1
+1-609
+. Next, an
+HLB1
+cDNA fragment was amplified from position 1276 to 1698 bp with the following primers: HLB1
+∆TPR(2)
+-F-SpeI (5′-CATACTAGTCTACCTCTCCCGCATCTTAAAGT-3′) and HLB1
+∆TPR(2)
+-R-PmlI (5′-TACCACGTGTTAACCGGTGATAATACCGGC-3′). This fragment was digested with
+Spe
+I and
+Pml
+I (New England Biolabs) and cloned into the HLB1
+1-609
+construct. The
+35Spro:OsHLB1-GFP
+construct was generated by amplifying full-length
+OsHLB1
+cDNA (1449 bp) with the primers OsHLB1-F-SalI (5′-CATGTCGACATGGAGGATTCTGCGCGG-3′) and OsHLB1-R-EcoRI (5′-GTAGAATTCACCAGTAATGATACCTGCCAATACA-3′). The product was digested with
+Sal
+I and
+Eco
+RI (New England Biolabs) and again cloned into a modified pCAMBIA1390 vector. Constructs were introduced into
+hlb1-1
+via
+Agrobacterium tumefaciens-
+mediated transformation using the floral dip method (
+Clough and Bent, 1998
+).
+Confocal Microscopy and Colocalization Studies
+hlb1-1
+seedlings expressing HLB1pro:HLB1-GFP were crossed with various red- or cyan-emitting marker lines. The PIN2-GFP, Man49-mCherry, SYP61-CFP, mCherry-VTI12, mCherry-RabA1g, mCherry-Ara6, GFP-ABD2-GFP, mCherry-ABD2-mCherry, MIN7/BEN1-GFP, RFP-AFVY, and SEC-RFP lines were described previously (
+Nelson et al., 2007
+;
+Robert et al., 2008
+;
+Geldner et al., 2009
+;
+Nomura et al., 2011
+;
+Feraru et al., 2012
+;
+Renna et al., 2013
+;
+Dyachok et al., 2014
+). To generate the UBQ10pro:Lifeact-mEGFP construct, mEGFP with the 51-bp Lifeact sequence directly upstream was amplified from plasmid DNA described by
+Vidali et al. (2009)
+using the following primers: Lifeact-F-EcoRI (5′-CATGAATTCATGGGTGTCGCAGATTTGATC-3′) and Lifeact-R-SpeI (5′-TACACTAGTTTACTTGTACAGCTCGTCCATGC-3′). The resulting product was digested with
+Eco
+RI and
+Spe
+I (New England Biolabs) and cloned behind the UBQ10 promoter in a modified pCAMBIA1390 vector. Five-day-old seedlings coexpressing HLB1-GFP and various red- or cyan-emitting markers were imaged with a Leica confocal microscope or Perkin-Elmer UltraView ERS spinning-disc confocal microscope.
+For quantification of F-actin and
+TGN
+/
+EE
+dynamics, images of epidermal cells in the root maturation zone or root hairs growing along the bottom of 48 × 64-mm cover slips coated with
+MS
+medium in 0.5% agar were captured every 0.5 to 1 s for 1 to 3 min with a Perkin-Elmer spinning-disc confocal microscope equipped with a Zeiss C-Apochromat 63× water or a 100× oil immersion objective.
+Image Analysis
+Percentage of occupancy of F-actin was determined using the algorithm described by
+Higaki et al. (2010)
+. Prior to applying the Higaki algorithm, single cells from the root elongation zone were converted into binary images and filaments skeletonized by software that was developed using MATLAB R2013a (The Mathworks Inc.) as described (
+Dyachok et al., 2014
+). Intensity of
+BFA
+agglomerates was obtained using custom software written in MATLAB 8.5. The original images from the confocal microscope were first converted to gray scale and separated into 48 layers by intensity values from zero to maximum (255*255), and a binary image was created. The circle Hough Transform method was used to trace areas occupied by
+BFA
+- and
+LatB
+-induced PIN2-GFP or FM1-43 agglomerates in the binary images. The average intensity in grayscale images in each of marked agglomerate was calculated. From the same set of images used to calculate agglomerate fluorescence intensity, the number of agglomerates per cell was manually counted.
+Quantification and statistical analyses of global F-actin and YFP-VTI12 dynamics were conducted following the methods of
+Vidali et al. (2010)
+and
+Dyachok et al. (2014)
+using images of root epidermal cells and root hairs from at least 15 time-lapse movie sequences. To adopt the method used for global analysis of F-actin to dynamics of YFP-VTI12 foci in root hairs, we first created an algorithm that utilized the Hough Transform method to detect individual organelles from binary images obtained from time-lapse movies. This algorithm allowed us to set a threshold so that fluorescence originating from the cytoplasm was excluded from our analysis.
+To quantify fluorescence in the
+PM
+and cell interior of PIN2-GFP-expressing root cells, we created another algorithm. After converting images to gray scale, binary images were generated after separating the image into 48 layers and classifying the layers based on their intensity values. This allowed us to separate fluorescence of the
+PM
+from the cell interior where the white area in the binary image corresponded to
+PM
+signals and the black area corresponded to the cell interior. Fluorescence intensity was calculated by accumulating the intensity value of each pixel from the
+PM
+and cell interior.
+To quantify the extent of colocalization between HLB1-GFP and other mCherry-tagged
+TGN
+/
+EE
+markers, spinning-disc confocal images were first thresholded using the Volocity quantitation software (Perkin-Elmer). The colocalization function of Volocity allows automated thresholding and statistical analyses of red and green channels according to the methods of
+Manders et al. (1993)
+and
+Costes et al. (2004)
+. From the colocalization menu of Volocity quantitation, a region of interest representing a single cell (
+Figure 7A
+) was selected, and from generated scatterplots (
+Figure 7F
+) (
+Bottanelli et al., 2012
+), Pearson’s correlation coefficient values were calculated.
+Phylogenetic Analysis and Bioinformatics
+To deduce phylogeny of HLB1, sequences for 141 homologous proteins from 79 species were obtained from GenBank. The amino acid sequences were aligned by MUSCLE algorithm (
+Edgar, 2004
+), and unreliable sequences with confidence score lower than 0.6 were removed (
+Penn et al., 2010
+). The alignment is available as
+Supplemental Data Set 3
+. Subsequent phylogenetic analyses were conducted in MEGA6 (
+Tamura et al., 2013
+) based on the maximum likelihood method (
+Le and Gascuel, 2008
+). A matrix of pairwise distances was estimated by the JTT model, and the tree with the highest log likelihood (12,977) was chosen with the Neighbor-join and BIONJ algorithm. A discrete gamma distribution was used to model evolutionary rate differences among sites (+G, parameter = 3.2081). All positions with <95% site coverage were eliminated.
+To find
+TPR
+-containing proteins, the Arabidopsis genome was scanned with TPRpred (
+Karpenahalli et al., 2007
+). The resulting 587 proteins were compared against the Conserved Domain Database (
+Marchler-Bauer et al., 2015
+). The 147 Arabidopsis proteins were identified to have more than one
+TPR
+motifs. Predicated subcellular localization for the
+TPR
+proteins was obtained from the SubCellular Proteome Database and presented in
+Supplemental Data Set 1
+.
+Co-IP
+Co-IP experiments were conducted using the Pierce Classic IP kit (Thermo Scientific). Briefly, proteins were extracted by grinding roots of 2-week-old Arabidopsis seedlings expressing
+35Spro:GFP
+,
+35Spro:GFP-HLB
+, and
+35Spro:MIN7/BEN1-GFP
+in liquid nitrogen. The fine powder was then mixed with extraction/wash solution supplemented with 1:100 protease inhibitor cocktail (Sigma-Aldrich) by vortexing. The protein extracts were centrifuged at 16,000
+g
+for 10 min at 4°C. The supernatant was mixed with control resin via end-over-end shaking in a 15-mL Falcon tube for 1 h at 4°C. The mixture was then added to a spin column and centrifuged at 1000
+g
+for 30 s at 4°C. Rabbit Anti-GFP Monoclonal Antibody (ABCAM catalog number1218, lot number GR181836-3) was added to the cleared protein lysate and mixed by end-over-end shaking overnight at 4°C. Protein A/G plus agarose resin was then added and allowed to mix for 1 h at 4°C. The mixture was again added to a spin column and centrifuged at 1000
+g
+for 30 s at 4°C. The columns were washed five times with extraction/wash solution and then one time with 1× conditioning buffer. The proteins were eluted by adding 2× nonreducing lane marker sample buffer with 20 mM DTT and heating for 10 min at 100°C. Once cooled, the columns were placed inside Eppendorf tubes and centrifuged at 1000
+g
+for 30 s at 4°C. Composition of the eluent was analyzed by tandem mass spectrometry (Bioproximity). Briefly, the samples were digested with trypsin (10 μg/mL) overnight at 37°C. The resulting peptides were dried and redissolved in 50% acetonitrile with 0.5% trifluoroacetic acid. The peptides were resolved with Thermo Easy-nLC1000 column (C18 reverse phase, 50 cm, ϕ 75 μm), ionized with Thermo Easy Spray, and then analyzed with a Thermo Q-exactive quadrupole-Orbitrap mass spectrometer. The spectra were assigned to peptides using the OMSSA (
+Geer et al., 2004
+), X!Tandem (
+Craig and Beavis, 2004
+), and X!Hunter (
+Craig et al., 2006
+) algorithms.
+Accession Numbers
+Sequence data from this article can be found in the Arabidopsis Genome Initiative or GenBank/ EMBL databases under the following accession numbers: HLB1 (AT5G41950) and MIN7/BEN1 (AT3G43300). Protein accession numbers for HLB1 orthologs are as follows:
+Aegilops tauschii
+, gi|475447842;
+Amborella trichopoda
+, gi|548852614;
+Arabidopsis lyrata
+, gi|297805444;
+Arabidopsis thaliana
+, gi|133778836;
+Arabis alpina
+, gi|674240218;
+Beta vulgaris
+, gi|731331895;
+Brachypodium distachyon
+, gi|357114392;
+Brassica napus
+, gi|674870500;
+Brassica rapa
+, gi|685298732;
+Camelina sativa
+, gi|727533856;
+Capsella rubella
+, gi|565442422;
+Chlorella variabilis
+, gi|552830027;
+Cicer arietinum
+, gi|502116595;
+Citrus clementina
+, gi|557541493;
+Citrus sinensis
+, gi|641857964;
+Coccomyxa subellipsoidea
+, gi|545359525;
+Coffea canephora
+, gi|661884304;
+Cucumis melo
+, gi|659095407, gi|307136085;
+Cucumis sativus
+, gi|700200538;
+Elaeis guineensis
+, gi|743777795;
+Erythranthe guttata
+, gi|604327766;
+Eucalyptus grandis
+, gi|702322982;
+Eutrema salsugineum
+, gi|567192832;
+Fragaria vesca
+, gi|470147958;
+Genlisea aurea
+, gi|527191692;
+Glycine max
+, gi|356576620;
+Glycine soja
+, gi|734324220;
+Gossypium arboreum
+, gi|728819858;
+Hordeum vulgare
+, gi|326492972;
+Jatropha curcas
+, gi|643711772;
+Lolium perenne
+, gi|374921937;
+Malus domestica
+, gi|657995845;
+Medicago truncatula
+, gi|657404132;
+Micromonas pusilla
+, gi|303278672;
+Morus notabilis
+, gi|703112722;
+Musa acuminate
+, gi|695027101;
+Nelumbo nucifera
+, gi|720036758;
+Nicotiana sylvestris
+, gi|698531617;
+Nicotiana tomentosiformis
+, gi|697157841;
+Oryza brachyantha
+, gi|573926901;
+Oryza sativa Indica
+, gi|125532651;
+Oryza sativa Japonica
+, gi|108705829;
+Ostreococcus tauri
+, gi|693498951;
+Phaseolus vulgaris
+, gi|561035046;
+Phoenix dactylifera
+, gi|672133847;
+Physcomitrella patens
+, gi|162670631;
+Populus euphratica
+, gi|743825082;
+Populus trichocarpa
+, gi|550343167;
+Prunus mume
+, gi|645267755;
+Prunus persica
+, gi|462406973;
+Pyrus × bretschneideri
+, gi|694355322;
+Ricinus communis
+, gi|255555737;
+Selaginella moellendorffii
+, gi|302804999;
+Sesamum indicum
+, gi|747048717;
+Setaria italica
+, gi|514815687;
+Solanum lycopersicum
+, gi|525313946;
+Solanum tuberosum
+, gi|565353752;
+Sorghum bicolor
+, gi|242039083;
+Tarenaya hassleriana
+, gi|729396960;
+Theobroma cacao
+, gi|590675266;
+Triticum urartu
+, gi|474237686;
+Vitis vinifera
+, gi|731378821; and
+Zea mays
+, gi|194707904.
+Supplemental Data
+Supplemental Figure 1.
+Hypocotyl and Root Hair Growth of
+hlb1
+Are Hypersensitive to
+LatB
+.
+Supplemental Figure 2.
+hlb1
+Is Hypersensitive to Cytochalasin B and D.
+Supplemental Figure 3.
+hlb1
+Is Not Hypersensitive to Other Treatments That Inhibit Primary Root Growth.
+Supplemental Figure 4.
+hlb1
+Is More Sensitive to
+LatB
+Compared to Other Mutants That Directly Affect the Actin Cytoskeleton.
+Supplemental Figure 5.
+Cell Division and Expansion of
+hlb1
+Roots Are Strongly Inhibited by
+LatB
+.
+Supplemental Figure 6.
+Quantitative Analysis of Global F-Actin Dynamics in Root Epidermal Cells and Root Hairs.
+Supplemental Figure 7.
+Nature of
+HLB1
+Mutation and Characterization of Other
+hlb1
+Alleles.
+Supplemental Figure 8.
+Phylogenetic Analysis of HLB1 Sequences in Land Plants.
+Supplemental Figure 9.
+35Spro:GFP-HLB1
+Complements the Hypersensitivity to
+LatB
+and Short Primary Root Phenotypes of
+hlb1-1
+.
+Supplemental Figure 1
+0.
+The C-Terminal Domain Targets HLB1 to the
+TGN
+/
+EE
+.
+Supplemental Figure 11.
+HLB1-GFP and the
+TGN
+/
+EE
+Markers (YFP-VTI12 and SYP61-CFP) in the Root Elongation Zone Form Intracellular Agglomerates upon Exposure to
+LatB
+.
+Supplemental Figure 12.
+Oryza sativa HLB1
+Partially Complements the Arabidopsis
+hlb1
+Mutant.
+Supplemental Figure 13.
+HLB1 Functions in Similar Genetic Pathways as BEN1.
+Supplemental Figure 14.
+Global Organization and Dynamics of YFP-VTI12 and MIN7/BEN1-GFP in
+hlb1
+.
+Supplemental Figure 15.
+Quantification of Root Growth Orientation and Gravitropism in
+hlb1
+Seedlings.
+Supplemental Figure 16.
+hlb1
+Has Mild Defects in Bulk Protein Secretion and Trafficking to the Vacuole.
+Supplemental Figure 17.
+FM1-43 Agglomerates Persist in
+hlb1
+after
+BFA
+Washout.
+Supplemental Movie 1.
+Spinning-Disc Confocal Microscopy of F-Actin Dynamics in a Root Hair from a Wild-Type and
+hlb1
+Seedling Expressing
+UBQ10pro:GFP-ABD2-GFP
+.
+Supplemental Movie 2.
+Spinning-Disc Confocal Microscopy of F-Actin Dynamics in a Root Hair from a Wild-Type and
+hlb1
+Seedling Expressing
+UBQ10pro:Lifeact-mGFP
+.
+Supplemental Movie 3.
+Spinning-Disc Confocal Microscopy of F-Actin Dynamics in a Root Epidermal Cell from the Maturation Zone of a Wild-Type Seedling.
+Supplemental Movie 4.
+Spinning-Disc Confocal Microscopy of HLB1-GFP Dynamics in a Root Hair.
+Supplemental Movie 5.
+Spinning-Disc Confocal Microscopy of Root Cells Coexpressing HLB1-GFP and mCherry-VTI12.
+Supplemental Movie 6.
+Spinning-Disc Confocal Microscopy of Root Cells Coexpressing HLB1-GFP and mCherry-RabA1g.
+Supplemental Movie 7.
+Spinning-Disc Confocal Microscopy of Hypocotyl Epidermal Cells Coexpressing HLB1-GFP and Man49-mCherry.
+Supplemental Movie 8.
+Spinning-Disc Confocal Microscopy of Root Cells Coexpressing HLB1-GFP and mCherry-ARA6.
+Supplemental Movie 9.
+Spinning-Disc Confocal Microscopy of Root Epidermal Cells in the Maturation Zone Coexpressing HLB1-GFP and mCherry-ABD2-mCherry.
+Supplemental Movie 10.
+Spinning-Disc Confocal Microscopy of the Base of a Mature Root Hair Cell Coexpressing HLB1-GFP and mCherry-ABD2-mCherry.
+Supplemental Movie 11.
+Spinning-Disc Confocal Microscopy of Root Cells Coexpressing HLB1-mCherry and MIN7/BEN1-GFP.
+Supplemental Movie 12.
+Spinning-Disc Confocal Microscopy of YFP-VTI12 Dynamics in Wild-Type and
+hlb1
+Root Hairs.
+Supplemental Movie 13.
+Spinning-Disc Confocal Microscopy of SEC-RFP Dynamics in Wild-type and
+hlb1
+Root Hairs.
+Supplemental Data Set 1.
+List of 147 Proteins in the Arabidopsis Genome with
+TPR
+Motifs.
+Supplemental Data Set 2.
+Peptides Detected by Tandem Mass Spectrometry in the Coimmunoprecipitates.
+Supplemental Data Set 3.
+Text File of the Alignment used for the Phylogenetic Analysis Shown in
+Supplemental Figure 8
+.
+Supplementary Material
+Supplemental Data
+supp_28_3_746__index.html
+(3.1KB, html)
+Acknowledgments
+This work was supported by the National Aeronautics and Space Administration (NASA Grant NNX12AM94G) and the Samuel Roberts Noble Foundation to E.B.B. and the Department of Energy (Grants BER DE-FC02-07ER64494 and DE-FG02-91ER20021) and MSU AgBioResearch to F.B. We thank Niko Geldner, Georgia Drakakaki, Christopher Staiger, Magdalena Bezanilla, and Sheng Yang He for providing published material used in this study.
+AUTHOR CONTRIBUTIONS
+J.A.S. generated plant material and research reagents used in the study. J.A.S. and E.B.B. conducted forward-genetic screens and plant growth assays. J.A.S. and T.K. performed
+co-IP
+experiments. J.A.S., L.R., F.B., and E.B.B. performed confocal imaging experiments. T.K. conducted bioinformatics studies. F.L. conducted image analysis and quantification of confocal microscope images and contributed new computational image analysis tools. All authors contributed to writing specific sections of the manuscript.
+Glossary
+ER
+endoplasmic reticulum
+PM
+plasma membrane
+TGN
+trans
+-Golgi network
+EE
+early endosome
+LatB
+latrunculin B
+DIC
+differential interference contrast
+TPR
+tetratricopeptide repeat
+BFA
+Brefeldin A
+PVC
+prevacuolar compartment
+co-IP
+coimmunoprecipitation
+MS
+Murashige and Skoog
+Footnotes
+[OPEN]
+Articles can be viewed without a subscription.
+References
+Almeida C.G., Yamada A., Tenza D., Louvard D., Raposo G., Coudrier E. (2011). Myosin 1b promotes the formation of post-Golgi carriers by regulating actin assembly and membrane remodelling at the trans-Golgi network. Nat. Cell Biol.
+13: 779–789.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Alonso J.M., et al.  (2003). Genome-wide insertional mutagenesis of
+Arabidopsis thaliana.
+Science
+301: 653–657.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Anitei M., Hoflack B. (2012). Bridging membrane and cytoskeleton dynamics in the secretory and endocytic pathways. Nat. Cell Biol.
+14: 11–19.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Asaoka R., Uemura T., Ito J., Fujimoto M., Ito E., Ueda T., Nakano A. (2013).
+Arabidopsis
+RABA1 GTPases are involved in transport between the trans-Golgi network and the plasma membrane, and are required for salinity stress tolerance. Plant J.
+73: 240–249.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Barberon M., Geldner N. (2014). Radial transport of nutrients: the plant root as a polarized epithelium. Plant Physiol.
+166: 528–537.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Basu D., Le J., Zakharova T., Mallery E.L., Szymanski D.B. (2008). A SPIKE1 signaling complex controls actin-dependent cell morphogenesis through the heteromeric WAVE and ARP2/3 complexes. Proc. Natl. Acad. Sci. USA
+105: 4044–4049.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Bhuiyan N.H., Friso G., Poliakov A., Ponnala L., van Wijk K.J. (2015). MET1 is a thylakoid-associated TPR protein involved in photosystem II supercomplex formation and repair in
+Arabidopsis.
+Plant Cell
+27: 262–285.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Blatch G.L., Lässle M. (1999). The tetratricopeptide repeat: a structural motif mediating protein-protein interactions. BioEssays
+21: 932–939.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Boevink P., Oparka K., Santa Cruz S., Martin B., Betteridge A., Hawes C. (1998). Stacks on tracks: the plant Golgi apparatus traffics on an actin/ER network. Plant J.
+15: 441–447.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Boss W.F., Im Y.J. (2012). Phosphoinositide signaling. Annu. Rev. Plant Biol.
+63: 409–429.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Bottanelli F., Gershlick D.C., Denecke J. (2012). Evidence for sequential action of Rab5 and Rab7 GTPases in prevacuolar organelle partitioning. Traffic
+13: 338–354.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Brandizzi F., Barlowe C. (2013). Organization of the ER-Golgi interface for membrane traffic control. Nat. Rev. Mol. Cell Biol.
+14: 382–392.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Brandizzi F., Snapp E.L., Roberts A.G., Lippincott-Schwartz J., Hawes C. (2002). Membrane protein transport between the endoplasmic reticulum and the Golgi in tobacco leaves is energy dependent but cytoskeleton independent: evidence from selective photobleaching. Plant Cell
+14: 1293–1309.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Chen Y.-N., Slabaugh E., Brandizzi F. (2008). Membrane-tethered transcription factors in
+Arabidopsis thaliana
+: novel regulators in stress response and development. Curr. Opin. Plant Biol.
+11: 695–701.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Chow C.-M., Neto H., Foucart C., Moore I. (2008). Rab-A2 and Rab-A3 GTPases define a trans-golgi endosomal membrane domain in
+Arabidopsis
+that contributes substantially to the cell plate. Plant Cell
+20: 101–123.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Clairfeuille T., Norwood S.J., Qi X., Teasdale R.D., Collins B.M. (2015). Structure and membrane binding properties of the endosomal tetratricopeptide repeat (TPR) domain-containing sorting nexins SNX20 and SNX21. J. Biol. Chem.
+290: 14504–14517.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Clough S.J., Bent A.F. (1998). Floral dip: a simplified method for
+Agrobacterium
+-mediated transformation of
+Arabidopsis thaliana.
+Plant J.
+16: 735–743.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Contento A.L., Bassham D.C. (2012). Structure and function of endosomes in plant cells. J. Cell Sci.
+125: 3511–3518.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Costes S.V., Daelemans D., Cho E.H., Dobbin Z., Pavlakis G., Lockett S. (2004). Automatic and quantitative measurement of protein-protein colocalization in live cells. Biophys. J.
+86: 3993–4003.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Craig R., Beavis R.C. (2004). TANDEM: matching proteins with tandem mass spectra. Bioinformatics
+20: 1466–1467.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Craig R., Cortens J.C., Fenyo D., Beavis R.C. (2006). Using annotated peptide mass spectrum libraries for protein identification. J. Proteome Res.
+5: 1843–1849.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Cvrčková F., Oulehlová D., Žárský V. (2015). Formins: linking cytoskeleton and endomembranes in plant cells. Int. J. Mol. Sci.
+16: 1–18.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+D’Andrea L.D., Regan L. (2003). TPR proteins: the versatile helix. Trends Biochem. Sci.
+28: 655–662.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Deeks M.J., Calcutt J.R., Ingle E.K., Hawkins T.J., Chapman S., Richardson A.C., Mentlak D.A., Dixon M.R., Cartwright F., Smertenko A.P., Oparka K., Hussey P.J. (2012). A superfamily of actin-binding proteins at the actin-membrane nexus of higher plants. Curr. Biol.
+22: 1595–1600.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Derivery E., Sousa C., Gautier J.J., Lombard B., Loew D., Gautreau A. (2009). The Arp2/3 activator WASH controls the fission of endosomes through a large multiprotein complex. Dev. Cell
+17: 712–723.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Dettmer J., Hong-Hermesdorf A., Stierhof Y.-D., Schumacher K. (2006). Vacuolar H
++
+-ATPase activity is required for endocytic and secretory trafficking in
+Arabidopsis.
+Plant Cell
+18: 715–730.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Doyle S.M., Haeger A., Vain T., Rigal A., Viotti C., Łangowska M., Ma Q., Friml J., Raikhel N.V., Hicks G.R., Robert S. (2015). An early secretory pathway mediated by GNOM-LIKE 1 and GNOM is essential for basal polarity establishment in
+Arabidopsis thaliana.
+Proc. Natl. Acad. Sci. USA
+112: E806–E815.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Dyachok J., Sparks J.A., Liao F., Wang Y.S., Blancaflor E.B. (2014). Fluorescent protein-based reporters of the actin cytoskeleton in living plant cells: fluorophore variant, actin binding domain, and promoter considerations. Cytoskeleton (Hoboken)
+71: 311–327.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Dyachok J., Yoo C.-M., Palanichelvam K., Blancaflor E.B. (2009). Sample preparation for fluorescence imaging of the cytoskeleton in fixed and living plant roots. In Cytoskeleton Methods and Protocols: Methods in Molecular Biology, 2nd ed, R.H. Gavin, ed (Totowa, NJ: Humana Press), pp. 157–169.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Dyachok J., Zhu L., Liao F., He J., Huq E., Blancaflor E.B. (2011). SCAR mediates light-induced root elongation in
+Arabidopsis
+through photoreceptors and proteasomes. Plant Cell
+23: 3610–3626.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ebine K., Okatani Y., Uemura T., Goh T., Shoda K., Niihama M., Morita M.T., Spitzer C., Otegui M.S., Nakano A., Ueda T. (2008). A SNARE complex unique to seed plants is required for protein storage vacuole biogenesis and seed development of
+Arabidopsis thaliana.
+Plant Cell
+20: 3006–3021.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ebine K., et al.  (2011). A membrane trafficking pathway regulated by the plant-specific RAB GTPase ARA6. Nat. Cell Biol.
+13: 853–859.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Edgar R.C. (2004). MUSCLE: a multiple sequence alignment method with reduced time and space complexity. BMC Bioinformatics
+5: 113.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Faso C., Chen Y.-N., Tamura K., Held M., Zemelis S., Marti L., Saravanan R., Hummel E., Kung L., Miller E., Hawes C., Brandizzi F. (2009). A missense mutation in the
+Arabidopsis
+COPII coat protein Sec24A induces the formation of clusters of the endoplasmic reticulum and Golgi apparatus. Plant Cell
+21: 3655–3671.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Feraru E., Feraru M.I., Asaoka R., Paciorek T., De Rycke R., Tanaka H., Nakano A., Friml J. (2012). BEX5/RabA1b regulates trans-Golgi network-to-plasma membrane protein trafficking in Arabidopsis. Plant Cell
+24: 3074–3086.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Fujimoto M., Ueda T. (2012). Conserved and plant-unique mechanisms regulating plant post-Golgi traffic. Front. Plant Sci.
+3: 197.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Garcia de la Garma J., Fernandez-Garcia N., Bardisi E., Pallol B., Asensio-Rubio J.S., Bru R., Olmos E. (2015). New insights into plant salt acclimation: the roles of vesicle trafficking and reactive oxygen species signalling in mitochondria and the endomembrane system. New Phytol.
+205: 216–239.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Geer L.Y., Markey S.P., Kowalak J.A., Wagner L., Xu M., Maynard D.M., Yang X., Shi W., Bryant S.H. (2004). Open mass spectrometry search algorithm. J. Proteome Res.
+3: 958–964.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Geldner N., Dénervaud-Tendon V., Hyman D.L., Mayer U., Stierhof Y.D., Chory J. (2009). Rapid, combinatorial analysis of membrane compartments in intact plants with a multicolor marker set. Plant J.
+59: 169–178.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Geldner N., Friml J., Stierhof Y.-D., Jürgens G., Palme K. (2001). Auxin transport inhibitors block PIN1 cycling and vesicle trafficking. Nature
+413: 425–428.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Geldner N., Hyman D.L., Wang X., Schumacher K., Chory J. (2007). Endosomal signaling of plant steroid receptor kinase BRI1. Genes Dev.
+21: 1598–1602.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Gendre D., Jonsson K., Boutté Y., Bhalerao R.P. (2015). Journey to the cell surface--the central role of the trans-Golgi network in plants. Protoplasma
+252: 385–398.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Gendre D., McFarlane H.E., Johnson E., Mouille G., Sjödin A., Oh J., Levesque-Tremblay G., Watanabe Y., Samuels L., Bhalerao R.P. (2013). Trans-Golgi network localized ECHIDNA/Ypt interacting protein complex is required for the secretion of cell wall polysaccharides in
+Arabidopsis.
+Plant Cell
+25: 2633–2646.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Gendre D., Oh J., Boutté Y., Best J.G., Samuels L., Nilsson R., Uemura T., Marchant A., Bennett M.J., Grebe M., Bhalerao R.P. (2011). Conserved
+Arabidopsis
+ECHIDNA protein mediates trans-Golgi-network trafficking and cell elongation. Proc. Natl. Acad. Sci. USA
+108: 8048–8053.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Grebe M., Xu J., Möbius W., Ueda T., Nakano A., Geuze H.J., Rook M.B., Scheres B. (2003).
+Arabidopsis
+sterol endocytosis involves actin-mediated trafficking via ARA6-positive early endosomes. Curr. Biol.
+13: 1378–1387.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Guet D., Mandal K., Pinot M., Hoffmann J., Abidine Y., Sigaut W., Bardin S., Schauer K., Goud B., Manneville J.-B. (2014). Mechanical role of actin dynamics in the rheology of the Golgi complex and in Golgi-associated trafficking events. Curr. Biol.
+24: 1700–1711.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Hachez C., Laloux T., Reinhardt H., Cavez D., Degand H., Grefen C., De Rycke R., Inzé D., Blatt M.R., Russinova E., Chaumont F. (2014).
+Arabidopsis
+SNAREs SYP61 and SYP121 coordinate the trafficking of plasma membrane aquaporin PIP2;7 to modulate the cell membrane water permeability. Plant Cell
+26: 3132–3147.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Henty-Ridilla J.L., Li J., Day B., Staiger C.J. (2014). ACTIN DEPOLYMERIZING FACTOR4 regulates actin dynamics during innate immune signaling in
+Arabidopsis.
+Plant Cell
+26: 340–352.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Higaki T., Kutsuna N., Sano T., Kondo N., Hasezawa S. (2010). Quantification and cluster analysis of actin cytoskeletal structures in plant cells: role of actin bundling in stomatal movement during diurnal cycles in
+Arabidopsis
+guard cells. Plant J.
+61: 156–165.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Hu Z., Xu F., Guan L., Qian P., Liu Y., Zhang H., Huang Y., Hou S. (2014). The tetratricopeptide repeat-containing protein slow green1 is required for chloroplast development in
+Arabidopsis.
+J. Exp. Bot.
+65: 1111–1123.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Hunter P.R., Craddock C.P., Di Benedetto S., Roberts L.M., Frigerio L. (2007). Fluorescent reporter proteins for the tonoplast and the vacuolar lumen identify a single vacuolar compartment in
+Arabidopsis
+cells. Plant Physiol.
+145: 1371–1382.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Jacobsen S.E., Binkowski K.A., Olszewski N.E. (1996). SPINDLY, a tetratricopeptide repeat protein involved in gibberellin signal transduction in
+Arabidopsis.
+Proc. Natl. Acad. Sci. USA
+93: 9292–9296.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Jia H., Li J., Zhu J., Fan T., Qian D., Zhou Y., Wang J., Ren H., Xiang Y., An L. (2013).
+Arabidopsis
+CROLIN1, a novel plant actin-binding protein, functions in cross-linking and stabilizing actin filaments. J. Biol. Chem.
+288: 32277–32288.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Jimenez-Lopez J.C., Wang X., Kotchoni S.O., Huang S., Szymanski D.B., Staiger C.J. (2014). Heterodimeric capping protein from
+Arabidopsis
+is a membrane-associated, actin-binding protein. Plant Physiol.
+166: 1312–1328.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kandasamy M.K., McKinney E.C., Meagher R.B. (2009). A single vegetative actin isovariant overexpressed under the control of multiple regulatory sequences is sufficient for normal
+Arabidopsis
+development. Plant Cell
+21: 701–718.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kang B.H., Nielsen E., Preuss M.L., Mastronarde D., Staehelin L.A. (2011). Electron tomography of RabA4b- and PI-4Kβ1-labeled trans Golgi network compartments in
+Arabidopsis.
+Traffic
+12: 313–329.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Karpenahalli M.R., Lupas A.N., Söding J. (2007). TPRpred: a tool for prediction of TPR-, PPR- and SEL1-like repeats from protein sequences. BMC Bioinformatics
+8: 2.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kim H., Park M., Kim S.J., Hwang I. (2005). Actin filaments play a critical role in vacuolar trafficking at the Golgi complex in plant cells. Plant Cell
+17: 888–902.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kim S.J., Brandizzi F. (2014). The plant secretory pathway: an essential factory for building the plant cell wall. Plant Cell Physiol.
+55: 687–693.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Kim S.J., Held M.A., Zemelis S., Wilkerson C., Brandizzi F. (2015). CGR2 and CGR3 have critical overlapping roles in pectin methylesterification and plant growth in
+Arabidopsis thaliana.
+Plant J.
+82: 208–220.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Kleine-Vehn J., Ding Z., Jones A.R., Tasaka M., Morita M.T., Friml J. (2010). Gravity-induced PIN transcytosis for polarization of auxin fluxes in gravity-sensing root cells. Proc. Natl. Acad. Sci. USA
+107: 22344–22349.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kleine-Vehn J., Leitner J., Zwiewka M., Sauer M., Abas L., Luschnig C., Friml J. (2008). Differential degradation of PIN2 auxin efflux carrier by retromer-dependent vacuolar targeting. Proc. Natl. Acad. Sci. USA
+105: 17812–17817.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kusano H., Testerink C., Vermeer J.E., Tsuge T., Shimada H., Oka A., Munnik T., Aoyama T. (2008). The
+Arabidopsis
+phosphatidylinositol phosphate 5-kinase PIP5K3 is a key regulator of root hair tip growth. Plant Cell
+20: 367–380.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Le S.Q., Gascuel O. (2008). An improved general amino acid replacement matrix. Mol. Biol. Evol.
+25: 1307–1320.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Li J., Henty-Ridilla J.L., Huang S., Wang X., Blanchoin L., Staiger C.J. (2012). Capping protein modulates the dynamic behavior of actin filaments in response to phosphatidic acid in
+Arabidopsis.
+Plant Cell
+24: 3742–3754.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Li J., Henty-Ridilla J.L., Staiger B.H., Day B., Staiger C.J. (2015). Capping protein integrates multiple MAMP signalling pathways to modulate actin dynamics during plant innate immunity. Nat. Commun.
+6: 7206.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Li J., Staiger B.H., Henty-Ridilla J.L., Abu-Abied M., Sadot E., Blanchoin L., Staiger C.J. (2014). The availability of filament ends modulates actin stochastic dynamics in live plant cells. Mol. Biol. Cell
+25: 1263–1275.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Lozano-Durán R., Bourdais G., He S.Y., Robatzek S. (2014). The bacterial effector HopM1 suppresses PAMP-triggered oxidative burst and stomatal immunity. New Phytol.
+202: 259–269.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Lukowitz W., Gillmor C.S., Scheible W.-R. (2000). Positional cloning in
+Arabidopsis
+. Why it feels good to have a genome initiative working for you. Plant Physiol.
+123: 795–805.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Manders E.M.M., Verbeek F.J., Aten J.A. (1993). Measurement of co-localization of objects in dual-colour confocal images. J. Microsc.
+169: 375–382.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Marchler-Bauer A., et al.  (2015). CDD: NCBI’s conserved domain database. Nucleic Acids Res.
+43: D222–D226.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Mathur J., Mathur N., Kernebeck B., Hülskamp M. (2003). Mutations in actin-related proteins 2 and 3 affect cell shape development in
+Arabidopsis.
+Plant Cell
+15: 1632–1645.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Müller A., Guan C., Gälweiler L., Tänzler P., Huijser P., Marchant A., Parry G., Bennett M., Wisman E., Palme K. (1998). AtPIN2 defines a locus of
+Arabidopsis
+for root gravitropism control. EMBO J.
+17: 6903–6911.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Nagawa S., Xu T., Lin D., Dhonukshe P., Zhang X., Friml J., Scheres B., Fu Y., Yang Z. (2012). ROP GTPase-dependent actin microfilaments promote PIN1 polarization by localized inhibition of clathrin-dependent endocytosis. PLoS Biol.
+10: e1001299.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Naoi K., Hashimoto T. (2004). A semidominant mutation in an
+Arabidopsis
+mitogen-activated protein kinase phosphatase-like gene compromises cortical microtubule organization. Plant Cell
+16: 1841–1853.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Naramoto S., Otegui M.S., Kutsuna N., de Rycke R., Dainobu T., Karampelias M., Fujimoto M., Feraru E., Miki D., Fukuda H., Nakano A., Friml J. (2014). Insights into the localization and function of the membrane trafficking regulator GNOM ARF-GEF at the Golgi apparatus in
+Arabidopsis.
+Plant Cell
+26: 3062–3076.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Nebenführ A., Gallagher L.A., Dunahay T.G., Frohlick J.A., Mazurkiewicz A.M., Meehl J.B., Staehelin L.A. (1999). Stop-and-go movements of plant Golgi stacks are mediated by the acto-myosin system. Plant Physiol.
+121: 1127–1142.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Nelson B.K., Cai X., Nebenführ A. (2007). A multicolored set of in vivo organelle markers for co-localization studies in
+Arabidopsis
+and other plants. Plant J.
+51: 1126–1136.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Nomura K., Debroy S., Lee Y.H., Pumplin N., Jones J., He S.Y. (2006). A bacterial virulence protein suppresses host innate immunity to cause plant disease. Science
+313: 220–223.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Nomura K., Mecey C., Lee Y.-N., Imboden L.A., Chang J.H., He S.Y. (2011). Effector-triggered immunity blocks pathogen degradation of an immunity-associated vesicle traffic regulator in
+Arabidopsis.
+Proc. Natl. Acad. Sci. USA
+108: 10774–10779.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Pahari S., Cormark R.D., Blackshaw M.T., Liu C., Erickson J.L., Schultz E.A. (2014). Arabidopsis UNHINGED encodes a VPS51 homolog and reveals a role for the GARP complex in leaf shape and vein patterning. Development
+141: 1894–1905.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Papuga J., Hoffmann C., Dieterle M., Moes D., Moreau F., Tholl S., Steinmetz A., Thomas C. (2010).
+Arabidopsis
+LIM proteins: a family of actin bundlers with distinct expression patterns and modes of regulation. Plant Cell
+22: 3034–3052.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Paredez A.R., Persson S., Ehrhardt D.W., Somerville C.R. (2008). Genetic evidence that cellulose synthase activity influences microtubule cortical array organization. Plant Physiol.
+147: 1723–1734.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Penn O., Privman E., Ashkenazy H., Landan G., Graur D., Pupko T. (2010). GUIDANCE: a web server for assessing alignment confidence scores. Nucleic Acids Res.
+38: W23–W28.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Peremyslov V.V., Morgun E.A., Kurth E.G., Makarova K.S., Koonin E.V., Dolja V.V. (2013). Identification of myosin XI receptors in
+Arabidopsis
+defines a distinct class of transport vesicles. Plant Cell
+25: 3022–3038.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Preuss M.L., Serna J., Falbel T.G., Bednarek S.Y., Nielsen E. (2004). The
+Arabidopsis
+Rab GTPase RabA4b localizes to the tips of growing root hair cells. Plant Cell
+16: 1589–1603.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Qu X., Zhang H., Xie Y., Wang J., Chen N., Huang S. (2013).
+Arabidopsis
+villins promote actin turnover at pollen tube tips and facilitate the construction of actin collars. Plant Cell
+25: 1803–1817.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Renna L., Stefano G., Majeran W., Micalella C., Meinnel T., Giglione C., Brandizzi F. (2013). Golgi traffic and integrity depend on N-myristoyl transferase-1 in
+Arabidopsis.
+Plant Cell
+25: 1756–1773.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Richter S., Voss U., Jürgens G. (2009). Post-Golgi traffic in plants. Traffic
+10: 819–828.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Robert S., Chary S.N., Drakakaki G., Li S., Yang Z., Raikhel N.V., Hicks G.R. (2008). Endosidin1 defines a compartment involved in endocytosis of the brassinosteroid receptor BRI1 and the auxin transporters PIN2 and AUX1. Proc. Natl. Acad. Sci. USA
+105: 8464–8469.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Robinson D.G., Jiang L., Schumacher K. (2008). The endosomal system of plants: charting new and familiar territories. Plant Physiol.
+147: 1482–1492.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Rosado A., Schapire A.L., Bressan R.A., Harfouche A.L., Hasegawa P.M., Valpuesta V., Botella M.A. (2006). The
+Arabidopsis
+tetratricopeptide repeat-containing protein TTL1 is required for osmotic stress responses and abscisic acid sensitivity. Plant Physiol.
+142: 1113–1126.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Sparkes I., Runions J., Hawes C., Griffing L. (2009). Movement and remodeling of the endoplasmic reticulum in nondividing cells of tobacco leaves. Plant Cell
+21: 3937–3949.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Staiger C.J., Sheahan M.B., Khurana P., Wang X., McCurdy D.W., Blanchoin L. (2009). Actin filament dynamics are dominated by rapid growth and severing activity in the
+Arabidopsis
+cortical array. J. Cell Biol.
+184: 269–280.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Stenzel I., Ischebeck T., König S., Hołubowska A., Sporysz M., Hause B., Heilmann I. (2008). The type B phosphatidylinositol-4-phosphate 5-kinase 3 is essential for root hair formation in
+Arabidopsis thaliana.
+Plant Cell
+20: 124–141.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Stephan O., Cottier S., Fahlén S., Montes-Rodriguez A., Sun J., Eklund D.M., Klahre U., Kost B. (2014). RISAP is a TGN-associated RAC5 effector regulating membrane traffic during polar cell growth in tobacco. Plant Cell
+26: 4426–4447.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Su H., Zhu J., Cai C., Pei W., Wang J., Dong H., Ren H. (2012). FIMBRIN1 is involved in lily pollen tube growth by stabilizing the actin fringe. Plant Cell
+24: 4539–4554.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Sun T., Li S., Ren H. (2013). Profilin as a regulator of the membrane-actin cytoskeleton interface in plant cells. Front. Plant Sci.
+4: 512.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Takano J., Tanaka M., Toyoda A., Miwa K., Kasai K., Fuji K., Onouchi H., Naito S., Fujiwara T. (2010). Polar localization and degradation of
+Arabidopsis
+boron transporters through distinct trafficking pathways. Proc. Natl. Acad. Sci. USA
+107: 5220–5225.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Takenawa T., Suetsugu S. (2007). The WASP-WAVE protein network: connecting the membrane to the cytoskeleton. Nat. Rev. Mol. Cell Biol.
+8: 37–48.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Tamura K., Stecher G., Peterson D., Filipski A., Kumar S. (2013). MEGA6: molecular evolutionary genetics analysis version 6.0. Mol. Biol. Evol.
+30: 2725–2729.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Tanaka H., Kitakura S., De Rycke R., De Groodt R., Friml J. (2009). Fluorescence imaging-based screen identifies ARF GEF component of early endosomal trafficking. Curr. Biol.
+19: 391–397.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Tanaka H., Kitakura S., Rakusová H., Uemura T., Feraru M.I., De Rycke R., Robert S., Kakimoto T., Friml J. (2013). Cell polarity and patterning by PIN trafficking through early endosomal compartments in
+Arabidopsis thaliana.
+PLoS Genet.
+9: e1003540.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Tanaka H., Nodzyłski T., Kitakura S., Feraru M.I., Sasabe M., Ishikawa T., Kleine-Vehn J., Kakimoto T., Friml J. (2014). BEX1/ARF1A1C is required for BFA-sensitive recycling of PIN auxin transporters and auxin-mediated development in
+Arabidopsis.
+Plant Cell Physiol.
+55: 737–749.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Thole J.M., Vermeer J.E., Zhang Y., Gadella T.W. Jr., Nielsen E. (2008). Root hair defective4 encodes a phosphatidylinositol-4-phosphate phosphatase required for proper root hair development in
+Arabidopsis thaliana.
+Plant Cell
+20: 381–395.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Uemura T., Suda Y., Ueda T., Nakano A. (2014). Dynamic behavior of the trans-golgi network in root tissues of
+Arabidopsis
+revealed by super-resolution live imaging. Plant Cell Physiol.
+55: 694–703.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Uemura T., Ueda T., Nakano A. (2012). The physiological role of SYP4 in the salinity and osmotic stress tolerances. Plant Signal. Behav.
+7: 1118–1120.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Vidali L., Burkart G.M., Augustine R.C., Kerdavid E., Tüzel E., Bezanilla M. (2010). Myosin XI is essential for tip growth in
+Physcomitrella patens.
+Plant Cell
+22: 1868–1882.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Vidali L., Rounds C.M., Hepler P.K., Bezanilla M. (2009). Lifeact-mEGFP reveals a dynamic apical F-actin network in tip growing plant cells. PLoS One
+4: e5744.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Vincent P., Chua M., Nogue F., Fairbrother A., Mekeel H., Xu Y., Allen N., Bibikova T.N., Gilroy S., Bankaitis V.A. (2005). A Sec14p-nodulin domain phosphatidylinositol transfer protein polarizes membrane growth of
+Arabidopsis thaliana
+root hairs. J. Cell Biol.
+168: 801–812.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Viotti C., et al.  (2010). Endocytic and secretory traffic in
+Arabidopsis
+merge in the trans-Golgi network/early endosome, an independent and highly dynamic organelle. Plant Cell
+22: 1344–1357.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Wang P., Hawkins T.J., Richardson C., Cummins I., Deeks M.J., Sparkes I., Hawes C., Hussey P.J. (2014). The plant cytoskeleton, NET3C, and VAP27 mediate the link between the plasma membrane and endoplasmic reticulum. Curr. Biol.
+24: 1397–1405.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Wang Y.S., Yoo C.M., Blancaflor E.B. (2008). Improved imaging of actin filaments in transgenic
+Arabidopsis
+plants expressing a green fluorescent protein fusion to the C- and N-termini of the fimbrin actin-binding domain 2. New Phytol.
+177: 525–536.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Whippo C.W., Khurana P., Davis P.A., DeBlasio S.L., DeSloover D., Staiger C.J., Hangarter R.P. (2011). THRUMIN1 is a light-regulated actin-bundling protein involved in chloroplast motility. Curr. Biol.
+21: 59–64.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Yang Y., Sage T.L., Liu Y., Ahmad T.R., Marshall W.F., Shiu S.-H., Froehlich J.E., Imre K.M., Osteryoung K.W. (2011). CLUMPED CHLOROPLASTS 1 is required for plastid separation in
+Arabidopsis.
+Proc. Natl. Acad. Sci. USA
+108: 18530–18535.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Yoo C.M., Quan L., Cannon A.E., Wen J., Blancaflor E.B. (2012). AGD1, a class 1 ARF-GAP, acts in common signaling pathways with phosphoinositide metabolism and the actin cytoskeleton in controlling
+Arabidopsis
+root hair polarity. Plant J.
+69: 1064–1076.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zhang C., Kotchoni S.O., Samuels A.L., Szymanski D.B. (2010). SPIKE1 signals originate from and assemble specialized domains of the endoplasmic reticulum. Curr. Biol.
+20: 2144–2149.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zhang C., Mallery E., Reagan S., Boyko V.P., Kotchoni S.O., Szymanski D.B. (2013). The endoplasmic reticulum is a reservoir for WAVE/SCAR regulatory complex signaling in the
+Arabidopsis
+leaf. Plant Physiol.
+162: 689–706.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Zhang M., Wang C., Lin Q., Liu A., Wang T., Feng X., Liu J., Han H., Ma Y., Bonea D., Zhao R., Hua X. (2015). A tetratricopeptide repeat domain-containing protein SSR1 located in mitochondria is involved in root development and auxin polar transport in
+Arabidopsis.
+Plant J.
+83: 582–599.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zouhar J., Rojo E., Bassham D.C. (2009). AtVPS45 is a positive regulator of the SYP41/SYP61/VTI12 SNARE complex involved in trafficking of vacuolar cargo. Plant Physiol.
+149: 1668–1678.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Supplemental Data
+supp_28_3_746__index.html
+(3.1KB, html)
+supp_tpc.15.00794_TPC2015-00794-RAR2_Supplemental_Data.pdf
+(5.3MB, pdf)
+supp_tpc.15.00794_TPC2015-00794-RAR2_Supplemental_Movie_Legends.pdf
+(31.4KB, pdf)
+supp_tpc.15.00794_TPC2015-00794-RAR2_Supplemental_Data_sets_1_2.xlsx
+(37.1KB, xlsx)
+supp_tpc.15.00794_TPC2015-00794-RAR2_Supplemental_Data_set_3.txt
+(65.2KB, txt)
+Download video file
+(9.3MB, mp4)
+Download video file
+(9MB, mp4)
+Download video file
+(1,003.5KB, avi)
+Download video file
+(9.4MB, mp4)
+Download video file
+(9.2MB, mp4)
+Download video file
+(8.9MB, mp4)
+Download video file
+(9.2MB, avi)
+Download video file
+(8.3MB, avi)
+Download video file
+(9.3MB, mp4)
+Download video file
+(4.9MB, avi)
+Download video file
+(9.5MB, mp4)
+Download video file
+(7.8MB, mp4)
+Download video file
+(8.1MB, mp4)
+Articles from The Plant Cell are provided here courtesy of
+Oxford University Press

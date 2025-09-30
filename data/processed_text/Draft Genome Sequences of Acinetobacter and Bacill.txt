@@ -1,0 +1,466 @@
+Genome Announc
+. 2018 Feb 8;6(6):e01554-17. doi:
+10.1128/genomeA.01554-17
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Draft Genome Sequences of
+Acinetobacter
+and
+Bacillus
+Strains Isolated from Spacecraft-Associated Surfaces
+Arman Seuylemezian
+Arman Seuylemezian
+a
+Biotechnology and Planetary Protection Group, California Institute of Technology, Jet Propulsion Laboratory, Pasadena, California, USA
+Find articles by
+Arman Seuylemezian
+a
+,
+Parag Vaishampayan
+Parag Vaishampayan
+a
+Biotechnology and Planetary Protection Group, California Institute of Technology, Jet Propulsion Laboratory, Pasadena, California, USA
+Find articles by
+Parag Vaishampayan
+a
+,
+Kerry Cooper
+Kerry Cooper
+b
+College of Agriculture and Life Sciences, School of Animal and Comparative Biomedical Sciences, The University of Arizona, Tucson, Arizona, USA
+Find articles by
+Kerry Cooper
+b
+,
+Kasthuri Venkateswaran
+Kasthuri Venkateswaran
+a
+Biotechnology and Planetary Protection Group, California Institute of Technology, Jet Propulsion Laboratory, Pasadena, California, USA
+Find articles by
+Kasthuri Venkateswaran
+a,
+✉
+Author information
+Article notes
+Copyright and License information
+a
+Biotechnology and Planetary Protection Group, California Institute of Technology, Jet Propulsion Laboratory, Pasadena, California, USA
+b
+College of Agriculture and Life Sciences, School of Animal and Comparative Biomedical Sciences, The University of Arizona, Tucson, Arizona, USA
+✉
+Address correspondence to Kasthuri Venkateswaran,
+kjvenkat@jpl.nasa.gov
+.
+✉
+Corresponding author.
+Received 2017 Dec 18; Accepted 2017 Dec 21; Collection date 2018 Feb.
+Copyright © 2018 Seuylemezian et al.
+This is an open-access article distributed under the terms of the
+Creative Commons Attribution 4.0 International license
+.
+PMC Copyright notice
+PMCID: PMC5805884  PMID:
+29439046
+ABSTRACT
+We report here the draft genome sequences of four strains isolated from spacecraft-associated surfaces exhibiting increased resistance to stressors such as UV radiation and exposure to H
+2
+O
+2
+. The draft genomes of strains 1P01SC
+T
+, FO-92
+T
+, 50v1, and 2P01AA had sizes of 5,500,894 bp, 4,699,376 bp, 3,174,402 bp, and 4,328,804 bp, respectively.
+GENOME ANNOUNCEMENT
+Bacillus horneckiae
+strain 1P01SC
+T
+was isolated from a spacecraft assembly clean room at Kennedy Space Center (KSC), where the Phoenix spacecraft was assembled (
+1
+). As previously reported, spores of this strain were resistant to UV
+254
+radiation up to 1,000 J m
+−2
+.
+Bacillus nealsonii
+FO-92
+T
+was isolated from fall-out particles collected from a spacecraft assembly facility at the Jet Propulsion Laboratory (
+2
+). Spores of FO-92
+T
+have exhibited resistances to UV
+254
+up to 300 J m
+−2
+, and vegetative cells and spores of this organism were resistant in up to 5% liquid H
+2
+O
+2
+(
+2
+).
+Acinetobacter radioresistens
+50v1 was isolated from the surface of the Mars Odyssey orbiter (
+3
+). Vegetative cells of this organism were capable of surviving a combination of stressors, including desiccation, up to 1,000 J of UV
+254
+radiation, and up to 0.33 mg/ml of H
+2
+O
+2
+(
+3
+).
+Acinetobacter proteolyticus
+strain 2P01AA was isolated from the Payload Hazardous Servicing Facility at KSC during the assembly of the Phoenix spacecraft (
+4
+). As reported previously, strain 2P01AA exhibited increased resistance to H
+2
+O
+2
+exposure and survival in up to 320 mM H
+2
+O
+2
+(
+5
+). Here, we report the first draft genome sequences of
+B. horneckiae
+type strain 1P01SC,
+B. nealsonii
+type strain FO-92, and two
+Acinetobacter
+species strains, 50v1, and 2P01AA, isolated from spacecraft hardware and associated surfaces.
+Strains 1P01SC
+T
+, FO-92
+T
+, 50v1, and 2P01AA, were sequenced using a shotgun sequencing approach on the Illumina HiSeq paired-end platform. The reads were
+de novo
+assembled using CLC Genomics Workbench version 10.1.1, resulting in total genome sizes of 5,500,894 bp, 4,699,376 bp, 3,174,402 bp, and 4,328,804 bp, respectively. Genome statistics are given in
+Table 1
+for all the strains. Annotations were produced using both the Rapid Annotations using Subsystems Technology server (
+6
+) and the NCBI Prokaryotic Genome Annotation Pipeline (
+7
+,
+8
+) and visualized using the SEED viewer (
+9
+).
+TABLE 1 .
+Genome statistics of four microbial strains isolated from spacecraft hardware and associated surfaces
+Strain
+GenBank
+accession no.
+No. of
+contigs
+Genome
+size (bp)
+N
+50
+size (bp)
+Largest
+contig
+size (bp)
+GC
+content
+(%)
+No. of
+rRNAs
+No. of protein-
+coding genes
+Coverage
+(×)
+No. of
+filtered
+reads
+B. horneckiae
+1P01SC
+T
+PISD00000000
+104
+5,500,894
+93,836
+456,652
+37.48
+1 (16S), 1 (23S)
+5,708
+326
+11,967,132
+B. nealsonii
+FO-92
+T
+PISE00000000
+92
+4,699,376
+104,758
+307,322
+34.67
+6 (5S), 2 (16S),
+3 (23S)
+4,712
+563
+17,642,747
+A. radioresistens
+50v1
+PISK00000000
+125
+3,174,402
+65,829
+186,990
+41.59
+4 (16S), 3 (23S)
+2,930
+428
+9,077,106
+A. proteolyticus
+2P01AA
+PISJ00000000
+36
+4,328,804
+316,343
+447,298
+41.10
+1 (5S), 1 (16S),
+1 (23S)
+4,040
+575
+16,609,733
+Open in a new tab
+The
+Bacillus
+strains 1P01SC
+T
+and FO-92
+T
+had 103 and 99 putative genes coding for dormancy and sporulation, respectively. Both strains had MutS, RecA, MutL, excinuclease ABC, beta-lactamase, and genes coding for the formation of persister cells (
+10
+). Strain FO-92
+T
+had a prophage-associated DNA repair protein (RecT), six genes associated with spore DNA protection, exodeoxyribonuclease III, and a peroxide stress regulator (PerR). Strain 1P01SC
+T
+had cold shock proteins (CspD and CspA) and a heat-inducible transcriptional repressor (HrcA).
+Acinetobacter
+strains 50v1 and 2P01AA possessed putative genes coding for persister cell formation, heat shock and cold shock responses, superoxide dismutase, rubredoxin-NAD(+) reductase, and cobalt, zinc, cadmium, and arsenic resistance (
+11
+). Strain 2P01AA had putative genes coding for heme oxygenase (HemO) and four genes coding for quorum-sensing molecules, which initiate biofilm biosynthesis and adhesion (
+12
+). Strain 50v1 had genes associated with betaine and choline uptake, which further allow for increased water retention in the cells (
+13
+), as well as alkyl hydroperoxide reductase subunit C and a DNA-binding protein (Dps), which has been shown to protect organisms from oxidative stress (
+14
+).
+Accession number(s).
+The genome sequences of all four isolates have been deposited at DDBL/EMBL/GenBank under the accession numbers listed in
+Table 1
+.
+ACKNOWLEDGMENT
+The research described in this publication was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration.
+Footnotes
+Citation
+Seuylemezian A, Vaishampayan P, Cooper K, Venkateswaran K. 2018. Draft genome sequences of
+Acinetobacter
+and
+Bacillus
+strains isolated from spacecraft-associated surfaces. Genome Announc 6:e01554-17.
+https://doi.org/10.1128/genomeA.01554-17
+.
+REFERENCES
+1.
+Vaishampayan P, Probst A, Krishnamurthi S, Ghosh S, Osman S, McDowall A, Ruckmani A, Mayilraj S, Venkateswaran K. 
+2010.
+Bacillus horneckiae
+sp. nov., isolated from a spacecraft-assembly clean room. Int J Syst Evol Microbiol
+60:1031–1037. doi: 10.1099/ijs.0.008979-0.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Venkateswaran K, Kempf M, Chen F, Satomi M, Nicholson W, Kern R. 
+2003.
+Bacillus nealsonii
+sp. nov., isolated from a spacecraft-assembly facility, whose spores are gamma radiation resistant. Int J Syst Evol Microbiol
+53:165–172. doi: 10.1099/ijs.0.02311-0.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+McCoy KB, Derecho I, Wong T, Tran HM, Huynh TD, La Duc MT, Venkateswaran K, Mogul R. 
+2012. 
+Insights into the extremotolerance of
+Acinetobacter radioresistens
+50v1, a Gram-negative bacterium isolated from the Mars Odyssey spacecraft. Astrobiology
+12:854–862. doi: 10.1089/ast.2012.0835.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Ghosh S, Osman S, Vaishampayan P, Venkateswaran K. 
+2010. 
+Recurrent isolation of extremotolerant bacteria from the clean room where Phoenix spacecraft components were assembled. Astrobiology
+10:325–335. doi: 10.1089/ast.2009.0396.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Derecho I, McCoy KB, Vaishampayan P, Venkateswaran K, Mogul R. 
+2014. 
+Characterization of hydrogen peroxide-resistant
+Acinetobacter
+species isolated during the Mars Phoenix spacecraft assembly. Astrobiology
+14:837–847. doi: 10.1089/ast.2014.1193.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Aziz RK, Bartels D, Best AA, DeJongh M, Disz T, Edwards RA, Formsma K, Gerdes S, Glass EM, Kubal M, Meyer F, Olsen GJ, Olson R, Osterman AL, Overbeek RA, McNeil LK, Paarmann D, Paczian T, Parrello B, Pusch GD, Reich C, Stevens R, Vassieva O, Vonstein V, Wilke A, Zagnitko O. 
+2008. 
+The RAST server: Rapid Annotations using Subsystems Technology. BMC Genomics
+9:75. doi: 10.1186/1471-2164-9-75.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Tatusova T, DiCuccio M, Badretdin A, Chetvernin V, Nawrocki EP, Zaslavsky L, Lomsadze A, Pruitt KD, Borodovsky M, Ostell J. 
+2016. 
+NCBI prokaryotic genome annotation pipeline. Nucleic Acids Res
+44:6614–6624. doi: 10.1093/nar/gkw569.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Angiuoli SV, Gussman A, Klimke W, Cochrane G, Field D, Garrity G, Kodira CD, Kyrpides N, Madupu R, Markowitz V, Tatusova T, Thomson N, White O. 
+2008. 
+Toward an online repository of standard operating procedures (SOPs) for (meta)genomic annotation. Omics
+12:137–141. doi: 10.1089/omi.2008.0017.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Overbeek R, Olson R, Pusch GD, Olsen GJ, Davis JJ, Disz T, Edwards RA, Gerdes S, Parrello B, Shukla M, Vonstein V, Wattam AR, Xia F, Stevens R. 
+2014. 
+The SEED and the Rapid Annotation of microbial genomes using Subsystems Technology (RAST). Nucleic Acids Res
+42:D206–D214. doi: 10.1093/nar/gkt1226.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Wood TK, Knabel SJ, Kwan BW. 
+2013. 
+Bacterial persister cell formation and dormancy. Appl Environ Microbiol
+79:7116–7121. doi: 10.1128/AEM.02636-13.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Coulter ED, Kurtz DM Jr. 
+2001. 
+A role for rubredoxin in oxidative stress protection in
+Desulfovibrio vulgaris
+: catalytic electron transfer to rubrerythrin and two-iron superoxide reductase. Arch Biochem Biophys
+394:76–86. doi: 10.1006/abbi.2001.2531.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Choby JE, Skaar EP. 
+2016. 
+Heme synthesis and acquisition in bacterial pathogens. J Mol Biol
+428:3408–3428. doi: 10.1016/j.jmb.2016.03.018.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Rafaeli-Eshkol D, Avi-Dor Y. 
+1968. 
+Studies on halotolerance in a moderately halophilic bacterium. Effect of betaine on salt resistance of the respiratory system. Biochem J
+109:687–691. doi: 10.1042/bj1090687.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+De Martino M, Ershov D, van den Berg PJ, Tans SJ, Meyer AS. 
+2016. 
+Single-cell analysis of the Dps response to oxidative stress. J Bacteriol
+198:1662–1674. doi: 10.1128/JB.00239-16.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Articles from Genome Announcements are provided here courtesy of
+American Society for Microbiology (ASM)

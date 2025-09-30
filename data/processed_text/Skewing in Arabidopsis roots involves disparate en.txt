@@ -1,0 +1,2662 @@
+BMC Plant Biol
+. 2017 Feb 1;17:31. doi:
+10.1186/s12870-017-0975-9
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Skewing in Arabidopsis roots involves disparate environmental signaling pathways
+Eric R Schultz
+Eric R Schultz
+1
+Department of Horticultural Sciences, Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, FL 32611 USA
+3
+Present address: Department of Biology, Washington University in St. Louis, St. Louis, MO 63130 USA
+Find articles by
+Eric R Schultz
+1,
+3
+,
+Agata K Zupanska
+Agata K Zupanska
+1
+Department of Horticultural Sciences, Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, FL 32611 USA
+Find articles by
+Agata K Zupanska
+1
+,
+Natasha J Sng
+Natasha J Sng
+1
+Department of Horticultural Sciences, Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, FL 32611 USA
+Find articles by
+Natasha J Sng
+1
+,
+Anna-Lisa Paul
+Anna-Lisa Paul
+1
+Department of Horticultural Sciences, Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, FL 32611 USA
+Find articles by
+Anna-Lisa Paul
+1
+,
+Robert J Ferl
+Robert J Ferl
+1
+Department of Horticultural Sciences, Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, FL 32611 USA
+2
+Interdisciplinary Center for Biotechnology Research, University of Florida, Gainesville, FL 32610 USA
+Find articles by
+Robert J Ferl
+1,
+2,
+✉
+Author information
+Article notes
+Copyright and License information
+1
+Department of Horticultural Sciences, Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, FL 32611 USA
+2
+Interdisciplinary Center for Biotechnology Research, University of Florida, Gainesville, FL 32610 USA
+3
+Present address: Department of Biology, Washington University in St. Louis, St. Louis, MO 63130 USA
+✉
+Corresponding author.
+Received 2016 Jun 15; Accepted 2017 Jan 12; Collection date 2017.
+© The Author(s). 2017
+Open Access
+This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (
+http://creativecommons.org/licenses/by/4.0/
+), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver (
+http://creativecommons.org/publicdomain/zero/1.0/
+) applies to the data made available in this article, unless otherwise stated.
+PMC Copyright notice
+PMCID: PMC5286820  PMID:
+28143395
+Abstract
+Background
+Skewing root patterns provide key insights into root growth strategies and mechanisms that produce root architectures. Roots exhibit skewing and waving when grown on a tilted, impenetrable surface. The genetics guiding these morphologies have been examined, revealing that some Arabidopsis ecotypes skew and wave (e.g. WS), while others skew insignificantly but still wave (e.g. Col-0). The underlying molecular mechanisms of skewing and waving remain unclear. In this study, transcriptome data were derived from two Arabidopsis ecotypes, WS and Col-0, under three tilted growth conditions in order to identify candidate genes involved in skewing.
+Results
+This work identifies a number of genes that are likely involved in skewing, using growth conditions that differentially affect skewing and waving. Comparing the gene expression profiles of WS and Col-0 in different tilted growth conditions identified 11 candidate genes as potentially involved in the control of skewing. These 11 genes are involved in several different cellular processes, including sugar transport, salt signaling, cell wall organization, and hormone signaling.
+Conclusions
+This study identified 11 genes whose change in expression level is associated with root skewing behavior. These genes are involved in signaling and perception, rather than the physical restructuring of root. Future work is needed to elucidate the potential role of these candidate genes during root skewing.
+Electronic supplementary material
+The online version of this article (doi:10.1186/s12870-017-0975-9) contains supplementary material, which is available to authorized users.
+Keywords:
+Transcriptomics, Root skewing, Root waving, Morphometrics, Microarray,
+Arabidopsis thaliana
+Background
+Plant roots have been long studied and yet investigations of root behavior, physiology, and biochemistry continue to be actively explored on every level [
+1
+–
+6
+]. The work presented here seeks further insights into root growth strategies by focusing on two distinct growth patterns of root growth, skewing and waving. Skewing is when the steady-state growth direction of a root deviates from the direction of the gravity vector and waving is when the root undulates back and forth over time along its direction of growth [
+7
+–
+14
+]. Skewing and waving have been described as gravity-enhanced touch responses, since these root patterns are notably present when a plant is grown on a tilted, impenetrable surface. Current models require that gravity pulls the root tip down onto the tilted surface, which increases the mechanical impedance to growth, and results in root skewing and root waving [
+15
+]. However, recent spaceflight experiments with
+Arabidopsis thaliana
+(Arabidopsis) on the International Space Station (ISS) have shown that certain ecotypes have roots that deviate from vertical growth (at a magnitude similar to skewing on the ground) and wave in the absence of gravity [
+16
+–
+18
+]. These ecotypes that exhibit spaceflight skewing are also the ecotypes that exhibit terrestrial skewing when grown at an angle [
+16
+–
+18
+]. The degree of skewing in spaceflight was consistent with previous terrestrial observations, but the waving pattern was different from what was typically observed on the ground [
+17
+]. The causes of skewing – and subsequently, the genes involved – are currently unknown. The goal of this study is to discover which genes are associated with root skewing through transcription microarrays.
+Other root tropisms exist as a result of environmental interaction, which likely impact the degree of root skewing and root waving. Touch responses, or thigmotropism, involves many genes that interact with auxin and can subsequently alter growth patterns [
+11
+,
+19
+–
+28
+]. Plants also determine their growth in relation to the gravity vector, resulting in a gravitropic set-point angle (GSA), which is most commonly associated with lateral organ growth relative to the primary organ [
+29
+]. GSA is driven by auxin and TRANSPORT INHIBITOR RESPONSE 1/AUXIN SIGNALING F-BOX (TIR1/AFB)-dependent signaling, in a process similar to gravitropism [
+30
+–
+32
+]. Light can alter GSA for different plant systems [
+33
+], and light in general plays a role in root patterning and growth direction [
+34
+–
+42
+]. Additional tropisms include halotropism [
+39
+,
+43
+,
+44
+], chemotropism [
+45
+], hydrotropism [
+46
+], all of which can alter root growth response (reviewed in [
+3
+]).
+Many hypotheses exist for the underlying molecular mechanisms and key genes responsible for root skewing and root waving. As a result, a wide variety of genes have been implicated as involved in these growth patterns. Hormone related pathways and processes are among the candidates, such as ethylene involvement in root waving [
+10
+] and auxin and tryptophan biosynthesis in both skewing and waving [
+47
+,
+48
+]. The cytoskeleton is also involved in skewing and waving [
+7
+,
+18
+,
+49
+,
+50
+], including
+WAVE-DAMPENED 2
+(
+WVD2
+; At5g28646) and
+WVD2-LIKE 1
+(
+WDL1
+; At3g04630) genes, which alter cell expansion through microtubule bundle organization [
+51
+]. Many genes involved in molecular patterning, signaling, phosphorylation, and cell wall structure are also involved in root skewing and waving. Guanosine triphosphate (GTP)-binding proteins [
+11
+], cell expansion gene
+ROOT HAIR DEFECTIVE 3
+(
+RHD3
+; At3g13870) with putative GTP-binding motif [
+13
+],
+CLAVATA
+-related genes [
+52
+], protein phosphatase/PP2A
+ENHANCED ETHYLENE RESPONSE 1
+(
+RCN1
+; At1g25490; [
+53
+]), serine/threonine protein kinases
+WAG1
+and
+WAG2
+(At1g53700 and At3g14370, respectively; [
+54
+]), and
+KNOTTED-LIKE FROM ARABIDOPSIS THALIANA 1
+(
+KNAT1
+; At4g08150; [
+55
+]) are all associated with morphological change in root skewing or root waving. The SKU family of genes were identified through phenotypic changes in root behavior, with
+SKU5
+(At4g12420) and related genes being involved with cell wall modification and root growth [
+56
+] and
+SKU6
+(At2g03680) and family being involved with cortical microtubule and directional cell expansion [
+50
+]. While no single pathway has been identified in the literature as responsible for root skewing or for root waving, several different pathways have evidence for being involved.
+Skewing and waving are functionally separable using genetics [
+7
+,
+12
+,
+13
+,
+51
+,
+57
+]. The physiological separation of skewing from waving within a ecotype can be accomplished by using the environment, particularly the tilt angle of the growth plate, and can also occur in spaceflight [
+16
+–
+18
+]. The degree to which growth plates are tilted is referred to as the Angle of the growth plate (A
+gp
+). Typically, plates are tilted backward such that plants are above the media surface, at A
+gp
+45°. For many Arabidopsis ecotypes, growth at A
+gp
+45° results in roots that both skew and wave. When growth plates are tilted forward, such that plants are below the media surface, at A
+gp
+135°, Arabidopsis roots skew with reduced waving, similar to the pattern observed in spaceflight. Growth plates held vertically are A
+gp
+90° and are considered as the controls for growth angle, as roots on vertical plates generally do not skew or wave.
+This study aims to discover additional genes associated with root skewing through transcription microarray analyses of Arabidopsis roots exhibiting different patterns of waving and skewing. Gene expression profiles were derived from Arabidopsis that displayed different root growth behaviors in various growth environments in order to identify gene activities associated with skewing and waving. Identified genes were validated using qRT-PCR and evaluated using previous studies for likelihood of involvement with the skewing process.
+Results
+Arabidopsis ecotypes skew and wave differently from one another in different growth environments
+Arabidopsis ecotypes Wassilewskija (WS) and Columbia (Col-0) differ in their skewing and waving behaviors, where WS demonstrates strong skewing and waving while Col-0 waves like WS but does not greatly skew, which was a growth pattern observed in spaceflight and on the ground (selected references: [
+14
+,
+17
+,
+49
+]). These two ecotypes were grown at three growth angles (A
+gp
+45°, 135°, or vertical control of A
+gp
+90°) to produce different root phenotypes (Figs.
+1
+and
+2
+). Plants were grown for 3 days vertically, then moved to each respective A
+gp
+for 5 more days, resulting in steady-state behavior in each of the A
+gp
+.
+Fig. 1.
+Open in a new tab
+Various comparisons of microarray data reveals different genes involved in root skewing and waving.
+Arrows point
+to control used in each experiment.
+Vertical arrows
+indicate comparisons within ecotypes, horizontal arrows indicate comparisons between ecotypes. Eight-day experiment designed to isolate each permutation of root skewing and root waving and identify genes responsible. Vertical comparisons reveal genes responsible for changing the root growth pattern in response to different A
+gp
+– for WS, these genes correlate to skewing and waving phenotypes. Horizontal comparisons reveal genes responsible for differences in skewing and waving for Col-0 and WS roots. Numbers indicate gene transcripts with different levels of transcripts from controls. Significance cutoffs of |log
+2
+(FC)| > 1,
+p
+< 0.05
+Fig. 2.
+Open in a new tab
+WS roots grown at A
+gp
+135° skew with reduced waving, while WS roots grown at A
+gp
+45° both skew and wave. Plants were grown vertically for 3 days on 0.5% Phytagel agar media, moved to their respective growth conditions, and grown for 5 more days. Plants were imaged, harvested, and fixed in RNAlater 8 days after germination (5 days after gravistimulation). Bars represent means (average
+n
+= 43) and error bars represent 95% confidence interval. Measurements were conducted using ImageJ plugin JFilament [
+106
+–
+108
+] and were processed using custom R scripts available on GitHub [
+109
+]. For comparisons where interaction of the two independent variables is significant, results of Scheffé’s method are represented with letters. Bars with different letters are different from one another (
+p
+< 0.05). For comparisons where interaction of the two independent variables is not significant, brackets and stars are used in addition to letter codes (
+p
+< 0.05 = *). Brackets indicate grouped measurements; all bars for one unit on the x-axis are compared to other bars for other x-axis units, and are represented by the significance indicator above the bracket.
+a
+Length of primary root. Roots grown at A
+gp
+90° were the longest, followed by roots grown at A
+gp
+135°, and roots grown at A
+gp
+45° were the shortest. Col-0 roots were shorter than WS roots.
+b
+Horizontal growth index of primary root. WS roots skewed more than Col-0 roots when grown at A
+gp
+45° and 135°.
+c
+Straightness of primary root. WS roots were less straight than Col-0 roots.
+d
+Root wave density. Roots grown at A
+gp
+45° had the highest WD.
+e
+Representative image of WS at A
+gp
+45°.
+f
+Representative image of Col-0 at Agp 45°.
+g
+Representative image of WS at A
+gp
+90°.
+h
+Representative image of Col-0 at A
+gp
+90°.
+i
+Representative image of WS at A
+gp
+135°.
+j
+Representative image of Col-0 at A
+gp
+135°. All images (courtesy of author) were taken through media
+The first analysis compared transcriptional differences within a ecotype caused by the environmental condition of A
+gp
+, specifically differences between WS roots grown at A
+gp
+90° and WS roots grown at A
+gp
+45° or 135°, and the differences between Col-0 roots grown at A
+gp
+90° and Col-0 roots grown at A
+gp
+45° or 135°. Only the A
+gp
+influenced the differences in gene expression and root morphology. Roots were quantified following parameters identified in previous work [
+12
+,
+58
+] using protocols outlined in the Materials and Methods section. The arrows in Fig.
+1
+represent comparisons analyzed. Figure
+1
+also shows a diagram of the root morphology for each genotype under each A
+gp
+.
+The second analysis compared transcriptional differences between ecotypes at each A
+gp
+(e.g. differences between Col-0 and WS roots grown at A
+gp
+45°). In this case, the ecotype influenced gene expression and morphology at the given A
+gp
+. The horizontal arrows in Fig.
+1
+show these comparisons.
+This matrix of comparisons allows two overlapping approaches to using differential expression to identify genes associated with skewing. WS roots skew significantly more than Col-0 roots at A
+gp
+135° and significantly more than WS roots at A
+gp
+90° (see Fig.
+1
+). At A
+gp
+45° WS roots skew more than Col-0 roots, but both WS and Col-0 roots also wave at 45°. Quantification of root morphometrics is found in Fig.
+2
+, using horizontal growth index (HGI; trigonometric relationship between the overall angle of growth and length of the root), straightness (STR; straight-line length of the root from start point to end point divided by the actual length of the root), and wave density (WD; waves per millimeter along root length). Comparisons involving A
+gp
+45° allow the removal of waving as a confounding factor in the gene expression analyses.
+Col-0 roots showed 24 significantly altered transcripts related to A
+gp
+, most of which may be involved in waving.
+These comparisons are represented by the vertical arrows in the left column of Fig.
+1
+, with the numbers indicating the number of significantly altered transcripts from each comparison (significance cutoffs of |log
+2
+(fc)| > 1;
+p
+< 0.05). False discovery rate (FDR) corrections are found in Table
+1
+.
+Table 1.
+Comparing different growth angles to vertical within Col-0
+Open in a new tab
+When gene expression profiles of roots grown at A
+gp
+45° were compared to A
+gp
+90°, 22 genes were shown to be differentially regulated, three of which were upregulated and 19 of which were downregulated (Fig.
+3a
+). Col-0 plants grown at A
+gp
+45° had roots that waved but did not skew as compared to the roots of plants grown at A
+gp
+90°. Thus these 22 differentially expressed genes were associated with a root waving and but not root skewing.
+Fig. 3.
+Open in a new tab
+Comparison of transcriptomes as they relate to morphology. Heat maps illustrate differences generated by angle of the growth plate (A
+gp
+) or genetic differences.
+a
+Genes with altered transcription within Col-0 compared to the control of A
+gp
+90°. Col-0 had 22 gene transcripts altered at A
+gp
+45 ° and 6 altered at A
+gp
+135°. Data in the heat map corresponds with data in Table
+1
+.
+b
+Genes with altered transcription within WS compared to the control of A
+gp
+90°. WS had 66 altered gene transcripts at A
+gp
+45° and 40 altered at A
+gp
+135°. Data in heat map corresponds with data in Additional file
+1
+: Table S2.
+c
+Transcript comparisons between Col-0 and WS ecotypes – a genetic comparison – with morphological diagrams corresponding to each of the categories (I-VI) of gene expression profile. Transcripts between the ecotypes were removed if they were altered at the same level at all A
+gp
+. For example, if the transcript for
+Gene A
+was downregulated 2 fold in all conditions, it was removed. This comparison between Col-0 and WS had 128 altered gene transcripts at A
+gp
+90°, 88 altered between Col-0 and WS at A
+gp
+45°, and 133 altered between Col-0 and WS at A
+gp
+135°. Data in heat map corresponds to data in Additional file
+2
+: Table S3.
+Comparison of gene expression profiles of roots grown at A
+gp
+135° with profiles of roots grown at A
+gp
+90° (Fig.
+3a
+), revealed only 6 genes that were differentially regulated between the two growth conditions. All 6 of these genes were downregulated. Morphologically, Col-0 roots grown at A
+gp
+135° were not significantly different from those grown at A
+gp
+90° (Fig.
+2
+). Four genes out of these six were also present among the significantly differentially expressed genes in the A
+gp
+45° comparison to A
+gp
+90°, with just 2 being unique (At1g09310; a protein of unknown function with DUF538 and At3g19430; a protein related to late-embryogenesis abundant proteins, Table
+1
+).
+Thus the 18 genes unique to the A
+gp
+45° comparison to their 90° controls may represent genes associated with root waving, but not skewing. Many different processes were associated with these 18 genes identified, such as cell wall structure (
+XTH7
+,
+XTH9
+) and sugar transport (
+SWEET11
+,
+OCT1
+; Table
+1
+).
+Only four genes had altered transcript levels at both A
+gp
+45° and 135°, meaning that they responded to both the backward and forward tilted growth environments (Fig.
+3a
+). All four of these genes were downregulated at approximately the same levels in both conditions. These genes were
+At4g12490
+(a pEARLI1-like LTP),
+THIOREDOXIN H8
+(
+TRX8
+; At1g69880),
+DEFECTIVE IN INDUCED RESISTANCE 1
+(
+DIR1
+; At5g48485; putative LTP), and
+CELL WALL INVERTASE 5
+(
+ATCWINV5
+; At3g13784).
+WS showed 92 significantly altered transcripts related to A
+gp
+, revealing candidates genes involved in skewing
+These comparisons are represented by the vertical arrows in the right column of Fig.
+1
+. The number of genes with significantly altered transcripts is located next to the appropriate arrow in Fig.
+1
+(significance cutoffs of |log
+2
+(fc)| > 1;
+p
+< 0.05). False discovery rate (FDR) corrections are found in Additional file
+1
+: Table S2.
+At A
+gp
+45°, WS produces roots that both skew and wave compared to the roots grown vertically (A
+gp
+90°). Gene expression profiles revealed that WS that were grown at A
+gp
+45° had 66 genes with altered transcription in roots compared to A
+gp
+90°. Nine of the 66 genes were upregulated, while 57 were downregulated (Fig.
+3b
+and Additional file
+1
+: Table S2). These genes may represent those involved in both skewing and waving processes. Processes associated with these genes include lipid transfer (
+AZELAIC ACID INDUCED 1
+[
+AZI1
+; At4g12470],
+CELL WALL-PLASMA MEMBRANE LINKER PROTEIN
+[
+CWLP
+; At3g22120]), pectin methylesterase inhibition (At5g62330, At2g01610), and peroxidase activity (
+PEROXIDASE 49
+[
+PER49
+; At4g36430],
+PEROXIDASE 53
+[
+PER53
+; At5g06720]; Additional file
+1
+: Table S2).
+When grown at A
+gp
+135° WS produces roots that skew without waving (Fig.
+2
+). Gene expression profiles revealed that WS roots grown at Agp 135° had 40 genes with altered transcription in roots compared to WS roots grown at A
+gp
+90°. These 40 genes are likely skewing-related (Fig.
+3b
+). Only two genes (
+HISTONE H1-3
+[
+HIS1-3
+; At2g18050] and
+DARK INDUCIBLE 2
+[
+DIN2
+; At3g60140]) also had differential transcription in Col-0, and the expression level of
+DIN2
+was in opposite directions (Table
+1
+and Additional file
+1
+: Table S2). Some of the processes included are methionine metabolism related (
+METHIONINE GAMMA-LYASE
+[
+MGL
+; At1g64660]), histone-related (
+HIS1-3
+), and jacalin-related (
+JACALIN-RELATED LECTIN 40
+[
+JAL40
+; At5g28520]). Other genes from these 40 will be discussed in more detail in the following sections.
+The genes with altered transcription in both A
+gp
+45° and at A
+gp
+135° (14 out of the 40 genes previously mentioned) were altered in the same way in both A
+gp
+45° and 135° compared to A
+gp
+90°, except for one gene. This one gene was
+ASPARAGINE SYNTHETASE [GLUTAMINE-HYDROLYZING] 1
+(
+ASN1
+; At3g47340, also called
+DIN6
+,), which was downregulated in A
+gp
+45° and upregulated in A
+gp
+135°, and is involved in darkness responses and sucrose starvation responses. The remaining 13 genes were involved in various processes, including cell wall reorganization (
+XYLOGLUCAN ENDOTRANSGLUCOSYLASE/HYDROLASE 9
+[
+XTH9
+; At4g03210]) and sugar transport (
+SWEET11
+and
+SWEET12
+; At3g48740 and At5g23660, respectively).
+Transcriptome comparisons between ecotypes revealed genes that could be involved in skewing in WS
+The gene expression profiles between Col-0 and WS when skewing and waving were also compared. These comparisons are represented in Fig.
+1
+by the horizontal arrows pointing toward WS, with the number of significantly altered levels of gene transcripts indicated above each arrow. Genes altered between Col-0 and WS at the same level in all three growth angles were removed from the comparison, as they represent inherent differences between the cultivars that were independent of the testing environments. The plant images and morphometrics are found in Fig.
+2
+, with resulting heat map with six different patterns of expression pattern categories in Fig.
+4
+and gene annotations, information, and significance cutoffs in Additional file
+2
+: Table S3.
+Fig. 4.
+Open in a new tab
+Comparison of candidate skew genes from physiological and genotypic comparisons.
+a
+Venn diagram of gene numbers from Fig.
+3
+, illustrating overlap of 16 genes. The left circle represents total number of genes changed in WS (Fig.
+3b
+) and the right circle represents total number of genes changed between Col-0 and WS in groups IV, V, and VI (Fig.
+3c
+).
+b
+Genes with altered transcription identified in Fig.
+3b
+(
+left column
+) were combined with genes with altered transcription identified in groups IV, V, and VI of Fig.
+3c
+(
+right column
+), resulting in 16 genes. The majority of overlapping gene transcripts occurs with A
+gp
+135° – a growth condition that elicited root skewing with minimal waving – totaling 11 highly probable skew gene candidates (HPSGC), shown here in bolded text with dark connecting lines
+The first differential gene expression pattern had altered transcripts between Col-0 and WS only when grown A
+gp
+90°. Genes 1–61 had altered transcript levels in Category I (Fig.
+3c
+); 19 of the identified genes were upregulated and 42 of which were downregulated (Additional file
+2
+: Table S3). This pattern indicated inherent genetic differences between these two lines in their control condition and these differences were mitigated or no longer present in other tested growth environments.
+The second differential gene expression pattern had altered transcripts between Col-0 and WS when cultivars grown A
+gp
+90°, but also had altered transcripts in a same way when grown at A
+gp
+45°. Genes 62–85 had altered transcript levels in Category II (Fig.
+3c
+); 15 of the identified genes were upregulated and 9 downregulated when comparing the gene expression in Col-0 to WS roots (Additional file
+2
+: Table S3). This expression pattern was not considered to be involved with skewing, since A
+gp
+45° results in a combination of skewing and waving in WS and waving in Col-0. Additionally, the genes identified in this expression pattern were not significantly different in A
+gp
+135°, which generates skewing without waving in WS and a non-skewing, non-waving phenotype in Col-0 (Fig.
+2
+).
+The third expression pattern had altered transcript levels between Col-0 and WS when grown A
+gp
+90° and at A
+gp
+135°. Genes 86–128 had altered transcript levels in Category III (Fig.
+3c
+); 20 of the identified genes were upregulated and 23 genes downregulated when comparing Col-0 to WS (Fig.
+3c
+and Additional file
+2
+: Table S3). At A
+gp
+135° WS skewed and Col-0 did not, yet these genes showed same differential expression between Col-0 and WS roots when grown at A
+gp
+90° and do not exhibit any skewing or waving differences (Figs.
+2
+and
+3c
+). These genes were likely not involved with skewing.
+The fourth expression pattern had altered transcript levels between Col-0 and WS only when both were grown at A
+gp
+45°. Genes 129–166 had altered transcript levels in Category IV (Fig.
+3c
+); 30 of the identified genes were upregulated and 8 were downregulated (Fig.
+3c
+and Additional file
+2
+: Table S3). The genes identified represent a combination of skewing and waving phenomena, and as such, were considered as potential root skewing candidates.
+The fifth expression pattern had altered transcript levels at both A
+gp
+45° and 135° when comparing Col-0 roots to WS roots. Genes 167–192 had altered transcript levels in Category V (Fig.
+3c
+); 20 of the identified genes were upregulated and 6 were downregulated (Fig.
+3c
+). Skewing occurred in WS but not in Col-0 in both conditions (Fig.
+2
+), although at A
+gp
+45°, skewing occurred with waving. For WS roots, skewing was a distinguished morphological phenotype from Col-0. The genes identified had altered transcript levels in both A
+gp
+45° and 135°, and are therefore likely involved with skewing.
+The sixth and final expression pattern had altered transcript levels at A
+gp
+135° only, when comparing Col-0 to WS. Genes 193–256 had altered transcript levels in Category VI (Fig.
+3c
+); 14 of the identified genes were upregulated and 50 genes were downregulated, meaning that WS had higher levels of these 50 genes when compared to Col-0. These identified genes were likely involved in skewing since skewing occurs in WS at A
+gp
+135° with minimal waving but it does not in Col-0, thus is the only phenotypic difference between the roots of the two ecotypes (Fig.
+2
+). The genes from the fifth and the sixth expression patterns, totaling 90 genes, were selected as a root skewing candidate genes.
+Overlap of skew gene candidates from all comparisons further narrows the set of skew gene candidates
+When combining the lists of genes identified in Categories IV, V, and VI (128 genes) with genes identified within WS comparisons (66 genes altered at A
+gp
+45° and 40 genes altered at A
+gp
+135°), 16 genes are shared (Fig.
+4
+). This overlap is illustrated by the Venn diagram in Fig.
+4a
+. The majority of shared genes between the two data sets involved A
+gp
+135° – the growth condition that elicited skewing with minimal waving – resulting in 11 genes, which were named the highly probable skew gene candidates (HPSGC, Table
+2
+; also indicated by “Y*” in Additional file
+1
+: Table S2). Several of the HPSGC have been verified with qRT-PCR, showing similar trends to the transcriptomic microarray data [see Additional file
+3
+]. The HPSGC are involved in a variety of cellular processes. Additionally, only 3 of these 11 genes were shared with the set of genes identified in Col-0 grown at A
+gp
+45°, which induced root waving (Fig.
+3a
+, Table
+1
+). Two of these genes (
+DIN2
+and
+ASN1
+) were expressed in opposite directions, while the remaining gene (
+SWEET11
+) was upregulated in all sets.
+Table 2.
+HPSGC and their various functional groups and signaling pathways that could contribute to WS root skewing
+Gene
+Symbol
+Log2(FC)
+Catalytic activity
+Hormone
+Cell Wall
+Sugar
+Biotic stress
+Mobile mRNA
+Dark
+Salt
+Root cell
+Water
+SUBA3
+p
+< 0.05;
+q
+< 0.05
+At4g26260
+MIOX4
+1.570
+X
+X
+X
+X
+cytosol
+At4g24890
+PAP24
+1.414
+X
+X
+extracellular
+At3g47340
+ASN1
+2.080
+X
+X
+X
+cytosol
+At2g25150
+1.839
+X
+cytosol
+At5g02020
+SIS
+1.200
+X
+nucleus
+At5g66780
+1.556
+plastid
+At3g28310
+1.430
+nucleus
+p
+< 0.05 only
+At3g60140
+DIN2
+2.214
+X
+X
+X
+X
+vacuole, extracellular
+At4g35770
+STR15/SEN1
+2.100
+X
+X
+plastid (chloro., thylakoid)
+At3g48740
+SWEET11
+1.804
+X
+X
+plasma membrane
+At4g10310
+HKT1
+1.021
+X
+X
+plasma membrane
+Open in a new tab
+HPSGC are reported, with “X” indicating to which process or category each member belongs. SUBA3 reports localization of each HPSGC
+The 11 genes comprising the HPSGC, indicated by bolded text in Fig.
+4b
+, are
+MYO-INOSITOL OXYGENASE 4
+(
+MIOX4
+; At4g26260; involved in inositol oxygenase activity, syncytium formation, and iron ion binding),
+PURPLE ACID PHOSPHATASE 24
+(
+PAP24
+; At4g24890; involved in protein serine/threonine phosphatase activity),
+SWEET11
+(a sucrose efflux transporter),
+DIN2
+(a beta-glucosidase mRNA, involved in glycoside hydrolase, and is induced after darkness),
+ASN1
+(involved in darkness and sucrose starvation responses),
+SENESCENCE 1
+(
+SEN1
+; At4g35770; senescence-associated, induced by phosphate starvation),
+HIGH AFFINITY K+ TRANSPORTER 1
+(
+HKT1
+; At4g10310; sodium transporter in xylem parenchyma),
+SALT INDUCED SERINE RICH
+(
+SIS
+; At5g02020; involved in salt tolerance), At2g25150 (HXXXD transferase family protein involved in transferring acyl groups other than amino-acyl groups), At5g66780 (unknown gene), and At3g28310 (unknown gene containing DUF677).
+Discussion
+Transcriptome comparisons within ecotypes reveal a primary set of 92 candidate genes involved in skewing
+The primary set of 92 candidate genes involved in skewing was identified by comparing the transcription of WS genes when grown at A
+gp
+45° or 135° compared to A
+gp
+90°. Morphologically, WS roots skew when grown at A
+gp
+135° with reduced waving (Figs.
+1
+and
+2
+). The genes with altered transcription identified in this comparison of A
+gp
+135° to A
+gp
+90° represent the pool of genes likely involved in root skewing and not waving, since they were altered in a condition that induces root skewing independent of the classical root waving patterns. WS roots also skew when grown at A
+gp
+45°; however, the occurrence of waving at A
+gp
+45° complicates the relationship between skewing and transcriptome at A
+gp
+45°. It is important to note that only roots were used for the microarrays, and that lateral roots appeared to be similar across all treatments. As seen in Table
+2
+, the 11 genes associated with skewing cluster into a few biological categories, suggesting that several pathways interact to produce skewed growth and directionality.
+Col-0 roots, on the other hand, did not skew as did WS roots, and as such, differed only in waving when A
+gp
+45° or 135° were compared to A
+gp
+90°. The number of genes with altered transcription at A
+gp
+45° or 135° compared to A
+gp
+90° was also reduced, and not considered in the list of candidate skew genes due to the lack of skewing morphology.
+Transcriptome comparisons between ecotypes revealed a different set of 128 genes that may be involved in skewing
+Comparing gene expression patterns between WS and Col-0 shows how the ecotypes cope with the same environmental challenges presented to them, in this case whether the angle of the growth plate produces skewed roots. In order to determine which gene expression patterns are related to skewing, the relative expression patterns can be correlated to the morphology generated in each of the growth angles.
+Categories I-III in Fig.
+3c
+are not related to skewing. The first category (Category I, Genes 1–61; Fig.
+3c
+and Additional file
+2
+: Table S3) contains genes that were different between WS and Col-0 at A
+gp
+90° and also unchanged at A
+gp
+45° or 135° (Additional file
+2
+: Table S3). The second category (Category II, Genes 62–85; Fig.
+3c
+and Additional file
+2
+: Table S3) contained genes that were differentially expressed between WS and Col-0 at A
+gp
+45°. However, the transcript expression of these genes was also different when the roots did not skew at A
+gp
+90, which suggests that these genes are responding to growth angle but are not responsible for causing the morphologic change. The same logic can be applied to the genes of Category III, where transcript expression was different between WS and Col-0 when grown at A
+gp
+90° and when grown at A
+gp
+135° (Category III, Genes 86–128; Fig.
+3c
+and Additional file
+2
+: Table S3).
+The genes of Category IV present a pattern of expression that indicated a potential role in skewing (Category IV; Genes 129–166; Fig.
+3c
+and Additional file
+2
+: Table S3), since the genes present in this category are differentially expressed between WS (which skews at A
+gp
+45°) and Col-0 (which does not skew). Some of the genes identified in this category include
+HIS1-3
+,
+SKU5 SIMILAR 15
+(
+SKS15
+; At4g37160; involved in oxidoreductase activity and copper ion binding), and
+XYLOGLUCAN ENDOTRANSGLUCOSYLASE/HYDROLASE 26
+(
+XTH26
+; At4g28850; involved in hydrolase activity and cell wall remodeling).
+SKS15
+is related to a known SKU gene (
+SKU5
+), which is also known to have substantial impact on root growth and morphology [
+56
+]. Protein products of
+XTH26
+reduce cell wall elongation in roots with altered root hair morphology [
+59
+], which may also impact the overall directionality or skewing of the root.
+The second category of genes whose differential expression between WS and Col-0 indicated a role in skewing (Category V; Genes 167–192; Fig.
+3c
+and Additional file
+2
+: Table S3) contains genes that were differentially expressed between the ecotypes at both A
+gp
+45° and 135. The transcription of these genes was altered in the same way at both growth angles, and since skewing occurred at both growth angles (Fig.
+2
+), it can be assumed that these genes very likely play some role in the skewing morphology (Additional file
+2
+: Table S3). A couple of the genes identified include
+MODIFIER OF SNC1 2
+(
+MOS2
+; At1g33520; where
+SNC1
+is
+SUPPRESSOR OF NPR1-1, CONSTITUTIVE
+and
+NPR1-1
+is
+NONEXPRESSER OF PATHOGENESIS-RELATED 1
+; At4g16890 and At1g64280, respectively) and
+BEL1-LIKE HOMEODOMAIN 10 (BEL10
+; At1g19700, where
+BEL1
+is a homeodomain transcription factor controlling ovule patterning; At5g41410).
+MOS2
+is a DNA-binding gene that plays a role in the immune response pathway and in microRNA (miRNA) maturation [
+60
+]. miRNAs are heavily involved in gene regulation [
+61
+]. Since Col-0 roots have higher transcript levels of
+MOS2
+at both A
+gp
+45° and 135° than WS, it is possible that miRNAs are involved early in the signaling pathway leading toward root growth parallel with gravity. The lower levels of
+MOS2
+in WS roots could be limiting the rate of signal transduction, changing the entire pathway, and ultimately changing root directionality and introducing root skewing.
+BEL10
+was upregulated in Col-0 roots compared to WS roots grown at A
+gp
+45° or 135° (Additional file
+2
+: Table S3).
+BEL10
+is a transcription factor that interacts with PLP, a blue light receptor also involved in response to salt or dehydration stresses [
+62
+]. Higher or lower intracellular levels of phosphate could alter the ability of this gene to interact downstream in phosphate signaling pathways [
+36
+]. Additionally, inorganic phosphate depravation can influence seemingly redundant signal peptides to subsequently alter root growth [
+63
+], which may, in turn, alter overall root directionality and impact skewing.
+The third category of genes that indicated a role in skewing (Category VI; Genes 193–256; Fig.
+3c
+and Additional file
+2
+: Table S3) contains genes that were differentially expressed between Col-0 and WS when roots were grown at A
+gp
+135°. Since WS roots skewed at this growth angle and did not wave differently from roots grown at A
+gp
+90°, the genes identified in this category were considered likely to be associated with skewing. Some of the genes in this category include
+RESPONSIVE TO ABA 18
+(
+RAB18
+; At5g66400) and
+PINOID BINDING PROTEIN 1
+(
+PBP1
+; At5g54490; Additional file
+2
+: Table S3).
+RAB18
+was downregulated in Col-0 roots compared to WS roots at A
+gp
+135°. This dehydrin-related protein is reduced after exogenous 1-Aminocyclopropane-1-carboxylic acid (ACC) application, meaning it responds directly to ethylene in addition to abscisic acid (ABA) [
+64
+].
+PBP1
+was downregulated in Col-0 roots compared to WS roots at A
+gp
+135°. Since this PINOID-binding protein is upregulated by auxin [
+65
+], the different
+PBP1
+levels between Col-0 and WS could indicate different auxin levels between the two ecotypes [
+65
+,
+66
+]. Additional genes identified in Category VI will be discussed in the following section, due to their overlap with previously identified skew gene candidates.
+Eleven genes remaining across all sets are most likely to be involved in skewing in various processes
+A subset of most likely candidate genes was identified by the intersection of the list based on growth angle in WS and the list based on comparative gene expression between WS and Col-0 (Fig.
+4
+), with the overlap of the two lists indicated in the Venn diagram, found in Fig.
+4a
+. The list of 92 genes based on growth angle of WS (Fig.
+4b
+; left heat map labeled “Physiology”) was compared to the list of 128 genes identified between Col-0 and WS (Fig.
+4b
+; right heat map labeled “Genotype”), producing 16 genes that appear in both lists (Fig.
+4a and b
+; Y* in both Additional file
+1
+: Table S2 and Additional file
+2
+: Table S3). The majority of these 16 genes are found involving A
+gp
+135°, shown in bold text and dark lines. A
+gp
+135° was the growth condition that elicited root skewing with minimal waving in WS, so to have the majority of overlapping genes identified by both the physiological and genotypic comparisons represented in this A
+gp
+provides more support for their involvement in root skewing. These 11 genes are noted as the highly probable skew gene candidates (HPSGC).
+The 11 HPSGC are involved in many different processes and were subjected to a thorough literature and expression map search using many available databases, such as Suba3, TAIR, and the Arabidopsis eFP browser [
+67
+–
+71
+]. These genes were searched with the goal of finding associations with cell expansion, division, auxin transport, or any process involved with root tropisms, so as to develop insights into their roles in skewing. Sub-organ localizations (e.g. columella cells, root tip, root hairs, etc.) were noted where possible. A summary of these results is found in Table
+2
+.
+MIOX4
+is expressed in root hairs, stele, and lateral root cap [
+71
+], and digested columella cells have lower transcript abundance in response to auxin [
+70
+]. Additionally, overexpression of
+MIOX4
+in the presence of
+l
+-Ascorbic acid have increased root growth [
+72
+].
+MIOX4
+influences root growth responses during stressed conditions [
+73
+], but knockouts do not have abnormal cell walls, despite the role of
+MIOX4
+upstream of polysaccharide integration into the cell wall [
+74
+].
+PAP24
+is not highly expressed in any root zones [
+69
+–
+71
+], but is predicted to be in plant cell walls and to have acid phosphatase and metal ion binding activity [
+67
+].
+ASN1
+is expressed in root hairs [
+71
+] and in the root under phosphate starvation [
+75
+].
+ASN1
+is also responsive to darkness and sucrose starvation, and may have a role in response to viral infections [
+76
+].
+At2g25150
+is highly expressed in the cortex under normal conditions [
+71
+], but is not shown to be auxin responsive [
+70
+]. In the literature, At2g25150 is described to have a product that is a BAHD enzyme with spermidine coumaroyl CoA acyltransferase activity in roots [
+77
+] and is upregulated by cytokinin activity [
+78
+], which is evidence for its activity in cell division [
+77
+].
+SIS
+is not significantly expressed in roots under normal conditions, but is upregulated in the columella cells, root cap, and epidermis of Arabidopsis roots after 1 h of salt stress [
+79
+] and 1 hour at low pH [
+80
+].
+SIS
+is also known to be involved in salt tolerance [
+67
+].
+At5g66780
+is not expressed in the root under normal conditions, but is upregulated in the root tip at low pH levels and under salt stress [
+74
+,
+80
+]. Under normal conditions,
+At5g66780
+is expressed in all zones along the root epidermis, though not contiguously [
+71
+]. This gene is unknown; no other published information exists on this gene.
+At3g28310
+is expressed in the procambium of the root in the elongation zone [
+69
+,
+71
+]. This gene produces a hypothetical protein with DUF677 [
+67
+] and is not well studied.
+DIN2
+is not expressed in the root under normal condtions, but is upregulated in roots under salt stress [
+79
+] and in conditions lacking inorganic phosphate [
+75
+].
+DIN2
+mRNA can be transported from cell to cell [
+81
+], and is involved in a process that can lead to weakened root cell walls when under salt stress [
+82
+].
+SEN1
+is expressed in mature and developing root hairs [
+71
+], and is downregulated in the presence of auxin [
+70
+].
+SEN1
+is regulated by both methyl-jasmonate and salicylic acid [
+83
+], and strongly induced by phosphate starvation [
+84
+],. Knockout mutants are growth deficient in the light [
+67
+].
+SWEET11
+is present in the vasculature in the zone of maturation [
+71
+], and is downregulated in the cortex of sulfur-deficient roots after 24 h [
+80
+].
+SWEET11
+is a known sucrose efflux transporter that can assist with carbon transport to the roots in times of water stress [
+85
+].
+HKT1
+is expressed in the proto and metaphloem of the zone of maturation in Arabidopsis roots [
+69
+,
+71
+], and is linked to salt and water stress responses [
+86
+]. Knockout
+hkt1
+has significantly lower root sugars and higher tricarboxylic acid following salt stress, indicating a role for sugar metabolism in salt stress [
+86
+]. HKT1 is also regulated by cytokinin [
+87
+], and has a close interaction with ABSCISIC ACID INSENSITIVE 4 (
+ABI4
+; At2g40220), where both gene products are expressed in the same cells and
+ABI4
+binds to sites in the HKT1 promoter [
+88
+].
+The 11 HPSGC show similar expression patterns in that none are particularly expressed in the root tip versus the rest of the root and are all closely related into one co-expression and co-localization network (Fig.
+5
+), despite being members of disparate signaling pathways and potential activities (Table
+2
+). These different signaling and environmental sensing pathways, such as salt, sugar, and darkness responses, are linked by their individual gene members. For example,
+ASN1
+,
+SWEET11
+, and
+HKT1
+are involved in sucrose response, sugar transport, and salt signaling, respectively. These three genes, which are not co-expressed or co-localized with one another, are all co-expressed with a common gene (
+SWEET12
+; Fig.
+5
+), which further complicates the roles of each gene involved. Other HPSGC are involved with more downstream processes. DIN2 and SIS are involved in two different environmental sensing and cell signaling processes, are co-localized with one another, and are both co-localized with ACTIN DEPOLYMERIZING FACTOR 9 (ADF9; At4g34970) and PLANT INVERTASE/PECTIN METHYLESTERASE 47 (PME47; At5g04970; Fig.
+5
+), both of which are involved in cell wall remodeling. Other genes pulled in by this co-expression and co-localization network are related to handling sugar signaling downstream of sensing, such as
+SUGAR TRANSPORTER 1
+(
+STP1
+; At1g11260) and
+LIKE SEX4 1
+(
+LSF1
+; At3g01510, where
+SEX4
+is a plant-specific glucan phosphatase; Fig.
+5
+). An additional network file shows the relationship between HPSGC and these additional genes [see Additional file
+4
+]. This computational approach to the HPSGC illustrates possibilities for how these environmental sensing and signaling pathway genes could be involved in the generation of root skewing.
+Fig. 5.
+Open in a new tab
+Co-expression and co-localization network of HPSGC shows each member is linked with others. Additionally, other genes pulled into the network are other members of the same signaling networks or downstream cell wall remodeling. Network generated with GeneMANIA [
+119
+]
+Sugar signaling is a major signaling pathway identified in the skew gene candidates. Sucrose efflux transporters
+SWEET11
+and
+SWEET12
+were both upregulated in WS roots grown at A
+gp
+45° and 135°.
+SWEET11
+, a member of the HPSGC, was also upregulated in Col-0 roots grown at A
+gp
+45° (Table
+1
+and Additional file
+1
+: Table S2). These genes are also associated with response to salt stress, divalent metal ion transport, and are integral in the endomembrane system [
+89
+,
+90
+]. SWEET11 and SWEET12 are shown to assist in phloem unloading into the apoplast [
+91
+], with SWEET12 responding to CO
+2
+as well [
+92
+]. This sugar transport could be used for signaling, as other members of the
+MtN3
+/saliva/
+SWEET
+-family of genes are involved with ion transport and physiological process regulation [
+93
+]. Root exudates are also involved in regulation of the surrounding microbiome and microenvironment [
+94
+], and these SWEET efflux proteins may be involved in shaping root growth and directionality through signaling. Additionally,
+ASN1
+was upregulated in WS roots grown at A
+gp
+135° and was downregulated in both Col-0 and WS roots grown at A
+gp
+45° (Table
+1
+and Additional file
+1
+: Table S2). ASN1 responds to sucrose starvation, and mRNA accumulation is suppressed with sugar in some tests [
+95
+,
+96
+]. Additionally, both of these genes are responsive to absence of light, and may be involved in light/sugar signaling pathways (Additional file
+1
+: Table S2). It is possible that ASN1 would be involved with the aforementioned
+SWEET
+family network. Both
+DIN2
+and
+ASN1
+were upregulated in the presence of various heavy metals, further implicating their roles in environmental signaling pathways [
+97
+], with ASN1 being expressed in the elongation and maturation zones in the root [
+71
+].
+Other genes in the HPSGC are involved in sugar signaling and subsequent related phosphatase pathways.
+DIN2
+is a dark inducible responsive to sugar starvation [
+96
+,
+98
+].
+DIN2
+transcript is increased in the absence of type 1 and 2A protein phosphatases [
+96
+]. Though technically a metallo-phosphoesterase and a type 5 acid phosphatase,
+PAP24
+is a member of the HPSGC and may be involved in similar signaling pathways [
+99
+].
+MIOX4
+is suppressed in the shoot by exogenous application of glucose, which my influence root expression through InsP
+3
+signaling cascades [
+73
+], which itself plays a role in response to gravitropic stimuli [
+100
+].
+SEN1
+is another gene induced in roots by phosphate starvation and induced in leaves by a glucose transport inhibitor [
+101
+].
+SEN1
+itself may provide a link between glucose signaling and phosphate signaling [
+101
+], and is highly expressed in the meristematic zone of the root [
+71
+].
+Salt signaling is another functional group identified in the HPSGC.
+HKT1
+has a role in salt signaling in Arabidopsis roots [
+102
+], and is likely involved in loading sodium ions into phloem to transport to roots, indirectly regulating potassium ion concentrations [
+86
+].
+HKT1
+activity is reduced by high calcium levels [
+103
+,
+104
+], which could point to a crosstalk linkage point between calcium and salt signaling pathways.
+SIS
+also has a role in salt tolerance, but is mostly unknown at this time [
+105
+]. Some of these salt-related genes are present in root regions that would imply signaling activity and growth determination. For example,
+DIN2
+is present in the columella cells and stele of roots under salt stress, while
+SIS
+is present in the epidermis, lateral root cap, cortex, and partially present in the endodermis [
+79
+].
+Conclusions
+This work investigated the transcriptional differences between skewing and non-skewing roots. Comparisons within WS revealed genes that responded to the angle of growth (A
+gp
+) during the process of skewing. These genes were cross referenced with transcripts differing between the WS and Col-0 genotypes to refine the list of genes that are most probably be involved in root skewing. A majority of the highly probable skew gene candidates (HPSGC) are directly associated with environmental sensing (e.g. salt, sugar, hormones, darkness), upstream of physical growth differences (e.g. cell wall remodeling, cell division, cell elongation). Thus, pathways that respond to disparate signals from the root local environment may drive the root behavior of skewing. However, it is also possible that some of the HPSGC are responses to the altered phenotype, rather than the basis of the phenotype. In order to separate these two hypotheses, future studies could investigate the HPSGC to find the specific pathways and molecular mechanisms contributing to root skewing.
+Methods
+Plants, treatments, and morphometric assays
+Arabidopsis thaliana
+plants (wild type cultivars Col-0 and WS) were grown on media plates made from 0.5x MS liquid media, autoclaved with 0.5% Phytagel and poured in square-gridded plates (Fisherbrand, Fisher Scientific, Pittsburgh, PA). Seeds were wet sterilized in 1.7 mL Eppendorf microfuge tubes (Eppendorf, Hamburg, Germany) using a 5-min 70% ethanol wash, followed by a 5 min 50% v/v sodium hypochlorate solution wash (8.3%; Clorox, Oakland, CA), followed by 6 washes with sterile ddH
+2
+O. Seeds were planted on plates and moved to 4 °C for 2 days, followed by three days of vertical growth (A
+gp
+90°) in 19 °C +/- 2 °C, and 24-h fluorescent light at approximately 80 μmol m
+-2
+s
+-1
+PAR. Plates were photographed, moved to their respective experimental condition (A
+gp
+45°, 90°, or 135°), and photographed again on day 8 after germination (day 5 after gravistimulation). Plants were harvested and fixed in RNAlater (Ambion, Grand Island, New York, USA). Images of 8 day old plates were stacked, aligned, and measured using JFilament plugin for ImageJ [
+106
+–
+108
+]. Root measurements were processed through a custom R script, available on GitHub [
+109
+]. Data were analyzed using R and two-way ANOVAs with Type II sum of squares [
+110
+]. Post hoc analysis was conducted using Scheffé’s method.
+RNA and microarray
+Roots were dissected from shoots and RNA was extracted using Qiagen RNeasy Plant Mini Kit (Qiagen, Hilden, Germany). Five roots were used for each chip, and three chips were used per condition. Lateral roots were not quantified, but did not appear to be significantly different between treatments. Initial RNA concentration was determined by Eppendorf BioSpectrometer (Eppendorf, Hamburg, Germany). Final RNA concentration was determined on a NanoDrop Spectrophotometer (NanoDrop Technologies Inc., Wilmington, DE) and sample quality was assessed using the Agilent 2100 Bioanalyzer (Agilent Technologies Inc., Santa Clara, CA). Briefly, 100 ng of total RNA from each sample was reverse transcribed into double-stranded cDNA, from which biotin-labeled cRNA was generated using the 3′ IVT plus Kit (Affymetrix, Santa Clara, CA). The cRNA was purified using magnetic beads and was fragmented. Following fragmentation, cRNA products (12.5 μg) were hybridized with rotation to the Affymetrix GeneChip® Arabidopsis ATH1 Genome Arrays for 16 h at 45 °C. Arrays were washed on a Fluidics Station 450 (Affymetrix, Santa Clara, CA) using the Hybridization Wash and Stain Kit (Affymetrix, Santa Clara, CA) and the Washing Procedure FS450_0004. Fluorescent signals were measured with an Affymetrix GeneChip Scanner 3000 7G. Initial data analysis was carried out using the MAS5 algorithm within the Affymetrix Expression Console software. Microarray experiments were performed at the Interdisciplinary Center for Biotechnology Research Microarray Core, University of Florida. The datasets supporting the conclusions of this article are available in the Gene Expression Omnibus repository [
+GSE83242
+].
+Data processing, comparison tools, and qRT-PCR validation
+Data were normalized using RMA algorithm using the Limma and Bioconductor packages in R. Differential analyses were processed using R and the Limma package in Bioconductor. Data were imported and organized in Excel (Microsoft Corporation, Redmond, WA). Gene transcripts were significant if absolute value of the fold change was greater than 1 in a base 2 logarithmic scale, as well as a raw
+p
+-value cutoff of
+p
+< 0.05. All genes meeting these criteria were considered, mitigating the risk of false positives with the benefit of identifying as many genes as possible. False discovery rate (FDR)-correction was performed for further statistical power, with
+q
+< 0.05 being indicated in Table
+1
+, Additional file
+1
+: Table S2 and Additional file
+2
+: Table S3. For comparisons between Col-0 and WS cultivars, genes with altered transcripts in all three growth environments were removed if the change was near the same magnitude, within ± 1 fold change (base 2 log scale). Heatmaps were generated using Gene-E (v. 3.0.204, Broad Institute, Cambridge, MA). Gene data was researched using g:Profiler [
+89
+,
+90
+], agriGO [
+111
+], ATTED-II [
+112
+], Biogrid [
+113
+,
+114
+], UniProt [
+115
+], KEGG [
+116
+,
+117
+], and STRING [
+118
+] online databases. Additional visualization of gene networks was created using GeneMANIA [
+119
+].
+For qRT-PCR validation of transcriptome microarray data, 460 ng of total RNA were reverse transcribed into cDNA using High Capacity RNA to cDNA Master Mix (Applied Biosystems, Foster City, CA, USA). Primers used were
+PAP24
+(F: 5’ – ACACGATTGGAGAGAAGGCA – 3’; R: 5’ – AACCAAGGACACGATGAGCT – 3’),
+SEN1
+(F: 5’ – AGGAAATGTTGCAGCAGAGG – 3’; R: 5’ – CGTTGATGGCTCTAGTCGGA – 3’),
+ASN1
+(F: - GGAATATTTGGGGACGGTGC – 3’; R: 5’ – CGGGACATCAAGAACATCGG – 3’), and
+HKT1
+(F: 5’ – TCTTGGAGTGACGGTGCTAG – 3’; R: 5’ – CAGAGGTCCATTCAAAGGCG – 3’). The cDNA was analyzed by qRT-PCR using SYBR Green reagents and was normalized to
+UBQ11
+prior to the internal vertical control comparison or the Col-0 to WS comparison.
+Acknowledgements
+The authors thank Dr. Alberto Riva, Dr. Yanping Zhang, and the entire UF ICBR for their assistance in microarray analysis and data processing. The authors also thank the members of the UF Space Plants Lab for their frequent discussions and support.
+Funding
+This work was supported by National Aeronautics and Space Administration (NASA) Space life and Physical Sciences grants NNX12AN69G and NNX07AH27G to A-L. Paul and R.J. Ferl, and NNX15AI10H to E.R. Schultz. The funding agency did not participate in the design of the study, the collection, analysis, and interpretation of data, or in the writing the manuscript.
+Availability of data and materials
+The dataset supporting the conclusions of this article is available in the Gene Expression Omnibus repository,
+GSE83242
+at
+http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=gse83242
+. Additional data supporting the conclusions of this article are included within the article and its additional files. Software used to measure roots was conducted in R, with code freely available at
+https://github.com/eschultzphd/RootMeasurement
+.
+Authors’ contributions
+ERS was responsible for the experimental design, its execution, and its analysis, as well as drafting and editing the manuscript. AKZ contributed to interpretation of experimental data and manuscript organization and editing. NJS performed qRT-PCR validation. ALP and RJF contributed to experimental design and manuscript editing. All authors read and approved the final manuscript.
+Competing interests
+The authors declare that they have no competing interests.
+Consent for publication
+Not applicable.
+Ethics approval and consent to participate
+Not applicable.
+Abbreviations
+ABA
+Abscisic acid
+ACC
+1-Aminocyclopropane-1-carboxylic acid
+A
+gp
+Angle of the growth plate
+Col-0
+Columbia-0
+DUF
+Domain of unknown function.
+GSA
+Gravitropic set-point angle
+GTP
+Guanosine triphosphate
+HGI
+Horizontal growth index
+HPSGC
+Highly probable skew gene candidates
+ISS
+International space station
+miRNA
+MicroRNA
+STR
+Straightness
+WD
+Wave density
+WS
+Wassilewskija
+Additional files
+Additional file 1: Table S2.
+(25KB, xls)
+Comparing different growth angles to vertical within WS. (XLS 25 kb)
+Additional file 2: Table S3.
+(103.5KB, xls)
+Comparing Col-0 to WS at different growth angles. (XLS 103 kb)
+Additional file 3:
+(12.5KB, xls)
+Validation of microarray data using qRT-PCR. The quantitative RT-PCR data for the genes encoding SEN1, ASN1, HKT1, MIOX4, SIS, SWEET11 and DINare provided numerically in a spread sheet. (XLS 12 kb)
+Additional file 4:
+(463.2KB, pdf)
+A GeneMania network of the HPSGC genes. Co-expression and co-localization network of HPSGC showing how each HPSGC member pulled in additional signaling or cell wall remodeling genes working downstream. (PDF 463 kb)
+Contributor Information
+Eric R. Schultz, Email: e.schultz@ufl.edu
+Agata K. Zupanska, Email: zupanska@ufl.edu
+Natasha J. Sng, Email: nsng@ufl.edu
+Anna-Lisa Paul, Email: alp@ufl.edu.
+Robert J. Ferl, Email: robferl@ufl.edu
+References
+1.
+Darwin C, Darwin F.  The power of movement in plants. London: John Murray; 1880.
+[
+Google Scholar
+]
+2.
+Larsen P. Gravity sensing by plants. Life Sci Space Res. 1973;11:141–154.
+[
+PubMed
+] [
+Google Scholar
+]
+3.
+Arnaud C, Bonnot C, Desnos T, Nussaume L. The root cap at the forefront. C R Biol. 2010;333(4):335–343. doi: 10.1016/j.crvi.2010.01.011.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Cassab GI, Eapen D, Campos ME. Root hydrotropism: an update. Am J Bot. 2013;100(1):14–24. doi: 10.3732/ajb.1200306.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Eshel A, Beeckman T, editors. Plant roots: The hidden half. 4. Boca Raton: CRC Press; 2013.
+[
+Google Scholar
+]
+6.
+Lopez D, Tocquard K, Venisse JS, Legue V, Roeckel-Drevet P. Gravity sensing, a largely misunderstood trigger of plant orientated growth. Front Plant Sci. 2014;5:610. doi: 10.3389/fpls.2014.00610.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Oliva M, Dunand C. Waving and skewing: how gravity and the surface of growth media affect root development in Arabidopsis. New Phytol. 2007;176(1):37–43. doi: 10.1111/j.1469-8137.2007.02184.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Roy R, Bassham DC. Root growth movements: waving and skewing. Plant Sci. 2014;221–222:42–47. doi: 10.1016/j.plantsci.2014.01.007.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Migliaccio F, Fortunati A, Tassone P. Arabidopsis root growth movements and their symmetry: progress and problems arising from recent work. Plant Signal Behav. 2009;4(3):183–190. doi: 10.4161/psb.4.3.7959.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Buer CS, Wasteneys GO, Masle J. Ethylene modulates root-wave responses in Arabidopsis. Plant Physiol. 2003;132(2):1085–1096. doi: 10.1104/pp.102.019182.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Pandey S, Monshausen GB, Ding L, Assmann SM. Regulation of root-wave response by extra large and conventional G proteins in Arabidopsis thaliana. Plant J. 2008;55(2):311–322. doi: 10.1111/j.1365-313X.2008.03506.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Vaughn LM, Masson PH. A QTL study for regions contributing to Arabidopsis thaliana root skewing on tilted surfaces. G3 (Bethesda) 2011;1(2):105–115. doi: 10.1534/g3.111.000331.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Yuen CY, Sedbrook JC, Perrin RM, Carroll KL, Masson PH. Loss-of-function mutations of ROOT HAIR DEFECTIVE3 suppress root waving, skewing, and epidermal cell file rotation in Arabidopsis. Plant Physiol. 2005;138(2):701–714. doi: 10.1104/pp.105.059774.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+Okada K, Shimura Y. Reversible root tip rotation in Arabidopsis seedlings induced by obstacle-touching stimulus. Science. 1990;250(4978):274–276. doi: 10.1126/science.250.4978.274.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Thompson MV, Holbrook NM. Root-gel interactions and the root waving behavior of Arabidopsis. Plant Physiol. 2004;135(3):1822–1837. doi: 10.1104/pp.104.040881.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Millar KD, Johnson CM, Edelmann RE, Kiss JZ. An endogenous growth pattern of roots is revealed in seedlings grown in microgravity. Astrobiology. 2011;11(8):787–797. doi: 10.1089/ast.2011.0699.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Paul AL, Amalfitano CE, Ferl RJ. Plant growth strategies are remodeled by spaceflight. BMC Plant Biol. 2012;12:232. doi: 10.1186/1471-2229-12-232.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Nakashima J, Liao F, Sparks JA, Tang Y, Blancaflor EB. The actin cytoskeleton is a suppressor of the endogenous skewing behaviour of Arabidopsis primary roots in microgravity. Plant Biol (Stuttg) 2014;16(1):142–150. doi: 10.1111/plb.12062.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Bidzinski P, Noir S, Shahi S, Reinstadler A, Gratkowska DM, Panstruga R. Physiological characterization and genetic modifiers of aberrant root thigmomorphogenesis in mutants of Arabidopsis thaliana MILDEW LOCUS O genes. Plant Cell Environ. 2014;37(12):2738–2753. doi: 10.1111/pce.12353.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Kushwah S, Jones AM, Laxmi A. Cytokinin-induced root growth involves actin filament reorganization. Plant Signal Behav. 2011;6(11):1848–1850. doi: 10.4161/psb.6.11.17641.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Kushwah S, Jones AM, Laxmi A. Cytokinin interplay with ethylene, auxin, and glucose signaling controls Arabidopsis seedling root directional growth. Plant Physiol. 2011;156(4):1851–1866. doi: 10.1104/pp.111.175794.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Sedbrook J, Boonsirichai K, Chen R, Hilson P, Pearlman R, Rosen E, Rutherford R, Batiza A, Carroll K, Schulz T, et al.  Molecular genetics of root gravitropism and waving in Arabidopsis thaliana. Gravit Space Biol Bull. 1998;11(2):71–78.
+[
+PubMed
+] [
+Google Scholar
+]
+23.
+Antosiewicz DM, Polisensky DH, Braam J. Cellular localization of the Ca2+ binding TCH3 protein of Arabidopsis. Plant J. 1995;8(5):623–636. doi: 10.1046/j.1365-313X.1995.08050623.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Weerasinghe RR, Swanson SJ, Okada SF, Garrett MB, Kim SY, Stacey G, Boucher RC, Gilroy S, Jones AM. Touch induces ATP release in Arabidopsis roots that is modulated by the heterotrimeric G-protein complex. FEBS Lett. 2009;583(15):2521–2526. doi: 10.1016/j.febslet.2009.07.007.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+25.
+Monshausen GB, Haswell ES. A force of nature: molecular mechanisms of mechanoperception in plants. J Exp Bot. 2013;64(15):4663–4680. doi: 10.1093/jxb/ert204.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+26.
+Iida H, Furuichi T, Nakano M, Toyota M, Sokabe M, Tatsumi H. New candidates for mechano-sensitive channels potentially involved in gravity sensing in Arabidopsis thaliana. Plant Biol (Stuttg) 2014;16(1):39–42. doi: 10.1111/plb.12044.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Nakano M, Samejima R, Iida H. Mechanosensitive channel candidate MCA2 is involved in touch-induced root responses in Arabidopsis. Front Plant Sci. 2014;5:421. doi: 10.3389/fpls.2014.00421.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+] [
+Retracted
+]
+28.
+Swanson SJ, Barker R, Ye Y, Gilroy S. Evaluating mechano-transduction and touch responses in plant roots. Methods Mol Biol. 2015;1309:143–150. doi: 10.1007/978-1-4939-2697-8_12.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Digby J, Firn RD. The gravitropic set-point angle (GSA): the identification of an important developmentally controlled variable governing plant architecture. Plant Cell Environ. 1995;18(12):1434–1440. doi: 10.1111/j.1365-3040.1995.tb00205.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+Roychoudhry S, Del Bianco M, Kieffer M, Kepinski S. Auxin controls gravitropic setpoint angle in higher plant lateral branches. Curr Biol. 2013;23(15):1497–1504. doi: 10.1016/j.cub.2013.06.034.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+31.
+Roychoudhry S, Kepinski S. Analysis of gravitropic setpoint angle control in Arabidopsis. Methods Mol Biol. 2015;1309:31–41. doi: 10.1007/978-1-4939-2697-8_4.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+32.
+Rosquete MR, von Wangenheim D, Marhavy P, Barbez E, Stelzer EH, Benkova E, Maizel A, Kleine-Vehn J. An auxin transport mechanism restricts positive orthogravitropism in lateral roots. Curr Biol. 2013;23(9):817–822. doi: 10.1016/j.cub.2013.03.064.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Digby J, Firn RD. Light modulation of the gravitropic set-point angle (GSA) J Exp Bot. 2002;53(367):377–381. doi: 10.1093/jexbot/53.367.377.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Wan YL, Eisinger W, Ehrhardt D, Kubitscheck U, Baluska F, Briggs W. The subcellular localization and blue-light-induced movement of phototropin 1-GFP in etiolated seedlings of Arabidopsis thaliana. Mol Plant. 2008;1(1):103–117. doi: 10.1093/mp/ssm011.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Kiss JZ, Millar KD, Edelmann RE. Phototropism of Arabidopsis thaliana in microgravity and fractional gravity on the International Space Station. Planta. 2012;236(2):635–645. doi: 10.1007/s00425-012-1633-y.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+36.
+Kutschera U, Briggs WR. Root phototropism: from dogma to the mechanism of blue light perception. Planta. 2012;235(3):443–452. doi: 10.1007/s00425-012-1597-y.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+37.
+Zhang KX, Xu HH, Yuan TT, Zhang L, Lu YT. Blue-light-induced PIN3 polarization for root negative phototropic response in Arabidopsis. Plant J. 2013;76(2):308–321. doi: 10.1111/tpj.12298.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+38.
+Moriwaki T, Miyazawa Y, Fujii N, Takahashi H. GNOM regulates root hydrotropism and phototropism independently of PIN-mediated auxin transport. Plant Sci. 2014;215–216:141–149. doi: 10.1016/j.plantsci.2013.11.002.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+39.
+Yokawa K, Fasano R, Kagenishi T, Baluska F. Light as stress factor to plant roots - case of root halotropism. Front Plant Sci. 2014;5:718. doi: 10.3389/fpls.2014.00718.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+40.
+Haga K, Tsuchida-Mayama T, Yamada M, Sakai T. Arabidopsis ROOT PHOTOTROPISM2 contributes to the adaptation to high-intensity light in phototropic responses. Plant Cell. 2015;27(4):1098–1112. doi: 10.1105/tpc.15.00178.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+41.
+Sato EM, Hijazi H, Bennett MJ, Vissenberg K, Swarup R. New insights into root gravitropic signalling. J Exp Bot. 2015;66(8):2155–2165. doi: 10.1093/jxb/eru515.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+42.
+Silva-Navas J, Moreno-Risueno MA, Manzano C, Pallero-Baena M, Navarro-Neila S, Tellez-Robledo B, Garcia-Mina JM, Baigorri R, Javier Gallego F, Del Pozo JC. D-Root: a system to cultivate plants with the root in darkness or under different light conditions. Plant J. 2015;84(1):244–55.
+[
+DOI
+] [
+PubMed
+]
+43.
+Galvan-Ampudia CS, Julkowska MM, Darwish E, Gandullo J, Korver RA, Brunoud G, Haring MA, Munnik T, Vernoux T, Testerink C. Halotropism is a response of plant roots to avoid a saline environment. Curr Biol. 2013;23(20):2044–2050. doi: 10.1016/j.cub.2013.08.042.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+44.
+Pierik R, Testerink C. The art of being flexible: how to escape from shade, salt, and drought. Plant Physiol. 2014;166(1):5–22. doi: 10.1104/pp.114.239160.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+45.
+Chae K, Lord EM. Pollen tube growth and guidance: roles of small, secreted proteins. Ann Bot. 2011;108(4):627–636. doi: 10.1093/aob/mcr015.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+46.
+Eapen D, Barroso ML, Ponce G, Campos ME, Cassab GI. Hydrotropism: root growth responses to water. Trends Plant Sci. 2005;10(1):44–50. doi: 10.1016/j.tplants.2004.11.004.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+47.
+Soeno K, Goda H, Ishii T, Ogura T, Tachikawa T, Sasaki E, Yoshida S, Fujioka S, Asami T, Shimada Y. Auxin biosynthesis inhibitors, identified by a genomics-based approach, provide insights into auxin biosynthesis. Plant Cell Physiol. 2010;51(4):524–536. doi: 10.1093/pcp/pcq032.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+48.
+Rutherford R, Gallois P, Masson PH. Mutations in Arabidopsis thaliana genes involved in the tryptophan biosynthesis pathway affect root waving on tilted agar surfaces. Plant J. 1998;16(2):145–154. doi: 10.1046/j.1365-313x.1998.00279.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+49.
+Rutherford R, Masson PH. Arabidopsis thaliana sku mutant seedlings show exaggerated surface-dependent alteration in root growth vector. Plant Physiol. 1996;111(4):987–998. doi: 10.1104/pp.111.4.987.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+50.
+Sedbrook JC, Ehrhardt DW, Fisher SE, Scheible WR, Somerville CR. The Arabidopsis SKU6/SPIRAL1 gene encodes a plus end-localized microtubule-interacting protein involved in directional cell expansion. Plant Cell. 2004;16(6):1506–1520. doi: 10.1105/tpc.020644.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+51.
+Yuen CY, Pearlman RS, Silo-Suh L, Hilson P, Carroll KL, Masson PH. WVD2 and WDL1 modulate helical organ growth and anisotropic cell expansion in Arabidopsis. Plant Physiol. 2003;131(2):493–506. doi: 10.1104/pp.015966.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+52.
+Hobe M, Muller R, Grunewald M, Brand U, Simon R. Loss of CLE40, a protein functionally equivalent to the stem cell restricting signal CLV3, enhances root waving in Arabidopsis. Dev Genes Evol. 2003;213(8):371–381. doi: 10.1007/s00427-003-0329-5.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+53.
+Deruere J, Jackson K, Garbers C, Soll D, Delong A. The RCN1-encoded A subunit of protein phosphatase 2A increases phosphatase activity in vivo. Plant J. 1999;20(4):389–399. doi: 10.1046/j.1365-313x.1999.00607.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+54.
+Santner AA, Watson JC. The WAG1 and WAG2 protein kinases negatively regulate root waving in Arabidopsis. Plant J. 2006;45(5):752–764. doi: 10.1111/j.1365-313X.2005.02641.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+55.
+Qi B, Zheng H. Modulation of root-skewing responses by KNAT1 in Arabidopsis thaliana. Plant J. 2013;76(3):380–92.
+[
+DOI
+] [
+PubMed
+]
+56.
+Sedbrook JC, Carroll KL, Hung KF, Masson PH, Somerville CR. The Arabidopsis SKU5 gene encodes an extracellular glycosyl phosphatidylinositol-anchored glycoprotein involved in directional root growth. Plant Cell. 2002;14(7):1635–1648. doi: 10.1105/tpc.002360.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+57.
+Yang X, Wang B, Farris B, Clark G, and Roux SJ. Modulation of Root Skewing in Arabidopsis by Apyrases and Extracellular ATP. Plant Cell Physiol. 2015;56:2197-206.
+[
+DOI
+] [
+PubMed
+]
+58.
+Grabov A, Ashley MK, Rigas S, Hatzopoulos P, Dolan L, Vicente-Agullo F. Morphometric analysis of root shape. New Phytol. 2005;165(2):641–651. doi: 10.1111/j.1469-8137.2004.01258.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+59.
+Maris A, Suslov D, Fry SC, Verbelen JP, Vissenberg K. Enzymic characterization of two recombinant xyloglucan endotransglucosylase/hydrolase (XTH) proteins of Arabidopsis and their effect on root growth and cell wall extension. J Exp Bot. 2009;60(13):3959–3972. doi: 10.1093/jxb/erp229.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+60.
+Wu X, Shi Y, Li J, Xu L, Fang Y, Li X, Qi Y. A role for the RNA-binding protein MOS2 in microRNA maturation in Arabidopsis. Cell Res. 2013;23(5):645–657. doi: 10.1038/cr.2013.23.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+61.
+Carthew RW, Sontheimer EJ. Origins and mechanisms of miRNAs and siRNAs. Cell. 2009;136(4):642–655. doi: 10.1016/j.cell.2009.01.035.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+62.
+Ogura Y, Komatsu A, Zikihara K, Nanjo T, Tokutomi S, Wada M, Kiyosue T. Blue light diminishes interaction of PAS/LOV proteins, putative blue light receptors in Arabidopsis thaliana, with their interacting partners. J Plant Res. 2008;121(1):97–105. doi: 10.1007/s10265-007-0118-8.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+63.
+Cederholm HM, Benfey PN. Distinct sensitivities to phosphate deprivation suggest that RGF peptides play disparate roles in Arabidopsis thaliana root development. New Phytol. 2015;207(3):683–691. doi: 10.1111/nph.13405.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+64.
+Tanaka Y, Sano T, Tamaoki M, Nakajima N, Kondo N, Hasezawa S. Ethylene inhibits abscisic acid-induced stomatal closure in Arabidopsis. Plant Physiol. 2005;138(4):2337–2343. doi: 10.1104/pp.105.063503.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+65.
+Benjamins R, Ampudia CS, Hooykaas PJ, Offringa R. PINOID-mediated signaling involves calcium-binding proteins. Plant Physiol. 2003;132(3):1623–1630. doi: 10.1104/pp.103.019943.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+66.
+Ivanova A, Law SR, Narsai R, Duncan O, Lee JH, Zhang B, Van Aken O, Radomiljac JD, van der Merwe M, Yi K, et al.  A functional antagonistic relationship between auxin and mitochondrial retrograde signaling regulates alternative Oxidase1a expression in Arabidopsis. Plant Physiol. 2014;165(3):1233–1254. doi: 10.1104/pp.114.237495.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+67.
+Lamesch P, Berardini TZ, Li D, Swarbreck D, Wilks C, Sasidharan R, Muller R, Dreher K, Alexander DL, Garcia-Hernandez M, et al.  The Arabidopsis Information Resource (TAIR): improved gene annotation and new tools. Nucleic Acids Res. 2012;40(Database issue):D1202–1210. doi: 10.1093/nar/gkr1090.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+68.
+Hooper CM, Tanz SK, Castleden IR, Vacher MA, Small ID, Millar AH. SUBAcon: a consensus algorithm for unifying the subcellular localization data of the Arabidopsis proteome. Bioinformatics. 2014;30(23):3356–3364. doi: 10.1093/bioinformatics/btu550.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+69.
+Winter D, Vinegar B, Nahal H, Ammar R, Wilson GV, Provart NJ. An “Electronic Fluorescent Pictograph” browser for exploring and analyzing large-scale biological data sets. PLoS One. 2007;2(8):e718. doi: 10.1371/journal.pone.0000718.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+70.
+Bargmann BO, Vanneste S, Krouk G, Nawy T, Efroni I, Shani E, Choe G, Friml J, Bergmann DC, Estelle M, et al.  A map of cell type-specific auxin responses. Mol Syst Biol. 2013;9:688. doi: 10.1038/msb.2013.40.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+71.
+Brady SM, Orlando DA, Lee JY, Wang JY, Koch J, Dinneny JR, Mace D, Ohler U, Benfey PN. A high-resolution root spatiotemporal map reveals dominant expression patterns. Science. 2007;318(5851):801–806. doi: 10.1126/science.1146265.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+72.
+Lisko KA, Torres R, Harris RS, Belisle M, Vaughan MM, Jullian B, Chevone BI, Mendes P, Nessler CL, Lorence A. Elevating vitamin C content via overexpression of myo-inositol oxygenase and l-gulono-1,4-lactone oxidase in Arabidopsis leads to enhanced biomass and tolerance to abiotic stresses. In Vitro Cell Dev Biol Plant. 2013;49(6):643–655. doi: 10.1007/s11627-013-9568-y.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+73.
+Alford SR, Rangarajan P, Williams P, Gillaspy GE. myo-inositol oxygenase is required for responses to Low energy conditions in Arabidopsis thaliana. Front Plant Sci. 2012;3:69. doi: 10.3389/fpls.2012.00069.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+74.
+Endres S, Tenhaken R. Down-regulation of the myo-inositol oxygenase gene family has no effect on cell wall composition in Arabidopsis. Planta. 2011;234(1):157–169. doi: 10.1007/s00425-011-1394-z.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+75.
+Lin WD, Liao YY, Yang TJ, Pan CY, Buckhout TJ, Schmidt W. Coexpression-based clustering of Arabidopsis root genes predicts functional modules in early phosphate deficiency signaling. Plant Physiol. 2011;155(3):1383–1402. doi: 10.1104/pp.110.166520.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+76.
+Fernandez-Calvino L, Guzman-Benito I, Del Toro FJ, Donaire L, Castro-Sanz AB, Ruiz-Ferrer V, Llave C. Activation of senescence-associated dark-inducible (DIN) genes during infection contributes to enhanced susceptibility to plant viruses. Mol Plant Pathol. 2016;17(1):3–15. doi: 10.1111/mpp.12257.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+77.
+Luo J, Fuell C, Parr A, Hill L, Bailey P, Elliott K, Fairhurst SA, Martin C, Michael AJ. A novel polyamine acyltransferase responsible for the accumulation of spermidine conjugates in Arabidopsis seed. Plant Cell. 2009;21(1):318–333. doi: 10.1105/tpc.108.063511.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+78.
+Zimmermann P, Hirsch-Hoffmann M, Hennig L, Gruissem W. GENEVESTIGATOR. Arabidopsis microarray database and analysis toolbox. Plant Physiol. 2004;136(1):2621–2632. doi: 10.1104/pp.104.046367.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+79.
+Dinneny JR, Long TA, Wang JY, Jung JW, Mace D, Pointer S, Barron C, Brady SM, Schiefelbein J, Benfey PN. Cell identity mediates the response of Arabidopsis roots to abiotic stress. Science. 2008;320(5878):942–945. doi: 10.1126/science.1153795.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+80.
+Iyer-Pascuzzi AS, Jackson T, Cui H, Petricka JJ, Busch W, Tsukagoshi H, Benfey PN. Cell identity regulators link development and stress responses in the Arabidopsis root. Dev Cell. 2011;21(4):770–782. doi: 10.1016/j.devcel.2011.09.009.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+81.
+Thieme CJ, Rojas-Triana M, Stecyk E, Schudoma C, Zhang W, Yang L, Minambres M, Walther D, Schulze WX, Paz-Ares J, et al.  Endogenous Arabidopsis messenger RNAs transported to distant tissues. Nat Plants. 2015;1(4):15025. doi: 10.1038/nplants.2015.25.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+82.
+Renault H, El Amrani A, Berger A, Mouille G, Soubigou-Taconnat L, Bouchereau A, Deleu C. gamma-Aminobutyric acid transaminase deficiency impairs central carbon metabolism and leads to cell wall defects during salt stress in Arabidopsis roots. Plant Cell Environ. 2013;36(5):1009–1018. doi: 10.1111/pce.12033.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+83.
+Schenk PM, Kazan K, Rusu AG, Manners JM, Maclean DJ. The SEN1 gene of Arabidopsis is regulated by signals that link plant defence responses and senescence. Plant Physiol Biochem. 2005;43(10-11):997–1005. doi: 10.1016/j.plaphy.2005.09.002.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+84.
+Wu P, Ma L, Hou X, Wang M, Wu Y, Liu F, Deng XW. Phosphate starvation triggers distinct alterations of genome expression in Arabidopsis roots and leaves. Plant Physiol. 2003;132(3):1260–71.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+85.
+Durand M, Porcheron B, Hennion N, Maurousset L, Lemoine R, Pourtau N. Water deficit enhances C export to the roots in Arabidopsis thaliana plants with contribution of sucrose transporters in both shoot and roots. Plant Physiol. 2016;170(3):1460–1479. doi: 10.1104/pp.15.01926.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+86.
+Hill CB, Jha D, Bacic A, Tester M, Roessner U. Characterization of ion contents and metabolic responses to salt stress of different Arabidopsis AtHKT1;1 genotypes and their parental strains. Mol Plant. 2013;6(2):350–368. doi: 10.1093/mp/sss125.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+87.
+Brenner WG, Schmulling T. Transcript profiling of cytokinin action in Arabidopsis roots and shoots discovers largely similar but also organ-specific responses. BMC Plant Biol. 2012;12:112. doi: 10.1186/1471-2229-12-112.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+88.
+Shkolnik-Inbar D, Adler G, Bar-Zvi D. ABI4 downregulates expression of the sodium transporter HKT1;1 in Arabidopsis roots and affects salt tolerance. Plant J. 2013;73(6):993–1005. doi: 10.1111/tpj.12091.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+89.
+Reimand J, Arak T, Vilo J. g:Profiler--a web server for functional interpretation of gene lists (2011 update) Nucleic Acids Res. 2011;39(Web Server issue):W307–315. doi: 10.1093/nar/gkr378.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+90.
+Reimand J, Kull M, Peterson H, Hansen J, Vilo J. g:Profiler--a web-based toolset for functional profiling of gene lists from large-scale experiments. Nucleic Acids Res. 2007;35(Web Server issue):W193–200. doi: 10.1093/nar/gkm226.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+91.
+Chen LQ, Qu XQ, Hou BH, Sosso D, Osorio S, Fernie AR, Frommer WB. Sucrose efflux mediated by SWEET proteins as a key step for phloem transport. Science. 2012;335(6065):207–211. doi: 10.1126/science.1213351.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+92.
+Duan Z, Homma A, Kobayashi M, Nagata N, Kaneko Y, Fujiki Y, Nishida I. Photoassimilation, assimilate translocation and plasmodesmal biogenesis in the source leaves of Arabidopsis thaliana grown under an increased atmospheric CO2 concentration. Plant Cell Physiol. 2014;55(2):358–369. doi: 10.1093/pcp/pcu004.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+93.
+Yuan M, Wang S. Rice MtN3/saliva/SWEET family genes and their homologs in cellular organisms. Mol Plant. 2013;6(3):665–674. doi: 10.1093/mp/sst035.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+94.
+Badri DV, Vivanco JM. Regulation and function of root exudates. Plant Cell Environ. 2009;32(6):666–681. doi: 10.1111/j.1365-3040.2009.01926.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+95.
+Fujiki Y, Yoshikawa Y, Sato T, Inada N, Ito M, Nishida I, Watanabe A. Dark-inducible genes from Arabidopsis thaliana are associated with leaf senescence and repressed by sugars. Physiol Plant. 2001;111(3):345–352. doi: 10.1034/j.1399-3054.2001.1110312.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+96.
+Fujiki Y, Ito M, Nishida I, Watanabe A. Multiple signaling pathways in gene expression during sugar starvation. Pharmacological analysis of DIN gene expression in suspension-cultured cells of Arabidopsis. Plant Physiol. 2000;124(3):1139–1148. doi: 10.1104/pp.124.3.1139.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+97.
+Gomez-Sagasti MT, Barrutia O, Ribas G, Garbisu C, Becerril JM. Early transcriptomic response of Arabidopsis thaliana to polymetallic contamination: implications for the identification of potential biomarkers of metal exposure. Metallomics. 2016;8(5):518–31.
+[
+DOI
+] [
+PubMed
+]
+98.
+Fujiki Y, Nakagawa Y, Furumoto T, Yoshida S, Biswal B, Ito M, Watanabe A, Nishida I. Response to darkness of late-responsive dark-inducible genes is positively regulated by leaf age and negatively regulated by calmodulin-antagonist-sensitive signalling in Arabidopsis thaliana. Plant Cell Physiol. 2005;46(10):1741–1746. doi: 10.1093/pcp/pci174.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+99.
+Zhu H, Qian W, Lu X, Li D, Liu X, Liu K, Wang D. Expression patterns of purple acid phosphatase genes in Arabidopsis organs and functional analysis of AtPAP23 predominantly transcribed in flower. Plant Mol Biol. 2005;59(4):581–594. doi: 10.1007/s11103-005-0183-0.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+100.
+Salinas-Mondragon RE, Kajla JD, Perera IY, Brown CS, Sederoff HW. Role of inositol 1,4,5-triphosphate signalling in gravitropic and phototropic gene expression. Plant Cell Environ. 2010;33(12):2041–2055. doi: 10.1111/j.1365-3040.2010.02204.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+101.
+Yu C, Hou XL, Wu P. [The effects of phosphorus, glucose and cytokinin on SEN1 gene expression in Arabidopsis] Zhi Wu Sheng Li Yu Fen Zi Sheng Wu Xue Xue Bao. 2005;31(1):85–89.
+[
+PubMed
+] [
+Google Scholar
+]
+102.
+Xue S, Yao X, Luo W, Jha D, Tester M, Horie T, Schroeder JI. AtHKT1;1 mediates nernstian sodium channel transport properties in Arabidopsis root stelar cells. PLoS One. 2011;6(9):e24725. doi: 10.1371/journal.pone.0024725.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+103.
+Rus A, Lee BH, Munoz-Mayor A, Sharkhuu A, Miura K, Zhu JK, Bressan RA, Hasegawa PM. AtHKT1 facilitates Na+ homeostasis and K+ nutrition in planta. Plant Physiol. 2004;136(1):2500–2511. doi: 10.1104/pp.104.042234.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+104.
+Rus A, Yokoi S, Sharkhuu A, Reddy M, Lee BH, Matsumoto TK, Koiwa H, Zhu JK, Bressan RA, Hasegawa PM. AtHKT1 is a salt tolerance determinant that controls Na+ entry into plant roots. Proc Natl Acad Sci U S A. 2001;98(24):14150–14155. doi: 10.1073/pnas.241501798.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+105.
+Brinker M, Brosche M, Vinocur B, Abo-Ogiala A, Fayyaz P, Janz D, Ottow EA, Cullmann AD, Saborowski J, Kangasjarvi J, et al.  Linking the salt transcriptome with physiological responses of a salt-resistant Populus species as a strategy to identify genes important for stress acclimation. Plant Physiol. 2010;154(4):1697–1709. doi: 10.1104/pp.110.164152.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+106.
+Schneider CA, Rasband WS, Eliceiri KW. NIH Image to ImageJ: 25 years of image analysis. Nat Methods. 2012;9(7):671–675. doi: 10.1038/nmeth.2089.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+107.
+Li H, Shen T, Smith MB, Fujiwara I, Vavylonis D, Huang X. Automated actin filament segmentation, tracking and tip elongation measurements based on open active contour models. Proc IEEE Int Symp Biomed Imaging. 2009;2009:1302–1305. doi: 10.1109/ISBI.2009.5193303.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+108.
+Smith MB, Li H, Shen T, Huang X, Yusuf E, Vavylonis D. Segmentation and tracking of cytoskeletal filaments using open active contours. Cytoskeleton (Hoboken) 2010;67(11):693–705. doi: 10.1002/cm.20481.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+109.
+RootMeasurement [
+https://github.com/eschultzphd/RootMeasurement
+]. Accessed 20 Apr 2016.
+110.
+Langsrud O. ANOVA for unbalanced data: use type II instead of type III sums of squares. Stat Comput. 2003;13(2):163–167. doi: 10.1023/A:1023260610025.
+[
+DOI
+] [
+Google Scholar
+]
+111.
+Du Z, Zhou X, Ling Y, Zhang Z, Su Z. agriGO: a GO analysis toolkit for the agricultural community. Nucleic Acids Res. 2010;38(Web Server issue):W64–70. doi: 10.1093/nar/gkq310.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+112.
+Obayashi T, Okamura Y, Ito S, Tadaka S, Aoki Y, Shirota M, Kinoshita K. ATTED-II in 2014: evaluation of gene coexpression in agriculturally important plants. Plant Cell Physiol. 2014;55(1):e6. doi: 10.1093/pcp/pct178.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+113.
+Chatr-Aryamontri A, Breitkreutz BJ, Oughtred R, Boucher L, Heinicke S, Chen D, Stark C, Breitkreutz A, Kolas N, O’Donnell L, et al.  The BioGRID interaction database: 2015 update. Nucleic Acids Res. 2015;43(Database issue):D470–478. doi: 10.1093/nar/gku1204.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+114.
+Stark C, Breitkreutz BJ, Reguly T, Boucher L, Breitkreutz A, Tyers M. BioGRID: A general repository for interaction datasets. Nucleic Acids Res. 2006;34(Database issue):D535–539. doi: 10.1093/nar/gkj109.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+115.
+Consortium TU. UniProt: a hub for protein information. Nucleic Acids Res. 2015;43(Database issue):D204–212. doi: 10.1093/nar/gku989.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+116.
+Kanehisa M, Goto S. KEGG: kyoto encyclopedia of genes and genomes. Nucleic Acids Res. 2000;28(1):27–30. doi: 10.1093/nar/28.1.27.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+117.
+Kanehisa M, Goto S, Sato Y, Kawashima M, Furumichi M, Tanabe M. Data, information, knowledge and principle: back to metabolism in KEGG. Nucleic Acids Res. 2014;42(Database issue):D199–205. doi: 10.1093/nar/gkt1076.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+118.
+Jensen LJ, Kuhn M, Stark M, Chaffron S, Creevey C, Muller J, Doerks T, Julien P, Roth A, Simonovic M, et al.  STRING 8--a global view on proteins and their functional interactions in 630 organisms. Nucleic Acids Res. 2009;37(Database issue):D412–416. doi: 10.1093/nar/gkn760.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+119.
+Warde-Farley D, Donaldson SL, Comes O, Zuberi K, Badrawi R, Chao P, Franz M, Grouios C, Kazi F, Lopes CT, et al.  The GeneMANIA prediction server: biological network integration for gene prioritization and predicting gene function. Nucleic Acids Res. 2010;38(Web Server issue):W214–220. doi: 10.1093/nar/gkq537.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Data Availability Statement
+The dataset supporting the conclusions of this article is available in the Gene Expression Omnibus repository,
+GSE83242
+at
+http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=gse83242
+. Additional data supporting the conclusions of this article are included within the article and its additional files. Software used to measure roots was conducted in R, with code freely available at
+https://github.com/eschultzphd/RootMeasurement
+.
+Articles from BMC Plant Biology are provided here courtesy of
+BMC

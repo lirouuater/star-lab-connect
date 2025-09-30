@@ -1,0 +1,755 @@
+Cell Rep
+. Author manuscript; available in PMC: 2013 Mar 11.
+Published in final edited form as:
+Cell Rep. 2013 Feb 14;3(2):520–527. doi:
+10.1016/j.celrep.2013.01.018
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Chimeras reveal a single lipid-interface residue that controls MscL channel kinetics as well as mechanosensitivity
+Li-Min Yang
+Li-Min Yang
+1
+Department of Physiology, UT Southwestern Medical center at Dallas, 5323 Harry Hines Blvd, Dallas TX 75390-9040
+Find articles by
+Li-Min Yang
+1,
+2
+,
+Dalian Zhong
+Dalian Zhong
+1
+Department of Physiology, UT Southwestern Medical center at Dallas, 5323 Harry Hines Blvd, Dallas TX 75390-9040
+Find articles by
+Dalian Zhong
+1,
+2
+,
+Paul Blount
+Paul Blount
+1
+Department of Physiology, UT Southwestern Medical center at Dallas, 5323 Harry Hines Blvd, Dallas TX 75390-9040
+Find articles by
+Paul Blount
+1,
+*
+Author information
+Article notes
+Copyright and License information
+1
+Department of Physiology, UT Southwestern Medical center at Dallas, 5323 Harry Hines Blvd, Dallas TX 75390-9040
+*
+Correspondence should be addressed to PB 214-645-6014 (
+Paul.Blount@utsouthwestern.edu
+)
+2
+These authors contributed equally to this work
+Issue date 2013 Feb 21.
+© 2013 Elsevier Inc. All rights reserved.
+PMC Copyright notice
+PMCID: PMC3593973  NIHMSID: NIHMS438457  PMID:
+23416054
+The publisher's version of this article is available at
+Cell Rep
+Summary
+MscL, the highly conserved bacterial mechanosensitive channel of large conductance, functionally serves as an osmotic “emergency release valve”, is among the best studied mechanosensors and a paradigm of how a channel senses and responds to membrane tension. While all homologues tested thus far encode channel activity, many show functional differences. Here we tested
+E. coli
+and
+S aureus
+chimeras and find that the periplasmic region of the protein, particularly
+E. coli
+I49 and the equivalent
+S aureus
+F47 at the periplasmic lipid-aqueous interface of the first transmembrane domain, drastically influences both the open dwell time and threshold of channel opening. One mutant shows a severe hysteresis, confirming the importance of this residue in determining the energy barriers for channel gating. We propose that this site acts similar to a spring for a clasp knife, adjusting the resistance for obtaining and stabilizing an open or closed channel structure.
+Keywords:
+mechanosensitive channel, channel kinetics, osmoregulation, protein-lipid interactions
+Introduction
+The ability to detect mechanical forces is at the basis of not only the senses of touch, hearing and balance but also cardiovascular and osmotic regulation. In essence, mechanosensation is probably the oldest sense and is fundamental for many life functions. The primary way that organisms detect forces is through mechanosensitive (MS) ion channels. The best-studied mechanosensitive channels are from bacteria, and because relatively little is known of mechanosensors from higher organisms, these channels are a model for how a protein can sense and respond to mechanical forces.
+The mechanosensitive channel of large conductance (MscL) is a bacterial channel located in the cytoplasmic membrane that is gated by membrane tension (
+Blount et al., 2008a
+;
+Blount et al., 2007
+;
+Blount et al., 2008b
+;
+Booth and Blount, 2012
+). Although observed in the vast majority of bacterial species, the channels from
+Escherichia coli
+(
+E. coli
+) have been the best studied. The physiological role of MscL, and members of an unrelated bacterial mechanosensitive channel family, MscS (S for small conductance), is to serve as biological “emergency release valves” to protect cells from lysis upon an acute decrease in osmotic environment, commonly referred to as osmotic downshock; it accomplishes this by rapidly releasing cytoplasmic osmolytes (
+Booth and Blount, 2012
+;
+Levina et al., 1999
+). The MscL channel is less sensitive than MscS to membrane tension, but it generates a larger pore size, upwards of 30Å (
+Cruickshank et al., 1997
+), suggesting it is the last-ditch effort for survival. The MscL family is highly conserved and has a simple structural organization (
+Balleza and Gomez-Lagunas, 2009
+;
+Pivetti et al., 2003
+). This exaggerated response and simple construction lends itself as a paradigm for how MS channels, in general, can sense and respond to membrane stretch.
+X-ray crystallography has resolved a MscL homologue from
+Mycobacterium tuberculosis
+(Tb-MscL) to be a homopentamer with each subunit containing an amphipathic N-terminal cytoplasmic α-helix running along the cytoplasmic membrane, followed by the two transmembrane α-helices (TM1 and TM2) that are connected by a periplasmic loop, and ending with the five C-terminal α-helixes forming a cytoplasmic helical bundle (
+Chang et al., 1998
+;
+Steinbacher et al., 2007
+) (also see
+Fig. 1A
+). A more recent structure has also been resolved for the
+Staphylococcus aureus
+(
+S. aureus
+) MscL orthologue (Sa-MscL), which shows a tetrameric rather than pentameric complex (
+Liu et al., 2009
+); however, this appears to be a detergent-induced oligomeric rearrangement since the channel forms almost exclusively pentamers
+in vivo
+(
+Dorwart et al., 2010
+;
+Iscla et al., 2011
+). Although the Sa-MscL structure is unlikely to be physiologically relevant, it is worth noting that many of the interactions between the transmembrane domains are similar to those observed in the Tb-MscL crystal structure, suggesting an overall structural conservation within this highly conserved family.
+Figure 1. The crystal structure of Tb-MscL and alignment of MscL homologs.
+Open in a new tab
+A: Crystal structure of Tb-MscL. a homopentamer with each subunit having two transmembrane domains (TM1 and TM2) connected by periplasmic loop (peri-loop) marked in blue, an N-terminal cytoplasmic helix (S1) connected to TM1, and a C-terminal cytoplasmic helical bundle connected to TM2 by a short cytoplasmic loop. The amino acid shown in red is G47 in Tb- MscL, which is equivalent to F47 in
+S. aureus
+and I49 in
+E. coli
+MscL. B. Sequence alignment of MscL homologs from
+E. coli
+(Eco-MscL) and
+S. aureus
+(Sa-MscL). Included in blue boxes are identical and similar residues in the
+E. coli
+and
+S. aureus
+MscL protein. The arrows and bold labels show the identified analogous amino acid in Eco- and Sa-MscL. The schematic illustration of MscL is also shown above the sequence alignment with S1, TM1, TM2 and c-terminal helix domains shown as boxes and periplasmic and cytoplasmic loops shown as lines.
+Although highly homologous, MscL channels from different species can vary in threshold of activation, conductance and open dwell time (
+Folgering et al., 2005
+;
+Maurer et al., 2000
+;
+Moe et al., 1998
+). For example, Sa-MscL has a sequence identity of 47% and similarity of 69% with
+E. coli
+MscL (Eco-MscL) (
+Fig. 1B
+); however, the major physiological differences between the activities of these channels is that the Sa-MscL has much shorter open dwell times (
+Moe et al., 1998
+) and requires greater membrane tension to open. To identify the structural features underlying these functional differences, we have generated chimeras in which we have exchanged protein domains, subdomains, and ultimately even individual amino acids, and determined the kinetics and threshold of activation of the resulting channels. Surprisingly, the data indicate that the periplasmic region of the protein, particularly one residue located at the TM1/periplasmic loop lipid interface, plays a major role in both the open dwell time and threshold of activation, or, for simplicity, what we will from here on refer to as mechanosensitivity of the channel. The finding that a site at the membrane interface plays such a crucial physiological role affirms the intimate interactions that membrane-tension-gated channels have with their lipid environment.
+Results
+The periplasmic region of the channel plays a major role in defining channel kinetics
+In an attempt to correlate channel kinetics with specific regions of the protein, numerous chimeras of the Eco- and Sa-MscL channel proteins were generated.
+Figure 1
+shows the locations of different domains of the protein imposed upon the crystal structure of the Tb-MscL (panel a) as well as the sequence alignment of the Eco- and Sa-MscL proteins (panel b). The nomenclature of all chimeras tested is as follows: E and S represent regions from Eco- and Sa-MscL protein, respectively, which is followed by numbers showing the locations according to the Eco-MscL registry. As shown in
+Figure 2
+, recording the single channel openings of many Eco- and Sa-MscL chimeras revealed a pattern in channel open dwell time.
+Figure 2A
+shows chimeras with very short open dwell times, similar to wild type Sa-MscL. Chimeras in this panel share a common sequence in what is essentially the TM1/periplasmic loop lipid interface of the Sa-MscL, specifically amino acids (aa) 44-49. In contrast to chimeras shown in
+Figure 2A
+, channels shown in
+Figure 2B
+share a common sequence in the same region which, instead is from Eco-MscL. These chimeras also contain the periplasmic loop and beginning of TM2 from Eco-MscL, thus giving a total Eco-MscL domain of aa 44-77. This common sequence correlates with longer open dwell times, similar to the Eco-MscL activities.
+Figure 2.
+E. coli
+and
+S. aureus
+MscL chimeras reveal regions that strongly correlate with MscL channel open dwell time.
+Open in a new tab
+The nomenclature of all chimeras tested is as following: E and S represent regions from Eco- and Sa-MscL protein, respectively, which is followed by numbers showing the locations according to the Eco-MscL registry. Schematic illustration of each chimera is shown in the left with open boxes and black lines representing domains from
+E. coli
+MscL, while filled blue boxes and blue lines showing those from
+S. aureus
+MscL. Typical traces, with the appropriate scale bars, are shown at the right of each chimera. Specific areas of the protein that correlate with kinetics are boxed with red boxes highlighting the regions that correlate with long open dwell times and green boxes labeling the regions relevant to short channel kinetics. The chimeras have been grouped as discussed in text. Panel e shows a schematic summary showing the regions identified to be important in channel kinetics.
+The analyses of additional chimeras demonstrated that different subdomains of this entire periplasmic region, aa 44-77, effect different behaviors in channel kinetics. The most dramatic example is seen in
+Figure 2C
+, where we found that if a channel contains the TM1 periplasmic region of Eco-MscL, aa 44-49, as well as the periplasmic loop region from Sa-MscL, aa 50-77, a super-long open dwell time channel is produced, thus suggesting that both regions lead to stabilization of the open state; note that the time scale of the two chimeras in this panel is 86-fold and 140-fold of that for chimeras shown in panels a and b, respectively.
+This latter observation allows us to make some predictions. It first suggests that a combination of Sa-MscL “shortening” effects of Sa-MscL 44-49 and Eco-MscL aa 50-77 should yield a channel with “super-short” channel kinetics. While
+Figure 2A
+is consistent with this prediction, it cannot be rigorously tested; the equipment used cannot easily resolve channel openings below 1ms, which is approximately the longest opening for the Sa-MscL channel. However, it also predicts that a combination of the “shortening” effects of Sa-MscL aa 44-49 with the “lengthening” effects of Sa-MscL aa 50-77 in an Eco-MscL background would lead to a channel with intermediate kinetics, perhaps not dissimilar to Eco-MscL. Indeed, as seen in
+Figure 2D
+, this prediction is upheld. Since aa 50-77 contains both the non-conserved periplasmic loop (aa 50-74) as well as the highly conserved beginning of TM2 (aa 75-77), the different effect of aa 50-77 from Sa- and Eco-MscL is very likely generated by differences in the periplasmic loop (aa 50-74).
+The effects of the periplasmic loop are not easily attributed to a shorter sub-domain. Chimeras containing the end of TM1 (aa 44-49) from Eco-MscL and only the latter part of periplasmic loop region (aa 56-77) from Sa-MscL also show an increase in open dwell times, but not as dramatic as that observed in
+Figure 2C
+(in
+Fig. S1
+). Hence, the nonconserved periplasmic loop appears to act as a unit in its regulation of channel kinetics.
+While the region of the protein from aa 44-77 appears to play a vital role in defining the kinetics of the channel, any structure/function relationship of conductance and mechanosensitivity appears to be much more complicated. There is no obvious correlation between these periplasmic regions and channel conductance or mechanosensitivity. For example, using an accepted mechanosensitivity gage(
+Blount et al., 1999
+;
+Blount et al., 1996a
+;
+Ou et al., 1998
+) where MscS is used as an internal standard within the patch, and the ratio of gating threshold pressure for MscL (pL) divided by the threshold pressure of MscS (pS) is determined, we found the pL/pS ratio ranged from 0.85 to 2.5 with wild type Eco-MscL at 1.47 and Sa-MscL at 1.96, and the most sensitive chimera, SES56-77 (ratio 0.85), and one of the least sensitive, ESE44-77 (ratio 2.5), are in the same group shown in
+Figure 2A
+. For these chimeras we could find no correlation between either conductance or mechanosensitivity with the channel open dwell times.
+In summary, as shown in
+Figure 2C
+, the aa 44-49 region from Eco-MscL and the periplasmic loop from Sa-MscL confer long open dwell times, while aa 44-49 from Sa-MscL and periplasmic loop from Eco-MscL confer short open dwell times. Hence, the combination of Eco-MscL aa 44-49 and Sa-MscL periplasmic loop leads to MscL channels with extremely long openings, as shown in
+Figure 2C
+.
+A single residue at the TM1/periplasmic loop lipid interface has a pronounced effect on channel kinetics
+In contrast to the periplasmic loop, the periplasmic portion of TM1 is small and relatively conserved. Note that the SES44-49 chimera shown in
+Figure 2C
+, which has extremely long open dwell times, contains only 5 alternative residues relative to the wild type Sa-MscL channel (G46 is conserved). In order to determine if a specific site within the end of TM1 (aa 44-49) is responsible for controlling open dwell times, we generated site-directed mutations. As shown in
+Figure 3A
+, mutations of the Eco-MscL residues within this region were systematically changed back to the Sa-MscL sequence. Changing P44 back to L, PL44-45 to LI, L47 to K and L48 to I had no apparent effect on the aberrantly long channel openings. In contrast, mutation of I49 to F drastically reduced the channel open dwell time. A small, and as of yet unexplained change in conductance was noted: I49F was 3.48±0.04 nS, while the other mutants ranged from 3.80 to 4.05 nS; however, all were much larger than the conductance of Sa-MscL (2.5±0.2 nS), again suggesting that this is not a site of major regulation of channel conductance. On the other hand, the data indicate that residue 49, located at the TM1/periplasmic loop lipid interface, is an important site for defining channel kinetics.
+Figure 3. Identification of a single residue important for open dwell time.
+Open in a new tab
+A. The Isoleucine at position 49 correlates with the long openings observed for the SES44-49 chimera. Site-directed mutagenesis was performed in chimera SES44-49 to re-introduce
+S. aureus
+MscL residues, shown as gray dots;
+E. coli
+residues are marked as black dots. The traces were normalized to the scale bar in the upper right. “O” and “C” refer to open and closed. B. Exchanging I49 and F47 between
+E. coli
+and
+S. aureus
+MscL channels changes the channel open dwell time. Mutation of I49 to phenylalanine, a
+S. aureus
+MscL equivalent residue, in
+E. coli
+MscL generates a channel with short open dwell times. Substitution of F47 with isoleucine, an
+E. coli
+equivalent residue, in
+S. aureus
+MscL leads to a channel with long open dwell times. At top right of the traces, the scale bars are shown.
+If residue 49 indeed controls the open dwell time, then mutation of this residue within wild type Sa- and Eco-MscL backgrounds should also alter channel kinetics. We therefore exchanged the amino acids at this location. As shown in
+Figure 3B
+, mutation of Eco-MscL I49 to the residue of the comparable site of Sa-MscL, F, generates a channel with short open dwell times, similar to the Sa-MscL. Conversely, mutation of the Sa-MscL equivalent site, F47, to the Eco-MscL I leads to a channel with pronounced long open dwell times. Consistent with our findings that the Sa-MscL periplasmic loop defines long open dwell times, isoleucine at this site in the wild type Sa-MscL background leads to much longer channel openings than observed for the wild type Eco-MscL activity. Therefore, the Eco-MscL I49, and the Sa-MscL equivalent site, F47, is important in controlling the open dwell time of wild type MscL channels as well as chimeras. In sum, these data demonstrate that a single amino acid at the periplasmic end of TM1 can have dramatic effects on the stabilization of the open state of the channel.
+Additional mutational analysis of the single residue at the TM1/periplasmic loop lipid interface shows a correlation of the properties of residue substitutions with channel kinetics and mechanosensitivity
+In an attempt to determine the possible mechanisms for the role of this site in controlling channel openings, we mutated F47 in Sa- MscL into different amino acids. As shown in
+Figure 4A
+,
+Figure S2
+and
+Table S1
+, mutations at this site led to channels with varying open dwell times that correlate with the hydrophobicity of the substitutions (r
+2
+=0.34,
+p
+=0.047). The hydrophobic amino acids I and L effected very long openings while those with charged side chains, K and E, led to shorter openings. However, all three aromatic amino acids anomalously led to very short openings.
+Figure 4. The effect of the hydrophobicity of Sa-47 substitutions on channel kinetics and mechansensitivity.
+Open in a new tab
+A. Linear regression analysis of hydrophobicity with open dwell time. Kinetic analysis of the open dwell times was fitted to a three-open state model (see Materials and Methods). The longest time constants, τ3, expressed as the mean ± s.e.m, were plotted against the Kyte-Doolittle hydrophobic score for each amino acid substitute. B. Hysteresis of Sa-F47L mutant. Representative traces show the delay of both opening and closing upon pressure application. The current and pressure recordings are shown in the upper and lower traces, respectively. Below the traces, the open probability (
+P
+o
+) of a typical experiment is plotted against pressure stimulation. Pressure was normalized to the threshold required to open MscS. Data for opening and closing were fit to Boltzmann equation, respectively, y = (e
+x
+)/(1 + e
+x
+), where x = (
+p
+−
+p
+1/2
+)/k,
+p
+is the applied pressure,
+p
+1/2
+is the point at which the
+P
+o
+is 0.5, and k is the slope. Each pressure was held for 0.6 to 4s. Values for
+P
+o
+were obtained by current integration normalized to the total number of channels in the patch. At the highest pressure, the current remained relatively constant toward a maximum value, and no opening events were ever observed to exceed the value defined as
+P
+o
+= 1.0. C. Linear regression analysis of hydrophobicity with mechanosensitivity. pL/pS ratio was plotted against the Kyte-Doolittle hydrophobic score for each amino acid substitute. D. Linear regression analysis of open dwell time and mechanosensitivity. Open dwell time was plotted against the pL/pS ratio of each amino acid substitute.
+Among all the mutants that effect long open dwell times, F47L had an obvious hysteresis. As shown in
+Figure 4B
+, the channel showed a delay of several seconds in both opening and closing upon pressure changes. Boltzmann functions of open probability (
+P
+o
+) versus pressure were quite different for opening (
+P
+1/2
+= 2.0 of pL/pS) and closing (
+P
+1/2
+= 0.9 of pL/pS) when the duration of each pressure step is from 0.6 to 4s. The difference of the
+P
+1/2
+for channel opening and closing was not apparent when slower pressure ramp (> 30s) was applied. Such hysteresis was also noted for the chimeras, SES44-49 and ESE50-77, discussed above, and appears to be an extreme exaggeration of a very mild hysteresis (less than a 10% change between opening and closing
+P
+1/2
+) of the wild type Eco-MscL reported previously (
+Kamaraju et al., 2010
+).
+All of the mutations at Sa-F47 caused a decrease in pL/pS ratio reflecting a more sensitive channel, as shown in
+Figure 4C
+and
+Figure S2
+. Moreover, the pL/pS ratio correlated with the hydrophobicity of the amino acid substitutions (r
+2
+=0.4,
+p
+=0.027), with hydrophobic amino acids effecting higher pL/pS ratios, and thus reflecting a channel that is less sensitive to membrane tension. In contrast with the kinetic data discussed above, and as shown in
+Figure 4A
+, the three “bulky” aromatic amino acids followed this correlation with mechanosensitivity well (
+Fig. 4C
+), suggesting a different mechanism underlying how the hydrophobicity of residue 47 affects channel kinetics and mechanosensitivity; in essence, the outliers for the correlation shown in
+Figure 4A
+are not seen in 4C. Consistent with this hypothesis, no correlation between open dwell time and pL/pS ratio of all mutations at F47 was observed (
+Fig. 4D
+). In summary, the above data confirm that the residue at this location plays a profound role in defining Sa-MscL open dwell times as well as mechanosensation; while hydrophobicity and “bulk” may help to define the channel kinetics, hydrophobicity alone plays the major role in determining mechanosensitivity.
+To test whether the equivalent site, I49, in Eco-MscL also plays an important role in channel function, we selectively mutated I49 to F, Y, and C. Surprisingly, we found that same mutations changed channel kinetics and mechanosensitivity with a similar trend as that observed for Sa-MscL (
+Fig. 5A and B
+and
+Fig. S3
+). These data suggest that this site has a conserved function among orthologues.
+Figure 5. Comparison of the effect of identical substitutions at Eco-49 in kinetics and mechanosensitivity with that at Sa-47.
+Open in a new tab
+A. The open dwell time τ3 of Sa-MscL and Eco-MscL are plotted for each of the substitutions. Each point reflects a mean value ± s.e.m. The two Y axes are as labeled. B. Correlation between the hydrophobicity and mechanosensitivity. The pL/pS ratio of both Eco-49 and Sa-47 substitutions are plotted against their Kyte-Doolittle hydrophobic scores.
+Discussion
+While several studies on Eco- or Tb-MscL have suggested that the periplasmic region may play a role in MscL channel regulation (
+Ajouz et al., 2000
+;
+Blount et al., 1996b
+;
+Jeon and Voth, 2008
+;
+Maurer et al., 2000
+;
+Maurer and Dougherty, 2003
+;
+Park et al., 2004
+;
+Tsai et al., 2005
+), no one had successfully identified a single sub-domain or residue that acted as a variable spring element, in either a consistent or opposing manner, across bacterial species. In this study, using a chimera approach we were able to identify such subdomains, and ultimately, a single residue.
+We initially found that the periplasmic loop of Eco-MscL confers short channel openings and that of Sa-MscL defines long openings. In contrast, the relatively conserved TM1/periplasmic lipid interface (44–49) influenced channel kinetics in an opposite manner with that from Eco-MscL effecting long open dwell times, and that from Sa-MscL generating short open dwell times. Thus, these two periplasmic regions appear to work in concert within these two orthologues, and the engineered combination of the Eco-MscL TM1/periplasmic lipid interface and the Sa-MscL periplasmic loop leads to MscL channels with a stabilized open state and extremely long open dwell times.
+The further dissection of the TM1/periplasmic loop interface led to the finding that a single residue at the lipid interface, I49 for Eco-MscL and the analogous site F47 for Sa-MscL, has profound effects on channel kinetics, thus suggesting an important role of protein-lipid interactions at this region. Furthermore, we generated one particular mutant by site directed mutagenesis, Sa-MscL F47L, which has an extreme channel phenotype in that it shows a severe hysteresis as well as delay in both opening and closing. These data demonstrate that not only can the energy barrier for gating, or the transition between closed and open states, be modified by a mutation at Sa-F47, but that the transition from closed to open can be drastically different from that for going from open to closed states. A recent molecular dynamic simulation study on Eco-MscL channel gating suggests that, during the gating process, membrane thinning induces a kink within the TM1/periplasmic loop interface, essentially in and around Eco-I49, which causes outward motion of the periplasmic loop away from the pore center (
+Deplazes et al., 2012
+). We propose that the easing or resisting of some restraint, such as this proposed kink formation, may modulate the transition between open and closed states, like adjusting the spring on a clasp knife.
+Studying additional channels altered by site-directed mutagenesis, we found consistent correlations between residue properties and their effects on channel function for Sa- as well as Eco-MscL; these data suggest a common functional role for this site between orthologues. As a general rule, hydrophobic residues led to longer open times, although streamlined hydrophobic residues appear to be more efficient in this aspect than those containing bulkier aromatic rings, presumably because of some sort of steric hindrance of the latter. The role of this residue in channel mechanosensation was also studied, and more hydrophobic substitutions were found to decrease mechanosensitivity. Therefore, increasing the hydrophobicity appears to increase the energy barrier required to achieve an open state, but once achieved, the open state is stabilized; increasing the hydrophilicity does the opposite, demonstrating that this spring element is adjusted by hydrophobicity. These findings are reminiscent of early studies suggesting that hydrophobic interactions, coined a “hydrophobic lock”, at the pore constriction keeps the channel closed; according to this theory, it is the exposure of these residues to the aqueous solution that is a major energy barrier for channel opening (
+Blount et al., 2007
+;
+Blount and Moe, 1999
+;
+Moe et al., 2000
+;
+Yoshimura et al., 1999
+). Note, however, that the “lock” is due to the bundling of hydrophobic residues from each of the subunits at the constriction of the pore, whereas here we found a residue at the lipid interface where no such bundling of residues is likely to occur.
+Although we found that the hydrophobicity of this spring element at the TM1 periplasmic lipid interface is important in both channel kinetics and mechanosensation, it is important to note that there are differences in the two correlations. For example, aromatic amino acids fit the hydropathy correlation for mechanosensation but not open dwell time. Several studies emphasize the importance of aromatics in potential lipid interactions for MscL (
+Sawada et al., 2012
+) as well as other mechanosensitive channels such as TRPY1 and other TRP channels (
+Su et al., 2007
+;
+Zhou et al., 2007
+) and belts of aromatics are seen in other membrane proteins, including KcsA (
+Doyle et al., 1998
+). Thus, aromatic residue-lipid interactions may play more of a role in mechanosensation than kinetics. We also observed that there is no correlation between mechanosensitivity and open dwell time for the various substitutions. Hence, although the relative hydrophobicity of this spring element effects changes in both kinetics and mechanosensation, it does so by different underlying mechanisms.
+In summary, by initially using a chimera approach, we identified a single amino acid serves as a “clasp knife spring” for the resistance and stability of channel opening and closing. The hydrophobicity and steric shape of this residue, complemented by the periplasmic loop, appears to define channel mechanosensitivity and kinetics in both Sa- and Eco-MscL.
+Experimental Procedures
+Strains and cell growth
+All chimeras were generated using the PCR ligation method (
+Blount and Krause, 1993
+;
+Innis et al., 1990
+). All other site-directed mutants were generated using Mega primer method as described previously (
+Levin and Blount, 2004
+) and all were inserted in the pB10d expression construct (
+Blount et al., 1996a
+;
+Ou et al., 1998
+). The
+E. coli
+strain PB104 (ΔmscL:Cm) was used for electrophysiological experiments (
+Blount et al., 1996a
+;
+Ou et al., 1998
+). Cultures were grown routinely in Lennox broth (LB) medium (Fisher Scientific, Pittsburbh, PA, USA) containing 100 μg/ml ampicillin. Expression was induced by addition of 1 mM isopropyl-β-D-thiogalactopyranoside (IPTG; Anatrace inc., Maumee, OH, USA).
+Electrophysiology
+As described previously (
+Blount et al., 1999
+;
+Martinac et al., 1987
+), excised, inside-out patches from
+E. coli
+giant spheroplasts were examined at room temperature. Patch buffer contained 200 mM KCl, 90 mM MgCl
+2
+, 10 mM CaCl
+2
+, and 5 mM HEPES (Sigma, St. Louis, MO), pH 6.0. Data were acquired at −20 mV at a sampling rate of 20 kHz with a 5-kHz filter, using an AxoPatch 200B amplifier in conjunction with Axoscope software (Axon Instruments, Union City, CA, USA). For simplicity, the channel openings are shown upwards in the figures. A piezoelectric pressure transducer (World Precision Instruments, Sarasota, FL, USA) was used to monitor the pressure introduced to patch membrane by suction throughout the experiments. Measurements were performed using Clampfit9 from pCLAMP9 (Axon Instruments).
+For the kinetic experiments, the data were fit to a three open state model, as previously performed (
+Blount et al., 1996a
+;
+Blount et al., 1996b
+;
+Ou et al., 1998
+). The two longer time constants (τ2 and τ3) could be easily determined; the shortest is beyond the resolution of the equipment used. All kinetic data were obtained from at least 300 opening events per mutant from three independent experiments performed in at least two independent spheroplast preparations.
+Mechanosensitivity was determined as previously described (
+Blount et al., 1999
+;
+Blount et al., 1996a
+;
+Ou et al., 1998
+). Briefly, MscS is used as an internal standard within the patch, and the ratio of gating pressure for MscL divided by the threshold pressure of MscS is determined; here we will refer to this as the pL/pS ratio. All mechanosensitivity data were obtained from at least three independent recordings performed in at least two independent spheroplast preparations.
+Supplementary Material
+01
+NIHMS438457-supplement-01.pdf
+(798.7KB, pdf)
+MscL from
+E. coli
+and
+S. aureus
+are functionally distinct mechanosensitive channels
+MscL Chimeras allow correlation of structural differences with functional variance
+Residue hydropathy at one site influences gating and state-stabilization of MscL
+One residue can vary MscL activity similar to adjusting a spring of a clasp knife
+Acknowledgments
+The authors would like to acknowledge all of the scientists and rotating students that, in the near and distant past, initiated aspects of chimera projects within our laboratory. We would also like to thank Drs. Irene Iscla and Hannah Malcolm for helpful discussions and critical reading of the manuscript. Funding: This work was supported by Grant I-1420 of the Welch Foundation, Grant NNH08ZTT003N NRA from NASA, Grant RP100146 from the Cancer Prevention & Research Institute of Texas (CPRIT), and Grants AI080807 and GM061028 from the National Institutes of Health. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+Abbreviations
+E. coli
+Escherichia coli
+S. aureus
+Staphylococcus aureus
+Eco-MscL
+E. coli
+MscL
+Tb-MscL
+Mycobacterium tuberculosis
+MscL
+Sa-MscL
+S. aureus
+MscL
+TM1 and TM2
+first and second transmembrane helix
+CuPe
+copper phenanthroline
+aa
+amino acids
+Footnotes
+Author Contributions
+LY and DZ contributed equally. DZ made the vast majority of the chimera constructs. LY produced, analyzed, and interpreted the majority of the patch clamp traces; LY also served as a mentor and teacher for DZ mastering electrophysiology, and both ultimately contributed to this aspect of the project. PB conceived of and supervised the project. All authors contributed to the writing of the paper.
+Publisher's Disclaimer:
+This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+References
+Ajouz B, Berrier C, Besnard M, Martinac B, Ghazi A. Contributions of the different extramembranous domains of the mechanosensitive ion channel MscL to its response to membrane tension. J Biol Chem. 2000;275:1015–1022. doi: 10.1074/jbc.275.2.1015.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Balleza D, Gomez-Lagunas F. Conserved motifs in mechanosensitive channels MscL and MscS. Eur Biophys J. 2009;38:1013–1027. doi: 10.1007/s00249-009-0460-y.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Blount P, Iscla I, Li Y.  Mechanosensitive channels and sensing osmotic stimuli in bacteria. In: Martinac B, editor. Sensing with ion channels. Berlin: Springer-Verlag Press; 2008a. pp. 25–47.
+[
+Google Scholar
+]
+Blount P, Iscla I, Moe PC, Li Y.  MscL: The bacterial mechanosensitive channel of large conductance. In: Hamill OP, editor. Mechanosensitive Ion Channels (a volume in the Current Topics in Membranes series) St. Louis, MO: Elsievier Press; 2007. pp. 202–233.
+[
+Google Scholar
+]
+Blount P, Krause JE. Functional nonequivalence of structurally homologous domains of neurokinin-1 and neurokinin-2 type tachykinin receptors. J Biol Chem. 1993;268:16388–16395.
+[
+PubMed
+] [
+Google Scholar
+]
+Blount P, Li Y, Moe PC, Iscla I.  Mechanosensitive channels gated by membrane tension: Bacteria and beyond. In: Kamkin A, Kiseleva I, editors. Mechanosensitive ion channels (a volume in the Mechanosensitivity in Cells and Tissues, Moscow Academia series) New York: Springer Press; 2008b. pp. 71–101.
+[
+Google Scholar
+]
+Blount P, Moe PC. Bacterial mechanosensitive channels: integrating physiology, structure and function. Trends Microbiol. 1999;7:420–424. doi: 10.1016/s0966-842x(99)01594-2.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Blount P, Sukharev SI, Moe PC, Martinac B, Kung C.  Mechanosensitive channels of bacteria. In: Conn PM, editor. Meth Enzymol. San Diego, CA: Academic Press; 1999. pp. 458–482.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Blount P, Sukharev SI, Moe PC, Schroeder MJ, Guy HR, Kung C. Membrane topology and multimeric structure of a mechanosensitive channel protein of Escherichia coli. EMBO J. 1996a;15:4798–4805.
+[
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Blount P, Sukharev SI, Schroeder MJ, Nagle SK, Kung C. Single residue substitutions that change the gating properties of a mechanosensitive channel in Escherichia coli. Proc Nat Acad Sci USA. 1996b;93:11652–11657. doi: 10.1073/pnas.93.21.11652.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Booth IR, Blount P. Microbial Emergency Release Valves: the MscS and MscL Families of Mechanosensitive Channels. J Bacteriol. 2012;194:4802–4809. doi: 10.1128/JB.00576-12.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Chang G, Spencer RH, Lee AT, Barclay MT, Rees DC. Structure of the MscL homolog from Mycobacterium tuberculosis: A gated mechanosensitive ion channel. Science. 1998;282:2220–2226. doi: 10.1126/science.282.5397.2220.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Cruickshank CC, Minchin RF, Le Dain AC, Martinac B. Estimation of the pore size of the large-conductance mechanosensitive ion channel of Escherichia coli. Biophys J. 1997;73:1925–1931. doi: 10.1016/S0006-3495(97)78223-7.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Deplazes E, Louhivuori M, Jayatilaka D, Marrink SJ, Corry B. Structural Investigation of MscL Gating Using Experimental Data and Coarse Grained MD Simulations. PLoS computational biology. 2012;8:e1002683. doi: 10.1371/journal.pcbi.1002683.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Dorwart MR, Wray R, Brautigam CA, Jiang Y, Blount P. S. aureus MscL is a pentamer in vivo but of variable stoichiometries in vitro: implications for detergent-solubilized membrane proteins. PLoS Biol. 2010;8:e1000555. doi: 10.1371/journal.pbio.1000555.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Doyle DA, Cabral JM, Pfuetzner RA, Kuo A, Gulbis JM, Cohen SL, Chait BT, MacKinnon R. The structure of the potassium channel: molecular basis of K+ conduction and selectivity [see comments] Science. 1998;280:69–77. doi: 10.1126/science.280.5360.69.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Folgering JH, Moe PC, Schuurman-Wolters GK, Blount P, Poolman B. Lactococcus lactis uses MscL as its principal mechanosensitive channel. J Biol Chem. 2005;280:8784–8792. doi: 10.1074/jbc.M411732200.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Innis MA, Gelfand DH, Sninsky JJ, White TJ.  A guide to methods and applications. San Diego: Academic Press, Inc; 1990. PCR Protocols.
+[
+Google Scholar
+]
+Iscla I, Wray R, Blount P. The oligomeric state of the truncated mechanosensitive channel of large conductance shows no variance in vivo. Protein Sci. 2011;20:1638–1642. doi: 10.1002/pro.686.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Jeon J, Voth GA. Gating of the mechanosensitive channel protein MscL: the interplay of membrane and protein. Biophys J. 2008;94:3497–3511. doi: 10.1529/biophysj.107.109850.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kamaraju K, Gottlieb PA, Sachs F, Sukharev S. Effects of GsMTx4 on bacterial mechanosensitive channels in inside-out patches from giant spheroplasts. Biophys J. 2010;99:2870–2878. doi: 10.1016/j.bpj.2010.09.022.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Levin G, Blount P. Cysteine scanning of MscL transmembrane domains reveals residues critical for mechanosensitive channel gating. Biophys J. 2004;86:2862–2870. doi: 10.1016/S0006-3495(04)74338-6.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Levina N, Totemeyer S, Stokes NR, Louis P, Jones MA, Booth IR. Protection of Escherichia coli cells against extreme turgor by activation of MscS and MscL mechanosensitive channels: identification of genes required for MscS activity. EMBO J. 1999;18:1730–1737. doi: 10.1093/emboj/18.7.1730.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Liu Z, Gandhi CS, Rees DC. Structure of a tetrameric MscL in an expanded intermediate state. Nature. 2009;461:120–124. doi: 10.1038/nature08277.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Martinac B, Buechner M, Delcour AH, Adler J, Kung C. Pressure-sensitive ion channel in Escherichia coli. Proc Nat Acad Sci USA. 1987;84:2297–2301. doi: 10.1073/pnas.84.8.2297.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Maurer J, Elmore D, Lester H, Dougherty D. Comparing and contrasting Escherichia coli and Mycobacterium tuberculosis mechanosensitive channels (MscL). New gain of function mutations in the loop region. J Biol Chem. 2000;275:22238–22244. doi: 10.1074/jbc.M003056200.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Maurer JA, Dougherty DA. Generation and evaluation of a large mutational library from the Escherichia coli mechanosensitive channel of large conductance, MscL - Implications for channel gating and evolutionary design. J Biol Chem. 2003;278:21076–21082. doi: 10.1074/jbc.M302892200.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Moe PC, Blount P, Kung C. Functional and structural conservation in the mechanosensitive channel MscL implicates elements crucial for mechanosensation. Molec Microbiol. 1998;28:583–592. doi: 10.1046/j.1365-2958.1998.00821.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Moe PC, Levin G, Blount P. Correlating a protein structure with function of a bacterial mechanosensitive channel. J Biol Chem. 2000;275:31121–31127. doi: 10.1074/jbc.M002971200.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Ou X, Blount P, Hoffman RJ, Kung C. One face of a transmembrane helix is crucial in mechanosensitive channel gating. Proc Nat Acad Sci USA. 1998;95:11471–11475. doi: 10.1073/pnas.95.19.11471.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Park KH, Berrier C, Martinac B, Ghazi A. Purification and functional reconstitution of N- and C-halves of the MscL channel. Biophys J. 2004;86:2129–2136. doi: 10.1016/S0006-3495(04)74272-1.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Pivetti CD, Yen MR, Miller S, Busch W, Tseng YH, Booth IR, Saier MH. Two families of mechanosensitive channel proteins. Microbiol Mol Biol R. 2003;67:66–85. doi: 10.1128/MMBR.67.1.66-85.2003.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Sawada Y, Murase M, Sokabe M. The gating mechanism of the bacterial mechanosensitive channel MscL revealed by molecular dynamics simulations: From tension sensing to channel opening. Channels (Austin) 2012;6:317–331. doi: 10.4161/chan.21895.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Steinbacher S, Bass R, Strop P, Rees DC.  Structures of the prokaryotic mechanosensitive channels MscL and MscS. In: Hamill OP, editor. Mechanosensitive Ion Channels (a volume in the Current Topics in Membranes series) St. Louis, MO: Elsievier Press; 2007. pp. 1–20.
+[
+Google Scholar
+]
+Su Z, Zhou X, Haynes WJ, Loukin SH, Anishkin A, Saimi Y, Kung C. Yeast gain-of-function mutations reveal structure-function relationships conserved among different subfamilies of transient receptor potential channels. Proc Natl Acad Sci U S A. 2007;104:19607–19612. doi: 10.1073/pnas.0708584104.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Tsai IJ, Liu ZW, Rayment J, Norman C, McKinley A, Martinac B. The role of the periplasmic loop residue glutamine 65 for MscL mechanosensitivity. Eur Biophys J. 2005;34:403–412. doi: 10.1007/s00249-005-0476-x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Yoshimura K, Batiza A, Schroeder M, Blount P, Kung C. Hydrophilicity of a single residue within MscL correlates with increased channel mechanosensitivity. Biophys J. 1999;77:1960–1972. doi: 10.1016/S0006-3495(99)77037-2.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Zhou X, Su Z, Anishkin A, Haynes WJ, Friske EM, Loukin SH, Kung C, Saimi Y. Yeast screens show aromatic residues at the end of the sixth helix anchor transient receptor potential channel gate. Proc Natl Acad Sci U S A. 2007;104:15555–15559. doi: 10.1073/pnas.0704039104.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+01
+NIHMS438457-supplement-01.pdf
+(798.7KB, pdf)
