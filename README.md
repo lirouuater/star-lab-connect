@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
+# SpaceBio Knowledge Engine 🚀
 
-## Project info
+Plataforma de rede social para pesquisadores de biologia espacial. Desenvolvido para o NASA Space Apps Challenge 2025.
 
-**URL**: https://lovable.dev/projects/22bd912f-df17-4a1f-a509-4e76c8bd3f7e
+## 🌟 Visão Geral
 
-## How can I edit this code?
+SpaceBio é uma rede social acadêmica especializada em biologia espacial que conecta pesquisadores, facilita a publicação de artigos científicos e oferece um assistente de IA para auxiliar no desenvolvimento de pesquisas.
 
-There are several ways of editing your application.
+## ✨ Funcionalidades
 
-**Use Lovable**
+- **Dashboard Interativo**: Landing page moderna com estatísticas da plataforma
+- **Feed de Artigos**: Publicação e descoberta de artigos científicos
+- **Chat em Tempo Real**: Comunicação direta entre pesquisadores
+- **Assistente de IA**: Ferramenta inteligente para auxiliar em pesquisas
+- **Perfis de Pesquisadores**: Perfis completos com publicações e conquistas
+- **Configurações Personalizadas**: Controle de privacidade e notificações
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/22bd912f-df17-4a1f-a509-4e76c8bd3f7e) and start prompting.
+## 🎨 Design
 
-Changes made via Lovable will be committed automatically to this repo.
+A interface utiliza um tema espacial moderno com:
+- Paleta de cores cosmic (deep space blue, cosmic purple, nebula cyan)
+- Gradientes dinâmicos e efeitos de brilho
+- Animações suaves e fluidas
+- Design responsivo e acessível
+- Componentes shadcn-ui customizados
 
-**Use your preferred IDE**
+## 🛠️ Tecnologias
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend**: React 18 + TypeScript
+- **Build**: Vite
+- **Estilização**: Tailwind CSS
+- **Componentes**: shadcn-ui
+- **Roteamento**: React Router
+- **State Management**: TanStack Query
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Como Executar
 
-Follow these steps:
+```bash
+# Instalar dependências
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Iniciar servidor de desenvolvimento
 npm run dev
+
+# Build para produção
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+## 📁 Estrutura do Projeto
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+src/
+├── components/
+│   ├── ui/              # Componentes shadcn-ui
+│   ├── AppSidebar.tsx   # Navegação lateral
+│   ├── Hero.tsx         # Seção hero da landing page
+│   └── Features.tsx     # Seção de funcionalidades
+├── pages/
+│   ├── Index.tsx        # Página inicial (Dashboard)
+│   ├── Feed.tsx         # Feed de artigos
+│   ├── Chat.tsx         # Sistema de mensagens
+│   ├── AIAssistant.tsx  # Assistente de IA
+│   ├── Profile.tsx      # Perfil do usuário
+│   └── Settings.tsx     # Configurações
+└── index.css            # Design system e estilos globais
+```
 
-**Use GitHub Codespaces**
+## 🎯 Roadmap
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Fase 1 - MVP (Concluído)
+- [x] Interface principal
+- [x] Sistema de navegação
+- [x] Feed de artigos (mock)
+- [x] Chat básico (mock)
+- [x] Assistente de IA (interface)
+- [x] Perfis de usuário
 
-## What technologies are used for this project?
+### Fase 2 - Backend
+- [ ] Integração com Supabase/Lovable Cloud
+- [ ] Sistema de autenticação
+- [ ] Banco de dados para artigos
+- [ ] Chat em tempo real
+- [ ] Integração com API de IA
 
-This project is built with:
+### Fase 3 - Features Avançadas
+- [ ] Sistema de recomendação
+- [ ] Análise bibliométrica
+- [ ] Colaboração em documentos
+- [ ] Integração com repositórios científicos
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🌐 Deploy
 
-## How can I deploy this project?
+O projeto está configurado para deploy através do Lovable:
 
-Simply open [Lovable](https://lovable.dev/projects/22bd912f-df17-4a1f-a509-4e76c8bd3f7e) and click on Share -> Publish.
+1. Acesse [Lovable](https://lovable.dev/projects/22bd912f-df17-4a1f-a509-4e76c8bd3f7e)
+2. Clique em Share → Publish
+3. Configure domínio customizado (opcional)
 
-## Can I connect a custom domain to my Lovable project?
+## 🤝 Contribuindo
 
-Yes, you can!
+Projeto desenvolvido para o NASA Space Apps Challenge 2025.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📄 Licença
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Este projeto é open source e está disponível para fins educacionais e de pesquisa.
+
+---
+
+**NASA Space Apps Challenge 2025** | SpaceBio Knowledge Engine
