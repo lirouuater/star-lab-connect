@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Heart, MessageCircle, Share2, Bookmark } from "lucide-react";
+import { ProtectedRoute } from "@/components/ProtectedRoute";
 
 const mockArticles = [
   {
@@ -43,66 +44,68 @@ const mockArticles = [
 
 const Feed = () => {
   return (
-    <SidebarProvider>
-      <div className="flex min-h-screen w-full">
-        <AppSidebar />
-        <main className="flex-1">
-          <header className="sticky top-0 z-50 h-16 border-b border-border/50 bg-background/80 backdrop-blur-md flex items-center px-6">
-            <SidebarTrigger />
-            <h1 className="text-xl font-semibold ml-4">Feed de Artigos</h1>
-          </header>
-          
-          <div className="container max-w-4xl mx-auto py-8 px-4 md:px-6">
-            <div className="space-y-6">
-              {mockArticles.map((article) => (
-                <Card key={article.id} className="card-elevated bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 transition-all">
-                  <CardHeader>
-                    <div className="flex items-center gap-3 mb-4">
-                      <Avatar>
-                        <AvatarFallback className="bg-primary text-primary-foreground">
-                          {article.avatar}
-                        </AvatarFallback>
-                      </Avatar>
-                      <div className="flex-1">
-                        <p className="font-medium">{article.author}</p>
-                        <p className="text-sm text-muted-foreground">{article.published}</p>
+    <ProtectedRoute>
+      <SidebarProvider>
+        <div className="flex min-h-screen w-full">
+          <AppSidebar />
+          <main className="flex-1">
+            <header className="sticky top-0 z-50 h-16 border-b border-border/50 bg-background/80 backdrop-blur-md flex items-center px-6">
+              <SidebarTrigger />
+              <h1 className="text-xl font-semibold ml-4">Feed de Artigos</h1>
+            </header>
+            
+            <div className="container max-w-4xl mx-auto py-8 px-4 md:px-6">
+              <div className="space-y-6">
+                {mockArticles.map((article) => (
+                  <Card key={article.id} className="card-elevated bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 transition-all">
+                    <CardHeader>
+                      <div className="flex items-center gap-3 mb-4">
+                        <Avatar>
+                          <AvatarFallback className="bg-primary text-primary-foreground">
+                            {article.avatar}
+                          </AvatarFallback>
+                        </Avatar>
+                        <div className="flex-1">
+                          <p className="font-medium">{article.author}</p>
+                          <p className="text-sm text-muted-foreground">{article.published}</p>
+                        </div>
+                        <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium">
+                          {article.category}
+                        </span>
                       </div>
-                      <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium">
-                        {article.category}
-                      </span>
-                    </div>
-                    <CardTitle className="text-2xl">{article.title}</CardTitle>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <CardDescription className="text-base">
-                      {article.excerpt}
-                    </CardDescription>
-                    
-                    <div className="flex items-center gap-6 pt-4 border-t border-border/50">
-                      <Button variant="ghost" size="sm" className="gap-2">
-                        <Heart className="w-4 h-4" />
-                        {article.likes}
-                      </Button>
-                      <Button variant="ghost" size="sm" className="gap-2">
-                        <MessageCircle className="w-4 h-4" />
-                        {article.comments}
-                      </Button>
-                      <Button variant="ghost" size="sm" className="gap-2">
-                        <Share2 className="w-4 h-4" />
-                        Compartilhar
-                      </Button>
-                      <Button variant="ghost" size="sm" className="gap-2 ml-auto">
-                        <Bookmark className="w-4 h-4" />
-                      </Button>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
+                      <CardTitle className="text-2xl">{article.title}</CardTitle>
+                    </CardHeader>
+                    <CardContent className="space-y-4">
+                      <CardDescription className="text-base">
+                        {article.excerpt}
+                      </CardDescription>
+                      
+                      <div className="flex items-center gap-6 pt-4 border-t border-border/50">
+                        <Button variant="ghost" size="sm" className="gap-2">
+                          <Heart className="w-4 h-4" />
+                          {article.likes}
+                        </Button>
+                        <Button variant="ghost" size="sm" className="gap-2">
+                          <MessageCircle className="w-4 h-4" />
+                          {article.comments}
+                        </Button>
+                        <Button variant="ghost" size="sm" className="gap-2">
+                          <Share2 className="w-4 h-4" />
+                          Compartilhar
+                        </Button>
+                        <Button variant="ghost" size="sm" className="gap-2 ml-auto">
+                          <Bookmark className="w-4 h-4" />
+                        </Button>
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
             </div>
-          </div>
-        </main>
-      </div>
-    </SidebarProvider>
+          </main>
+        </div>
+      </SidebarProvider>
+    </ProtectedRoute>
   );
 };
 

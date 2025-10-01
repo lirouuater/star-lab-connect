@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 export const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated background */}
@@ -35,12 +38,21 @@ export const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
-            <Button size="lg" className="gradient-cosmic hover:opacity-90 transition-opacity text-lg h-14 px-8 glow-primary">
-              Começar Agora
+            <Button 
+              size="lg" 
+              className="gradient-cosmic hover:opacity-90 transition-opacity text-lg h-14 px-8 glow-primary"
+              onClick={() => navigate("/feed")}
+            >
+              Ver Feed de Artigos
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
-            <Button size="lg" variant="outline" className="border-primary/30 hover:bg-primary/10 text-lg h-14 px-8">
-              Saber Mais
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="border-primary/30 hover:bg-primary/10 text-lg h-14 px-8"
+              onClick={() => navigate("/ai-assistant")}
+            >
+              Testar AI Assistant
             </Button>
           </div>
 

@@ -1,5 +1,6 @@
-import { Home, MessageSquare, FileText, Sparkles, User, Settings } from "lucide-react";
-import { NavLink } from "react-router-dom";
+import { Home, MessageSquare, FileText, Sparkles, User, Settings, LogOut } from "lucide-react";
+import { NavLink, useNavigate } from "react-router-dom";
+import { useAuth } from "@/hooks/useAuth";
 import {
   Sidebar,
   SidebarContent,
@@ -10,6 +11,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
+import { Button } from "@/components/ui/button";
 
 const menuItems = [
   { title: "Dashboard", url: "/", icon: Home },
@@ -21,6 +23,14 @@ const menuItems = [
 ];
 
 export function AppSidebar() {
+  const { signOut } = useAuth();
+  const navigate = useNavigate();
+
+  const handleLogout = async () => {
+    await signOut();
+    navigate("/auth");
+  };
+
   return (
     <Sidebar className="border-r border-border/50">
       <SidebarContent>
@@ -58,6 +68,17 @@ export function AppSidebar() {
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
+
+        <div className="mt-auto p-4 border-t border-border/50">
+          <Button
+            variant="ghost"
+            className="w-full justify-start gap-2 text-destructive hover:text-destructive hover:bg-destructive/10"
+            onClick={handleLogout}
+          >
+            <LogOut className="w-4 h-4" />
+            Sair
+          </Button>
+        </div>
       </SidebarContent>
     </Sidebar>
   );

@@ -5,6 +5,7 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Send } from "lucide-react";
+import { ProtectedRoute } from "@/components/ProtectedRoute";
 
 const mockConversations = [
   { id: 1, name: "Dr. Maria Silva", avatar: "MS", lastMessage: "Olá! Vi seu artigo sobre...", time: "10:30", unread: 2 },
@@ -20,14 +21,15 @@ const mockMessages = [
 
 const Chat = () => {
   return (
-    <SidebarProvider>
-      <div className="flex min-h-screen w-full">
-        <AppSidebar />
-        <main className="flex-1">
-          <header className="sticky top-0 z-50 h-16 border-b border-border/50 bg-background/80 backdrop-blur-md flex items-center px-6">
-            <SidebarTrigger />
-            <h1 className="text-xl font-semibold ml-4">Mensagens</h1>
-          </header>
+    <ProtectedRoute>
+      <SidebarProvider>
+        <div className="flex min-h-screen w-full">
+          <AppSidebar />
+          <main className="flex-1">
+            <header className="sticky top-0 z-50 h-16 border-b border-border/50 bg-background/80 backdrop-blur-md flex items-center px-6">
+              <SidebarTrigger />
+              <h1 className="text-xl font-semibold ml-4">Mensagens</h1>
+            </header>
           
           <div className="h-[calc(100vh-4rem)] flex">
             {/* Conversations List */}
@@ -113,6 +115,7 @@ const Chat = () => {
         </main>
       </div>
     </SidebarProvider>
+    </ProtectedRoute>
   );
 };
 

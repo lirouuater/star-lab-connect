@@ -7,17 +7,19 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Edit, Mail, MapPin, Link as LinkIcon, Award, BookOpen, Users } from "lucide-react";
+import { ProtectedRoute } from "@/components/ProtectedRoute";
 
 const Profile = () => {
   return (
-    <SidebarProvider>
-      <div className="flex min-h-screen w-full">
-        <AppSidebar />
-        <main className="flex-1">
-          <header className="sticky top-0 z-50 h-16 border-b border-border/50 bg-background/80 backdrop-blur-md flex items-center px-6">
-            <SidebarTrigger />
-            <h1 className="text-xl font-semibold ml-4">Perfil</h1>
-          </header>
+    <ProtectedRoute>
+      <SidebarProvider>
+        <div className="flex min-h-screen w-full">
+          <AppSidebar />
+          <main className="flex-1">
+            <header className="sticky top-0 z-50 h-16 border-b border-border/50 bg-background/80 backdrop-blur-md flex items-center px-6">
+              <SidebarTrigger />
+              <h1 className="text-xl font-semibold ml-4">Perfil</h1>
+            </header>
           
           <div className="container max-w-4xl mx-auto py-8 px-4 md:px-6 space-y-6">
             {/* Profile Header */}
@@ -165,6 +167,7 @@ const Profile = () => {
         </main>
       </div>
     </SidebarProvider>
+    </ProtectedRoute>
   );
 };
 

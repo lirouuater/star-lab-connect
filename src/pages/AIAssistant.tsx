@@ -4,6 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Send, Sparkles } from "lucide-react";
+import { ProtectedRoute } from "@/components/ProtectedRoute";
 
 const mockAIMessages = [
   {
@@ -25,17 +26,18 @@ const mockAIMessages = [
 
 const AIAssistant = () => {
   return (
-    <SidebarProvider>
-      <div className="flex min-h-screen w-full">
-        <AppSidebar />
-        <main className="flex-1">
-          <header className="sticky top-0 z-50 h-16 border-b border-border/50 bg-background/80 backdrop-blur-md flex items-center px-6">
-            <SidebarTrigger />
-            <div className="flex items-center gap-2 ml-4">
-              <Sparkles className="w-5 h-5 text-primary animate-glow" />
-              <h1 className="text-xl font-semibold">Assistente de IA</h1>
-            </div>
-          </header>
+    <ProtectedRoute>
+      <SidebarProvider>
+        <div className="flex min-h-screen w-full">
+          <AppSidebar />
+          <main className="flex-1">
+            <header className="sticky top-0 z-50 h-16 border-b border-border/50 bg-background/80 backdrop-blur-md flex items-center px-6">
+              <SidebarTrigger />
+              <div className="flex items-center gap-2 ml-4">
+                <Sparkles className="w-5 h-5 text-primary animate-glow" />
+                <h1 className="text-xl font-semibold">Assistente de IA</h1>
+              </div>
+            </header>
           
           <div className="h-[calc(100vh-4rem)] flex flex-col max-w-4xl mx-auto">
             {/* Messages Area */}
@@ -99,6 +101,7 @@ const AIAssistant = () => {
         </main>
       </div>
     </SidebarProvider>
+    </ProtectedRoute>
   );
 };
 

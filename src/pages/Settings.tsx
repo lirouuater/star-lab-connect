@@ -6,17 +6,19 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Switch } from "@/components/ui/switch";
 import { Separator } from "@/components/ui/separator";
+import { ProtectedRoute } from "@/components/ProtectedRoute";
 
 const Settings = () => {
   return (
-    <SidebarProvider>
-      <div className="flex min-h-screen w-full">
-        <AppSidebar />
-        <main className="flex-1">
-          <header className="sticky top-0 z-50 h-16 border-b border-border/50 bg-background/80 backdrop-blur-md flex items-center px-6">
-            <SidebarTrigger />
-            <h1 className="text-xl font-semibold ml-4">Configurações</h1>
-          </header>
+    <ProtectedRoute>
+      <SidebarProvider>
+        <div className="flex min-h-screen w-full">
+          <AppSidebar />
+          <main className="flex-1">
+            <header className="sticky top-0 z-50 h-16 border-b border-border/50 bg-background/80 backdrop-blur-md flex items-center px-6">
+              <SidebarTrigger />
+              <h1 className="text-xl font-semibold ml-4">Configurações</h1>
+            </header>
           
           <div className="container max-w-3xl mx-auto py-8 px-4 md:px-6 space-y-6">
             {/* Account Settings */}
@@ -152,6 +154,7 @@ const Settings = () => {
         </main>
       </div>
     </SidebarProvider>
+    </ProtectedRoute>
   );
 };
 
