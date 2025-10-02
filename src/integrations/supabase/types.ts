@@ -14,6 +14,89 @@ export type Database = {
   }
   public: {
     Tables: {
+      chat_conversations: {
+        Row: {
+          created_at: string | null
+          id: string
+          title: string
+          updated_at: string | null
+          user_id: string
+        }
+        Insert: {
+          created_at?: string | null
+          id?: string
+          title?: string
+          updated_at?: string | null
+          user_id: string
+        }
+        Update: {
+          created_at?: string | null
+          id?: string
+          title?: string
+          updated_at?: string | null
+          user_id?: string
+        }
+        Relationships: []
+      }
+      chat_messages: {
+        Row: {
+          content: string
+          conversation_id: string
+          created_at: string | null
+          id: string
+          role: string
+        }
+        Insert: {
+          content: string
+          conversation_id: string
+          created_at?: string | null
+          id?: string
+          role: string
+        }
+        Update: {
+          content?: string
+          conversation_id?: string
+          created_at?: string | null
+          id?: string
+          role?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "chat_messages_conversation_id_fkey"
+            columns: ["conversation_id"]
+            isOneToOne: false
+            referencedRelation: "chat_conversations"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      entities: {
+        Row: {
+          created_at: string | null
+          description: string | null
+          id: string
+          name: string
+          type: string
+          updated_at: string | null
+        }
+        Insert: {
+          created_at?: string | null
+          description?: string | null
+          id?: string
+          name: string
+          type: string
+          updated_at?: string | null
+        }
+        Update: {
+          created_at?: string | null
+          description?: string | null
+          id?: string
+          name?: string
+          type?: string
+          updated_at?: string | null
+        }
+        Relationships: []
+      }
       profiles: {
         Row: {
           avatar_url: string | null
@@ -50,6 +133,78 @@ export type Database = {
           research_area?: string | null
           updated_at?: string
           website?: string | null
+        }
+        Relationships: []
+      }
+      publication_entities: {
+        Row: {
+          entity_id: string
+          publication_id: string
+          relevance_score: number | null
+        }
+        Insert: {
+          entity_id: string
+          publication_id: string
+          relevance_score?: number | null
+        }
+        Update: {
+          entity_id?: string
+          publication_id?: string
+          relevance_score?: number | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "publication_entities_entity_id_fkey"
+            columns: ["entity_id"]
+            isOneToOne: false
+            referencedRelation: "entities"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "publication_entities_publication_id_fkey"
+            columns: ["publication_id"]
+            isOneToOne: false
+            referencedRelation: "publications"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      publications: {
+        Row: {
+          abstract: string | null
+          authors: string[] | null
+          created_at: string | null
+          doi: string | null
+          id: string
+          keywords: string[] | null
+          source_url: string | null
+          title: string
+          updated_at: string | null
+          year: number | null
+        }
+        Insert: {
+          abstract?: string | null
+          authors?: string[] | null
+          created_at?: string | null
+          doi?: string | null
+          id?: string
+          keywords?: string[] | null
+          source_url?: string | null
+          title: string
+          updated_at?: string | null
+          year?: number | null
+        }
+        Update: {
+          abstract?: string | null
+          authors?: string[] | null
+          created_at?: string | null
+          doi?: string | null
+          id?: string
+          keywords?: string[] | null
+          source_url?: string | null
+          title?: string
+          updated_at?: string | null
+          year?: number | null
         }
         Relationships: []
       }
