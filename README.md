@@ -1,109 +1,74 @@
-# SpaceBio Knowledge Engine 🚀
+SpaceBio Knowledge Engine
+Sobre o Projeto
+O SpaceBio Knowledge Engine é uma plataforma de networking social desenvolvida para a comunidade de pesquisadores em biologia espacial. Criado para o NASA Space Apps Challenge 2025, este projeto tem como objetivo conectar cientistas, facilitar a publicação de artigos e oferecer um assistente de IA para auxiliar no desenvolvimento de pesquisas.
 
-Plataforma de rede social para pesquisadores de biologia espacial. Desenvolvido para o NASA Space Apps Challenge 2025.
+✨ Funcionalidades
+Painel Interativo: Uma visão geral das atividades recentes e informações importantes.
 
-## 🌟 Visão Geral
+Feed de Artigos: Um espaço para publicar e interagir com as últimas pesquisas da área.
 
-SpaceBio é uma rede social acadêmica especializada em biologia espacial que conecta pesquisadores, facilita a publicação de artigos científicos e oferece um assistente de IA para auxiliar no desenvolvimento de pesquisas.
+Chat em Tempo Real: Comunique-se com outros pesquisadores de forma instantânea.
 
-## ✨ Funcionalidades
+Assistente de IA: Um chatbot para auxiliar em diversas tarefas de pesquisa.
 
-- **Dashboard Interativo**: Landing page moderna com estatísticas da plataforma
-- **Feed de Artigos**: Publicação e descoberta de artigos científicos
-- **Chat em Tempo Real**: Comunicação direta entre pesquisadores
-- **Assistente de IA**: Ferramenta inteligente para auxiliar em pesquisas
-- **Perfis de Pesquisadores**: Perfis completos com publicações e conquistas
-- **Configurações Personalizadas**: Controle de privacidade e notificações
+Perfis de Pesquisadores: Crie e personalize seu perfil para se conectar com a comunidade.
 
-## 🎨 Design
+🚀 Começando
+Siga estas instruções para rodar o projeto localmente.
 
-A interface utiliza um tema espacial moderno com:
-- Paleta de cores cosmic (deep space blue, cosmic purple, nebula cyan)
-- Gradientes dinâmicos e efeitos de brilho
-- Animações suaves e fluidas
-- Design responsivo e acessível
-- Componentes shadcn-ui customizados
+Pré-requisitos
+Node.js (versão 14 ou superior)
 
-## 🛠️ Tecnologias
+npm ou yarn
 
-- **Frontend**: React 18 + TypeScript
-- **Build**: Vite
-- **Estilização**: Tailwind CSS
-- **Componentes**: shadcn-ui
-- **Roteamento**: React Router
-- **State Management**: TanStack Query
+Instalação
+Clone o repositório:
 
-## 🚀 Como Executar
+Bash
 
-```bash
-# Instalar dependências
+git clone https://github.com/lirouuater/star-lab-connect.git
+Instale as dependências:
+
+Bash
+
 npm install
+# ou
+yarn install
+Inicie o servidor de desenvolvimento:
 
-# Iniciar servidor de desenvolvimento
-npm run dev
+Bash
 
-# Build para produção
-npm run build
-```
+npm start
+# ou
+yarn start
+Abra http://localhost:3000 no seu navegador.
 
-## 📁 Estrutura do Projeto
+🗺️ Roadmap
+Nosso plano de desenvolvimento está dividido em três fases:
 
-```
-src/
-├── components/
-│   ├── ui/              # Componentes shadcn-ui
-│   ├── AppSidebar.tsx   # Navegação lateral
-│   ├── Hero.tsx         # Seção hero da landing page
-│   └── Features.tsx     # Seção de funcionalidades
-├── pages/
-│   ├── Index.tsx        # Página inicial (Dashboard)
-│   ├── Feed.tsx         # Feed de artigos
-│   ├── Chat.tsx         # Sistema de mensagens
-│   ├── AIAssistant.tsx  # Assistente de IA
-│   ├── Profile.tsx      # Perfil do usuário
-│   └── Settings.tsx     # Configurações
-└── index.css            # Design system e estilos globais
-```
+MVP (Produto Mínimo Viável): (Concluído ✔️)
 
-## 🎯 Roadmap
+Interface do usuário (UI) e experiência do usuário (UX)
 
-### Fase 1 - MVP (Concluído)
-- [x] Interface principal
-- [x] Sistema de navegação
-- [x] Feed de artigos (mock)
-- [x] Chat básico (mock)
-- [x] Assistente de IA (interface)
-- [x] Perfis de usuário
+Componentes da interface
 
-### Fase 2 - Backend
-- [ ] Integração com Supabase/Lovable Cloud
-- [ ] Sistema de autenticação
-- [ ] Banco de dados para artigos
-- [ ] Chat em tempo real
-- [ ] Integração com API de IA
+Design responsivo
 
-### Fase 3 - Features Avançadas
-- [ ] Sistema de recomendação
-- [ ] Análise bibliométrica
-- [ ] Colaboração em documentos
-- [ ] Integração com repositórios científicos
+Desenvolvimento do Backend: (Em andamento ⏳)
 
-## 🌐 Deploy
+Configuração do servidor
 
-O projeto está configurado para deploy através do Lovable:
+Banco de dados
 
-1. Acesse [Lovable](https://lovable.dev/projects/22bd912f-df17-4a1f-a509-4e76c8bd3f7e)
-2. Clique em Share → Publish
-3. Configure domínio customizado (opcional)
+API para autenticação e artigos
 
-## 🤝 Contribuindo
+Recursos Avançados: (Próximos passos 💡)
 
-Projeto desenvolvido para o NASA Space Apps Challenge 2025.
+Chat em tempo real
 
-## 📄 Licença
+Notificações
 
-Este projeto é open source e está disponível para fins educacionais e de pesquisa.
+Integração do assistente de IA
 
----
-
-**NASA Space Apps Challenge 2025** | SpaceBio Knowledge Engine
+📜 Licença
+Este projeto é de código aberto e está disponível para fins educacionais e de pesquisa.
