@@ -1,74 +1,28 @@
-SpaceBio Knowledge Engine
-Sobre o Projeto
-O SpaceBio Knowledge Engine é uma plataforma de networking social desenvolvida para a comunidade de pesquisadores em biologia espacial. Criado para o NASA Space Apps Challenge 2025, este projeto tem como objetivo conectar cientistas, facilitar a publicação de artigos e oferecer um assistente de IA para auxiliar no desenvolvimento de pesquisas.
+# Star Lab Connect 🚀
 
-✨ Funcionalidades
-Painel Interativo: Uma visão geral das atividades recentes e informações importantes.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
+[![Status](https://img.shields.io/badge/status-development-yellow.svg)](https://github.com/lirouuater/star-lab-connect)
 
-Feed de Artigos: Um espaço para publicar e interagir com as últimas pesquisas da área.
+## Sobre o Projeto
 
-Chat em Tempo Real: Comunique-se com outros pesquisadores de forma instantânea.
+*Star Lab Connect* é uma plataforma social e colaborativa voltada para a comunidade de pesquisadores em **biologia espacial / microgravidade**.  
+O projeto foi idealizado no contexto do **NASA Space Apps Challenge 2025**, com o objetivo de conectar cientistas, facilitar a publicação de artigos e oferecer um assistente de IA para auxiliar em tarefas de pesquisa.
 
-Assistente de IA: Um chatbot para auxiliar em diversas tarefas de pesquisa.
+### Funcionalidades Principais
 
-Perfis de Pesquisadores: Crie e personalize seu perfil para se conectar com a comunidade.
+- Painel interativo com visão geral de atividades recentes  
+- Feed de artigos científicos com publicação e interação  
+- Chat em tempo real entre usuários  
+- Assistente de IA para suporte em dúvidas, geração de ideias e orientação  
+- Perfis de pesquisadores com personalização e conexão  
 
-🚀 Começando
-Siga estas instruções para rodar o projeto localmente.
+## Tecnologias Utilizadas
 
-Pré-requisitos
-Node.js (versão 14 ou superior)
+- **Frontend:** React, TypeScript, Vite  
+- **Estilização / UI:** Tailwind CSS  
+- **Backend / Persistência:** Supabase (autenticação, banco de dados, API)  
+- **Configuração / Build:** bun / npm / scripts de build  
+- Outras dependências: ESLint, configurações de TypeScript, integração com API de IA  
 
-npm ou yarn
+## Estrutura do Repositório
 
-Instalação
-Clone o repositório:
-
-Bash
-
-git clone https://github.com/lirouuater/star-lab-connect.git
-Instale as dependências:
-
-Bash
-
-npm install
-# ou
-yarn install
-Inicie o servidor de desenvolvimento:
-
-Bash
-
-npm start
-# ou
-yarn start
-Abra http://localhost:3000 no seu navegador.
-
-🗺️ Roadmap
-Nosso plano de desenvolvimento está dividido em três fases:
-
-MVP (Produto Mínimo Viável): (Concluído ✔️)
-
-Interface do usuário (UI) e experiência do usuário (UX)
-
-Componentes da interface
-
-Design responsivo
-
-Desenvolvimento do Backend: (Em andamento ⏳)
-
-Configuração do servidor
-
-Banco de dados
-
-API para autenticação e artigos
-
-Recursos Avançados: (Próximos passos 💡)
-
-Chat em tempo real
-
-Notificações
-
-Integração do assistente de IA
-
-📜 Licença
-Este projeto é de código aberto e está disponível para fins educacionais e de pesquisa.
