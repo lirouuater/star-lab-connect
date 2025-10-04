@@ -1,0 +1,28 @@
+.kg-wrap {
+  display: flex;
+  gap: 12px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+.kg-canvas {
+  background: linear-gradient(180deg,#0f172a 0%, #071029 100%);
+  border-radius: 8px;
+  padding: 8px;
+}
+.kg-canvas svg {
+  background: #0b1220;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.5);
+}
+.kg-side {
+  width: 320px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  color: #0f172a;
+}
+.kg-side h3 { margin-top: 0 }
+.kg-controls { display:flex; gap:8px; flex-wrap:wrap }
+.kg-controls button { padding:6px 10px; border-radius:6px; border:1px solid #e2e8f0; background:#f8fafc }
+.kg-controls button.active { background:#c7f9cc }
+.kg-edit input { width:100%; padding:6px; border:1px solid #e2e8f0; border-radius:4px; }
+.linkLabel { font-size:12px; fill:#f8fafc; text-anchor:middle }
