@@ -11,6 +11,7 @@ import Profile from "./pages/Profile";
 import Settings from "./pages/Settings";
 import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
+import KnowledgeGraphPage from "./pages/KnowledgeGraphPage";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/chat" element={<Chat />} />
           <Route path="/ai-assistant" element={<AIAssistant />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/knowledge-graph" element={<KnowledgeGraphPage />} />
           <Route path="/settings" element={<Settings />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
