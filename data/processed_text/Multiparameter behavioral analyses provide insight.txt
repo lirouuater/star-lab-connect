@@ -1,0 +1,1625 @@
+Toxicol Sci
+. 2013 Jun 26;135(1):156–168. doi:
+10.1093/toxsci/kft138
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Multiparameter Behavioral Analyses Provide Insights to Mechanisms of Cyanide Resistance in
+Caenorhabditis elegans
+Jenifer N Saldanha
+Jenifer N Saldanha
+*Department of Genetics, Development and Cell Biology and
+Find articles by
+Jenifer N Saldanha
+*,
+1
+,
+Archana Parashar
+Archana Parashar
+†Department of Electrical and Computer Engineering, Iowa State University, Ames, Iowa 50011
+Find articles by
+Archana Parashar
+†,
+1
+,
+Santosh Pandey
+Santosh Pandey
+†Department of Electrical and Computer Engineering, Iowa State University, Ames, Iowa 50011
+Find articles by
+Santosh Pandey
+†
+,
+Jo Anne Powell-Coffman
+Jo Anne Powell-Coffman
+*Department of Genetics, Development and Cell Biology and
+Find articles by
+Jo Anne Powell-Coffman
+*,
+2
+Author information
+Article notes
+Copyright and License information
+*Department of Genetics, Development and Cell Biology and
+†Department of Electrical and Computer Engineering, Iowa State University, Ames, Iowa 50011
+1
+These authors contributed equally to this work.
+2
+To whom correspondence should be addressed at 2108 Molecular Biology Building, Iowa State University, Ames, IA 50011. Fax: (515) 294-7629. E-mail:
+japc@iastate.edu
+Received 2013 Mar 28; Accepted 2013 Jun 12; Issue date 2013 Sep.
+© The Author 2013. Published by Oxford University Press on behalf of the Society of Toxicology. All rights reserved. For permissions, please email: journals.permissions@oup.com.
+PMC Copyright notice
+PMCID: PMC3748764  PMID:
+23805000
+Abstract
+Environmental toxicants influence development, behavior, and ultimately survival. The nematode
+Caenorhabditis elegans
+has proven to be an exceptionally powerful model for toxicological studies. Here, we develop novel technologies to describe the effects of cyanide toxicity with high spatiotemporal resolution. Importantly, we use these methods to examine the genetic underpinnings of cyanide resistance.
+Caenorhabditis elegans
+that lack the EGL-9 oxygen sensing enzyme have been shown to be resistant to hydrogen cyanide (HCN) gas produced by the pathogen
+Pseudomonas aeruginosa
+PAO1. We demonstrate that the cyanide resistance exhibited by
+egl-9
+mutants is completely dependent on the HIF-1 hypoxia-inducible factor and is mediated by the
+cysl-2
+cysteine synthase, which likely functions in metabolic pathways that inactivate cyanide. Further, the expression of
+cysl-2
+correlates with the degree of cyanide resistance exhibited in each genetic background. We find that each mutant exhibits similar relative resistance to HCN gas on plates or to aqueous potassium cyanide in microfluidic chambers. The design of the microfluidic devices, in combination with real-time imaging, addresses a series of challenges presented by mutant phenotypes and by the chemical nature of the toxicant. The microfluidic assay produces a set of behavioral parameters with increased resolution that describe cyanide toxicity and resistance in
+C. elegans
+, and this is particularly useful in analyzing subtle phenotypes. These multiparameter analyses of
+C. elegans
+behavior hold great potential as a means to monitor the effects of toxicants or chemical interventions in real time and to study the biological networks that underpin toxicant resistance.
+Key Words:
+Caenorhabditis elegans
+, microfluidics, hypoxia-inducible factor, cyanide toxicity, transcription factor.
+The free-living nematode
+Caenorhabditis elegans
+has proven to be an excellent model for studying the mechanisms by which animals respond to environmental signals or toxicants (
+Albrecht and Bargmann, 2011
+;
+Leung
+et al.
+, 2008
+;
+Zuryn
+et al.
+, 2008
+). Advantages include a fully sequenced genome, genetic tractability, extensive knowledge of its development and anatomy, and ease of culture (
+Brenner, 1974
+). Behavioral analyses of
+C. elegans
+can be employed to assess fast-acting toxicants or pharmacological treatments that cause uncoordinated movement or paralysis. The combination of genetics and in-depth analyses of toxicant effects provides important insights to the mechanisms by which toxicants or pollutants impair animal function.
+There are technical challenges to assaying the effects of fast-acting aqueous toxicants. In the laboratory,
+C. elegans
+are usually cultured on agarose plates with bacterial food. If placed in a liquid droplet, the animals thrash and are difficult to image. Microfluidic devices resolve this by maintaining the animals in a single plane of focus, but animals often seek to escape chambers containing poisonous substances. To overcome these obstacles, we designed a chamber that allows mechanical insertion of individuals. We also engineered a custom port design that permits worm entry but prevents exit. Additional design modifications enable real-time imaging and chemical testing with applications for mutants that behave unpredictably in the presence of electric fields, agarose gel, or toxicants.
+Among the toxicants in our environment, cyanide is an especially potent poison (
+Beasley and Glass, 1998
+;
+Budde and Roth, 2011
+;
+Gallagher and Manoil, 2001
+). It is produced as a by-product of many industrial processes, chemical reactions, and even fires (
+Hamel, 2011
+). Cyanide exerts its toxic effects by irreversibly binding to iron, thereby incapacitating proteins required for aerobic respiration. This prevents normal oxygen utilization and decreases ATP production ultimately causing cellular asphyxiation and death (
+Beasley and Glass, 1998
+). Several bacteria, including the nearly ubiquitous human pathogen
+Pseudomonas aeruginosa
+, produce cyanide (
+Blumer and Haas, 2000
+), and this is especially devastating to patients with compromised respiratory or immune systems.
+Caenorhabditis elegans
+lacking a functional
+egl-9
+gene have been shown to be resistant to hydrogen cyanide (HCN) gas produced by the pathogen
+P. aeruginosa
+PAO1 (
+Darby
+et al.
+, 1999
+;
+Gallagher and Manoil, 2001
+;
+Shao
+et al.
+, 2010
+). This is especially intriguing because the EGL-9 protein functions as a cellular oxygen sensor. EGL-9 hydroxylates the HIF-1 hypoxia-inducible factor using oxygen as a cosubstrate, and this modification targets HIF-1 for degradation (
+Epstein
+et al.
+, 2001
+). The HIF-1 transcription factor controls changes in gene expression that allow animals to adapt to oxygen deprivation (
+Jiang
+et al.
+, 2001
+;
+Shen
+et al.
+, 2005
+). Loss-of-function mutations in the
+C. elegans egl-9
+gene cause HIF-1 to be expressed at high levels and to be overactive (
+Bishop
+et al.
+, 2004
+;
+Epstein
+et al.
+, 2001
+;
+Shen
+et al.
+, 2006
+). This, in turn, affects
+C. elegans
+development, stress response, longevity, and behavior (
+Powell-Coffman, 2010
+). How does a loss-of-function mutation in
+egl-9
+and the accompanying overactivation of HIF-1 protect
+C. elegans
+from cyanide toxicity? To address this question, we examined the roles of
+egl-9
+,
+hif-1
+, and the
+cysl-2
+cysteine synthase gene in cyanide resistance, employing both HCN gas assays and real-time imaging in a custom microfluidic device to describe multiple parameters of these behavioral phenotypes. These experiments confirmed that mutations that confer resistance to the paralyzing effects of HCN gas also protect
+C. elegans
+from potassium cyanide (KCN) in the microfluidic chambers, and they illuminate the mechanisms that protect
+egl-9
+mutant worms from cyanide toxicity. Finally, we further explored and verified the broader applicability of our microfluidic device, using the anthelminthic drug levamisole. The combination of microfluidics and automated imaging increases the power of
+C. elegans
+as a genetic model system to study the effects of toxicants or chemical interventions in real time.
+MATERIALS AND METHODS
+Caenorhabditis elegans Strains and Culture
+Caenorhabditis elegans
+strains were grown at 20°C, on standard Nutrient Growth Media (NGM) agarose plates with
+Escherichia coli
+OP50 bacterial food, as previously described (
+Brenner, 1974
+). All experiments were performed at 20°C–22°C using L4 stage worms. The following strains were used in this study: N2 wild type, JT307 [
+egl-9(sa307)
+], ZG448
+iaIs07[Pnhr-57::gfp unc-119 (+)] IV; egl-9(ia60) V
+, ZG493
+iaIs07[Pnhr-57::gfp unc-119 (+)] IV; egl-9(sa330)
+V, ZG347
+iaIs07[Pnhr-57::gfp unc-119 (+)] IV; egl-9 (sa307) hif-1(ia04) V,
+ZG175
+iaIs07[Pnhr-57::gfp unc-119 (+)] IV; hif-1(ia04) V
+. The
+egl-9(sa307)
+allele is a 243-bp deletion and is a strong loss-of-function mutation. The
+ia60
+mutation is a MOS1 transposon insertion in the
+egl-9
+gene, whereas the
+sa330
+allele is a C-to-T mutation that creates a nonsense codon at amino acid 38 (
+Darby
+et al.
+, 1999
+;
+Shao
+et al.
+, 2009
+). The
+hif-1(ia04)
+mutation is a 1231-bp deletion of the second, third, and fourth exons, which causes a frameshift and premature stop in the mutant mRNA (
+Jiang
+et al.
+, 2001
+).
+HCN Gas Exposure Assay
+Assay setup.
+As shown in
+Figure 2a
+, L4 stage worms were placed on 3.5-cm NGM agarose plates in the absence of bacterial food. This plate and a separate inverted 3.5-cm lid were positioned in a larger 10-cm petri dish. The lid contained drops of 0.18M hydrochloric acid (100 µl) and a solution of KCN (0.1M) in 0.18M sodium hydroxide (250 µl). Concentrations of the chemicals used were based on previous work (
+Darby
+et al.
+, 1999
+). The larger dish was then sealed with Parafilm “M” and tipped to mix the two liquids, thus generating HCN gas in the enclosed setup. For each 30-min interval in the assay, a single plate of L4 stage worms was set inside its own individual chamber. After the initial 0-min time point, five such chambers were set up in a chemical fume hood for the rest of the time points for the 2.5-h assay. For observing recovery after HCN gas exposure, the last plate of worms (150min of exposure) was placed in room air (with a lid on top), and the worms were observed every 30min. All observations of the phenotype were done using a Leica MS 5 stereomicroscope in room air. Every experiment included controls and at least three biological replicates were performed for each genotype tested.
+Fig. 2.
+Open in a new tab
+(a) Setup for the HCN gas assay: (i) unseeded NGM plate with L4 stage worms and, in a separate plate, aliquots of (ii) hydrochloric acid and (iii) KCN dissolved in sodium hydroxide. The liquids were mixed to generate HCN gas. The larger petri dish (iv) formed the chamber and was sealed with Parafilm to prevent any gas leakage. Scale bar = 20mm. (b) The microfluidic device (v) was observed under a stereomicroscope connected with a camera and computer. (c) Image of the actual PDMS microfluidic device bonded on a glass slide. Scale bar = 10mm. (d) Magnified image of three microfluidic chambers (vii) in which the worms were assayed; each chamber having its individual port (vi) through which the worms and chemical solutions are introduced. Scale bar = 1.5mm.
+Scoring worm phenotypes.
+At each time point, animals were scored as being motile, nonmotile, or having limited motility (
+Fig. 1a
+). The line denotes the track of the worm body centroid over a period of 22 s. “Motile” worms (
+Fig. 1a.i
+) foraged actively on the plates on their own accord, without any need for tapping or prodding with a pick. Worms that showed slight movements of their head and body were scored as having “limited motility” (
+Fig. 1a.ii
+). Worms were scored as “nonmotile” (
+Fig. 1a.iii
+) if they lay immobile on the plates and did not move despite tapping the plate and prodding with a pick.
+Fig. 1.
+Open in a new tab
+Caenorhabditis elegans
+susceptibility to HCN gas. (a) Worms were scored as being motile, having limited motility or being nonmotile at 30-min time points for a total of 150min of HCN exposure, followed by 2h recovery in room air (number of animals = 60 and number of independent trials = 3). In these photos, the line traces the movement of a representative animal over 22 s. (b) Wild-type N2 animals were rapidly immobilized by HCN gas and did not recover over the span of the assay. (c)
+egl-9(sa307)
+mutant animals remained motile in the presence of HCN gas. (d) The
+egl-9(sa307) hif-1(ia04)
+double mutants showed a decrease in motility similar to wild type and did not recover. HCN slowed
+egl-9(ia60)
+(e) and
+egl-9(sa330)
+(f) mutants, but the animals were able to recover motility to a large extent after 2h in room air.
+RNA Interference Assays
+RNAi experiments were performed as previously described (
+Kamath
+et al.
+, 2000
+). L4 stage worms were fed either HT115 bacteria with empty vector L4440 (negative control), HT115 bacteria with the vector expressing
+egl-9
+(positive control fed to wild-type worms), or HT115 bacteria with the vector expressing
+cysl-2
+(
+Shen
+et al.
+, 2006
+). Animals were fed the RNAi food for two generations before conducting the experiments.
+Quantitative Real-Time PCR
+TRIzol (Invitrogen) was used to isolate RNA from synchronized populations of L4 stage worms. The total extracted RNA from each sample was treated with DNase (Promega) and then reverse transcribed into complimentary DNA (cDNA) using Oligo (dT18) primers and AffinityScript reverse transcriptase (Stratagene). Quantitative RT-PCR was performed using SYBR GREEN supermix (Bio-Rad) and each reaction used cDNA from 100ng of total RNA. The primers for K10H10.2 and
+inf-1
+have been previously published (
+Shen
+et al.
+, 2005
+,
+2006
+). Three biological replicates were analyzed for each experiment. Additionally, each PCR reaction was performed in duplicate. The standard curve method was used to analyze the expression levels (
+Larionov
+et al.
+, 2005
+).
+Microfluidic Assay With Cyanide in Aqueous Solution
+The setup of the microfluidic assay is illustrated in
+Figure 2b
+and it includes a microfluidic chip housing the worms being tested, a stereozoom microscope, and a computer-controlled camera.
+Fabrication of microfluidic chip.
+The microfluidic chips were fabricated using a standard soft-lithography process (
+Carr
+et al.
+, 2011a
+,
+b
+;
+Parashar
+et al.
+, 2011
+). The device design was drawn in AutoCAD and sent out to an outside vendor (Fineline Imaging) for printing the black-and-white masks. After obtaining the masks from the vendor, a UV-sensitive polymer, SU-8, was spin coated on a 3-in. silicon wafer to create an 80-µm thick layer. The SU-8 was patterned with the features on the physical mask and developed. Then polydimethylsiloxane (PDMS) polymer was poured on the SU-8 master and allowed to dry in a low-pressure chamber. The dried PDMS was peeled off the SU-8 master, punched with holes for the fluidic ports, and irreversibly bonded to a standard glass slide (
+Fig. 2c
+).
+System setup and real-time imaging.
+The microfluidic chip was mechanically secured to the microscope stage using a plastic tape. For the control experiments, Tygon microbore tubing (inner diameter = 0.51mm, outer diameter = 1.52mm) was connected to a syringe and each chamber was filled with a suspension of M9 buffer and
+E. coli
+OP50 bacteria through the input port (
+Fig. 2d
+). The final concentration of
+E. coli
+suspension was maintained at 0.2 OD (optical density). For the cyanide experiments, we used 0.5mM KCN in M9 buffer along with bacterial suspension. For levamisole experiments, we used the drug solutions prepared in M9 buffer at concentrations of 0, 0.1, 1, 10, and 100µM. Single L4 stage worms were picked using a sterile platinum wire pick and dropped into the input port. A small amount of pressure was applied at the input port to push a single worm into each chamber. Once all three chambers were occupied by three individual worms, images were recorded for a period of 1000 s at the rate of one image per second. The saved videos were analyzed for extraction of the multiple locomotion parameters. To facilitate real-time imaging of worm movement, we used a Leica MZ16 transmission stereozoom microscope that has a wide field of view (to record multiple chambers) and 35-mm working distance (for fluidic handling). The microscope has 1× and 2× objective lenses that enabled 7.1× to 230× range of magnification, which was adequate for the experiments. The microscope was coupled with a QICam 12-bit Mono Fast 1394 cooled digital camera interfacing with QCapture PRO software. This allowed us to capture digital images (1392×1040 pixels) at a specified time interval (typically 1 s). The images from a recorded experiment were appended in sequence and compressed into the Audio Video Interleave (.avi) video format.
+Data acquisition and analysis.
+The saved video files were postprocessed by our custom worm tracking program (
+Carr
+et al.
+, 2011b
+;
+Parashar
+et al.
+, 2011
+) that identified moving objects and tracked their location over a period of time. The source code was written in the C++ programming language. The program analyzed a series of images (typically 1000) to identify the body centroid of an individual worm and record the centroid’s changing coordinates over the length of the video. The program was able to track the body centroid for worms moving forward, backward, or having paused for a period of time. The output of the tracking program was a Microsoft Excel workbook with series of x- and y- position coordinates of the body centroid. A custom Graphic User Interface (GUI) program, written in MATLAB, further allowed the user to calculate and plot the locomotion parameters from multiple data files. GraphPad Prism (GraphPad), JMP, and SAS software were used for statistical analyses of the generated data (
+Sall
+et al.
+, 2005
+;
+SAS Institute, 2011
+).
+Results
+Overactivation of HIF-1 Confers Resistance to HCN Gas
+Prior studies have shown that
+egl-9
+-deficient worms could survive concentrations of HCN gas that killed wild-type worms (
+Gallagher and Manoil, 2001
+). In the experiments shown in
+Figure 1
+, we monitored the effects of HCN gas on worm motility at 30-min time points for a total of 150min and then examined the abilities of the animals to recover from this. As shown in
+Figure 1b
+, wild-type animals were rapidly immobilized in the presence of HCN gas. In contrast, the
+egl-9
+-deficient animals (
+Fig. 1c
+) were motile even after 2.5h and foraged actively on the plates despite exposure to the toxicant. We hypothesized that the HCN resistance exhibited by
+egl-9
+-deficient mutants was due, in whole or in part, to overactivation of HIF-1. To test this, we compared the responses to HCN of
+egl-9
+mutants with those animals that carried loss-of-function mutations in both
+egl-9
+and
+hif-1
+. The double mutants were rapidly immobilized in the presence of cyanide gas (
+Fig. 1d
+), and this phenotype was very similar to that of
+hif-1
+single mutant animals (
+Supplementary fig. S1
+). These results confirmed that the resistance to HCN gas conferred by a loss-of-function mutation in
+egl-9
+was dependent on
+hif-1
+function.
+Partial Loss-of-Function Mutations in egl-9 Confer Intermediate Resistance Phenotypes
+Prior genetic studies had isolated and characterized several different mutations in
+egl-9
+. Severe loss-of-function mutations, such as
+egl-9(sa307)
+, had been shown to cause egg-laying defects and dramatic overexpression of numerous HIF-1 targets (
+Darby
+et al.
+, 1999
+;
+Shao
+et al.
+, 2009
+;
+Shen
+et al.
+, 2006
+;
+Trent
+et al.
+, 1983
+). With respect to these phenotypes, the defects conferred by the
+egl-9(sa330)
+and
+egl-9(ia60)
+mutations have been shown to be less severe (
+Darby
+et al.
+, 1999
+;
+Shao
+et al.
+, 2009
+). We tested the hypothesis that animals carrying the
+egl-9(sa330)
+or
+egl-9(ia60)
+mutations would have less resistance to HCN gas compared with
+egl-9(sa307)
+. As seen in
+Figures 1e
+and
+1f
+, these less severe mutations resulted in an intermediate resistance phenotype. By 2.5h of exposure to the cyanide gas, these mutants were unable to actively forage on the plates. When left to recover from HCN gas exposure, they soon regained their motility.
+While observing the phenotypes, we found that there was a subtle difference in the extent and nature of limited motility of the
+egl-9(ia60)
+and the
+egl-9(sa330)
+alleles but were unable to quantify it readily by manual scoring. These phenotypes demonstrated the need to diagnose behavioral responses to toxicants with higher spatiotemporal resolution. Additionally, we sought to develop technologies that would support the analysis of water-soluble toxicants, including KCN. Accordingly, we designed microfluidic devices coupled to real-time imaging and data analysis platforms. The HCN gas assays in
+Figure 1
+provided a valuable benchmark, as we developed novel and reliable cyanide toxicity assays in microfluidic systems.
+Design of the Microfluidic Device
+We proceeded to design a microfluidic chip suitable for assaying small, fast-acting toxicants. Unfortunately, existing devices were not optimal for KCN toxicity studies, so the design of a novel chip proved crucial to our experiments. In prior studies, we had fabricated microfluidic devices to measure the dose-dependent effects of levamisole (an anthelminthic drug) on the movement of
+C. elegans
+in real time and at high resolution (
+Carr
+et al.
+, 2011b
+). Even though these devices were later tested with other anthelmintic drugs, they could not be adopted for cyanide assays because of three main obstacles. First, they relied upon an electric field to guide the worms (i.e., electrotaxis), and an electric field would dissociate KCN molecules. In addition, some mutants of interest were not as sensitive to the applied electric fields as the wild-type
+C. elegans
+. Initial tests indicated that electrotaxis of
+egl-9
+mutants required electric fields at higher voltage ranges (10–12V) that incapacitate wild-type worms. Second, it was difficult to contain the free-moving worms within the previously constructed microfluidic chamber in the presence of cyanide. We observed that worms responded quickly to KCN solution by trying to escape the chamber, and they explored potential points of exit. In many cases, within a few minutes of cyanide application, worms were found swimming on the liquid surface in the exit ports. Third, agarose was not a suitable medium for observing worm movement, particularly for
+egl-9
+mutants. These mutants frequently paused in agarose-filled microfluidic chambers, sometimes for as long as 20min of observation. We also developed and tested alternate devices with soil-like pillar structures (
+Lockery
+et al.
+, 2008
+), but the
+egl-9
+mutants paused in between the pillars.
+The custom chip that we designed for this study overcomes these obstacles. It enables the worms to move freely in aqueous solutions but does not allow them to escape. The chip was designed to have nine chambers, wherein three chambers were used simultaneously during an experimental run (
+Figs. 2c
+and
+2d
+). The dimensions of the chambers (length = 3.5mm, width = 1.8mm, and height = 80 µm) were chosen to fit the field of view of the microscope under a suitable magnification with sufficient volume to allow for free
+C. elegans
+swimming while also maintaining the animals in a single plane of focus. Each chamber, in turn, had a one-way input port with a tapered neck (width = 25 µm and height = 80 µm) for sample injection (
+Fig. 2d
+). This design allowed us to simply push the worms into the chamber from one side but prevented them from escaping back through the port.
+Presence of Food as an Essential Factor for Consistent Worm Movement
+In experiments designed to optimize the conditions for behavioral analyses in microfluidic devices, we determined that bacterial food promoted consistent movement. In the absence of food, the
+egl-9
+mutants had a tendency to rest for long periods of time, resulting in a great variability in centroid velocity (
+Supplementary fig. S2
+). This resting behavior was also displayed in other environments that lacked food, including agarose plates or microfluidic chambers filled with agarose gel or PDMS support pillars (data not shown). However, when a suspension of buffer and food was used, the worms moved more consistently (compare
+Supplementary fig. S2
+and
+Figs. 3b
+and
+3c
+). This shows that food can be an important variable in microfluidic behavioral studies. In the experiments described herein, we ensured that the animals had ample food.
+Fig. 3.
+Open in a new tab
+Effects of cyanide on worm velocity in the microfluidic assay. (a) In this diagram, the red-dotted line denotes the representative path of the body centroid. The velocity was calculated using the worm’s centroid positions [(
+x
+1
+,
+y
+1
+) and (
+x
+2
+,
+y
+2
+)] at their two successive time instances (
+t
+1
+and
+t
+2
+). (b–f) Average velocity of body centroid in control (blue) and 0.5mM liquid cyanide (red) conditions. In all the plots, the centroid velocity was calculated by taking the average of all instantaneous velocities of all animals (number of animals = 15 and number of independent trials = 7).
+Multiparameter Behavioral Analysis in Aqueous Cyanide Solution
+To more completely and accurately define the effects of KCN on wild-type and mutant animals, we used real-time imaging of
+C. elegans
+in microfluidic chambers to address the following questions: Are the effects of KCN immediate, or do
+C. elegans
+slow down over time? What is the range of velocities exhibited by a population in the presence of the toxicant? Do our data support the hypothesis that mutations that protect
+C. elegans
+from HCN gas also protect the animals from aqueous KCN?
+For experiments examining cyanide response phenotypes in microfluidic devices, individual chambers were filled with chemical solutions described in Materials and Methods section and illustrated in
+Figure 2
+. Single L4 stage worms were then inserted into the microfluidic chambers, and their movement was recorded for 1000 s. The worm tracking program produced a list of body centroid locations for each animal as a function of time, which provided quantitative information on the resistance phenotypes.
+Average velocity of body centroid.
+To assess the effects of cyanide on wild-type and mutant animals, we placed the animals in the microfluidic chamber, tracked movement over time, and calculated the velocity of the body centroid. More precisely, we calculated the ratio of the net distance between two successive points to the net change in time (1 s). An example is shown in
+Figure 3a
+, in which a worm located at centroid position (
+x
+1
+,
+y
+1
+) at time instance
+t
+1
+swam to another centroid position (
+x
+2
+,
+y
+2
+) at time instance
+t
+2
+. The red-dotted line denotes the path of the body centroid, and the centroid velocity
+v
+21
+can be expressed by Equation 1:
+(1)
+The effects of KCN on wild-type worms were evident from time 0. In
+Figures 3b
+–
+f
+, the plots provide information on the magnitude of overall average centroid velocity for particular populations at every second. The blue lines represent the control conditions, whereas the red lines show average centroid velocities in the presence of 0.5mM KCN. Notably, the average centroid velocity of wild-type worms did not change markedly over the 1000 s of recording (
+Fig. 3b
+). In contrast to the wild-type animals, the
+egl-9(sa307)
+mutants showed similar average centroid velocities both in control conditions (122±19 µm/s) and in cyanide solution (127±21 µm/s). Interestingly, in the first few seconds of the assay, the
+egl-9(sa307)
+animals moved faster in the presence of KCN compared with controls. As predicted, the KCN resistance phenotype exhibited by
+egl-9(sa307)
+mutants was suppressed by a loss-of-function mutation in
+hif-1
+(compare
+Figs. 3c
+and
+3d
+). We also assayed two weaker alleles of
+egl-9
+. As shown in
+Figure 3e
+, the
+egl-9(ia60)
+mutants were slowed by KCN, but not to the degree that wild-type worms were. The KCN had relatively little effect on the centroid velocity of
+egl-9(sa330)
+animals (
+Fig. 3f
+).
+Total distance covered by the body centroid.
+To understand the summative consequences of changes in movement over time, we calculated the total distance traveled by each population assayed.
+Figures 4a
+–
+c
+depict the movement of representative individuals in the microfluidic device.
+Figure 4d
+plots the average distance travelled by the worms’ body centroid during 1000 s within the microfluidic chambers. Using two-way ANOVA, we tested the hypothesis that the effect of the toxicant was dependent on the genotype. Under control conditions, the wild-type and
+egl-9(sa307)
+mutants roughly covered the same distance (133±33mm), but wild-type animals traveled significantly less distance in the KCN solution (40±13mm,
+p
+< 0.0001). The
+egl-9(sa307) hif-1(ia04)
+double mutant also showed a significant decrease from 89±42mm in control to 37±7mm in cyanide solution (
+p
+< 0.0002). In control conditions, the
+egl-9(sa330)
+strain covered the maximum distance, relative to other strains tested. The
+egl-9(ia60)
+strain showed a significant decrease in the distance covered upon cyanide exposure (from 145±37mm in control to 90±44mm in cyanide solution,
+p
+< 0.0001).
+Fig. 4.
+Open in a new tab
+Total distance traveled in the microfluidic chambers. (a–c) Examples of tracks of animals differently affected by the toxicant. (a) Tracks representative of wild-type animals that exhibited periods of limited motility and eventually ceased movement. (b) Tracks representative of the
+egl-9(ia60)
+and
+egl-9(sa330)
+animals that exhibited periods of limited motility in the presence of the toxicant but did not become immotile. (c) Tracks representative of
+egl-9(sa307)
+animals that continued to swim around the chamber throughout the experiment. (d) The average distance travelled by the worms within 1000 s of recording is shown (number of animals = 15 and number of independent trials = 7). *
+p
+< 0.0002, two-way ANOVA.
+Do the cyanide-induced decreases in distance traveled reflect a slow-moving worm with uniform velocity or a relatively fast-moving worm that pauses intermittently? Is the answer the same for all individuals in a population? To address these questions, we examined the movement patterns of individual animals (
+Fig. 5
+). We also calculated mean velocities for each condition (
+Fig. 6
+), and we quantified the times that worms were immotile (
+Fig. 7
+).
+Fig. 5.
+Open in a new tab
+Behavioral raster plots of the centroid velocities. In our color scheme, white color denotes a maximum velocity of 500 µm/s and black color denotes a minimum velocity of 0 µm/s. Within every raster plot, each individual row corresponds to a distinct animal that is tracked for 1000 s and the color intensity of each pixel corresponds to the animal’s instantaneous velocity (number of animals = 15 and number of independent trials = 7). The wild-type and
+egl-9(sa307) hif-1(ia04)
+double mutants show a distinctly slower velocity in cyanide solution (as shown by a darker raster) compared with that in control conditions. The
+egl-9(sa307)
+mutants had similar velocities in both control and experimental conditions (as shown by a lighter raster).
+Fig. 6.
+Open in a new tab
+Range and distribution of the average centroid velocities. Compared with
+egl-9(sa307)
+mutant animals, the other genotypes showed a decrease in their mean velocities when exposed to 0.5mM KCN (number of animals = 15 and number of independent trials = 7).
+Fig. 7.
+Open in a new tab
+Number of pauses in the microfluidic chambers. Pauses were counted as time instances (within the entire 1000 s) when the centroid velocity was less than a threshold velocity of 15 µm/s. (number of animals = 15 and number of independent trials = 7).
+Behavioral raster representation of instantaneous centroid velocity.
+To more fully understand the effects of the toxicant, we examined the range of responses exhibited by individual worms.
+Figure 5
+represents the instantaneous centroid velocities in microfluidic devices as behavioral raster plots. Each row is a collection of pixels, where the color intensity of each pixel reflects the relative instantaneous centroid velocity of an individual worm that is tracked for 1000 s: from light tan indicating high velocity to dark brown indicating no movement. The plots thus provide a very detailed look at the distribution of individual worm velocities.
+egl-9(sa307)
+mutant animals showed a lighter raster in both the control and experimental conditions with almost no pauses. Worms with the weaker allele,
+egl-9(ia60)
+, had a relatively darker raster in the cyanide solution compared with that in control conditions. In some cases, animals paused for long intervals, and this is illustrated by the darkest portions of the raster for individual worms. A few of the wild-type and the
+egl-9(ia60)
+mutants were inactive for long intervals. Interestingly, approximately half of the
+egl-9(sa307) hif-1(ia04)
+double mutants paused for extended periods in control conditions. This behavior was less evident in the presence of KCN, which suppressed movement in all the wild-type and
+hif-1
+-deficient worms assayed. The
+egl-9(sa330)
+animals moved quickly and paused infrequently.
+Range and distribution of average centroid velocity.
+Recognizing the variable responses of individual animals as illustrated in the raster plots, we interrogated these phenotypes further by calculating the distribution of centroid velocities achieved by each genotype in each condition. This is shown in
+Figure 6
+. This range and distribution of velocities is estimated by counting the occurrences of velocity values within intervals of 20 µm/s for all worms tested under control or experimental conditions. In control conditions, the mean velocities for wild-type and
+egl-9(sa307)
+animals were 133±19 and 123±19 µm/s, respectively. In cyanide solution, the mean velocity for
+egl-9(sa307)
+worms showed no significant change (127±21 µm/s,
+p
+> 0.05), whereas the mean velocity for wild-type worms decreased significantly (40±6 µm/s,
+p
+< 0.0001). Compared with wild type, the
+egl-9(sa307) hif-1(ia04)
+worms exhibited a slightly lower mean velocity in control conditions (89±25 µm/s), but they showed a significant decrease in cyanide solution (37±7 µm/s). Consistent with the raster plots for individual worm velocities (
+Fig. 5
+), the
+egl-9(sa330)
+animals moved relatively faster than other worm types in control conditions (182±28 µm/s) with a wider range. In cyanide solution, the mean velocity of the
+egl-9(sa330)
+animals decreased to 155±23 µm/s. The
+egl-9(ia60)
+mutants behaved similar to wild-type animals in control conditions (143±23 µm/s) but did not show a dramatic decrease in mean velocity upon cyanide exposure (90±19 µm/s).
+Pausing behavior.
+To further define this behavior, we identified and quantified the instances in which individual worms slowed to velocities in the 0–15 µm/s range. These data are shown as boxplots in
+Figure 7
+. To our advantage, the worm tracking program was particularly sensitive in detecting miniscule changes in centroid velocity with a resolution of 7.5 µm/s. After recording the videos, the worm velocities extracted from the software were compared manually. We noticed that a centroid velocity of 15 µm/s corresponded to worms that exhibited only small changes in body posture and were otherwise immotile. Hence, we chose 15 µm/s as the threshold velocity below which animals were recorded as having stopped. Cyanide caused an increased number of stops, relative to control conditions, for the wild-type animals (26 in control and 155 in cyanide) and
+egl-9(sa307) hif-1(ia04)
+double mutants (66 in control and 197 in cyanide). By comparison, we found that the cyanide treatment did not cause the
+egl-9
+single mutants to stop as frequently. In some cases, these analyses reveal differences that were not evident from cursory examination of the raster plots. For example, although the mean velocities of
+egl-9(sa307)
+mutants and wild-type animals are very similar in control conditions (
+Fig. 6
+), the
+egl-9(sa307)
+mutants paused more frequently than did wild-type animals in control conditions (
+Fig. 7
+).
+Deciphering the Role of cysl-2 in Cyanide Resistance
+We next investigated the role of the cysteine synthase-like gene
+cysl-2
+in
+egl-9
+-mediated resistance to aqueous KCN. Overexpression of HIF-1 in
+egl-9
+mutants has been shown to cause a marked increase in the expression of
+cysl-2/K10H10.2
+mRNA (
+Budde and Roth, 2011
+;
+Shao
+et al.
+, 2009
+;
+Shen
+et al.
+, 2005
+,
+2006
+). Further, during the course of our studies,
+Budde and Roth (2011)
+had demonstrated that RNAi-mediated depletion of
+cysl-2
+caused
+egl-9
+-deficient animals to become more susceptible to HCN gas. We proposed two testable hypotheses. First, we predicted that RNAi-mediated depletion of
+cysl-2
+would diminish the resistance of
+egl-9
+-deficient mutants to KCN in aqueous solution. Second, we hypothesized that there would be a correlation between the levels of
+cysl-2
+mRNA and the cyanide resistance phenotypes in
+egl-9
+mutant animals.
+In control experiments, we tested the hypothesis that reducing
+cysl-2
+expression would largely suppress resistance to HCN gas in
+egl-9(sa307)
+animals; we depleted
+cysl-2
+mRNA by feeding them bacterial food that carried double-stranded
+cysl-2
+RNA (
+cysl-2
+RNAi). The efficacy of the RNAi protocol was validated in parallel experiments (
+Supplementary fig. S3a
+). The
+egl-9(sa307)
+mutants treated with
+cysl-2
+RNAi (
+Fig. 8a.ii
+) slowed down in the presence of HCN gas. By comparison, the
+egl-9(sa307)
+mutants fed control RNAi bacteria were resistant to the toxicant (
+Fig. 8a.i
+).
+Fig. 8.
+Open in a new tab
+Effects of
+cysl-2
+depletion on cyanide resistance. (a) In the presence of HCN gas,
+egl-9(sa307)
+worms treated with control RNAi (i) remain motile, but
+cysl-2
+(RNAi) (ii) suppresses this resistance phenotype (number of animals = 60 and number of independent trials = 3). (b) Average distance travelled in the microfluidic chambers. *
+p
+< 0.0001, two-way ANOVA. (c) Range and distribution of the average centroid velocities show a decrease in mean velocity for
+cysl-2
+RNAi-treated
+egl-9(sa307)
+in 0.5mM KCN compared with control conditions (number of animals = 15 and number of independent trials = 7).
+To examine the role of
+cysl-2
+in KCN toxicity, we performed experiments in the microfluidic device pictured in
+Figure 2c
+. We found that depletion of
+cysl-2
+by RNAi increased the sensitivity of
+egl-9(sa307)
+mutant animals to the toxicant. This was evidenced by a significant decrease in average distance traveled (
+p
+< 0.0001, two-way ANOVA;
+Fig. 8b
+) and reduced average centroid velocity (
+Supplementary fig. S3b
+). The
+cysl-2
+RNAi did not have marked effects on the mean velocity of the
+egl-9(sa307)
+animals in control conditions, but toxicant exposure caused a decrease in mean velocity (
+Fig. 8c
+). The raster plots illustrate that these phenotypes were relatively consistent:
+cysl-2
+RNAi caused
+egl-9(sa307)
+animals to slow appreciably in the presence of KCN (
+Supplementary fig. S3c
+).
+To test the hypothesis that there would be a correlation between the levels of
+cysl-2
+mRNA and the cyanide resistance phenotypes in
+egl-9
+mutant animals, we performed quantitative real-time PCR and assessed the levels of
+cysl-2
+expression in
+egl-9(sa307)
+,
+egl-9(sa330)
+, and
+egl-9(ia60)
+mutant animals (three biological replicates for each). We found that the expression level of
+cysl-2
+mRNA was 11-fold higher in
+egl-9(sa307)
+strong loss-of-function mutants compared with the
+egl-9(ia60)
+and
+egl-9(sa330)
+mutants (
+Supplementary table 1
+). Together, these data are consistent with the hypothesis that the strong cyanide resistance phenotype in
+egl-9(sa307)
+mutant animals is due to higher levels of
+cysl-2
+expression compared with the
+egl-9(sa330)
+and
+egl-9(ia60)
+mutants, which show comparatively reduced resistance.
+Robustness of the Assay and Device Testing for Broader Applications
+We investigated whether these assays could be adapted for increased throughput, as this might also broaden its applicability. Higher throughput might be accomplished most readily by increasing the number of animals in each chamber or by shortening the time of assay.
+We determined that inserting multiple worms (up to three) inside individual microfluidic chambers did not markedly change the cyanide resistance phenotype (
+Fig. 9
+). We measured the average centroid velocities of wild-type and
+egl-9(sa307)
+worms in control and experimental conditions. Tests were conducted by using one, two, or three worms within individual microfluidic chambers. In each set of experiments, KCN caused a significant decrease in the velocity of wild-type worms in each case (
+Fig. 9
+,
+p
+< 0.0001). This indicates that the microfluidic assay is not limited to testing a single worm per chamber but can be scaled-up for multiple worms (up to three) per chamber without losing resolution. Furthermore, we noticed that the duration of the microfluidic experiment could be shortened without losing crucial information. In other words, even though our microfluidic experiments were recorded for 1000 s, the required behavioral information could be obtained from experiments recorded for the first 300 s. As an example, the percentage reduction in average centroid velocity for worms in cyanide solution was roughly maintained throughout the experimental duration of 1000 s (
+Fig. 3b
+). Our calculations show that, for wild-type worms, the percentage reduction in average centroid velocity caused by cyanide exposure was approximately 30%, whether it was measured over 300, 600, or 900 s. This threefold decrease in experimental time will be particularly useful in further improving the efficiency of the microfluidic assay.
+Fig. 9.
+Open in a new tab
+Scaling-up the microfluidic technique with multiple worms in individual chambers. (a–c) Snapshots of the microfluidic chamber housing one, two, or three worms (number of animals = 12 and number of independent trials = 3). (d) Average centroid velocities of single or multiple wild-type worms in a microfluidic chamber are plotted under control conditions and 0.5mM KCN. In each of the three cases (with one, two, or three worms), there was a significant reduction in the centroid velocity upon exposure to cyanide solution (*
+p
+< 0.0001). (e) Average centroid velocities of single or multiple
+egl-9(sa307)
+worms. The number of worms in the chamber had no significant difference on the average velocity measured in each condition (
+p
+> 0.05).
+We designed the microfluidic chamber with the idea that it could be applicable to other water-soluble toxicants that cause acute changes in mobility, potentially inducing genotoxins, heavy metals, environmental toxicants, pharmacological products, and xenobiotics. To test this principle, we used the assay, coupled with real-time imaging, to analyze the effects of the anthelminthic drug levamisole on wild-type worm motility. As seen in
+Figure 10
+, the total distance covered by the worms steadily decreased with an increase in the concentration of the drug.
+Fig. 10.
+Open in a new tab
+Applicability of the microfluidic device. The distance covered by wild-type worms decreased as the concentration of the anthelminthic drug levamisole increased from 0µM (control) to 100µM (number of animals = 12 and number of independent trials = 3).
+DISCUSSION
+Overactivation of HIF-1, via loss-of-function mutations in
+egl-9
+, has been shown to impact
+C. elegans
+longevity and stress resistance (
+Powell-Coffman, 2010
+). We were particularly interested in investigating how a loss-of-function mutation in
+egl-9
+and the accompanying overactivation of HIF-1 could protect
+C. elegans
+from cyanide toxicity. In this article, we have presented a novel microfluidics-based approach to study the responses of
+C. elegans
+to this toxicant. Through the HCN gas exposure assays, we confirmed that the resistance of
+egl-9(sa307)
+strong loss-of-function worms was dependent on
+hif-1
+function, and we investigated the HCN resistance phenotypes of other mutant alleles of
+egl-9
+. Compared with the
+egl-9(sa307)
+mutation, the
+ia60
+and
+sa330
+alleles cause less severe egg-laying defects (
+Darby
+et al.
+, 1999
+;
+Shao
+et al.
+, 2009
+). Here, we report a correlation between
+cysl-2
+mRNA expression and cyanide resistance phenotypes in these
+egl-9
+mutants. Detailed analyses of intermediate phenotypes such as those exhibited by the
+egl-9(ia60)
+and
+egl-9(sa330)
+strains can be very informative to understanding the genetic bases of cyanide response and resistance.
+Real-time imaging technologies enrich phenotypic analyses by providing quantitative data on worm behavior and velocity for every second of analysis. Microfluidics offered the opportunity to quantitate the responses to aqueous toxicants with superior spatiotemporal resolution, in a single and continuous plane of focus, at the individual worm level and in a much shorter period of time. We established that the genotypes that were resistant to HCN gas were also resistant to aqueous KCN in the microfluidic device. We investigated multiple parameters, including the average velocity of the body centroid, total distance covered by the worms, behavioral raster representation of individual animals, range and distribution of mean velocities, and pausing behavior and stops. Collectively, these data provide a rich and detailed analysis of the cyanide resistance phenotypes and of the roles of
+egl-9
+,
+hif-1
+, and
+cysl-2
+.
+Higher Spatiotemporal Resolution in Microfluidic Assay
+Prior studies have demonstrated the efficacy of microfluidic devices for
+C. elegans
+analyses, such as force sensor arrays (
+Doll
+et al.
+, 2009
+), mazes (
+Pandey
+et al.
+, 2011
+;
+Qin and Wheeler, 2007
+), microtraps (
+Hulme, 2007
+;
+Lockery, 2007
+), fluorescent sorters (
+Chronis
+et al.
+, 2007
+;
+Chung
+et al.
+, 2008
+), electrotaxis sorters (
+Manière
+et al.
+, 2011
+;
+Rezai
+et al.
+, 2012
+), and olfactory assays (
+Chronis
+et al.
+, 2007
+), and recent review articles summarize the key developments in microfluidic worm chips (
+Buckingham and Sattelle, 2008
+;
+Chronis
+et al.
+, 2007
+;
+Crane
+et al.
+, 2010
+;
+Dittrich and Manz, 2006
+). The combination of microfluidics and automated imaging increases the power of
+C. elegans
+as a genetic model system to study the effects of toxicants or chemical interventions in real time. A major contribution of our work is the development of a liquid-based microfluidic assay coupled to imaging technologies to quantify the toxicant response phenotypes of
+C. elegans
+. The discrete scoring of worm motility was further quantified by specific movement parameters generated by our computer program after real-time imaging (summarized in
+Supplementary fig. S4
+).
+The need for a real-time analysis system with increased resolution is particularly acute when analyzing subtle phenotypic differences among genotypes of interest. Mutants with strong cyanide resistance phenotypes [such as
+egl-9(sa307)
+] show markedly distinct movement patterns under cyanide exposure compared with the wild-type worms. This behavior is easy to detect and score manually in gas-based assays (
+Fig. 2
+). However, differences between mutants with weaker cyanide resistance [such as
+egl-9(ia60)
+] are difficult to score manually, especially when they have a range of decreased velocities or pause for extended times. The microfluidic assay provided much higher spatiotemporal resolution, as we were able to record the x and y coordinates (
+Fig. 3
+) of each individual worm at every second of the assay time span. The average velocity of the worm populations (
+Fig. 3
+) showed that the effects of KCN were quick, and the drop in velocity was then consistent for the time span we tested. The total distance covered by the worms (
+Fig. 4
+) gave an overview of the cumulative effects of the toxicant on worm movement. Interestingly, the behavioral raster representation of individual worms showed some surprising insights into worm behavior during exposure to the toxicant. The real-time imaging and worm tracking program allow us to detect velocities as low as 7.5 µm/s and number of pauses as small as 20–50, which cannot be recorded via a manual scoring technique.
+Using these technologies, we discovered important features of specific strains and their responses to cyanide. Of particular interest: (1) the
+egl-9(sa307) hif-1(ia04)
+double mutant strain had lower overall velocity in control conditions compared with the wild-type strains. Our data show that this difference was largely attributable to more frequent pausing (
+Figs. 5
+and
+7
+). (2) In control conditions, the
+egl-9(sa330)
+mutant worms moved a greater distance during the course of the experiment. This was due to both higher mean velocity (
+Fig. 6
+) and less pausing (
+Fig. 7
+). (3) In both the HCN gas assays and the KCN toxicity experiments, the
+egl-9(ia60)
+strain was more affected by the toxicants, relative to the
+el-9(sa330)
+strain. As shown in
+Figs. 5
+and
+7
+, the
+egl-9(sa330)
+mutants did not pause more frequently in response to KCN, and although the mean velocity was lower in KCN (
+Fig. 6
+), the summative effects on total distance were relatively small (
+Fig. 4
+).
+Genetics of Cyanide Resistance in C. elegans
+Overactivation of HIF-1 has been shown to dramatically increase expression levels of the cysteine synthase
+cysl-2
+gene (
+Shao
+et al.
+, 2009
+;
+Shen
+et al.
+, 2006
+). Budde and Roth demonstrated that
+cysl-2
+-deficient animals exhibited increased sensitivity to HCN. Further, they proposed that CYSL-2 catalyzes the first step of a metabolic pathway that detoxifies HCN (
+Budde and Roth, 2011
+). This suggested a model in which loss of
+egl-9
+function increases HIF-1 activity, which in turn increases
+cysl-2
+expression and protects
+C. elegans
+from cyanide. Here, we tested specific predictions made by this model. First, we asked whether depletion of
+cysl-2
+was sufficient to suppress the
+egl-9(sa307)
+cyanide resistance phenotype, assayed in gas chambers or in liquid. As shown in
+Figure 8
+, depletion of
+cysl-2
+by RNA interference dramatically decreased the resistance of
+egl-9(sa307)
+animals to cyanide. The microfluidic technologies coupled to real-time imaging provided quantitative descriptions of these phenotypes. The
+egl-9(sa307)
+animals treated with
+cysl-2
+RNAi exhibited decreased average centroid velocity and distance travelled compared with control RNAi treatments. Additionally, we found that the levels of the
+cysl-2
+cysteine synthase mRNA were much higher in the
+egl-9(sa307)
+mutant animals compared with the
+egl-9(ia60)
+and
+egl-9(sa330)
+mutants (
+Supplementary table 1
+). This correlates well with the variation we observed in the cyanide resistance phenotype in these strains. Although these data clearly show that
+cysl-2
+has a central role in cyanide resistance, we postulate that other HIF-1 targets also contribute to the ability of
+egl-9
+mutants to survive in the presence of this toxicant.
+CONCLUSIONS
+Here, we developed new microfluidic technologies to examine the genetic underpinnings of cyanide resistance. The HCN gas exposure assay validated the microfluidic assay, and both provided insights to the phenotypes and reinforced central conclusions. Prior studies had shown that mutations in
+egl-9
+protected
+C. elegans
+from cyanide. Here, we show that this resistance phenotype is dependent on the HIF-1 transcription factor. Further, the expression of
+cysl-2
+in each mutant correlates with the degree of cyanide resistance. This was further assayed by multiparameter analyses of worm motility, which described these phenotypes in much greater detail. The combination of
+C. elegans
+genetics and the microfluidics-enabled approaches and technologies developed here can be used to address many toxicological and biological questions. HIF-1 in particular has been shown to have roles in the responses to diverse stresses and toxicants (
+Powell-Coffman, 2010
+), and in future studies, we will employ these and related technologies to elucidate the functions of HIF-1 and interacting genes. The combination of real-time imaging, microfluidic technologies, and
+C. elegans
+genetics hold great promise for the study of water-soluble toxicants.
+The authors will provide the fabricated microfluidic chips and the worm tracking software to interested parties. A standard desktop computer with Windows 7 or a higher operating system and a light or stereozoom microscope with an attached camera will be needed for running the experiments. Kindly send such requests by email to pandey@iastate.edu and japc@iastate.edu.
+SUPPLEMENTARY DATA
+Supplementary data are available online at
+http://toxsci.oxfordjournals.org/
+.
+FUNDING
+The National Science Foundation (CMMI-1000808 and CBET-1150867 to S.P.); The National Aeronautics and Space Administration (NNX12AO60G to S.P. and J.A.P.-C.); National Institutes of Health (R01GM078424 to J.A.P.-C.).
+Supplementary Material
+Supplementary Data
+supp_135_1_156__index.html
+(1.7KB, html)
+ACKNOWLEDGMENTS
+The authors are grateful to Kyle Petersen, Justin Mai, and Richard Gibson for help in developing the GUI and worm tracking program, to Korinna Radke for editorial suggestions, and to Daniel Fortin for help with statistical analyses.
+REFERENCES
+Albrecht D. R., Bargmann C. I.
+(2011). 
+High-content behavioral analysis of
+Caenorhabditis elegans
+in precise spatiotemporal chemical environments.
+Nat. Methods
+8,
+599–605
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Beasley D. M. G., Glass W. I.
+(1998). 
+Cyanide poisoning: pathophysiology and treatment recommendations.
+Occup. Med.
+48,
+427–431.10.1093/occmed/48.7.427
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Bishop T., Lau K. W., Epstein A. C. R., Kim S. K., Jiang M., O’Rourke D., Pugh C. W., Gleadle J. M., Taylor M. S., Hodgkin J, et al. 
+(2004). 
+Genetic analysis of pathways regulated by the von Hippel-Lindau tumor suppressor in
+C. elegans
+.
+PLoS Biol.
+2,
+e289.10.1371/journal.pbio.0020289
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Blumer C., Haas D.
+(2000). 
+Mechanism, regulation, and ecological role of bacterial cyanide biosynthesis.
+Arch. Microbiol.
+173,
+170–177.10.1007/s002039900127
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Brenner S.
+(1974). 
+The genetics of
+Caenorhabditis elegans
+.
+Genetics
+77,
+71–94
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Buckingham S. D., Sattelle D. B.
+(2008). 
+Strategies for automated analysis of
+C. elegans
+locomotion.
+Invert. Neurosci.
+8,
+121–131.10.1007/s10158-008-0077-3
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Budde M. W., Roth M. B.
+(2011). 
+The response of
+Caenorhabditis elegans
+to hydrogen sulfide and hydrogen cyanide.
+Genetics
+189,
+521–532
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Carr J. A., Lycke R., Parashar A., Pandey S.
+(2011a). 
+Unidirectional, electrotactic-response valve for
+Caenorhabditis elegans
+in microfluidic devices.
+Appl. Phys. Lett.
+98,
+143701
+[
+Google Scholar
+]
+Carr J. A., Parashar A., Gibson R., Robertson A. P., Martin R. J., Pandey S.
+(2011b). 
+A microfluidic platform for high-sensitivity, real-time drug screening on
+C. elegans
+and parasitic nematodes.
+Lab Chip
+11,
+2385–2396
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Chronis N., Zimmer M., Bargmann C. I.
+(2007). 
+Microfluidics for in vivo imaging of neuronal and behavioral activity in
+Caenorhabditis elegans
+.
+Nat. Methods
+4,
+727–731
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Chung K., Crane M. M., Lu H.
+(2008). 
+Automated on-chip rapid microscopy, phenotyping and sorting of
+C. elegans
+.
+Nat. Methods
+5,
+637–643
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Crane M. M., Chung K., Stirman J., Lu H.
+(2010). 
+Microfluidics-enabled phenotyping, imaging, and screening of multicellular organisms.
+Lab Chip
+10,
+1509–1517.10.1039/b927258e
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Darby C., Cosma C. L., Thomas J. H., Manoil C.
+(1999). 
+Lethal paralysis of
+Caenorhabditis elegans
+by
+Pseudomonas aeruginosa
+.
+Proc. Natl. Acad. Sci. U.S.A.
+96,
+15202–15207
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Dittrich P. S., Manz A.
+(2006). 
+Lab-on-a-chip: microfluidics in drug discovery.
+Nat. Rev. Drug Discov.
+5,
+210–218.10.1038/nrd1985
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Doll J. C., Harjee N., Klejwa N., Kwon R., Coulthard S. M., Petzold B., Goodman M. B., Pruitt B. L.
+(2009). 
+SU-8 force sensing pillar arrays for biological measurements.
+Lab Chip
+9,
+1449–1454.10.1039/b818622g
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Epstein A. C. R., Gleadle J. M., McNeill L. A., Hewitson K. S., O’Rourke J., Mole D. R., Mukherji M., Metzen E., Wilson M. I., Dhanda A, et al. 
+(2001).
+C. elegans
+EGL-9 and mammalian homologs define a family of dioxygenases that regulate HIF by prolyl hydroxylation.
+Cell
+107,
+43–54
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Gallagher L. A., Manoil C.
+(2001).
+Pseudomonas aeruginosa
+PAO1 kills
+Caenorhabditis elegans
+by cyanide poisoning.
+J. Bacteriol.
+183,
+6207–6214.10.1128/jb.183.21.6207-6214.2001
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Hamel J.
+(2011). 
+A review of acute cyanide poisoning with a treatment update.
+Crit. Care Nurse
+31,
+72–82
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Hulme S. E.
+(2007). 
+A microfabricated array of clamps for immobilizing and imaging
+C. elegans
+.
+Lab Chip
+7,
+1515.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Jiang H., Guo R., Powell-Coffman J. A.
+(2001). 
+The
+Caenorhabditis elegans hif-1
+gene encodes a bHLH-PAS protein that is required for adaptation to hypoxia.
+Proc. Natl. Acad. Sci. U.S.A.
+98,
+7916–7921
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kamath R., Martinez-Campos M., Zipperlen P., Fraser A., Ahringer J.
+(2000). 
+Effectiveness of specific RNA-mediated interference through ingested double-stranded RNA in
+Caenorhabditis elegans
+.
+Genome Biol.
+2,
+1–10.10.1186/gb-2000-2-1-research0002
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Larionov A., Krause A., Miller W.
+(2005). 
+A standard curve based method for relative real time PCR data processing.
+BMC Bioinformatics
+6,
+62.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Leung M. C. K., Williams P. L., Benedetto A., Au C., Helmcke K. J., Aschner M., Meyer J. N.
+(2008).
+Caenorhabditis elegans
+: an emerging model in biomedical and environmental toxicology.
+Toxicol. Sci.
+106,
+5–28
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Lockery S.
+(2007). 
+Channeling the worm: microfluidic devices for nematode neurobiology.
+Nat. Methods
+4,
+691–692
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Lockery S. R., Lawton K. J., Doll J. C., Faumont S., Coulthard S. M., Thiele T. R., Chronis N., McCormick K. E., Goodman M. B., Pruitt B. L.
+(2008). 
+Artificial dirt: microfluidic substrates for nematode neurobiology and behavior.
+J. Neurophysiol.
+99,
+3136–3143
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Manière X., Lebois F., Matic I., Ladoux B., Di Meglio J. M., Hersen P.
+(2011). 
+Running worms:
+C. elegans
+self-sorting by electrotaxis.
+PLoS One
+6,
+e16637.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Pandey S., Joseph A., Lycke R., Parashar A.
+(2011). 
+Decision-making by nematodes in complex microfluidic mazes.
+Adv. Biosci. Biotechnol.
+2,
+409–415
+[
+Google Scholar
+]
+Parashar A., Lycke R., Carr J. A., Pandey S.
+(2011). 
+Amplitude-modulated sinusoidal microchannels for observing adaptability in
+C. elegans
+locomotion.
+Biomicrofluidics
+5,
+24112–24119
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Powell-Coffman J. A.
+(2010). 
+Hypoxia signaling and resistance in
+C. elegans
+.
+Trends Endocrinol. Metab.
+21,
+435–440
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Qin J., Wheeler A. R.
+(2007). 
+Maze exploration and learning in
+C. elegans
+.
+Lab Chip
+7,
+186–192
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Rezai P., Salam S., Selvaganapathy P. R., Gupta B. P.
+(2012). 
+Electrical sorting of
+Caenorhabditis elegans
+.
+Lab Chip
+12,
+1831.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Sall J., Creighton L., Lehman A.
+(2005). 
+JMP Start Statistics: A Guide to Statistics and Data Analysis Using JMP and JMP IN Software.
+SAS Institute, Cary, NC:
+[
+Google Scholar
+]
+SAS Institute
+(2011). 
+SAS/Stat 9.3 User’s Guide: The Glimmix Procedure (Chapter).
+Cary, N.C.:, SAS Institute Inc:
+[
+Google Scholar
+]
+Shao Z., Zhang Y., Powell-Coffman J. A.
+(2009). 
+Two distinct roles for EGL-9 in the regulation of HIF-1-mediated gene expression in
+Caenorhabditis elegans
+.
+Genetics
+183,
+821–829
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Shao Z., Zhang Y., Ye Q., Saldanha J. N., Powell-Coffman J. A.
+(2010).
+C. elegans
+SWAN-1 binds to EGL-9 and regulates HIF-1-mediated resistance to the bacterial pathogen
+Pseudomonas aeruginosa
+PAO1.
+PLoS Pathog.
+6,
+e1001075.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Shen C., Nettleton D., Jiang M., Kim S. K., Powell-Coffman J. A.
+(2005). 
+Roles of the HIF-1 hypoxia-inducible factor during hypoxia response in
+Caenorhabditis elegans
+.
+J. Biol. Chem.
+280,
+20580–20588
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Shen C., Shao Z., Powell-Coffman J. A.
+(2006). 
+The
+Caenorhabditis elegans rhy-1
+gene inhibits HIF-1 hypoxia-inducible factor activity in a negative feedback loop that does not include
+vhl-1
+.
+Genetics
+174,
+1205–1214
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Trent C., Tsuing N., Horvitz H. R.
+(1983). 
+Egg-laying defective mutants of the nematode
+Caenorhabditis elegans
+.
+Genetics
+104,
+619–647
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Zuryn S., Kuang J., Ebert P. R.
+(2008). 
+Mitochondrial modulation of phosphine toxicity and resistance in
+Caenorhabditis elegans
+.
+Toxicol. Sci.
+102,
+179–186
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Supplementary Data
+supp_135_1_156__index.html
+(1.7KB, html)
+supp_kft138_toxsci_13_0245_File017.doc
+(24KB, doc)
+supp_kft138_toxsci_13_0245_File014.tif
+(1.6MB, tif)
+supp_kft138_toxsci_13_0245_File015.tif
+(976.2KB, tif)
+supp_kft138_toxsci_13_0245_File012.tif
+(955.6KB, tif)
+supp_kft138_toxsci_13_0245_File013.tif
+(435.7KB, tif)
+supp_kft138_toxsci_13_0245_File016.doc
+(26.5KB, doc)
+Articles from Toxicological Sciences are provided here courtesy of
+Oxford University Press

@@ -1,0 +1,1349 @@
+Bone
+. Author manuscript; available in PMC: 2020 Nov 1.
+Published in final edited form as:
+Bone. 2019 Aug 21;128:115043. doi:
+10.1016/j.bone.2019.115043
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Effects of
+ex vivo
+Ionizing Radiation on Collagen Structure and Whole-Bone Mechanical Properties of Mouse Vertebrae
+Megan M Pendleton
+Megan M Pendleton
+1
+Department of Mechanical Engineering, University of California, Berkeley, California, USA
+Find articles by
+Megan M Pendleton
+1,
+*
+,
+Shannon R Emerzian
+Shannon R Emerzian
+1
+Department of Mechanical Engineering, University of California, Berkeley, California, USA
+Find articles by
+Shannon R Emerzian
+1,
+*
+,
+Jennifer Liu
+Jennifer Liu
+2
+Department of Orthopaedic Surgery, Washington University, St. Louis, Missouri, USA
+Find articles by
+Jennifer Liu
+2
+,
+Simon Y Tang
+Simon Y Tang
+2
+Department of Orthopaedic Surgery, Washington University, St. Louis, Missouri, USA
+3
+Department of Biomedical Engineering, Washington University, St. Louis, Missouri, USA
+4
+Department of Material Science & Mechanical Engineering, Washington University, St. Louis, Missouri, USA
+Find articles by
+Simon Y Tang
+2,
+3,
+4
+,
+Grace D O’Connell
+Grace D O’Connell
+1
+Department of Mechanical Engineering, University of California, Berkeley, California, USA
+5
+Department of Orthopaedic Surgery, University of California, San Francisco, California, USA
+Find articles by
+Grace D O’Connell
+1,
+5
+,
+Joshua S Alwood
+Joshua S Alwood
+6
+Space Biosciences Division, NASA Ames Research Center, Moffett Field, California, USA
+Find articles by
+Joshua S Alwood
+6
+,
+Tony M Keaveny
+Tony M Keaveny
+1
+Department of Mechanical Engineering, University of California, Berkeley, California, USA
+7
+Department of Bioengineering, University of California, Berkeley, California, USA
+Find articles by
+Tony M Keaveny
+1,
+7
+Author information
+Article notes
+Copyright and License information
+1
+Department of Mechanical Engineering, University of California, Berkeley, California, USA
+2
+Department of Orthopaedic Surgery, Washington University, St. Louis, Missouri, USA
+3
+Department of Biomedical Engineering, Washington University, St. Louis, Missouri, USA
+4
+Department of Material Science & Mechanical Engineering, Washington University, St. Louis, Missouri, USA
+5
+Department of Orthopaedic Surgery, University of California, San Francisco, California, USA
+6
+Space Biosciences Division, NASA Ames Research Center, Moffett Field, California, USA
+7
+Department of Bioengineering, University of California, Berkeley, California, USA
+*
+these authors contributed equally to this work
+✉
+Corresponding author: Tony M. Keaveny;
+tonykeaveny@berkeley.edu
+, 5124 Etcheverry Hall, Mailstop 1740, University of California, Berkeley, CA 94720-1740
+Issue date 2019 Nov.
+PMC Copyright notice
+PMCID: PMC6813909  NIHMSID: NIHMS1538854  PMID:
+31445224
+The publisher's version of this article is available at
+Bone
+Abstract
+Bone can become brittle when exposed to ionizing radiation across a wide range of clinically relevant doses that span from radiotherapy (accumulative 50 Gy) to sterilization (~35,000 Gy). While irradiation-induced embrittlement has been attributed to changes in the collagen molecular structure, the relative role of collagen fragmentation versus non-enzymatic collagen crosslinking remains unclear. To better understand the effects of radiation on the bone material without cellular activity, we conducted an
+ex vivo
+x-ray radiation experiment on excised mouse lumbar vertebrae. Spinal tissue from twenty-week old, female, C57BL/6J mice were randomly assigned to a single x-ray radiation dose of either 0 (control), 50, 1,000, 17,000, or 35,000 Gy. Measurements were made for collagen fragmentation, non-enzymatic collagen crosslinking, and both monotonic and cyclic-loading compressive mechanical properties. We found that the group differences for mechanical properties were more consistent with those for collagen fragmentation than for non-enzymatic collagen crosslinking. Monotonic strength at 17,000 and 35,000 Gy was lower than that of the control by 50% and 73% respectively, (
+p
+< 0.001) but at 50 and 1,000 Gy was not different than the control. Consistent with those trends, collagen fragmentation only occurred at 17,000 and 35,000 Gy. By contrast, non-enzymatic collagen crosslinking was greater than control for all radiation doses (
+p
+< 0.001). All results were consistent both for monotonic and cyclic loading conditions. We conclude that the reductions in bone compressive monotonic strength and fatigue life due to
+ex vivo
+ionizing radiation are more likely caused by fragmentation of the collagen backbone than any increases in non-enzymatic collagen crosslinks.
+Keywords:
+ionizing radiation, bone strength, fatigue, collagen, sterilization, bone-graft
+1. Introduction
+For a variety of clinical applications, bones are exposed to a wide range of ionizing radiation doses.
+In vivo
+, radiotherapy treatment results in an accumulated localized dose of ~50 Gy
+1
+in cancer patients [
+1
+–
+3
+].
+Ex vivo
+, bone allografts are sterilized at a dose of 30,000 ± 5,000 Gy [
+4
+,
+5
+]. While these high-dose applications are critical for overall patient health and safety, high levels of ionizing radiation exposure have been shown to increase risk of fracture [
+6
+,
+7
+]. For example, for women with anal, rectal or colon cancer, those treated with radiation therapy were more than three times as likely to suffer a pelvic fracture than those without radiation therapy [
+8
+]. Furthermore, for patients with implanted bone allografts, allografts sterilized with radiation were twice as likely to fail compared to allografts sterilized using other methods [
+9
+]. The increased risk of fracture clinically has led to research into the effect of high levels of ionizing radiation exposure on the mechanical and biochemical properties of bone.
+Numerous
+ex vivo
+studies on either cortical or cancellous bone have demonstrated that ionizing radiation degrades mechanical properties and collagen molecular structure independent of cellular activity. The demonstrated reduction in post-yield properties — ultimate strain, ultimate strength, fracture toughness, work-to-failure — of irradiated bone [
+10
+–
+15
+] has been attributed to changes in collagen molecular structure [
+16
+–
+18
+]. Though the exact mechanism dominating irradiation-induced collagen degradation is not fully known, two mechanisms have been suggested as causes for diminished mechanics [
+10
+,
+12
+–
+14
+,
+19
+–
+23
+]. First, the collagen backbone can be fragmented when the molecular bonds are cleaved directly by x- and gamma-rays, breaking the intact protein chain into smaller polypeptides. Second, collagen molecules can be non-enzymatically crosslinked when radiolysis of water molecules creates free radicals, which cause inter- and intra- molecular bonds within collagen chains. However, it remains unclear which mechanism is more causative and at what dose these mechanisms manifest. Because changes in collagen structure are associated with a number of clinical conditions, an improved biomechanical understanding of each mechanism (i.e. non-enzymatic crosslinks and fragmentation) may provide insight into applications of irradiation [
+22
+], and also aging [
+24
+] and diabetes [
+25
+–
+28
+].
+Addressing these issues, we conducted an
+ex vivo
+ionizing radiation experiment on mouse vertebrae spanning a range of clinically-related radiation doses (i.e. radiation therapy to allograft sterilization) and conducted a suite of mechanical and biochemical assays to assess radiation-induced changes. Specifically, our objectives were to: 1) quantify the effects of radiation dose on the monotonic strength and fatigue life of murine vertebrae; and 2) determine whether the degradation in mechanical properties is dominated by the amount of non-enzymatic crosslinks or fragmented collagen.
+2. Materials and Methods
+2.1. Animals
+Forty-eight female, 20-week old (skeletally-mature) C57BL/6J mice (Jackson Labs, Sacramento, CA) were randomly assigned to five groups (N = 9–10 per group). Mice were euthanized prior to
+ex vivo
+irradiation. All procedures were approved by the University of California Berkeley Animal Care and Use Committee.
+2.2. Specimen preparation
+Lumbar vertebrae (L3, L4, L5, S1) were excised and gently cleaned of soft tissue, wrapped in saline-soaked gauze (Gibco PBS 1X, pH 7.4), and stored at −20°C. In preparation for mechanical testing, the vertebral bodies of the L4 and L5 levels were isolated, endplates precisely planed using a diamond microtome (Leica SP1600 Saw Microtome, Wetzlar, Germany) and posterior elements removed [
+29
+].
+2.3. Ex Vivo X-Ray Irradiation
+After specimen preparation,
+ex vivo
+irradiation was performed on all vertebrae. Mice were randomly assigned to one of five dose groups for x-ray irradiation: 0, 50, 1,000, 17,000, or 35,000 Gy; all vertebral levels from the same animal remained in the same radiation dose group (e.g. an animal assigned to the 50 Gy group had its L3, L4, L5, and S1 irradiated with 50 Gy). Irradiation was performed (Advanced Light Source synchrotron facility at Lawrence Berkeley National Laboratory) using an x-ray synchrotron micro-tomography beam line, at 21 keV and 500 mA, for a dose rate of 13.3 Gy/sec (see [
+30
+] for details on dose calculations). Specimen hydration was maintained during irradiation via saline-soaked gauze.
+2.4. Quantitative micro-CT Imaging
+After irradiation, the L4 and L5 specimens were imaged with quantitative micro-CT (µCT 50, Scanco Medical AG, Bruttisellen, Switzerland) using a 10-µm voxel size (55 kV, 109 µA, 1000 projections per 180°, 500 ms integration time). Micro-CT images of the L4 and L5 specimens were analyzed for height (ImageJ 2.0, Java 1.6.0). The total bone volume of the vertebrae was measured on the L5 only (ImageJ 2.0, BoneJ2). After manual segmentation of the trabecular compartment, the following parameters were measured between the top and bottom surface of the L5 vertebra: trabecular bone volume fraction (Tb.BV/TV), number (Tb.N), thickness (Tb.Th), and separation (Tb.Sp) (Scanco Medical µCT Evaluation Program v6.5) [
+29
+]. The micro-CT analysis confirmed successful random sample distribution; there were no significant differences in bone quantity or microarchitecture between the groups.
+2.5. Mechanical Characterization
+After micro-CT imaging, uniaxial compressive monotonic (L4) and cyclic (L5) mechanical testing was performed (TA ElectroForce 3200, Eden Prairie, MN; 25 mm linear encoder, measured error 9 µm). Monotonic testing was conducted (displacement rate of 0.01 mm/sec; strain rate ranged from 0.5 to 0.8% strain/s) to provide measurements of stiffness, strength (maximum force), ultimate strain (displacement measured by the linear encoder at maximum force divided by specimen height determined via micro-CT) [
+31
+], and work-to-fracture (
+Figure 1A
+).
+Figure 1:
+Open in a new tab
+Representative plots generated from mechanical testing of the vertebral specimens. (
+A
+) For monotonic compression testing, a force-displacement curve was used to calculate stiffness (K), ultimate force (F
+ult
+), ultimate displacement (d
+ult
+), and work to fracture (W; area in gray). (
+B
+) For cyclic testing, maximum apparent strain per cycle was plotted to obtain fatigue life (N
+f
+), strain-to-failure (ε
+f
+), and elastic stiffness (K
+elastic
+), see [
+29
+] for details.
+Cyclic testing was conducted using methods described in detail by Pendleton et al. [
+29
+]. In brief, in order to compare the fatigue life across all radiation dose groups, the fatigue test was designed such that the same initial strains were applied to all samples [
+29
+]. Using micro-CT based finite element models of each specimen, we computationally derived the specimen-specific forces (F
+min
+and F
+max
+) required to achieve the desired initial strains (ε
+min
+= 0.05% and ε
+max
+= 0.5%) during cyclic testing. Thus, specimens were cyclically loaded in uniaxial compression between the specimen-specific F
+min
+and F
+max
+values until failure (TA ElectroForce 3200, Eden Prairie, MN; 50 lb. load cell, resolution ±0.1 N). Cyclic loading properties measured include fatigue life (N
+f
+) (i.e. number of cycles to failure), strain-to-failure (ε
+f
+), and specimen elastic stiffness (K
+elastic
+) (
+Figure 1B
+). Cyclic testing was not performed for specimens where the calculated F
+max
+exceeded the dose group strength observed from monotonic testing, as these specimens would have failed within one loading cycle (confirmed by testing a small sample; data not shown).
+2.6. Biochemical Characterization
+After irradiation, two biochemical tests (N = 4 specimens for each test) were conducted to assess the two primary molecular mechanisms that are thought to alter bone mechanics: (1) the accumulation of non-enzymatic crosslinks was measured on the S1 vertebrae; (2) the fragmentation of the collagen backbone was quantified on the L3 vertebrae.
+To assess non-enzymatic collagen crosslinking, we quantified the relative amount of fluorescent advanced glycation end-products (AGEs) on the S1 vertebrae. AGEs, which form intra- and inter-fibrillar crosslinks along the collagen backbone through oxidation or glycation processes [
+26
+,
+32
+–
+34
+], were quantified using a fluorometric assay (protocol adapted from Sell et al. [
+35
+]). Each S1 specimen was demineralized in 0.5 M ethylenediaminetetraacetic acid (EDTA) and hydrolyzed in 12N HCl at 120°C for 3 hours to break down peptide bonds. The hydrolysate was then resuspended in PBS (0.1X) and pipetted in triplicate onto a black-walled 96 well plate. The non-enzymatic collagen crosslink content was determined using fluorescence readings taken using a microplate reader at wavelengths of 370 nm excitation and 440 nm emission. The readings were standardized to a quinine-sulfate standard (quinine dissolved in H
+2
+SO
+4
+) and then normalized to the amount of collagen present in each sample, approximated by the amount of hydroxyproline [
+13
+,
+36
+]. The quantification of non-enzymatic collagen crosslinks was achieved via the fluorometric assay that determined the relative fluorescence due to advanced glycation end-products (AGEs) relative to the amount of collagen in the bone matrix. The relative amount of non-enzymatic collagen crosslinks (fluorescent AGEs) for each radiation group was compared to the control.
+To assess collagen fragmentation, we used an automated electrophoresis assay (2100 Bioanalyzer, Agilent Technologies, Santa Clara, CA) to quantify the molecular weight distribution of collagen isolated from the L3 vertebrae. First, we isolated the collagen via methods adapted from Burton et al. [
+10
+] (see [
+30
+] for details). In brief, L3 specimens were demineralized over 3 weeks in 0.5M ethylenediaminetetraacetic acid (EDTA) with the solution changed every 2–3 days. Demineralized specimens were defatted for 24-hours in a 1:1 solution of chloroform and methanol and then soaked in 100% methanol for another hour. Specimens were dried in a desiccator overnight, and then flash-frozen with liquid-nitrogen and crushed into bone powder using a mortar and pestle. Bone powder was then lyophilized (Sequence: −38°C for 180 minutes, −38°C at 120 mTorr for 90 minutes, −20°C at 770 mTorr for 900 minutes, −10 °C at 930 mTorr for 270 minutes, and 23°C at 120 mTorr for 55 minutes) (VirTis AdVantage Plus Benchtop Freeze Dryer XL Model, SP Scientific, Stone Ridge, NY). For tissue digestion, the powder was added to a solution of 0.5M acetic acid and pepsin (1mg of pepsin per 10 mg of bone powder) and placed on a rocker at 4°C for 72-hours. To neutralize the digestion process 5M NaOH was added until pH was neutral (pH = 6–8). To remove non-soluble collagen and non-collagenous proteins, samples were centrifuged for 30 minutes at 13,000 RPM. The supernatant, containing the soluble collagen, was collected. To precipitate the collagen out of solution, solid NaCl was added to a final concentration of 2M NaCl and placed on a rocker at 4°C for 24-hours. Samples were centrifuged for 30 minutes at 13,000 RPM. The supernatant was removed, and the pellets were resuspended in 200 uL of 0.5M acetic acid. Samples were then lyophilized and stored at −20°C until electrophoresis. In preparation for electrophoresis, the isolated collagen was dissolved in 1X PBS, mixed with additional reagents (Agilent Technologies Protein 230 Manual), and loaded on a bioanalyzer chip for automated electrophoresis. Rat-tail collagen (Sigma Aldrich, C7661–25MG) was run as a standard. From this assay, the distribution of molecular weights of the collagen protein was assessed in two ways: (1) visually with a software-generated “gel” and (2) quantitatively with a software-generated fluorescence unit (FU) chart, called an “electropherogram” (Agilent 2100 Expert software). The nominal size of a type-I collagen, either alpha-1 or alpha-2, is between 130–150 kDa. To identify chain fragmentation, we looked for evidence of less protein in this range, and a wider distribution of molecular weights. On the gel, this was observed as a lighter-colored band or smeared band at ~150 kDa. On the electropherogram, fragmentation can be observed when the peak at ~150 kDa is diminished, indicating fewer fluorescence units and therefore fewer collagen chains of the nominal size. The quantification of collagen fragmentation was achieved via the software-generated electropherogram by comparing the quantity of fluorescence units (FU) at the nominal collagen chain length (~150 kDa) for each radiation group to the control.
+2.7. Statistics
+We used a one-way ANOVA to test for radiation effects, followed by Dunnett’s
+post-hoc
+test (at
+p
+≤ 0.05) to compare each group against the control (0 Gy) (JMP v 14.0, SAS Institute). For those measurements that were not normally distributed (ultimate strain), a Kruskal-Wallis test was conducted instead, followed by the Steel
+post-hoc
+to compare each group against the control (JMP v 14.0, SAS Institute). In order to compare the magnitude of responses across the different measurements – vertebral strength, crosslink AGEs, and fragmentation fluorescence – each datum for the individual specimen was normalized by the mean value of that measurement for the control group. Then, the means of these normalized values for the crosslink AGEs and fragmentation fluorescence measurements were individually compared against the mean normalized value for vertebral strength, using a Student’s t-test (
+p
+≤ 0.05) (JMP v 14.0, SAS Institute).
+3. Results
+3.1. Mechanical Characterization
+For monotonic compression testing, the vertebral strength, ultimate strain, and work-to-fracture were lower than the control group for radiation exposures of 17,000 and 35,000 Gy but were not different than the control group for exposures of 50 and 1,000 Gy. Compared to the control group, for the exposures of 17,000 and 35,000 Gy, vertebral strength was 50% and 73% lower (
+p
+< 0.001,
+Figure 2
+), respectively, ultimate strain was 58% and 77% lower (Steel post-hoc
+p
+< 0.05,
+Figure 2
+), and work-to-fracture was 76% and 92% lower (
+p
+< 0.01, data not shown). In contrast, monotonic stiffness remained unchanged for all radiation dose groups compared to the control group (691.3 ± 179.5 N/mm;
+p
+= 0.67,
+Figure 2
+).
+Figure 2:
+Open in a new tab
+Effect of
+ex vivo
+x-ray radiation on mechanical (monotonic vertebral strength, ultimate strain and stiffness; cyclic fatigue life), biochemical (collagen crosslink AGEs and collagen fragmentation), and micro-CT (Tb.BV/TV) properties of mouse lumbar vertebrae. Data are shown as least-square means; error bars represent 95% confidence intervals. † indicates cycles to failure not measured. *
+p
+< 0.05 using Dunnett’s post-hoc test; #
+p
+< 0.05 using Steel’s post-hoc test.
+Similar trends, but more accentuated, were observed for the cyclic properties. Monotonic strength of 17,000 and 35,000 Gy groups were less than the prescribed cyclic loading force, F
+max
+, and thus cyclic testing was not conducted for these two groups since the specimens would have fractured after one cycle of loading (confirmed by testing a small sample, data not shown). Fatigue life (5.2 ± 0.4 log(cycles);
+p
+= 0.50,
+Figure 2
+), strain to failure (3.8 ± 1.0 %;
+p
+= 0.41, data not shown), and elastic stiffness (1273 ± 162 N/mm;
+p
+= 0.31, data not shown) for the 50 and 1,000 Gy exposures did not differ from the control.
+3.2. Biochemical Characterization
+The relative amount of non-enzymatic collagen crosslinks (fluorescent AGEs) was greater for all radiation groups by nearly twofold, and increased in a dose-dependent manner: by 67%, 95%, 96%, and 108% for 50, 1,000, 17,000 and 35,000 Gy, respectively, compared to the control (42.2 ± 2.3 ng quinine / mg collagen;
+p
+< 0.001,
+Figure 2
+).
+In contrast, collagen fragmentation was only observed at doses of 17,000 and 35,000 Gy (
+Figure 2
+). Fragmentation at these doses was observed on both the software-generated gel (
+Figure 3A
+) and electropherogram (
+Figure 3B
+). On the gel, a dark band was visible at the nominal collagen chain length of 150 kDa for samples of 0, 50, and 1,000 Gy. This band began to lighten at 17,000 and 35,000 Gy, indicating fewer collagen proteins of this chain size. Also, a “smearing” of bands was observed below 150 kDa, suggesting that there was a greater amount of collagen fragmented chains with lower molecular weights. On the electropherogram, the same result can be observed. The peak fluorescence unit found at 150 kDa for 17,000 Gy decreased by 74% compared to the control (460 ± 72 FU;
+p
+< 0.02).
+Figure 3:
+Open in a new tab
+Output from the automated electrophoresis assay (collagen fragmentation). (
+A
+) A representative gel. (
+B
+) A representative electropherogram with the results of 0 and 17,000 Gy overlaid. The peak fluorescence unit found at 150 kDa for 17,000 Gy (red) is significantly lower compared to the 0 Gy control (blue).
+When comparing the magnitudes of the effects across the different (normalized) measurements, for all radiation doses, the normalized values were higher for crosslinking than for vertebral strength (
+p
+< 0.01) (
+Figure 4
+). By contrast, the normalized values for the unfragmented collagen chains were not different than for vertebral strength (
+p
+> 0.55), except at the 17,000 Gy dose, for which the difference was significant (
+p
+= 0.03) but small (vertebral strength 0.50 ± 0.06; fragmentation 0.26 ± 0.03) (
+Figure 4
+).
+Figure 4:
+Open in a new tab
+Comparison of vertebral strength with two primary mechanisms of collagen degradation: (1) collagen crosslinks represented by AGEs, and (2) collagen fragmentation indicated by a lower fluorescence unit (FU) value indicating less collagen with a nominal chain length, by radiation dose. Data were normalized by the mean of their respective 0 Gy control, and shown as normalized least-square means, with error bars signifying 95% confidence intervals analyzed by ANOVA with Dunnett’s post-hoc test,
+p
+< 0.05. * represents
+p
+< 0.0001 for vertebral ultimate strength; † represents
+p
+< 0.0001 for AGEs; ‡ represents
+p
+< 0.05 for FU.
+3.3. Quantitative micro-CT Imaging
+The micro-CT analysis confirmed successful random sample distribution; there were no significant differences in bone quantity or microarchitecture between the groups. Total bone volume (1.41 ± 0.16 mm
+3
+,
+p
+= 0.71, data not shown), as well as trabecular bone volume fraction (18.79 ± 0.94 %,
+p
+= 0.20,
+Figure 2
+), number (3.92 ± 0.13 1/mm,
+p
+= 0.35, data not shown), and separation (256.97 ± 8.81 µm,
+p
+= 0.47, data not shown) were the same for all groups. ANOVA results for trabecular thickness were significant (
+p
+= 0.036), however a Tukey post-hoc analysis found no differences between any groups (50.17 ± 68 µm,
+p
+> 0.05, data not shown).
+4. Discussion
+These results demonstrate that the monotonic strength of murine vertebral bodies was only diminished when exposed to ionizing radiation at or above 17,000 Gy. While the relative amount of non-enzymatic collagen crosslinks was greater for all radiation groups compared to the control, the increase in crosslinks measured at lower doses (50 and 1,000 Gy) did not coincide with the observed reduction in mechanical strength (
+Figure 4
+). In contrast to crosslinks, collagen fragmentation was only observed at doses where reduced mechanical properties were also observed (17,000 and 35,000 Gy;
+Figure 4
+). Thus, our results suggest that the fragmentation of collagen — and not the accumulation of non-enzymatic collagen crosslinks — was the primary molecular mechanism that caused the observed reductions in mechanical properties in whole bones exposed to ionizing radiation.
+Our results are consistent with previous radiation studies and provide novel insight into the effect of
+ex vivo
+ionizing radiation on bone mechanics. In accordance with previous investigations of cortical bone, we observed a reduction in both monotonic and fatigue properties at a dose equivalent to nominal allograft sterilization of ~30,000 ± 5,000 Gy [
+10
+,
+15
+,
+20
+,
+37
+–
+39
+], and a reduction of monotonic strength at 17,000 Gy [
+11
+]. While our study is consistent with earlier observations, our findings expand upon previous knowledge in three important areas. First, previous inquiries have been conducted on either cortical [
+10
+,
+11
+,
+15
+,
+20
+,
+37
+–
+39
+] or trabecular [
+40
+] bone tissue specimens, not whole-bones. Second, mechanical characterization has been primarily conducted in either monotonic or fatigue loading conditions, not both. Finally, only a subset of these studies has conducted concurrent collagen biochemical analysis, quantifying either crosslinks [
+13
+] or fragmentation [
+10
+,
+37
+,
+39
+]. For the first time, we have demonstrated the effect of irradiation on whole-bones (with both cortical and trabecular tissue) across a spectrum of clinically-relevant doses (i.e. radiation therapy at 50 Gy to allograft sterilization at 35,000 Gy) with both monotonic and fatigue mechanical tests, as well as parallel collagen biochemical assays. We expand on the work of Currey et al. [
+11
+] and demonstrate that in addition to a reduction in monotonic strength following irradiation at 17,000 Gy, fatigue properties are also significantly reduced. Importantly, we have demonstrated the doses at which the differences in collagen structure and mechanics arise. Our results provide new insight into the type of molecular change driving the degradation of whole-bone strength and fatigue life following irradiation.
+While the exact collagen modifications dominating reduced strength following irradiation are not fully understood, we examined the two proposed mechanisms: photon-induced fragmentation of the collagen backbone [
+10
+,
+20
+] or radiolysis-induced non-enzymatic collagen crosslinks [
+12
+,
+13
+,
+21
+–
+23
+]. Our results suggest that increased collagen fragmentation, and not non-enzymatic crosslinking, is the dominant factor. While no previous studies have quantified the fragmentation of collagen in irradiated whole-bones, our results are in agreement with previous work on cortical bone, which demonstrated that diminished fracture toughness at doses of ~35,000 Gy was a result of collagen fragmentation [
+10
+,
+37
+]. Expanding on this knowledge, we demonstrate that collagen fragmentation leads to degraded murine whole-bone mechanics at 17,000 Gy, a dose signifiantly lower than the standard for allograft sterilization (25,000 – 35,000 Gy). Our findings emphasize the need for further research into novel radioprotectants that target fragmentation in order to maintain bone strength when sterilizing allografts with radiation [
+10
+].
+Importantly, our findings suggest that non-enzymatic collagen crosslinks may play a smaller role in degrading mechanical strength of bone than previously considered. Previously, numerous studies attributed the increase in non-enzymatic crosslink concentration as the primary mechanism for degraded bone strength, specifically in applications of natural aging [
+24
+,
+36
+,
+41
+], drug treatments [
+42
+], irradiation sterilization [
+13
+], and diseases such as osteoporosis [
+43
+] and diabetes [
+26
+,
+44
+–
+47
+]. While the concentration of non-enzymatic crosslinks does accumulate in bone collagen in these applications, any causation of those crosslinks with respect to degraded mechanical properties has not been established. Here, we observed that despite a substantial (95%) increase in crosslink concentration, we could not detect any effect on vertebral strength. Indeed, studies have demonstrated that an increase in non-enzymatic crosslinks induced via ribose incubation can be used to counter the loss of strength due to the fragmentation of the collagen network, not degrade it further [
+39
+,
+48
+,
+49
+]. Taken together, our results strengthen the argument that the contribution of non-enzymatic crosslinks to diminished bone strength with disease and aging plays a smaller role in comparison to other factors, such as collagen network connectivity [
+50
+].
+There are some limitations in this study. First, because we tested mouse bone, the direct application of our findings to human bone is unclear. However, as discussed above, similar trends in irradiation-induced degraded bone strength [
+10
+,
+11
+,
+15
+,
+20
+,
+37
+–
+39
+,
+51
+–
+55
+] and molecular-level changes [
+10
+,
+55
+] have been seen in other studies across a number of anatomic sites and species, including human bone. That consistency suggests our results are not limited to murine bone. Second, as an
+ex vivo
+study, we excluded the impact of any biologically induced responses to radiation in order to explore the extent to which radiation directly alters the mechanical behavior of the bone matrix. For applications of allograft sterilization, which are only conducted
+ex vivo
+, excluding cellular effects is appropriate. However, for
+in vivo
+applications of radiation therapy, there can be cellular-driven changes, such as reduced bone volume fraction or altered trabecular microarchitecture [
+50
+], which can alter bone mechanics beyond what is reported here. Thus, our method of irradiation is directly comparable to
+ex vivo
+allograft sterilization; for doses equivalent to
+in vivo
+radiotherapy treatment (50 Gy), our method is only applicable when considering the direct effects of radiation on the bone matrix. Additionally, we performed all mechanical tests, monotonic and cyclic, in compression. While compressive loading is most relevant for
+in vivo
+behavior, the response may be different for isolated specimens tested in pure tension.
+Finally, because our study did not investigate doses between 1,000 and 17,000 Gy, it is unclear at what dose within this range reduced mechanical properties can first be observed. To address this gap, we conducted a post-hoc study for doses of 5,000 and 10,000 Gy (see
+Appendix
+) with the same mechanical and biochemical assays described above. We found some mechanical differences occurred with radiation exposure of 5,000 Gy (and above), but only for cyclic loading: compared to the control, fatigue life was lower by 18% (
+p
+< 0.01) but monotonic strength was not different (
+p
+= 0.12). These ad hoc results confirm previous observations that cyclic loading may be a more sensitive test than monotonic loading for detecting mechanical effects of radiation [
+13
+,
+20
+]. Clinically, radiation-induced fractures are often observed months to years after irradiation and classified as spontaneous or insufficiency fractures (i.e. fractures which are not the result of a fall or trauma, and more likely due to repetitive loading at low forces over time) [
+56
+–
+58
+]. As such, it is clinically important to consider mechanisms that can affect cyclic loading properties differently than static loading properties. Furthermore, our findings have expanded our knowledge to show fatigue properties are also significantly reduced with doses as low as 5,000 Gy.
+Clinically, our results have implications for safe sterilization of allografts and potential radioprotectants. A dose of 11,000 Gy has been proposed as a safe sterilization dose for allografts [
+59
+], as this dose achieves the same sterility level as the current standard dose of 30,000 ± 5,000 Gy [
+4
+,
+5
+]. However, our supplemental findings suggest collagen fragmentation and associated loss of cyclic mechanical properties can begin with a dose as low as 5,000 Gy (see
+Appendix
+). To mitigate the loss of mechanical integrity, further studies are needed to investigate how to safeguard the bone with a radioprotectant. Several radioprotectants have been considered for their ability to preserve tissue properties following irradiation [
+4
+,
+49
+,
+60
+]. Based on our results, we would recommend studies focused on radioprotectants which can prevent or offset the fragmentation of collagen, as these types of radioprotectants may preserve bone mechanics to a greater degree than those which protect against non-enzymatic collagen crosslinks.
+Our results also have implications for understanding the etiology of the increased fracture risk associated with
+in vivo
+radiation therapy treatment for cancer [
+2
+,
+8
+,
+61
+–
+66
+]. We did not observe any change in mechanical behavior for
+ex vivo
+dose levels relevant to radiation therapy (i.e. 50 Gy), despite an increase in collagen crosslinks. Thus, direct effects of radiation on the collagen matrix from radiation therapy are not solely responsible for the increased fracture risk observed clinically. From this, we can infer that the cellular processes of bone remodeling due to
+in vivo
+irradiation are likely the root cause. Indeed, previous
+in vivo
+irradiation studies of bone in a murine model have shown reduced trabecular bone mass, number and connectivity associated with hyperactive osteoclast activity [
+67
+–
+69
+]. Taken together with our
+ex vivo
+observations, cell-mediated changes in bone quantity, trabecular microarchitecture, or tissue material quality are more plausible explanations for the increased fracture risk from radiation therapy than direct changes to the bone material.
+In summary, we quantified the level of collagen fragmentation and non-enzymatic collagen crosslinks in the organic matrix of murine whole-bones at clinically-relevant
+ex vivo
+radiation doses. Our results suggest that the fragmentation of collagen — and not the accumulation of non-enzymatic collagen crosslinks — was the primary molecular mechanism that caused the observed monotonic mechanical degradation at 17,000 Gy and above, and cyclic mechanical degradation at 5,000 Gy and above.
+Highlights.
+Ex vivo
+ionizing radiation of whole-bones caused a reduction in compressive monotonic strength and fatigue life.
+Decreased strength was best explained by collagen fragmentation, not the accumulation of non-enzymatic collagen crosslinks.
+Non-enzymatic collagen crosslinks may play a smaller role in degrading mechanical strength of bone than previously considered.
+Irradiation has unique effects on cyclic behavior that are not manifested in static behavior.
+Acknowledgements
+This study was supported by NASA Science & Technology Research Fellowship NNX14AM56H (MMP), National Science Foundation Graduate Research Fellowship Program #1752814 (SRE), a NASA Space Biology PECASE (JSA), and grants from the National Institutes of Health (K01AR069116, R21AR069804, R01AR07444) (SYT). This research used resources of the Advanced Light Source, which is a DOE Office of Science User Facility under contract No. DE-AC02-05CH11231. Computational resources were made available through the National Science Foundation via XSEDE, Grant TG-MCA00N019 (TMK). The authors would like to thank Saghi Sadoughi (UCB) for her assistance with finite element modeling, Alfred Li (UCSF) for his micro-CT expertise, Dula Parkinson (LBNL) for his support with the irradiation protocol, and Tamara Alliston (UCSF), Thomas Willet (University of Waterloo), and Elumalai Rangasamy (Agilent Technologies) for their guidance on the biochemical assays.
+5. Appendix: Supplemental Study
+To gain insight into the effect of ionizing radiation between 1,000 and 17,000 Gy, we conducted an additional
+ex vivo
+x-ray radiation experiment on excised mouse lumbar vertebrae from 20-week old, female, C57BL/6J mice, randomly assigned to a one-time
+ex vivo
+radiation dose of either 0 (n = 4), 5,000 (n = 5), or 10,000 Gy (n = 5). As detailed above, we measured mechanical properties, collagen crosslinks, and collagen fragmentation (data not shown). We observed compressive fatigue life to be lower for the irradiated groups, being 18% (
+p
+< 0.01) and 37% (
+p
+< 0.0001) lower for 5,000 and 10,000 Gy doses, respectively, compared to the control (5.0 ± 0.4 log(cycles)). We detected no significant effect of radiation dose for any of the compressive monotonic mechanical properties, either for strength (
+p
+= 0.12), stiffness (
+p
+= 0.62), or maximum displacement (
+p
+= 0.51). Collagen crosslinks increased significantly for all irradiated groups, by 71% and 101% for 5,000 and 10,000 Gy, respectively (
+p
+< 0.05). Collagen fragmentation was evident for 5,000 Gy, observed as a significant decrease in the amount of nominally sized collagen chains (~150 kDa) compared to the 0 Gy control (
+p
+= 0.008); data for the 10,000 Gy group was lost due to a processing error. These findings suggest that doses well below sterilization standards (30,000 ± 5,000 Gy) and a proposed alternative (11,000 Gy) may compromise the mechanical strength and collagen integrity of bone allografts, making them more susceptible to failure under cyclic loading [
+4
+,
+5
+,
+59
+].
+Footnotes
+Publisher's Disclaimer:
+This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+1
+Abbreviations: Gy, Gray; N
+f
+, Fatigue Life; ε
+f
+, Strain-to-Failure; K
+elastic
+, Elastic Stiffness; AGEs, Advanced Glycation End Products; FU, Fluorescence Unit;
+Disclosures
+TMK: Consultant for Amgen, AgNovos Healthcare, and O.N. Diagnostics; equity in O.N. Diagnostics.
+Conflict of Interest
+All authors certify that there are no conflicts of interest related to the work presented in this manuscript.
+6 References
+[1].
+Meixel AJ, Hauswald H, Delorme S, Jobke B, From radiation osteitis to osteoradionecrosis: incidence and MR morphology of radiation-induced sacral pathologies following pelvic radiotherapy, Eur. Radiol
+28 (2018) 3550–3559. doi: 10.1007/s00330-018-5325-2.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[2].
+Wei RL, Jung BC, Manzano W, Sehgal V, Klempner SJ, Lee SP, Ramsinghani NS, Lall C, Bone mineral density loss in thoracic and lumbar vertebrae following radiation for abdominal cancers, Radiother. Oncol
+118 (2016) 430–436. doi: 10.1016/j.radonc.2016.03.002.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[3].
+Shih KK, Folkert MR, Kollmeier MA, Abu-Rustum NR, Sonoda Y, Leitao MM, Barakat RR, Alektiar KM, Pelvic insufficiency fractures in patients with cervical and endometrial cancer treated with postoperative pelvic radiation, Gynecol. Oncol
+128 (2013) 540–543. doi: 10.1016/j.ygyno.2012.12.021.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[4].
+Singh R, Singh D, Singh A, Radiation sterilization of tissue allografts: A review, World J. Radiol
+8 (2016) 355. doi: 10.4329/wjr.v8.i4.355.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[5].
+Campbell DG, Li P, Stephenson AJ, Oakeshott RD, Sterilization of HIV by gamma irradiation. A bone allograft model., Int. Orthop
+18 (1994) 172–6.
+http://www.ncbi.nlm.nih.gov/pubmed/7927967
+.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[6].
+Okoukoni C, Farris M, Hughes RT, McTyre ER, Helis CA, Munley MT, Willey JS, Radiation-Induced Bone Toxicity, Curr. Stem Cell Reports
+3 (2017) 333–341. doi: 10.1007/s40778-017-0099-z.
+[
+DOI
+] [
+Google Scholar
+]
+[7].
+Bazire L, Xu H, Foy JP, Amessis M, Malhaire C, Cao K, De La Rochefordiere A, Kirova YM, Pelvic insufficiency fracture (PIF) incidence in patients treated with intensity-modulated radiation therapy (IMRT) for gynaecological or anal cancer: Single-institution experience and review of the literature, Br. J. Radiol
+90 (2017). doi: 10.1259/bjr.20160885.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[8].
+Baxter NN, Habermann EB, Tepper JE, Durham SB, Virnig BA, Risk of pelvic fractures in older women following pelvic irradiation, JAMA
+294 (2005) 2587–2593. doi: 10.1001/jama.294.20.2587.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[9].
+Lietman SA, Tomford WW, Gebhardt MC, Springfield DS, Mankin HJ, Complications of irradiated allografts in orthopaedic tumor surgery., Clin. Orthop. Relat. Res
+2000 (2000) 214–217. doi: 10.1097/00003086-200006000-00026.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[10].
+Burton B, Gaspar A, Josey D, Tupy J, Grynpas MD, Willett TL, Bone embrittlement and collagen modifications due to high-dose gamma-irradiation sterilization., Bone
+61 (2014) 71–81. doi: 10.1016/j.bone.2014.01.006.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[11].
+Currey JD, Foreman J, Laketic I, Mitchell J, Pegg DE, Reilly GC, Effects of ionizing radiation on the mechanical properties of human bone, J. Orthop. Res
+15 (1997) 111–117. doi: 10.1002/jor.1100150116.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[12].
+Barth HD, Launey ME, MacDowell AA, Ager JW, Ritchie RO, On the effect of X-ray irradiation on the deformation and fracture behavior of human cortical bone, Bone
+46 (2010) 1475–1485. doi: 10.1016/j.bone.2010.02.025.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[13].
+Barth HD, Zimmermann EA, Schaible E, Tang SY, Alliston T, Ritchie RO, Characterization of the effects of x-ray irradiation on the hierarchical structure and mechanical properties of human cortical bone, Biomaterials
+32 (2011) 8892–8904. doi: 10.1016/j.biomaterials.2011.08.013.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[14].
+Nguyen H, Morgan DAF, Forwood MR, Sterilization of allograft bone: Effects of gamma irradiation on allograft biology and biomechanics, Cell Tissue Bank
+8 (2007) 93–105. doi: 10.1007/s10561-006-9020-1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[15].
+Akkus O, Rimnac CM, Fracture resistance of gamma radiation sterilized cortical bone allografts, J. Orthop. Res
+19 (2001) 927–934. doi: 10.1016/S0736-0266(01)00004-3.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[16].
+Zioupos P, Currey JD, Hamer AJ, The role of collagen in the declining mechanical properties of aging human cortical bone, J. Biomed. Mater. Res
+45 (1999). doi:.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[17].
+Nyman JS, Reyes M, Wang X, Effect of ultrastructural changes on the toughness of bone, Micron
+36 (2005) 566–582. doi: 10.1016/j.micron.2005.07.004.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[18].
+Burstein AH, Zika JM, Heiple KG, Klein L, Contribution of collagen and mineral to the elastic-plastic properties of bone., J. Bone Joint Surg. Am
+57 (1975) 956–961.
+[
+PubMed
+] [
+Google Scholar
+]
+[19].
+Colwell A, Hamer A, Blumsohn A, Eastell R, To determine the effects of ultraviolet light, natural light and ionizing radiation on pyridinium cross-links in bone and urine using high-performance liquid chromatography, Eur. J. Clin. Invest
+26 (1996) 1107–1114. doi: 10.1046/j.1365-2362.1996.460602.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[20].
+Akkus O, Belaney RM, Sterilization by gamma radiation impairs the tensile fatigue life of cortical bone by two orders of magnitude, J. Orthop. Res
+23 (2005) 1054–1058. doi: 10.1016/j.orthres.2005.03.003.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[21].
+Oest ME, Gong B, Esmonde-White K, Mann KA, Zimmerman ND, Damron TA, Morris MD, Parathyroid hormone attenuates radiation-induced increases in collagen crosslink ratio at periosteal surfaces of mouse tibia, Bone
+86 (2016) 91–97. doi: 10.1016/j.bone.2016.03.003.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[22].
+Gong B, Oest ME, Mann KA, Damron TA, Morris MD, Raman spectroscopy demonstrates prolonged alteration of bone chemical composition following extremity localized irradiation, Bone
+57 (2013) 252–258. doi: 10.1016/j.bone.2013.08.014.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[23].
+Bailey AJ, Rhodes DN, Cater CW, Irradiation-Induced Crosslinking of Collagen, Radiat. Res
+22 (1964) 606–21.
+http://www.ncbi.nlm.nih.gov/pubmed/14201872
+.
+[
+PubMed
+] [
+Google Scholar
+]
+[24].
+Zimmermann EA, Schaible E, Bale H, Barth HD, Tang SY, Reichert P, Busse B, Alliston T, Ager JW, Ritchie RO, Age-related changes in the plasticity and toughness of human cortical bone at multiple length scales, Proc. Natl. Acad. Sci
+108 (2011) 14416–14421. doi: 10.1073/pnas.1209596109.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[25].
+Saito M, Marumo K, Effects of Collagen Crosslinking on Bone Material Properties in Health and Disease, Calcif. Tissue Int
+97 (2015) 242–261. doi: 10.1007/s00223-015-9985-5.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[26].
+Karim L, Bouxsein ML, Effect of type 2 diabetes-related non-enzymatic glycation on bone biomechanical properties, Bone
+82 (2016) 21–27. doi: 10.1016/j.bone.2015.07.028.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[27].
+Acevedo C, Sylvia M, Schaible E, Graham JL, Stanhope KL, Metz LN, Gludovatz B, Schwartz AV, Ritchie RO, Alliston TN, Havel PJ, Fields AJ, Contributions of Material Properties and Structure to Increased Bone Fragility for a Given Bone Mass in the UCD-T2DM Rat Model of Type 2 Diabetes, J. Bone Miner. Res
+33 (2018) 1066–1075. doi: 10.1002/jbmr.3393.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[28].
+Farlay D, Armas L, Gineyts E, Akhter M, Recker R, Boivin G, Non-enzymatic glycation and degree of mineralization are higher in bone from fractured patients with Type 1 Diabetes Mellitus, J. Bone Miner. Res
+31 (2016) 190–195. doi: 10.1002/jbmr.2607.Non-enzymatic.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[29].
+Pendleton MM, Sadoughi S, Li A, O’Connell GD, Alwood JS, Keaveny TM, High-precision method for cyclic loading of small-animal vertebrae to assess bone quality, Bone Reports
+9 (2018) 165–172. doi: 10.1016/j.bonr.2018.10.002.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[30].
+Pendleton MM, Effects of Spaceflight- and Clinically-relevant Ionizing Radiation Exposure on Bone Biomechanics, University of California, Berkeley, 2018.
+[
+Google Scholar
+]
+[31].
+Turner CH, Burr DB, Basic biomechanical measurements of bone: A tutorial, Bone
+14 (1993) 595–608. doi: 10.1016/8756-3282(93)90081-K.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[32].
+Knott L, Bailey AJ, Collagen cross-links in mineralizing tissues: A review of their chemistry, function, and clinical relevance, Bone
+22 (1998) 181–187. doi: 10.1016/S8756-3282(97)00279-2.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[33].
+Burr DB, Changes in bone matrix properties with aging, Bone
+120 (2019) 85–93. doi: 10.1016/j.bone.2018.10.010.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[34].
+Bailey AJ, Molecular mechanisms of ageing in connective tissues, Mech. Ageing Dev
+122 (2001) 735–755. doi: 10.1016/S0047-6374(01)00225-1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[35].
+Sell DR, Monnier VM, Isolation, purification and partial characterization of novel fluorophores from aging human insoluble collagen-rich tissue, Connect. Tissue Res
+19 (1989) 77–92. doi: 10.3109/03008208909016816.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[36].
+Tang SY, Zeenath U, Vashishth D, Effects of non-enzymatic glycation on cancellous bone fragility, Bone
+40 (2007) 1144–1151. doi: 10.1016/j.bone.2006.12.056.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[37].
+Akkus O, Belaney RM, Das P, Free radical scavenging alleviates the biomechanical impairment of gamma radiation sterilized bone tissue, J. Orthop. Res
+23 (2005) 838–845. doi: 10.1016/j.orthres.2005.01.007.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[38].
+Islam A, Chapin K, Moore E, Ford J, Rimnac C, Akkus O, Gamma Radiation Sterilization Reduces the High-cycle Fatigue Life of Allograft Bone, Clin. Orthop. Relat. Res
+474 (2016) 827–835. doi: 10.1007/s11999-015-4589-y.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[39].
+Willett TL, Burton B, Woodside M, Wang Z, Gaspar A, Attia T, γ-Irradiation sterilized bone strengthened and toughened by ribose pre-treatment, J. Mech. Behav. Biomed. Mater
+44 (2015) 147–155. doi: 10.1016/j.jmbbm.2015.01.003.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[40].
+Anderson MJ, Keyak JH, Skinner HB, Compressive mechanical properties of human cancellous bone after gamma irradiation, J. Bone Jt. Surg
+74 (1992) 747–752.
+http://dx.doi.org/
+.
+[
+PubMed
+] [
+Google Scholar
+]
+[41].
+Nyman JS, Roy A, Acuna RL, Gayle HJ, Reyes MJ, Tyler JH, Dean DD, Wang X, Age-related effect on the concentration of collagen crosslinks in human osteonal and interstitial bone tissue, Bone
+39 (2006) 1210–1217. doi: 10.1016/j.bone.2006.06.026.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[42].
+Tang SY, Allen MR, Phipps R, Burr DB, Vashishth D, Changes in non-enzymatic glycation and its association with altered mechanical properties following 1-year treatment with risedronate or alendronate, Osteoporos. Int
+20 (2009) 887–894. doi: 10.1007/s00198-008-0754-4.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[43].
+Saito M, Fujii K, Soshi S, Tanaka T, Reductions in degree of mineralization and enzymatic collagen cross-links and increases in glycation-induced pentosidine in the femoral neck cortex in cases of femoral neck fracture, Osteoporos. Int
+17 (2006) 986–995. doi: 10.1007/s00198-006-0087-0.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[44].
+Janghorbani M, Van Dam RM, Willett WC, Hu FB, Systematic review of type 1 and type 2 diabetes mellitus and risk of fracture, Am. J. Epidemiol
+166 (2007) 495–505. doi: 10.1093/aje/kwm106.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[45].
+Farr JN, Khosla S, Determinants of bone strength and quality in diabetes mellitus in humans, Bone
+82 (2016) 28–34. doi: 10.1016/j.bone.2015.07.027.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[46].
+Rubin MR, Patsch JM, Assessment of bone turnover and bone quality in type 2 diabetic bone disease: current concepts and future directions., Bone Res
+4 (2016) 16001. doi: 10.1038/boneres.2016.1.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[47].
+Vestergaard P, Discrepancies in bone mineral density and fracture risk in patients with type 1 and type 2 diabetes--a meta-analysis., Osteoporos. Int
+18 (2007) 427–44. doi: 10.1007/s00198-006-0253-4.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[48].
+Woodside M, Willett TL, Elastic–plastic fracture toughness and rising JR-curve behavior of cortical bone is partially protected from irradiation–sterilization-induced degradation by ribose protectant, J. Mech. Behav. Biomed. Mater
+64 (2016) 53–64. doi: 10.1016/j.jmbbm.2016.07.001.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[49].
+Attia T, Woodside M, Minhas G, Lu XZ, Josey DS, Burrow T, Grynpas M, Willett TL, Development of a novel method for the strengthening and toughening of irradiation-sterilized bone allografts, Cell Tissue Bank
+18 (2017) 323–334. doi: 10.1007/s10561-017-9634-5.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[50].
+Willett TL, Dapaah DY, Uppuganti S, Granke M, Nyman JS, Bone collagen network integrity and transverse fracture toughness of human cortical bone, Bone
+120 (2019) 187–193. doi: 10.1016/j.bone.2018.10.024.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[51].
+Tüfekci K, Kayacan R, Kurbanoǧlu C, Effects of gamma radiation sterilization and strain rate on compressive behavior of equine cortical bone, J. Mech. Behav. Biomed. Mater
+34 (2014) 231–242. doi: 10.1016/j.jmbbm.2014.02.004.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[52].
+Mitchell EJ, Stawarz AM, Kayacan R, Rimnac CM, The effect of gamma radiation sterilization on the fatigue crack propagation resistance of human cortical bone, J. Bone Jt. Surg. - Ser. A
+86 (2004) 2648–2657. doi: 10.2106/00004623-200412000-00010.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[53].
+Hamer AJ, Strachan JR, Black MM, Ibbotson CJ, Stockley I, Elson RA, BIOMECHANICAL PROPERTIES OF CORTICAL ALLOGRAFT BONE USING A NEW METHOD OF BONE STRENGTH MEASUREMENT, J. Bone Joint Surg. Br
+78-B (1996) 363–368. doi: 10.1302/0301-620X.78B3.0780363.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[54].
+Cornu O, Banse X, Docquier P-L, Luyckx S, Delloye CH, Synergetic effect of freeze-drying and gamma irradiation on the mechanical properties of human cancellous bone, J. Ortho
+18 (2000) 426–431. doi: 10.1007/s10561-010-9209-1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[55].
+Russell N, Rives A, Bertollo N, Pelletier MH, Walsh WR, The effect of sterilization on the dynamic mechanical properties of paired rabbit cortical bone, J. Biomech
+46 (2013) 1670–1675. doi: 10.1016/j.jbiomech.2013.04.006.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[56].
+Overgaard M, Spontaneous radiation-induced rib fractures in breast cancer patients treated with postmastectomy irradiation-a clinical radiobiological analysis of the influence of fraction size and dose-response relationships on late bone damage, Acta Oncol. (Madr)
+27 (1988) 117–122. doi: 10.3109/02841868809090331.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[57].
+Oh D, Huh SJ, Insufficiency fracture after radiation therapy, Radiat. Oncol. J
+32 (2014) 213–220. doi: 10.3857/roj.2014.32.4.213.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[58].
+Shimoyama T, Katagiri H, Harada H, Murata H, Wasa J, Hosaka S, Suzuki T, Takahashi M, Asakura H, Nishimura T, Yamada H, Fracture after radiation therapy for femoral metastasis: Incidence, timing and clinical features, J. Radiat. Res
+58 (2017) 661–668. doi: 10.1093/jrr/rrx038.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[59].
+Nguyen H, Morgan DAF, Forwood MR, Validation of 11 kGy as a Radiation Sterilization Dose for Frozen Bone Allografts, J. Arthroplasty
+26 (2011) 303–308. doi: 10.1016/j.arth.2010.03.032.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[60].
+Allaveisi F, Hashemi B, Mortazavi SMJ, Radioprotective effect of N-acetyl-L-cysteine free radical scavenger on compressive mechanical properties of the gamma sterilized cortical bone of bovine femur, Cell Tissue Bank
+16 (2015) 97–108. doi: 10.1007/s10561-014-9446-9.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[61].
+Yaprak G, Gemici C, Temizkan S, Ozdemir S, Dogan BC, Seseogullari OO, Osteoporosis development and vertebral fractures after abdominal irradiation in patients with gastric cancer., BMC Cancer
+18 (2018) 972. doi: 10.1186/s12885-018-4899-z.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[62].
+Elliott SP, Jarosek SL, Alanee SR, Konety BR, Dusenbery KE, Virnig BA, Three-dimensional external beam radiotherapy for prostate cancer increases the risk of hip fracture, Cancer
+117 (2011) 4557–4565. doi: 10.1002/cncr.25994.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[63].
+Schmeler KM, Jhingran A, Iyer RB, Sun CC, Eifel PJ, Soliman PT, Ramirez PT, Frumovitz M, Bodurka DC, Sood AK, Pelvic fractures after radiotherapy for cervical cancer: Implications for survivors, Cancer
+116 (2010) 625–630. doi: 10.1002/cncr.24811.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[64].
+Uezono H, Tsujino K, Moriki K, Nagano F, Ota Y, Sasaki R, Soejima T, Pelvic insufficiency fracture after definitive radiotherapy for uterine cervical cancer: retrospective analysis of risk factors, J. Radiat. Res
+54 (2013) 1102–1109. doi: 10.1093/jrr/rrt055.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[65].
+Hui SK, Arentsen L, Wilcox A, Shanley R, Yee D, Ghebre R, Spatial and temporal fracture pattern in breast and gynecologic cancer survivors, J. Cancer
+6 (2015) 66–69. doi: 10.7150/jca.10288.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[66].
+Otani K, Teshima T, Ito Y, Kawaguchi Y, Konishi K, Takahashi H, Ohigashi H, Oshima K, Araki N, Nishiyama K, Ishikawa O, Risk factors for vertebral compression fractures in preoperative chemoradiotherapy with gemcitabine for pancreatic cancer, Radiother. Oncol
+118 (2016) 424–429. doi: 10.1016/j.radonc.2016.01.006.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[67].
+Oest ME, Policastro CG, Mann KA, Zimmerman ND, Damron TA, Longitudinal Effects of Single Hindlimb Radiation Therapy on Bone Strength and Morphology at Local and Contralateral Sites, J. Bone Miner. Res
+33 (2018) 99–112. doi: 10.1002/jbmr.3289.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+[68].
+Kondo H, Searby ND, Mojarrab R, Phillips J, Alwood JS, Yumoto K, Almeida EAC, Limoli CL, Globus RK, Total-body irradiation of postpubertal mice with (137)Cs acutely compromises the microarchitecture of cancellous bone and increases osteoclasts., Radiat. Res
+171 (2009) 283–289. doi: 10.1667/RR1463.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+[69].
+Willey JS, Lloyd SAJ, Nelson GA, Bateman TA, Ionizing radiation and bone loss: Space exploration and clinical therapy applications, Clin. Rev. Bone Miner. Metab
+9 (2011) 54–62. doi: 10.1007/s12018-011-9092-8.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]

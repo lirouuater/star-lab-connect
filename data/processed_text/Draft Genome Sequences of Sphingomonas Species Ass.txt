@@ -1,0 +1,418 @@
+Microbiol Resour Announc
+. 2020 Jun 18;9(25):e00578-20. doi:
+10.1128/MRA.00578-20
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Draft Genome Sequences of
+Sphingomonas
+Species Associated with the International Space Station
+Swati Bijlani
+Swati Bijlani
+a
+University of Southern California, Los Angeles, California, USA
+Find articles by
+Swati Bijlani
+a
+,
+Nitin K Singh
+Nitin K Singh
+b
+Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA
+Find articles by
+Nitin K Singh
+b
+,
+Christopher E Mason
+Christopher E Mason
+c
+The WorldQuant Initiative for Quantitative Prediction, Weill Cornell Medicine, New York, New York, USA
+Find articles by
+Christopher E Mason
+c
+,
+Clay C C Wang
+Clay C C Wang
+a
+University of Southern California, Los Angeles, California, USA
+Find articles by
+Clay C C Wang
+a
+,
+Kasthuri Venkateswaran
+Kasthuri Venkateswaran
+b
+Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA
+Find articles by
+Kasthuri Venkateswaran
+b,
+✉
+Editor:
+Vincent Bruno
+d
+Author information
+Article notes
+Copyright and License information
+a
+University of Southern California, Los Angeles, California, USA
+b
+Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA
+c
+The WorldQuant Initiative for Quantitative Prediction, Weill Cornell Medicine, New York, New York, USA
+d
+University of Maryland School of Medicine
+✉
+Address correspondence to Kasthuri Venkateswaran,
+kjvenkat@jpl.nasa.gov
+.
+Citation
+Bijlani S, Singh NK, Mason CE, Wang CCC, Venkateswaran K. 2020. Draft genome sequences of
+Sphingomonas
+species associated with the International Space Station. Microbiol Resour Announc 9:e00578-20.
+https://doi.org/10.1128/MRA.00578-20
+.
+✉
+Corresponding author.
+Roles
+Vincent Bruno
+:
+Editor
+Received 2020 May 18; Accepted 2020 May 26; Collection date 2020 Jun.
+Copyright © 2020 Bijlani et al.
+This is an open-access article distributed under the terms of the
+Creative Commons Attribution 4.0 International license
+.
+PMC Copyright notice
+PMCID: PMC7303416  PMID:
+32554796
+The draft genome sequences of three
+Sphingomonas
+strains isolated from the International Space Station (ISS) were assembled. These genomic sequences will help in understanding the influence of microgravity conditions on their potential bioactive compound production and other important characteristics compared to their Earth counterparts.
+ABSTRACT
+The draft genome sequences of three
+Sphingomonas
+strains isolated from the International Space Station (ISS) were assembled. These genomic sequences will help in understanding the influence of microgravity conditions on their potential bioactive compound production and other important characteristics compared to their Earth counterparts.
+ANNOUNCEMENT
+Sphingomonas
+species have been isolated from a variety of habitats, and some species possess the unique capability to degrade pollutants (
+1
+). Some of the species are known for biofilm formation and eventually corrode the metal surfaces (
+2
+), production of bioactive compounds (
+3
+), and plant-pathogenic characteristics (
+4
+).
+Sphingomonas paucimobilis
+has been reported to be associated with infections in immunocompromised patients (
+5
+,
+6
+).
+In an ongoing microbial observatory experiment, several microbial strains were isolated from the International Space Station (ISS) (
+7
+). The generation of whole-genome sequences (WGS) to enable the comparative genomic characterization of ISS
+Sphingomonas
+species with their Earth counterparts would lead to the identification of the genetic determinants potentially responsible for their important characteristics due to microgravity and elevated radiation conditions.
+The WGS belonging to two
+Sphingomonas sanguinis
+strains and one
+S. paucimobilis
+isolate were assembled into scaffolds. Sample collection, processing, and presumptive identification of these isolates based on 16S rRNA gene sequences were published elsewhere (
+7
+). Briefly, samples collected from the ISS were processed, and 100 μl of each dilution was plated on Reasoner’s 2A (R2A) agar. The plates were incubated at 25°C for 7 days. The single colony obtained was restreaked onto R2A plates and incubated at 25°C for 3 days. A biomass of approximately 1 μg wet weight was collected for each strain and pooled for DNA extraction. Total nucleic acid extraction was carried out using a ZymoBIOMICS 96 MagBead DNA kit (lysis tubes; Zymo Research, USA) after bead beating using a Bertin Precellys instrument. This was followed by library preparation using the Nextera Flex protocol as per Illumina document number 1000000025416 v07. The initial amount of DNA for library preparation was quantified, and depending on the input DNA concentration, 5 to 12 cycles of PCR were carried out to normalize the output. The amplified genomic DNA fragments were indexed and pooled in 384-plex configuration. Whole-genome shotgun sequencing was performed on a NovaSeq 6000 S4 flow cell in paired-end (PE) 2 × 150-bp format. The data were filtered with NGS QC Toolkit v2.3 (
+8
+) for high-quality (HQ) vector- and adaptor-free reads for genome assembly (cutoff read length for HQ, 80%; cutoff quality score, 20). The number of filtered reads obtained (
+Table 1
+) was used for assembly with the SPAdes v3.14.0 (
+9
+) genome assembler (k-mer size, 32 to 72 bases). The genome was annotated using the NCBI Prokaryotic Genome Annotation Pipeline (PGAP) v4.11 (
+10
+,
+11
+). Default parameters were used for all software except where otherwise noted.
+TABLE 1.
+Summary of the draft whole-genome sequences of three
+Sphingomonas
+strains isolated from the ISS
+Species and strain
+NCBI accession no.
+Isolation location
+No. of scaffolds
+Genome size (bp)
+N
+50
+(bp)
+Median coverage (×)
+G+C content (%)
+No. of raw reads (millions)
+No. of filtered reads used for assembly (millions)
+No. of coding sequences
+Sphingomonas sanguinis
+IIF7SW-B3A
+JABEOW000000000.1
+Lab 3 overhead
+53
+3,989,786
+149,509
+1,102
+66.23
+30.91
+30.67
+3,659
+Sphingomonas sanguinis
+IIF7SW-B5
+JABEOV000000000.1
+Lab 3 overhead
+51
+4,398,996
+375,188
+916
+66.08
+28.3
+28.1
+4,047
+Sphingomonas paucimobilis
+FKI-L5-BR-P1
+JABEOU000000000.1
+KSC-PHSF
+a
+cleanroom floor
+73
+4,572,738
+138,969
+448
+65.53
+14.27
+14.18
+4,182
+Open in a new tab
+a
+KSC-PHSF, Kennedy Space Center Payload Hazardous Servicing Facility.
+The details of the final assembly are shown in
+Table 1
+. The phylogenetic affiliations of the strains isolated in this study were confirmed based on the similarity of the 16S rRNA gene sequences extracted from the genomes (
+12
+) and the average nucleotide identity (
+13
+). The average nucleotide identities (ANIs) of the queried genomes were calculated using EzBioCloud (
+14
+) with their corresponding type strains.
+Data availability.
+The WGS and raw data are deposited under BioProject accession number
+PRJNA629834
+. The WGS accession numbers are listed in
+Table 1
+. The WGS was also deposited at GeneLab (GeneLab data set GLDS-298,
+https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-298/
+). The version described in this paper is the first version.
+ACKNOWLEDGMENTS
+Part of the research described in this publication was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with NASA. We thank astronauts Terry Virts and Jeffrey Williams for collecting samples aboard the ISS, the Implementation Team at NASA Ames Research Center (Fathi Karouia) for coordinating this effort, and Aleksandra Chechinska-Sielaff for the isolation of the strains. We thank Ryan Kemp (Zymo Corporation) for extracting the DNA and Dan Butler (Cornell Medicine) for the shotgun sequencing. We acknowledge the JPL supercomputing facility staff, notably Narendra J. Patel (Jimmy) and Edward Villanueva, for their continuous support in providing the best possible infrastructure for BIG-DATA analysis.
+We acknowledge government sponsorship. This research was funded by 2012 Space Biology NNH12ZTT001N grant number 19-12829-26 under task order NNN13D111T awarded to K.V., which was also subcontracted to C.C.C.W. and funded a postdoctoral fellowship for S.B.
+REFERENCES
+1.
+Leys NMEJ, Ryngaert A, Bastiaens L, Verstraete W, Top EM, Springael D. 
+2004. 
+Occurrence and phylogenetic diversity of
+Sphingomonas
+strains in soils contaminated with polycyclic aromatic hydrocarbons. Appl Environ Microbiol
+70:1944–1955. doi: 10.1128/aem.70.4.1944-1955.2004.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Pavissich JP, Vargas IT, Gonzalez B, Pasten PA, Pizarro GE. 
+2010. 
+Culture dependent and independent analyses of bacterial communities involved in copper plumbing corrosion. J Appl Microbiol
+109:771–782. doi: 10.1111/j.1365-2672.2010.04704.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Asaf S, Khan AL, Khan MA, Al-Harrasi A, Lee I-J. 
+2018. 
+Complete genome sequencing and analysis of endophytic
+Sphingomonas
+sp. LK11 and its potential in plant growth. 3 Biotech
+8:389. doi: 10.1007/s13205-018-1403-z.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Liu F, Zhan R-L, He Z-Q. 
+2018. 
+First report of bacterial dry rot of mango caused by
+Sphingomonas sanguinis
+in China. Plant Dis
+102:2632. doi: 10.1094/PDIS-04-18-0589-PDN.
+[
+DOI
+] [
+Google Scholar
+]
+5.
+Göker T, Aşık RZ, Yılmaz MB, Çelik İ, Tekiner A. 
+2017.
+Sphingomonas paucimobilis
+: a rare infectious agent found in cerebrospinal fluid. J Korean Neurosurg Soc
+60:481–483. doi: 10.3340/jkns.2014.0102.004.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Hardjo Lugito NP, Cucunawangsih, Kurniawan A. 
+2016. 
+A lethal case of
+Sphingomonas paucimobilis
+bacteremia in an immunocompromised patient. Case Rep Infect Dis
+2016:3294639. doi: 10.1155/2016/3294639.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Checinska Sielaff A, Urbaniak C, Mohan GBM, Stepanov VG, Tran Q, Wood JM, Minich J, McDonald D, Mayer T, Knight R, Karouia F, Fox GE, Venkateswaran K. 
+2019. 
+Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces. Microbiome
+7:50. doi: 10.1186/s40168-019-0666-x.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Patel RK, Jain M. 
+2012. 
+NGS QC Toolkit: a toolkit for quality control of next generation sequencing data. PLoS One
+7:e30619. doi: 10.1371/journal.pone.0030619.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin M, Kulikov AS, Lesin VM, Nikolenko SI, Pham S, Prjibelski AD, Pyshkin AV, Sirotkin AV, Vyahhi N, Tesler G, Alekseyev MA, Pevzner PA. 
+2012. 
+SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. J Comput Biol
+19:455–477. doi: 10.1089/cmb.2012.0021.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Haft DH, DiCuccio M, Badretdin A, Brover V, Chetvernin V, O'Neill K, Li W, Chitsaz F, Derbyshire MK, Gonzales NR, Gwadz M, Lu F, Marchler GH, Song JS, Thanki N, Yamashita RA, Zheng C, Thibaud-Nissen F, Geer LY, Marchler-Bauer A, Pruitt KD. 
+2018. 
+RefSeq: an update on prokaryotic genome annotation and curation. Nucleic Acids Res
+46:D851–D860. doi: 10.1093/nar/gkx1068.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Tatusova T, DiCuccio M, Badretdin A, Chetvernin V, Nawrocki EP, Zaslavsky L, Lomsadze A, Pruitt KD, Borodovsky M, Ostell J. 
+2016. 
+NCBI Prokaryotic Genome Annotation Pipeline. Nucleic Acids Res
+44:6614–6624. doi: 10.1093/nar/gkw569.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Kim O-S, Cho Y-J, Lee K, Yoon S-H, Kim M, Na H, Park S-C, Jeon YS, Lee J-H, Yi H, Won S, Chun J. 
+2012. 
+Introducing EzTaxon-e: a prokaryotic 16S rRNA gene sequence database with phylotypes that represent uncultured species. Int J Syst Evol Microbiol
+62:716–721. doi: 10.1099/ijs.0.038075-0.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Goris J, Konstantinidis KT, Klappenbach JA, Coenye T, Vandamme P, Tiedje JM. 
+2007. 
+DNA–DNA hybridization values and their relationship to whole-genome sequence similarities. Int J Syst Evol Microbiol
+57:81–91. doi: 10.1099/ijs.0.64483-0.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+Yoon S-H, Ha S, Lim J, Kwon S, Chun J. 
+2017. 
+A large-scale evaluation of algorithms to calculate average nucleotide identity. Antonie Van Leeuwenhoek
+110:1281–1286. doi: 10.1007/s10482-017-0844-4.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Data Availability Statement
+The WGS and raw data are deposited under BioProject accession number
+PRJNA629834
+. The WGS accession numbers are listed in
+Table 1
+. The WGS was also deposited at GeneLab (GeneLab data set GLDS-298,
+https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-298/
+). The version described in this paper is the first version.
+Articles from Microbiology Resource Announcements are provided here courtesy of
+American Society for Microbiology (ASM)

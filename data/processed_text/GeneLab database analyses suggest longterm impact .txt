@@ -1,0 +1,1693 @@
+Int J Mol Sci
+. 2019 Feb 3;20(3):661. doi:
+10.3390/ijms20030661
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+GeneLab Database Analyses Suggest Long-Term Impact of Space Radiation on the Cardiovascular System by the Activation of
+FYN
+Through Reactive Oxygen Species
+Afshin Beheshti
+Afshin Beheshti
+1
+WYLE Labs, NASA Ames Research Center, Moffett Field CA 94035, USA
+Find articles by
+Afshin Beheshti
+1,
+*
+,
+J Tyson McDonald
+J Tyson McDonald
+2
+Department of Physics, Hampton University, Hampton, VA 23668 USA; john.mcdonald@hamptonu.edu
+Find articles by
+J Tyson McDonald
+2
+,
+Jack Miller
+Jack Miller
+3
+Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA; j_miller@lbl.gov
+Find articles by
+Jack Miller
+3
+,
+Peter Grabham
+Peter Grabham
+4
+Center for Radiological Research, Columbia University, New York, NY 10032, USA; pwg2@cumc.columbia.edu
+Find articles by
+Peter Grabham
+4
+,
+Sylvain V Costes
+Sylvain V Costes
+5
+NASA Ames Research Center, Space Biosciences Division, Moffett Field, CA 94035, USA
+Find articles by
+Sylvain V Costes
+5,
+*
+Author information
+Article notes
+Copyright and License information
+1
+WYLE Labs, NASA Ames Research Center, Moffett Field CA 94035, USA
+2
+Department of Physics, Hampton University, Hampton, VA 23668 USA; john.mcdonald@hamptonu.edu
+3
+Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA; j_miller@lbl.gov
+4
+Center for Radiological Research, Columbia University, New York, NY 10032, USA; pwg2@cumc.columbia.edu
+5
+NASA Ames Research Center, Space Biosciences Division, Moffett Field, CA 94035, USA
+*
+Correspondence:
+afshin.beheshti@nasa.gov
+(A.B.);
+sylvain.v.costes@nasa.gov
+(S.V.C.); Tel.: +1-650-604-5343 (S.V.C.)
+Received 2019 Jan 15; Accepted 2019 Jan 30; Collection date 2019 Feb.
+© 2019 by the authors.
+Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (
+http://creativecommons.org/licenses/by/4.0/
+).
+PMC Copyright notice
+PMCID: PMC6387434  PMID:
+30717456
+Abstract
+Space radiation has recently been considered a risk factor for astronauts’ cardiac health. As an example, for the case of how to query and identify datasets within NASA’s GeneLab database and demonstrate the database utility, we used an unbiased systems biology method for identifying key genes/drivers for the contribution of space radiation on the cardiovascular system. This knowledge can contribute to designing appropriate experiments targeting these specific pathways. Microarray data from cardiomyocytes of male C57BL/6 mice followed-up for 28 days after exposure to 900 mGy of 1 GeV proton or 150 mGy of 1 GeV/n
+56
+Fe were compared to human endothelial cells (HUVECs) cultured for 7 days on the International Space Station (ISS). We observed common molecular pathways between simulated space radiation and HUVECs flown on the ISS. The analysis suggests
+FYN
+is the central driver/hub for the cardiovascular response to space radiation: the known oxidative stress induced immediately following radiation would only be transient and would upregulate
+FYN
+, which in turn would reduce reactive oxygen species (ROS) levels, protecting the cardiovascular system. The transcriptomic signature of exposure to protons was also much closer to the spaceflight signature than
+56
+Fe’s signature. To our knowledge, this is the first time GeneLab datasets were utilized to provide potential biological indications that the majority of ions on the ISS are protons, clearly illustrating the power of omics analysis. More generally, this work also demonstrates how to combine animal radiation studies done on the ground and spaceflight studies to evaluate human risk in space.
+Keywords:
+space radiation, GeneLab, cardiovascular, HUVECs,
+FYN
+, ROS, reactive oxygen species, cardiomyocytes, protons, iron, HZE irradiation
+1. Introduction
+Long-duration space travel has been associated with a number of human health risk factors, such as space radiation, microgravity, isolation, and hypoxia [
+1
+,
+2
+,
+3
+,
+4
+]. It is now thought that the two main factors driving the majority of the health risks are space radiation and microgravity, with space radiation being the main component for health risk for space missions beyond low Earth orbit (LEO) [
+5
+,
+6
+,
+7
+,
+8
+,
+9
+,
+10
+]. The different organs and related health issues potentially induced by these two aspects of the space environment are continuously studied and updated.
+Space radiation observed on the International Space Station (ISS) is quite different from ionizing radiation found on Earth and is composed primarily of protons (both high and low energy) and HZE ions (high (H) atomic number (Z) and energy (E) ions). Protons are characterized by low linear energy transfer (LET) and HZE by high LET, as opposed to the low LET radiation (x-, β-, or γ-rays) to which humans are commonly exposed to on Earth [
+1
+,
+3
+,
+10
+,
+11
+,
+12
+,
+13
+]. HZE ions are positively charged and are the highly ionizing components of Galactic Cosmic Rays (GCRs) which originate outside of the solar system. The strong carcinogenic potential of HZE [
+14
+] has been a concern for many decades and has been considered the biggest risk factor for human health in missions beyond LEO [
+13
+,
+15
+]. In contrast, in LEO, where the ISS is located, the radiation dose from HZE is reduced due to the protection provided by the Earth’s magnetosphere, and is roughly equal to the dose from low-energy protons trapped in the inner radiation belt [
+13
+,
+16
+]. Most of the ISS orbit lies inside the radiation belts; the majority of the dose is from passages through the South Atlantic Anomaly, where the inner belt drops down to ISS altitudes. An additional risk for missions beyond LEO is from acute doses of high-energy protons from periodic solar particle events (SPEs) [
+14
+]. Data on the biological effects of space radiation has been obtained sporadically in true space conditions from samples flown in LEO (ISS, Space Shuttle, Mir Space Station, satellites carrying biology payloads). The majority of our data has been generated by simulating space radiation on Earth using specific HZE ions or protons at facilities such as the NASA Space Radiation Laboratory (NSRL) at Brookhaven National Laboratory (BNL). Simulated space radiation ground experiments have typically focused a lot more on HZE, reflecting the space radiation environment encountered in a long-duration beyond LEO mission [
+17
+]. To this day, a variety of results indicates that space radiation can increased cancer risk as well as contribute to diseases of the central nervous system (CNS), muscle degeneration, bone loss, and cardiovascular disease [
+10
+,
+15
+].
+Radiation-induced late cardiovascular disease in astronauts is one increasingly prominent concern [
+7
+,
+18
+,
+19
+,
+20
+]. Although many experiments using low-LET radiation have been conducted to show damage to the microvasculature, HZE particle data are limited, and the implications for disease risk need more study. There have been even fewer ground-based studies of the synergistic effects of space radiation and microgravity, which more closely mimic the environment in space. Data from atomic bomb survivors, albeit with different types of radiation, on increased incidence of cardiovascular disease have shown long-lasting effects decades after radiation exposure impacting increased ischemic heart disease, hypertension, and stroke with doses as low as 2 Gy [
+21
+,
+22
+,
+23
+]. Animal and cell culture models have been used to simulate HZE particle and proton radiation and have shown that low doses of high-LET radiation can drastically affect the cardiovascular system [
+7
+,
+20
+,
+24
+,
+25
+,
+26
+,
+27
+,
+28
+]. Specifically, one experiment showed that mice exposed to 0.1 Gy of 150 MeV protons or 0.5 Gy of 600 MeV/n iron ions (
+56
+Fe) experienced large changes in cardiac DNA methylation with potential impacts including heart failure and cardiomyopathy [
+29
+].
+56
+Fe is the most predominant HZE particle in the GCRs, and is a commonly used surrogate for GCR HZE. Other experiments have shown that cells and animal models exposed to proton and HZE radiation increase DNA oxidation, myocardial fibrosis, endothelial dysfunction, and vascular damage [
+24
+,
+27
+,
+28
+,
+30
+]. Although these experiments and data have contributed to the overall knowledge of cardiovascular disease risk from space travel, there are many potential confounding factors besides space radiation (e.g., stress, hypoxia, microgravity). Therefore, our overall understanding of the contribution of space radiation in cardiovascular disease risk and their mechanisms remain an open question.
+To further pursue the cardiovascular impact due to space radiation we utilized publicly available transcriptomic data that is available on NASA’s GeneLab platform (genelab.nasa.gov) [
+17
+] related to cardiovascular disease and the space environment. NASA’s GeneLab platform is a resource available to the public that has provided the first comprehensive omics database related to space. Due to the limited omics data available related to space radiation and cardiovascular disease, we analyzed two datasets from ground experiments designed to characterize the long-term impact following space irradiation (protons and
+56
+Fe) on cardiomyocytes for five different time-points up to 28 days after irradiation and one spaceflight experiment studying the impact of human umbilical vein endothelial cells (HUVECs) cultivated in the space environment on the ISS for seven days. Two components that make up the cardiac tissue are cardiomyocytes and endothelial cells and both cell types are heavily involved with cardiac remodeling and regeneration [
+31
+]. Although there are more components to the cardiac tissue, from the datasets available from the GeneLab related to the cardiovascular system, we will only focus on these components. Using these datasets, we hypothesized that there are common long-term molecules and pathways modulating the cardiovascular system due to radiation effects during spaceflight. Using a systems biology approach, we were able to suggest a novel mechanism through the FYN pathway [
+32
+,
+33
+,
+34
+,
+35
+] that the cardiovascular system uses to reduce reactive oxygen species (ROS) levels when exposed to space radiation. Briefly, FYN is a member of the Src family of tyrosine kinases that has been previously shown to be heavily involved with the cardiovascular system through cardiomyocyte remodeling [
+36
+,
+37
+] and also leads to activation due to ROS [
+32
+,
+33
+,
+38
+,
+39
+]. In addition to FYN’s involvement with the cardiovascular system, it has also been reported to be a tumor suppressor [
+40
+,
+41
+], a key player in controlling immune receptor signaling status and inflammation [
+42
+], and has been shown to affect myelination of the central nervous system through crosstalk with Erk1/2 signaling [
+43
+]. For our findings, although the ROS levels are reduced through Fyn signaling, we show the potential of other pathways that will still contribute to increased cardiovascular risk in the space environment such as increased inflammation. In addition, we are able to suggest that HUVEC cells grown on the ISS in LEO show a molecular response that is in agreement with responses observed on Earth with simulated protons but with less commonality with heavier HZE ions, as one would expect from the predominance of protons found in LEO space radiation. This finding is critical as it highlights the relevance of simulated space radiation experiments conducted on Earth, as they are shown here as able to recapitulate what is observed in space. This work illustrates the power of unbiased omics analysis and how the GeneLab database has become an essential tool to better characterize the response of a life to space environment. More generally, these novel findings have potential to contribute to current cardiovascular risk models for spaceflight.
+2. Results
+2.1. Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+To study the impact of space radiation on the cardiovascular system we utilized three GeneLab datasets (GLDS-52, -117, and -109). As described in detail in the methods, two datasets were focused on simulated space radiation studies performed on the ground. More specifically, male C57BL/6 mice received either an acute whole-body irradiation of 900 mGy proton at 1 GeV (GLDS-117) or 150 mGy
+56
+Fe at 1 GeV/n (GLDS-109). Subsequently, cardiomyocytes were isolated and fixed from mice sacrificed at five different time-points post-irradiation. Unfortunately, 0 Gy control for the original study was acquired only at the first time-point (i.e., day 1). Although this is not the most optimal setup for these types of experiments, we will show that former datasets from GeneLab without the desired experimental setup can still produce meaningful results to guide space biology research. To test if simulated space radiation studies relate to the space environment, we also analyzed a spaceflight study (GLDS-52) which cultivated HUVECs on the ISS for 7 days before the cells were fixed. The HUVEC controls for the GLDS-52 datasets were cultured for the same length and methodology as the samples flown on the ISS, but were done on Earth [
+44
+]. Although all datasets utilized for this analysis were from microarray platforms, due to the incompatibility and batch effects that arise between different experiments, we had to analyze each dataset separately. We used either one-way ANOVA analysis for the simulated space radiation studies (all time-points were used to determine the significant genes) or
+t
+-test analysis with a
+p
+-value ≤ 0.05 for the spaceflight study. We produced the following statistically significant genes for each condition: for the proton study (GLDS-117) there were 2540 significantly regulated genes, for the
+56
+Fe study (GLDS-109) there were 5554 significantly regulated genes, and for the spaceflight study (GLDS-52) there were 823 significantly regulated genes. We also checked the number of genes that would be produced with more stringent statistics using the adjusted Bonferroni method for a false discovery rate (FDR) of both ≤0.05 and 0.10. This approach produced the following number of genes for each condition: for the proton study (GLDS-117) there were 2 or 6 significantly regulated genes with either FDR ≤ 0.05 or 0.10, for the
+56
+Fe study (GLDS-109) there were 7 or 12 significantly regulated genes with either FDR ≤ 0.05 or 0.10, and for the spaceflight study (GLDS-52) there were no significantly regulated genes with either FDR cutoff.
+Note that our results do not agree with the original analysis published on the ground studies data [
+45
+]. Coleman et al. reported 5220 significant genes for
+56
+Fe and 1651 significant genes for proton datasets using a
+p
+-value cutoff of 0.05 using one-way ANOVA analysis. Similarly, they reported 1538 significant genes using FDR < 0.10 with Benjamini–Hochberg correction. We were unable to reproduce the reported number of genes following the same procedure. Such discrepancy illustrates the importance of standard processing pipeline for analysis, as the protocol reported in Coleman et al. was not sufficient to allow reproducibility. One must note here that microarray analysis is highly sensitive in the way one normalizes data, with many available methods. For this reason, the Genelab team has established standardized processing workflows for all raw omics data (
+https://genelab-data.ndc.nasa.gov/genelab/projects
+). These pipelines were obtained as a consensus between more than 100 scientists who have joined the GeneLab Analysis Working Group (AWG) and covered transcriptomics (RNAseq and microarray), as well as metagenomics, epigenomics, proteomics, and metabolomics. The GeneLab team is in the process of documenting all these pipelines and making them available progressively online via the GeneLab toolshed (
+https://genelab-data.ndc.nasa.gov/glxy-sso-login/
+). For the two ground studies presented in this manuscript, the low number of replicates were incompatible with the stringent statistical method we recommend for GeneLab microarray data. Therefore, we could not utilize it here as it would not produce enough significant genes for a meta-analysis of this kind. We used instead a statistically acceptable but less stringent method (see Materials and Methods). We recommend the readers to go to the GeneLab toolshed for the latest recommended approach.
+The global differences between all the time-points and conditions were assessed for each dataset (
+Figure 1
+). Using principal component analysis (PCA), we were able to distinguish global differences between the controls and the experimental groups (
+Figure 1
+A–C). Overall for both proton and
+56
+Fe ion irradiation, the 0 Gy control samples were clustered separately from the rest of the irradiated samples (
+Figure 1
+A,B). It is interesting to note that the samples that produced the greatest separation were the cardiomyocytes isolated at the longest time-points (either 26 or 28 days) after irradiation. This is apparent in the principle component 2 (PC2) axis for protons (
+Figure 1
+A) and for
+56
+Fe ions these points are clustering further apart in the negative PC1 axis from all other samples. This could be interpreted as space radiation (i.e., protons and
+56
+Fe) producing long-lasting impact on the biology with a progressive response overtime. However, we cannot say for certain as there was no 0 Gy control done for the 26 day time-point. In contrast, when comparing spaceflight to ground controls for the HUVECs cultivated on the ISS (
+Figure 1
+C), we observed a much cleaner separation between the groups on the PCA plot.
+Figure 1.
+Open in a new tab
+Global transcriptome analysis comparing experimental conditions to the controls for ground space radiation experiments and spaceflight experiment. The datasets analyzed were GeneLab Dataset (GLDS)-117 for cardiomyocytes isolated from C57BL/6 irradiated with whole body 900 mGy of proton at 1 GeV, GLDS-109 for cardiomyocytes isolated from C57BL/6 irradiated with whole body 150 mGy of
+56
+Fe at 1 GeV/n, and GLDS-52 for Human Umbilical Vein Endothelial Cells (HUVECs) incubated on the International Space Station (ISS) for 7 days (estimated dose 1.5 mGy, see
+Section 2.2
+). (
+A
+–
+C
+) Principal component analysis (PCA) of all conditions for each dataset for genes. The percentage variance is shown for each principal component (PC) in parenthesis next to the PC axis. (
+D
+–
+F
+) Heat maps representing hierarchical clustering of significantly regulated genes by complete linkage and Euclidean distance calculation for datasets and conditions.
+When considering only the significantly regulated genes we see more refined separation between the different experimental groups (
+Figure 1
+D–F). For the significantly regulated genes, the 0 Gy controls in general were clustered independently from the rest of the irradiated samples with what appears to be a time dependence with the gene signature changing for each timepoint after the acute dose. There also was a distinct group of genes that were oppositely regulated for HUVECs flown in space compared to the ground controls. This data indicates that there is a distinct gene signature associated with space radiation and the impact of one acute dose can potentially have long-lasting effects on the cardiovascular system.
+2.2. Dose Received by HUVECs Flown in Space
+The data are from the European Space Agency-Integrated Experiment (ESA-SPHINX) experiment (10/31/10–11/6/10) [
+44
+]. The cells were launched to the ISS on a Russian Progress supply vehicle, cultured for 7 days in the KUBIK incubator on the European Space Agency (ESA) Columbus module, and then fixed. To be able to compare the dose received on the ISS to the simulated radiation ground studies, we obtained dose data from a detector located on the Columbus. (Data provided kindly by T. Berger from the German Aerospace Center (DLR)). The measured dose rate was almost constant throughout the experiment with an average of 220.43 µGy/day (in water) with a standard deviation of 1.90 µGy/day (in water) measured over the period of the experiment (Data provided kindly by T. Berger from the DLR and additional details can be found in the original publication [
+44
+]). The total dose was 1.544 mGy (in water) with the dose equivalent to 3.7 mSv, of which 58% was from high-energy protons and other GCR ions, and 42% from low-energy protons in the South Atlantic Anomaly (SAA). The actual dose to the samples was probably somewhat lower, as they were shielded by the incubator. Here it is important to make the distinction between particle energy and LET, which is essentially energy loss per unit path length and is proportional to the square of the charge. Linear energy transfer (LET) is a measure of how ionizing a particle is; because they are singly charged, both high- and low-energy protons are relatively low LET.
+2.3. Common Pathways between Simulated Space Radiation and Spaceflight Samples
+To fully understand the specific and long-lasting effects of space radiation on biology, we have to understand the general pathways that are being regulated. We first utilized gene set enrichment analysis (GSEA) [
+46
+] to determine significant pathways being regulated for each condition with an FDR ≤ 0.05. Using the Hallmarks (a more generalized pathway database, see
+Figure 2
+) and Reactome (
+Figure 3
+) gene sets for GSEA, we were able to identify key pathways that are commonly being regulated for all ground controls compared to the spaceflight samples or irradiated samples. We first observed that the majority of pathways for most time-points after radiation for the cardiomyocytes that were commonly regulated with the HUVEC spaceflight samples were downregulated (with the exception of one time-point at 1 day for samples irradiated with protons for some nodes) (
+Figure 2
+A). The time-points and samples were associated with each wedge in the node as displayed in the figure legend for
+Figure 2
+. Specifically, ROS pathways were surprisingly downregulated (indicating a decrease in ROS production) for the majority of the conditions, which suggests an immediate and persistent impact of space radiation on the cardiovascular system, which is also observed on flight samples as well. The other pathways that were downregulated have been shown from the literature to be connected to the ROS pathway. For example, fatty acid metabolism, which is one of the primary sources of energy for cardiac muscle, has a direct link to ROS formation and regulation through the mitochondria (
+Figure 2
+) [
+47
+]. It is interesting to note that it has been reported that the ROS production from the mitochondria is an important mechanism of how ROS impacts cardiac tissue [
+48
+]. Knocking out MYC has been shown to cause low levels of glycolysis and oxidative phosphorylation (
+Figure 2
+and
+Figure 3
+) [
+49
+]. It is known that oxidative phosphorylation will produce ROS [
+50
+] and with the downregulation of MYC, this can potentially reduce oxidative phosphorylation levels which in turn will reduce ROS. Reactive oxygen species have also been shown to promote adipogenesis [
+51
+] and will be involved with heme metabolism (
+Figure 2
+) [
+52
+]. We also observed an overall downregulation of cell cycle pathways (
+Figure 3
+). We believe that this might be potentially due to the downregulation of ROS signaling, since it has been previously shown that ROS can heavily influence the cell cycle [
+53
+]. The downregulation of ROS seems to also lead to overall downregulation of cell cycle pathways (
+Figure 3
+). In general, ROS have been shown to be critically involved with the development of cardiovascular disease [
+52
+]. Through all these related downregulated pathways, we show that ROS potentially have long-lasting (
+Figure 2
+) effects directly linked to the space environment on the cardiovascular systems. On the other hand, surprisingly DNA repair hallmarks were downregulated for all irradiated samples at any time-point, whereas it was upregulated in space (
+Figure 2
+, top right panel). This result is unexpected as DNA repair is definitely expected early after exposure and suggests the cardiac response is quite different.
+Figure 2.
+Open in a new tab
+Gene set enrichment analysis (GSEA) emphasizing the hallmark gene sets commonly enriched in cardiomyocytes of irradiated animals or HUVECs flown in space. (
+A
+) Common Hallmark gene sets enriched in spaceflight samples and irradiated samples. The majority of these datasets are downregulated. (
+B
+) Hallmark gene sets that are oppositely regulated between all irradiated samples and the spaceflight samples. (
+C
+) Hallmark gene sets commonly enriched in cardiomyocytes of animals irradiated with 1 GeV/n proton or HUVECs flown in space. Note, most of them are upregulated. (
+D
+) Hallmark gene sets commonly enriched in cardiomyocytes of animals irradiated with 1 GeV/n
+56
+Fe or HUVECs flown in space. Note, most of them are downregulated for
+56
+Fe and spaceflight samples. Note: all samples were comparing experimental conditions with the respective controls. For figures (
+C
+,
+D
+), the common wedges are highlighted in yellow outline. The significant gene sets were determined with false discovery rate (FDR) ≤ 0.05. The legend in the middle of the figure displays what each component/wedge of the nodes represent. Each node contains 11 wedges for each condition and the color of each wedge indicates if the gene set is downregulated (blue) or upregulated (red). The shade of the color indicates the degree of regulation. Each node represents one gene set and the size of the node indicates the number of genes involved with the predictions. Pathways with more than one node are grouped together in the black boxes under each major category.
+Figure 3.
+Open in a new tab
+Gene set enrichment analysis (GSEA) with the Reactome gene sets comparing different time-points after irradiation with either protons or
+56
+Fe with the HUVECs flown in the space. All samples were comparing experimental conditions with the respective controls. The significant gene sets were determined with FDR ≤ 0.05. Each node represents one gene set and the size of the node indicates the number of genes involved with the predictions. Each node contains 11 wedges for each condition and the color of each wedge indicates if the gene set is downregulated (blue) or upregulated (red). The shade of the color indicates degree of regulation.
+2.4. The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by
+56
+Fe Ions
+To test if one type of space radiation has a predominant effect on a spaceflight sample, one can compare the predicted pathways from one radiation condition alone with spaceflight samples.
+Figure 2
+C shows that the majority of pathways specifically in common with protons and spaceflight were upregulated, while
+Figure 2
+D shows the
+56
+Fe component in common with spaceflight was downregulated. TGFβ signaling has been shown in the past to be a key player with regulating the overall system with proton irradiation (
+Figure 2
+) [
+11
+,
+54
+,
+55
+]. In order to further validate these results, we use another functional prediction tool, Ingenuity Pathway Analysis (IPA), to predict the involvement of specific upstream regulators, biofunctions, and canonical pathways in the various datasets (
+Figure 4
+A–C). In general, the overall pathways and functions overlap with the GSEA findings. For example, we observed in the upstream regulator predictions that MYC is downregulated for the majority for the pathways. We also observed that the following upstream regulators were predicted to activate or inhibit in the same directions as the GSEA predictions: p53, HIF1A, IL2, and IL6. The mTOR signaling canonical pathway also overlaps with the GSEA predictions.
+Figure 4.
+Open in a new tab
+Predicted functions and upstream regulators affected by space radiation for HUVECs exposed to the space environment and cardiomyocytes from mice exposed to protons and
+56
+Fe ion irradiation with multiple time-points after irradiation. The predicted statistically significant biofunctions (
+A
+), upstream regulators (
+B
+), and canonical pathways (
+C
+), determined through Ingenuity Pathway Analysis (IPA) from data for each individual dataset using activation
+Z
+-score statistics. Heat map representation of the activation
+Z
+-score values (red = positive activation
+Z
+-score for activation and blue = negative activation
+Z
+-score for inhibition) with hierarchical clustering by complete linkage and Euclidean distance calculation for datasets and conditions were used to display the data. The prevalence of change (or % of dataset) on the left side of the heat maps represents how common that factor is throughout all datasets/tissues with the darkest color representing factors with the highest degree in common. Time after irradiation, cell type, and experiment is color coded on the top of the heat maps. For all heat maps we are only showing the prevalence of change for the functions associated with the top 4 (i.e., a prevalence of change score ≥ 7). Global clustering of the biofunctions (
+D
+), upstream regulators (
+E
+), and canonical pathways (
+F
+) for all samples are shown by principal component analysis (PCA). For the PCA plots we used all functions for each datapoint regardless of the prevalence of change score.
+We were interested in determining how these overall functions from the ground experiments will group with the spaceflight samples. Using the activation
+Z
+-scores from the IPA results we were able to provide direct comparisons between all the samples, which we were not able to perform with the expression values due to the incompatibility of the microarray outputs. Using principal component analysis on
+Z
+-scores, we show that all cardiomyocyte samples irradiated with protons have biofunctions, upstream regulators and canonical pathways which cluster closely to the spaceflight samples (
+Figure 4
+D–F). In contrast, IPA functional predictions for cardiomyocytes from mice irradiated with
+56
+Fe are nicely grouped together for three of the time-points (1 day, 3 days, and 14 days), while 7 days and 28 days seem to behave as outliers when compared to the other datasets. Overall, all time-points for
+56
+Fe were clearly separated from the spaceflight and proton irradiated samples in the PC1 axis. Since the appropriate controls were not used for these datasets by the original investigators, we felt it appropriate to provide the potential that these two time-points may be outliers and a person may consider to remove these points from additional analysis. It is important to demonstrate how less than ideal GeneLab datasets can still have potential to provide meaningful results.
+This result is also evident on
+Figure 4
+A–C, where most predicted IPA functions have negative
+Z
+-scores for 3 out of 5
+56
+Fe time-points, whereas all proton time-points and flight samples show positive
+Z
+-scores (red). These results indicate that the overall functional impact on samples caused by space radiation on the ISS are due to protons rather than HZE ions. In the past it has been difficult to determine which component of the ions in space will impact samples on the ISS. Previous models have predicted that due to SPEs and the protection of the magnetosphere around the Earth from HZE ions, astronauts should be mainly exposed to protons at LEO [
+2
+,
+10
+,
+13
+,
+15
+,
+16
+]. To our knowledge this is the first time suggesting from data utilized from the GeneLab that at LEO, protons will be the majority of ions that samples are exposed to. This data can provide a contribution to relating the biology being observed on the ISS to the correct type of irradiation that samples are exposed to.
+2.5. Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+To determine the key driving genes in an unbiased methodology we used an established systems biology approach that identifies the key genes involved in explaining the predicted biological functions changed by a specific treatment [
+54
+,
+55
+,
+56
+,
+57
+,
+58
+,
+59
+,
+60
+]. Our data has shown potential long-lasting impact of cardiomyocytes when comparing to the basal 1 day controls. Due to the original study design we did not have the optimal controls to compare to every time-point, but since there are relevant biological changes occurring when compared to the basal (1 day) ground controls, we hypothesis that there will be consistent long-lasting impact on cardiomyocytes isolated from mice irradiated with protons and
+56
+Fe ion irradiation. In addition, this will also show how to creatively utilize less than ideal GeneLab datasets to generate meaningful biology to guide future research. For the key gene analysis, we pooled all irradiated time-points together to determine the common key driving genes for each type of radiation. Since we also observed that the 7 day and 28 day time-points for
+56
+Fe vs. the control were acting as outliers (
+Figure 4
+D–F), we performed an additional key genes analysis excluding those time-points. This will only affect the key genes associated with
+56
+Fe. This is an essential strategy to better identify the key genes specific to space radiation, which are able to relate back to the spaceflight data.
+Utilizing the unbiased methodology described in the methods and further explained previously [
+54
+,
+55
+,
+56
+,
+57
+], we found utilizing all time-points nine persistent key genes for cardiomyocytes isolated from mice that received 150 mGy
+56
+Fe and seven persistent key genes for cardiomyocytes isolated from mice that received 900 mGy protons. From the HUVECs flown on the ISS for seven days, we found nine key genes (
+Figure 5
+A). When excluding the outlier time-points for
+56
+Fe (7 and 28 days), we obtain 85 key genes for cardiomyocytes isolated from mice that received 150 mGy
+56
+Fe (
+Figure 5
+B). We were able to determine the connectivity of these key genes between the experiments through network analysis. This allowed us to find potential relationships with how the ground studies relate to the spaceflight experiments, and the central hubs or the most connected key genes that might be responsible for space radiation effects on the cardiovascular system. We found that the key/driving genes that are the central hubs are:
+FYN
+,
+LCK
+,
+AKT1
+being upregulated and
+LYN
+and
+FOS
+being downregulated with
+FYN
+being the overall central driver/hub for the cardiovascular response to space radiation (Figure 5A). It is worth noting the activation of
+FYN
+is a key event which prevents cardiac cell death and ROS production [
+35
+,
+36
+]. Interestingly it is known that
+LCK
+,
+LYN
+, and
+FYN
+are part of the SRC-family kinases (SFKs) [
+37
+,
+61
+,
+62
+,
+63
+] and have been associated with various aspects of cardiovascular disease [
+62
+,
+64
+,
+65
+,
+66
+,
+67
+]. In addition,
+FYN
+and
+AKT1
+are shown to be pivotal with angiogenic functions and the relation to cardiovascular disease [
+68
+,
+69
+]. Lastly, utilizing Z-scores through IPA we were able to show that these key genes provide a predicted inhibition of cell death of cardiomyocytes, congenital heart disease, and cardiac fibrillation (
+Figure 5
+). There also is a predicted inflammation of the organs which can cause negative health risk. Through an unbiased methodology we were able to show a link of key driving genes between ground and spaceflight studies that potential will have direct impact on the cardiovascular system.
+Figure 5.
+Open in a new tab
+The key driving genes associated with space radiation and the predicted functions that these genes will affect. A circular network created with IPA is utilized connecting all the key genes from each experimental condition (i.e., common key genes for all time-points for both cardiomyocytes from mice irradiated with either 150 mGy
+56
+Fe or 900 mGy protons compared to 0 Gy controls and HUVECs flown in on the ISS for 7 days compared to the ground control). The color of the gene represents whether the gene is upregulated (red) or downregulated (green) with the shade signifying the degree of regulation. (
+A
+) The network of key genes done with analysis using all time-points and samples. (
+B
+) The network of key genes for analysis done with all time-points except for 7 and 28 days for
+56
+Fe vs Ctrl. For this analysis there were three key genes that overlapped between the cardiomyocytes irradiated with protons and
+56
+Fe (
+CD4
+,
+CD3G
+, and
+LCK
+). These were oppositely regulated between the two irradiation conditions and the colors in the top half indicate the gene expression for protons and the bottom indicates the gene expression for
+56
+Fe. The different line colors represent the predicted effect of each gene on each other. Predicted functional impact of the key genes were determined using IPA which allowed us to predict whether cardiac related functions were either inhibited (blue) or activated (orange). The identification of the symbols for each gene is shown on the bottom of the figure.
+For the key genes analysis excluding the two outlier points (
+Figure 5
+B), since there were more key genes for
+56
+Fe, additional predictions can be made for the functions related to cardiovascular system. For those key genes we show that in addition the functional impact described above, we also observe a predicted activation for damage to the heart. This can be attributed to potential damage caused by the key genes associated with
+56
+Fe to promote damage to the heart tissue. In addition, we also observe three genes that overlap between the cardiomyocytes irradiation with protons and
+56
+Fe:
+CD4
+,
+CD3G
+, and
+LCK
+. These genes are shown to be oppositely regulated between the irradiation conditions that can indicate potential different functional impact that can occur with the different ions. Since we are indicating that the majority of the ions that are affecting samples at LEO are protons (
+Figure 4
+D–F), for our interpretation of the overall data we will consider the upregulation of these three genes associated with proton irradiation to be the impact it will have on the samples.
+2.6. Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+We recently predicted a microRNA (miRNA) signature that was associated with microgravity and potential the space environment [
+54
+]. Utilizing a Cytoscape [
+70
+] plugin referred to as ClueGo [
+71
+], we were able to predict the top 30 miRNAs associated with the key genes (
+Figure 6
+). We believe that these miRNAs are associated with cardiovascular risk associated with space radiation. Interestingly, from an unbiased determination of the miRNAs, many of the predicted miRNAs have previously been associated with cardiovascular disease. For example 17 out of the 30 miRNAs predicted (miR-15a-5p, miR-16-5p, miR-29a-3p, miR-29b-3p, miR-101-3p, miR-125b-5p, miR-148a-3p, miR-153, miR-185-5p, miR-199a-3p, miR-221-3p, miR-302a, miR-520d-5p let-7a, let-7b, let-7d, and let-7f-1) have previously been reported to be either up- or downregulated in human heart disease and experimental models of heart failure [
+72
+]. Further, the let-7 family and miR-125b have been specifically shown to be involved with regulation of cardiomyocyte apoptosis [
+73
+]. Lastly, three of the miRNAs have overlap with our recently predicted miRNAs associated with the space environment which are: miR-125b-5p, miR-16-5p, and let-7a [
+54
+]. This can indicate from the original 13 miRNAs that comprised the systemic miRNA signature associated with spaceflight, that these three miRNAs are the components related to the cardiovascular system and space radiation.
+Figure 6.
+Open in a new tab
+The top 30 miRNAs associated with all the key genes determined by Cytoscape [
+70
+] plugin referred to as ClueGo [
+71
+].
+3. Discussion
+For long-term space travel, cardiovascular risk is a major concern to astronauts and is thought to arise from both microgravity effects and exposure to space radiation. Here we focused on how NASA’s GeneLab platform and datasets can be utilized to suggest the potential impact of space radiation on the cardiovascular system. Through an unbiased systems biology approach, we utilized three datasets (GLDS-52, -109, and -117) from NASA’s GeneLab platform that were related to space radiation and the cardiovascular system. Two of the datasets were from ground studies focused on cardiomyocytes that were isolated from mice after an acute whole-body dose of either 900 mGy of protons or 150 mGy of
+56
+Fe [
+45
+]. The other study observed HUVECs for 7 days on the ISS [
+44
+]. As noted previously, the HUVECs received a total dose of 1.544 mGy, mostly from low LET protons. Through our unbiased analysis we were able to suggest: 1) that, consistent with the dose data, the majority of the radiation experienced on the ISS is potentially from protons (
+Figure 4
+D–F and
+Figure 2
+), a novel response mechanism of the cardiovascular system to prevent damage caused by space radiation through the activation of
+FYN
+.
+By identifying the key genes in all three datasets, we proposed that
+FYN
+is the most connected gene and is therefore the central hub for this common biological response. This leads us to hypothesize that there is a feedback loop triggered by the oxidative stress induced by space radiation that upregulates
+FYN
+which in turn reduces ROS levels, and thus ROS pathways. Interestingly, this feedback loop is accompanied with a downregulation of the DNA repair pathway in the animals but not in the HUVECs flown in space, suggesting a response that is more targeted to the cardiovascular system in a full organism (
+Figure 2
+). By reducing ROS formation, cardiomyocyte and endothelial cells are less likely to die, leading to an overall protection of the cardiovascular system (
+Figure 7
+). More specifically,
+FYN
+was found to be upregulated within each group of the key genes associated with each dataset providing an overall predicted inhibition of ROS and cell death, while causing an activation of inflammation due to space radiation. This effect was suggested to be long-term since the key factors were from common genes being regulated the same direction up to 28 days after irradiation for the ground studies.
+Figure 7.
+Open in a new tab
+A schematic of the mechanism involved with the space radiation impact on the cardiovascular system. We determined that through the upregulation of
+FYN
+(the determined key/central driver involved with space radiation), ROS is downregulated to protect against the upregulation due to space radiation. Although
+FYN
+is predicted to be the central player, the other key genes involved from each dataset (
+Figure 5
+) will contribute to the reduction in ROS and cell death. In addition, we also observe potential increased cardiovascular health risk due to increased predictions of inflammation.
+FYN, which is part of the SRC family kinases (which includes nine non-receptor tyrosine kinases discussed in the results), has been shown to be heavily involved with the cardiovascular system by decreasing ROS production and apoptosis [
+36
+]. Our analysis also agrees with what has been observed with the cardiovascular literature. It has been shown that knocking out
+FYN
+increases cardiac cell death and induces ROS production through NADPH Oxidase 4 (NOX4) signaling [
+36
+]. Others have shown
+FYN
+kinase inhibitors also inhibits nuclear factor erythroid 2–related factor 2 (NRF2) activity (which is an essential molecule for cardiac adaptive responses and protection) and enhances myocardial necrosis and death rate [
+39
+].
+NRF2
+is also known to be essential in sensing ROS and regulating protection against damaging changes to the redox balance [
+74
+,
+75
+]. This mechanism has been discovered to be heavily regulated by
+FYN
+activation phosphorylating NRF2 which in turn triggers a defense response to ROS [
+75
+].
+Space radiation has previously been shown to induce ROS in tissue and negatively impact the host [
+76
+,
+77
+]. What is novel about our finding is that the universal ROS impact that has classically been thought to impact all tissue does not seem to fit with cells involved with the cardiovascular system. Although ROS should be initially activated in cardiovascular tissue after exposure to space radiation, this mechanism through
+FYN
+attempts to protect the cardiovascular system. As discussed above, in a normal response with other types of external damage causing oxidative stress on the cardiovascular system, it has been shown that
+FYN
+will be activated and act as a negative feedback regulator to protect the cardiac tissue [
+36
+]. This mechanism has not been previously considered as an internal protective countermeasure to the effects of space radiation on cardiac tissue. Here we propose that there is a protective negative feedback loop that allows
+FYN
+to inhibit the ROS activation that is triggered by space radiation (
+Figure 7
+).
+Although this seems to provide protection against a key player in space radiation damage to the cardiac tissue, other factors still seem to have a negative impact on the cardiovascular system that can increase risk of cardiovascular disease. To that end, we also observed a predicted activation of inflammation due to the key genes (
+Figure 4
+,
+Figure 5
+, and
+Figure 7
+). It is well known that inflammation in cardiac tissue has been associated with cardiovascular disease [
+78
+]. It has also been shown that reduction of ROS through antioxidants can potentially elevate chronic inflammation in cardiac tissue [
+78
+]. Our data suggests that although
+FYN
+might be acting as a natural antioxidant to reduce ROS effects, this mechanism might not be enough to reduce the inflammation caused by space radiation which has the potential to increase risk of cardiovascular disease.
+From our previous studies, we have observed that miRNAs can be a key driver in response to the damage caused by the space environment [
+54
+]. We were able to predict the top 30 miRNAs that have potential to respond to space radiation in the cardiovascular system (
+Figure 6
+). Surprisingly, 17 out 30 miRNAs predicted have been shown to be associated with heart failure and play a role in cardiovascular disease [
+73
+]. Three out of 30 miRNAs also overlap with our previously identified universal miRNA signature that we have shown to systemically impact an organism due to a space environment. This preliminary result indicates that we have potential candidates for the specific component related to the cardiac tissue and space radiation. Currently, there is a lack of information for the role miRNAs in space radiation’s effect on the cardiovascular system. Our findings warrant further investigations to determine the extent to which miRNAs impact
+FYN
+and ROS due to space radiation.
+We believe that the novel mechanism presented here for space radiation induced cardiovascular risk will impact the further development of space radiation risk models. We were able to directly link radiation ground studies to spaceflight and provide a rationale of how the cardiovascular system can help reduce ROS. We have shown through the power of NASA’s GeneLab platform that novel findings can be produced from existing data from former studies. By creatively combing several datasets we have potential indication of the specific space radiation component that astronauts are being exposed to at LEO on the ISS. It has been previously thought that protons comprise the majority of ions that astronauts are exposed to in LEO [
+16
+], but biological data have been lacking. Of course, further experiments have to be performed to determine whether these findings are true which can involve doing radiation ground experiments with HUVECs at 1.5 mGy (a comparable dose to the ISS for 7 days) and then once again comparing the gene expression changes to the dataset used here. The power of this type of analysis with GeneLab datasets allows for future guidance for space biology related experiments. In addition, we were able to uncover a novel mechanism underlying space radiation’s impact on the cardiovascular system. Although this study was done purely based on omics data, we believe that we have shown the power of using purely in silico methods to provide novel data. In addition, this manuscript demonstrates that GeneLab data can be utilized to give important hints to plan expensive space and accelerator experiments very carefully and not to be parsimonious when including the relevant controls and baselines. Further studies should be implemented to validate the findings reported here and potentially develop countermeasures for cardiovascular risk due spaceflight.
+4. Materials and Methods
+4.1. Datasets Utilized from the GeneLab Platform
+All data used for this manuscript were obtained from GeneLab (genelab.nasa.gov). The following datasets were used: GLDS-52, -109, and -117. Spaceflight mission and ground radiation experimental details for each dataset such as, the handling of the cells, RNA extraction, and raw data pertaining to the microarray can be found in the GeneLab database. Briefly, we used two ground studies utilizing cardiomyocytes isolated from 8 to 9 months old male C57BL/6NT mice that have been whole-body irradiated with either one acute dose of 900 mGy protons at 1 GeV (GLDS-117) or 150 mGy of iron ions (
+56
+Fe) at 1 GeV/n (GLDS-109) and 5 time-points up to 28 days were collected after irradiation [
+45
+]. For protons, the following time-points were used for transcriptomic analysis: 1 day (
+n
+= 2), 3 days (
+n
+= 3), 5 days (
+n
+= 2), 12 days (
+n
+= 2), and 26 days (
+n
+= 2). For
+56
+Fe, the following time-points were used for transcriptomic analysis: 1 day (
+n
+= 3), 3 days (
+n
+= 3), 7 days (
+n
+= 2), 14 days (
+n
+= 2), and 28 days (
+n
+= 2). For both experiments cardiomyocytes were also isolated from 0 Gy sham at the following time-points and data was pooled between all time-points for the controls: 1 day (
+n
+= 2) and 3 days (
+n
+= 1). All cardiomyocytes were isolated by microdissection from tissue dissections in order to remove other cell types. One spaceflight study was used that flew HUVECs to the ISS and the cells were exposed to space environment in vitro under standard conditions for 7 days before the cells were preserved in RNAlater [
+44
+]. The ground controls used for this study are 1 ×
+g
+controls that were grown on Earth with identical conditions compared to the cells on the ISS.
+4.2. Transcriptomic Analysis
+The available transcriptomic data for tissues from GLDS-52, -109, and -117 datasets were previously performed on different versions of Affymetrix platforms. Due to the incompatibility and batch issues of processed data from these different platforms, all datasets were analyzed independently and the processed data was compared across all tissues. Datasets were background adjusted and quantile normalized using RMAExpress [
+79
+]. The probes from the pre-processed data were median collapsed using GenePattern [
+80
+]. All the data for each tissue/dataset was imported into MultiExperiment Viewer [
+81
+] and statistically significant genes was determined by ANOVA analysis between all conditions for GLDS-109 and -117, and a
+p
+-value ≤ 0.05 and
+t
+-test with a
+p
+-value for GLDS-52. The number of significant genes was used for the rest the analysis for the higher-order analysis.
+Pathway analysis and subsequent predictions in each tissue were done using the statistically significant genes with a fold-change ≥1.2 (or ≤−1.2) comparing flight conditions versus ground controls or irradiated samples vs. unirradiated samples for ground experiments. Using a 1.2-fold-change cutoff allowed us to determine the impact of how major pathways were being regulated that would not be apparent with larger fold-change cutoffs. It was shown in the literature that larger fold-change values used for Omics data will significantly reduce useful biological data that becomes apparent when using lower fold-change cutoffs [
+82
+,
+83
+]. Ingenuity Pathway Analysis (IPA) software (Ingenuity Systems) was used to predict statistically significant activation or inhibition of upstream regulators, canonical pathways, biofunctions, and toxic functions using activation
+Z
+-score statistics (≥2, activated or ≤−2, inhibited) [
+84
+]. Gene set enrichment analysis (GSEA) was done using the C2, C5, and Hallmarks gene sets with a FDR ≤ 0.05 from the entire list of genes and additional leading edge analysis was performed as described by Subramanian et al. [
+46
+]. All heat maps and principal component analysis (PCA) plots were generated using packages available through R (pheatmap for heat maps and scatterplot3d for PCA plots).
+4.3. Determination of Key Genes/Drivers
+We used a previously established unbiased systems biology method to determine key genes/drivers [
+54
+,
+56
+,
+57
+,
+59
+,
+60
+] for each tissue. Briefly, the standard method we have developed in the past to determine key genes was done by determining the overlapping genes involved in the predictions made through IPA’s upstream regulators, canonical pathways, biofunctions, and GSEA gene sets (C2, C5, and Hallmarks gene sets). The common genes identified through these statistically significant predictions can be thought of as the central drivers for the experiment being studied, since the absence of the genes will make these predictions null. In some cases, these overlaps result in either no key genes or a very low number of genes. If this occurs, we adjust the pathway predictions involved with the gene overlaps. For the key genes determined here, we were forced to show the overlapping genes that were only involved with the GSEA Hallmarks Gene Set analysis with the IPA predictions.
+To determine the key gene, which has the highest number of connections and can be thought of as the central hub for the set of key genes, we utilized IPA to define the total number of connections between all the key genes. Next, we plotted the genes using the radial plot tool which places the most connected gene in the center of the plot. Previous work involving similar statistically identified key genes provided experimental validation for this methodology using Western blots, qPCR, and other functional assays [
+56
+,
+60
+].
+4.4. MicroRNA (miRNA) Predictions
+Through the use of a Cytoscape [
+70
+] plug-in called ClueGo [
+71
+], we were able to predict miRNAs based on the key genes determined. This involved entering all key genes determined in ClueGo and allowing the software to determine the top 30 miRNAs that were significantly regulated and connected to the key genes. No directionality of the key genes was required for the results.
+Acknowledgments
+J.M. is grateful to Thomas Berger of the Deutsches Zentrum fūr Luft-und Raumfahrt (DLR) for providing the dose data from the ESA-Columbus module.
+Abbreviations
+ESA-SPHINX
+European Space Agency-Integrated Experiment
+SLPSRA
+Space Life and Physical Sciences Research and Applications
+HUVECs
+Human Umbilical Vein Endothelial Cells
+ANOVA
+Analysis of Variance
+miRNA
+microRNA
+GLDS
+GeneLab Dataset
+GSEA
+Gene Set Enrichment Analysis
+NASA
+National Aeronautics and Space Administration
+NSRL
+NASA Space Radiation Laboratory
+BNL
+Brookhaven National Laboratory
+CNS
+Central Nervous System
+ESA
+European Space Agency
+FDR
+False Discovery Rate
+GCR
+Galactic Cosmic Rays
+HZE
+High (H) Atomic number (Z) and Energy (E)
+56
+Fe
+Iron
+IPA
+Ingenuity Pathway Analysis
+ISS
+International Space Station
+LEO
+Low Earth Orbit
+LET
+Linear Energy Transfer
+MeV
+Mega Electron Volt
+PCA
+Principal Component Analysis
+ROS
+Reactive Oxygen Species
+SAA
+South Atlantic Anomaly
+SPE
+Solar Particle Event
+Gy
+Gray
+PC
+Principal Component
+Open in a new tab
+Author Contributions
+The following contributions were made by the authors of this manuscript: conceptualization, A.B..; methodology, A.B.; formal analysis, A.B.; investigation, A.B.; gathering and analyzing the radiation dosimetry data, J.M.; writing—original draft preparation, A.B.; writing—review and editing, A.B., J.T.M., J.M., P.G., S.V.C..; visualization, A.B.; supervision, A.B.
+Funding
+Research funding was provided by the GeneLab Project at NASA Ames Research Center, through NASA’s Space Biology Program in the Division of Space Life and Physical Sciences Research and Applications (SLPSRA).
+Conflicts of Interest
+The authors declare no conflict of interest.
+References
+1.
+Boerma M., Nelson G.A., Sridharan V., Mao X.W., Koturbash I., Hauer-Jensen M. Space radiation and cardiovascular disease risk. World J. Cardiol. 2015;7:882–888. doi: 10.4330/wjc.v7.i12.882.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+White R.J., Averner M. Humans in space. Nature. 2001;409:1115–1118. doi: 10.1038/35059243.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Durante M., Cucinotta F.A. Heavy ion carcinogenesis and human space exploration. Nat. Rev. Cancer. 2008;8:465–472. doi: 10.1038/nrc2391.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Wang T., Chen H., Lv K., Ji G., Liang F., Zhang Y., Wang Y., Liu X., Cao H., Kan G., et al.  Activation of HIF-1alpha and its downstream targets in rat hippocampus after long-term simulated microgravity exposure. Biochem. Biophys. Res. Commun. 2017;485:591–597. doi: 10.1016/j.bbrc.2016.12.078.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Barcellos-Hoff M.H., Mao J.H. HZE radiation non-targeted effects on the microenvironment that mediate mammary carcinogenesis. Front. Oncol. 2016;6:57. doi: 10.3389/fonc.2016.00057.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Cucinotta F.A., Schimmerling W., Wilson J.W., Peterson L.E., Badhwar G.D., Saganti P.B., Dicello J.F. Space radiation cancer risks and uncertainties for Mars missions. Radiat. Res. 2001;156:682–688. doi: 10.1667/0033-7587(2001)156[0682:SRCRAU]2.0.CO;2.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Grabham P., Hu B., Sharma P., Geard C. Effects of ionizing radiation on three-dimensional human vessel models: Differential effects according to radiation quality and cellular development. Radiat. Res. 2011;175:21–28. doi: 10.1667/RR2289.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Jain M.R., Li M., Chen W., Liu T., de Toledo S.M., Pandey B.N., Li H., Rabin B.M., Azzam E.I. In vivo space radiation-induced non-targeted responses: Late effects on molecular signaling in mitochondria. Curr. Mol. Pharmacol. 2011;4:106–114. doi: 10.2174/1874467211104020106.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Moreno-Villanueva M., Wong M., Lu T., Zhang Y., Wu H. Interplay of space radiation and microgravity in DNA damage and DNA damage response. NPJ Microgravity. 2017;3:14. doi: 10.1038/s41526-017-0019-7.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Cortese F., Klokov D., Osipov A., Stefaniak J., Moskalev A., Schastnaya J., Cantor C., Aliper A., Mamoshina P., Ushakov I., et al.  Vive la radioresistance!: Converging research in radiobiology and biogerontology to enhance human radioresistance for deep space exploration and colonization. Oncotarget. 2018;9:14692–14722. doi: 10.18632/oncotarget.24461.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Beheshti A., Peluso M., Lamont C., Hahnfeldt P., Hlatky L. Proton irradiation augments the suppression of tumor progression observed with advanced age. Radiat. Res. 2014;181:272–283. doi: 10.1667/RR13538.1.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Beheshti A., Sachs R.K., Peluso M., Rietman E., Hahnfeldt P., Hlatky L. Age and space irradiation modulate tumor progression: Implications for carcinogenesis risk. Radiat. Res. 2013;179:208–220. doi: 10.1667/RR3100.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Chancellor J.C., Scott G.B., Sutton J.P. Space radiation: The number one risk to astronaut health beyond low earth orbit. Life (Basel) 2014;4:491–510. doi: 10.3390/life4030491.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+Alpen E.L., Powers-Risius P., Curtis S.B., DeGuzman R., Fry R.J. Fluence-based relative biological effectiveness for charged particle carcinogenesis in mouse harderian gland. Adv. Space Res. 1994;14:573–581. doi: 10.1016/0273-1177(94)90512-6.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Cucinotta F.A., To K., Cacao E. Predictions of space radiation fatality risk for exploration missions. Life Sci. Space Res. 2017;13:1–11. doi: 10.1016/j.lssr.2017.01.005.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Townsend L.W., Adams J.H., Blattnig S.R., Clowdsley M.S., Fry D.J., Jun I., McLeod C.D., Minow J.I., Moore D.F., Norbury J.W., et al.  Solar particle event storm shelter requirements for missions beyond low earth orbit. Life Sci. Space Res. 2018;17:32–39. doi: 10.1016/j.lssr.2018.02.002.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Beheshti A., Miller J., Kidane Y., Berrios D., Gebre S.G., Costes S.V. Nasa GeneLab project: Bridging space radiation omics with ground studies. Radiat. Res. 2018;189:553–559. doi: 10.1667/RR15062.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Gridley D.S., Obenaus A., Bateman T.A., Pecaut M.J. Long-term changes in rat hematopoietic and other physiological systems after high-energy iron ion irradiation. Int. J. Radiat. Biol. 2008;84:549–559. doi: 10.1080/09553000802203614.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Park J.S., Qiao L., Su Z.Z., Hinman D., Willoughby K., McKinstry R., Yacoub A., Duigou G.J., Young C.S., Grant S., et al.  Ionizing radiation modulates vascular endothelial growth factor (VEGF) expression through multiple mitogen activated protein kinase dependent pathways. Oncogene. 2001;20:3266–3280. doi: 10.1038/sj.onc.1204258.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Hughson R.L., Helm A., Durante M. Heart in space: Effect of the extraterrestrial environment on the cardiovascular system. Nat. Rev. Cardiol. 2018;15:167–180. doi: 10.1038/nrcardio.2017.157.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Little M.P., Azizova T.V., Bazyka D., Bouffler S.D., Cardis E., Chekin S., Chumak V.V., Cucinotta F.A., de Vathaire F., Hall P., et al.  Systematic review and meta-analysis of circulatory disease from exposure to low-level ionizing radiation and estimates of potential population mortality risks. Environ. Health Perspect. 2012;120:1503–1511. doi: 10.1289/ehp.1204982.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Yamada M., Wong F.L., Fujiwara S., Akahoshi M., Suzuki G. Noncancer disease incidence in atomic bomb survivors, 1958–1998. Radiat. Res. 2004;161:622–632. doi: 10.1667/RR3183.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Stewart A.M., Kneale G.W. A-bomb survivors: Factors that may lead to a re-assessment of the radiation hazard. Int. J. Epidemiol. 2000;29:708–714. doi: 10.1093/ije/29.4.708.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Yan X., Sasi S.P., Gee H., Lee J., Yang Y., Mehrzad R., Onufrak J., Song J., Enderling H., Agarwal A., et al.  Cardiovascular risks associated with low dose ionizing particle radiation. PLoS ONE. 2014;9:e110269.  doi: 10.1371/journal.pone.0110269.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+25.
+Tungjai M., Whorton E.B., Rithidech K.N. Persistence of apoptosis and inflammatory responses in the heart and bone marrow of mice following whole-body exposure to 28silicon (28Si) ions. Radiat. Environ. Biophys. 2013;52:339–350. doi: 10.1007/s00411-013-0479-4.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+26.
+Lima F., Ding D., Goetz W., Yang A.J., Baulch J.E. High LET 56Fe ion irradiation induces tissue-specific changes in DNA methylation in the mouse. Environ. Mol. Mutagen. 2014;55:266–277. doi: 10.1002/em.21832.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Yu T., Parks B.W., Yu S., Srivastava R., Gupta K., Wu X., Khaled S., Chang P.Y., Kabarowski J.H., Kucik D.F. Iron-ion radiation accelerates atherosclerosis in apolipoprotein E-deficient mice. Radiat. Res. 2011;175:766–773. doi: 10.1667/RR2482.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Grabham P., Sharma P., Bigelow A., Geard C. Two distinct types of the inhibition of vasculogenesis by different species of charged particles. Vasc. Cell. 2013;5:16. doi: 10.1186/2045-824X-5-16.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Koturbash I., Miousse I.R., Sridharan V., Nzabarushimana E., Skinner C.M., Melnyk S.B., Pavliv O., Hauer-Jensen M., Nelson G.A., Boerma M. Radiation-induced changes in DNA methylation of repetitive elements in the mouse heart. Mutat. Res. 2016;787:43–53. doi: 10.1016/j.mrfmmm.2016.02.009.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+Soucy K.G., Lim H.K., Kim J.H., Oh Y., Attarzadeh D.O., Sevinc B., Kuo M.M., Shoukas A.A., Vazquez M.E., Berkowitz D.E. HZE 56Fe-ion irradiation induces endothelial dysfunction in rat aorta: Role of xanthine oxidase. Radiat. Res. 2011;176:474–485. doi: 10.1667/RR2598.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+31.
+Kim D.J., Norden P.R., Salvador J., Barry D.M., Bowers S.L.K., Cleaver O., Davis G.E. Src- and FYN-dependent apical membrane trafficking events control endothelial lumen formation during vascular tube morphogenesis. PLoS ONE. 2017;12:e0184461.  doi: 10.1371/journal.pone.0184461.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+32.
+Beneduce E., Matte A., De Falco L., Mbiandjeu S., Chiabrando D., Tolosano E., Federti E., Petrillo S., Mohandas N., Siciliano A., et al.  Fyn kinase is a novel modulator of erythropoietin signaling and stress erythropoiesis. Am. J. Hematol. 2018;94:10–20. doi: 10.1002/ajh.25295.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Iqbal S.M., Lemmens-Gruber R. Phosphorylation of cardiac voltage-gated sodium channel: Potential players with multiple dimensions. Acta Physiol. 2018:e13210. doi: 10.1111/apha.13210.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Unoki T., Akiyama M., Kumagai Y., Goncalves F.M., Farina M., da Rocha J.B.T., Aschner M. Molecular pathways associated with methylmercury-induced NRF2 modulation. Front. Genet. 2018;9:373. doi: 10.3389/fgene.2018.00373.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Matsushima S., Kuroda J., Zhai P., Liu T., Ikeda S., Nagarajan N., Oka S., Yokota T., Kinugawa S., Hsu C.P., et al.  Tyrosine kinase FYN negatively regulates NOX4 in cardiac remodeling. J. Clin. Investig. 2016;126:3403–3416. doi: 10.1172/JCI85624.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+36.
+Palacios E.H., Weiss A. Function of the SRC-family kinases, LCK and FYN, in T-cell development and activation. Oncogene. 2004;23:7990–8000. doi: 10.1038/sj.onc.1208074.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+37.
+Abe J., Berk B.C. FYN and JAK2 mediate RAS activation by reactive oxygen species. J. Biol. Chem. 1999;274:21003–21010. doi: 10.1074/jbc.274.30.21003.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+38.
+Qin Q., Qu C., Niu T., Zang H., Qi L., Lyu L., Wang X., Nagarkatti M., Nagarkatti P., Janicki J.S., et al.  NRF2-mediated cardiac maladaptive remodeling and dysfunction in a setting of autophagy insufficiency. Hypertension. 2016;67:107–117. doi: 10.1161/HYPERTENSIONAHA.115.06062.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+39.
+Saito Y.D., Jensen A.R., Salgia R., Posadas E.M. FYN: A novel molecular target in cancer. Cancer. 2010;116:1629–1637. doi: 10.1002/cncr.24879.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+40.
+Elias D., Ditzel H.J. Fyn is an important molecule in cancer pathogenesis and drug resistance. Pharmacol. Res. 2015;100:250–254. doi: 10.1016/j.phrs.2015.08.010.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+41.
+Mkaddem S.B., Murua A., Flament H., Titeca-Beauport D., Bounaix C., Danelli L., Launay P., Benhamou M., Blank U., Daugas E., et al.  LYN and FYN function as molecular switches that control immunoreceptors to direct homeostasis or inflammation. Nat. Commun. 2017;8:246. doi: 10.1038/s41467-017-00294-0.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+42.
+Gonsalvez D., Ferner A.H., Peckham H., Murray S.S., Xiao J. The roles of extracellular related-kinases 1 and 2 signaling in CNS myelination. Neuropharmacology. 2016;110:586–593. doi: 10.1016/j.neuropharm.2015.04.024.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+43.
+Versari S., Longinotti G., Barenghi L., Maier J.A., Bradamante S. The challenging environment on board the international space station affects endothelial cell function by triggering oxidative stress through thioredoxin interacting protein overexpression: The ESA-SPHINX experiment. FASEB J. 2013;27:4466–4475. doi: 10.1096/fj.13-229195.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+44.
+Coleman M.A., Sasi S.P., Onufrak J., Natarajan M., Manickam K., Schwab J., Muralidharan S., Peterson L.E., Alekseyev Y.O., Yan X., et al.  Low-dose radiation affects cardiac physiology: Gene networks and molecular signaling in cardiomyocytes. Am. J. Physiol. Heart Circ. Physiol. 2015;309:H1947–H1963. doi: 10.1152/ajpheart.00050.2015.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+45.
+Subramanian A., Tamayo P., Mootha V.K., Mukherjee S., Ebert B.L., Gillette M.A., Paulovich A., Pomeroy S.L., Golub T.R., Lander E.S., et al.  Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles. Proc. Natl. Acad. Sci. USA. 2005;102:15545–15550. doi: 10.1073/pnas.0506580102.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+46.
+Quijano C., Trujillo M., Castro L., Trostchansky A. Interplay between oxidant species and energy metabolism. Redox Biol. 2016;8:28–42. doi: 10.1016/j.redox.2015.11.010.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+47.
+Chen Y.R., Zweier J.L. Cardiac mitochondria and reactive oxygen species generation. Circ. Res. 2014;114:524–537. doi: 10.1161/CIRCRESAHA.114.300559.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+48.
+Edmunds L.R., Sharma L., Kang A., Lu J., Vockley J., Basu S., Uppala R., Goetzman E.S., Beck M.E., Scott D., et al.  C-MYC programs fatty acid metabolism and dictates acetyl-coA abundance and fate. J. Biol. Chem. 2014;289:25382–25392. doi: 10.1074/jbc.M114.580662.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+49.
+Kanaan G.N., Harper M.E. Cellular redox dysfunction in the development of cardiovascular diseases. Biochim. Biophys. Acta Gen. Subj. 2017;1861:2822–2829. doi: 10.1016/j.bbagen.2017.07.027.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+50.
+de Villiers D., Potgieter M., Ambele M.A., Adam L., Durandt C., Pepper M.S. The role of reactive oxygen species in adipogenic differentiation. Adv. Exp. Med. Biol. 2017;1083:125–144. doi: 10.1007/5584_2017_119.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+51.
+He F., Zuo L. Redox roles of reactive oxygen species in cardiovascular diseases. Int J. Mol. Sci. 2015;16:27770–27780. doi: 10.3390/ijms161126059.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+52.
+Verbon E.H., Post J.A., Boonstra J. The influence of reactive oxygen species on cell cycle progression in mammalian cells. Gene. 2012;511:1–6. doi: 10.1016/j.gene.2012.08.038.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+53.
+Beheshti A., Ray S., Fogle H., Berrios D., Costes S.V. A microRNA signature and TGF-beta1 response were identified as the key master regulators for spaceflight response. PLoS ONE. 2018;13:e0199621.  doi: 10.1371/journal.pone.0199621.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+54.
+Wage J., Ma L., Peluso M., Lamont C., Evens A.M., Hahnfeldt P., Hlatky L., Beheshti A. Proton irradiation impacts age-driven modulations of cancer progression influenced by immune system transcriptome modifications from splenic tissue. J. Radiat. Res. 2015;56:792–803. doi: 10.1093/jrr/rrv043.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+55.
+Beheshti A., Benzekry S., McDonald J.T., Ma L., Peluso M., Hahnfeldt P., Hlatky L. Host age is a systemic regulator of gene expression impacting cancer progression. Cancer Res. 2015;75:1134–1143. doi: 10.1158/0008-5472.CAN-14-1053.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+56.
+Beheshti A., Cekanaviciute E., Smith D.J., Costes S.V. Global transcriptomic analysis suggests carbon dioxide as an environmental stressor in spaceflight: A systems biology genelab case study. Sci. Rep. 2018;8:4191. doi: 10.1038/s41598-018-22613-1.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+57.
+Beheshti A., Neuberg D., McDonald J.T., Vanderburg C.R., Evens A.M. The impact of age and sex in dlbcl: Systems biology analyses identify distinct molecular changes and signaling networks. Cancer Inform. 2015;14:141–148. doi: 10.4137/CIN.S34144.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+58.
+Beheshti A., Wage J., McDonald J.T., Lamont C., Peluso M., Hahnfeldt P., Hlatky L. Tumor-host signaling interaction reveals a systemic, age-dependent splenic immune influence on tumor development. Oncotarget. 2015;6:35419–35432. doi: 10.18632/oncotarget.6214.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+59.
+Ravi D., Beheshti A., Abermil N., Passero F., Sharma J., Coyle M., Kritharis A., Kandela I., Hlatky L., Sitkovsky M.V., et al.  Proteasomal inhibition by ixazomib induces CHK1 and MYC-dependent cell death in T-cell and hodgkin lymphoma. Cancer Res. 2016;76:3319–3331. doi: 10.1158/0008-5472.CAN-15-2477.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+60.
+Lannutti B.J., Drachman J.G. Lyn tyrosine kinase regulates thrombopoietin-induced proliferation of hematopoietic cell lines and primary megakaryocytic progenitors. Blood. 2004;103:3736–3743. doi: 10.1182/blood-2003-10-3566.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+61.
+Wang J.G., Aikawa M. Toll-like receptors and src-family kinases in atherosclerosis—Focus on macrophages. Circ. J. 2015;79:2332–2334. doi: 10.1253/circj.CJ-15-1039.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+62.
+Han J., Zhang G., Welch E.J., Liang Y., Fu J., Vogel S.M., Lowell C.A., Du X., Cheresh D.A., Malik A.B., et al.  A critical role for lyn kinase in strengthening endothelial integrity and barrier function. Blood. 2013;122:4140–4149. doi: 10.1182/blood-2013-03-491423.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+63.
+Lowenberg M., Verhaar A.P., Bilderbeek J., Marle J., Buttgereit F., Peppelenbosch M.P., van Deventer S.J., Hommes D.W. Glucocorticoids cause rapid dissociation of a T-cell-receptor-associated protein complex containing LCK and FYN. EMBO Rep. 2006;7:1023–1029. doi: 10.1038/sj.embor.7400775.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+64.
+Hsia C.H., Jayakumar T., Sheu J.R., Tsao S.Y., Velusamy M., Hsia C.W., Chou D.S., Chang C.C., Chung C.L., Khamrang T., et al.  Structure-antiplatelet activity relationships of novel ruthenium (ii) complexes: Investigation of its molecular targets. Molecules. 2018;23:477.  doi: 10.3390/molecules23020477.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+65.
+Jayakumar T., Hsu C.Y., Khamrang T., Hsia C.H., Hsia C.W., Manubolu M., Sheu J.R. Possible molecular targets of novel ruthenium complexes in antiplatelet therapy. Int. J. Mol. Sci. 2018;19:1818.  doi: 10.3390/ijms19061818.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+66.
+Harrison M.J., Chimen M., Hussain M., Iqbal A.J., Senis Y.A., Nash G.B., Watson S.P., Rainger G.E. Signalling through SRC family kinase isoforms is not redundant in models of thrombo-inflammatory vascular disease. J. Cell. Mol. Med. 2018;22:4317–4327. doi: 10.1111/jcmm.13721.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+67.
+Dai X., Yan X., Zeng J., Chen J., Wang Y., Chen J., Li Y., Barati M.T., Wintergerst K.A., Pan K., et al.  Elevating CXCR7 improves angiogenic function of EPCs via AKT/GSK-3beta/FYN-mediated NRF2 activation in diabetic limb ischemia. Circ. Res. 2017;120:e7–e23. doi: 10.1161/CIRCRESAHA.117.310619.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+68.
+Rizvi F., Shukla S., Kakkar P. Essential role of PH domain and leucine-rich repeat protein phosphatase 2 in NRF2 suppression via modulation of AKT/GSK3beta/FYN kinase axis during oxidative hepatocellular toxicity. Cell Death Dis. 2014;5:e1153. doi: 10.1038/cddis.2014.118.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+69.
+Shannon P., Markiel A., Ozier O., Baliga N.S., Wang J.T., Ramage D., Amin N., Schwikowski B., Ideker T. Cytoscape: A software environment for integrated models of biomolecular interaction networks. Genome Res. 2003;13:2498–2504. doi: 10.1101/gr.1239303.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+70.
+Bindea G., Mlecnik B., Hackl H., Charoentong P., Tosolini M., Kirilovsky A., Fridman W.H., Pages F., Trajanoski Z., Galon J. Cluego: A cytoscape plug-in to decipher functionally grouped gene ontology and pathway annotation networks. Bioinformatics. 2009;25:1091–1093. doi: 10.1093/bioinformatics/btp101.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+71.
+Condorelli G., Latronico M.V., Dorn G.W., 2nd MicroRNAs in heart disease: Putative novel therapeutic targets? Eur. Heart J. 2010;31:649–658. doi: 10.1093/eurheartj/ehp573.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+72.
+Sun T., Dong Y.H., Du W., Shi C.Y., Wang K., Tariq M.A., Wang J.X., Li P.F. The role of micrornas in myocardial infarction: From molecular mechanism to clinical application. Int. J. Mol. Sci. 2017;18:745.  doi: 10.3390/ijms18040745.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+73.
+Ma Q. Role of NRF2 in oxidative stress and toxicity. Annu. Rev. Pharmacol. Toxicol. 2013;53:401–426. doi: 10.1146/annurev-pharmtox-011112-140320.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+74.
+Vomund S., Schafer A., Parnham M.J., Brune B., von Knethen A. Nrf2, the master regulator of anti-oxidative responses. Int. J. Mol. Sci. 2017;18:2772.  doi: 10.3390/ijms18122772.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+75.
+Takahashi K., Okumura H., Guo R., Naruse K. Effect of oxidative stress on cardiovascular system in response to gravity. Int. J. Mol. Sci. 2017;18:1426.  doi: 10.3390/ijms18071426.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+76.
+Kamo T., Akazawa H., Komuro I. Cardiac nonmyocytes in the hub of cardiac hypertrophy. Circ. Res. 2015;117:89–98. doi: 10.1161/CIRCRESAHA.117.305349.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+77.
+Azzam E.I., Jay-Gerin J.P., Pain D. Ionizing radiation-induced metabolic oxidative stress and prolonged cell injury. Cancer Lett. 2012;327:48–60. doi: 10.1016/j.canlet.2011.12.012.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+78.
+Siti H.N., Kamisah Y., Kamsiah J. The role of oxidative stress, antioxidants and vascular inflammation in cardiovascular disease (a review) Vasc. Pharmacol. 2015;71:40–56. doi: 10.1016/j.vph.2015.03.005.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+79.
+Bolstad B.M., Irizarry R.A., Astrand M., Speed T.P. A comparison of normalization methods for high density oligonucleotide array data based on variance and bias. Bioinformatics. 2003;19:185–193. doi: 10.1093/bioinformatics/19.2.185.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+80.
+Reich M., Liefeld T., Gould J., Lerner J., Tamayo P., Mesirov J.P. Genepattern 2.0. Nat. Genet. 2006;38:500–501. doi: 10.1038/ng0506-500.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+81.
+Saeed A.I., Bhagabati N.K., Braisted J.C., Liang W., Sharov V., Howe E.A., Li J., Thiagarajan M., White J.A., Quackenbush J. TM4 microarray software suite. Methods Enzymol. 2006;411:134–193. doi: 10.1016/S0076-6879(06)11009-5.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+82.
+Dalman M.R., Deeter A., Nimishakavi G., Duan Z.H. Fold change and p-value cutoffs significantly alter microarray interpretations. BMC Bioinform. 2012;13(Suppl. 2):S11.  doi: 10.1186/1471-2105-13-S2-S11.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+83.
+Paley S., Parker K., Spaulding A., Tomb J.F., O’Maille P., Karp P.D. The omics dashboard for interactive exploration of gene-expression data. Nucleic Acids Res. 2017;45:12113–12124. doi: 10.1093/nar/gkx910.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+84.
+Kramer A., Green J., Pollard J., Jr., Tugendreich S. Causal analysis approaches in ingenuity pathway analysis. Bioinformatics. 2014;30:523–530. doi: 10.1093/bioinformatics/btt703.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Articles from International Journal of Molecular Sciences are provided here courtesy of
+Multidisciplinary Digital Publishing Institute  (MDPI)

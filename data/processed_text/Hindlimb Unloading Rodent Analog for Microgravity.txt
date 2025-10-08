@@ -1,0 +1,1923 @@
+Cell Mol Life Sci
+. 2025 Jan 21;82(1):50. doi:
+10.1007/s00018-024-05572-x
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Single-cell RNA sequencing of the carotid artery and femoral artery of rats exposed to hindlimb unloading
+Chengfei Li
+Chengfei Li
+1
+Department of Aerospace Medical Training, School of Aerospace Medicine, Fourth Military Medical University, 169 Chang Le Xi Road, Xi’an, 710032 China
+Find articles by
+Chengfei Li
+1,
+#
+,
+Yikai Pan
+Yikai Pan
+1
+Department of Aerospace Medical Training, School of Aerospace Medicine, Fourth Military Medical University, 169 Chang Le Xi Road, Xi’an, 710032 China
+Find articles by
+Yikai Pan
+1,
+#
+,
+Yuan Wang
+Yuan Wang
+1
+Department of Aerospace Medical Training, School of Aerospace Medicine, Fourth Military Medical University, 169 Chang Le Xi Road, Xi’an, 710032 China
+Find articles by
+Yuan Wang
+1,
+#
+,
+Xi Li
+Xi Li
+1
+Department of Aerospace Medical Training, School of Aerospace Medicine, Fourth Military Medical University, 169 Chang Le Xi Road, Xi’an, 710032 China
+Find articles by
+Xi Li
+1
+,
+Yateng Tie
+Yateng Tie
+1
+Department of Aerospace Medical Training, School of Aerospace Medicine, Fourth Military Medical University, 169 Chang Le Xi Road, Xi’an, 710032 China
+Find articles by
+Yateng Tie
+1
+,
+Shuhan Li
+Shuhan Li
+1
+Department of Aerospace Medical Training, School of Aerospace Medicine, Fourth Military Medical University, 169 Chang Le Xi Road, Xi’an, 710032 China
+Find articles by
+Shuhan Li
+1
+,
+Ruonan Wang
+Ruonan Wang
+1
+Department of Aerospace Medical Training, School of Aerospace Medicine, Fourth Military Medical University, 169 Chang Le Xi Road, Xi’an, 710032 China
+Find articles by
+Ruonan Wang
+1
+,
+Xingcheng Zhao
+Xingcheng Zhao
+1
+Department of Aerospace Medical Training, School of Aerospace Medicine, Fourth Military Medical University, 169 Chang Le Xi Road, Xi’an, 710032 China
+Find articles by
+Xingcheng Zhao
+1
+,
+Jieyi Fan
+Jieyi Fan
+1
+Department of Aerospace Medical Training, School of Aerospace Medicine, Fourth Military Medical University, 169 Chang Le Xi Road, Xi’an, 710032 China
+Find articles by
+Jieyi Fan
+1
+,
+Xianchun Yan
+Xianchun Yan
+2
+State Key Laboratory of Cancer Biology, Department of Biochemistry and Molecular Biology, Fourth Military Medical University, 169 Chang Le Xi Road, Xi’an, 710032 China
+Find articles by
+Xianchun Yan
+2,
+✉
+,
+Yongchun Wang
+Yongchun Wang
+1
+Department of Aerospace Medical Training, School of Aerospace Medicine, Fourth Military Medical University, 169 Chang Le Xi Road, Xi’an, 710032 China
+Find articles by
+Yongchun Wang
+1,
+✉
+,
+Xiqing Sun
+Xiqing Sun
+1
+Department of Aerospace Medical Training, School of Aerospace Medicine, Fourth Military Medical University, 169 Chang Le Xi Road, Xi’an, 710032 China
+Find articles by
+Xiqing Sun
+1,
+✉
+Author information
+Article notes
+Copyright and License information
+1
+Department of Aerospace Medical Training, School of Aerospace Medicine, Fourth Military Medical University, 169 Chang Le Xi Road, Xi’an, 710032 China
+2
+State Key Laboratory of Cancer Biology, Department of Biochemistry and Molecular Biology, Fourth Military Medical University, 169 Chang Le Xi Road, Xi’an, 710032 China
+✉
+Corresponding author.
+#
+Contributed equally.
+Received 2024 Aug 22; Revised 2024 Nov 20; Accepted 2024 Dec 30; Collection date 2025 Dec.
+© The Author(s) 2025
+Open Access
+This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+.
+PMC Copyright notice
+PMCID: PMC11747068  PMID:
+39833543
+Abstract
+Background
+Prolonged spaceflight is known to cause vascular deconditioning and remodeling. Tail suspension, a widely used spaceflight analog, is reported to result in vascular remodeling of rats. However, little is known about the cellular atlas of the heterogeneous cells of CA and FA from hindlimb-unloaded rats.
+Methods
+Firstly, we leveraged scRNA-seq to perform clustering analysis to identify diverse cell populations and sub-clusters within CA and FA from rats subjected to 3 months of hindlimb unloading. The dysregulated genes specific for artery types and cell types in HU group compared to Con were unraveled. Then R package “Cellchat” was used to reveal ligand-receptor cellular communication. At last, the TF network analysis was performed using the SCENIC R package to predict the pivotal TFs in rat artery remodeling induced by hindlimb unloading.
+Results
+Clustering analysis identified ECs, SMCs, fibroblasts, and a spectrum of immune cells, as well as neuronal and stem cells. Notably, an increased percentage of ECs in the CA and a diminished proportion of SMCs in both CA and FA were observed following tail suspension. Intersection of dysregulated genes specific for artery type and cell type after tail suspension revealed several gene sets involved in ECM remodeling, inflammation, vasoconstriction, etc. Fibroblasts, in particular, exhibited the most significant gene expression variability, highlighting their plasticity. Subclustering within ECs, SMCs and fibroblasts revealed specialized subsets engaged in processes such as EndoMT and cell cycle checkpoint regulation. Additionally, enhanced intercellular interactions among major cell types, especially between SMC and fibroblast, underscored the importance of cell communication in vascular remodeling. Several TFs were identified as potentially influential in the vascular remodeling process under simulated microgravity conditions.
+Conclusions
+This study presents the first cellular atlas of the conductive arteries in hindlimb-unloaded rats, revealing a spectrum of dysregulated gene profiles. The identification of the subclusters of ECs, SMCs and fibroblasts, cellular communication analysis and transcription factors prediction are also included in this work. The findings provide a reference for future research on vascular deconditioning following long-duration spaceflight.
+Supplementary Information
+The online version contains supplementary material available at 10.1007/s00018-024-05572-x.
+Keywords:
+Single-cell RNA sequencing, Weightlessness, Carotid artery, Femoral artery, Cellular communication, Transcription factor
+Introduction
+With the increasing frequency of long-duration spaceflights, astronauts are confronted with a myriad of harsh conditions, including radiation, microgravity and circadian rhythm disruptions. These factors precipitate a cascade of cardiovascular changes, initially characterized by fluid shifts from the lower limbs to the head. Subsequent phenomena include decreased circulatory blood volume, diminished diastolic arterial pressure, reduced left ventricular dimensions, and post-flight orthostatic intolerance. Furthermore, there is evidence of accelerated physiological aging in the CA, which appears to be reversible [
+1
+]. The structural and functional vascular deconditioning observed in spaceflight has been attributed to alterations in the arterial wall. Studies have documented increased arterial stiffness and reduced compliance in the CA following 6 months of spaceflight, along with increased intima-media thickness in both CA and FA [
+2
+]. Several molecular regulators such as osteopontin [
+3
+], nuclear factor kappa B [
+4
+], and acid sphingomyelinase [
+5
+], have been implicated in the regional-specific arterial remodeling induced by weightlessness. However, a systematic genetic and molecular explanation for these vascular changes remains elusive.
+The vascular tissue is made up of several types of cells such as ECs, SMCs, fibroblasts, macrophages, which exhibit different responsiveness to simulated microgravity. Traditional molecular biology techniques have struggled to discern the differential cellular responses to weightless environments, despite previous transcriptomic analyses of the vasculature under microgravity. While ECs and SMCs have been the focus of much research, the roles of fibroblasts and macrophages in vascular remodeling under simulated microgravity have not been well-defined. The advent of scRNA-seq has enabled the exploration of transcriptional heterogeneity across various vascular cell types. In this study, we conducted scRNA-seq on CA and FA from rats subjected to 3 months of tail suspension and compared them to age-matched controls under normal gravity conditions. This approach aimed to elucidate artery-specific and cell type-specific molecular signatures, identify key cell sub-clusters, assess intercellular communication networks, and identify important transcription factors. Our findings may shed light on the mechanisms underlying the structural and functional vascular changes observed in space.
+Methods
+Hindlimb unloading treatment
+A total of 12 male Sprague-Dawley rats (Fourth Military Medical University, Xi’an, China), aged eight weeks and sourced, were randomly allocated to either the hindlimb unloading (HU,
+n
+= 6) or the control group (Con,
+n
+= 6). The tail suspension technique, a well-established model for simulating microgravity conditions, was employed and has been comprehensively detailed in our previous work [
+6
+]. The detailed steps are shown in supplementary methods.
+Artery dissociation
+The rats were initially anesthetized using carbon dioxide according to AVMA Guidelines for the Euthanasia of Animals (2020). Subsequently, they were euthanized through exsanguination, facilitated by a transcardial perfusion with 50 mL of PBS. After the removal of surrounding perivascular adipose and connective tissues, the CA and FA were pooled from 6 rats in each group (Con and HU). As described before [
+7
+], the isolated arteries were then sectioned into smaller pieces. These sections were subjected to enzymatic digestion using 2 mg/mL of collagenase I (17018-029, Invitrogen, Waltham, Massachusetts, USA) and 2 mg/mL of dispase II (D4693, Sigma-Aldrich, St. Louis, Missouri, USA) in Hank’s balanced salt solution, incubated at 37 °C for 30 min. The enzymatic digestion process was halted by adding PBS supplemented with 10% fetal bovine serum, followed by vigorous pipetting for 5 to 10 times to ensure thorough mixing. The resulting cell suspension was then filtered through a 30 μm cell strainer and subsequently centrifuged.
+ScRNA-seq of CA and FA cells
+Cells were enumerated using a cell counter and then adjusted to an optimal concentration, ensuring no less than 1000 cells per microliter. Subsequently, the cell suspension was prepared for single-cell sequencing on the 10× Genomics GemCode platform. The cells were combined with enzymes and bonded to Gel Beads, each impregnated with unique barcode information. This mixture was then processed through the 10× Genomics instrument, which encapsulated the cells within oil surfactant droplets to form single-cell GEM. Following this, primers were released and thoroughly mixed with the cell lysates upon the dissolution of the Gel Beads. This facilitated the reverse transcription of barcoded, full-length cDNA. PCR amplification was performed using cDNA as template for library construction. Finally, the libraries were sequenced utilizing the Chromium Next GEM Single Cell 3’ Reagent Kits, version 3.1. The quality control, normalizing and dimentional reduction are shown in supplementary methods.
+Clustering, cell type annotation and subclustering of scRNA-seq data
+The graph-based clustering and the optimal cluster resolution were performed according to previously identified PCs. For visual representation, t-SNE was employed, utilizing the same set of PCs to encapsulate the data’s high-dimensional structure. Cluster identity was assigned by applying the Single R package according to classic cell type markers. Detailed methods are shown in Supplementary methods.
+For subclustering of ECs, SMCs and fibroblasts, gene expression data were processed with log-normalization, gene filtration, PCA, clustering, t-SNE. To identify subcluster-specific markers, the FindAllMarkers function from Seurat was utilized, providing a comprehensive set of differentially expressed genes that could distinguish each subcluster.
+Functional enrichment analysis
+Differentially expressed genes in specific cell types, clusters and differentially expressed genes between Con and HU were used to perform GO, KEGG and GSVA functional enrichment analysis. Each significantly enriched GO-term refers to a type of ontology which belongs to molecular function, cellular component or biological process. Similarly, KEGG analysis identifies metabolic pathways or signal transduction pathways in differentially expressed genes. GSVA was performed using GSVA R package (version 1.26) to identify enriched pathways and cellular processes in different clusters and sub-clusters.
+Pseudotime trajectory analysis
+ECs clusters, SMCs and fibroblasts were isolated and reprocessed using Seurat. Then the R package Monocle 2 [
+8
+] (version 2.26.0) was used to convert the above Seurat subsets to a Monocle object. The pseudotime kinetics of differentially expressed genes and the heatmap were displayed using the corresponding functions in the R package.
+Cellular communication analysis
+Ligand-receptor pair analysis was conducted utilizing R package “Cellchat”. Briefly, the communication probability or interaction strength of a specific ligand-receptor pair was obtained according to the gene expression of signaling ligands, receptors and their cofactors contained in Cellchat software. Our analysis encompassed a spectrum of molecular interactions, including paracrine and autocrine signaling, ECM-receptor interactions, and direct cell-cell contact interactions. The probability of communication at the signaling pathway level was calculated according to the communication probabilities of all ligand-receptor interactions in each signaling pathway.
+Cell cycle analysis
+To perform the cell cycle analysis, the Seurat R package was utilized to assign a cell cycle score to each cell by the expression levels of cell cycle markers (15 marker genes for G1 phase, 20 marker genes for S phase, 61 marker genes for G2 phase, 64 marker genes for M phase). Cells were then assigned to G1, S, or G2/M phases based on cell cycle scores.
+TF analysis
+Analysis was performed through SCENIC software, which integrates the GENIE3 algorithm, RcisTarget, and AUCell. TFs and their targets were obtained via GENIE3 algorithm. RcisTarget was used to calculate motifs that were significantly enriched in each co-expression module. The potential direct targets of motif were then predicted. We then delineated gene regulatory networks, termed regulons, which encompass both the TFs and their associated target genes. The activity of each regulon was obtained based on normalized AUC score or AUC binary matrix via AUCell R package. Gene regulatory network was done using the cytoscape software. TF analysis in the part of pseudotime trajectory analysis was performed using FIMO tools from MEMEsuite (5.1.0).
+Hematoxylin and eosin (H&E) staining
+Paraffin-embedded tissues were sectioned at a 5 mm thickness using a cryomicrotome (RM2016, Leica, Wetzlar, Germany) and these sections were subsequently mounted onto glass microscope slides. The slides were first deparaffinized in xylene I and II (20 min each). Then xylene was eliminated in a graded series of alcohols (100%, 95%, 90%, 80%, 70%). The sections were incubated with H&E solution (G1005, Servicebio, Wuhan, China). Finally, the stained images were digitized using a Pannoramic MIDI scanner (3DHISTECH, Budapest, Hungary).
+Immunofluorescent staining
+Sections were fixed with 4% paraformaldehyde, permeabilized with 0.1% Triton X-100 (9036-19-5, Sigma-Aldrich, St. Louis, MO, USA) and then blocked for 0.5 h with goat serum. Sections were then incubated in primary antibody which was diluted 1:100 in TBST overnight at 4 °C. Following antibodies were used: anti-CD31 (28083-1-AP, Proteintech, Cook County, Illinois, USA), anti-eNOS (27120-1-AP, Proteintech), anti-α-SMA (67735-1-Ig, Proteintech), anti-CD68 (28058-1-AP, Proteintech), anti-CEBPB (66649-1-Ig, Proteintech), anti-SPARC (15274-1-AP, Proteintech), anti-KLF4 (11880-1-AP, Proteintech), anti-SERPINE2 (11303-1-AP, Proteintech), anti-TXNIP (18243-1-AP, Proteintech), anti-FOSB (ab184938, Abcam, Cambridge, MA, USA), anti-ET-1 (DF6125, Affinity Bioscience, Melbourne, Australia), anti-PDGFRα (sc-398206, Santa Cruz Biotechnology, Dallas, Texas, USA), anti-CXCR4 (sc-53534, Santa Cruz Biotechnology), anti-PLN (ab219626, Abcam), anti-DPT (10537-1-AP, Proteintech). After washing with PBS (three times, 5 min each), the sections were incubated with secondary antibodies Fluor488 (1:500 dilution, EK011, Zhuangzhi Biotech, Xi’an, Shaanxi, China) or Cy3 (1:500 dilution, EK022, Zhuangzhi Biotech) for 1 h at room temperature. The nuclei were counterstained with DAPI. Images were scanned with Pannoramic MIDI scanner (3DHISTECH).
+Statistical analysis
+Intima-media thickness of CA and FA from Con and HU rats was represented as mean ± standard error of mean. P-value < 0.05 determined by unpaired Student’s t-test was considered statistically significant.
+Results
+Construction of rat single-cell atlases by scRNA-Seq
+Although scRNA-seq has extensively profiled vascular changes in cardiovascular and metabolic diseases, a detailed single-cell analysis of arterial adaptations in hindlimb-suspended rats remains absent. We performed a systematic scRNA-seq study on more than 22,000 cells from rat carotid and femoral arteries. These rats experienced three months of hindlimb unloading, with some serving as controls under normal gravity conditions. (Fig.
+1
+A). After quality control, 6742, 2983, 4487, 2463 cells were acquired in Con-CA (carotid artery in contol group), Con-FA (femoral artery in contol group), HU-CA (carotid artery in hindlimb unloading group) and HU-FA (femoral artery in hindlimb unloading group) datasets (Fig.
+1
+B), which correspond to the median of 2260.5, 2064, 1909 and 1825 genes per cell, respectively. The mean reads per cell were 37,089, 86,801, 62,761 and 113,861 in Con-CA, Con-FA, HU-CA and HU-FA.
+Fig. 1.
+Open in a new tab
+Single-cell RNA-sequencing (scRNA-seq) atlas of Con and HU CA and FA. (
+A
+) Overview of experimental design and approach. CA and FA were collected from rats subjected to 3 months hindlimb unloading (HU) or exposed to normal gravity (Con). Then the single-cell suspension was sequenced using scRNA-seq method. Bioinformatics analysis was performed according to the results of scRNA-seq. (
+B
+) T-Distributed Stochastic Neighbor Embedding (t-SNE) plot of scRNA-seq datasets from Con-CA, Con-FA, HU-CA and HU-FA samples. (
+C
+) t-SNE plot of single-cell gene expression showing 22 identified cell clusters. (
+D
+) t-SNE plot of single-cell gene expression showing 10 identified cell types. (
+E
+) Cell number of each cell type in Con-CA, Con-FA, HU-CA and HU-FA samples. (
+F
+) Percentage of major cell types in each group. (
+G
+) Dot plot demonstrates the top 5 highest differential expression genes relative to all other cells in each type. Dot size corresponds to proportion of cells within the group expressing each transcript, and dot color corresponds to expression level. (
+H
+) The number of differentially expressed genes in each cell type compared to other cell types
+Individual clusters were labeled for cell type with known marker genes. In total, we identified 23 cell clusters (Fig.
+1
+C) that could be divided into 10 major cell types (Fig.
+1
+D). Integrated datasets of above four groups displayed satisfactory alignment. Known markers used to divide cell types were shown in Additional file 1: Table. S1. Vascular cell types represented in the distinct clusters included ECs (cluster 5, 7, 11, 13, 20), VSMCs (cluster 0, 3, 9, 10, 14, 15), fibroblasts (cluster 1, 2, 4, 6, 12), macrophages (cluster 8), B cells (cluster 21), T cells (cluster 18), dendritic cells (cluster 17), neutrophil (cluster 19), neuron (cluster 22), and stem cells (cluster 16). The expression of marker genes across the 10 cell clusters were shown in Additional file 1: Fig.
+S1
+.
+We then examined the distribution of major cell types within each group (Fig.
+1
+E, F, Additional file 1: Table. S2). Notably, the proportion of SMCs was elevated in the CA relative to the FA. Interestingly, a reduction in SMC fraction was observed in HU-CA and HU-FA compared to Con (Fig.
+1
+F). This finding contradicts prior studies suggesting that simulated weightlessness stimulates the proliferation of CA SMCs in rats [
+5
+]. Additionally, HU-CA demonstrated a higher percentage of ECs compared with Con-CA. Moreover, the HU-FA group exhibited increased percentage of immune cells—comprising B cells, T cells, dendritic cells, and neutrophils—compared to Con-FA.
+Then, we presented top 5 highest differential expression genes relative to all other cells in each cluster (Fig.
+1
+G). For example, the specific markers of ECs are
+Mall
+,
+Cldn5
+,
+Vwf
+,
+Mmrn2
+,
+Gja5
+.
+Vwf
+is the canonical ECs gene.
+Cldn5
+, encoding a tight junction protein, and
+Mmrn2
+, encoding an extracellular matrix protein known as Multimerin 2, were also highlighted. The markers of SMCs are
+Acta1
+and potassium channel subfamily K member 3 (
+Kcnk3
+). Fibroblast marker is
+Scara5
+, a class A scavenger receptor with the clearance function of foreign and endogenous material [
+9
+]. Here we also showed the number of upregulated genes with average fold change > 1.28, P value < 0.05 for each cell type compared to all other cells (Fig.
+1
+H). Consistent with previous findings, monocytes including dendritic cells and macrophages have more differentially expressed genes than other cell clusters [
+10
+].
+Artery-specific differentially expressed genes between con and HU group in ECs and distinct gene expression profiles for EC sub-clusters
+Currently, there’s no report on gene expression differences in SMCs, ECs, fibroblasts, and immune cells from carotid and femoral arteries under microgravity, mainly because isolating these cell types is difficult. After sequencing of flow-sorted vascular cells, datasets from different cell types were aggregated in this study.
+We first focused on the differentially expressed genes in ECs between Con and HU (Fig.
+2
+A, B). For ECM remodeling, genes encoding collagen such as
+col4a1
+,
+col4a2
+were downregulated in both HU-CA and HU-FA. For secretory function of ECs, the increase of
+Vcam1
+and
+Nos3
+suggested enhanced vasodilatation and adhesion of leukocytes in HU-CA ECs. Downregulation of
+Edn1
+which encodes ET-1 may give rise to decreased vasoconstriction and basal vascular tone in HU-CA. The protein levels of eNOS (Fig.
+2
+C), which was coded by
+Nos3
+, and ET-1 (Fig.
+2
+D) were verified by immunofluorescence.
+Mmrn1
+and
+Vwf
+were increased in HU-CA, promoting platelet adhesion and clotting [
+11
+].
+Ccn1
+, essential for atherogenesis, was reported to be induced by oscillatory shear stress and inhibited by laminar shear stress [
+12
+]. It was upregulated in HU-FA but downregulated in HU-CA, highlighting the differential shear stress impacts on the CA and FA. KEGG pathway analysis revealed an upregulation of genes encoding ribosomal proteins, such as
+Rpl37
+,
+Rpl36
+,
+Rpl35
+, in ECs from both HU-CA and HU-FA when compared to their Con counterparts (Fig.
+2
+E, F).
+Fig. 2.
+Open in a new tab
+Artery-specific transcriptomic changes during hindlimb unloading and sub-clusters of ECs
+. (
+A
+,
+B
+) Volcano plot of differentially expressed genes (average log fold change > 0.23, average fold change > 1.28, P value < 0.05) in HU-CA ECs (
+A
+) and HU-FA ECs (
+B
+) in comparison with Con counterparts. (
+C
+,
+D
+) Immunostaining of eNOS (
+C
+) and ET-1 (
+D
+) in Con and HU-CA. Scale bar, 40 μm. (
+E
+,
+F
+) KEGG analysis of sub-differentially expressed genes in HU-CA ECs (
+E
+) and HU-FA ECs (
+F
+) in comparison with Con counterparts. (
+G
+) Heatmap showing EC sub-cluster identity and the top 5 marker genes of each EC sub-cluster. (
+H
+) KEGG analysis of specific genes in EC sub-cluster 0. (
+I
+) GSVA analysis of EC sub-cluster-specific genes. (
+J
+) Percentage of each sub-cluster of ECs. (
+K
+) KEGG analysis of specific genes in EC sub-cluster (1) (
+L
+) The trajectory distribution of EC sub-clusters, SMCs and fibroblasts and 3 states in differentiation trajectories. (
+M
+) Differentially expressed genes across pseudotime which were divided into cluster 1 and 2 and the represented biological pathways from KEGG analysis of gene cluster 1 and (2) (
+N
+) Pseudotime trajectories of EC sub-cluster 4 and 5 in CA + FA, CA and FA. (
+O
+) Pseudotime trajectories of EC sub-cluster 4 in Con-CA and HU-CA. Scale bar, 40 μm
+Sub-clustering analysis of ECs revealed 6 sub-clusters. Sub-cluster 0 showed high expression of
+Isl1
+(Fig.
+2
+G), a marker of embryonic stem cell-derived progenitors [
+13
+], indicating the potential of self-renewal. The sub-cluster also featured increased expression of
+Bmp6
+, a gene implicated in osteogenic differentiation of ECs during vascular calcification [
+14
+]. This sub-cluster showed enrichment for KEGG terms related to protein processing in endoplasmic reticulum (Fig.
+2
+H), which was confirmed by GSVA analysis result that sub-cluster 0 was involved in protein secretion and unfolded protein response (Fig.
+2
+I). Compared to FA, more ECs from CA were in sub-cluster 0 (Fig.
+2
+J). Contrary to sub-cluster 0, sub-cluster 1 demonstrated a more enrichment of cell number in FA (Fig.
+2
+H).
+Lipe
+and
+Gpihbp1
+, involved in lipolytic process [
+15
+], were two markers for sub-cluster 1. Sub-cluster 1 specifically exhibited enrichment for the “Rap1 signaling pathway” and its downstream “PI3K/AKT/mTOR signaling pathway” (Fig.
+2
+K), which are known to play roles in cell adhesion, migration, and angiogenesis. Consistent with this,
+Cxcl12
+, another marker of sub-cluster 1, is recognized for its involvement in endothelial migration [
+16
+]. For EC sub-cluster 2, marker genes
+Rpl30
+and
+Rps25
+were crucial for ribosome assembly and protein translation. Consistently, GO enrichment analysis indicated significant enrichment for the terms “Translation” and “Structural constituent of ribosome” in EC sub-cluster 2 (Additional file 1: Fig. S2). The EC sub-cluster 3 expressed
+Lyve1
+, a lymphatic endothelial marker, suggesting this population was lymphatic endothelium. The definition of sub-cluster 3 was further confirmed by the elevated expression of
+Ccl21
+, a chemokine produced by lymphatic endothelial cells. Notably, there were more lymphatic endothelial cells in FA than that in CA (Fig.
+2
+J).
+Cnn1
+, a canonical marker of SMCs and a late indicator of EndoMT, is a hallmark of EC sub-cluster 4 [
+17
+]. EndoMT is a process whereby endothelial cells undergo phenotype changes towards to mesenchymal cells such as SMCs and fibroblasts. EndoMT is integral to the pathogenesis of conditions such as hypertension-induced vascular injury [
+18
+] and atherosclerosis [
+19
+]. The sub-cluster 4 also expresses the myogenic marker
+Acta2
+which encodes α-SMA and
+Pln
+which encodes phospholamban, a regulator of ER Ca
+2+
+homeostasis in angiogenesis [
+20
+], suggesting a mesenchymal cell phenotype possibly due to EndoMT. To further confirm EndoMT, we compared the differential expression of endothelial cell markers and mesenchymal cell markers between the HU group and the Con group. The dot plot showed that the expression of Tie1, Cdh5, and Vwf was downregulated, whereas the expression of S100a4, Vimentin and smooth muscle cell markers Acta2, Spp1 and Cnn1 was upregulated in EC sub-cluster 4 of HU-CA in comparison with Con counterpart (Additional file 1: Fig. S3A). Moreover, the expression of Cdh5 was decreased and the expression of S100a4, Vimentin was increased in EC sub-cluster 5 of both HU-CA and HU-FA compared to their Con counterparts (Additional file 1: Fig. S3B). Additionally, Cald1 is a molecule that distinguishes smooth muscle cells from fibroblasts, being exclusively expressed in smooth muscle cells [
+21
+]. The results demonstrated that the expression of Cald1 in sub-cluster 4 was significantly higher than that in sub-cluster 5 (Additional file 1: Fig. S3C), suggesting the smooth muscle cell phenotype in sub-cluster 4.
+To delve deeper, we employed pseudotime analysis to simulate the EndoMT transition of EC sub-clusters into fibroblasts and SMCs. As shown in Fig.
+2
+L, a subset of EC sub-cluster 4 appeared to be positioned between the ECs and SMCs in biological evolution. Besides, sub-cluster 5 of ECs was located at the intermediate stage of differentiation between fibroblasts and endothelial cells. Then 3 different cell states were identified: state 1, 2, 3. The ECs were primarily distributed in states 1, located in the initial state of the cell differentiation trajectory. The fibroblasts and SMCs were predominantly distributed in states 2 and 3, representing the final stage of the differentiation trajectory. Subsequently, genes with significant changes over pseudotime were clustered, followed by KEGG enrichment analysis for each cluster (Fig.
+2
+M). Cluster 1 gene set manifested protein processing in endoplasmic reticulum. Cluster 2 gene set exhibited enrichment of vascular smooth muscle contraction. Additionally, we used gene clusters 1 and 2 as target genes for TF prediction and found
+Egr2
+,
+Spi1
+and
+Nrf1
+may play important roles in the differentiation process of ECs to fibroblasts, and
+Klf15
+,
+Nr5a2
+and
+Zfx
+may be crucial for the transition of ECs into SMCs (Additional file 1: Fig. S4). We also compared the pseudotime trajectories between CA and FA. It was found that the process of EC sub-cluster 4 differentiating into SMCs occured only in the CA while transition of ECs into fibroblasts occurred in CA and FA (Fig.
+2
+N). Besides, EC sub-cluster 4 from HU-CA exclusively exhibited differentiation into SMCs compared to Con-CA, as shown in Fig. 2O. Tail suspension simulated weightlessness might also promote transition of EC sub-cluster 4 to fibroblasts in FA (Additional file 1: Fig. S5).
+Artery-specific differentially expressed genes between con and HU group in SMCs and distinct gene expression profiles for SMC sub-clusters
+In our study, SMCs exhibited heightened transcription of
+Acta2
+in both HU-CA and HU-FA, signifying an increase in α-SMA levels (Fig.
+3
+A, B). This could explain the observed increase in carotid artery intima-media thickness in tail-suspended rats [
+5
+], despite a reduced SMC cell count in HU-CA compared to Con-CA. Our research also confirmed the increased intima-media thickness in HU-CA (Fig.
+3
+C). The selective upregulation of the ryanodine receptor (
+Trdn
+), the voltage-dependent L-type calcium channel (
+Cacna1d
+) and
+Pln
+are integral to ER Ca
+2+
+homeostasis [
+20
+]. The increased expression of these genes indicated a hypercontractile state in HU-CA SMCs. The protein level of PLN was verified by immunostaining (Fig.
+3
+D). Regarding the ECM, HU-CA SMCs showed a decrease in genes encoding elastin (
+Eln
+), collagens (
+Col1a1
+,
+Col4a1
+,
+Col6a1
+), laminins (
+Lamc1
+,
+Lamb1
+,
+Lama2
+), thrombospondins (
+Thbs2
+,
+Thbs3
+), and fibronectin (
+Fn1
+) when compared to Con-CA. Notably, genes encoding components of the ribosome, such as
+Rpl37
+and
+Rpl41
+, were upregulated in HU-CA SMCs relative to Con-CA. However, a downregulation of genes
+Rps2
+and
+Rps27a
+was noted in HU-FA compared to Con-FA (Fig.
+3
+B, Additional file 1: Fig. S6). Additionally, the expression level of genes (
+Spp1
+,
+Msx2
+,
+Bmp2
+) encoding vascular calcification markers (OPN, MSX2, BMP2) were elevated in HU-FA compared to Con-FA, indicating the tendency of calcification of FA but not CA. Collectively, these results highlighted the heterogeneity between the forebody and hindbody arteries of hindlimb-unloaded rats. This was possibly due to differential transmural pressures across the CA and FA as a result of hindlimb unloading [
+22
+].
+Fig. 3.
+Open in a new tab
+Artery-specific transcriptomic changes during hindlimb unloading and sub-clusters of SMCs. (
+A
+,
+B
+) Volcano plot of differentially expressed genes (average log fold change > 0.23, average fold change > 1.28, P value < 0.05) in HU-CA SMCs (
+A
+) and HU-FA SMCs (
+B
+) in comparison with Con counterparts. (
+C
+) Representative photomicrograph of CA and FA of rats in both Con and HU group showing histo-morphological changes in medial thickness. (
+D
+) Immunostaining of α-SMA and PLN in Con and HU-CA. (
+E
+) Heatmap of top 5 marker genes of each SMC sub-cluster. (
+F
+) Go enrichment analysis of specific genes in SMC sub-cluster 0. (
+G
+) Percentage of each sub-cluster of SMCs in each group. (
+H
+) Go enrichment analysis of specific genes in SMC sub-cluster 3. (
+I
+) GSVA analysis of SMC sub-cluster-specific genes. (
+J
+) Go enrichment analysis of specific genes in SMC sub-cluster 4. (
+K
+) Percentage of cells at different stages of cell cycle in each SMC sub-cluster. (
+L
+,
+M
+) Go enrichment analysis (
+L
+) and KEGG analysis (
+M
+) of specific genes in SMC sub-cluster 5. Scale bar, 40 μm. *
+P
+< 0.05
+Sub-clustering analysis of SMCs revealed 6 sub-clusters (Fig.
+3
+E). Sub-cluster 0 was characterized by elevated levels of
+Col4a6
+,
+Acta2
+, and glutamine synthetase 2 (
+Gls2
+), a regulator of glutaminolysis and ferroptosis. The enriched GO term “organonitrogen compound metabolic process” highlighted this sub-cluster’s metabolic role (Fig.
+3
+F). Sub-cluster 1 was marked by the presence of
+Sacsin
+, encoding a chaperone involved in intermediate filament assembly [
+23
+] and the ryanodine receptor 2 (
+Ryr2
+), crucial for calcium release and SMC contraction. Sub-cluster 2 featured the gene for vitronectin (
+Vtn
+), an glycoprotein involved in cell adhesion [
+24
+], and
+Higd1b
+, which maintains mitochondrial integrity under hypoxia [
+25
+]. This sub-cluster was more prevalent in the FA than in the CA (Fig.
+3
+G). Sub-cluster 3 was defined by
+Ndufa4
+and
+Rps20
+. NDUFA4 is a component of the mitochondrial respiratory chain essential for mitochondrial function and energy metabolism [
+26
+].
+Rps20
+encodes a ribosomal protein. The sub-cluster’s contribution to ribosome construction was indicated by the GO terms “structure constituent of ribosome” (Fig.
+3
+H). The markers of sub-cluster 4 are oncofetal gene
+Gpc3
+and SMCs progenitor marker
+Pi16
+[
+27
+]. According to GSVA (Fig.
+3
+I), sub-cluster 4 showed enrichment of “Hedgehog signaling pathway” which is essential in embryogenesis and a key regulator of stem cell [
+28
+,
+29
+]. High expression of ECM-related genes in this sub cluster, demonstrated by GO enrichment analysis (Fig.
+3
+J), heralded that sub-cluster 4 was major contributor to the surrounding microenvironmental vascular matrix. The marker of sub-cluster 5
+Esco2
+is involved in tethering between sister chromatids during DNA double-strand break repair [
+30
+]. Another marker
+Gas2l3
+is responsible for linking actin and microtubule filaments in interphase of cells and plays a pivotal role in mitosis and cytokinesis [
+31
+]. Consistently, GSVA revealed that “G2M checkpoint”, “mitotic spindle signaling pathway” were enriched in SMCs sub-cluster 5. The enrichment of GO term “cell cycle” (Fig.
+3
+K) and the enrichment of KEGG terms “DNA replication” and “spliceosome” (Fig.
+3
+L) further confirmed the role of this sub-cluster in cell cycle. Notably, this sub-cluster had a higher percentage of G2-phase cells and a lower percentage of non-cycling cells compared to others (Fig.
+3
+M). The percentage of sub-cluster 4 and 5 in CA and FA was lower after hindlimb unloading (Fig.
+3
+G), suggesting that hindlimb unloading may inhibit the cell cycle of SMCs.
+Artery-specific differentially expressed genes between con and HU group in fibroblasts and distinct gene expression profiles for fibroblast sub-clusters
+The outer adventitia is predominantly composed of collagen and fibroblasts. Fibroblasts showed the greatest number of both downregulated and upregulated genes in HU group compared to Con counterparts across all clusters (Fig.
+4
+A, B), highlighting their high plasticity, which is consistent with previous findings that adventitial plays a pivotal role in vascular remodeling in response to hyperlipidemia or balloon injury [
+32
+,
+33
+]. As for ECM, an upregulation of
+Serpine1
+and
+Serpine2
+(Fig.
+4
+C), which encode PAI-1 and PN-1 respectively, indicated heightened antifibrinolytic activity [
+34
+] and the limitation in matrix breakdown in HU-CA. The upregulation of
+Nox4
+and
+Txnip
+(Fig.
+4
+C, D) may give rise to increased oxidative stress and NLRP3 inflammasome activation [
+35
+] in HU-CA and HU-FA. The marker of fibroblast
+Pdgfra
+(Fig.
+4
+C, D), which drives fibrosis and proliferation of fibroblast, was upregulated in both HU-CA and HU-FA. The protein level of TXNIP (Fig.
+4
+E), PDGFRα and SERPINE2 (Fig.
+4
+F) was verified by immunofluorescence. The upregulation of progenitor marker
+Pi16
+(Fig.
+4
+C, D) in HU-CA and HU-FA suggested the increased progenitor group of fibroblasts [
+27
+]. Phenotypic transformation of adventitial fibroblasts, which is characterized by elevated expression of
+Acta2
+(Fig.
+4
+C, D), is important in the process of vascular diseases [
+36
+]. The upregulation of
+Acta2
+suggested a shift of fibroblasts towards a myofibroblast phenotype in HU-CA and HU-FA. GSVA analysis revealed an enrichment of myogenesis-related genes in HU-CA (Additional file 1: Fig. S7A), hinting at fibroblast involvement in the modulation of intima-media thickness during hindlimb unloading. It is worth noting that, following hindlimb unloading exposure, differentially expressed genes were enriched in metabolic process in fibroblast of CA and FA after microgravity according to GO terms analysis (Fig.
+4
+G, H).
+Fig. 4.
+Open in a new tab
+Artery-specific transcriptomic changes during hindlimb unloading and sub-clusters of fibroblasts. (
+A
+,
+B
+) Dot plot showing the expression of selected differentially expressed genes in HU-CA fibroblasts (
+A
+) and HU-FA fibroblasts (
+B
+) in comparison with Con counterparts. (
+C
+,
+D
+) Immunostaining of PDGFRα, TXNIP(
+C
+) and SERPINE2 (
+D
+) in Con and HU-CA. (
+E
+,
+F
+) GO enrichment analysis of differentially expressed genes in HU-CA ECs (
+E
+) and HU-FA ECs (
+F
+) in comparison with Con counterparts. (
+G
+) Heatmap of top 5 marker genes of each fibroblast sub-cluster. (
+H
+) Go analysis of specific genes in fibroblast sub-cluster 1. (
+I
+) GSVA analysis of specific genes in each fibroblast sub-cluster. Scale bar, 40 μm
+Sub-clustering analysis of fibroblasts revealed 5 sub-clusters (Fig.
+4
+I).
+Col1a1
+and the glutamate transporter
+Slc1a3
+were markers for sub-cluster 0. The markers of sub-cluster 1
+Mup5
+was involved in glucose and lipid metabolism [
+37
+]. The enrichment of GO terms (Fig.
+4
+J) and GSVA analysis (Additional file 1: Fig. S7B) confirmed this sub-cluster’s role in glycolysis and mitochondrial oxidative phosphorylation. The marker of fibroblast sub-cluster 2 included
+Alpl
+, which is involved in vascular calcification, and
+F2rl1
+which encoded PAR2, a modulator in vascular inflammation and atherogenesis [
+38
+]. Sub-cluster 3 maybe progenitor of fibroblast as demonstrated by the expression of
+Procr
+, a signature gene providing stem cell signal in various type of cells [
+39
+]. Another marker
+Efhd1
+was involved in mitochondrial morphology and energy metabolism in Ca
+2+
+dependent and independent manner [
+40
+]. The marker of sub-cluster 4
+Spp1
+is involved in the process of atherosclerotic plaque formation [
+41
+]. GSVA analysis shows an enrichment of genes associated with angiogenesis (Additional file 1: Fig. S7B).
+Artery-specific differentially expressed genes between con and HU group in macrophages and differentially expressed genes shared across several cell types
+Macrophages are crucial for angiogenesis [
+42
+] and the formation of atherosclerosis plaques [
+43
+]. The binding of CXCR4 with chemokine CXCL12 activates of mTOR and NF-κB signaling pathway, which are known to promote cellular growth and proliferation [
+44
+]. The upregulation of
+Cxcr4
+in macrophages (Fig.
+5
+A) and the upregulation of
+Cxcl12
+in fibroblasts of HU-CA suggested that the interaction of fibroblast CXCL12 with macrophage CXCR4 might be enhanced. The upregulated protein expression of CXCR4 in HU-CA was verified through immunofluorescence (Fig.
+5
+B). KEGG enrichment analysis revealed that upregulated genes (
+Jund
+,
+Nfkbia
+,
+Hsp90ab1
+) were mainly enriched in IL-17 signalling in HU-CA and HU-FA. The downregulated genes (
+Cyb
+,
+Atp6
+,
+Cox2
+,
+Nd1
+,
+Nd4l
+,
+Nd5
+,
+Nd6
+) were mainly enriched in oxidative phosphorylation in HU-FA (Fig.
+5
+A, D, E).
+Fig. 5.
+Open in a new tab
+Artery-specific transcriptomic changes of macrophage during hindlimb unloading and some genes that were commonly changed in more than one type of cells. (
+A
+)Dot plot showing the expression of selected differentially expressed genes in HU-CA macrophages. (
+B
+) Immunostaining of CD68 and CXCR4 in Con and HU-CA. (
+C
+) Volcano plot of differentially expressed genes (average log fold change > 0.23, average fold change > 1.28, P value < 0.05) in HU-FA macrophages in comparison with Con counterparts. (
+D
+,
+E
+) KEGG analysis of differentially expressed genes in HU-CA macrophages (
+D
+) and HU-FA macrophages (
+E
+) in comparison with Con counterparts. (
+F
+,
+G
+) Differential gene expression analysis showing the selected up- and down-regulated genes across several cell types in HU-CA (
+F
+) and HU-FA (
+G
+) compared to their Con counterparts. (
+H
+-
+L
+) Immunostaining of CEPBPB (
+H
+), DPT (
+I
+), FOSB (
+J
+), SPARC (
+K
+), KLF4 (
+L
+) in Con and HU-CA. Scale bar, 40 μm
+Then we scrutinized genes with varying expression levels across multiple cell types to elucidate general vascular remodeling processes (Fig.
+5
+F, J). Notably, several TFs were found to be dysregulated.
+Klf4
+, which is involved in the mechanotransduction mechanism and up-regulates many atheroprotective genes [
+45
+], was upregulated in HU-CA ECs and fibroblasts as well as in four HU-FA cell types. The upregulation of
+Cebpb
+and
+Cebpd
+, which encode the transcription factor C/EBPs, was observed across ECs, SMCs and fibroblasts in HU-CA and HU-FA, suggesting the possibility of overall inflammatory state [
+46
+]. This was further supported by increased levels of
+Fosb
+and
+Jun
+, which encode components of the proinflammatory AP1 transcription factor, in several cell types in both HU-CA and HU-FA. Additionally, the exclusive downregulation of ECM–related genes was observed, consistent with previous report that ECM related genes were downregulated in CA of mice [
+47
+]. Specifically,
+Lox
+,
+Eln
+and
+Dpt
+were downregulated across HU-CA and HU-FA endothelial cells, SMCs, and fibroblasts, indicating impaired vascular integrity and elasticity. The downregulation of
+col1a1
+,
+col3a1
+, and
+Sparc
+, which are involved in collagen binding and maturation, suggests compromised basal lamina assembly and cellular adhesion [
+48
+] in CA and FA after hindlimb unloading. Protein level confirmation was obtained for the upregulation of KLF4, FOSB, CEBPB and the downregulation of SPARC, DPT in HU-CA. (Fig.
+5
+H, I, J, K, L).
+Cellular communication changes in FA and CA after hindlimb unloading in rats
+Intercellular communication between heterogenous clusters within artery was revealed leveraging CellChatDB. Among HU-related changes in ligand-receptor pairs in CA and FA, fibroblasts and SMCs played a crucial role in orchestrating intercellular communication changes, as supported by the more pronounced changes in the number of interactions and interaction strength (Fig.
+6
+A, B).
+Fig. 6.
+Open in a new tab
+The effect of hindlimb unloading on intercellular communication between different cell types in CA and FA. (
+A
+,
+B
+) Circle plot showing the differential number of interactions and differential interaction strength among different artery cell types in HU-CA (
+A
+) and HU-FA (
+B
+) in comparison with Con counterparts. The red line represented increased number and strength of interaction. The blue line represented the opposite trend. The line thickness is proportional to the number of ligands-receptors pairs and interaction strength. (
+C
+,
+D
+) Heatmap of incoming signaling patterns (
+C
+) and outgoing signaling patterns (
+D
+) of different cell types identified by CellChat analysis in Con-CA and HU-CA. (
+E
+,
+F
+) Heatmap revealing top predicted differential expressed ligand-receptor pairs between different cell types in HU-CA (
+E
+) and HU-FA (
+F
+) compared to their counterparts
+To elucidate changes in cell-to-cell communication in the CA due to HU, we utilized CellChat analysis to identify key signaling pathways. This analysis underscored the significant role of fibroblasts and SMCs in cellular communication. Specifically, SMCs received signals from
+Spp1
+,
+Laminin
+,
+Collagen
+,
+Fn1
+, and
+Ptn
+, while fibroblasts were receptive to signals from
+Mif
+,
+Pdgf
+, and
+Wnt
+(Fig.
+6
+C). In terms of signal emission, SMCs released signals including
+Spp1
+,
+Notch
+, and
+Ephb
+, whereas fibroblasts secreted
+Cd99
+,
+Fn1
+,
+Sema3
+, and
+Igf
+(Fig.
+6
+D). Then we compared interaction strength between HU-CA and Con-CA (Fig.
+6
+E). For ECM-related ligand-receptor pairs,
+Col4a1_Sdc4
+,
+Col4a4_Sdc4
+,
+Fn1_Itga8/Itgb1
+,
+Fn1_Sdc4
+,
+Lamb2_Itga7/Itgb1
+were increased between ECs and SMCs. However, the interactions of ligands including
+lama4
+,
+lama5
+,
+lamb1
+and
+lamc1
+and receptors including
+Itga7/Itgb1
+and
+Dag1
+within SMCs of CA were decreased after HU. In our study, we also assessed the secreted signaling of specific ligand-receptor pairs. Notably, the anti-inflammatory interaction between
+Pros1
+and
+Axl
+was diminished in the communication between fibroblasts and SMCs after HU in CA [
+49
+]. Midkine (
+Mdk
+), a heparin-binding growth factor involved in cell growth, survival, migration, and angiogenesis [
+50
+], exhibited reduced interactions from fibroblasts with its transmembrane receptors
+Lrp1
+,
+Ncl
+,
+Sdc2
+, and
+Sdc4
+on SMCs in HU-CA compared to Con-CA. These ligand-receptor interactions were similarly attenuated within fibroblasts in HU-CA. Furthermore, arterial endothelial
+Ackr3
+, known to mediate endothelium-immune cell adhesion [
+51
+], showed an increased interaction with
+Mif
+from SMCs in HU-CA versus Con-CA. The interaction of
+Mif_Ackr3
+pair was also enhanced within ECs. Additionally, the
+Pdgfa_Pdgfrb
+signaling pair was likewise augmented within SMCs.
+HU-induced alterations in cellular communication within the FA were also characterized. ECs received signals from
+Vegf
+,
+Cdh5
+, and
+Jam
+, while SMCs were responsive to
+Spp1
+,
+Laminin
+, and
+Sema3
+(Additional file 1: Fig. S8). Post-HU analysis of the FA revealed changes in the interaction strength of specific ligand-receptor pairs (Fig.
+6
+F). Notably, the
+Sema3c_Plxnd1
+pair, which suppresses angiogenesis [
+52
+], exhibited reduced signaling between fibroblasts and SMCs in HU-FA compared to Con-FA. In contrast to the CA, the anti-inflammatory
+Pros1_Axl
+interaction was enhanced in fibroblast-SMC and fibroblast-fibroblast communications following HU in the FA. The secreted signaling pair
+Mif_Ackr3
+was strengthened in SMCs-fibroblasts and fibroblasts-fibroblasts cell crosstalk. ECM-related pairs including
+Col1a1_Cd44
+,
+Col6a1_ Itga1/Itgb1
+,
+Col6a1_Cd44
+were diminished in fibroblast-SMC crosstalk. Unlike in the CA, ECM pairs such as
+Col1a1_Itga1/Itgb1
+,
+Col4a1_Itga1/Itgb1
+, and
+Col4a1_Cd44
+were also reduced in EC-SMC communications after HU in the FA. Furthermore, cell-cell contact interactions, including
+F11r_Jam3
+,
+Jag2_Notch1
+,
+Jag2_Notch2
+, and
+Jam2_Jam3
+, were attenuated in EC-SMC crosstalk in HU-FA relative to Con-FA.
+Transcription factor regulation features in FA and CA after hindlimb unloading in rats
+We performed SCENIC analysis to identify the key TFs responsible for vascular cell heterogeneity and alterations in transcription during HU. We first explored the cluster-specific TF regulation features. In a heatmap of average regulon activity, we found that
+Prrx2
+,
+Cebpd
+and
+Creb3l1
+were highlighted in fibroblasts, while
+Mef2c
+, crucial for the maturation of smooth muscle cells [
+53
+], were exclusively more active in SMCs. SMCs and immune cells showed higher activity of AP-1 family members
+Junb
+,
+Jund and Fosb
+(Fig.
+7
+A). Subsequently, we discerned differences in regulon activities between the HU and Con groups. The enhanced activity of
+Mef2a
+was observed in HU-CA compared to Con-CA.
+Ets1
+, which prevents vascular endothelial injury in diabetes [
+54
+], was predicted more active both in CA and FA of rats after HU.
+Fig. 7.
+Open in a new tab
+Transcription factor analysis in different cell types of CA and FA. (
+A
+,
+B
+) Heatmap showing the enrichment of TFs based on normalized AUC values in each cell types (
+A
+) and in four groups (
+B
+). (
+C
+) Heatmap showing the activity of regulons within fibroblasts of HU-CA and Con-CA based on the AUC binary matrix. (
+D
+) Heatmap showing the activity of regulons within SMCs of HU-CA and Con-CA based on normalized AUC values. (
+E
+) Heatmap showing the activity of regulons within ECs of HU-CA and Con-CA based on the AUC binary matrix. (
+F
+) TFs with significantly changed activity and their targeted genes
+Next, we studied the differences in TF activity between experimental and control groups within specific cell type. The enhanced activity of inflammation-related
+Fos
+,
+Jun
+,
+Cebpb
+in fibroblast might responsible for vascular remodeling in CA and FA after HU. Compared to the control group, the transcriptional activity of
+Ddit3
+, also known as
+Chop
+, was significantly increased in fibroblasts of the HU group (Fig.
+7
+C, Additional file 1: Fig. S9A).
+Ddit3
+plays a crucial role in endoplasmic reticulum stress and has recently been found to be important in glucose metabolism [
+55
+]. This finding may partially explain the observed changes in metabolic pathways in fibroblasts within the HU group as mentioned earlier (Fig.
+5
+G, H). As of SMC, transcription factors
+Fos
+,
+Fosb
+,
+Srf and Jund
+exhibited differential expression between the CA and FA, while
+Mef2c
+is significantly upregulated in both CA and FA after HU (Fig.
+7
+D, Additional file 1: Fig. S9B). Given the pivotal role of
+Mef2c
+in smooth muscle differentiation [
+53
+], the increased expression of
+Acta2
+in HU-CA and HU-FA might be attributed to the enhanced activity of
+Mef2c
+.
+Zeb1
+, which is involved in epithelial–mesenchymal transition and plays a protective role in the process of atherosclerosis [
+56
+], had elevated activities in SMC of HU-CA (Fig.
+7
+D).
+Atf4
+, recognized for its role in angiogenic activation and its ability to heterodimerize with other TFs such as
+Cebpb
+and
+Jund
+[
+57
+], and AP-1 family member
+Jun
+and
+Fos
+, exhibited greater activity in HU-FA and HU-CA compared to Con groups in EC. Meanwhile, the atheroprotective
+Klf4
+demonstrated heightened activity in ECs of HU-FA but not HU-CA (Fig.
+7
+E, Additional file 1: Fig. S9C). Additionally, we constructed the TF-target gene network of some TFs and noticed that
+Jun
+,
+Fosb and Mef2c
+shared some target genes.
+Acta2
+is related to
+Srf
+and
+Ets1
+according to this network (Fig.
+7
+F), which has enlightening effects on studying the mechanism of
+Acta2
+upregulation in several cell types.
+Discussion
+Weightless environment has a wide range of physiological effects on blood vessels. Here, we present a comprehensive CA and FA cell atlas in rats subjected to hindlimb suspension by utilizing scRNA-seq. We observed hindlimb unloading-associated alterations in cell type composition. Cell type-specific and artery type-specific transcriptomic changes were presented. The heterogeneous sub-clusters of the major cell types were then identified. In addition, cellular communication and TF prediction in FA and CA of rats under hindlimb unweighting was described. Our study will collectively provide insights into the mechanisms underlying arterial remodeling in microgravity conditions.
+The most frequently reported duration for rat tail suspension is 28 days. However, as human spaceflight missions become increasingly prolonged, it is imperative to observe the physiological effects of long-term weightlessness on biological organisms. Consequently, we have extended the duration of rat tail suspension to three months. Using scRNA-sequencing method, we delineated 23 distinct cell clusters, representing the predominant cell types within the CA and FA. A comparative analysis between the HU and Con groups revealed a notable decrease in the proportion of SMCs in both the CA and FA after tail suspension. This observation contradicts earlier studies [
+5
+], possibly due to variations in the duration of hindlimb suspension, as vascular remodeling is an ongoing and dynamic process. Furthermore, an elevated proportion of immune cells in the HU-FA suggests heightened inflammation in the femoral arteries of rats subjected to weightlessness.
+Considering dysregulated genes may be highly specific for different vascular cell types, we provide transcriptomic changes of four major arterial cell types (SMCs, ECs, fibroblasts and macrophages). Notably, fibroblasts from both the CA and FA showed the most significant upregulation and downregulation of genes. This finding underscored their high plasticity and crucial role in vascular remodeling in hindlimb-unloaded rats. The adventitial fibroblast’s role in vascular remodeling is increasingly recognized [
+58
+,
+59
+]. However, knowledge about vascular fibroblasts from rats exposed to hindlimb suspension is lacking. ScRNA-seq offers an opportunity to detect gene expression of vascular fibroblasts from HU-CA and HU-FA. The upregulation of
+Serpine1
+and
+Serpine2
+suggested impaired matrix degradation in CA and FA after microgravity. Additionally, the heightened expression of
+Txnip
+indicated the elevated oxidative stress and inflammatory state of fibroblasts in HU-CA and HU-FA. Metabolic processes in adventitial fibroblasts were also found to be altered post-hindlimb unloading in the CA and FA, emphasizing the importance of fibroblast metabolic changes in vascular remodeling. This result was consistent with a previous study that highlighted the significant role of metabolic changes in adventitial fibroblasts in the vascular remodeling of pulmonary arterial hypertension in pulmonary hypertension [
+60
+].
+Considering the distinct hemodynamics between the upper and lower body, we hypothesized differential gene expression in the FA and CA. Our findings confirmed this, with the CA and FA showing some divergent changes. For instance, genes involved in ribosome subunits were upregulated in HU-CA SMCs but downregulated in HU-FA SMCs compared to controls. However, we also found some similarities in arterial changes between CA and FA, suggesting that there may be other factors contributing to arterial remodeling in addition to headward fluid shift under microgravity. Notably, the expression of
+Acta2
+, which encodes α-SMA, was enhanced in SMCs of both HU-CA and HU-FA. This, coupled with the reduced proportion of SMCs in the CA and FA, helps us understand the mechanism behind the intima-media thickening in HU-CA. We speculate that the elevated
+Acta2
+expression may predominantly contribute to intima-media thickening in the CA, while the decreased SMC fraction in HU-FA could counteract the increased
+Acta2
+expression. Moreover, the upregulation of inflammation-related TFs (
+Klf4
+,
+Fos
+,
+Jun
+,
+Cebpb
+) across several cell types, the upregulation of
+Cxcr4
+in HU-CA and HU-FA macrophages, and heightened
+Txnip
+expression in fibroblasts collectively suggest a possible inflammatory state in the circulatory system of hindlimb-unweighted rats. This study reports for the first time the high levels of inflammation and oxidative stress in the upper and lower body blood vessels under simulated weightlessness. This finding was consistent to previous research showing an inflammatory response in the CA of rats subjected to hindlimb unloading [
+61
+]. Similarly, biomarkers of oxidative stress and inflammation have been found elevated in astronauts following long-duration spaceflight [
+62
+]. Additionally, the downregulation of these genes associated with elastic fibers (
+Eln
+), collagens (
+Col1a1
+,
+Col3a1
+), and other ECM components (
+Lox
+,
+Sparc
+) in the CA and FA of hindlimb-unweighted rats may partially explain the observed decrease in vascular distensibility and the increased vascular stiffness reported previously [
+2
+].
+Adding another layer of complexity to vascular remodeling in simulated microgravity, heterogeneous cell types exhibited specific features. ECs, SMCs and fibroblasts were extracted from total cells and divided into several sub-populations, respectively. Our study revealed two EndoMT-related EC sub-clusters which were in the process of differentiation into SMCs and fibroblasts. Notably, only EC sub-cluster 4 from HU-CA was in the process of differentiation into SMCs. This finding was evidenced by the pseudotime analysis. EndoMT is a kind of phenotypic switch through which ECs gain mesenchymal-like properties, resulting in enhanced migration and endothelial dysfunction. Inducers of EndoMT include biochemical and biomechanical stimuli [
+63
+]. We postulate that elevated transmural pressure in the CA of rats subjected to tail suspension could be a contributing factor. Another possibility is that increased expression of
+Serpine1
+in fibroblasts mediated EndoMT as previously reported [
+64
+]. Endothelial impairment was reported during and after spaceflight [
+65
+]. The finding of EndoMT in this study may provide new insight of endothelial impairment. Moreover, we found a sub-cluster of SMCs responsible for DNA replication and mitosis, indicating the highly proliferative activity of this sub-cluster of SMCs.
+As adjacent component of blood vessels, ECs, SMCs and fibroblasts can communicate with each other through direct contact, paracrine and extracellular vesicles [
+66
+]. The communication between ECs and VSMCs has been studied intensively. Here we first reported that the number of significantly enriched ligand-receptor pairs between SMCs and fibroblasts was more than that between other cell types in HU-CA and HU-FA. Some studies have found that SMCs interact with fibroblasts in pathological conditions through extracellular vesicles [
+36
+,
+67
+], highlighting the important role of cellular communication between SMCs and fibroblasts in artery remodeling process. This was also demonstrated in our study. Transcription factor network analysis unraveled the high activity of
+Fos
+,
+Jun
+,
+Cebpb
+in ECs and fibroblasts, indicating the hyperinflammatory state in CA and FA. This finding further suggests the important role of AP-1 family members and CEBPs in vascular remodeling in rats under simulated microgravity.
+Limitations of the study lie in the following aspects. First, most of the descriptive results in our study lack proof of protein level although some are verified using immunofluorescent staining. Second, the relatively small number of some cell types such as T and B immune cells and stem cells limits the research of genetic changes in response to simulated microgravity. Third, our study’s primary focus was on conduit arteries, namely the CA and FA. The impact of modeled microgravity on microcirculatory changes merits further exploration in future studies.
+Conclusions
+Comprehensive single-cell compendium of the vascular remodeling process in rats at the molecular level under simulated microgravity is described in our study. The identification of region-specific and artery-specific transcriptomic changes, along with commonalities between the CA and FA, contributes to a more comprehensive understanding of the vascular remodeling process under microgravity conditions. By focusing on the less-explored fibroblasts and immune cells, as well as the sub-clusters within the major arterial cell types, our research sheds light on the intricate biological processes at play under simulated microgravity.
+Electronic supplementary material
+Below is the link to the electronic supplementary material.
+Supplementary Material 1
+(6.9MB, docx)
+Acknowledgements
+Not applicable.
+Abbreviations
+ScRNA
+seq Single-cell RNA sequencing
+AUC
+Area Under the Curve
+PCA
+Principal component analysis
+SCENIC
+Single cell regulatory network inference and clustering
+TF
+Transcription factor
+UMIs
+Unique molecular identifiers
+CA
+Carotid artery
+FA
+Femoral artery
+ECs
+Endothelial cells
+SMCs
+Smooth muscle cells
+AP-1
+Activator protein-1
+CEBPs
+CCAAT/enhancer-binding proteins
+ECM
+Extracellular matrix
+EndoMT
+Endothelial-to-mesenchymal transition
+PBS
+Phosphate-buffered saline
+GEM
+Gel bead-in-emulsion
+cDNA
+Complementary DNA
+PCR
+Polymerase chain reaction
+t-SNE
+t-distributed stochastic neighbor embedding
+GO
+Gene ontology
+KEGG
+Kyoto encyclopedia of genes and genomes pathway analysis GSVA Gene set variation analysis
+Author contributions
+C-F L and Y-K P designed the study, performed the majority of the experiments, collected data and analyzed the data and wrote the manuscript. Y W and X L performed experiments, collected data and approved the manuscript. X-Q S, Y-Ch W and X-C Y contributed to the designing of the experiments and assisted in the final approval of the manuscript. All authors read and approved the final manuscript.
+Funding
+This work was supported by the National Natural Science Foundation of China (No. 12132012 and No. 32100952).
+Data availability
+All data associated with this study are present in the paper or in the supplementary information. Data, codes, and materials will be made available upon request.
+Declarations
+Ethics approval and consent to participate
+All animal procedures conducted in this study were in strict accordance with the “Guidelines for the Care and Use of Laboratory Animals” as stipulated by China, and were duly approved by the Institutional Animal Care and Use Committee at the Fourth Military Medical University, China.
+Consent for publication
+Not applicable.
+Competing interests
+The authors declare no conflict of interest.
+Footnotes
+Publisher’s note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Chengfei Li, Yikai Pan and Yuan Wang contributed equally to this work and should be considered co-first authors.
+Contributor Information
+Xianchun Yan, Email: yanxianchun@163.com.
+Yongchun Wang, Email: wangych@fmmu.edu.cn.
+Xiqing Sun, Email: sunxiqing1965@163.com.
+References
+1.
+Arbeille P, Provost R, Zuj K (2017) Carotid and femoral arterial Wall Distensibility during Long-Duration Spaceflight. Aerosp Med Hum Perform 88(10):924–930
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Hughson RL, Robertson AD, Arbeille P, Shoemaker JK, Rush JW, Fraser KS, Greaves DK (2016) Increased postflight carotid artery stiffness and inflight insulin resistance resulting from 6-mo spaceflight in male and female astronauts. Am J Physiol Heart Circ Physiol 310(5):H628–H638
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+van Duijnhoven NT, Green DJ, Felsenberg D, Belavy DL, Hopman MT, Thijssen DH (2010) Impact of bed rest on conduit artery remodeling: effect of exercise countermeasures. Hypertension 56(2):240–246
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Liu H, Wang ZC, Bai YG, Cai Y, Yu JW, Zhang HJ, Bao JX, Ren XL, Xie MJ, Ma J (2015) Simulated microgravity promotes monocyte adhesion to rat aortic endothelium via nuclear factor-κB activation. Clin Exp Pharmacol Physiol 42(5):510–519
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Cheng YP, Zhang HJ, Su YT, Meng XX, Xie XP, Chang YM, Bao JX (2017) Acid sphingomyelinase/ceramide regulates carotid intima-media thickness in simulated weightless rats. Pflugers Arch 469(5–6):751–765
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Zhang LN, Zhang LF, Ma J (2001) Simulated microgravity enhances vasoconstrictor responsiveness of rat basilar artery. J Appl Physiol (1985) 90(6):2296–2305
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Gu W, Ni Z, Tan YQ, Deng J, Zhang SJ, Lv ZC, Wang XJ, Chen T, Zhang Z, Hu Y, Jing ZC, Xu Q (2019) Adventitial Cell Atlas of wt (wild type) and ApoE (apolipoprotein E)-Deficient mice defined by single-cell RNA sequencing. Arterioscler Thromb Vasc Biol 39(6):1055–1071
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Trapnell C, Cacchiarelli D, Grimsby J, Pokharel P, Li S, Morse M, Lennon NJ, Livak KJ, Mikkelsen TS, Rinn JL (2014) The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells. Nat Biotechnol 32(4):381–386
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Ojala JR, Pikkarainen T, Elmberger G, Tryggvason K (2013) Progressive reactive lymphoid connective tissue disease and development of autoantibodies in scavenger receptor A5-deficient mice. Am J Pathol 182(5):1681–1695
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Kalluri AS, Vellarikkal SK, Edelman ER, Nguyen L, Subramanian A, Ellinor PT, Regev A, Kathiresan S, Gupta RM (2019) Single-cell analysis of the normal mouse aorta reveals functionally distinct endothelial cell populations. Circulation 140(2):147–163
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Leatherdale A, Parker D, Tasneem S, Wang Y, Bihan D, Bonna A, Hamaia SW, Gross PL, Ni H, Doble BW, Lillicrap D, Farndale RW, Hayward CPM (2021) Multimerin 1 supports platelet function in vivo and binds to specific GPAGPOGPX motifs in fibrillar collagens that enhance platelet adhesion. J Thromb Haemost 19(2):547–561
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Hsu PL, Chen JS, Wang CY, Wu HL, Mo FE (2019) Shear-Induced CCN1 promotes atheroprone endothelial phenotypes and atherosclerosis. Circulation 139(25):2877–2891
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Lui KO, Zangi L, Silva EA, Bu L, Sahara M, Li RA, Mooney DJ, Chien KR (2013) Driving vascular endothelial cell fate of human multipotent Isl1 + heart progenitors with VEGF modified mRNA. Cell Res 23(10):1172–1186
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+Yung LM, Sánchez-Duffhues G, Ten Dijke P, Yu PB (2015) Bone morphogenetic protein 6 and oxidized low-density lipoprotein synergistically recruit osteogenic differentiation in endothelial cells. Cardiovasc Res 108(2):278–287
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Young SG, Song W, Yang Y, Birrane G, Jiang H, Beigneux AP, Ploug M, Fong LG (2022) A protein of capillary endothelial cells, GPIHBP1, is crucial for plasma triglyceride metabolism. Proc Natl Acad Sci U S A 119(36):e2211136119
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+DeVallance ER, Dustin CM, de Jesus DS, Ghouleh IA, Sembrat JC, Cifuentes-Pagano E, Pagano PJ (2022) Specificity protein 1-Mediated Promotion of CXCL12 advances endothelial cell metabolism and proliferation in Pulmonary Hypertension. Antioxid (Basel).;12(1)
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+17.
+Glaser SF, Heumüller AW, Tombor L, Hofmann P, Muhly-Reinholz M, Fischer A, Günther S, Kokot KE, Hassel D, Kumar S, Jo H, Boon RA, Abplanalp W, John D, Boeckel JN, Dimmeler S (2020) The histone demethylase JMJD2B regulates endothelial-to-mesenchymal transition. Proc Natl Acad Sci U S A 117(8):4180–4187
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Lin WT, Jiang YC, Mei YL, Chen YH, Zheng ZZ, Han X, Wu GJ, Huang WJ, Ye BZ, Liang G (2024) Endothelial deubiquinatase YOD1 mediates Ang II-induced vascular endothelial-mesenchymal transition and remodeling by regulating β-catenin. Acta Pharmacol Sin 45(8):1618–1631
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Liang G, Wang S, Shao J, Jin YJ, Xu L, Yan Y, Günther S, Wang L, Offermanns S (2022) Tenascin-X mediates Flow-Induced suppression of EndMT and atherosclerosis. Circ Res 130(11):1647–1659
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Yan K, Zheng J, Kluth MA, Li L, Ganss C, Yard B, Magdeburg R, Frank MH, Pallavi P, Keese M (2023) ABCB5(+) mesenchymal stromal cells therapy protects from hypoxia by restoring ca(2+) homeostasis in vitro and in vivo. Stem Cell Res Ther 14(1):24
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Kokate SB, Ciuba K, Tran VD, Kumari R, Tojkander S, Engel U, Kogan K, Kumar S, Lappalainen P (2022) Caldesmon controls stress fiber force-balance through dynamic cross-linking of myosin II and actin-tropomyosin filaments. Nat Commun 13(1):6032
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Zhang LF (2001) Vascular adaptation to microgravity: what have we learned? J Appl Physiol (1985) 91(6):2415–2430
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Dabbaghizadeh A, Paré A, Cheng-Boivin Z, Dagher R, Minotti S, Dicaire MJ, Brais B, Young JC, Durham HD, Gentil BJ (2022) The J domain of Sacsin disrupts Intermediate Filament Assembly. Int J Mol Sci.;23(24)
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+24.
+Ruzha Y, Ni J, Quan Z, Li H, Qing H (2022) Role of Vitronectin and its receptors in neuronal function and neurodegenerative diseases. Int J Mol Sci.;23(20)
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+25.
+Pang Y, Zhu Z, Wen Z, Lu J, Lin H, Tang M, Xu Z, Lu J (2021) HIGD–1B inhibits hypoxia–induced mitochondrial fragmentation by regulating OPA1 cleavage in cardiomyocytes. Mol Med Rep.;24(2)
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+26.
+Kadenbach B (2017) Regulation of mammalian 13-Subunit cytochrome c oxidase and binding of other proteins: role of NDUFA4. Trends Endocrinol Metab 28(11):761–770
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Pu X, Zhu P, Zhou X, He Y, Wu H, Du L, Gong H, Sun X, Chen T, Zhu J, Xu Q, Zhang H (2022) CD34(+) cell atlas of main organs implicates its impact on fibrosis. Cell Mol Life Sci 79(11):576
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Giammona A, Crivaro E, Stecca B (2023) Emerging roles of hedgehog signaling in Cancer Immunity. Int J Mol Sci.;24(2)
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+29.
+Lu S, Jolly AJ, Strand KA, Dubner AM, Mutryn MF, Moulton KS, Nemenoff RA, Majesky MW, Weiser-Evans MC (2020) Smooth muscle-derived progenitor cell myofibroblast differentiation through KLF4 downregulation promotes arterial remodeling and fibrosis. JCI Insight.;5(23)
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+30.
+Fu J, Zhou S, Xu H, Liao L, Shen H, Du P, Zheng X (2023) ATM-ESCO2-SMC3 axis promotes 53BP1 recruitment in response to DNA damage and safeguards genome integrity by stabilizing cohesin complex. Nucleic Acids Res 51(14):7376–7391
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+31.
+Stopp S, Gründl M, Fackler M, Malkmus J, Leone M, Naumann R, Frantz S, Wolf E, von Eyss B, Engel FB, Gaubatz S (2017) Deletion of Gas2l3 in mice leads to specific defects in cardiomyocyte cytokinesis during development. Proc Natl Acad Sci U S A 114(30):8029–8034
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+32.
+Li G, Chen SJ, Oparil S, Chen YF, Thompson JA (2000) Direct in vivo evidence demonstrating neointimal migration of adventitial fibroblasts after balloon injury of rat carotid arteries. Circulation 101(12):1362–1365
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Kokkinopoulos I, Wong MM, Potter CMF, Xie Y, Yu B, Warren DT, Nowak WN, Le Bras A, Ni Z, Zhou C, Ruan X, Karamariti E, Hu Y, Zhang L, Xu Q (2017) Adventitial SCA-1(+) progenitor cell gene sequencing reveals the mechanisms of Cell Migration in response to Hyperlipidemia. Stem Cell Rep 9(2):681–696
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Bouton MC, Boulaftali Y, Richard B, Arocas V, Michel JB, Jandrot-Perrus M (2012) Emerging role of serpinE2/protease nexin-1 in hemostasis and vascular biology. Blood 119(11):2452–2457
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Han Y, Xu X, Tang C, Gao P, Chen X, Xiong X, Yang M, Yang S, Zhu X, Yuan S, Liu F, Xiao L, Kanwar YS, Sun L (2018) Reactive oxygen species promote tubular injury in diabetic nephropathy: the role of the mitochondrial ros-txnip-nlrp3 biological axis. Redox Biol 16:32–46
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+36.
+Ye C, Zheng F, Xu T, Wu N, Tong Y, Xiong XQ, Zhou YB, Wang JJ, Chen Q, Li YH, Zhu GQ, Han Y (2022) Norepinephrine acting on adventitial fibroblasts stimulates vascular smooth muscle cell proliferation via promoting small extracellular vesicle release. Theranostics 12(10):4718–4733
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+37.
+Zhou Y, Rui L (2010) Major urinary protein regulation of chemical communication and nutrient metabolism. Vitam Horm.;83(151– 63.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+38.
+Hara T, Phuong PT, Fukuda D, Yamaguchi K, Murata C, Nishimoto S, Yagi S, Kusunose K, Yamada H, Soeki T, Wakatsuki T, Imoto I, Shimabukuro M, Sata M (2018) Protease-activated Receptor-2 plays a critical role in vascular inflammation and atherosclerosis in apolipoprotein E-Deficient mice. Circulation 138(16):1706–1719
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+39.
+Gur-Cohen S, Lapidot T (2016) Vascular procr(+) stem cells: finding new branches while looking for the roots. Cell Res 26(10):1071–1072
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+40.
+Mun SA, Park J, Park KR, Lee Y, Kang JY, Park T, Jin M, Yang J, Jun CD, Eom SH (2020) Structural and biochemical characterization of EFhd1/Swiprosin-2, an actin-binding protein in Mitochondria. Front Cell Dev Biol 8:628222
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+41.
+Sano M (2023) Complexity of inflammation in the trajectory of Vascular Disease: Interleukin 6 and Beyond. Ann Vasc Dis 16(1):8–16
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+42.
+Kumaraswami K, Arnholdt C, Deindl E, Lasch M (2023) Rag1 Deficiency impairs arteriogenesis in mice. Int J Mol Sci.;24(16)
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+43.
+Choi SY, Lee EB, Kim JH, Lee JR (2023) Over-expression of p190RhoGEF regulates the formation of atherosclerotic plaques in the aorta of ApoE(-/-) mice via macrophage polarization. Int J Mol Sci.;24(16)
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+44.
+Wu B, Chien EY, Mol CD, Fenalti G, Liu W, Katritch V, Abagyan R, Brooun A, Wells P, Bi FC, Hamel DJ, Kuhn P, Handel TM, Cherezov V, Stevens RC (2010) Structures of the CXCR4 chemokine GPCR with small-molecule and cyclic peptide antagonists. Science 330(6007):1066–1071
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+45.
+Han Y, He M, Marin T, Shen H, Wang WT, Lee TY, Hong HC, Jiang ZL, Garland T Jr., Shyy JY, Gongol B, Chien S (2021) Roles of KLF4 and AMPK in the inhibition of glycolysis by pulsatile shear stress in endothelial cells. Proc Natl Acad Sci U S A 118:21
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+46.
+Lu YC, Kim I, Lye E, Shen F, Suzuki N, Suzuki S, Gerondakis S, Akira S, Gaffen SL, Yeh WC, Ohashi PS (2009) Differential role for c-Rel and C/EBPbeta/delta in TLR-mediated induction of proinflammatory cytokines. J Immunol 182(11):7212–7221
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+47.
+da Silveira WA, Fazelinia H, Rosenthal SB, Laiakis EC, Kim MS, Meydan C, Kidane Y, Rathi KS, Smith SM, Stear B, Ying Y, Zhang Y, Foox J, Zanello S, Crucian B, Wang D, Nugent A, Costa HA, Zwart SR, Schrepfer S, Elworth RAL, Sapoval N, Treangen T, MacKay M, Gokhale NS, Horner SM, Singh LN, Wallace DC, Willey JS, Schisler JC, Meller R, McDonald JT, Fisch KM, Hardiman G, Taylor D, Mason CE, Costes SV, Beheshti A (2020) Comprehensive multi-omics Analysis reveals mitochondrial stress as a Central Biological hub for spaceflight impact. Cell 183(5):1185–201e20
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+48.
+Bradshaw AD (2009) The role of SPARC in extracellular matrix assembly. J Cell Commun Signal 3(3–4):239–246
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+49.
+Burstyn-Cohen T, Fresia R (2023) TAM receptors in phagocytosis: beyond the mere internalization of particles. Immunol Rev 319(1):7–26
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+50.
+Yu X, Xie L, Ge J, Li H, Zhong S, Liu X (2023) Integrating single-cell RNA-seq and spatial transcriptomics reveals MDK-NCL dependent immunosuppressive environment in endometrial carcinoma. Front Immunol 14:1145300
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+51.
+Gencer S, Döring Y, Jansen Y, Bayasgalan S, Yan Y, Bianchini M, Cimen I, Müller M, Peters LJF, Megens RTA, von Hundelshausen P, Duchene J, Lemnitzer P, Soehnlein O, Weber C, van der Vorst EPC (2022) Endothelial ACKR3 drives atherosclerosis by promoting immune cell adhesion to vascular endothelium. Basic Res Cardiol 117(1):30
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+52.
+Yang WJ, Hu J, Uemura A, Tetzlaff F, Augustin HG, Fischer A (2015) Semaphorin-3 C signals through Neuropilin-1 and PlexinD1 receptors to inhibit pathological angiogenesis. EMBO Mol Med 7(10):1267–1284
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+53.
+Hirai H, Yang B, Garcia-Barrio MT, Rom O, Ma PX, Zhang J, Chen YE (2018) Direct reprogramming of fibroblasts into smooth muscle-like cells with defined transcription factors-brief report. Arterioscler Thromb Vasc Biol 38(9):2191–2197
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+54.
+Zhang Y, Cao Y, Zhang X, Lin J, Jiang M, Zhang X, Dai X, Zhang X, Liu Y, Ge W, Qiang H, Li C, Sun D (2024) Single-cell RNA sequencing uncovers pathological processes and crucial targets for vascular endothelial Injury in Diabetic hearts. Adv Sci (Weinh) 11(47):e2405543
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+55.
+Li M, Thorne RF, Shi R, Zhang XD, Li J, Li J, Zhang Q, Wu M, Liu L (2021) DDIT3 directs a dual mechanism to balance glycolysis and oxidative phosphorylation during glutamine deprivation. Adv Sci (Weinh) 8(11):e2003732
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+56.
+Li H, Zou J, Yu XH, Ou X, Tang CK (2021) Zinc finger E-box binding homeobox 1 and atherosclerosis: new insights and therapeutic potential. J Cell Physiol 236(6):4216–4230
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+57.
+Fan Z, Turiel G, Ardicoglu R, Ghobrial M, Masschelein E, Kocijan T, Zhang J, Tan G, Fitzgerald G, Gorski T, Alvarado-Diaz A, Gilardoni P, Adams CM, Ghesquière B, De Bock K (2021) Exercise-induced angiogenesis is dependent on metabolically primed ATF3/4(+) endothelial cells. Cell Metab 33(9):1793–807e9
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+58.
+Peng K, Wang M, Wang J, Wang Q, Li D, Sun X, Yang Y, Yang D (2023) Nuclear receptor subfamily 1 group D member 1 suppresses the proliferation, migration of adventitial fibroblasts, and vascular intimal hyperplasia via mammalian target of rapamycin complex 1/β-catenin pathway. Clin Exp Hypertens 45(1):2178659
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+59.
+Zheng F, Ye C, Ge R, Wang Y, Tian XL, Chen Q, Li YH, Zhu GQ, Zhou B (2023) MiR-21-3p in extracellular vesicles from vascular fibroblasts of spontaneously hypertensive rat promotes proliferation and migration of vascular smooth muscle cells. Life Sci 330:122023
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+60.
+Zhang H, Wang D, Li M, Plecitá-Hlavatá L, D’Alessandro A, Tauber J, Riddle S, Kumar S, Flockton A, McKeon BA, Frid MG, Reisz JA, Caruso P, El Kasmi KC, Ježek P, Morrell NW, Hu CJ, Stenmark KR (2017) Metabolic and proliferative state of vascular adventitial fibroblasts in pulmonary hypertension is regulated through a MicroRNA-124/PTBP1 (Polypyrimidine Tract Binding Protein 1)/Pyruvate kinase muscle Axis. Circulation 136(25):2468–2485
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+61.
+Liu H, Wang ZC, Yue Y, Yu JW, Cai Y, Bai YG, Zhang HJ, Bao JX, Ren XL, Xie MJ, Ma J (2014) Simulated microgravity induces an inflammatory response in the common carotid artery of rats. Can J Physiol Pharmacol 92(8):661–668
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+62.
+Lee SMC, Ribeiro LC, Martin DS, Zwart SR, Feiveson AH, Laurie SS, Macias BR, Crucian BE, Krieger S, Weber D, Grune T, Platts SH, Smith SM, Stenger MB (2020) Arterial structure and function during and after long-duration spaceflight. J Appl Physiol (1985) 129(1):108–123
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+63.
+Moonen JR, Krenning G, Brinker MG, Koerts JA, van Luyn MJ, Harmsen MC (2010) Endothelial progenitor cells give rise to pro-angiogenic smooth muscle-like progeny. Cardiovasc Res 86(3):506–515
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+64.
+Wei WF, Zhou HL, Chen PY, Huang XL, Huang L, Liang LJ, Guo CH, Zhou CF, Yu L, Fan LS, Wang W (2023) Cancer-associated fibroblast-derived PAI-1 promotes lymphatic metastasis via the induction of EndoMT in lymphatic endothelial cells. J Exp Clin Cancer Res 42(1):160
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+65.
+Navasiolava N, Yuan M, Murphy R, Robin A, Coupé M, Wang L, Alameddine A, Gauquelin-Koch G, Gharib C, Li Y, Custaud MA (2020) Vascular and Microvascular Dysfunction Induced by Microgravity and its analogs in humans: mechanisms and countermeasures. Front Physiol 11:952
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+66.
+Mathieu M, Martin-Jaular L, Lavieu G, Théry C (2019) Specificities of secretion and uptake of exosomes and other extracellular vesicles for cell-to-cell communication. Nat Cell Biol 21(1):9–17
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+67.
+Ren XS, Tong Y, Qiu Y, Ye C, Wu N, Xiong XQ, Wang JJ, Han Y, Zhou YB, Zhang F, Sun HJ, Gao XY, Chen Q, Li YH, Kang YM, Zhu GQ (2020) MiR155-5p in adventitial fibroblasts-derived extracellular vesicles inhibits vascular smooth muscle cell proliferation via suppressing angiotensin-converting enzyme expression. J Extracell Vesicles 9(1):1698795
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Supplementary Material 1
+(6.9MB, docx)
+Data Availability Statement
+All data associated with this study are present in the paper or in the supplementary information. Data, codes, and materials will be made available upon request.
+Articles from Cellular and Molecular Life Sciences: CMLS are provided here courtesy of
+Springer

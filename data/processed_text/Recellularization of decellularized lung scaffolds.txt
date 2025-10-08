@@ -1,0 +1,1402 @@
+PLoS One
+. 2015 May 11;10(5):e0126846. doi:
+10.1371/journal.pone.0126846
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Recellularization of Decellularized Lung Scaffolds Is Enhanced by Dynamic Suspension Culture
+Aurélie Crabbé
+Aurélie Crabbé
+1
+The Biodesign Institute, Center for Infectious Diseases and Vaccinology, Arizona State University, Tempe, Arizona, United States of America
+Find articles by
+Aurélie Crabbé
+1
+,
+Yulong Liu
+Yulong Liu
+1
+The Biodesign Institute, Center for Infectious Diseases and Vaccinology, Arizona State University, Tempe, Arizona, United States of America
+Find articles by
+Yulong Liu
+1
+,
+Shameema F Sarker
+Shameema F Sarker
+1
+The Biodesign Institute, Center for Infectious Diseases and Vaccinology, Arizona State University, Tempe, Arizona, United States of America
+Find articles by
+Shameema F Sarker
+1
+,
+Nicholas R Bonenfant
+Nicholas R Bonenfant
+2
+Department of Medicine, University of Vermont College of Medicine, Burlington, Vermont, United States of America
+Find articles by
+Nicholas R Bonenfant
+2
+,
+Jennifer Barrila
+Jennifer Barrila
+1
+The Biodesign Institute, Center for Infectious Diseases and Vaccinology, Arizona State University, Tempe, Arizona, United States of America
+Find articles by
+Jennifer Barrila
+1
+,
+Zachary D Borg
+Zachary D Borg
+2
+Department of Medicine, University of Vermont College of Medicine, Burlington, Vermont, United States of America
+Find articles by
+Zachary D Borg
+2
+,
+James J Lee
+James J Lee
+3
+Division of Pulmonary Medicine, Department of Biochemistry and Molecular Biology, Mayo Clinic Arizona, Scottsdale, Arizona, United States of America
+Find articles by
+James J Lee
+3
+,
+Daniel J Weiss
+Daniel J Weiss
+2
+Department of Medicine, University of Vermont College of Medicine, Burlington, Vermont, United States of America
+Find articles by
+Daniel J Weiss
+2
+,
+Cheryl A Nickerson
+Cheryl A Nickerson
+1
+The Biodesign Institute, Center for Infectious Diseases and Vaccinology, Arizona State University, Tempe, Arizona, United States of America
+4
+School of Life Sciences, Arizona State University, Tempe, Arizona, United States of America
+Find articles by
+Cheryl A Nickerson
+1,
+4,
+*
+Editor:
+Monica Soncini
+5
+Author information
+Article notes
+Copyright and License information
+1
+The Biodesign Institute, Center for Infectious Diseases and Vaccinology, Arizona State University, Tempe, Arizona, United States of America
+2
+Department of Medicine, University of Vermont College of Medicine, Burlington, Vermont, United States of America
+3
+Division of Pulmonary Medicine, Department of Biochemistry and Molecular Biology, Mayo Clinic Arizona, Scottsdale, Arizona, United States of America
+4
+School of Life Sciences, Arizona State University, Tempe, Arizona, United States of America
+5
+Politecnico di Milano, ITALY
+Competing Interests:
+The authors have declared that no competing interests exist.
+Conceived and designed the experiments: AC DJW CAN. Performed the experiments: AC YL SFS NRB JB ZDB. Analyzed the data: AC YL JJL DJW CAN. Wrote the paper: AC DJW CAN.
+✉
+* E-mail:
+cheryl.nickerson@asu.edu
+Roles
+Monica Soncini
+:
+Academic Editor
+Received 2014 Oct 27; Accepted 2015 Apr 8; Collection date 2015.
+© 2015 Crabbé et al
+This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.
+PMC Copyright notice
+PMCID: PMC4427280  PMID:
+25962111
+Abstract
+Strategies are needed to improve repopulation of decellularized lung scaffolds with stromal and functional epithelial cells. We demonstrate that decellularized mouse lungs recellularized in a dynamic low fluid shear suspension bioreactor, termed the rotating wall vessel (RWV), contained more cells with decreased apoptosis, increased proliferation and enhanced levels of total RNA compared to static recellularization conditions. These results were observed with two relevant mouse cell types: bone marrow-derived mesenchymal stromal (stem) cells (MSCs) and alveolar type II cells (C10). In addition, MSCs cultured in decellularized lungs under static but not bioreactor conditions formed multilayered aggregates. Gene expression and immunohistochemical analyses suggested differentiation of MSCs into collagen I-producing fibroblast-like cells in the bioreactor, indicating enhanced potential for remodeling of the decellularized scaffold matrix. In conclusion, dynamic suspension culture is promising for enhancing repopulation of decellularized lungs, and could contribute to remodeling the extracellular matrix of the scaffolds with subsequent effects on differentiation and functionality of inoculated cells.
+Introduction
+Chronic obstructive pulmonary disease (COPD) affects over 64 million people worldwide and is predicted by the World Health Organization to become the third leading cause of mortality by 2030. While allogeneic lung transplantation is the only definitive treatment for the growing number of patients with end-stage lung disease, only one out of four patients on the organ waiting list undergoes transplantation, given the limited availability of donor organs. Moreover, the clinical success of lung transplantation is hampered by lifelong immunosuppression and chronic rejection, reflected in a 10–20% survival rate 10 years post-transplantation [
+1
+].
+A promising option to increase the donor organ pool is to use allogeneic or xenogeneic decellularized lungs as a scaffold to engineer functional lung tissue
+ex vivo
+[
+2
+–
+7
+]. Decellularization of mouse, rat, goat, sheep, pig, non-human primate and human lung tissue has been accomplished with several detergent-based approaches as well as with freeze-thaw cycles, and resulted in three-dimensional (3-D) acellular scaffolds that are generally devoid of detectable residual DNA and nuclei [
+2
+–
+17
+]. While the decellularized lung scaffolds produced by different methods generally retain major extracellular matrix (ECM) proteins, several ECMs can be less abundant (e.g., collagen I, collagen IV), fragmented (fibronectin) or largely absent (elastin) as compared to the native tissue [
+2
+,
+5
+,
+8
+]. Repopulation of decellularized lungs has been reported using a number of different cell types, including transformed cell lines such as A549 lung adenocarcinoma cells, fetal lung cells, endothelial cells, embryonic stem cells (ESC), fibroblasts, induced pluripotent stem cells (iPSC), primary or immortalized airway and alveolar epithelial cells, and bone marrow or adipose-derived mesenchymal stem cells (MSCs) [
+2
+–
+17
+]. However, apart from use of fetal lung homogenates in combination with A549 and vascular endothelial cells, only partial recellularization of alveoli, airways and pulmonary vasculature has been achieved [
+2
+,
+8
+,
+15
+,
+18
+].
+One potential approach to improve recellularization of decellularized lung scaffolds is to use the dynamic rotating wall vessel (RWV) bioreactor, which has been shown to promote growth and differentiation of stem and/or epithelial cells (in the presence or absence of a growth substrate) [
+19
+–
+21
+]. The RWV is an optimized form of continuous suspension culture wherein cells are cultured in horizontally rotating bioreactors that are completely filled with media [
+22
+]. The bioreactor rotation offsets sedimentation, creating a constant, gentle fall of cells and their growth substrate/scaffolds through the culture medium under conditions of physiological fluid shear [
+23
+–
+25
+], such as those encountered in the interstitium [
+26
+]. Under these conditions, gentle media mixing and excellent mass diffusion are obtained [
+22
+]. The RWV technology has been used to generate differentiated lung tissue culture models, with important applications in the fields of infectious disease and regenerative medicine [
+7
+,
+22
+,
+27
+,
+28
+–
+31
+]. Specifically, tumorigenic A549 lung epithelial cells cultured alone and in combination with functional macrophages on the surface of extracellular matrix-coated porous microcarrier beads exhibited phenotypic reversion towards a more normal differentiated phenotype [
+27
+,
+28
+,
+31
+]. Moreover; when challenged with respiratory pathogens and their toxins, these 3-D lung models exhibited a more
+in vivo
+-like response as compared to conventional 2-D monolayers of the same cell line [
+27
+,
+28
+]. In the field of lung regenerative medicine, the RWV has been used to differentiate mESCs into multiple distal respiratory epithelial cell types using conditioned medium, which could not be obtained using static culture [
+29
+]. Cortiella
+et al
+used the RWV for repopulating various natural and synthetic ECM scaffolds with ESCs, including decellularized lung scaffolds [
+7
+]. While this study demonstrated enhanced cell differentiation and viability of ESCs on decellularized scaffolds compared to other ECM scaffolds in the RWV, the authors focused on the role of different ECM scaffolds (and not on RWV growth conditions) as identical static controls were not included. Therefore, it remained unclear whether the standard RWV culture conditions (~20 RPM) that enhanced cellular differentiation and growth in previous reports [
+27
+–
+29
+,
+31
+], could be utilized to improve recellularization efficiency and stem cell differentiation in decellularized lung scaffolds.
+In this study, we examined whether the use of the RWV would (i) enhance recellularization efficacy using two relevant mouse cell types, i.e. bone marrow derived MSCs and alveolar type II epithelial cells (C10), and (ii) affect differentiation of the inoculated MSCs in the decellularized lungs.
+Materials and Methods
+Cells, media and growth conditions
+MSCs from bone marrow of adult C57BL/6 mice were obtained from the NCRR/NIH Center for Preparation and Distribution of Adult Stem cells at Texas A&M University [
+32
+]. C10 cells are a non-transformed alveolar type II epithelial cell line derived from normal BALB/c mouse lungs [
+33
+], and were kindly provided by Matthew Poynter (University of Vermont). MSCs were cultured in Iscove’s Modification of Dulbecco’s Medium (IMDM, basal medium), according to previous reports using this cell type [
+2
+,
+3
+,
+15
+,
+18
+], supplemented with 10% fetal bovine serum (Invitrogen), 10% horse serum (Invitrogen), 2 mM L-glutamine (Sigma), 100 μg/mL primocin (InvivoGen), and 100 U/mL penicillin and 100 μg/mL streptomycin (Sigma). MSCs were grown in T175 aerated flasks to 70% confluency and were used up to passage 7. C10 cells were cultured in a basal cell culture medium GTSF-2 [
+34
+], based on previous reports on alveolar epithelial cell culturing in the RWV bioreactor [
+27
+,
+28
+], modified by replacing fungizone with 100 μg/mL primocin and supplementing with 1.5 g/L NaHCO
+3
+to support growth in a 5% CO
+2
+incubator at 37°C.
+Decellularization of lungs
+Heart-lung blocs of adult male and female C57BL/6 mice (8–24 weeks, Jackson Laboratories) were decellularized using an SDS-Triton based detergent approach as described previously [
+2
+,
+6
+]. This study was approved by the University of Vermont (UVM) Institutional Animal Care and Use Committee (IACUC), and animals were maintained at UVM in accordance with IACUC standards and review (UVM IACUC 11–003 “Bioengineering New Lungs from Cadaveric Scaffolds”). Euthanasia was performed under standards of the Association for Assessment and Accreditation of Laboratory Animal Care International (AAALAC) and UVM IACUC using lethal intraperitoneal injection of sodium pentobarbital followed by removal of the heart lung bloc. Animals experienced only momentary distress during the injection.
+Recellularization of decellularized lungs in static and RWV bioreactor conditions
+An overview of the experimental set-up is provided in
+Fig 1
+. For recellularization in both static and RWV conditions, 4 x 10
+6
+MSCs or C10 cells grown as monolayers were suspended in 3 mL IMDM or GTSF-2 medium, respectively and injected in the decellularized lung scaffold through the cannulated trachea. The cell number injected per lung is in the range of previous reports [
+2
+,
+15
+,
+18
+]. Any liquid that was not retained in the lungs upon the first injection was re-injected up to five times, until more than 99% of the initially added cells remained in the scaffolds. Each seeded heart-lung bloc was transferred to a 50 mL conical tube containing 15 mL of IMDM (for MSCs) or GTSF-2 (for C10 cells) medium and incubated in a 37°C, 5% CO
+2
+incubator. Lungs for static recellularization were kept in these conditions for the duration of the experiment, and medium was changed every 2–3 days. Lungs for RWV bioreactor recellularization were maintained statically for 4 days to allow adequate initial adherence of cells to the matrix, after which the cannula was removed and the heart-lung bloc subsequently transferred to a 50 mL RWV bioreactor. The need for static incubation prior to bioreactor incubation was determined empirically, since immediate transfer of lungs to the bioreactor precluded effective cell attachment. A rotation speed of 20 rpm was adopted to keep the lungs in suspension culture, and lungs were incubated for 3, 10, and 24 additional days in the RWV (total incubation of 7, 14, and 28 days respectively) for MSCs, or 7 and 10 additional days in the RWV for C10 cells (total incubation of 11 and 14 days respectively). Bioreactors were inspected daily for potential formation of air bubbles, removed if necessary and culture media was changed weekly given the larger bioreactor volume (50 mL) compared to static conditions (15 mL).
+Fig 1. Overview of experimental set-up used to recellularize decellularized lung scaffolds with MSCs or C10 cells in static and bioreactor conditions.
+Open in a new tab
+MSCs or C10 cells were introduced in the decellularized lung scaffolds through the cannulated trachea. Next, lungs were statically incubated for 4 days, regardless of the subsequent test condition. Culture medium for MSCs was IMDM and for C10 cells GTSF-2. Different time points were tested to assess recellularization with MSCs (3, 10, 24 days) or C10 cells (7, 10 days) in static or bioreactor conditions.
+Fixation of static and RWV-recellularized lungs for mRNA expression and immunohistochemistry
+Per heart-lung bloc, one lung was assessed for total RNA contents and for mRNA expression by quantitative real time PCR (qRT-PCR), and the other lung was fixed for immunohistochemistry. The lungs for RNA analysis were incubated overnight at 4°C in RNA Protect (Qiagen) and were then stored at -80°C until processed for RNA extraction and purification. The lungs for immunohistochemistry were fixed using 4% paraformaldehyde (PFA) (Electron Microscopy Services) for 30 min and were stored at 4°C in sterile PBS until further processing.
+mRNA expression analysis
+The total RNA of fixed lung samples was isolated using TRIzol reagent (Life Technologies) followed by purification with the RNeasy kit (Qiagen), according to the manufacturer’s instructions. RNA quantity and quality was assessed using a Nanodrop spectrophotometer. RNA was converted to cDNA using the Monsterscript 1
+st
+-strand cDNA synthesis kit (Epicenter Biotechnologies). Quantitect SYBR Green Master mix (Qiagen) was used to assess differential gene expression with qRT-PCR, according to the manufacturer’s protocol. Potential differentiation of MSCs was assessed through expression of markers typically (but not solely) expressed by (i) different types of lung epithelial cells (tight junctional marker ZO-1, water channel marker AQP5, and SPD), specific lung cell populations (CCSP and Scgb3a2 for Club cells—formerly named Clara cells; SPC, SPB, SPA for type II alveolar epithelial cells; MUC5AC and Spdef for goblet cells; Trp63 for basal cells) [
+35
+], early lung differentiation markers (TTF-1 or NKX2.1, and FoxJ1) [
+35
+], (ii) adipocytes (adiponectin), (iii) osteocytes (osteopontin), (iv) cartilage (Col2a1), (v) fibroblasts and other mesenchymal cells (FAP, Fsp1, Col1a1, FN, ∞-SMA), (vi) a cytokine (TGF-β), (vii) tumor-associated MSCs (stanniocalcin, MMP3) [
+36
+,
+37
+], and (viii) multipotent cells (endoglin, Sca-1, CD106) (abbreviations and primers are defined in
+S1 Table
+). Primer specificity was tested on DNA from MSCs grown as monolayers (extracted using the DNeasy kit, Qiagen) and on cDNA from (i) MSCs grown as monolayers and (ii) mouse lungs (pooled RNA from 25 lungs of 25 week old male mice, Amsbio). The qRT-PCR reactions were performed using an Eppendorf Mastercycler EP RealPlex 2S system. A melting curve was run at the end of each reaction to test for the presence of a single PCR product. The qRT-PCR reaction product was run on a 3% agarose gel in the presence of a low molecular weight DNA ladder (New England BioLabs), to assess for potential non-specific binding and primer dimerization. C
+T
+values were exported using the Eppendorf Database tool, whereafter the delta delta C
+T
+method [
+38
+] was adopted to determine relative gene expression between different test conditions. An average of six housekeeping genes was used for normalization (β-actin, GAPDH, Yhwaz, Sdha, Tbp, and Pkg) [
+39
+,
+40
+]
+,
+[
+41
+]. The gene expression of MSCs grown under static or bioreactor conditions was compared to the expression of MSCs grown as conventional monolayers.
+Histology
+Following PFA fixation (see above), recellularized lungs were paraffin-embedded, and 5 μm slices were mounted on positively charged glass slides. Paraffin-embedded normal mouse lung slices (Amsbio) were included as a histology control and were processed the same way. Staining with hematoxylin/eosin was performed using standard protocols [
+2
+]. Alizarin red staining was performed to assess potential differentiation of MSCs along the osteoblastic lineage in the different test conditions, and was done using standard protocols [
+2
+]. For Alizarin red staining, a negative control (decellularized lungs without cells) and positive control (MSC monolayers differentiated along the osteoblastic lineage) was included as well. For this positive Alizarin red control, MSC monolayers were exposed to osteogenic differentiation medium, comprised of IMDM supplemented with 1 nM dexamethasone, 50 μM L-ascorbic acid-2 phosphate, and 20 mM β-glycerol phosphate, for 3 weeks [
+42
+], where after they were processed for immunohistochemistry as described above. Stained slices were imaged by standard bright field microscopy (100x and 400x) (Zeiss AxioVert A1), and at least 10 regions in each of 5 tissue slices per sample were analyzed.
+Immunofluorescence staining and imaging
+Paraffin-embedded slices from recellularized lung scaffolds and control mouse lung slices (Amsbio) were deparaffinized by sequential incubation in three baths (150 mL/bath) of xylene for 5 min, one bath of 50% xylene 50% absolute ethanol for 2 min, two baths of absolute ethanol for 2 min, one bath of 95% ethanol for 2 min, one bath of 70% ethanol for 2 min, followed by rinsing with MilliQ water. Then, antigen retrieval was performed by heating tissue slices in sodium citrate buffer (10 mM sodium citrate, 0.05% Tween 20, pH 6.0) (Dako) at 100°C for 20 min and cooling to room temperature prior to immunofluorescence staining. Tissue sections were stained with specific antibodies as described previously [
+27
+]. The following primary antibodies were used: CC10 or uteroglobin (Abcam, ab40873, 1:1600), osteopontin (Abcam, ab8448, 1:100), collagen I (Abcam, ab292, 1:100), Fsp1 (Abcam, ab41532, 1:200), Annexin V (Abcam, ab14196, 1:500), and PCNA (Abcam, ab29, 1:1000). Secondary antibodies used in this study were: goat anti-mouse Alexa Fluor 488 or 555 (Invitrogen), goat anti-rabbit Alexa Fluor 488 or 555 (Invitrogen) at a 1:500 dilution. Cell nuclei were stained with DAPI (Prolong Gold with DAPI mounting solution, Invitrogen). Stained tissue sections were imaged using a Zeiss LSM 510 Duo laser scanning microscope or Zeiss Axiovert A1. Images were acquired using a Plan-Neofluar 40x or 63x objective and were analyzed with the Zeiss LSM software package or Zen Lite. Axiovision 4.7 or Zen 2011 softwares from Carl Zeiss were used to further process collected images.
+Statistical analysis
+All studies were conducted at least in biological triplicate. Statistical significance (α = 0.05) was determined using a two-sample Student’s t-test on the biological replicates. To determine the suitability of the housekeeping genes and their average for normalization of the qRT-PCR data, the coefficient of variation was calculated. Since the coefficient of variation for target, housekeeping genes and the average of housekeeping genes was comparable (
+S1 Fig
+), the adopted normalization approach did not influence the gene expression data.
+Results
+Enhanced recellularization of decellularized lung scaffolds with MSCs in bioreactor versus static conditions
+Decellularized lung scaffolds recellularized with MSCs for a total of 14 days had more abundant cells in the bioreactor as compared to static conditions (
+Fig 2AD
+versus
+Fig 2Ad
+). In accordance with this observation, the total RNA quantity for lungs recellularized with MSCs in bioreactor conditions on day 14 was on average 3.8 times higher as compared to static recellularization (p < 0.01) (
+Fig 3A
+). No significant differences in cell repopulation were observed at 7 and 28 days of MSC culture based on histology and total RNA levels (
+Figs
+2
+and
+3
+).
+Fig 2. Hematoxylin-eosin staining of decellularized lungs recellularized with (A) MSCs in static (panels A to F) and bioreactor (panels a to f) conditions for 7, 14, and 28 days, and (B) with C10 cells in static (panels A to D) or bioreactor (panels a to d) conditions for 11 and 14 days.
+Open in a new tab
+For each condition, a low (100x) and high magnification (630x) are shown (e.g., A is low magnification, B is high magnification). Insets are included to show phenotypes at the single cell level. Black arrows point to MSC cell aggregation observed in static recellularization conditions. Blue arrows point to cytoplasmic vacuoles indicative of cell stress. Airways are labelled. For each condition, images are representative of the entire lung, with the exception of panels AA and AB, which reflect a region with high cell density whereas some regions were devoid of cells (not shown).
+Fig 3. Total RNA levels of decellularized lungs recellularized with MSCs (A) or C10 cells (B) in static versus bioreactor conditions.
+Open in a new tab
+For each condition, mean RNA levels +/- standard deviation for the left lung is presented. * p < 0.05, ** p < 0.01.
+MSCs were non-uniformly distributed after 7 days of static recellularization, with regions containing high cell numbers (
+Fig 2AA and 2ABB
+) and regions devoid of cells (not shown). In contrast, cells were more homogeneously distributed throughout the scaffold in the bioreactor culture (
+Fig 2Aa and 2Ab
+). At 14 and 28 days, fairly homogenous recellularization was generally observed for both static and bioreactor conditions, but both test conditions had regions in which cells were absent. In both static and bioreactor conditions, MSCs were present predominantly in the alveoli, but some recellularization of large and small airways was observed as well.
+At 7 days of culture, both test conditions showed similarities in MSC morphologies, varying from rounder to elongated phenotypes. After 14 days of culture, statically recellularized lungs mostly contained round cells while bioreactor-recellularized lungs contained MSCs with rounder to spindle-shaped morphologies in airways and alveoli (
+Fig 2AD and 2Ad
+). At day 28, the number of round cells containing cytoplasmic vacuoles (indicative of cell stress) was enhanced in both conditions (compared to day 7, 14), however, there continued to be more elongated cells without cytoplasmic vacuoles in bioreactor-recellularized lungs (
+Fig 2AF and 2Af
+). Also at 14 days of culture, MSCs in static conditions displayed enhanced formation of cytoplasmic vacuoles (
+Fig 2AD
+, blue arrows).
+Interestingly, formation of scattered MSC clusters was observed in static but not bioreactor conditions at the three studied time points (
+Fig 2AA, 2AC and 2AE
+). The larger cell clusters were mostly found in small airways but smaller aggregates were also observed in alveolar regions.
+Enhanced recellularization of decellularized lung scaffolds with C10 cells in bioreactor versus static conditions
+Recellularization in static and bioreactor conditions with C10 cells was initially studied for 14 days based on the results obtained with MSCs. In static conditions, whole lungs were poorly recellularized, abundant debris and ghost cells were observed and RNA levels were low (
+Fig 2BC and 2BD
+;
+Fig 3B
+). In contrast, at this same timepoint, recellularization under bioreactor conditions resulted in intact cells that were primarily located at the periphery of the scaffolds and surrounding larger airways (
+Fig 2Bc
+), and approximately 12-fold higher RNA recovery was observed (p < 0.05) (
+Fig 3B
+). Still, many regions were populated with ghost cells and debris (
+Fig 2Bc
+), and therefore a shorter incubation time was assessed. At 11 days, limited cell debris was observed in both test conditions, cells were non-uniformly distributed and mostly recellularized the alveoli (
+Fig 2BA and 2BB
+for static and
+Fig 2Ba and 2Bb
+for bioreactor). An increase in RNA recovery was obtained from lungs recellularized with C10 cells for this shorter time frame in both test conditions, with bioreactor lungs containing about 6 times more RNA than static lungs (p = 0.07) (
+Fig 3B
+). For recellularization with either MSCs or C10 cells, lungs collapsed and shrank over time, both in static and bioreactor conditions.
+MSCs and C10 cells exhibited less apoptosis and higher cell proliferation in bioreactor versus static recellularization conditions
+In agreement with the H&E observations for MSCs at day 14, qualitatively more cells stained positive for the apoptosis marker annexin V in static compared to bioreactor conditions (
+Fig 4AA
+versus
+Fig 4AB
+). Cells within cell clusters (static) showed a similar staining pattern as single MSCs (
+Fig 4BA
+). After 28 days of culture, most MSCs in static conditions stained positive for annexin V, while fewer cells stained positive in bioreactor conditions (
+Fig 4AC
+versus
+Fig 4AD
+). Similarly, static recellularized lungs contained a high number of annexin V-positive C10 cells and cell debris at day 11, while the bioreactor condition showed cells that were mostly negative for annexin V (
+Fig 4CA
+versus
+Fig 4CB
+).
+Fig 4. Annexin V and PCNA staining of decellularized lung scaffolds recellularized with (A) MSCs in static versus bioreactor conditions for 14 (panels A, B for annexin V, and a, b for PCNA) and 28 days (panels C, D for annexin V, and c, d for PCNA) (single cells), (B) MSC cell clusters in static conditions at 14 days (panel A for annexin V, and a for PCNA), (C) C10 cells in static (panel A for annexin V, a for PCNA) versus bioreactor (panel B for annexin V, b for PCNA) conditions for 11 days.
+Open in a new tab
+An inset in Fig 4Ab with higher magnification is shown to demonstrate that a majority of the cells stained positive for PCNA. Cell nuclei are labeled in blue; marker of interest is labeled in green. Magnifications are 400x. Overlap of cell nucleus and marker of interest can generate green or white color. For each condition, images are representative of the entire lung.
+Staining for the cell proliferation marker PCNA indicated that a majority of the MSCs were actively proliferating at 14 days in both static and bioreactor conditions (
+Fig 4Aa and 4Ab
+). Cells within cell clusters (static) also stained positive for PCNA (
+Fig 4Ba
+). At day 28, a limited number of cells were PCNA positive in static conditions, while most bioreactor-grown MSCs stained positive for this marker (
+Fig 4Ac and 4Ad
+). With regard to C10 cells, statically recellularized lungs showed few regions with cells positive for PCNA, while a majority of the cells in bioreactor-recellularized lungs were PCNA positive (
+Fig 4Ca and 4Cb
+).
+Differentiation of MSCs grown on decellularized lung scaffolds recellularized in static and bioreactor conditions
+Next, the gene expression and phenotypic analysis of MSCs was determined when grown on decellularized lung scaffolds in static and bioreactor conditions. MSCs were chosen for further analysis since these stem cells (i) hold potential for
+ex vivo
+generation of lung tissue, and (ii) remained viable for longer term compared to C10 cells in the decellularized lung scaffolds. Main differences in gene expression between static and bioreactor conditions at day 14 included the downregulation of Col1a1 (Collagen I alpha I) and upregulation of endoglin and CD106 for statically recellularized lungs, but not for bioreactor lungs, compared to MSC monolayers (
+Table 1
+). For the bioreactor growth condition, we observed upregulation of genes encoding Fsp1 (fibroblast specific protein), TGF-β and adiponectin, as compared to the MSC monolayer control (
+Table 1
+).
+Table 1. Relative expression of target genes in MSCs grown on decellularized lung scaffolds in static and bioreactor conditions as compared to monolayers.
+7 days
+14 days
+Static IMDM
+Bioreactor IMDM
+Static IMDM
+Bioreactor IMDM
+α-SMA
+9
+.
+09
+*
+Adiponectin
+10.95
+***
+31.53
+***
+Aqp5
+3.35
+*
+1.45
+**
+2.83
+***
+1.99
+**
+CCSP
+16.50
+*
+41.01
+***
+37.41
+***
+CD106
+∞
+∞
+34.88
+*
+Col 1a1
+4
+.
+72
+***
+1
+.
+81
+**
+20
+.
+09
+**
+Col 2a1
+7
+.
+79
+***
+9
+.
+72
+***
+Endoglin
+12.37
+**
+FAP
+26.01
+***
+8.23
+**
+119.87
+***
+FN1
+FoxJ1
+∞
+∞
+∞
+∞
+FSP1
+4.73
+*
+MMP3
+∞
+∞
+∞
+∞
+MUC5AC
+∞
+∞
+∞
+∞
+Osteopontin
+56.02
+**
+27.09
+***
+108.20
+***
+50.28
+***
+Sca-1
+Scgb3a2
+∞
+∞
+∞
+∞
+SPA
+Ф
+Ф
+Ф
+Ф
+SPB
+Ф
+Ф
+Ф
+Ф
+SPC
+SPD
+∞
+∞
+∞
+∞
+Spdef
+∞
+∞
+∞
+∞
+Stanniocalcin
+∞
+∞
+∞
+∞
+TGF-β
+4.06
+**
+Trp63
+∞
+∞
+∞
+∞
+TTF1
+Vimentin
+ZO-1
+Open in a new tab
+* P < 0.08
+** P < 0.05
+*** P < 0.01
+Bold = upregulated compared to MSC monolayer; Italic = downregulated compared to MSC monolayer; White empty cell: P > 0.08 and/or fold-change < 1.5; While cell with ∞: Present in ML, absent in ≥ 50% of samples; White cell with Ф: Not expressed in ML and sample, but expressed in lung.
+In both static and bioreactor conditions at day 14, MSCs significantly upregulated the expression of AQP5 (Aquaporin 5), CCSP (Club Cell Secretion Protein), osteopontin and FAP (Fibroblast activation protein), and downregulated the expression of Col2a1 (Collagen 2 alpha 1) compared to monolayer controls (
+Table 1
+). Interestingly, most of the gene expression changes at 14 days of culture were reflected in the 7-day cultures (
+Table 1
+). None of the other tested genes showed differential expression in either condition.
+In agreement with the gene expression data, a high number of MSCs stained positive for the lung fibroblast marker Fsp1 in bioreactor conditions while only a few cells were positive in static conditions on day 14 (
+Fig 5AC, 5AB and 5AA
+). MSC monolayers (
+Fig 5AE
+) and normal whole mouse lung controls (
+Fig 5AD
+) stained negative for Fsp1.
+Fig 5. A: Immunohistochemical profiling of decellularized lung scaffolds recellularized with MSCs in static and bioreactor conditions for 14 days.
+Open in a new tab
+Profiling of whole normal mouse lung tissue and MSC monolayers was performed as well. Cell nuclei are labeled in blue; markers of interest are labeled in green and are Fsp1 (panel A to E), collagen I (panel a to e), and osteopontin (panel aa to ee). White arrows point to multilayered cell aggregates, observed in static recellularization conditions and for this test condition profiling for both aggregates (A, a, aa) and single cells (B, b, bb) is presented. Since collagen I-positive cells showed higher signal intensity compared to that of the collagen I-positive scaffold, the background scaffold signal in
+Fig 5Ab and 5Ac
+was removed for clarity. To demonstrate the collagen I-positive scaffolds, the background signal is only shown in Fig 5Aa. Magnifications are 400x or 630x. B: Alizarin red staining of decellularized lung scaffolds recellularized with MSCs in static (panels A, B) and bioreactor (panel C) conditions for 14 days. As a negative control, decellularized lungs that were not seeded with cells are presented (panel D). MSC monolayers differentiated along the osteoblastic lineage are included as positive control (panel E). Magnification is 200x or 630x. For each condition, images are representative of the entire lung.
+Higher numbers of MSCs stained positive for collagen I in the bioreactor compared to statically-recellularized lungs (
+Fig 5Ab and 5Ac
+), which corresponds to the gene expression results. However, fewer MSCs stained positive for collagen I in either bioreactor or static-recellularized lungs compared to MSC monolayers (
+Fig 5Ac, 5Ab and 5Ae
+). The decellularized lung matrix stained positive for collagen I in most regions, regardless of the presence of MSCs (
+Fig 5Aa
+) and normal mouse lung tissue was also collagen I-positive (
+Fig 5Ad
+).
+Osteopontin was found highly expressed in MSCs grown on decellularized lung scaffolds in both static and bioreactor conditions (
+Fig 5Aaa, 5Abb and 5Acc
+), while MSC monolayers were negative (
+Fig 5
+Aee
+) and normal control lungs showed occasional expression (
+Fig 5
+Add
+). To further assess whether MSCs differentiated along an osteogenic lineage, alizarin red staining was performed. Despite the ability to differentiate MSCs into alizarin red-positive cells in routine tissue culture (positive control) (
+Fig 5BE
+), minimal numbers of alizarin red-positive cells were observed in most of the recellularized lung tissues from either static or bioreactor conditions (
+Fig 5BA, 5BB and 5BC
+).
+MSCs grown as conventional monolayers, or on decellularized lung scaffolds in static and bioreactor conditions did not positively immunostain for CC10 (data not shown), despite strong induction of this marker at the gene expression level on the scaffolds (
+Table 1
+).
+The multilayered cell clusters observed in static recellularization conditions tested positive for osteopontin (but negative for alizarin red) and showed few or no cells that stained positive for collagen I and Fsp1 (
+Fig 5AA, 5Aa and 5Aaa
+;
+Fig 5BA
+). Of note, positive staining of the decellularized lung matrix for collagen I is shown in
+Fig 5Aa
+. Therefore, the cell clusters seemed to show similar staining patterns as single MSCs.
+Discussion
+A promising approach for
+ex vivo
+lung engineering is the repopulation of decellularized lung scaffolds with autologous stem and/or progenitor cells derived from the actual transplant recipient. The decellularized scaffolds also provide a novel tool for studying cell-matrix interactions and other aspects of lung biology. While decellularized lung scaffolds derived from rodents, sheep, pigs, primates, and humans have been repopulated with a variety of different cell types [
+2
+–
+10
+,
+12
+–
+15
+,
+17
+,
+18
+,
+43
+], improved culture techniques are needed to enhance the full recellularization of the lung surface area with viable, differentiated cells. In addition, as critical cell binding epitopes on the ECM proteins remaining in the scaffold may be affected by the decellularization process [
+2
+,
+3
+], restoring the normal ECM content and function of the decellularized scaffolds is of importance to support cell growth and differentiation.
+In this study, we demonstrated that recellularization efficiency (i.e. number of cells adhering to scaffolds) and viability were improved when decellularized lung scaffolds were cultured in a dynamic suspension bioreactor system (RWV) as specifically compared to static conditions. We speculate that the biomechanical force of fluid shear in the RWV and associated mass transfer result in differential oxygenation, nutrient availability, waste dispersal, some or all of which may have contributed directly or indirectly towards our phenotypic and molecular genetic observations [
+22
+]. In agreement with our results, growth stimulation of progenitor cells in the RWV bioreactor has been reported previously [
+19
+,
+44
+]. Cortiella
+et al
+previously demonstrated that decellularized lungs repopulated with ESCs in the RWV retained more viable cells and induced higher levels of apparent lung-specific lineages in response to defined differentiation agents, compared to other synthetic scaffolds and 2-D ESC monolayers [
+7
+].
+In our study, the enhanced attachment of MSCs to the decellularized scaffolds in the bioreactor could, in part, be potentially explained by induced TGF-β expression, which has been shown to enhance attachment of MSCs to collagen I through induction of integrin subunits [
+45
+]. The well-spread polygonal cell shape predominantly observed in bioreactor conditions is an indicator of healthy MSCs [
+46
+,
+47
+]. On the other hand, this characteristic cell shape could also imply a lower multipotentiality and higher commitment towards differentiation as compared to the rounder phenotype in static conditions [
+48
+–
+50
+]. In line with this hypothesis is (i) the induced expression of the multipotency markers endoglin and CD106 in static but not bioreactor conditions, and (ii) the absence of MSC cell clusters in bioreactor growth conditions, which could possibly be a characteristic of multilineage-differentiating stress-enduring (Muse) cells that have the ability to differentiate into endoderm, ectoderm and mesoderm
+in vitro
+and
+in vivo
+[
+51
+,
+52
+]. Alternatively, it is possible that the stacked cell clusters observed in static conditions could reflect an abnormal cell phenotype.
+Our collective data suggest that a portion of the bioreactor-cultured MSCs may have differentiated into fibroblast-like cells (expression of Fsp1, FAP, osteopontin, collagen I). Fsp1 is specifically expressed in fibroblasts but at very low levels in epithelium and MSCs [
+53
+–
+55
+] and has been correlated with collagen deposition and lung remodeling in bleomycin-treated mice [
+54
+]. Similarly, FAP and osteopontin are involved in lung tissue remodeling [
+56
+,
+57
+]. Since fluid shear triggers tissue remodeling and extracellular matrix deposition [
+58
+,
+59
+], enhanced fluid shear levels in the bioreactor could potentially have caused the enhanced generation of fibroblasts. Hence, the induction of fibroblast markers in bioreactor culture conditions could contribute to the regeneration and/or remodeling of decellularized lung scaffolds. Specifically, since decellularized lung scaffolds are depleted of key ECM proteins that could play a role in cell growth and differentiation [
+2
+,
+5
+,
+8
+], we speculate that potential restoration of the native ECM scaffolds by fibroblast-like cells could be beneficial for
+ex vivo
+lung tissue generation. In a similar fashion, mESCs recellularizing the lung scaffolds in the RWV bioreactor secreted ECM components that were depleted in the acellular lung [
+7
+].
+Growth of MSCs on decellularized lung scaffolds in both static and bioreactor test conditions in basal medium induced the expression of mRNAs encoding two markers that are expressed in lung epithelial cells (as well as other cell types), AQP5 and CCSP. Recent studies suggest basal expression of lung epithelial markers in some preparations of MSCs, and in response to lung differentiation media [
+13
+,
+60
+,
+61
+]. However, CCSP expression could not be confirmed at the protein level in our study. Discrepancies between qRT-PCR and immunofluorescence results have been reported previously for MSCs on decellularized lung scaffolds, and could potentially be explained by differences in sensitivity of both methods [
+13
+] or by potential posttranscriptional modifications [
+62
+]. An alternative explanation is the inability of the growth conditions used in this study to support phenotypic expression of these markers.
+In a similar fashion as for MSCs, bioreactor conditions gave rise to lung scaffolds populated with a higher number of viable C10 cells as compared to static conditions. Previous studies described abundant apoptosis of C10 cells when grown in decellularized whole lungs statically for 7 to 14 days, or during continuous vascular perfusion [
+3
+,
+10
+,
+18
+]. When C10 cells were grown on decellularized lung slices, only limited apoptosis was observed up to 28 days of culture [
+15
+]. Collectively, these data indicate that C10 cells could be sensitive to the growth conditions inside whole decellularized lungs. We and others have observed shrinking and collapsing (atelectasis) of the scaffolds as a function of time [
+7
+], which could result in oxygen and nutrient limitation and waste product accumulation. Therefore, the continuous movement of the lung scaffolds in the medium during recellularization in the RWV bioreactor, which results in differential oxygenation, nutrient provision and waste dispersal [
+22
+], may have provided more optimal culture conditions for this particular cell type as compared to static culture.
+In conclusion, we demonstrated that the RWV bioreactor confers advantages for recellularization of decellularized lung scaffolds, with regards to cell growth, cell health, and differentiation as compared to static conditions. Since MSCs have been suggested to serve as stroma for repopulating decellularized scaffolds with other cell types (such as endogenous progenitors and induced pluripotent stem cells) [
+63
+], further investigations into whether the enhanced expression of genes involved in ECM remodeling in the RWV bioreactor resulted in reconstituting and/or remodeling of the native ECM scaffold is of interest. Furthermore, this study could have downstream implications for studying tissue homeostasis and identifying the underlying factors that contribute to the transition of normal to fibrotic lung phenotypes.
+Supporting Information
+S1 Fig. Coefficient of variation for target genes, housekeeping genes and average of housekeeping genes for qRT-PCR gene expression data at 7 days (A) and 14 days (B) of culture in the different test conditions.
+(TIF)
+Click here for additional data file.
+(2.9MB, tif)
+S1 Table. Primers used for qRT-PCR analysis.
+(DOCX)
+Click here for additional data file.
+(121.4KB, docx)
+Acknowledgments
+We are grateful to Jenny Pattengill (Mayo Clinic Histology Core Facility) for processing samples for histology. We thank Phillip Stafford (The Biodesign Institute, Innovations in Medicine) for his expertise in bioinformatics data analysis for this work. We thank Mark Ott and his team at the Microbiology Laboratory at the NASA Johnson Space Center for their support of data analysis. We thank John Wallis for helpful suggestions on recellularizing decellularized lung scaffolds. This work was funded by the National Institutes of Health (NIH grants RC4HL106625 (DJW and CAN), NHLBI R21HL108689 (DJW), NHLBI R21HL094611 (DJW), NIGMS COBRE P30 GM103532 (C Irvin PI)), the National Aeronautics and Space Administration (NASA grants NNX10AO52G (CAN) and NNX13AM01G (CAN)) and by a Mayo Clinic-ASU Seed grant (AC, CAN, JJL).
+Data Availability
+All relevant data are within the paper and its Supporting Information files.
+Funding Statement
+This work was funded by the National Institutes of Health (National Institutes of Health grants RC4HL106625 [DJW and CAN], NHLBI R21HL108689 [DJW], NHLBI R21HL094611 [DJW], NIGMS COBRE P30 GM103532 [C Irvin PI]), the National Aeronautics and Space Administration (NASA grants NNX10AO52G [CAN] and NNX13AM01G [CAN]) and by a Mayo Clinic-ASU Seed grant (AC, CAN, JJL). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+References
+1.
+Orens JB, Garrity ER Jr (2009) General overview of lung transplantation and review of organ allocation. Proc Am Thorac Soc
+6: 13–19. 10.1513/pats.200807-072GO
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Daly AB, Wallis JM, Borg ZD, Bonvillain RW, Deng B, Ballif BA, et al.  (2012) Initial binding and recellularization of decellularized mouse lung scaffolds with bone marrow-derived mesenchymal stromal cells. Tissue Eng Part A
+18: 1–16. 10.1089/ten.TEA.2011.0301
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Wallis JM, Borg ZD, Daly AB, Deng B, Ballif BA, Allen GB, et al.  (2012) Comparative assessment of detergent-based protocols for mouse lung de-cellularization and re-cellularization. Tissue Eng Part C Methods
+18: 420–432. 10.1089/ten.TEC.2011.0567
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Ott HC, Clippinger B, Conrad C, Schuetz C, Pomerantseva I, Ikonomou L, et al.  (2010) Regeneration and orthotopic transplantation of a bioartificial lung. Nat Med
+16: 927–933. 10.1038/nm.2193
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Petersen TH, Calle EA, Colehour MB, Niklason LE (2012) Matrix composition and mechanics of decellularized lung scaffolds. Cells Tissues Organs
+195: 222–231. 10.1159/000324896
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Price AP, England KA, Matson AM, Blazar BR, Panoskaltsis-Mortari A (2010) Development of a decellularized lung bioreactor system for bioengineering the lung: the matrix reloaded. Tissue Eng Part A
+16: 2581–2591. 10.1089/ten.TEA.2009.0659
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Cortiella J, Niles J, Cantu A, Brettler A, Pham A, Vargas G, et al.  (2010) Influence of acellular natural lung matrix on murine embryonic stem cell differentiation and tissue formation. Tissue Eng Part A
+16: 2565–2580. 10.1089/ten.tea.2009.0730
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Bonvillain RW, Danchuk S, Sullivan DE, Betancourt AM, Semon JA, Eagle ME, et al. (2012) A Nonhuman Primate Model of Lung Regeneration: Detergent-Mediated Decellularization and Initial In Vitro Recellularization with Mesenchymal Stem Cells. Tissue Eng Part A.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+9.
+Ghaedi M, Calle EA, Mendez JJ, Gard AL, Balestrini J, Booth A, et al. (2013) Human iPS cell-derived alveolar epithelium repopulates lung extracellular matrix. J Clin Invest.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+10.
+Girard ED, Jensen TJ, Vadasz SD, Blanchette AE, Zhang F, Moncada C, et al.  (2013) Automated procedure for biomimetic de-cellularized lung scaffold supporting alveolar epithelial transdifferentiation. Biomaterials
+34: 10043–10055. 10.1016/j.biomaterials.2013.09.055
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Gupta SK, Dinda AK, Potdar PD, Mishra NC (2013) Modification of decellularized goat-lung scaffold with chitosan/nanohydroxyapatite composite for bone tissue engineering applications. Biomed Res Int
+2013: 651945
+10.1155/2013/651945
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Lecht S, Stabler CT, Rylander AL, Chiaverelli R, Schulman ES, Marcinkiewicz C, et al. (2014) Enhanced reseeding of decellularized rodent lungs with mouse embryonic stem cells. Biomaterials.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+13.
+Mendez JJ, Ghaedi M, Steinbacher D, Niklason L (2014) Epithelial Cell Differentiation of Human Mesenchymal Stromal Cells in Decellularized Lung Scaffolds. Tissue Eng Part A
+20: 1735–1746. 10.1089/ten.TEA.2013.0647
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+Nichols JE, Niles J, Riddle M, Vargas G, Schilagard T, Ma L, et al.  (2013) Production and assessment of decellularized pig and human lung scaffolds. Tissue Eng Part A
+19: 2045–2062. 10.1089/ten.TEA.2012.0250
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Sokocevic D, Bonenfant NR, Wagner DE, Borg ZD, Lathrop MJ, Lam YW, et al.  (2013) The effect of age and emphysematous and fibrotic injury on the re-cellularization of de-cellularized lungs. Biomaterials
+34: 3256–3269. 10.1016/j.biomaterials.2013.01.028
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Wagner DE, Bonenfant NR, Parsons CS, Sokocevic D, Brooks EM, Borg ZD, et al.  (2014) Comparative decellularization and recellularization of normal versus emphysematous human lungs. Biomaterials
+35: 3281–3297. 10.1016/j.biomaterials.2013.12.103
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Wagner DE, Bonenfant NR, Sokocevic D, Desarno MJ, Borg ZD, Parsons CS, et al. (2014) Three-dimensional scaffolds of acellular human and porcine lungs for high throughput studies of lung disease and regeneration. Biomaterials.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+18.
+Bonenfant NR, Sokocevic D, Wagner DE, Borg ZD, Lathrop MJ, Lam YW, et al.  (2013) The effects of storage and sterilization on de-cellularized and re-cellularized whole lung. Biomaterials
+34: 3231–3245. 10.1016/j.biomaterials.2013.01.031
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Adamo L, Garcia-Cardena G (2011) Directed stem cell differentiation by fluid mechanical forces. Antioxid Redox Signal
+15: 1463–1473. 10.1089/ars.2011.3907
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Frith JE, Thomson B, Genever PG (2010) Dynamic three-dimensional culture methods enhance mesenchymal stem cell properties and increase therapeutic potential. Tissue Eng Part C Methods
+16: 735–749. 10.1089/ten.TEC.2009.0432
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Sheyn D, Pelled G, Netanely D, Domany E, Gazit D (2010) The effect of simulated microgravity on human mesenchymal stem cells cultured in an osteogenic differentiation system: a bioinformatics study. Tissue Eng Part A
+16: 3403–3412. 10.1089/ten.tea.2009.0834
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Barrila J, Radtke AL, Crabbe A, Sarker SF, Herbst-Kralovetz MM, Ott CM, et al.  (2010) Organotypic 3D cell culture models: using the rotating wall vessel to study host-pathogen interactions. Nat Rev Microbiol
+8: 791–801. 10.1038/nrmicro2423
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Nauman EA, Ott CM, Sander E, Tucker DL, Pierson D, Wilson JW, et al.  (2007) Novel quantitative biosystem for modeling physiological fluid shear stress on cells. Appl Environ Microbiol
+73: 699–705.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Gao H, Ayyaswamy PS, Ducheyne P (1997) Dynamics of a microcarrier particle in the simulated microgravity environment of a rotating-wall vessel. Microgravity Sci Technol
+10: 154–165.
+[
+PubMed
+] [
+Google Scholar
+]
+25.
+Tsao YMD, Boyd E, Wolf DA, Spaulding G (1994) Fluid-Dynamics within a Rotating Bioreactor in-Space and Earth Environments. Journal of Spacecraft and Rockets
+31: 937–943.
+[
+Google Scholar
+]
+26.
+Shieh AC, Swartz MA (2011) Regulation of tumor invasion by interstitial fluid flow. Phys Biol
+8: 015012
+10.1088/1478-3975/8/1/015012
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Crabbé A, Sarker SF, Van Houdt R, Ott CM, Leys N, Cornelis P, et al.  (2011) Alveolar epithelium protects macrophages from quorum sensing-induced cytotoxicity in a three-dimensional co-culture model. Cell Microbiol
+13: 469–481. 10.1111/j.1462-5822.2010.01548.x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Carterson AJ, Honer zu Bentrup K, Ott CM, Clarke MS, Pierson DL, Vanderburg CR, et al.  (2005) A549 lung epithelial cells grown as three-dimensional aggregates: alternative tissue culture model for Pseudomonas aeruginosa pathogenesis. Infect Immun
+73: 1129–1140.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Siti-Ismail N, Samadikuchaksaraei A, Bishop AE, Polak JM, Mantalaris A (2012) Development of a novel three-dimensional, automatable and integrated bioprocess for the differentiation of embryonic stem cells into pulmonary alveolar cells in a rotating vessel bioreactor system. Tissue Eng Part C Methods
+18: 263–272. 10.1089/ten.TEC.2011.0299
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+David J, Sayer NM, Sarkar-Tyson M (2014) The use of a three-dimensional cell culture model to investigate host-pathogen interactions of
+Francisella tularensis
+in human lung epithelial cells. Microbes Infect
+16: 735–745. 10.1016/j.micinf.2014.04.001
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+31.
+Vertrees RA, Zwischenberger JB, Boor PJ, Popov V, McCarthy M, Solley TN, et al.  (2008) Cellular differentiation in three-dimensional lung cell cultures. Cancer Biol Ther
+7: 404–412.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+32.
+Peister A, Mellad JA, Larson BL, Hall BM, Gibson LF, Prockop DJ (2004) Adult stem cells from bone marrow (MSCs) isolated from different strains of inbred mice vary in surface epitopes, rates of proliferation, and differentiation potential. Blood
+103: 1662–1668.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Malkinson AM, Dwyer-Nield LD, Rice PL, Dinsdale D (1997) Mouse lung epithelial cell lines—tools for the study of differentiation and the neoplastic phenotype. Toxicology
+123: 53–100.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Lelkes PI, Ramos E, Nikolaychik VV, Wankowski DM, Unsworth BR, Goodwin TJ (1997) GTSF-2: a new, versatile cell culture medium for diverse normal and transformed mammalian cells. In Vitro Cell Dev Biol Anim
+33: 344–351.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Rock JR, Hogan BL (2011) Epithelial progenitor cells in lung development, maintenance, repair, and disease. Annu Rev Cell Dev Biol
+27: 493–512. 10.1146/annurev-cellbio-100109-104040
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+36.
+Spaeth EL, Dembinski JL, Sasser AK, Watson K, Klopp A, Hall B, et al.  (2009) Mesenchymal stem cell transition to tumor-associated fibroblasts contributes to fibrovascular network expansion and tumor progression. PLoS One
+4: e4992
+10.1371/journal.pone.0004992
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+37.
+Cuiffo BG, Karnoub AE (2012) Mesenchymal stem cells in tumor development: emerging roles and concepts. Cell Adh Migr
+6: 220–230. 10.4161/cam.20875
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+38.
+Livak KJ, Schmittgen TD (2001) Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) Method. Methods
+25: 402–408.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+39.
+Fink T, Lund P, Pilgaard L, Rasmussen JG, Duroux M, Zachar V (2008) Instability of standard PCR reference genes in adipose-derived stem cells during propagation, differentiation and hypoxic exposure. BMC Mol Biol
+9: 98
+10.1186/1471-2199-9-98
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+40.
+Veazey KJ, Golding MC (2011) Selection of stable reference genes for quantitative rt-PCR comparisons of mouse embryonic and extra-embryonic stem cells. PLoS One
+6: e27592
+10.1371/journal.pone.0027592
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+41.
+Vandesompele J, De Preter K, Pattyn F, Poppe B, Van Roy N, De Paepe A, et al.  (2002) Accurate normalization of real-time quantitative RT-PCR data by geometric averaging of multiple internal control genes. Genome Biol
+3: RESEARCH0034.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+42.
+Chang J, Liu F, Lee M, Wu B, Ting K, Zara JN, et al.  (2013) NF-kappaB inhibits osteogenic differentiation of mesenchymal stem cells by promoting beta-catenin degradation. Proc Natl Acad Sci U S A
+110: 9469–9474. 10.1073/pnas.1300532110
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+43.
+Ghaedi M, Mendez JJ, Bove PF, Sivarapatna A, Raredon MS, Niklason LE (2013) Alveolar epithelial differentiation of human induced pluripotent stem cells in a rotating bioreactor. Biomaterials.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+44.
+Samuelson L, Gerber DA (2013) Improved function and growth of pancreatic cells in a three-dimensional bioreactor environment. Tissue Eng Part C Methods
+19: 39–47. 10.1089/ten.TEC.2012.0236
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+45.
+Warstat K, Meckbach D, Weis-Klemm M, Hack A, Klein G, de Zwart P, et al.  (2010) TGF-beta enhances the integrin alpha2beta1-mediated attachment of mesenchymal stem cells to type I collagen. Stem Cells Dev
+19: 645–656. 10.1089/scd.2009.0208
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+46.
+Kilian KA, Bugarija B, Lahn BT, Mrksich M (2010) Geometric cues for directing the differentiation of mesenchymal stem cells. Proc Natl Acad Sci U S A
+107: 4872–4877. 10.1073/pnas.0903269107
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+47.
+McBeath R, Pirone DM, Nelson CM, Bhadriraju K, Chen CS (2004) Cell shape, cytoskeletal tension, and RhoA regulate stem cell lineage commitment. Dev Cell
+6: 483–495.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+48.
+Colter DC, Class R, DiGirolamo CM, Prockop DJ (2000) Rapid expansion of recycling stem cells in cultures of plastic-adherent cells from human bone marrow. Proc Natl Acad Sci U S A
+97: 3213–3218.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+49.
+Seo CH, Furukawa K, Montagne K, Jeong H, Ushida T (2011) The effect of substrate microtopography on focal adhesion maturation and actin organization via the RhoA/ROCK pathway. Biomaterials
+32: 9568–9575. 10.1016/j.biomaterials.2011.08.077
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+50.
+Zhang D, Kilian KA (2013) The effect of mesenchymal stem cell shape on the maintenance of multipotency. Biomaterials
+34: 3962–3969. 10.1016/j.biomaterials.2013.02.029
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+51.
+Kuroda Y, Kitada M, Wakao S, Nishikawa K, Tanimura Y, Makinoshima H, et al.  (2010) Unique multipotent cells in adult human mesenchymal cell populations. Proc Natl Acad Sci U S A
+107: 8639–8643. 10.1073/pnas.0911647107
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+52.
+Wakao S, Kitada M, Kuroda Y, Shigemoto T, Matsuse D, Akashi H, et al.  (2011) Multilineage-differentiating stress-enduring (Muse) cells are a primary source of induced pluripotent stem cells in human fibroblasts. Proc Natl Acad Sci U S A
+108: 9875–9880. 10.1073/pnas.1100816108
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+53.
+Covas DT, Panepucci RA, Fontes AM, Silva WA Jr, Orellana MD, Freitas MC, et al.  (2008) Multipotent mesenchymal stromal cells obtained from diverse human tissues share functional properties and gene-expression profile with CD146+ perivascular cells and fibroblasts. Exp Hematol
+36: 642–654. 10.1016/j.exphem.2007.12.015
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+54.
+Lawson WE, Polosukhin VV, Zoia O, Stathopoulos GT, Han W, Plieth D, et al.  (2005) Characterization of fibroblast-specific protein 1 in pulmonary fibrosis. Am J Respir Crit Care Med
+171: 899–907.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+55.
+Strutz F, Okada H, Lo CW, Danoff T, Carone RL, Tomaszewski JE, et al.  (1995) Identification and characterization of a fibroblast marker: FSP1. J Cell Biol
+130: 393–405.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+56.
+Acharya PS, Zukas A, Chandan V, Katzenstein AL, Pure E (2006) Fibroblast activation protein: a serine protease expressed at the remodeling interface in idiopathic pulmonary fibrosis. Hum Pathol
+37: 352–360.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+57.
+Takahashi F, Takahashi K, Okazaki T, Maeda K, Ienaga H, Maeda M, et al.  (2001) Role of osteopontin in the pathogenesis of bleomycin-induced pulmonary fibrosis. Am J Respir Cell Mol Biol
+24: 264–271.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+58.
+Sikavitsas VI, Bancroft GN, Holtorf HL, Jansen JA, Mikos AG (2003) Mineralized matrix deposition by marrow stromal osteoblasts in 3D perfusion culture increases with increasing fluid shear forces. Proc Natl Acad Sci U S A
+100: 14683–14688.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+59.
+Delaine-Smith RM, MacNeil S, Reilly GC (2012) Matrix production and collagen structure are enhanced in two types of osteogenic progenitor cells by a simple fluid shear stress stimulus. Eur Cell Mater
+24: 162–174.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+60.
+Sueblinvong V, Loi R, Eisenhauer PL, Bernstein IM, Suratt BT, Spees JL, et al.  (2008) Derivation of lung epithelium from human cord blood-derived mesenchymal stem cells. Am J Respir Crit Care Med
+177: 701–711.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+61.
+Wong AP, Keating A, Lu WY, Duchesneau P, Wang X, Sacher A, et al.  (2009) Identification of a bone marrow-derived epithelial-like population capable of repopulating injured mouse airway epithelium. J Clin Invest
+119: 336–348. 10.1172/JCI36882
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+62.
+Ghazalpour A, Bennett B, Petyuk VA, Orozco L, Hagopian R, Mungrue IN, et al.  (2011) Comparative analysis of proteome and transcriptome variation in mouse. PLoS Genet
+7: e1001393
+10.1371/journal.pgen.1001393
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+63.
+Wagner DE, Bonvillain RW, Jensen T, Girard ED, Bunnell BA, Finck CM, et al.  (2013) Can stem cells be used to generate new lungs? Ex vivo lung bioengineering with decellularized whole lung scaffolds. Respirology
+18: 895–911. 10.1111/resp.12102
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+S1 Fig. Coefficient of variation for target genes, housekeeping genes and average of housekeeping genes for qRT-PCR gene expression data at 7 days (A) and 14 days (B) of culture in the different test conditions.
+(TIF)
+Click here for additional data file.
+(2.9MB, tif)
+S1 Table. Primers used for qRT-PCR analysis.
+(DOCX)
+Click here for additional data file.
+(121.4KB, docx)
+Data Availability Statement
+All relevant data are within the paper and its Supporting Information files.
+Articles from PLoS ONE are provided here courtesy of
+PLOS

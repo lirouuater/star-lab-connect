@@ -1,0 +1,728 @@
+NASA/TP—2017–218236
+Nuclear Rocket Ceramic Metal Fuel  
+Fabrication Using Tungsten Powder  
+Coating and Spark Plasma Sintering  
+M.W. Barnes and D.S. Tucker
+Marshall Space Flight Center, Huntsville, Alabama 
+L. Hone and S. Cook
+Center for Space Nuclear Research, Idaho Falls, Idaho
+   
+April 2017National Aeronautics and
+Space Administration
+IS02
+George C. Marshall Space Flight Center
+Huntsville, Alabama  35812
+The NASA STI Program…in Profile
+Since its founding, NASA has been dedicated to the 
+advancement of aeronautics and space science. The 
+NASA Scientific and Technical Information (STI) 
+Program Office plays a key part in helping NASA 
+maintain this important role.
+The NASA STI Program Office is operated by 
+Langley Research Center, the lead center for 
+NASA’s scientific and technical information. The 
+NASA STI Program Office provides access to 
+the NASA STI Database, the largest collection of 
+aeronautical and space science STI in the world. 
+The Program Office is also NASA’s institutional 
+mechanism for disseminating the results of its 
+research and development activities. These results 
+are published by NASA in the NASA STI Report 
+Series, which includes the following report types:
+• TECHNICAL PUBLICATION. Reports of 
+completed research or a major significant 
+phase of research that present the results of 
+NASA programs and include extensive data 
+or theoretical analysis. Includes compilations 
+of significant scientific and technical data 
+and information deemed to be of continuing 
+reference value. NASA’s counterpart of peer-
+reviewed formal professional papers but has less 
+stringent limitations on manuscript length and 
+extent of graphic presentations.
+• TECHNICAL MEMORANDUM. Scientific 
+and technical findings that are preliminary or of 
+specialized interest, e.g., quick release reports, 
+working papers, and bibliographies that contain 
+minimal annotation. Does not contain extensive 
+analysis.
+• CONTRACTOR REPORT. Scientific and 
+technical findings by NASA-sponsored 
+contractors and grantees.• CONFERENCE PUBLICATION. Collected 
+papers from scientific and technical conferences, 
+symposia, seminars, or other meetings sponsored 
+or cosponsored by NASA.
+• SPECIAL PUBLICATION. Scientific, technical, 
+or historical information from NASA programs, 
+projects, and mission, often concerned with 
+subjects having substantial public interest.
+• TECHNICAL TRANSLATION. 
+ English-language translations of foreign 
+scientific and technical material pertinent to 
+NASA’s mission.
+Specialized services that complement the STI 
+Program Office’s diverse offerings include creating 
+custom thesauri, building customized databases, 
+organizing and publishing research results…even 
+providing videos.
+For more information about the NASA STI Program 
+Office, see the following:
+• Access the NASA STI program home page at 
+<http://www.sti.nasa.gov>
+• E-mail your question via the Internet to  
+<help@sti.nasa.gov>
+• Phone the NASA STI Help Desk at  
+757 –864–9658
+• Write to:
+ NASA STI Information Desk
+ Mail Stop 148
+ NASA Langley Research Center
+ Hampton, V A 23681–2199, USA
+iNASA/TP—2017–218236
+Nuclear Rocket Ceramic Metal Fuel  
+Fabrication Using Tungsten Powder  
+Coating and Spark Plasma Sintering 
+M.W. Barnes and D.S. Tucker
+Marshall Space Flight Center, Huntsville, Alabama 
+L. Hone and S. Cook
+Center for Space Nuclear Research, Idaho Falls, Idaho
+April 2017
+National Aeronautics and
+Space Administration
+Marshall Space Flight Center • Huntsville, Alabama  35812
+iiAvailable from:
+NASA STI Information Desk
+Mail Stop 148
+NASA Langley Research Center
+Hampton, V A 23681–2199, USA
+757–864–9658
+This report is also available in electronic form at
+<http://www.sti.nasa.gov>Acknowledgments
+ The authors would like to acknowledge others who contributed to this Technical Publication. Resources were 
+provided by the Chief Technologist Office through the Center Innovation Fund and by the Nuclear Thermal Propulsion 
+project under the oversight of Sonny Mitchell. Contracting and resource allocation support was provided by Jacobs 
+Engineering. Special acknowledgments are due to Robert Hickman, Jeramie Broadway, and the Advanced Metals Pro -
+cessing and Technologies Team at NASA Marshall Space Flight Center for their foresight in facility management. Fur -
+thermore, special thanks to Philip Brown for ensuring that all radioactive material used in this research project was safely 
+processed, handled, and transported.
+TRADEMARKS
+Trade names and trademarks are used in this report for identification only. This usage does not constitute an official  
+endorsement, either expressed or implied, by the National Aeronautics and Space Administration.
+iiiTABLE OF CONTENTS
+1.  INTRODUCTION  .............................................................................................................  1
+2.  BACKGROUND  ................................................................................................................  3
+ 2.1  Heritage Programs  ........................................................................................................  3
+ 2.2  Recent Research at Marshall Space Flight Center .........................................................  3
+ 2.3  Ceramic Metal Fabrication Challenges  .........................................................................  5
+ 2.4  Mitigation Approach  ....................................................................................................  7
+3.  OBJECTIVES  .....................................................................................................................  8
+4.  EXPERIMENTAL PROCEDURES  ...................................................................................  9
+ 4.1  Material  ........................................................................................................................  9
+ 4.2  Tungsten Powder Coating Process  ................................................................................  9
+ 4.3  Spark Plasma Sintering Process  ....................................................................................  9
+5.  RESULTS  ...........................................................................................................................  11
+ 5.1  Density  ..........................................................................................................................  11
+ 5.2  Microstructure  ...............................................................................................................  13
+6.  CONCLUSIONS  ................................................................................................................  16
+APPENDIX A––RAW DATA  .................................................................................................  17
+APPENDIX B––IMAGES  ......................................................................................................  19
+ B.1  Photographs  .................................................................................................................  19
+ B.2  Scanning Electron Microscopy Images  .........................................................................  21
+ B.3  Energy Dispersive X-Ray Spectroscopy Images  ............................................................  23
+REFERENCES  .......................................................................................................................  25
+iv
+vLIST OF FIGURES
+  1. NTR schematic  .........................................................................................................  1
+  2. HIP can components  .................................................................................................  4
+  3. Filled HIP can  ...........................................................................................................  4
+  4. Surrogate elements post-HIP  .....................................................................................  5
+  5. Particle coating effects  ...............................................................................................  6
+  6. Segregation in HIP can  ..............................................................................................  7
+  7. WPC micrograph: (a) × 1 and (b) × 200  ....................................................................  9
+  8. Specimen identification scheme  .................................................................................  10
+  9. Specimen NASA-SPC-1800C-001: (a) top view and (b) side view  .............................  10
+10. Plot of TD versus temperature  ..................................................................................  12
+11. TD calculation  ..........................................................................................................  13
+12. NASA-SPS-1800C-005 micrograph: (a) × 100 and (b) × 250  .....................................  14
+13. NASA-SPS-1750C-004 micrograph: (a) × 100 and (b) × 250  .....................................  14
+14. NASA-SPS-1800C-005 cross-section micrograph: (a) × 100 and (b) × 250  ................  15
+15. NASA-SPS-1800C-005: (a) uranium, (b) tungsten, and (c) oxygen  ............................  15
+16. Photographs of NASA-SPS-1800C-001 and NASA-SPS-1800C-002 samples  ...........  19
+17. SEM images  ..............................................................................................................  21
+18. EDS images of NASA-SPS-1750C-004  .....................................................................  23
+19. EDS images of NASA-SPS-1700C-004  .....................................................................  24
+viLIST OF TABLES
+1. SPS process parameters  ................................................................................................  10
+2. Specimen density data  ...................................................................................................  11
+3. Raw data table 1  ............................................................................................................  17
+4. Raw data table 2  ............................................................................................................  18
+viiLIST OF ACRONYMS AND SYMBOLS
+ANL Argonne National Laboratory
+CERMET ceramic metal
+CIF Center Innovation Fund
+CVD chemical vapor deposition
+dUO2 depleted uranium dioxide
+EDS energy dispersive x-ray spectroscopy
+GE General Electric
+HIP hot isostatic pressing
+LeRC Lewis Research Center
+MSFC Marshall Space Flight Center
+NCPS Nuclear Cryogenic Propulsion Stage
+NER V A Nuclear Engine for Rocket Vehicle Application
+NTP nuclear thermal propulsion
+NTR nuclear thermal rocket
+SEM scanning electron microscopy
+SPS spark plasma sintering
+TD theoretical density
+TP Technical Publication
+UO2 uranium dioxide
+W tungsten
+WPC tungsten powder coating
+viii
+ixNOMENCLATURE
+M mass
+MA mass of component A
+MB mass of component B
+V volume
+VA volume of component A
+VB volume of component B
+VT total volume
+vA volume fraction of component A
+vB volume fraction of component B
+ρ density
+ρA density of component A
+ρB density of component B
+ρmix density of the mixture
+ρW density of tungsten
+x
+1TECHNICAL PUBLICATION
+NUCLEAR ROCKET CERAMIC METAL FUEL FABRICATION USING TUNGSTEN  
+POWDER COATING AND SPARK PLASMA SINTERING
+1.  INTRODUCTION
+ NASA ’s goal to conduct exploration missions beyond low-Earth orbit, including manned 
+Mars missions, forces the nation to develop new enabling technologies. Nuclear thermal propulsion 
+(NTP) is a technology innovation that has the potential to enable manned Mars missions. Nuclear 
+thermal rockets (NTRs) utilize nuclear thermal energy to generate propulsive forces and offer  
+a higher specific impulse than traditional chemically propelled spacecraft (liquid engines, solid 
+motors, etc.), which reduces transient times and limits astronaut exposure to space radiation.  
+A schematic of an NTR can be seen in figure 1.
+Nozzle Skirt Extension
+NozzleControl
+DrumInternalShield
+Turbopumps
+External
+Disc ShieldReflectorReactor CorePropellant Line
+F1_1717Figure 1.  NTR schematic.
+ Efforts to develop NTRs have been ongoing intermittently since the 1960s; however, 
+no manned-rated NTRs currently exist. Key to the development of an NTR is a robust nuclear 
+fuel material that can perform in a harsh, high-temperature (>2,200 K) hydrogen environment.  
+In the 1950s, 1960s, and 1970s, two types of nuclear rocket fuel materials emerged from extensive 
+research efforts––graphite-based fuels and ceramic metal (CERMET) fuels. The Rover/Nuclear 
+Engine for Rocket Vehicle Application (NER V A) program successfully demonstrated the feasibility 
+of NTRs by conducting a series of reactor development and nuclear engine system tests.1,2 Rover/
+NER V A NTRs used nuclear fuel composed of a graphite matrix impregnated with uranium carbide; 
+however, the graphite-based fuels employed in the Rover/NER V A engines suffered from fuel ero -
+sion. An alternative fuel type that also received attention in the 1960s and 1970s was a refractory  
+2metal-based fuel consisting of a tungsten (W) matrix with imbedded uranium dioxide (UO2) ceramic 
+fuel particles. This fuel type is typically designated as a CERMET fuel. CERMET, for the purposes 
+of this Technical Publication (TP), refers to W-UO2 fuels. The challenges that material scientists and 
+engineers have faced while attempting to develop W-UO2 CERMET fuels have been documented 
+and redocumented. This TP outlines a new technique to mitigate fabrication challenges using tung -
+sten powder coating (WPC) and spark plasma sintering (SPS). WPC is a new process, developed 
+internally at NASA Marshall Space Flight Center (MSFC) for coating UO2 particles. SPS is an 
+innovative powder consolidation technique. This research was conducted under a fiscal year 2016 
+MSFC Center Innovation Fund (CIF) project with additional support from the NASA NTP project. 
+ 
+32.  BACKGROUND
+ The research conducted during this CIF project leverages both past research efforts from  
+the 1960s and 1970s and more recent research conducted at MSFC around 2012–2015. This section 
+summarizes the important aspects of past research and identifies its link to this CIF effort.   
+2.1  Heritage Programs
+ Over the last 50 years, scientists and engineers have explored many methods of CERMET 
+fuel fabrication. Research into the fabrication of CERMET fuel (tungsten and depleted uranium 
+dioxide (dUO2)) was undertaken by General Electric (GE), Argonne National Laboratory (ANL), 
+and NASA Lewis Research Center (LeRC) in the 1960s and 1970s.3–5 Under the GE710 program, 
+GE developed a process to consistently fabricate CERMET fuel elements by first cold pressing  
+and then hydrogen sintering blended W-UO2 powders to form fuel wafers. Then, the wafers were 
+stacked and subjected to hot isostatic pressing (HIP) to form elements. The GE710 process was 
+instrumental in demonstrating the viability of CERMET fuels. Fuel elements fabricated during  
+the program survived tens of thousands of hours of nonnuclear and in-pile testing.3,4 ANL  
+CERMET fuels research focused on fabricating full-length fuel elements (45.7 cm) using a HIP process. 
+Fuel elements created in this fashion commonly failed to meet dimension tolerances. LeRC explored 
+multiple fabrication approaches including various forms of hot pressing, an extrusion technique, roll 
+compaction, and cold pressing/sintering. Some of these methods showed potential; however, no fab -
+rication technique reached full maturity under the program. While these heritage programs did not 
+result in the release of a CERMET fuel specification or outline a proven process for fabrication, each 
+program contributed to understanding the challenges (i.e., failure mechanisms, feedstock require -
+ments, etc.) faced in CERMET fuel fabrication, paving the way for future research. A discussion  
+of these challenges is presented in section 2.3 of this TP . 
+2.2  Recent Research at Marshall Space Flight Center
+ Under the Nuclear Cryogenic Propulsion Stage (NCPS) project (2012–2015), MSFC engi -
+neers and scientists labored to produce a 16-in CERMET fuel element. Research included successful 
+HIP fabrication of surrogate CERMET fuel elements and attempts to develop a coating method 
+for fuel particles. The need for coated fuel particles was established by past research efforts.6 Efforts 
+under the NCPS project led to the development of an experimental chemical vapor deposition (CVD) 
+system to deposit a protective tungsten coating on UO2 fuel particles prior to fuel element fabrica -
+tion.7,8 The complexity of the CVD coating process forced MSFC researchers to explore alternative 
+coating methods, which led to the development of WPC. WPC is a relatively simple process that uses 
+a binder to adhere tungsten powder to the surface of UO2 particles. 
+ MSFC’s research focused mainly upon a full-length HIP process as the sintering/consolida -
+tion method because of the possibility of producing entire fuel elements in one sintering step. HIP 
+4cans shown in figures 2 and 3 were fabricated and filled with a blend of W-dUO2. Filled cans were 
+subjected to a HIP process to consolidate the powder within. 
+Figure 2.  HIP can components.
+Figure 3.  Filled HIP can.
+5 Figure 4 shows a surrogate (does not contain dUO2) element post-HIP . Tungsten-dUO2 ele-
+ments fabricated using this full-length HIP process suffer from low packing densities (less than 85% 
+theoretical density (TD)) which lead to distortion of the fuel elements and fracturing of HIP cans.9 
+Researchers realized the potential of beginning the fuel element fabrication process with a fully 
+dense fuel wafer. Exploring a process to fabricate dense (greater than 85% of TD) wafers created  
+an interest in SPS, a process that uses electric current and pressure to rapidly sinter powder into 
+dense consolidated material. Limited research has been conducted to evaluate SPS fabrication of 
+CERMET fuels. SPS fabrication using WPC UO2 fuel particles has never been researched. 
+ 
+Figure 4.  Surrogate elements post-HIP .
+2.3  Ceramic Metal Fabrication Challenges
+ Challenges faced by MSFC researchers stem from the starting material or feedstock quality. 
+A stable fuel material requires a high-quality feedstock. Requirements for quality feedstocks were 
+specified by heritage programs.6 Namely, UO2 particles that are spherical, 10–100 μ in diameter,  
+and contain low levels of impurities (less than 300 ppm) are required to produce fuel elements with 
+suitable material properties. This CIF project used the highest quality feedstocks available; however, 
+the material did not meet the specifications identified by heritage programs. (See section 4.1 for  
+material specifications used for this research.) 
+ The pursuit of appropriate feedstock material is ongoing. In addition to starting with  
+an adequate feedstock material, heritage programs identified the need to coat fuel particles. The coat -
+ing serves as a protective cladding that prohibits the hydrogen propellant from easily reacting with 
+the UO2 particles. The coating also aids in the formation of a uniform microstructure which is key 
+to the stability of the fuel. Fuel elements fabricated from low-quality feedstocks that are uncoated 
+or poorly coated suffer from agglomeration and segregation which causes the fuel material to fail 
+prematurely.
+6 Figure 5 depicts agglomeration of particles based upon coating method and demonstrates 
+how the microstructure improves with coating quality. For uncoated particles, the micrograph 
+shows agglomeration, plenty of fuel particle-to-particle contact, and poor fuel particle distribution  
+within the tungsten matrix. CVD-coated particles are uniformly distributed and do not suffer  
+from agglomeration, while powder-coated particles exhibited less agglomeration and a more uni -
+form distribution than uncoated particles. Figure 6 is a photo of a HIP can cross section depicting 
+material that suffers from segregation. The majority of the dUO2 (darker colored material in this 
+image) has migrated to the edges near the wall of the HIP can and the tungsten (lighter colored 
+material) remained in the center. This material will not have the appropriate mechanical strength, 
+which is provided by the tungsten matrix in W-UO2 CERMETs. The dUO2 around the edges will  
+rapidly dissociate into free uranium and oxygen when exposed to hydrogen at elevated tem -
+peratures, resulting in rapid fuel loss. The research conducted under this CIF project sought  
+to fabricate high-density fuel material (greater than 90% of theoretical) and to improve fuel particle 
+distribution within the tungsten matrix. Fuel material with these characteristics will mitigate UO2 
+dissociation/instability in hydrogen due to the negative effects of agglomeration and segregation  
+and will improve mechanical strength.
+Powder-Coated
+Particles
+CVD-CoatedParticlesUncoatedParticles
+F5_1717Figure 5.  Particle coating effects.
+7
+Figure 6.  Segregation in HIP can. 
+2.4  Mitigation Approach
+ This research uses WPC and SPS to mitigate the challenges that were identified by pre -
+vious research. WPC uses an organic binder that is mixed with the blended powders. During  
+the mixing process, the binder pastes the smaller tungsten particles to the surface of the larger fuel 
+particles coating the dUO2 particles with tungsten. Figures 7 and 8 are micrographs of WPC par -
+ticles. Agglomeration and particle-to-particle contact is less likely to occur when particles are com -
+pletely encapsulated with tungsten. SPS was used to address distortion and low density issues that 
+occurred during the full-length HIP process explored under the NCPS project. As mentioned in 
+section 2.2, SPS is a sintering technique that uses pulsed electrical current to consolidate powders  
+into solid material. Powder material is loaded into a graphite die. Current is passed through the die and  
+the material, while a mechanical ram applies an axial load to the material. The current causes Joule 
+heating which elevates the temperature to the material’s sintering temperature. Sintering occurs  
+when a material at an elevated temperature in powder form becomes soft and coalesces at a molecu -
+lar level. The post-sintered material is a solid mass instead of a blend of loose powders. SPS is 
+a rapid process that sinters powdered materials in minutes instead of the hours or days that are  
+required for conventional hydrogen/furnace sintering techniques that were employed during the  
+GE710 program.
+83.  OBJECTIVES
+ This project sought to evaluate the feasibility of WPC and SPS to produce a robust nuclear 
+fuel material. The primary goal is to further the development of CERMET fuels by demonstrating 
+a viable method to produce fuel material, which is fundamental to the production of a prototypic 
+fuel element for NTR applications. WPC provides the protective tungsten coating, and SPS is used  
+to consolidate the blended powder (W-dUO2) material. The fabrication process for this research 
+builds on the GE710 process by beginning with dense wafers or compacts that could be stacked  
+to form fuel elements. WPC simplifies the fuel particle coating process, and SPS allows for the 
+rapid sintering of blended fuel material into highly dense wafers. Future research, which is beyond  
+the scope of this TP, will seek to develop a process for fabricating fuel elements of specific geometries 
+and detail from dense wafers. 
+ The density and microstructure of the sintered wafers were evaluated to provide data to pre -
+dict the material performance capability. Microstructure (i.e., fuel particle agglomeration, segrega -
+tion, and distribution within the tungsten matrix) and density are important characteristics needed  
+to assess material performance. Stable fuel material requires fuel particles that are uniformly dis -
+persed within the tungsten metal matrix displaying little or no contact between fuel particles. Fur -
+thermore, fuel material shall be dense without excess pores or voids within the tungsten matrix, 
+which reduces the mechanical strength of the fuel material. Experiments were developed to evaluate 
+these requirements for fuel material fabricated via SPS using WPC dUO2 feedstock material. 
+94.  EXPERIMENTAL PROCEDURES
+4.1  Material
+ For this research, tungsten was purchased from H.C. Starck. Particles sizes ranged from 9 to 
+13 μ with a 0.1 ppm maximum iron, oxygen, nitrogen, and carbon. The depleted UO2 particles were 
+supplied by Oak Ridge National Laboratory. Particles were greater than 150 μ. Depleted uranium 
+dioxide and tungsten were blended to yield a W-60 vol% dUO2 mixture. The heritage mixture ratio 
+60 vol% dUO2 is routinely employed when conducting CERMET research.  
+4.2  Tungsten Powder Coating Process
+ Quantities of W-dUO2 were weighed and blended in 100-g batches. This batch size was 
+driven by the WPC process. Each 100-g batch contained approximately 54 g of tungsten and 46 g  
+of dUO2. A small quantity of an organic binder material was added to each batch. Then, each batch 
+was blended in a Turbula® shaker-mixer for approximately 1 hour. The blended material was further 
+processed to ensure that the smaller tungsten particles were bounded to the surface of the larger 
+dUO2 particles. A micrograph of tungsten powder-coated material can be seen in figure 7. The two 
+figures show smaller tungsten particles affixed to the surfaces of much larger particles.
+(a) (b) 1 mm 250 μm
+F7_1717Figure 7.  WPC micrograph: (a) × 1 and (b) × 200. 
+4.3  Spark Plasma Sintering Process
+ Approximately 31 g of blended W-60 vol% dUO2 material were loaded into a 20-mm graphite 
+die and sandwiched between two graphite punches. Thirty-one grams were chosen to produce post-
+sinter specimens that were approximately 6 mm thick, which made convenient rough density calcula -
+tions possible prior to making more precise density measurements. This graphite die/punch assembly 
+10was loaded into the SPS system. Sintering was accomplished by increasing the temperature at a rate 
+of 100 °C per minute and pressure at a rate of 20 MPa per minute until the material reached the pre -
+determined sintering temperature and pressure (sintering pressure = 50 MPa for all specimens). The 
+sintering temperature and pressure were maintained for 20 minute; then, the material was cooled at 
+a rate of 20 °C per minute. The sintering temperature was varied as shown in table 1. Each specimen 
+was given a unique identification number as shown in figure 8. 
+Table 1.  SPS process parameters.
+No. of 
+SpecimensSintering
+Temperature 
+(°C)Sintering
+Pressure
+(MPa)
+1 1,600 50
+4 1,700 50
+4 1,750 50
+5 1,800 50
+1 1,850 50
+NASA-SPS – – 1,850 °C 001
+Specimen No. Heading Sintering
+Temperature
+F8_1717Figure 8.  Specimen identification scheme.
+ A total of 15 cylindrical specimens approximately 20 mm in diameter and 6 mm thick were 
+fabricated. Figure 9 shows macroscopic images of NASA-SPS-1800C-001. Specimens appear to be 
+fully dense from a macroscopic prospective. No voids or cracks were visible on the surface nor was 
+there any evidence of segregation. Cross sections did not reveal any macroscopic subsurface defects.
+(a) (b)
+F9_1717
+ Figure 9.  Specimen NASA-SPS-1800C-001: (a) top view and (b) side view. 
+115.  RESULTS
+5.1  Density
+ The density of each specimen was measured twice using Archimedes’ technique. An average 
+density for each specimen is listed in table 2 along with a comparison between the average measured 
+density and the TD, which was 14.282 g/cm3 (see sec. 5.1.1). All specimens exhibited density mea -
+surements above 95% of TD. A plot of density versus temperature is provided in figure 10, showing  
+an identifiable trend of density increase with increasing temperature.
+Table 2.  Specimen density data. 
+SpecimenThickness 
+(mm)Diameter 
+(mm)Average Density 
+(g/cm3)TD
+(%)
+NASA-SPS-1850C-001 5.90 19.93 14.20 99.46
+NASA-SPS-1800C-001 5.45 19.95 14.06 98.47
+NASA-SPS-1800C-002 5.94 19.96 14.07 98.57
+NASA-SPS-1800C-003 5.57 19.91 14.06 98.48
+NASA-SPS-1800C-004 6.03 19.91 14.03 98.26
+NASA-SPS-1800C-005 5.60 19.93 14.03 98.24
+NASA-SPS-1750C-001 6.10 19.89 14.09 98.68
+NASA-SPS-1750C-002 6.15 19.90 14.01 98.15
+NASA-SPS-1750C-003 5.60 19.96 14.09 98.70
+NASA-SPS-1750C-004 5.70 19.90 14.10 98.73
+NASA-SPS-1700C-001 6.00 19.90 14.00 98.06
+NASA-SPS-1700C-002 6.40 19.93 14.01 98.11
+NASA-SPS-1700C-003 5.93 19.90 13.94 97.63
+NASA-SPS-1700C-004 6.00 19.96 14.02 98.19
+NASA-SPS-1600C-001 6.10 19.90 13.87 97.18
+12100
+99
+98
+97
+1,600 1,650 1,700
+Max Temperature (°C)Theoretical Density (%)
+1,750 1,800 1,850
+ 
+Figure 10.  Plot of TD versus temperature.
+5.1.1  Theoretical Density
+ As previously stated, TD is the maximum achievable density value that would be obtained if 
+the specimen’s particles were perfectly arranged and consolidated with no porosity. Though TD is 
+most optimal, it is rarely obtained; therefore, the specimen’s measured density values are typically 
+compared to the TD as an indication of sintering efficiency. For example, a specimen with a TD  
+of 20 g/cc and a measured density of 19.5 g/cc has a density that is approximately 98% theoretical. 
+The rule of mixtures was used to determine the TD of the W-60 vol% dUO2 mixture:
+ ρ = M / V  . (1)
+The density of a mixture is as follows:
+ ρmix = (MA + MB) / VT  , (2)
+where
+ ρmix  = density of the mixture
+ MA = mass of component A
+ MB  = mass of component B
+ VT  = total volume.
+13The rule of mixtures is derived as follows:
+Rearranging equation (1) yields: 
+ M = V * ρ  . (3)
+Substituting equation (3) into equation (2) yields equation (4):
+ ρmix = (VA * ρA) + (VB * ρB) / VT   . (4)
+ Using the relationship that the volume of component A ( VA) divided by VT is the volume 
+fraction of component A ( vA) and the volume of component B ( VB) divided by VT is the volume 
+fraction of component B ( vB) yields equation (5), the rule of mixtures:
+ ρ mix = vA * ρA + vB * ρA  . (5)
+ Figure 11 shows how the rule of mixtures was used to calculate the TD for the W-dUO2 
+specimens. The TD is equal to 14.282 g/cm3. The tungsten density is ρW.10 The density of dUO2 is 
+ρdUO2.11 Vol%dUO2 is the volume percentage of dUO2 in the mixture, and the ρTD is W-60 vol% 
+of the dUO2 mixture.
+ W = 19.25 gm/cm3  dUO2 = 10.97 gm/cm3vol%dUO2 = 60%
+ TD = (1 – vol%dUO2) •    W + vol%dUO2 •    dUO2 = 14.282 gm/cm3
+F11_1717ρ ρ
+ρ ρ ρ
+Figure 11.  TD calculation. 
+5.2  Microstructure
+ Scanning electron microscopy (SEM) was used to characterize the microstructure of multiple 
+specimens. Micrographs were obtained from a JEOL JSM-6610LV SEM. Specimens were mounted 
+in epoxy. Some specimens were sectioned prior to mounting to expose the subsurface microstructure. 
+Specimen preparation for SEM included grinding and polishing to produce a smooth contamination-
+free surface. Both secondary electron and backscatter images were obtained. Elemental analysis was 
+performed via energy dispersive x-ray spectroscopy (EDS) using an EDAX silicon drift detector.
+14 The dispersion of dUO2 within the tungsten matrix can be seen in figures 12 and 13 for NASA-
+SPS-1800C-005 and NASA-SPS-1750C-004. The majority of the fuel particles are surrounded  
+by tungsten providing minimal particle interconnectivity. The tungsten metal matrix is completely 
+sintered with minimal pores or voids. The fuel particles are spherical and nearly monodisperse. 
+(a) (b)
+F12_1717Figure 12.  NASA-SPS-1800C-005 micrograph: (a) × 100 and (b) × 250.
+F13_1717
+(a) (b)
+Figure 13.  NASA-SPS-1750C-004 micrograph: (a) × 100 and (b) × 250.
+ A cross section of NASA-SPS-1800C-005 can be seen in figure 14. The cross section reveals 
+some particle elongation which is likely due to axial loading during the SPS process. Evidence of 
+particle pullout was also observed in some micrographs. Pullout can be accredited to specimen 
+preparation (grinding).
+15
+(a) (b)
+F14_1717Figure 14.  NASA-SPS-1800C-005 cross-section micrograph: (a) × 100 and (b) × 250. 
+ EDS analysis (fig. 15) provides a very distinctive image of the material’s microstructure. 
+Smaller flakes of imbedded dUO2 can be seen within the tungsten matrix. The flakes were likely 
+formed during the initial Turbula® blending process.
+(a)
+(c)(b)
+F15_171745% Uranium
+50% Tungsten4% Oxygen
+Figure 15.  NASA-SPS-1800C-005: (a) uranium, (b) tungsten, and (c) oxygen.
+166.  CONCLUSIONS
+ All technical objectives were achieved. SPS and WPC can potentially be employed to produce 
+W-dUO2 CERMET fuel wafers that are dense and that have a desirable microstructure. Density val -
+ues for fuel wafers that were fabricated using the method described herein measured above 95% of 
+the TD. Density values in this range coincide with wafers with little to no voids as was revealed by 
+the included microscopy and elemental analysis. The microstructure was uniformly dispersed with 
+tungsten metal surrounding most of the fuel particles. 
+ More research is needed to fully assess this material. A study of the interface between dUO2 
+particles and the tungsten matrix is forthcoming and will be included in future research. Future 
+research will also include hot hydrogen testing to assess material properties and performance. Fur -
+thermore, a measure of the material hardness would provide more insight into the mechanical prop -
+erties of the material. Research to study the microstructural effects of fuel particle size and fuel 
+loading would also be insightful.
+ The ultimate goal is to develop a repeatable process for producing a robust CERMET fuel 
+element that can be used for NTR applications, however, much research is needed to achieve that 
+goal. Fuel elements for current NTR design concepts range in length from 40 to 70 cm or more. An 
+NTR could require in excess of 100 elements per reactor core. While SPS provides a method to rap -
+idly produce fuel wafers of varying geometries (heritage NTR fuel elements are typically hexagonally 
+shaped), an SPS system capable of producing longer fuel wafers would likely be required. A process 
+could be developed using GE’s 710 approach (GE710) of stacking SPS wafers and then hot isostatic 
+press-bonding the wafers to form the full length element. Possibly, a custom SPS system capable of 
+producing a 20-cm-long wafer could be produced. Custom dies for producing hexagonal SPS fuel 
+wafers have already been the subject of other research projects.9 Future research is needed to address 
+these and other issues that are beyond the scope of this TP .
+ 
+17APPENDIX A––RAW DATA
+ Tables 3 and 4 show the raw data from each specimen in this TP . 
+Table 3.  Raw data table 1.
+Specimen IdentifierFabrication 
+DateThickness 
+(mm)Diameter 
+(mm)Initial 
+Mass
+(g)Mass With 
+GRAFOIL®
+ (g)Mass After
+GRAFOIL
+Removed (g)
+NASA-SPS-1800C-001 5/11/2016 5.45 19.95 31.40 28.17 24.17
+NASA-SPS-1800C-002 5/11/2016 5.94 19.96 31.40 28.39 26.02
+NASA-SPS-1800C-003 5/11/2016 5.57 19.91 31.41 28.54 24.42
+NASA-SPS-1800C-004 5/11/2016 6.03 19.91 31.41 28.44 25.98
+NASA-SPS-1800C-005 5/11/2016 5.60 19.93 31.41 28.41 24.45
+NASA-SPS-1750C-001 6/9/2016 6.10 19.89 31.43 28.38 26.10
+NASA-SPS-1750C-002 6/13/2016 6.15 19.90 31.40 28.50 26.31
+NASA-SPS-1750C-003 6/16/2016 5.60 19.96 31.41 28.48 24.48
+NASA-SPS-1750C-004 6/20/2016 5.70 19.90 31.40 28.51 24.18
+NASA-SPS-1700C-001 6/13/2016 6.00 19.90 31.40 28.42 25.69
+NASA-SPS-1700C-002 6/22/2016 6.40 19.93 31.40 28.53 27.68
+NASA-SPS-1700C-003 6/30/2016 5.93 19.90 31.40 28.44 25.34
+NASA-SPS-1700C-004 7/6/2016 6.00 19.96 31.40 28.52 25.61
+NASA-SPS-1600C-001 6/30/2016 6.10 19.90 31.40 28.43 26.30
+NASA-SPS-1850C-001 7/11/2016 5.90 19.93 31.40 28.31 25.03
+18Table 4.  Raw data table 2.
+Specimen NameWater 
+Temp 
+(°C)In Air
+No. 1
+(g)In Water 
+No. 1
+(g)Density 
+No. 1
+(g/cm3)In Air
+No. 2
+(g)Density 
+No. 2
+(g/cm3)In Water 
+No. 2
+(g)Average 
+Density
+(g/cm3)Percent 
+of TD
+(g/cm3)
+NASA-SPS-1800C-001 23.8 24.23 22.51 14.07 24.22 22.50 14.05 14.06 98.47
+NASA-SPS-1800C-002 23.6 26.05 24.21 14.08 26.06 24.21 14.06 14.07 98.57
+NASA-SPS-1800C-003 23.6 24.46 22.73 14.08 24.47 22.73 14.05 14.06 98.48
+NASA-SPS-1800C-004 23.6 26.02 24.17 14.04 26.02 24.17 14.02 14.03 98.26
+NASA-SPS-1800C-005 23.6 24.48 22.74 14.03 24.49 22.75 14.02 14.03 98.24
+NASA-SPS-1750C-001 22.6 26.09 24.25 14.10 26.10 24.25 14.08 14.09 98.68
+NASA-SPS-1750C-002 22.6 26.30 24.43 14.03 26.31 24.44 14.00 14.01 98.15
+NASA-SPS-1750C-003 23.2 24.48 22.74 14.09 24.48 22.74 14.09 14.09 98.70
+NASA-SPS-1750C-004 23.2 24.18 22.47 14.10 24.18 22.47 14.09 14.10 98.73
+NASA-SPS-1700C-001 22.6 25.69 23.86 14.02 25.70 23.86 13.98 14.00 98.06
+NASA-SPS-1700C-002 22.6 27.68 25.71 14.03 27.69 25.71 13.98 14.01 98.11
+NASA-SPS-1700C-003 23.0 25.34 23.53 13.94 23.35 23.53 13.93 13.94 97.63
+NASA-SPS-1700C-004 23.2 25.61 23.79 14.02 25.61 23.79 14.02 14.02 98.19
+NASA-SPS-1600C-001 23.2 26.30 24.16 13.89 26.04 24.16 13.86 13.87 97.18
+NASA-SPS-1850C-001 23.2 25.03 23.27 14.21 25.03 23.28 14.19 14.20 99.46
+19APPENDIX B––IMAGES
+B.1  Photographs
+ Figure 16 shows photographs of the SPS samples.
+Figure 16.  Photographs of NASA-SPS-1800C-001 and NASA-SPS-1800C-002 
+samples. 
+20
+Figure 16.  Photographs of NASA-SPS-1800C-001 and NASA-SPS-1800C-002 
+samples (Continued). 
+21B.2  Scanning Electron Microscopy Images
+ Figure 17 shows SEM images of the SPS samples.
+NASA-SPS-1800C-005 ( × 100)
+NASA-SPS-1800C-005 ( × 500)
+NASA-SPS-1750C-004 ( × 250)NASA-SPS-1800C-005 ( × 500)
+NASA-SPS-1750C-004 ( × 100)
+NASA-SPS-1750C-004 ( × 500)
+F17_1717 Figure 17.  SEM images.
+22
+NASA-SPS-1750C-005 ( × 500)
+NASA-SPS-1750C-005 ( × 2,000)
+NASA-SPS-1700C-004 ( × 250)NASA-SPS-1750C-005 ( × 1,000)
+NASA-SPS-1700C-005 ( × 100)
+NASA-SPS-1700C-004 ( × 500)
+F17b_1717 Figure 17.  SEM images (Continued).
+23B.3  Energy Dispersive X-Ray Spectroscopy Images
+ Figure 18 shows EDS images of NASA-SPS-1750C-004. Figure 19 shows EDS images of 
+NASA-SPS-1700C-004.
+4% O
+35% U61% W
+F18_1717Figure 18.  EDS images of NASA-SPS-1750C-004.
+24
+5% O
+26% U69% W
+F19_1717Figure 19.  EDS images of NASA-SPS-1700C-004.
+25REFERENCES
+  1. Koenig, D.R.: Experience Gained from the Space Nuclear Rocket Program  (Rover ), LA-10062-H, 
+Los Alamos National Laboratory, Los Alamos, NM, 57 pp., 1986.
+  2. Taub, J.M.: A Review of Fuel Element Development for Nuclear Rocket Engines, LA-5931, Los 
+Alamos Scientific Library of the University of California, Los Alamos, NM, 48 pp., 1975. 
+  3. General Electric, Nuclear Materials and Propulsion Operation: “710 High-Temperature Gas 
+Reactor Program Summary Report;” GEMP-600, Vols. 1–6, 101 pp., 1968.
+  4. Argonne National Laboratory, Nuclear Rocket Program: Terminal Report, ANL-7236, Argonne, 
+IL, 198 pp., 1968.
+  5. Sikora, P .F .; and Blankenship, C.P .: “Evaluation of Processes for Fabricating Tungsten-Ura -
+nium Dioxide Honeycomb Configurations,” NASA TM X-1445, NASA Lewis Research Center, 
+Cleveland, OH, 1967.
+  6. Haertling, C.; and Hanrahan, Jr., R.J.: “Literature review of thermal and radiation performance 
+parameters for high-temperature, uranium dioxide fueled cermet materials,” Journal of Nuclear  
+Materials , Vol. 366, Issue 3, pp. 317–335, July 2007.
+  7. Mireles, O.R.; and Tieman, A.; Broadway, J.; and Hickman, R.: “Advances in the Development 
+of a WCl6 CVD System for Coating UO2 Powders with Tungsten,” Paper 6729, Proceedings of 
+Nuclear and Emerging Technologies for Space 2013 , February 25–28, 2013, Albuquerque, NM, 
+18 pp., 2013.
+  8. Mireles, O.R.; and Kimberlin, A.; Broadway, J; and Hickman, R.: “Development Status of  
+a CVD System to Deposit Tungsten onto UO2 Powder via the WCl6 Process,” Proceedings of 
+Nuclear and Emerging Technologies for Space 2014 , February 24–26, 2014, NASA Stennis Space 
+Center, Grenada, MS, 2 pp., 2014.
+  9. O’Brien, R.C.; Cook, S.K.; and Hone, L.C.: “Fabrication of depleted UO2-W Cermet Fuel Ele -
+ments via Spark Plasma Sintering: Advances & Progress Made,” Paper Presented at Nuclear 
+and Emerging Technologies for Space Conference, February 24–26, 2014, NASA Stennis Space 
+Center, Grenada, MS, 2014.
+10.  Midwest Tungsten Service: “Tungsten,” <https://www.tungsten.com/materials/tungsten/>, Janu -
+ary 17, 2017.
+11. Argonne National Laboratory: “Uranium Dioxide,” <http://web.ead.anl.gov/uranium/guide/
+ucompound/propertiesu/dioxide.cfm>, January 20, 2017.
+26REPORT DOCUMENTATION PAGEForm Approved
+OMB No. 0704-0188
+The public reporting burden for this collection of information is estimated to average 1 hour per response, including the time for reviewing instructions, searching existing data sources, gathering and maintaining 
+the data needed, and completing and reviewing the collection of information.  Send comments regarding this burden estimate or any other aspect of this collection of information, including suggestions for reducing 
+this burden, to Department of Defense, Washington Headquarters Services, Directorate for Information Operation and Reports (0704-0188), 1215 Jefferson Davis Highway, Suite 1204, Arlington, VA 22202-4302.  
+Respondents should be aware that notwithstanding any other provision of law, no person shall be subject to any penalty for failing to comply with a collection of information if it does not display a currently valid 
+OMB control number.
+PLEASE DO NOT RETURN YOUR FORM TO THE ABOVE ADDRESS.
+1.  REPORT DATE  (DD-MM-YYYY) 2.  REPORT TYPE 3.  DATES COVERED  (From - To)
+4.  TITLE AND SUBTITLE 5a.  CONTRACT NUMBER
+5b.  GRANT NUMBER
+5c.  PROGRAM ELEMENT NUMBER
+6.  AUTHOR(S) 5d.  PROJECT NUMBER
+ 
+5e.  TASK NUMBER
+5f.   WORK UNIT NUMBER
+7.  PERFORMING ORGANIZATION NAME(S) AND ADDRESS(ES) 8.  PERFORMING ORGANIZATION
+     REPORT NUMBER
+9.  SPONSORING/MONITORING AGENCY NAME(S) AND ADDRESS(ES) 10.  SPONSORING/MONITOR’S ACRONYM(S)
+11.  SPONSORING/MONITORING REPORT NUMBER
+12.  DISTRIBUTION/AVAILABILITY STATEMENT
+13.  SUPPLEMENTARY NOTES
+14.  ABSTRACT
+15.  SUBJECT TERMS
+16.  SECURITY CLASSIFICATION OF:
+a.  REPORT             b.  ABSTRACT        c.  THIS PAGE17.  LIMITATION OF ABSTRACT 18.  NUMBER OF  
+       PAGES19a.  NAME OF RESPONSIBLE PERSON
+19b.  TELEPHONE NUMBER (Include area code)
+Standard Form 298  (Rev. 8-98)
+Prescribed by ANSI Std. Z39-18Nuclear Rocket Ceramic Metal Fuel Fabrication Using Tungsten 
+Powder Coating and Spark Plasma Sintering
+M.W . Barnes, D.S. Tucker, L. Hone,* and S. Cook*
+George C. Marshall Space Flight Center
+Huntsville, AL  35812
+National Aeronautics and Space Administration
+Washington, DC  20546–0001
+Unclassified-Unlimited
+Subject Category 73 
+Availability: NASA STI Information Desk  (757–864–9658)
+Prepared by the Materials and Processes Laboratory, Engineering Directorate
+*Center for Space Nuclear ResearchM–1428Technical Publication
+NASA/TP—2017– 218236
+nuclear, propulsion, fuel, sintering, coating, CERMET01–04–2017
+UU 40NASA
+U U UNuclear thermal propulsion is an enabling technology for crewed Mars missions. An investigation was conducted 
+to evaluate spark plasma sintering (SPS) as a method to produce tungsten-depleted uranium dioxide (W-dUO2) 
+fuel material when employing fuel particles that were tungsten powder coated. Ceramic metal fuel wafers were pro -
+duced from a blend of W-60vol% dUO2 powder that was sintered via SPS. The maximum sintering temperatures 
+were varied from 1,600 to 1,850 °C while applying a 50-MPa axial load. Wafers exhibited high density (>95% of 
+theoretical) and a uniform microstructure (fuel particles uniformly dispersed throughout tungsten matrix).
+STI Help Desk at email: help@sti.nasa.gov
+STI Help Desk at: 757–864–9658
+
+NASA/TP—2017–XXXX
+Nuclear Rocket Ceramic Metal Fuel  
+Fabrication Using Tungsten Powder  
+Coating and Spark Plasma Sintering  
+M.W. Barnes and D.S. Tucker
+Marshall Space Flight Center, Huntsville, Alabama 
+L. Hone and S. Cook
+Center for Space Nuclear Research, Idaho Falls, Idaho
+   
+March 2017National Aeronautics and
+Space Administration
+IS02
+George C. Marshall Space Flight Center
+Huntsville, Alabama  35812

@@ -1,0 +1,659 @@
+Channels (Austin)
+. 2012 Jul 1;6(4):255–261. doi:
+10.4161/chan.20756
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+The dynamics of protein-protein interactions between domains of MscL at the cytoplasmic-lipid interface
+Irene Iscla
+Irene Iscla
+1
+Department of Physiology; UT Southwestern Medical Center at Dallas; Dallas, TX USA
+Find articles by
+Irene Iscla
+1
+,
+Robin Wray
+Robin Wray
+1
+Department of Physiology; UT Southwestern Medical Center at Dallas; Dallas, TX USA
+Find articles by
+Robin Wray
+1
+,
+Paul Blount
+Paul Blount
+1
+Department of Physiology; UT Southwestern Medical Center at Dallas; Dallas, TX USA
+Find articles by
+Paul Blount
+1,
+*
+Author information
+Copyright and License information
+1
+Department of Physiology; UT Southwestern Medical Center at Dallas; Dallas, TX USA
+*
+Correspondence to: Paul Blount, Email:
+paul.blount@utsouthwestern.edu
+Copyright © 2012 Landes Bioscience
+PMC Copyright notice
+PMCID: PMC3508904  PMID:
+22874845
+Abstract
+The bacterial mechanosensitive channel of large conductance, MscL, is one of the best characterized mechanosensitive channels serving as a paradigm for how proteins can sense and transduce mechanical forces. The physiological role of MscL is that of an emergency release valve that opens a large pore upon a sudden drop in the osmolarity of the environment. A crystal structure of a closed state of MscL shows it as a homopentamer, with each subunit consisting of two transmembrane domains (TM). There is consensus that the TM helices move in an iris like manner tilting in the plane of the membrane while gating. An N-terminal amphipathic helix that lies along the cytoplasmic membrane (S1), and the portion of TM2 near the cytoplasmic interface (TM2
+ci
+), are relatively close in the crystal structure, yet predicted to be dynamic upon gating. Here we determine how these two regions interact in the channel complex, and study how these interactions change as the channel opens. We have screened 143 double-cysteine mutants of
+E. coli
+MscL for their efficiency in disulfide bridging and generated a map of protein-protein interactions between these two regions. Interesting candidates have been further studied by patch clamp and show differences in channel activity under different redox potentials; the results suggest a model for the dynamics of these two domains during MscL gating.
+Keywords:
+mechanosensitive channel, MscL, disulfide trapping, protein-protein interactions, osmoregulation
+Introduction
+The bacterial mechano
+s
+ensitive channel of large conductance (MscL) of
+E. coli
+is to date one of the best studied mechanosensitive channels serving as a paradigm for how channels sense and respond to mechanical stimuli.
+1
+The physiological role of MscL in bacteria is osmoregulation
+2
+; upon a sudden decrease in the osmolarity of the environment (hypo-osmotic shock) water enters the bacterial cell, producing cell swelling and creating tension in the membrane. MscL gates in response to this membrane tension
+3
+acting as an emergency release valve that allows the rapid flow of water and solute and preventing cell lysis. MscL opens a large pore, estimated size of 30 Å
+4
+in response to membrane tensions close to the lytic value of the membrane.
+5
+A crystal structure of MscL from the homolog
+M. tuberculosis
+has been solved at 3.5 Å resolution
+6
+,
+7
+(
+Fig. 1
+). It reflects what is thought to be a closed state of MscL, although much data now suggests it may not reflect the totally closed state seen in vivo.
+1
+,
+8
+,
+9
+The channel is a homopentamer with each subunit consisting of two transmembrane domains. Both the C and N-terminals have been shown to be cytoplasmic. Although a second structure exists for the
+S. aureus
+ortholog showing a tetrameric oligomerization,
+10
+further studies have since shown that this ortholog is actually pentameric in vivo, and that the tetrameric re-organization is a detergent-specific process
+11
+,
+12
+; hence, only the pentameric structure is discussed here.
+Open in a new tab
+Figure 1.
+Schematic representation of MscL from the crystal structure of
+M. tuberculosis
+. (
+A
+) The scheme on the left represents a pentameric MscL in a closed state with the S1 and TM2
+ci
+domains, in which the cysteine substitutions were performed, highlighted for clarity. The approximate location of the membrane is shown with horizontal gray lines. A single subunit is shown on the right to indicate all different MscL domains. (
+B
+)The same model with CPK representation of its residues shows how close the S1 and TM2
+ci
+domains are predicted to be in the closed structure of MscL. In the bottom view it can be appreciated that the S1 and TM2
+ci
+domains of alternating subunits, not direct neighbors, interact with each other.
+Upon gating, the best evidence suggests that the two transmembrane domains tilt within the membrane; as they do so, the first transmembrane TM1 twists in a cork-screw-like manner in a clockwise direction (when observed from the periplasm), and the channel then opens like the iris of an old-fashion camera. Note that in the crystal structure a vestibule of the closed pore is observed within the periplasmic side of the membrane, with the pore constriction occurring in the cytoplasmic region of the transmembrane domains. Several studies have shown that this cytoplasmic-constriction region is important for channel gating. The N-terminal helix (S1) lies along the membrane and has been shown necessary for channel gating
+13
+,
+14
+; It appears to anchor TM1 to the cytoplasmic side of the membrane and is thought to guide its tilting within the membrane during the gating process.
+15
+,
+16
+The region of TM2 near the cytoplasmic interface, (TM2
+ci
+;
+Fig. 1
+), has also been shown to influence the gating process. One of the residues within this subdomain, N103, has been shown to be incorporated into the membrane upon gating, presumably to accommodate for the longer tilted TM domains in the open state. Several additional residues in the TM2
+ci
+region are also crucial for this transition, thus tuning the gating of the channel.
+Although the structural data from the MscL crystal structure shows that the S1 and TM2
+ci
+domains are in very close proximity (
+Fig. 1B
+), little is known about protein-protein interactions in this region and their possible influence in the gating process. In this study we use an in vivo disulfide trapping assay to screen 143 double cysteine mutants to generate a detailed map of protein-protein interactions between S1 and TM2
+ci
+domains. Furthermore, to understand the dynamics of these interactions during the closed to open transition in
+E. coli
+MscL, we analyze the effects in single channel activity of different redox conditions by patch clamp. Two sets of mutants have shown changes in their activities under different redox conditions and suggest a model consistent with a concerted motion of the S1 domain and TM2
+ci
+.
+Results
+In this work we study protein-protein interactions between S1 (S2-M12) and TM2
+ci
+(F93-K105) residues in
+E. coli
+MscL channel (
+Fig. 1
+) by using an in vivo disulfide trapping assay.
+17
+We chose to perform this in vivo assay because it involves little or no manipulation of the protein and is therefore more likely to reflect real protein-protein interactions, eliminating possible artifacts occurring during protein purification. Briefly, bacteria expressing each double mutant were grown in high salt media and either diluted in media of the same osmolarity (control) or lower osmolarity (osmotic down-shock) with the oxidizing agent copper-phenanthroline. After a brief incubation the bacteria were pelleted, resuspended in sample buffer, run in an electrophoresis gel and visualized in a western blot with a MscL antibody. Interestingly, we found that interactions between S1 and TM2
+ci
+domains are so efficient that only 1.5 µM copper-phenanthroline had to be used in order not to saturate the screen.
+To compare the likelihood of interactions between cysteine substituted residues from S1 and TM2
+ci
+domains, we measured the amount of protein existing as monomer through pentamers in western blots. We expressed the values as the percentage of multimers vs. the total protein. For the multimer value we counted only the trimers to pentamers because some single cysteine mutants in S1 can form dimers,
+15
+thus leading to ambiguity. The 3D graph in
+Figure 2
+summarizes our results. The X and Y axis are the residues from S1 (residues 2 to 12) and TM2
+ci
+(residues 93 to 105) regions respectively, and the z axis reflects the percentage of total protein existing as multimers for each double cysteine mutant. Note that the graph shows a pattern where almost no multimer formation occurs between S1 and residues A95, M94 and F93, residues that are inside the membrane of TM2, while the strongest interactions occur between K105 to L102 and S1.
+Open in a new tab
+Figure 2.
+Interactions between cytoplasmic domains. The graph summarizes the results of the in vivo disulfide trapping experiments and compares the efficiency of multimer formation between 143 MscL double cysteine mutants. The y and x axis reflect the sequence of amino acids of the S1 (residues 2 to 12) and TM2
+ci
+(residues 93 to 105) regions respectively and the z axis reflects the percentage of total protein existing as multimers for each double cysteine mutant. The legend shows the color corresponding to each percentage value. All values represent the mean of at least three repeats.
+The double mutant M12C/N103C showed one of the higher values in multimer formation. These residues are predicted to interact in the closed MscL, and as can be seen in the western blot, the mutated protein exists exclusively as a pentamer after treatment with oxidizer (Fig. Three A, B). Furthermore, M12C/N103C single channel activity could only be seen after treatment with the reducing agent DTT, and the activity disappeared when oxidizer was added to the bath (
+Fig. 3C
+). These results are consistent with M12C/N103C MscL being locked in a closed conformation when disulfide bridging occurs.
+Open in a new tab
+Figure 3.
+Bridging M12C/N103C mutant locks the channel in a closed state (
+A
+). The scheme shows the corresponding position of the cysteine substituted residues M12 (red) and N103 (blue) in MscL
+M. tuberculosis
+structure, which reflects a nearly closed state. The insert is an amplification of the detail inside the square to show how close these two residues are predicted to be. (
+B
+) Western blot of M12C/N103C MscL derived from cells non-shocked (NS, left lane) or down-shocked in presence of 1.5 µM of the oxidizer copper-phenanthroline (S, right lane). Note that the protein derived from the shocked cells exists almost exclusively as a pentamer (97% of total protein). (
+C
+) Patch clamp analysis of M12C/N103C MscL in giant spheroplasts shows differential activities under different redox conditions. The traces show the M12C/N103C MscL channel activity elicited by applying negative pressure to the patch (in mmHg, below the traces). After adding the reducing agent DTT to the bath (upper trace), channel activity could be observed; but after washing the DTT from the bath and adding peroxide (lower trace) the channels were locked closed and could not be activated even at higher negative pressures.
+On the other side of the graph, one of the peaks reflecting multimerization is I3C/I96C. These residues are not predicted to interact in the closed structure of MscL, but still show that more than 50% of the protein in the western blot is forming multimers (Fig. Four A, B). Patch clamp experiments show that I3C/I96C single channel activity can be elicited both in the presence of reducing or oxidizing agents in the bath (
+Fig. 4C
+). Interestingly, a more detailed analysis of the amplitude of the channel in different redox conditions showed that in the presence of the oxidizer the channel is stabilized in a sub-conductive state (Fig. Four C, D).
+Open in a new tab
+Figure 4.
+Bridging I3C/I96C locks the channel into a sub-conducting state. (
+A
+) The scheme shows the corresponding position of the cysteine substituted residues I3 (red) and I96 (blue) in MscL
+M. tuberculosis
+structure. The insert is an amplification of the detail inside the square to show that I3 and I96 are not predicted to interact with each other in the closed MscL channel. (
+B
+) Western blot of I3C/I96C MscL derived from cells non-shocked (NS, left lane) or down-shocked in presence of 1.5 µM of the oxidizer copper-phenanthroline (S, right lane). Note that the protein derived from the shocked cells exists in multiple states from dimmers to pentamers, with multimers (3X to 5X) representing 54% of total protein. (
+C
+) Patch clamp analysis of I3C/I96C MscL in giant spheroplasts shows that the channel locks in a sub-conductive stated under oxidizing conditions. The traces show the I3C/I96C MscL channel activity elicited by applying negative pressure to the patch (in mmHg, below the traces). Under reducing conditions DTT (upper trace) channel activity could be observed with most openings reaching a single conductive state (o). After washing the DTT from the bath and adding peroxide (lower trace) the channels could still be activated but they stabilized in a sub-conductive state (s). (
+D
+) Amplitude histogram of traces from I3C/I96C patches under reducing (DTT red line) or oxidizing (peroxide blue line) conditions. Note that in the presence of peroxide a sub-conductive state is stabilized.
+Finally, to better understand the interactions occurring between S1 and TM2ci domains, an additional number of double mutants were analyzed by patch clamp and the results are shown in
+Figure 5
+. Mutants I3C/K97C, I3C/N100C and E6C/K101C showed, like I3C/I96C, stabilization in a sub-conductive state upon oxidation, but did not lock closed. The mutants M12C/R104C, M12C/N100C, E9C/K101C and E6C/I96C, similar to M12C/N103C, locked closed under oxidation; however, more substates were observed for mutants in the middle of the two regions and sensitivity to oxidation varied among mutants.
+Open in a new tab
+Figure 5.
+Correlation between multimer peaks and channel activity of MscL double mutants under different redox potentials. In a simplified version of the 3D graph shown in
+Figure 2
+, the multimer peaks for seven additional mutants are highlighted with red (mutants that lock close upon oxidation) or green (do not lock close upon oxidation). The inserts show the corresponding position in
+M. tuberculosis
+model of the substituted residues in
+E. coli
+MscL. Just two subunits are shown for clarity; residues in green are in S1 and those in red in TM2
+ci
+. For each mutant the traces show single channel activity under reducing (black) or oxidizing (blue) conditions. The number under each trace is the negative pressure applied to the patch. Scale bars on the right bottom apply to all traces.
+Discussion
+MscL has been shown in previous studies to be, in general, quite tolerant of cysteine mutations.
+9
+Perhaps partially because of this finding, cysteine trapping experiments have been utilized to address proximity of regions of the protein that are thought to interact. However, in some instances, researchers have been misled by utilizing targeted mutagenesis and disulfide trapping experiments, proposing models later shown to be false. For example, S1 was thought at one time to form a helical bundle that served as a second gate.
+18
+,
+19
+The major form of evidence for this model was targeted disulfide trapping. However, when
+the entire region
+was scanned and disulfide trapping assessed and compared,
+15
+the results were consistent with the newly re-evaluated structure
+7
+: S1 was an amphipathic helix running along the cytoplasmic membrane. There was no evidence that a S1 “second gate” was ever formed during the gating process. We have designed the experiments used in this study to avoid some of the many potential pitfalls of the disulfide trapping approach. First, we have not used a targeted approach. Instead, we have generated and screened 143 double cysteine mutants, which act as controls for each other;
+relative
+amounts of disulfide bridging can easily be assessed. Second, the amount of oxidant used was carefully titrated to yield the maximum range of disulfide bridging; none of the interactions were forced by high concentrations of oxidant. Indeed, the amounts used in this study are 100 times less than that used to study TM1/TM2 interactions, where the interactions may be more insular and transient upon gating.
+17
+Finally, we use an in vivo approach in which the membrane proteins are not solubilized prior to being resuspended in SDS running buffer; hence disulfide bridges cannot form in mild detergents that would preserve the pentameric complex while possibly allowing more dynamic interactions not reflecting any normal physiological state. We believe that the following of these practices when utilizing a disulfide trapping approach yields a more true and interpretable set of data.
+Our current model for S1 function is that it serves as a stabilizer for the twisting and turning of the pore-forming first transmembrane domain.
+15
+In addition, all current models for the structural changes that occur upon gating include a tilting of both transmembrane domains within the plane of the membrane. In addition to tilting, for TM1 several lines of evidence also suggest a clockwise “corkscrewing” of TM1 of almost 180°, as would be observed from the periplasm; these lines of evidence include EPR experiments,
+20
+disulfide trapping experiments within the pore
+9
+and between TM1 and TM2 upon gating,
+17
+accessibility and gating influences of the sulfhydryl reagent MTSET
++
+on TM cysteine mutants,
+21
+,
+22
+and the engineering of heavy metal binding sites within the pore region.
+8
+The S1 amphipathic helix, with its two conserved phenylalanines, is joined to this dynamic TM1 by a conserved flexible glycine residue at position 14 that has been shown to have functional significance.
+9
+,
+23
+Such a helix running along the membrane is observed in many channels including the other mechanosensitive channel in bacteria, MscS,
+7
+,
+24
+the “slide helix” of KirBac1.1,
+25
+a putative amphipathic “gate anchor” domain studied in TRPY1,
+26
+and several others where they may also serve as stabilizers.
+Although TM2 is not thought to “corkscrew” within the membrane, it is thought to tilt within it upon gating. Indeed, a recent study of the dynamics of the TM2
+ci
+region has shown that channel gating can be influenced by modifications that make this region more hydrophobic.
+27
+One residue, N103, was even shown to transiently insert into the membrane during the gating process in a piston-like manner. Hence, this region shows a dynamics within and along the membrane upon channel opening.
+The proximity of the S1 and TM2
+ci
+regions is obvious in the closed
+M. tuberculosis
+MscL structure. An analysis of the equivalent residues to
+E. coli
+M12 and N103 is entirely consistent with our results that these residues, when mutated to cysteines, readily disulfide bridge and form a channel resistant to opening. On the other hand, several residue combinations, including the distal I3C and I96C, are not predicted to be close in the
+M. tuberculosis
+structure, do not lock the channel in the closed state when oxidized, but do stabilize substates. These data are consistent with the models for the dynamics of the S1 and TM2
+ci
+outlined above: upon gating the S1 helix slides along the cytoplasmic membrane, where it can interact with residues further up in the membrane portion of TM2 because of the tilting of this latter domain. Thus, overall the double cysteine mutants that bridge at high efficiency fall in two main categories: those that are predicted to be in close proximity from the closed structure and do lock the channel closed under oxidizing conditions, and those interactions consistent with the predicted sliding and tilting of these regions upon gating that show stabilized subconducting states when oxidized.
+Collectively, the data from this study, as well as many others, have led to a cohesive model of how MscL senses and responds to mechanical forces. We know, for instance, that MscL senses the tension in the membrane
+3
+; more specifically, changes within the lateral pressure profile.
+28
+The observation that many other mechanosensors also have lower thresholds or are activated by amphipaths suggests this is a common stimulus for MS channels.
+29
+Furthermore, the observation that the channel can function in a bilayer composed of phosphatidylcholine, which contains a zwitter-ionic headgroup not synthesized by
+E. coli
+, demonstrates that neither interactions with negatively charged lipids nor native lipid headgroups are required for normal MS channel activity.
+3
+Both transmembrane domains tilt within the membrane, and TM1 rotates in a corkscrew fashion clockwise, as observed from the periplasm.
+1
+Finally, this study has helped to define the interactions between the S1 and the TM2
+ci
+domains; the findings are consistent with the model of S1 maintaining its association with the cytoplasmic side of the membrane and thus serving as a stabilizer for the pore-forming TM1, and the dynamics of the TM2
+ci
+subdomain and the predicted tilting of TM2 within the membrane.
+Materials and Methods
+Strains and cell growth
+E. coli
+strain PB104 (
+ΔmscL::Cm
+)
+30
+was used as host for the pB10 expression constructs.
+14
+,
+30
+-
+32
+PB104 was used for the in vivo cysteine trapping experiments and for the generation of spheroplasts for electrophysiological analysis. Cultures were routinely grown in Lennox Broth (LB) media (Fisher Scientific) plus ampicillin (100 mg/ml) in a shaker-incubator at 37°C and rotated at 250 cpm. Expression was induced by addition of 1 mM isopropyl-b-D-thiogalactopyranoside (IPTG) (Anatrace).
+Generations of mutants
+Single mutants were generated using the mega primer technique as described.
+9
+The double mutants were generated by digesting with restriction enzymes NsiI and BamHI, which separate the DNA encoding TM1 from that encoding TM2. The two fragments encoding the cysteine mutations were then ligated to generate the insert encoding the double cysteine mutants.
+In Vivo Disulfide Trapping
+Overnight cultures were diluted 1:100 and grown 1 h at 37°C in LB + ampicillin (approximately 410mOsmolar). LB with 1 M NaCl was then added for a final concentration of 0.5 M. Cultures were then induced with 1 mM IPTG for 1 h when an OD 600 of 0.2 was reached. Cultures were either Mock shocked (0.5 M NaCl LB) or shocked (water with 1.5 µM copper-phenanthroline) at a 1:20 dilution for 15 min at 37°C. Samples were pelleted at 4,000 g for 20 min and immediately resuspended in non-reducing sample buffer, adjusted for final OD, and run on a Criterion 4–20% gel (Bio-Rad) for western blot analysis.
+17
+Note that in less than 5 min the samples are collected and loaded on the gel. Gels were run at 200 V for 55 min. and transferred to PVDF Immobilon-P (Millipore) in Tris-Glycine, 15% methanol and 0.01% SDS for 70 min. at 110V. After blocking, the primary antibody, anti- MscL was diluted to 1:15,000 and incubated overnight at 4°C. After washing, the secondary antibody, goat anti rabbit HRP (Bio-Rad), was diluted to 1:100,000 and incubated at room temperature for 1 h. The blot was then washed and developed with Millipore HRP substrate for 5 min and exposed to film.
+Disulfide trapping quantification
+The density of the bands was measured with Scion Image software (Scion Corporation). The bands in each lane were measured as two sets, monomer and dimer, and trimers to pentamers (multimers). The values are expressed as the percentage of total protein existing as multimers.
+Electrophysiology
+E. coli
+giant spheroplasts were generated and used in patch-clamp experiments as described previously.
+33
+Excised, inside-out patches were examined at room temperature under symmetrical conditions using a buffer containing 200mM KCl, 90mM MgCl2, 10mM CaCl2, and 5mM HEPES pH 6 (Sigma, St. Louis, MO). To study redox effects in channel activity H
+2
+O
+2
+1–3% v/v or dithiothreitol (DTT) 1–10 mM (Sigma) were added to the bath. A previous study has demonstrated that this treatment has no detrimental effect on channel function.
+34
+Recordings were performed at -20 mV (positive pipette). Data were acquired at a sampling rate of 20 kHz with a 5-kHz filter using an AxoPatch 200B amplifier in conjunction with Axoscope software (Axon Instruments). A piezoelectric pressure transducer (World Precision Instruments) was used to monitor the pressure throughout the experiments. Data were analyzed using Clampfit9 from pClamp9 software (Axon Instruments).
+Acknowledgments
+The authors graciously acknowledge their financial support. PB is supported by Grant I-1420 of the Welch Foundation, Grant NNH08ZTT003N NRA from NASA, Grant RP100146 from the Cancer Prevention and Research Institute of Texas (CPRIT), and Grants AI080807 and GM61028 (and the latters’ administrative supplement) from the National Institutes of Health. II is supported by Grant 12SDG8740012 from the National American Heart Association.
+Disclosure of Potential Conflicts of Interest
+No potential conflicts of interest were disclosed.
+Footnotes
+Previously published online:
+www.landesbioscience.com/journals/channels/article/20756
+References
+1.
+Blount P, Iscla I, Moe PC, Li Y. MscL: The Bacterial Mechanosensitive Channel of Large Conductance. In: Hamill O, ed. Current Topics in Membranes: Academic Press, 2007:201-33.
+[
+Google Scholar
+]
+2.
+Levina N, Tötemeyer S, Stokes NR, Louis P, Jones MA, Booth IR. Protection of Escherichia coli cells against extreme turgor by activation of MscS and MscL mechanosensitive channels: identification of genes required for MscS activity. EMBO J. 1999;18:1730–7. doi: 10.1093/emboj/18.7.1730.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Moe P, Blount P. Assessment of potential stimuli for mechano-dependent gating of MscL: effects of pressure, tension, and lipid headgroups. Biochemistry. 2005;44:12239–44. doi: 10.1021/bi0509649.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Cruickshank CC, Minchin RF, Le Dain AC, Martinac B. Estimation of the pore size of the large-conductance mechanosensitive ion channel of Escherichia coli. Biophys J. 1997;73:1925–31. doi: 10.1016/S0006-3495(97)78223-7.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Sukharev SI, Blount P, Martinac B, Kung C. Mechanosensitive channels of Escherichia coli: the MscL gene, protein, and activities. Annu Rev Physiol. 1997;59:633–57. doi: 10.1146/annurev.physiol.59.1.633.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Chang G, Spencer RH, Lee AT, Barclay MT, Rees DC. Structure of the MscL homolog from Mycobacterium tuberculosis: a gated mechanosensitive ion channel. Science. 1998;282:2220–6. doi: 10.1126/science.282.5397.2220.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Steinbacher S, Bass R, Strop P, Rees DC. Structures of the Prokaryotic Mechanosensitive Channels MscL and MscS. In: Hamill O, ed. Current Topics in Membranes: Academic Press, 2007:1-24.
+[
+Google Scholar
+]
+8.
+Iscla I, Levin G, Wray R, Reynolds R, Blount P. Defining the physical gate of a mechanosensitive channel, MscL, by engineering metal-binding sites. Biophys J. 2004;87:3172–80. doi: 10.1529/biophysj.104.049833.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Levin G, Blount P. Cysteine scanning of MscL transmembrane domains reveals residues critical for mechanosensitive channel gating. Biophys J. 2004;86:2862–70. doi: 10.1016/S0006-3495(04)74338-6.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Liu Z, Gandhi CS, Rees DC. Structure of a tetrameric MscL in an expanded intermediate state. Nature. 2009;461:120–4. doi: 10.1038/nature08277.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Dorwart MR, Wray R, Brautigam CA, Jiang Y, Blount PS. S. aureus MscL is a pentamer in vivo but of variable stoichiometries in vitro: implications for detergent-solubilized membrane proteins. PLoS Biol. 2010;8:e1000555. doi: 10.1371/journal.pbio.1000555.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Iscla I, Wray R, Blount P. The oligomeric state of the truncated mechanosensitive channel of large conductance shows no variance in vivo. Protein Sci. 2011;20:1638–42. doi: 10.1002/pro.686.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Häse CC, Le Dain AC, Martinac B. Molecular dissection of the large mechanosensitive ion channel (MscL) of E. coli: mutants with altered channel gating and pressure sensitivity. J Membr Biol. 1997;157:17–25. doi: 10.1007/s002329900212.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+Blount P, Sukharev SI, Schroeder MJ, Nagle SK, Kung C. Single residue substitutions that change the gating properties of a mechanosensitive channel in Escherichia coli. Proc Natl Acad Sci U S A. 1996;93:11652–7. doi: 10.1073/pnas.93.21.11652.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Iscla I, Wray R, Blount P. On the structure of the N-terminal domain of the MscL channel: helical bundle or membrane interface. Biophys J. 2008;95:2283–91. doi: 10.1529/biophysj.107.127423.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Corry B, Hurst AC, Pal P, Nomura T, Rigby P, Martinac B. An improved open-channel structure of MscL determined from FRET confocal microscopy and simulation. J Gen Physiol. 2010;136:483–94. doi: 10.1085/jgp.200910376.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Li Y, Wray R, Eaton C, Blount P. An open-pore structure of the mechanosensitive channel MscL derived by determining transmembrane domain interactions upon gating. FASEB J. 2009;23:2197–204. doi: 10.1096/fj.09-129296.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Sukharev S, Betanzos M, Chiang CS, Guy HR. The gating mechanism of the large mechanosensitive channel MscL. Nature. 2001;409:720–4. doi: 10.1038/35055559.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Sukharev S, Durell SR, Guy HR. Structural models of the MscL gating mechanism. Biophys J. 2001;81:917–36. doi: 10.1016/S0006-3495(01)75751-7.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Perozo E, Cortes DM, Sompornpisut P, Kloda A, Martinac B. Open channel structure of MscL and the gating mechanism of mechanosensitive channels. Nature. 2002;418:942–8. doi: 10.1038/nature00992.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Bartlett JL, Levin G, Blount P. An in vivo assay identifies changes in residue accessibility on mechanosensitive channel gating. Proc Natl Acad Sci U S A. 2004;101:10161–5. doi: 10.1073/pnas.0402040101.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Bartlett JL, Li Y, Blount P. Mechanosensitive channel gating transitions resolved by functional changes upon pore modification. Biophys J. 2006;91:3684–91. doi: 10.1529/biophysj.106.088062.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Gu L, Liu W, Martinac B. Electromechanical coupling model of gating the large mechanosensitive ion channel (MscL) of Escherichia coli by mechanical force. Biophys J. 1998;74:2889–902. doi: 10.1016/S0006-3495(98)77995-0.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Bass RB, Strop P, Barclay M, Rees DC. Crystal structure of Escherichia coli MscS, a voltage-modulated and mechanosensitive channel. Science. 2002;298:1582–7. doi: 10.1126/science.1077945.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+25.
+Enkvetchakul D, Jeliazkova I, Bhattacharyya J, Nichols CG. Control of inward rectifier K channel activity by lipid tethering of cytoplasmic domains. J Gen Physiol. 2007;130:329–34. doi: 10.1085/jgp.200709764.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+26.
+Zhou X, Su Z, Anishkin A, Haynes WJ, Friske EM, Loukin SH, et al.  Yeast screens show aromatic residues at the end of the sixth helix anchor transient receptor potential channel gate. Proc Natl Acad Sci U S A. 2007;104:15555–9. doi: 10.1073/pnas.0704039104.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Iscla I, Wray R, Blount P. An in vivo screen reveals protein-lipid interactions crucial for gating a mechanosensitive channel. FASEB J. 2011;25:694–702. doi: 10.1096/fj.10-170878.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Perozo E, Kloda A, Cortes DM, Martinac B. Physical principles underlying the transduction of bilayer deformation forces during mechanosensitive channel gating. Nat Struct Biol. 2002;9:696–703. doi: 10.1038/nsb827.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Blount P, Li Y, Moe PC, Iscla I. Mechanosensitive channels gated by membrane tension: Bacteria and beyond. In: Kamkin A, Kiseleva I, eds. Mechanosensitive ion channels (a volume in the Mechanosensitivity in Cells and Tissues, Moscow Academia series). New York: Springer Press, 2008:71-101.
+[
+Google Scholar
+]
+30.
+Blount P, Sukharev SI, Moe PC, Schroeder MJ, Guy HR, Kung C. Membrane topology and multimeric structure of a mechanosensitive channel protein of Escherichia coli. EMBO J. 1996;15:4798–805.
+[
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+31.
+Ou X, Blount P, Hoffman RJ, Kung C. One face of a transmembrane helix is crucial in mechanosensitive channel gating. Proc Natl Acad Sci U S A. 1998;95:11471–5. doi: 10.1073/pnas.95.19.11471.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+32.
+Moe PC, Levin G, Blount P. Correlating a protein structure with function of a bacterial mechanosensitive channel. J Biol Chem. 2000;275:31121–7. doi: 10.1074/jbc.M002971200.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Blount P, Moe PC. Bacterial mechanosensitive channels: integrating physiology, structure and function. Trends Microbiol. 1999;7:420–4. doi: 10.1016/S0966-842X(99)01594-2.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Iscla I, Levin G, Wray R, Blount P. Disulfide trapping the mechanosensitive channel MscL into a gating-transition state. Biophys J. 2007;92:1224–32. doi: 10.1529/biophysj.106.090316.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Articles from Channels are provided here courtesy of
+Taylor & Francis

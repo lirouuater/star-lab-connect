@@ -1,0 +1,788 @@
+PLoS One
+. 2021 Oct 12;16(10):e0250715. doi:
+10.1371/journal.pone.0250715
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+RNAseq and RNA molecular barcoding reveal differential gene expression in cortical bone following hindlimb unloading in female mice
+Jordan M Spatz
+Jordan M Spatz
+1
+Center for Advanced Orthopedic Studies, Beth Israel Deaconess Medical Center, Boston, Massachusetts, United States of America
+2
+University of California San Francisco School of Medicine, San Francisco, California, United States of America
+3
+Harvard Medical School, Boston, Massachusetts, United States of America
+Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Writing – review & editing
+Find articles by
+Jordan M Spatz
+1,
+2,
+3,
+#
+,
+Frank C Ko
+Frank C Ko
+1
+Center for Advanced Orthopedic Studies, Beth Israel Deaconess Medical Center, Boston, Massachusetts, United States of America
+3
+Harvard Medical School, Boston, Massachusetts, United States of America
+Data curation, Formal analysis, Investigation, Methodology, Visualization, Writing – original draft, Writing – review & editing
+Find articles by
+Frank C Ko
+1,
+3,
+#
+,
+Ugur M Ayturk
+Ugur M Ayturk
+3
+Harvard Medical School, Boston, Massachusetts, United States of America
+4
+Boston Children’s Hospital, Boston, Massachusetts, United States of America
+Data curation, Formal analysis, Investigation, Methodology, Writing – review & editing
+Find articles by
+Ugur M Ayturk
+3,
+4
+,
+Matthew L Warman
+Matthew L Warman
+3
+Harvard Medical School, Boston, Massachusetts, United States of America
+4
+Boston Children’s Hospital, Boston, Massachusetts, United States of America
+Formal analysis, Funding acquisition, Methodology, Supervision, Writing – review & editing
+Find articles by
+Matthew L Warman
+3,
+4
+,
+Mary L Bouxsein
+Mary L Bouxsein
+1
+Center for Advanced Orthopedic Studies, Beth Israel Deaconess Medical Center, Boston, Massachusetts, United States of America
+3
+Harvard Medical School, Boston, Massachusetts, United States of America
+Conceptualization, Funding acquisition, Investigation, Methodology, Supervision, Writing – original draft, Writing – review & editing
+Find articles by
+Mary L Bouxsein
+1,
+3,
+*
+Editor:
+Jung-Eun Kim
+5
+Author information
+Article notes
+Copyright and License information
+1
+Center for Advanced Orthopedic Studies, Beth Israel Deaconess Medical Center, Boston, Massachusetts, United States of America
+2
+University of California San Francisco School of Medicine, San Francisco, California, United States of America
+3
+Harvard Medical School, Boston, Massachusetts, United States of America
+4
+Boston Children’s Hospital, Boston, Massachusetts, United States of America
+5
+Kyungpook National University School of Medicine, REPUBLIC OF KOREA
+Competing Interests:
+No authors have competing interests.
+✉
+* E-mail:
+mbouxsei@bidmc.harvard.edu
+#
+Contributed equally.
+Roles
+Jordan M Spatz
+:
+Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Writing – review & editing
+Frank C Ko
+:
+Data curation, Formal analysis, Investigation, Methodology, Visualization, Writing – original draft, Writing – review & editing
+Ugur M Ayturk
+:
+Data curation, Formal analysis, Investigation, Methodology, Writing – review & editing
+Matthew L Warman
+:
+Formal analysis, Funding acquisition, Methodology, Supervision, Writing – review & editing
+Mary L Bouxsein
+:
+Conceptualization, Funding acquisition, Investigation, Methodology, Supervision, Writing – original draft, Writing – review & editing
+Jung-Eun Kim
+:
+Editor
+Received 2021 Jan 6; Accepted 2021 Apr 12; Collection date 2021.
+© 2021 Spatz et al
+This is an open access article distributed under the terms of the
+Creative Commons Attribution License
+, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+PMC Copyright notice
+PMCID: PMC8509868  PMID:
+34637435
+Abstract
+Disuse-induced bone loss is seen following spinal cord injury, prolonged bed rest, and exposure to microgravity. We performed whole transcriptomic profiling of cortical bone using RNA sequencing (RNAseq) and RNA molecular barcoding (NanoString) on a hindlimb unloading (HLU) mouse model to identify genes whose mRNA transcript abundances change in response to disuse. Eleven-week old female C57BL/6 mice were exposed to ambulatory loading or HLU for 7 days (n = 8/group). Total RNA from marrow-flushed femoral cortical bone was analyzed on HiSeq and NanoString platforms. The expression of several previously reported genes associated with Wnt signaling and metabolism was altered by HLU. Furthermore, the increased abundance of transcripts, such as Pfkfb3 and Mss51, after HLU imply these genes also have roles in the cortical bone’s response to altered mechanical loading. Our study demonstrates that an unbiased approach to assess the whole transcriptomic profile of cortical bone can reveal previously unidentified mechanosensitive genes and may eventually lead to novel targets to prevent disuse-induced osteoporosis.
+Introduction
+Mechanical loading plays an important role during musculoskeletal development and maintenance. Reduced mechanical loading from extended immobilization, spinal cord injury, or spaceflight leads to decreased bone mass and mineral density in humans, which increases susceptibility to skeletal fractures. Biological mechanisms underlying skeletal deterioration due to reduced mechanical loading have been studied using hindlimb unloading rodent models, which demonstrated altered Wnt or IGF signaling or Rank/Rankl/Opg pathway [
+1
+–
+5
+]. These studies led to several clinical studies that explored the usage of existing or newly developed pharmacological therapies to counter immobilization or spaceflight induced bone loss [
+6
+,
+7
+].
+While prior studies in rodent models demonstrated signaling pathways that contribute to skeletal loss from reduced mechanical loading, limited candidate gene approached precluded exploration of other novel pathways that may also play an important role. Recent advances in whole transcriptome RNA deep sequencing (RNAseq) allow comprehensive, quantitative, and unbiased view of the complete RNA transcriptome. This high-throughput approach can allow identification novel pathways that are altered in response to reduced mechanical loading in rodent models. Prior studies in transgenic mice or mice that underwent increased mechanical loading successfully demonstrated alterations in novel pathways in osteocytes using RNAseq [
+8
+,
+9
+]. However, no studies to date examined whole transcriptome profile of osteocytes from mice that underwent reduced mechanical loading.
+Thus, we examined the complete RNA transcriptome in cortical bone from mice that underwent hindlimb unloading for 7 days, with the goal of identifying novel mechanosensitive pathways that respond to mechanical unloading. We validated our RNAseq results by a highly sensitive RNA molecular barcoding technologies (NanoString) examining 60 panel genes.
+Material and methods
+Hindlimb unloading
+Eleven-week old, female C57Bl/6J mice were randomly assigned to hindlimb unloading (HLU) or normal weightbearing (Cont) (n = 8/group). The HLU group underwent hindlimb unloading for 7 days according to the previously published studies [
+10
+–
+15
+]. In brief, under isoflurane anesthesia, the mouse tail was taped to a freely rotating harness connected to a wheel that moved along the central axis of the custom-made cage. The harness was adjusted such that the mouse could not touch its hind limbs to the floor or the walls of the cage. Mice were maintained on a 12/12 hour light/dark cycle, had ad libitum access to standard laboratory rodent chow and water, and were sacrificed by CO
+2
+inhalation at the end of the experiment. All animal procedures were approved by and performed in accordance with the guidelines of the Beth Israel Deaconess Medical Center Institutional Animal Care and Use Committee.
+RNAseq
+After cutting the ends of bones and flushing marrow with 10 ml phosphate-buffered saline, the cortical bone was placed in an Eppendorf tube and immediately snap-frozen in liquid nitrogen. Subsequently, Trizol was added while the bone is maintained frozen in an eppendorf tube placed in a liquid nitrogen bath, homogenized in the same eppendorf tube with the Fastprep24 machine (MP Biomdicals), and subsequently total RNA was isolated and purified using manufacture recommendations for the PureLink RNA kit (Life Technologies). Using this isolation technique, we routinely obtain 3–6 ug per sample total RNA that has high quality RNA integrity numbers (RIN, Aigilent Technologies) > 7.5 [
+9
+]. RNA sequencing libraries were prepared using TruSeq RNA Sample Preparation Kit (v2, Illumina, San Diego, CA) per manufacturer recommendations using 500 ng/sample total RNA [
+8
+]. Samples were multiplexed (n = 8 per lane) for sequencing on a HiSeq (Illumina) platform and reads were aligned to reference genome (Tophat2). Differential gene expression was analyzed by DESeq2 and relevant biological processes associated with differentially expressed genes were analyzed by Gene Set Enrichment Analysis according to studies by Subramanian et al. [
+8
+,
+16
+–
+18
+].
+Nanostring
+To validate our set of differentially regulated genes identified by RNASeq. and to perform targeted gene discovery in our unloading model using the limiting amount of total RNA (3–6 ug/sample) we isolated from murine femurs, we used a NanoString nCounter codeset of sixty differentially expressed genes (
+Table 1
+) with 6 housekeeping genes (Actb, Abcf1, B2m, Gapdh, Pol42A, Sirt4). In brief, the nCounter gene codeset contains a matched pair 3′ biotinylated capture probe and a 5′reporter probe tagged with a fluorescent barcode, for each of 236 transcripts. Probes are hybridized to 100 ng of total RNA for 19 h at 65°C, after which excess capture and reporter probes are removed and transcript-specific ternary complexes are immobilized on a streptavidin-coated cartridge. Subsequently, all solution manipulations are carried out using the NanoString preparation station robotic fluids handling platform. Data collection is carried out with the nCounter Digital Analyzer to count individual fluorescent barcodes and quantify target RNA molecules present in each sample. Normalization was carried based on a standard curve constructed using spike in exogenous control constructs and the 6 housekeeping genes included in the codeset [
+19
+].
+Table 1. Differentially expressed genes in the control and hindlimb unloaded (HLU) mouse cortical bone assessed by NanoString.
+Molecular Pathways
+Selected Genes
+Differentially Expressed Genes
+HLU vs. Control (Fold Change)
+p-value
+Mesenchymal stem cell (MSC) fate determination and differentiation
+Abi3bp, Fabp4, Apod
+Osteoblast function and differentiation
+Aspn, Alpl, Bmpr1a, Dkk1, Fzd4, Tgfb1-3, Runx2, Tob1, Opg, Spp1, Sp7, Sparc, Bglap, Myoc, Col1a1, Col1a2, Col3a1, Den, Serpinfl, Sfrp2, Sfrp4, Wnt16, Wnt9a, Wnt5a, Wnt4, Wisp2, Zfyve9, Snca, Bmp4
+Fzd4
+Sfrp2
+Sfrp4
+Spp1
+Bmp4
+1.6
+1.7
+1.7
+1.5
+1.4
+0.03
+0.05
+0.009
+0.02
+0.02
+Osteocyte function and differentiation
+Sost, Mef2C, Mepe, Postn, Phex, Npy
+Npy
+1.2
+0.04
+Osteoclast function and differentiation
+Ctsk, Tnfsfl1(Rankl), Trap (Acp5)
+Extracellular matrix proteases
+Mmp2, Mmp3, Mmp10, Mmp13, Mmp14, Mmp15
+Mmp3
+Mmp13
+1.8
+1.6
+0.007
+0.01
+Protease inhibitors
+Timp1, Timp2
+Timp1
+1.5
+0.02
+Cell cycle control, mitochondria, energy balance
+Mss51, Scd1, Pfkfb3
+Scd1
+Pfkfb3
+2.0
+1.8
+0.01
+0.004
+Housekeeping genes
+Actb, Abcf1, B2m, Gapdh, Pol42A, Sirt4
+Open in a new tab
+Results
+Hindlimb unloading did not alter the quality of RNAseq data. For both groups, individual specimens yielded ~22 million reads with high unique mapping rates (79% for controls and 81% for HLU). RNAseq analysis of cortical bone mRNA from control and HLU mice, without correcting for multiple hypothesis testing, identified 723 genes whose transcript abundances increased ≥ 1.2-fold and 610 genes whose transcript abundances decreased ≥ 1.2-fold. After considering genes whose transcript abundances changed by 1.2-fold and correcting for multiple hypothesis testing (p < 0.1), 8 genes demonstrated increased transcript abundance and 5 genes demonstrated decreased transcript abundance following HLU. Gene set enrichment analysis using these 13 differentially expressed genes pointed to several metabolic processes, monosaccharide metabolism (Pfkfb3, Igfbp5, p < 0.01), peptidase inhibition (Stfa1, Stfa2, p < 0.01), and cellular protein metabolism (Stfa2, Stfa1, Igfbp5, p < 0.01). Wnt signaling was also implicated (
+Fig 1
+).
+Fig 1. Selected KEGG pathway and gene ontology of biological process altered in cortical bone from hindlimb unloaded mice and the effects of HLU on Wnt signaling and Pfkfb3.
+Open in a new tab
+Transcript abundances measured by RNAseq and Nanostring were similar in control mice (Pearson’s R = 0.90, p < 0.0001,
+Fig 2A
+). Changes in transcript abundance between control and HLU mice also correlated significantly between the RNAseq and Nanostring datasets (Pearson’s R = 0.76, p < 0.0001,
+Fig 2B
+). Importantly, Nanostring confirmed alterations seen with RNAseq in transcripts associated with Wnt signaling and cell metabolism (
+Table 1
+,
+Fig 3
+). Scd1 (2-fold, p = 0.01), Pfkfb3 (1.8-fold, p = 0.003), and Fzd4 (1.6-fold, p = 0.03) were all upregulated in cortical bone isolated from hindlimb unloaded mouse. In addition to these genes, we identified Mmp3 (1.8-fold, p = 0.007), Sfrp2 (1.7-fold, p = 0.05), Sfrp4 (1.7-fold, p = 0.009), Mmp13 (1.6-fold, p = 0.01), Bmp4 (1.4-fold, p = 0.02), Timp1 (1.5-fold, p = 0.02), Npy (1.2-fold, p = 0.04), and Spp1 (1.5-fold, p = 0.02) genes to be upregulated in the hindlimb unloaded mouse cortical bone. No downregulated genes were detected.
+Fig 2. Correlation between Nanostring and RNAseq transcript abundance in controls (A) and changes in abundance between control and HLU mice (B) with 95% confidence bands of the best-fit line.
+Open in a new tab
+Fig 3. Cell metabolism and Wnt signaling associated transcripts whose abundance changed between control and HLU mice, as assessed by RNAseq and Nanostring analysis.
+Open in a new tab
+Discussion
+Our RNAseq dataset provides an unbiased approach for identifying genes whose transcripts change in response to mechanical unloading of cortical bone. We identified novel genes (e.g., Mss51, Pfkfb3) related to cell cycle, mitochondria, and cellular energy balance that were differentially regulated by HLU.
+While mitochondria are typically reduced in size as osteoblasts transition to osteocytes, histopathological studies demonstrate enlarged mitochondria in osteocytes from rats immobilized for ten days [
+20
+]. Further, in mice with impaired osteocyte autophagy, enlarged mitochondria are observed as well, and associated with decreased trabecular and cortical bone [
+21
+]. Imbalance in osteocyte mitochondrial redox can disrupt the canalicular network and lead to bone loss [
+22
+]. Further studies are needed to determine whether the genes we identified may sense altered mechanical loading through a similar mechanism that regulates cellular energy balance in bone.
+Prior studies have also demonstrated that microgravity causes alterations to glycolysis pathways in a variety of cells, including osteoblasts [
+23
+,
+24
+]. Importantly, our data show that Pfkfb3, which controls the concentration of fructose 2,6-bisphosphate, a potent allosteric activator of PFK1, is significantly upregulated after HLU. Recent evidence supports the concept that Pfkfb3 provides a signaling mechanism for Wnt3A, altering osteoblast differentiation [
+25
+]. Pfkfb3 was also identified de-novo in a gene enrichment analysis of circulating monocytes in patients with osteoporosis, further suggesting a possible role in modulating the bone microenvironment in the setting of low bone density [
+26
+]. Our study adds to the evidence that Pfkfb3 may influence bone metabolism in the context of microgravity, disuse-induced bone loss and osteoporosis.
+Mss51 has not been demonstrated to be involved during skeletal development or homeostasis, but recently published study suggests that Mss51 may be involved in bone adaptation following mechanical loading [
+27
+]. The alteration in Mss51 appears to be mediated by focal adhesion kinase, which has been shown to be responsive to mechanical loading via fluid flow shear stress in osteoblasts [
+28
+,
+29
+]. Mechanical loading likely alters cell-matrix environment, thereby allowing integrins to initiate intracellular signaling to promote bone adaptation. Hindlimb unloading in rats also decreases focal adhesions in mesenchymal stromal cells [
+30
+], which will have resulted in increased Mss51 [
+27
+]. These studies demonstrate that while Mss51 is conventionally known to be involved during cell metabolism and energy balance, the gene may also be responsive to mechanical loading/unloading via changes in cell-matrix environment.
+Prior studies of hindlimb unloading in rodents have reported that several signaling pathways such as Wnt and Rankl/Opg are altered in osteoblasts and osteocytes following mechanical unloading [
+31
+–
+34
+]. While our study demonstrated that Wnt signaling is implicated to be involved, we did not find that sclerostin or Rankl/Opg to be altered following hindlimb unloading. There are several possible factors that may have contributed to differences in study findings. First, it is possible that methodological differences (RNAseq vs. RT-qPCR) used to assess transcript levels contributed to different outcomes. Second, while we carefully removed bone marrow, surrounding soft tissues, and both ends of bone, the cortical bone lining cells may have contributed to heterogeneity of cell population, leading to blunted effects on several signaling pathways known to be altered by hindlimb unloading in osteocytes or osteoblasts. In addition, whereas we examined day 7 of unloading, earlier time points may be needed to observe robust differences in gene expression due to unloading. Prior studies have demonstrated that bones from 6 to 9 months old rats are more responsive to hindlimb unloading than 28 to 32 months old rats, likely due to increased Bmp2 and Igf1 in younger animals [
+35
+,
+36
+]. Finally, hindlimb unloading has been shown to affect other physiologic systems in female 11-week-old mice, such as loss of muscle and increased corticosterone metabolites [
+37
+], which has been shown to inhibit bone formation [
+38
+]. Altogether, a variety of factors can contribute to inconsistencies in gene expression across studies. Additional suitably powered and well-controlled studies are needed to resolve reported discrepancies among studies.
+We used only female mice, thus precluding analysis of possible sexual dimorphism in mechanosensitive genes. We selected the 7-day timepoint based on our prior studies, but recognize the limitation of this approach which precludes determining the time-course of gene-expression changes. This early timepoint may have led to minimal changes in osteogenic genes in our studies. However, our ability to identify novel genes that may initiate osteogenic responses later, not previously associated with disuse-induced bone loss provides rationale for future studies with multiple timepoints to expand upon the current findings. While there was excellent correlation between the measurements performed with two methods (
+Fig 2
+), Nanostring detected more differentially expressed genes than RNAseq (
+Fig 3
+). Therefore, although Nanostring can sample a limited, pre-determined portion of cortical bone transcriptome, it can serve as a powerful approach towards identifying mild changes (<2-fold) in transcript abundance.
+Our gene expression approach comparing cortical bone gene expression in HLU and normally loaded mice successfully revealed previously known and unknown genes. Future mechanistic studies examining the functional role of metabolic genes revealed from our study may identify novel mechanosensitive pathways responsible for microgravity- and disuse-induced bone loss. Elucidating these pathways may lead to therapeutic interventions to treat bone loss and prevent fracture risk associated with microgravity, spinal cord injury, or extended bed rest.
+Supporting information
+S1 File. Nanostring supple.
+(XLSX)
+Click here for additional data file.
+(21.1KB, xlsx)
+S2 File. RNAseq supple.
+(CSV)
+Click here for additional data file.
+(7.1MB, csv)
+Data Availability
+The data underlying the results are provided as
+Supporting information
+files, and the transcriptomic profile data has been deposited to Gene Expression Omnibus database (accession number GSE169292).
+Funding Statement
+This work supported by funding from National Aeronautics and Space Administration (NNX10AE39G) and from the National Institutes of Health (R21AR057522 and R01AR053237). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+References
+1.
+Robling A. G., Niziolek P. J., Baldridge L. A., Condon K. W., Allen M. R., Alam I., et al. (2008) Mechanical stimulation of bone in vivo reduces osteocyte expression of Sost/sclerostin.
+J Biol Chem
+283, 5866–5875. doi: 10.1074/jbc.M705092200
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Sakata T., Wang Y., Halloran B. P., Elalieh H. Z., Cao J., and Bikle D. D. (2004) Skeletal unloading induces resistance to insulin-like growth factor-I (IGF-I) by inhibiting activation of the IGF-I signaling pathways.
+J Bone Miner Res
+19, 436–446. doi: 10.1359/JBMR.0301241
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Spatz J. M., Wein M. N., Gooi J. H., Qu Y., Garr J. L., Liu S., et al. (2015) The Wnt Inhibitor Sclerostin Is Up-regulated by Mechanical Unloading in Osteocytes in Vitro.
+J Biol Chem
+290, 16744–16758. doi: 10.1074/jbc.M114.628313
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Cabahug-Zuckerman P., Frikha-Benayed D., Majeska R. J., Tuthill A., Yakar S., Judex S., et al. (2016) Osteocyte Apoptosis Caused by Hindlimb Unloading is Required to Trigger Osteocyte RANKL Production and Subsequent Resorption of Cortical and Trabecular Bone in Mice Femurs.
+J Bone Miner Res
+31, 1356–1365. doi: 10.1002/jbmr.2807
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Ko F. C., Van Vliet M., Ellman R., Grasso D., Brooks D. J., Spatz J. M., et al. (2017) Treatment With a Soluble Bone Morphogenetic Protein Type 1A Receptor (BMPR1A) Fusion Protein Increases Bone Mass and Bone Formation in Mice Subjected to Hindlimb Unloading.
+JBMR Plus
+1, 66–72. doi: 10.1002/jbm4.10012
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Leblanc A., Matsumoto T., Jones J., Shapiro J., Lang T., Shackelford L., et al. (2013) Bisphosphonates as a supplement to exercise to protect bone during long-duration spaceflight.
+Osteoporos Int
+24, 2105–2114. doi: 10.1007/s00198-012-2243-z
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Gifre L., Vidal J., Carrasco J. L., Muxi A., Portell E., Monegal A., et al. (2016) Denosumab increases sublesional bone mass in osteoporotic individuals with recent spinal cord injury.
+Osteoporos Int
+27, 405–410. doi: 10.1007/s00198-015-3333-5
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Ayturk U. M., Jacobsen C. M., Christodoulou D. C., Gorham J., Seidman J. G., Seidman C. E., et al. (2013) An RNA-seq protocol to identify mRNA expression changes in mouse diaphyseal bone: applications in mice with bone property altering Lrp5 mutations.
+J Bone Miner Res
+28, 2081–2093. doi: 10.1002/jbmr.1946
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Kelly N. H., Schimenti J. C., Ross F. P., and van der Meulen M. C. (2016) Transcriptional profiling of cortical versus cancellous bone from mechanically-loaded murine tibiae reveals differential gene expression.
+Bone
+86, 22–29. doi: 10.1016/j.bone.2016.02.007
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Ellman R., Grasso D. J., van Vliet M., Brooks D. J., Spatz J. M., Conlon C., et al. (2014) Combined effects of botulinum toxin injection and hind limb unloading on bone and muscle.
+Calcif Tissue Int
+94, 327–337. doi: 10.1007/s00223-013-9814-7
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Globus R. K., Bikle D. D., and Morey-Holton E. (1986) The temporal response of bone to unloading.
+Endocrinology
+118, 733–742. doi: 10.1210/endo-118-2-733
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Iwaniec U. T., Wronski T. J., Amblard D., Nishimura Y., van der Meulen M. C., Wade C. E., et al. (2005) Effects of disrupted beta1-integrin function on the skeletal response to short-term hindlimb unloading in mice.
+J Appl Physiol
+98, 690–696. doi: 10.1152/japplphysiol.00689.2004
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Kurokouchi K., Ito T., Ohmori S., Kanda K., Murata Y., and Seo H. (1995) Changes in the markers of bone metabolism following skeletal unloading.
+Environmental medicine
+:
+annual report of the Research Institute of Environmental Medicine
+,
+Nagoya University
+39, 21–24.
+[
+PubMed
+] [
+Google Scholar
+]
+14.
+Spatz J. M., Ellman R., Cloutier A. M., Louis L., van Vliet M., Suva L. J., et al. (2013) Sclerostin antibody inhibits skeletal deterioration due to reduced mechanical loading.
+J Bone Miner Res
+28, 865–874. doi: 10.1002/jbmr.1807
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Zhong N., Garman R. A., Squire M. E., Donahue L. R., Rubin C. T., Hadjiargyrou M., and Judex S. (2005) Gene expression patterns in bone after 4 days of hind-limb unloading in two inbred strains of mice.
+Aviation
+,
+Space
+,
+and Environmental Medicine
+76, 530–535.
+[
+PubMed
+] [
+Google Scholar
+]
+16.
+Ogata H., Goto S., Sato K., Fujibuchi W., Bono H., and Kanehisa M. (1999) KEGG: Kyoto Encyclopedia of Genes and Genomes.
+Nucleic Acids Res
+27, 29–34. doi: 10.1093/nar/27.1.29
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Subramanian A., Tamayo P., Mootha V. K., Mukherjee S., Ebert B. L., Gillette M. A., et al. (2005) Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles.
+Proc Natl Acad Sci U S A
+102, 15545–15550. doi: 10.1073/pnas.0506580102
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Subramanian A., Kuehn H., Gould J., Tamayo P., and Mesirov J. P. (2007) GSEA-P: a desktop application for Gene Set Enrichment Analysis.
+Bioinformatics
+23, 3251–3253. doi: 10.1093/bioinformatics/btm369
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Kulkarni M. M. (2011) Digital multiplexed gene expression analysis using the NanoString nCounter system.
+Curr Protoc Mol Biol
+Chapter
+25, Unit25B 10. doi: 10.1002/0471142727.mb25b10s94
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Palumbo C., Palazzini S., Zaffe D., and Marotti G. (1990) Osteocyte differentiation in the tibia of newborn rabbit: an ultrastructural study of the formation of cytoplasmic processes.
+Acta Anat (Basel)
+137, 350–358. doi: 10.1159/000146907
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Piemontese M., Onal M., Xiong J., Han L., Thostenson J. D., Almeida M., et al. (2016) Low bone mass and changes in the osteocyte network in mice lacking autophagy in the osteoblast lineage.
+Sci Rep
+6, 24262. doi: 10.1038/srep24262
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Kobayashi K., Nojiri H., Saita Y., Morikawa D., Ozawa Y., Watanabe K., et al. (2015) Mitochondrial superoxide in osteocytes perturbs canalicular networks in the setting of age-related osteoporosis.
+Sci Rep
+5, 9148. doi: 10.1038/srep09148
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Michaletti A., Gioia M., Tarantino U., and Zolla L. (2017) Effects of microgravity on osteoblast mitochondria: a proteomic and metabolomics profile.
+Sci Rep
+7, 15376. doi: 10.1038/s41598-017-15612-1
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Wang Y., Chen Z. H., Yin C., Ma J. H., Li D. J., Zhao F., et al. (2015) GeneChip expression profiling reveals the alterations of energy metabolism related genes in osteocytes under large gradient high magnetic fields.
+PLoS One
+10, e0116359. doi: 10.1371/journal.pone.0116359
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+25.
+Esen E., Chen J., Karner C. M., Okunade A. L., Patterson B. W., and Long F. (2013) WNT-LRP5 signaling induces Warburg effect through mTORC2 activation during osteoblast differentiation.
+Cell Metab
+17, 745–755. doi: 10.1016/j.cmet.2013.03.017
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+26.
+Xiao H., Shan L., Zhu H., and Xue F. (2012) Detection of significant pathways in osteoporosis based on graph clustering.
+Mol Med Rep
+6, 1325–1332. doi: 10.3892/mmr.2012.1082
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Sato T., Verma S., Andrade C. D. C., Omeara M., Campbell N., Wang J. S., et al. (2020) A FAK/HDAC5 signaling axis controls osteocyte mechanotransduction.
+Nat Commun
+11, 3282
+doi: 10.1038/s41467-020-17099-3
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Castillo A. B., Blundo J. T., Chen J. C., Lee K. L., Yereddi N. R., Jang E., et al. (2012) Focal adhesion kinase plays a role in osteoblast mechanotransduction in vitro but does not affect load-induced bone formation in vivo.
+PLoS One
+7, e43291. doi: 10.1371/journal.pone.0043291
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Santos A., Bakker A. D., Zandieh-Doulabi B., de Blieck-Hogervorst J. M., and Klein-Nulend J. (2010) Early activation of the beta-catenin pathway in osteocytes is mediated by nitric oxide, phosphatidyl inositol-3 kinase/Akt, and focal adhesion kinase.
+Biochem Biophys Res Commun
+391, 364–369. doi: 10.1016/j.bbrc.2009.11.064
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+Qian X., Zhang C., Chen G., Tang Z., Liu Q., Chen J., et al. (2014) Effects of BMP-2 and FGF2 on the osteogenesis of bone marrow-derived mesenchymal stem cells in hindlimb-unloaded rats.
+Cell Biochem Biophys
+70, 1127–1136. doi: 10.1007/s12013-014-0032-3
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+31.
+Moriishi T., Fukuyama R., Ito M., Miyazaki T., Maeno T., Kawai Y., et al. (2012) Osteocyte network; a negative regulatory system for bone mass augmented by the induction of Rankl in osteoblasts and Sost in osteocytes at unloading.
+PLoS One
+7, e40143. doi: 10.1371/journal.pone.0040143
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+32.
+Jing D., Cai J., Wu Y., Shen G., Li F., Xu Q., et al. (2014) Pulsed electromagnetic fields partially preserve bone mass, microarchitecture, and strength by promoting bone formation in hindlimb-suspended rats.
+J Bone Miner Res
+29, 2250–2261. doi: 10.1002/jbmr.2260
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Gerbaix M., Vico L., Ferrari S. L., and Bonnet N. (2015) Periostin expression contributes to cortical bone loss during unloading.
+Bone
+71, 94–100. doi: 10.1016/j.bone.2014.10.011
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Rucci N., Capulli M., Piperni S. G., Cappariello A., Lau P., Frings-Meuthen P., et al. (2015) Lipocalin 2: a new mechanoresponding gene regulating bone homeostasis.
+J Bone Miner Res
+30, 357–368. doi: 10.1002/jbmr.2341
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Cunningham H. C., West D. W. D., Baehr L. M., Tarke F. D., Baar K., Bodine S. C., et al. (2018) Age-dependent bone loss and recovery during hindlimb unloading and subsequent reloading in rats.
+BMC Musculoskelet Disord
+19, 223. doi: 10.1186/s12891-018-2156-x
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+36.
+Perrien D. S., Akel N. S., Dupont-Versteegden E. E., Skinner R. A., Siegel E. R., Suva L. J., et al. (2007) Aging alters the skeletal response to disuse in the rat.
+Am J Physiol Regul Integr Comp Physiol
+292, R988–996. doi: 10.1152/ajpregu.00302.2006
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+37.
+Ellman R., Spatz J., Cloutier A., Palme R., Christiansen B. A., and Bouxsein M. L. (2013) Partial reductions in mechanical loading yield proportional changes in bone density, bone architecture, and muscle mass.
+J Bone Miner Res
+28, 875–885. doi: 10.1002/jbmr.1814
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+38.
+Henneicke H., Herrmann M., Kalak R., Brennan-Speranza T. C., Heinevetter U., Bertollo N., et al. (2011) Corticosterone selectively targets endo-cortical surfaces by an osteoblast-dependent mechanism.
+Bone
+49, 733–742. doi: 10.1016/j.bone.2011.06.013
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+S1 File. Nanostring supple.
+(XLSX)
+Click here for additional data file.
+(21.1KB, xlsx)
+S2 File. RNAseq supple.
+(CSV)
+Click here for additional data file.
+(7.1MB, csv)
+Data Availability Statement
+The data underlying the results are provided as
+Supporting information
+files, and the transcriptomic profile data has been deposited to Gene Expression Omnibus database (accession number GSE169292).
+Articles from PLoS ONE are provided here courtesy of
+PLOS

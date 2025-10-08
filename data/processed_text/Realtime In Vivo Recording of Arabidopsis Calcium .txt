@@ -1,0 +1,1114 @@
+J Vis Exp
+. 2017 Aug 15;(126):56142. doi:
+10.3791/56142
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Real-time
+In Vivo
+Recording of
+Arabidopsis
+Calcium Signals During Insect Feeding Using a Fluorescent Biosensor
+Thomas R Vincent
+Thomas R Vincent
+1
+Department of Metabolic Biology, John Innes Centre, Norwich Research Park
+Find articles by
+Thomas R Vincent
+1
+,
+James Canham
+James Canham
+1
+Department of Metabolic Biology, John Innes Centre, Norwich Research Park
+Find articles by
+James Canham
+1
+,
+Masatsugu Toyota
+Masatsugu Toyota
+2
+Department of Botany, University of Wisconsin, Madison
+3
+Department of Biochemistry and Molecular Biology, Saitama University
+4
+Precursory Research for Embryonic Science and Technology (PRESTO), Japan Science and Technology Agency (JST)
+Find articles by
+Masatsugu Toyota
+2,
+3,
+4
+,
+Marieta Avramova
+Marieta Avramova
+1
+Department of Metabolic Biology, John Innes Centre, Norwich Research Park
+Find articles by
+Marieta Avramova
+1
+,
+Sam T Mugford
+Sam T Mugford
+5
+Department of Cell and Developmental Biology, John Innes Centre, Norwich Research Park
+Find articles by
+Sam T Mugford
+5
+,
+Simon Gilroy
+Simon Gilroy
+2
+Department of Botany, University of Wisconsin, Madison
+Find articles by
+Simon Gilroy
+2
+,
+Anthony J Miller
+Anthony J Miller
+1
+Department of Metabolic Biology, John Innes Centre, Norwich Research Park
+Find articles by
+Anthony J Miller
+1
+,
+Saskia Hogenhout
+Saskia Hogenhout
+5
+Department of Cell and Developmental Biology, John Innes Centre, Norwich Research Park
+Find articles by
+Saskia Hogenhout
+5
+,
+Dale Sanders
+Dale Sanders
+1
+Department of Metabolic Biology, John Innes Centre, Norwich Research Park
+Find articles by
+Dale Sanders
+1
+Author information
+Article notes
+Copyright and License information
+1
+Department of Metabolic Biology, John Innes Centre, Norwich Research Park
+2
+Department of Botany, University of Wisconsin, Madison
+3
+Department of Biochemistry and Molecular Biology, Saitama University
+4
+Precursory Research for Embryonic Science and Technology (PRESTO), Japan Science and Technology Agency (JST)
+5
+Department of Cell and Developmental Biology, John Innes Centre, Norwich Research Park
+Correspondence to: Saskia Hogenhout at
+saskia.hogenhout@jic.ac.uk
+, Dale Sanders at
+dale.sanders@jic.ac.uk
+Collection date 2017.
+Copyright © 2017, Journal of Visualized Experiments
+This is an open-access article distributed under the terms of the Creative Commons Attribution 3.0 License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by/3.0/us/
+PMC Copyright notice
+PMCID: PMC5614317  PMID:
+28829425
+Abstract
+Calcium ions are predicted to be key signaling entities during biotic interactions, with calcium signaling forming an established part of the plant defense response to microbial elicitors and to wounding caused by chewing insects, eliciting systemic calcium signals in plants. However, the role of calcium
+in vivo
+during biotic stress is still unclear. This protocol describes the use of a genetically-encoded calcium sensor to detect calcium signals in plants during feeding by a hemipteran pest. Hemipterans such as aphids pierce a small number of cells with specialized, elongated sucking mouthparts, making them the ideal tool to study calcium dynamics when a plant is faced with a biotic stress, which is distinct from a wounding response. In addition, fluorescent biosensors are revolutionizing the measurement of signaling molecules
+in vivo
+in both animals and plants. Expressing a GFP-based calcium biosensor, GCaMP3, in the model plant
+Arabidopsis thaliana
+allows for the real-time imaging of plant calcium dynamics during insect feeding, with a high spatial and temporal resolution. A repeatable and robust assay has been developed using the fluorescence microscopy of detached GCaMP3 leaves, allowing for the continuous measurement of cytosolic calcium dynamics before, during, and after insect feeding. This reveals a highly-localized rapid calcium elevation around the aphid feeding site that occurs within a few minutes. The protocol can be adapted to other biotic stresses, such as additional insect species, while the use of
+Arabidopsis thaliana
+allows for the rapid generation of mutants to facilitate the molecular analysis of the phenomenon.
+Keywords:
+Biochemistry, Issue 126, Calcium, aphid, GCaMP, microscopy, insect, GFP
+Your browser is not supporting the HTML5 <video> element.
+You may download that video as a file and play it with a player of you choice.
+Download video stream
+.
+Download video file
+(23.5MB, mp4)
+Open in a new tab
+Introduction
+Calcium (Ca
+2+
+) is one of the most ubiquitous signaling elements in plants. A transient rise in cytosolic Ca
+2+
+concentration ([Ca
+2+
+]
+cyt
+) is decoded by a complex network of downstream components and is involved in the response to both abiotic and biotic stresses
+1
+,
+2
+. A rise in [Ca
+2+
+]
+cyt
+is one of the first responses to microbial elicitors, forming a common part of the plant defense response
+3
+,
+4
+,
+5
+. Rises in [Ca
+2+
+]
+cyt
+have also been observed in response to wounding caused by chewing insects, such as lepidopterans
+6
+,
+7
+. However, the potential role of plant Ca
+2+
+signals in response to live biotic threats that cause damage to only a few cells has not been explored. The green peach aphid
+Myzus persicae
+is a hemipteran insect that represents a significant threat to world agriculture
+8
+,
+9
+, and Ca
+2+
+efflux from the extracellular space has been observed in leaves infested with
+M. persicae
+10
+.This protocol outlines a robust and repeatable method for measuring plant Ca
+2+
+signals while
+M. persicae
+feed from leaves using a fluorescent Ca
+2+
+biosensor, with both aphids and GCaMP3 offering novel tools with which to dissect the role of Ca
+2+
+during biotic interactions.
+Ca
+2+
+-selective microelectrodes were formerly used to measure [Ca
+2+
+] in plants
+11
+,
+12
+. More recently, bioluminescent and fluorescent approaches have become standardized. These biosensors bind Ca
+2+
+and emit light, allowing for un-paralleled opportunities to study Ca
+2+
+dynamics in both cells and whole tissues. Ca
+2+
+biosensors can be injected as dyes or stably produced upon the introduction of the biosensor coding sequence into the genome of the organism via transformation (
+i.e.,
+genetically encoded biosensors). The latter offers the major advantages of being easily expressed in live tissue and capable of subcellular localization
+13
+. The aequorin protein, isolated from
+Aequorea victoria
+(jellyfish) was the first genetically encoded Ca
+2+
+biosensor deployed in plants
+14
+. As a bioluminescent protein, aequorin does not require excitation by external light, which avoids chromophore bleaching and autofluorescence
+15
+. Aequorin has been successfully used to measure [Ca
+2+
+] fluxes in response to various stimuli, including temperature
+16
+, pathogens
+17
+,
+18
+,
+19
+, salt stress
+20
+,
+21
+, and wounding
+7
+. However, it is disadvantaged by the relatively low signal intensity, making the detection of [Ca
+2+
+] fluxes in individual cells and from tissues with poor sensor expression difficult
+13
+.
+The development of Ca
+2+
+biosensors that can fluoresce has complemented aequorin by allowing for detailed subcellular and tissue-level analysis of Ca
+2+
+dynamics. One of the most common fluorescent biosensors are the fluorescence resonance energy transfer (FRET)-based Cameleons. FRET Cameleons are composed of two proteins, typically CFP and YFP, which are brought into close contact by the conformational change induced by the binding of Ca
+2+
+to a calmodulin domain in the CFP-YFP linker region. This contact allows the transfer of energy from CFP to YFP, and the resulting change in the fluorescence of these fluorophores allows for the accurate quantification of [Ca
+2+
+] through the calculation of the ratio of the fluorescence signals from the two fluorophores
+22
+. FRET Cameleons are superior to aequorin and non-ratiometric florescent dyes, as they are less affected by the expression level of the protein
+23
+and often have a greater fluorescent yield, allowing for cellular and subcellular imaging
+23
+. For example, FRET Cameleons have been recently used to identify long-distance Ca
+2+
+signals in plants and to resolve these to the cellular level
+24
+,
+25
+,
+26
+.
+A recent breakthrough with fluorescent GFP-based Ca
+2+
+biosensors has been the development of highly sensitive single-fluorophore (single-FP) biosensors. Single-FP biosensors consist of a single circularly permutated GFP linked to a calmodulin and M13 peptide, with Ca
+2+
+binding to calmodulin, resulting in a water-mediated reaction between calmodulin and GFP so as to protonate GFP and increase fluorescent yield
+27
+,
+28
+,
+29
+. Single-FP sensors offer several advantages over FRET Cameleons, including simpler experimental design and a potentially higher temporal resolution of imaging
+30
+. Although single-FP sensors cannot quantify absolute [Ca
+2+
+] as simply as FRET sensors, they are superior for the analysis of the temporal and spatial dynamics of Ca
+2+
+signals
+5
+,
+23
+. GCaMPs are one of the best-established single-FP sensors
+28
+and have undergone several revisions to enhance their fluorescent yield, dynamic range, Ca
+2+
+affinity, and signal-to-noise ratios
+31
+,
+32
+,
+33
+,
+34
+. The GCaMPs have been successfully used in animal systems, such as zebrafish motor neurons
+35
+and fruit fly neuromuscular junctions
+34
+. Random mutagenesis of GCaMP3 has resulted in additional classes of single-FP sensors, including the ultrasensitive GCaMP6
+36
+and the GECOs
+29
+. The GECOs were recently used in
+Arabidopsis thaliana
+(henceforth referred to as Arabidopsis) to measure Ca
+2+
+fluxes in response to ATP, chitin, and the bacterial elicitor flg22. This study also demonstrated that the R-GECO biosensor outperformed the FRET Cameleon YC3.6 in terms of maximal signal change and signal-to-noise ratio
+5
+.
+Because of the ease of use, high fluorescent yield, and high temporal resolution that can be achieved with GCaMP biosensors, GCaMP3 was genetically encoded in Arabidopsis under the
+Cauliflower mosaic virus
+35S promoter. The genetic tools available for Arabidopsis research allow for the detailed molecular analysis of the Ca
+2+
+signals measured by GCaMP3. In addition, the GCaMP3 biosensor can be visualized under a fluorescence microscope rather than a costlier confocal system. This protocol allows for whole-tissue imaging, essential when conducting experiments with live biotic stresses. The experiment is designed such that detached leaves from
+35S::GCaMP3
+plants are floated in water, to prevent insect escape and to restrict feeding to a specific tissue. The method outlined in this paper therefore allows for the analysis of leaf Ca
+2+
+dynamics during feeding by
+M. persicae
+, resulting in the characterization of a novel plant signaling response. This method can also be adapted to work with other biotic stresses, such as additional insect species and microbial pathogens, and with other plant tissues, such as roots.
+Protocol
+1. Plant Preparation (Days 1 - 4)
+On day 1, sterilize
+35S::GCaMP
+seeds using three 75% ethanol washes, 1 min per wash, and plate them on 100 mm
+2
+square plastic plates with ¼-strength Murashige and Skoog (MS) medium (recipe: 1.1 g of Murashige and Skoog medium, 7.5 g of sucrose, 10 g of Formedium agar, and 1 L of de-ionized water)
+37
+.
+Stratify the seedlings in the dark for three days at 8 °C to obtain synchronous germination.
+On day 4 of the experiment, move the GCaMP seedlings to a controlled environment room (CER) at 23 °C, with a 16 h light and 8 h dark photoperiod.
+2. Insect Rearing (Days 11 - 12)
+On day 11 of the experiment, add 15 adult
+M. persicae
+to 5-week-old soil-grown Arabidopsis plants using a moist artist's paint brush (size 2 or 4) (grown in a CER at 22 °C with 10 h light and 14 h dark photoperiod).
+Cage the aphids on the plant by placing clear plastic tubing (10 cm x 15 cm) around the plant and cap with a plastic lid.
+Leave the aphid-infested plants for 24 h in a CER at 22 °C with a 16-h light and 8-h dark photoperiod.
+On day 12 of the experiment, remove all adult
+M. persicae
+using a paintbrush. NOTE: Insects can be seen by eye on the plant. This gives a population of nymphs with a similar developmental age. Roughly 1 nymph per adult will be produced during this period.
+Leave the infested plants in a lower-temperature CER at 16 °C, with an 8 h light and 16 h dark photoperiod, to prevent the nymphs from increasing in size too rapidly.
+3. Leaf Detachment (Day 19)
+On day 19 of the experiment, remove the
+35S::GCaMP3
+seedlings from the CER and detach the largest leaf from each plant using a pair of sharp scissors.
+Using a pair of tweezers, place the detached leaf into the well of a 96-well plate containing 300 µL of distilled water, abaxial surface facing up. Repeat for additional leaves (
+Figure 1
+).
+Open in a new tab
+Figure 1:
+35S::GCaMP3
+Leaf Assay.
+The largest leaf from each 16 day-old
+35S::GCaMP3
+Arabidopsis seedling is detached and floated on 300 µL of distilled water in a 96-well plate. Photo taken the day after detachment.
+Please click here to view a larger version of this figure.
+Cover the plate in clear plastic wrap and aluminum foil and leave at room temperature overnight to allow the stress of the detachment to subside.
+4. Fluorescence Microscopy (Days 20 - 22)
+On day 20 of the experiment, remove the 96-well plate from the aluminum foil and transfer it to a fluorescence stereomicroscope. Configure the stereo fluorescence microscope to excite GFP with a 450-490 nm light and to capture the fluorescent emission between 500 and 550 nm.
+Collect the aged aphids from the colony established on day 11 by removing the plant from the soil and placing it in a transparent box with a lid. Keep the insects contained in the box while conducting the experiment.
+Place the 96-well plate under the microscope. Alter the light exposure until the GCaMP3 fluorescence can be clearly visualized in the veins of the detached leaves. Keep the exposure constant for all experiments; for the current protocol, a 1-s exposure was used with a gain of 3.5 (
+Figure 2
+).
+Adjust the magnification and zoom of the microscope such that 4 wells can be observed in one frame; for the current protocol, a 7.8X magnification and a focus of -127.833 mm was used.
+Transfer one aphid to a detached leaf under the microscope using a moist paint brush. Leave an adjacent leaf untreated as a control, but lightly touch it with the paintbrush to mimic the touching that occurs during aphid transfer. Remember to place the plastic wrap back on top of the 96-well plate during microscopy to prevent the insect from escaping.
+Begin the fluorescence recording of the leaves in pairs (1 aphid-treated and 1 untreated) by clicking "start experiment" in the built-in microscope software (
+Figure 2
+). Record measurements for 50 min. NOTE: For the current protocol, a time interval of 5 s between measurements was used.
+After 50 min, stop recording by clicking on "stop experiment" and remove the aphid from the leaf. Save the fluorescence measurements as image files (
+e.g.,
+tagged image file format, TIFF).
+Repeat the experiment with further pairs of leaves; imaging can be extended to image 2 pairs of leaves at once, allowing for the simultaneous imaging of 2 genotypes.
+Open in a new tab
+5. Data Collection
+Import the image files into Fiji (Image J) and convert them to 32 bits by clicking on "Image" > "Type" > "32-bit;" this allows for the conversion of the images into heatmap videos (see step 7).
+Discard the samples in which the aphids do not settle in one location for more than 5 min by viewing the insect movement under the microscope. NOTE: This is often the majority of samples, and up to 100 treatments may be required to find 30 samples exhibiting successful settling.
+Set the measurement scale to pixels (or convert to mm, if known) and the time frame to the same time interval as used during the microscopy by clicking on "Image" > "Properties."
+Using the cursor, place a region of interest (ROI) around the area of tissue for GFP analysis.
+NOTE: In the current protocol, a circular ROI 50 pixels (0.65 mm) in diameter was used at 3 locations of interest: the aphid feeding site (Fs), a systemic region on the midrib of the leaf (Sm), and a systemic region adjacent to the midrib ("lateral tissue," Sl) (
+Figure 2
+).
+Create the ROI by drawing an oval (use the "oval tool"), and edit the size using "Edit" > "Selection" > "Specify." See
+Figure 2
+.
+For the untreated control, select ROIs in comparable regions of the leaf to those selected on the treated leaf (
+i.e.,
+the same region of the leaf as where the aphid fed on the treated leaf) (
+Figure 2
+).
+Figure 2: Analyzing GCaMP3 Fluorescence Under the Microscope.
+Left: untreated control leaf. Right: aphid-treated leaf. The aphid feeding site is indicated with an arrowhead. Scale bar = 1 mm. (
+A
+) Bright field image. Magnification: 7.8X, focus: -127.833 mm, exposure: 1 s. (
+B
+) GFP image showing the ROIs used for the quantitative analysis of fluorescence. Fs = feeding site, Sm = systemic midrib, Sl = systemic lateral tissue. Magnification: 7.8X, focus: -127.833 mm, exposure: 1 s. The GFP was excited using a 450 to 490 nm metal halide lamp, and fluorescent emission was captured between 500 and 550 nm.
+Please click here to view a larger version of this figure.
+Use the Time Series Analyzer plugin by clicking "Plugins" > "Time Series Analyzer" to analyze the raw fluorescence values (F) in the ROI over time. Add the ROI of interest ("Add [t]"). Making sure that the ROI is selected, select "get average;" this will display a table of F values for each frame in that ROI.
+Copy this data into a spreadsheet.
+Calculate the area of the feeding site signal by first selecting the region using the "freehand selection tool." Outline the maximal GFP signal and then calculate the area of this shape by clicking "Analyze" > "Measure."
+Calculate the speed of the feeding site signal using the MTrackJ plugin by clicking "Plugins" > "Tracking" > "MTrackJ."
+Click on the "Add" button and then click the cursor at the center of the signal when it is first visible. Click again on the edge of the signal at its point of furthest spread. Click "measure" to calculate the speed of the signal.
+6. Data Analysis
+Define the point of aphid settling by playing through the image frames from the microscope in Fiji. NOTE: The time of settling is the frame during which the aphid stays in a single location for 5 min or more. The duration of settling events can also be calculated from the images in Fiji.
+Normalize the F data (ΔF/F) according to the equation ΔF/F = (F - F
+0
+)/F
+0
+, where F
+0
+is the average baseline fluorescence calculated from the average of F over the first 60 frames of the recording before the aphid settled. Repeat for the untreated control.
+Plot the normalized GFP fluorescence (ΔF/F) over time for that ROI in the treated and untreated leaf. Discard samples (both leaves) if the untreated control shows large Ca
+2+
+transients (
+i.e.,
+ΔF/F rises above 0.2).
+Repeat until at least 20 - 30 viable samples have been analyzed per genotype.
+7. Time-course Video Creation
+Convert the 32-bit image files into heatmaps using the NucMed_Image LUTs plugin by clicking "Plugins" > "NucMed" > "Lookup tables." In the lookup tables menu, select "blue green red" to convert the images to heat maps.
+Enhance the contrast of the heatmap to highlight the aphid-elicited GFP signals using "Process" > "Enhance contrast" > "Adjust saturated pixels %."
+Add time information using the Time Stamper plugin by clicking on "Plugins" > "Time Stamper". Set the "starting time" at "0" and the "interval" based on the time interval used for the microscopy (
+e.g.,
+5 s).
+Export this video as an audio video interleaved (AVI) file. NOTE: This video can then be edited further in other software packages (
+e.g.,
+Microsoft Movie Maker).
+Representative Results
+Figure 3
+and
+Figure 4
+are
+representative results from an experiment comparing an aphid-treated leaf with an untreated control. A highly localized increase in GFP fluorescence can be seen around the feeding site within a few minutes in the majority of samples, whilst the Ca
+2+
+dynamics in the untreated control leaf stay relatively stable (
+Figure 3A
+and
+3B
+). It is also possible to observe secondary increases in GFP fluorescence after the initial peak in some experiments (
+Figure 3B
+). In up to 50% of treated leaves, the aphids do not settle and the samples should be discarded. Of the samples in which settling occurs, 27% of samples do not exhibit clear increases in GFP fluorescence around the feeding site (
+Figure 3C
+and
+Table 1
+); therefore, 25 - 30 replicate samples should be averaged for quantitative analysis. Visualization of the area and speed of the feeding site [Ca
+2+
+]
+cyt
+elevation should reveal a signal of around 110 µm travelling at 6 µm/s (
+Table 1
+). In addition, no [Ca
+2+
+]
+cyt
+elevations should be detected systemically within the leaf upon aphid treatment, either in the systemic midrib (
+Figure 4A
+) or the systemic lateral tissue regions (
+Figure 4B
+). A representative sample of [Ca
+2+
+]
+cyt
+dynamics over time is shown in
+Video 1
+. It is also possible to analyze aphid settling behavior by tracking the number and duration of individual settling events under the microscope. Representative results for these behaviors are shown in
+Table 1
+, showing that the aphids take around 10 min before settling, and when they do settle successfully, this lasts for 20 min on average. Therefore, the insects are settled in a single location for the entirety of the [Ca
+2+
+]
+cyt
+elevation.
+Open in a new tab
+Open in a new tab
+Figure 3: GCaMP3 can be used to Detect Aphid-elicited Ca
+2+
+Signals at the Feeding Site in Detached Leaves.
+Left: representative traces (n = 30) of normalized GFP fluorescence (ΔF/F) around the feeding site of a
+35S::GCaMP3
+leaf
+.
+The traces display 5 min before settling until 25 min post-settling. Control = equivalent location on an untreated
+35S::GCaMP3
+leaf. Right: representative stereomicroscope image of [Ca
+2+
+]
+cyt
+elevation seen around an aphid feeding site on a
+35S::GCaMP3
+leaf. The GFP fluorescence is color-coded according to the inset scale. The aphid id outlined in white and the feeding site indicated with an arrowhead. Magnification: 7.8X, focus: -127.833 mm, exposure: 1 s. The GFP was excited using a 450 to 490 nm metal halide lamp, and the fluorescent emission was captured between 500 and 550 nm. (
+A
+) An example of a large aphid-induced [Ca
+2+
+]
+cyt
+elevation. (
+B
+) An example of an average aphid-induced [Ca
+2+
+]
+cyt
+elevation. (
+C
+) An example of no aphid-induced [Ca
+2+
+]
+cyt
+elevation.
+Please click here to view a larger version of this figure.
+Parameter
+Average (± SEM)
+[Ca
+2+
+]
+cyt
+elevation
+Percentage of samples displaying a [Ca
+2+
+]
+cyt
+elevation
+73%
+Speed of wave front
+a
+5.9 µm/s (± 0.6)
+Maximum area of spread
+110 µm
+2
+(± 18)
+Aphid behaviour
+Number of settles (>5 min)
+2 (± 0.1)
+Total number of settles (all durations)
+3.8 (± 0.4)
+Time settled for imaging
+b
+20 min (± 2)
+Time until first settle
+c
+11 min (± 1.4)
+Percentage of total time spent settled
+62% (± 3)
+Open in a new tab
+Table 1: [Ca
+2+
+]
+cyt
+Elevation and Aphid Behavior Parameters during
+35S::GCaMP3
+Imaging.
+Parameters calculated from viable samples in which settling of >5 min occurred.
+(
+A
+) Speed of the visible signal from the point of initiation to the furthest point of spread. (
+B
+) Duration of the initial settling events used for the analysis of fluorescence. (
+C
+) Length of time between the beginning of imaging and the first aphid settle. [Ca
+2+
+]
+cyt
+elevation data previously submitted to The Plant Cell (current status: initial QC).
+Figure 4: GCaMP3 Cannot Detect Aphid-elicited Ca
+2+
+Signals Systemic to the Feeding Site.
+Representative traces (n = 30) of normalized GFP fluorescence (ΔF/F) in locations systemic to the aphid feeding site in
+35S::GCaMP3 leaves.
+The traces display 5 min before settling until 25 min post-settling. Control = equivalent location on an untreated
+35S::GCaMP3
+leaf. (
+A
+) ΔF/F in the systemic midrib region. (
+B
+) ΔF/F in the systemic lateral tissue region.
+Please click here to view a larger version of this figure.
+Video 1: GCaMP3 Florescence Over time as an Aphid Feeds.
+The GFP fluorescence is color-coded according to the inset scale. The location of the aphid feeding site is indicated with an arrowhead. Left:
+35S::GCaMP3
+leaf exposed to an
+M. persicae
+adult. Right: A
+35S::GCaMP3
+no-aphid control leaf.
+Please click here to view this video. (Right-click to download.)
+Discussion
+The method described in this paper allows for the real-time analysis of plant Ca
+2+
+signaling during a biotic stress such as insect feeding. It demonstrates that one of the first plant responses to such threats is a localized [Ca
+2+
+]
+cyt
+elevation around the feeding site of the insect. Through the use of mutants, this method will allow for the the molecular and physiological characterization of such signals, which was not previously possible. A critical step in this protocol is to ensure that the detached leaves are not excessively disturbed during the detachment process (step 3.2) or when transferring insects to the leaves (step 4.5). Given that the current protocol provides a relative measurement of [Ca
+2+
+]
+cyt
+rather than an absolute concentration, it is vital that the microscope settings are kept constant throughout the experiment. There is also the potential for human bias during the selection of ROIs and the analysis of the data, and as such, it is recommended that the experiments are conducted double-blind.
+There are several significant advantages of measuring [Ca
+2+
+]
+cyt
+during biotic stress with this protocol. First, the use of a single fluorophore with a high fluorescent yield allows the imaging to be conducted on a stereomicroscope, which is less costly than using a confocal microscope. The use of a single fluorophore also makes data collection and analysis simple, as there is just one measurement to record. In addition, the use of a stereomicroscope allows for the imaging of entire leaves, which is essential given that many biotic interactions, including plant-aphid interactions, occur on a large spatial scale. The high temporal resolution of image capture possible with GCaMP3, based on the rapid disassociation of Ca
+2+
+from the sensor after binding
+23
+,
+30
+and the high florescent yield, allows for measurements to be taken up to every 5 s. Furthermore, the leaf assay prevents the escape of the insect, a key limiting step to conducting such experiments on whole plants
+(in preparation)
+. The detached leaves also ensure that the insect feeds from a pre-defined location, allowing for the analysis of Ca
+2+
+dynamics before, during, and after feeding. This protocol also ensures that leaves of similar developmental stages are used for analysis.
+The main disadvantage of this protocol originates from the use of a non-ratiometric biosensor. With single-FP biosensors, variation in GFP emission may result from experimental variables other than [Ca
+2+
+]
+cyt
+, such as changes in cellular pH, motion, or the expression level of the biosensor. These issues are not encountered with FRET Cameleons during FRET, as the transfer of energy from CFP to YFP only occurs upon Ca
+2+
+binding. Other conditions that alter the fluorescent properties of the individual fluorophores are unlikely to mimic the opposing changes in intensity of CFP and YFP, and the ratiometric calculation that is used inherently normalizes the measurements for many of these other optical artifacts
+23
+,
+30
+. This makes estimations of absolute [Ca
+2+
+]
+cyt
+more reliable with FRET Cameleons. Consequently, GCaMP3 is best used as a biosensor to measure relative [Ca
+2+
+]
+cyt
+, although it is still sufficient to detect and characterize biological phenomena in plants
+5
+,(in preparation)
+. Therefore, it is essential to use controls to show that the observed effect is due to Ca
+2+
+, including Ca
+2+
+-related genetic mutants
+(in preparation)
+or pharmacological Ca
+2+
+channel inhibitors such as La
+3+
+. Importantly, single-FP biosensors typically display a greater fluorescent yield and greater dynamic range (
+i.e.,
+an increase in florescence upon Ca
+2+
+binding) than FRET Cameleons
+23
+, which makes GCaMP more suited to tissue-level imaging, while FRET Cameleons are a useful tool for cellular imaging with a confocal microscope
+5
+,
+25
+.
+During the execution of this protocol, it is possible that some issues will arise that require troubleshooting. For example, it is recommended that samples in which the control (untreated) leaf displays large [Ca
+2+
+]
+cyt
+elevations are discarded (step 6.3). Such transients are most likely the result of stress induced by the microscopy. Indeed, blue light is known to elicit Ca
+2+
+signals
+38
+,
+39
+,
+40
+,
+41
+, and the high-intensity light might also result in temperature and osmotic stresses, both of which also elicit [Ca
+2+
+]
+cyt
+elevations
+21
+,
+25
+,
+42
+. Consequently, to reduce such stresses, it is important to conduct the experiment in a well-ventilated and temperature-controlled room and to avoid unnecessarily long exposure times. It is also important to not disrupt the leaves excessively during detachment or during the microscopy to prevent touch-elicited [Ca
+2+
+]
+cyt
+elevations
+43
+,
+44
+,
+45
+. Issues may also be encountered with insect settling. With
+M. persicae
+, the insects do not settle on the leaves in several samples. This could be a result of wound-elicited defense in the detached leaves
+46
+,
+47
+, or the disturbance of the insects by the blue light. Indeed, vision in
+M. persicae
+is governed by three photoreceptors, including one with a peak sensitivity of 490 nm
+48
+. Reducing the microscopy exposure and handling the aphids with care might reduce distress and encourage settling.
+The protocol outlined in the current paper gives new insights onto the molecular understanding of plant-insect interactions and the plant response to biotic stress. It allows for the visualization of one of the first plant responses to insect feeding and facilitates further investigations through the use of the considerable Arabidopsis genetic resources available. In addition, this protocol allows for the use of live organisms, as opposed to extracts
+49
+or elicitors
+50
+. In the future, this technique could be applied to other biotic stresses, such as additional insect species, nematodes, or microbial pathogens, as well as to abiotic stresses. The GCaMP3 microscopy can also be modified to image other plant tissues, alternative ROIs on the leaf, or even whole plants. Furthermore, there is the potential for the biosensor to be genetically encoded in additional plant species. Consequently, the protocol outlined in this paper has the potential to undercover the molecular basis of Ca
+2+
+signaling in a range of novel biotic interactions between plants and other species.
+Disclosures
+The authors have no conflicts of interest to declare.
+Acknowledgments
+We would like to thank Grant Calder (John Innes Centre, U.K.) for the advice concerning microscopy. The authors also wish to thank the John Innes Centre horticultural and entomology departments for their assistance. This work was supported by a PhD studentship from the John Innes Foundation (T.V.), grant B/JJ004561/1 from the BBSRC and the John Innes Foundation (T.V., M.A., J.C., S.M., S.H., T.M., and D.S.), a year in industry placement from the John Innes Centre (M.A.), a summer studentship from the Biochemical Society of the UK (J.C.), JST PRESTO (M.T.), and grants MCB 1329723 and IOS-1557899 from the National Science Foundation (M.T. and S.G.).
+References
+Sanders D, Pelloux J, Brownlee C, Harper JF. Calcium at the crossroads of signaling. Plant Cell. 2002;14:S401–S417. doi: 10.1105/tpc.002899.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Dodd AN, Kudla J, Sanders D. The language of calcium signaling. Annu Rev Plant Biol. 2010;61:593–620. doi: 10.1146/annurev-arplant-070109-104628.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Blume B, Nurnberger T, Nass N, Scheel D. Receptor-mediated increase in cytoplasmic free calcium required for activation of pathogen defense in parsley. Plant Cell. 2000;12(8):1425–1440. doi: 10.1105/tpc.12.8.1425.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Lecourieux D. Proteinaceous and oligosaccharidic elicitors induce different calcium signatures in the nucleus of tobacco cells. Cell Calcium. 2005;38(6):527–538. doi: 10.1016/j.ceca.2005.06.036.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Keinath NF, et al.  Live cell imaging with R-GECO1 sheds light on flg22- and chitin-induced transient [Ca2+]cyt patterns in Arabidopsis. Mol Plant. 2015;8(8):1188–1200. doi: 10.1016/j.molp.2015.05.006.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Verrillo F, Occhipinti A, Kanchiswamy CN, Maffei ME. Quantitative analysis of herbivore-induced cytosolic calcium by using a cameleon (YC 3.6) calcium sensor in Arabidopsis thaliana. J Plant Physiol. 2014;171(2):136–139. doi: 10.1016/j.jplph.2013.09.020.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Kiep V. Systemic cytosolic Ca(2+) elevation is activated upon wounding and herbivory in Arabidopsis. New Phytol. 2015;207(4):996–1004. doi: 10.1111/nph.13493.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Blackman RL, Eastop VF.  Aphids on the world's crops: an identification and information guide. John Wiley & Sons, Ltd; 2000.
+[
+Google Scholar
+]
+Ng JCK, Perry KL. Transmission of plant viruses by aphid vectors. Mol Plant Pathol. 2004;5(5):505–511. doi: 10.1111/j.1364-3703.2004.00240.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Ren GW, Wang XF, Chen D, Wang XW, Liu XD. Effects of aphids Myzus persicae on the changes of Ca2+ and H2O2 flux and enzyme activities in tobacco. J Plant Interact. 2014;9(1):883–888.
+[
+Google Scholar
+]
+Brownlee C, Wood JW. A gradient of cytoplasmic free calcium in growing rhizoid cells of fucus-serratus. Nature. 1986;320(6063):624–626.
+[
+Google Scholar
+]
+Miller AJ, Sanders D. Depletion of cytosolic free calcium induced by photosynthesis. Nature. 1987;326(6111):397–400.
+[
+Google Scholar
+]
+Kanchiswamy CN, Malnoy M, Occhipinti A, Maffei ME. Calcium imaging perspectives in plants. Int J Mol Sci. 2014;15(3):3842–3859. doi: 10.3390/ijms15033842.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ridgway EB, Ashley CC. Calcium transients in single muscle fibers. Biochem Biophys Res Commun. 1967;29(2):229. doi: 10.1016/0006-291x(67)90592-x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Plieth C. Plant calcium signaling and monitoring: pros and cons and recent experimental approaches. Protoplasma. 2001;218(1-2):1–23. doi: 10.1007/BF01288356.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Campbell AK, Trewavas AJ, Knight MR. Calcium imaging shows differential sensitivity to cooling and communication in luminous transgenic plants. Cell Calcium. 1996;19(3):211–218. doi: 10.1016/s0143-4160(96)90022-6.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Mithofer A, Mazars C. Aequorin-based measurements of intracellular Ca2+-signatures in plant cells. Biol Proced Online. 2002;4(1):105–118. doi: 10.1251/bpo40.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kwaaitaal M, Huisman R, Maintz J, Reinstadler A, Panstruga R. Ionotropic glutamate receptor (iGluR)-like channels mediate MAMP-induced calcium influx in Arabidopsis thaliana. Biochem J. 2011;440(3):355–365. doi: 10.1042/BJ20111112.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Ranf S, Eschen-Lippold L, Pecher P, Lee J, Scheel D. Interplay between calcium signalling and early signalling elements during defence responses to microbe- or damage-associated molecular patterns. Plant J. 2011;68(1):100–113. doi: 10.1111/j.1365-313X.2011.04671.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zhu XH, Feng Y, Liang GM, Liu N, Zhu JK. Aequorin-based luminescence imaging reveals stimulus- and tissue-specific Ca2+ dynamics in Arabidopsis plants. Mol Plant. 2013;6(2):444–455. doi: 10.1093/mp/sst013.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kiegle E, Moore CA, Haseloff J, Tester MA, Knight MR. Cell-type-specific calcium responses to drought, salt and cold in the Arabidopsis root. Plant J. 2000;23(2):267–278. doi: 10.1046/j.1365-313x.2000.00786.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Miyawaki A, et al.  Fluorescent indicators for Ca2+ based on green fluorescent proteins and calmodulin. Nature. 1997;388(6645):882–887. doi: 10.1038/42264.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Koldenkova VP, Nagai T. Genetically encoded Ca2+ indicators: properties and evaluation. BBA Mol Cell Res. 2013;1833(7):1787–1797. doi: 10.1016/j.bbamcr.2013.01.011.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Choi J. Identification of a plant receptor for extracellular ATP. Science. 2014;343(6168):290–294. doi: 10.1126/science.343.6168.290.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Choi WG, Toyota M, Kim SH, Hilleary R, Gilroy S. Salt stress-induced Ca2+ waves are associated with rapid, long-distance root-to-shoot signaling in plants. Proc Natl Acad Sci USA. 2014;111(17):6497–6502. doi: 10.1073/pnas.1319955111.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Evans MJ, Choi WG, Gilroy S, Morris RJ. A ROS-assisted calcium wave dependent on atrbohd and tpc1 propagates the systemic response to salt stress in Arabidopsis roots. Plant Physiol. 2016;171(3):1771–1784. doi: 10.1104/pp.16.00215.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Nagai T, Sawano A, Park ES, Miyawaki A. Circularly permuted green fluorescent proteins engineered to sense Ca2+ P Natl Acad Sci USA. 2001;98(6):3197–3202. doi: 10.1073/pnas.051636098.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Nakai J, Ohkura M, Imoto K. A high signal-to-noise Ca(2+) probe composed of a single green fluorescent protein. Nat Biotechnol. 2001;19(2):137–141. doi: 10.1038/84397.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Akerboom J, et al.  Crystal structures of the GCaMP calcium sensor reveal the mechanism of fluorescence signal change and aid rational design. J Biol Chem. 2009;284(10):6455–6464. doi: 10.1074/jbc.M807657200.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Okumoto S. Quantitative imaging using genetically encoded sensors for small molecules in plants. Plant J. 2012;70(1):108–117. doi: 10.1111/j.1365-313X.2012.04910.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Ohkura M, Matsuzaki M, Kasai H, Imoto K, Nakai J. Genetically encoded bright Ca2+ probe applicable for dynamic Ca2+ imaging of dendritic spines. Anal Chem. 2005;77(18):5861–5869. doi: 10.1021/ac0506837.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Tallini YN. Imaging cellular signals in the heart in vivo: cardiac expression of the high-signal Ca2+ indicator GCaMP2. Proc Natl Acad Sci USA. 2006;103(12):4753–4758. doi: 10.1073/pnas.0509378103.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Tian L. Imaging neural activity in worms, flies and mice with improved GCaMP calcium indicators. Nat Methods. 2009;6(12):875–881. doi: 10.1038/nmeth.1398.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Akerboom J, et al.  Optimization of a GCaMP calcium indicator for neural activity imaging. J Neurosci. 2012;32(40):13819–13840. doi: 10.1523/JNEUROSCI.2601-12.2012.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Pedelacq JD, Cabantous S, Tran T, Terwilliger TC, Waldo GS. Engineering and characterization of a superfolder green fluorescent protein. Nat Biotechnol. 2006;24(1):79–88. doi: 10.1038/nbt1172.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Chen TW, et al.  Ultrasensitive fluorescent proteins for imaging neuronal activity. Nature. 2013;499(7458):295–300. doi: 10.1038/nature12354.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Murashige T, Skoog F. A revised medium for rapid growth and bio assays with tobacco tissue cultures. Physiol Plant. 1962;15(3):473–497.
+[
+Google Scholar
+]
+Baum G, Long JC, Jenkins GI, Trewavas AJ. Stimulation of the blue light phototropic receptor NPH1 causes a transient increase in cytosolic Ca2+ Proc Natl Acad Sci USA. 1999;96(23):13554–13559. doi: 10.1073/pnas.96.23.13554.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Johnson CH. Circadian oscillations of cytosolic and chloroplastic free calcium in plants. Science. 1995;269(5232):1863–1865. doi: 10.1126/science.7569925.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Johnson CH. Circadian oscillations of cytosolic and chloroplastic free calcium in transgenic luminous plants. Plant Physiol. 1997;114(3):1408–1408.
+[
+Google Scholar
+]
+Harada A, Shimazaki KI. Phototropins and blue light-dependent calcium signaling in higher plants. Photochem. Photobiol. 2007;83(1):102–111. doi: 10.1562/2006-03-08-IR-837.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Plieth C, Hansen UP, Knight H, Knight MR. Temperature sensing by plants: the primary characteristics of signal perception and calcium response. Plant J. 1999;18(5):491–497. doi: 10.1046/j.1365-313x.1999.00471.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Meyerhoff O, et al.  AtGLR3.4, a glutamate receptor channel-like gene is sensitive to touch and cold. Planta. 2005;222(3):418–427. doi: 10.1007/s00425-005-1551-3.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Knight MR, Campbell AK, Smith SM, Trewavas AJ. Transgenic plant aequorin reports the effects of touch and cold-shock and elicitors on cytoplasmic calcium. Nature. 1991;352(6335):524–526. doi: 10.1038/352524a0.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Legue V. Cytoplasmic free Ca2+ in Arabidopsis roots changes in response to touch but not gravity. Plant Physiol. 1997;114(3):789–800. doi: 10.1104/pp.114.3.789.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Koo AJK, Gao XL, Jones AD, Howe GA. A rapid wound signal activates the systemic synthesis of bioactive jasmonates in Arabidopsis. Plant J. 2009;59(6):974–986. doi: 10.1111/j.1365-313X.2009.03924.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Mousavi SA, Chauvin A, Pascaud F, Kellenberger S, Farmer EE. GLUTAMATE RECEPTOR-LIKE genes mediate leaf-to-leaf wound signalling. Nature. 2013;500(7463):422–426. doi: 10.1038/nature12478.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Kirchner SM, Doring TF, Saucke H. Evidence for trichromacy in the green peach aphid, Myzus persicae (Sulz.) (Hemiptera : Aphididae) J Insect Physiol. 2005;51(11):1255–1260. doi: 10.1016/j.jinsphys.2005.07.002.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Prince DC, Drurey C, Zipfel C, Hogenhout SA. The leucine-rich repeat receptor-like kinase BRASSINOSTEROID INSENSITIVE1-ASSOCIATED KINASE1 and the cytochrome P450 PHYTOALEXIN DEFICIENT3 contribute to innate immunity to aphids in Arabidopsis. Plant Physiol. 2014;164(4):2207–2219. doi: 10.1104/pp.114.235598.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Chaudhary R, Atamian HS, Shen ZX, Brigg SP, Kaloshian I. GroEL from the endosymbiont Buchnera aphidicola betrays the aphid by triggering plant defense. Proc Natl Acad Sci USA. 2014;111(24):8919–8924. doi: 10.1073/pnas.1407687111.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Articles from Journal of Visualized Experiments : JoVE are provided here courtesy of
+MyJoVE Corporation

@@ -1,0 +1,1905 @@
+iScience
+. 2020 Nov 25;23(12):101747. doi:
+10.1016/j.isci.2020.101747
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Beyond Low-Earth Orbit: Characterizing Immune and microRNA Differentials following Simulated Deep Spaceflight Conditions in Mice
+Amber M Paul
+Amber M Paul
+1
+Universities Space Research Association, Columbia, MD 21046, USA
+2
+Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA 94043, USA
+Find articles by
+Amber M Paul
+1,
+2
+,
+Margareth Cheng-Campbell
+Margareth Cheng-Campbell
+3
+Department of Biomedical Engineering, Center for Biotechnology & Interdisciplinary Studies, Rensselaer Polytechnic Institute, Troy, NY 12180, USA
+Find articles by
+Margareth Cheng-Campbell
+3
+,
+Elizabeth A Blaber
+Elizabeth A Blaber
+2
+Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA 94043, USA
+3
+Department of Biomedical Engineering, Center for Biotechnology & Interdisciplinary Studies, Rensselaer Polytechnic Institute, Troy, NY 12180, USA
+Find articles by
+Elizabeth A Blaber
+2,
+3
+,
+Sulekha Anand
+Sulekha Anand
+4
+Department of Biological Sciences, San Jose State University, San Jose, CA 95112, USA
+Find articles by
+Sulekha Anand
+4
+,
+Sharmila Bhattacharya
+Sharmila Bhattacharya
+2
+Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA 94043, USA
+Find articles by
+Sharmila Bhattacharya
+2
+,
+Sara R Zwart
+Sara R Zwart
+5
+Department of Preventive Medicine and Community Health, University of Texas Medical Branch, Galveston, TX 77555, USA
+Find articles by
+Sara R Zwart
+5
+,
+Brian E Crucian
+Brian E Crucian
+6
+NASA Johnson Space Center, Houston, TX 77058, USA
+Find articles by
+Brian E Crucian
+6
+,
+Scott M Smith
+Scott M Smith
+6
+NASA Johnson Space Center, Houston, TX 77058, USA
+Find articles by
+Scott M Smith
+6
+,
+Robert Meller
+Robert Meller
+7
+Department of Neurobiology/Pharmacology, Morehouse School of Medicine, Atlanta, GA 30310, USA
+Find articles by
+Robert Meller
+7
+,
+Peter Grabham
+Peter Grabham
+8
+Center for Radiological Research, Columbia University, New York, NY 10027, USA
+Find articles by
+Peter Grabham
+8
+,
+Afshin Beheshti
+Afshin Beheshti
+9
+KBR, Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA 94043, USA
+Find articles by
+Afshin Beheshti
+9,
+10,
+∗
+Author information
+Article notes
+Copyright and License information
+1
+Universities Space Research Association, Columbia, MD 21046, USA
+2
+Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA 94043, USA
+3
+Department of Biomedical Engineering, Center for Biotechnology & Interdisciplinary Studies, Rensselaer Polytechnic Institute, Troy, NY 12180, USA
+4
+Department of Biological Sciences, San Jose State University, San Jose, CA 95112, USA
+5
+Department of Preventive Medicine and Community Health, University of Texas Medical Branch, Galveston, TX 77555, USA
+6
+NASA Johnson Space Center, Houston, TX 77058, USA
+7
+Department of Neurobiology/Pharmacology, Morehouse School of Medicine, Atlanta, GA 30310, USA
+8
+Center for Radiological Research, Columbia University, New York, NY 10027, USA
+9
+KBR, Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA 94043, USA
+∗
+Corresponding author
+afshin.beheshti@nasa.gov
+10
+Lead Contact
+Received 2020 Jun 15; Revised 2020 Oct 16; Accepted 2020 Oct 26; Collection date 2020 Dec 18.
+© 2020 The Author(s)
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+PMC Copyright notice
+PMCID: PMC7756144  PMID:
+33376970
+Summary
+Spaceflight missions can cause immune system dysfunction in astronauts with little understanding of immune outcomes in deep space. This study assessed immune responses in mice following ground-based, simulated deep spaceflight conditions, compared with data from astronauts on International Space Station missions. For ground studies, we simulated microgravity using the hindlimb unloaded mouse model alone or in combination with acute simulated galactic cosmic rays or solar particle events irradiation. Immune profiling results revealed unique immune diversity following each experimental condition, suggesting each stressor results in distinct circulating immune responses, with clear consequences for deep spaceflight. Circulating plasma microRNA sequence analysis revealed involvement in immune system dysregulation. Furthermore, a large astronaut cohort showed elevated inflammation during low-Earth orbit missions, thereby supporting our simulated ground experiments in mice. Herein, circulating immune biomarkers are defined by distinct deep space irradiation types coupled to simulated microgravity and could be targets for future space health initiatives.
+Subject Areas:
+Immunology, Space Sciences
+Graphical Abstract
+Open in a new tab
+Highlights
+•
+Murine immune profiles from simulated deep spaceflight conditions were analyzed
+•
+Immune profiling revealed unique immune diversity with each experimental condition
+•
+Plasma microRNA sequence analysis revealed involvement in immune system dysregulation
+•
+Astronaut data showed elevated inflammation during low-Earth orbit missions
+Immunology; Space Sciences
+Introduction
+Recent studies indicate astronauts in low-Earth orbit (LEO), such as on the International Space Station (ISS), experience immune dysfunction, for instance, redox imbalance, elevated inflammation, elevated granulocytes, inhibited lymphocyte proliferation, and reduced lymphocyte functions (
+Crucian et al., 2015
+;
+Douda et al., 2015
+;
+Leliefeld et al., 2016
+;
+Martinez et al., 2015
+;
+Mehta et al., 2017
+;
+Pecaut et al., 2017
+). However, less is known about the likely biological (immune system) consequences of deep space exploration.
+Solar particle event (SPE) and galactic cosmic ray (GCR) irradiation are charged particle ionizing types of radiation that will impact humans and spacecraft during lunar and deep spaceflight missions (
+Sridharan et al., 2020
+). High doses of these types of charged ionizing radiation types do not typically pose a threat to Earth, as we are shielded by the Earth's magnetosphere (
+Simonsen et al., 2020
+); however, astronauts on future missions to the lunar surface and Mars will have limited shielding from these damaging irradiation. Although doses experienced in deep space do not parallel those of LEO manned missions, health risks associated with LEO doses are still considerable. For instance, current missions in LEO, such as on the ISS, experience a low total absorbed dose of irradiation, estimated to be exposed to approximately 0.10–0.52 mGy/day, depending on the mission, as quantified by NASA GeneLab's environmental data for spaceflight experiments (
+Miller, 2020
+).
+SPE irradiation originates from protons being emitted during solar flares and coronal mass ejections (
+Narici et al., 2018
+;
+Sanzari et al., 2015
+), and although the majority of the ions are protons at different energies during these events, it can also include other ions such as helium and high- (H) atomic number (Z) and energy (E) ions (
+Hu, 2017
+). Limited number of human reports following SPE irradiation exposure are associated with astronauts on LEO spacewalks and lunar missions from the Apollo era (
+Romero-Weaver et al., 2013
+;
+Sanzari et al., 2013
+). The physiological effects of SPE irradiation exposure include fatigue, acute radiation sickness, long-term skin damage, elevated cytokine storms, and decreased blood and hemopoietic cell numbers (
+Romero-Weaver et al., 2013
+;
+Sanzari et al., 2013
+).
+GCR irradiation is emitted from the sun, stars, and energetic objects such as supernova (
+Nelson, 2016
+) and consists of high-energy protons, helium nuclei, and high-energy high-charge (HZE) ions with intrinsic masses (for example, iron, silicon, oxygen, and carbon) (
+Nelson, 2016
+). As the predicted dose for ISS missions, in the absence of SPE irradiation events, is 0.10–0.52 mGy/day (
+Miller, 2020
+), astronauts in LEO could therefore be exposed up to a roughly estimated 0.1 Gy/year of irradiation. Moreover, during SPE events, astronauts could experience an extremely high dose of protons (
+Hu, 2017
+) possibly up to 1 Gy or more (
+Wu et al., 2009
+), which would pose significant health risks. NASA estimates that the amount of GCR irradiation exposure during deep space missions may be 0.3–0.6 mGy/day or more over a 3-year-long mission to Mars (0.245–0.360 Gy) (
+Nelson, 2016
+).
+Linear energy transfer (LET) is defined as the amount of energy that is deposited or transferred in a material from an ion (
+Chancellor et al., 2018
+). High-LET irradiation can cause more damaging ionizing tracks and pose a higher relative biological effectiveness (RBE) risk compared to low-LET irradiation (
+Niemantsverdriet et al., 2012
+). However, this does not rule out the composite effects of low-LET continuous dose/dose rate involved during spaceflight (
+Cekanaviciute et al., 2018
+;
+Saha et al., 2014
+), the effects of low LET inhibition of angiogenesis (
+Grabham et al., 2013
+), or the range of cellular damage by low-LET particles (
+Nelson, 2016
+). RBE is the relative amount of biological damage a dose of irradiation will have on tissue (
+Chancellor et al., 2018
+). Thus, identifying the immune responses following distinct ionizing irradiation types, along with described dosing schemes, RBEs, and protracted exposures, are essential for future exploration missions to the lunar surface and Mars.
+Due to limitations of performing deep space missions, there have been multiple ground-based research studies examining the effects of ionizing irradiation on immunity. For instance, large disparities in immune population subtypes, in particular lymphocytes (
+Fernandez-Gonzalo et al., 2017
+;
+Gridley and Pecaut, 2011
+;
+Gridley et al., 2002
+;
+Romero-Weaver et al., 2013
+;
+Sanzari et al., 2013
+) and induction of inflammation (
+Baselet et al., 2019
+;
+Garrett-Bakelman et al., 2019
+;
+Li et al., 2014
+;
+Teresa Pinto et al., 2016
+), have been reported. However, more information is required on the deep space-relevant spectra of irradiation effects on immunity.
+With recent advancements in simulated GCR and SPE dosing schemes at NASA's Space Radiation Laboratory (NSRL) within Brookhaven National Laboratory, the biological effects of realistic deep space exposures can now be successfully measured in ground-based studies (
+Simonsen et al., 2020
+). Therefore, our study sought to investigate the immediate-early immune effects following acute simulated GCR and SPE irradiation, singly or in combination with simulated microgravity (hindlimb unloading, HU) in mice. We hypothesized that unique immune signatures and microRNA (miRNA) profiles would be produced by distinct experimental conditions of simulated GCR, SPE, and gamma irradiation, singly or in combination with HU. Although this study focuses on immune dysregulation during deep spaceflight, the knowledge gained from these studies can be applied to related issues on Earth such as, cancer radiotherapy, muscle degeneration, and immune-related diseases.
+Results
+Simulated Deep Space Exposures Selectively Caused Reduced Immune Organ Weight and Total Leukocyte Populations
+Mice were exposed to acute, 0.5-Gy simplified GCR simulation (GCR sim), 1-Gy SPE simulation (SPE sim), or 5Gy gamma irradiation, singly or in combination with HU (14-days total) and were weighed on days −3, 0, 7, and 14 (
+Figure 1
+A). Gamma irradiation was included to calculate the RBE of GCR sim and SPE sim. As charged particles generally have a higher RBE than photons (gamma irradiation) we used an elevated dose of 5 Gy. The results revealed significant difference in body weight across GCR and SPE irradiation combined with HU groups at 24 h post-irradiation exposures (i.e., day 14) (
+Figure 1
+B). Euthanasia was performed on day 14, and select immune organs were collected and weighed to determine if spaceflight exposures caused weight differences. Interestingly, all irradiation groups with HU had a significant decrease in spleen weight, compared to NL-Sham controls with intergroup comparisons between GCR and gamma (
+Figure 1
+C). For the thymus, SPE irradiation in combination with HU groups were significantly reduced in weight, along with both NL- and HU-gamma cohorts, compared with NL-Sham controls (
+Figure 1
+D). To address whether there are fewer white blood cells (WBCs) circulating within blood, which may result in weight disparities in the immune organs, common leukocyte antigen (CD45), which labels all leukocytes, was analyzed by flow cytometry within the total doublet discriminated (DD) events (
+Figures 1
+E–1G). The results showed reduced CD45
++
+circulating leukocyte populations within DD events following all exposures, compared to NL-Sham controls (
+Figures 1
+F and 1G). Collectively, these results indicate that 24 h following combined exposures, there are immune system decrements, in both primary (thymus; SPE irradiation) and secondary (spleen; GCR and gamma irradiation) immune organs, which may be associated with reduced circulating leukocytes.
+Figure 1.
+Open in a new tab
+Immune Organs and Total Leukocyte Populations Display Disparities following Simulated Deep Space Exposures
+(A) Experimental plan timeline: 15-week-old female C57BL/6J mice were cage acclimated for 3 days (day −3) before experimental initiation (0). Mice were either normally loaded (NL, shaded) or hindlimb unloaded (HU, not shaded) for 14 days. On day 13 mice were whole body irradiated with Sham (0 Gy, green), galactic cosmic rays (GCR, 0.5 Gy, blue), solar particle events (SPE, 1 Gy, red), or gamma (5 Gy, yellow) irradiation types (formulas described in
+Methods
+). 24 h post-irradiation (day 14), mice were euthanized and blood and tissues were collected. Body weights were measured on days −3, 0, 7, and 14. Tissue weights were measured on collection day 14.
+(B–G) (B) Body weights were measured on days −3, 0, 7, and 14. Immune organ weights of the spleen (C) and the thymus (D) were performed on collection day 14 and normalized to total body weight (g/g). Flow cytometric gating scheme to collect singlets, remove doublets, (“DD” denotes doublet discrimination), and identify CD45
++
+events (E). Percent (%) (F) and absolute counts (G) of total leukocyte populations (CD45
++
+/all doublet discriminated events, DD) displayed for each exposure group. A Grubbs test was performed on all datasets followed by testing for normal distribution via a Kolmogorov-Smirnov test. If data were normally distributed, a one-way ANOVA Dunnett test was performed to compare NL and HU controls to all groups and a parametric unpaired t test with Welsh's correction was performed to compare between similar irradiation groups. If normality was not passed, both a non-parametric Kruskal-Wallis test with a Dunn's posthoc analysis to compare NL and HU controls with all groups and a non-parametric Mann-Whitney U test comparing between similar irradiation groups were performed. Data in (B) represent a scatterplot. (C and D) Data represent a box-and-whiskers plot with minimum and maximum data points. (F and G) Bar graphs data represent means ± SEM (p < 0.05, n = 8–10 per group). “∗” denotes significant difference between NL-Sham and associated groups, “#” denotes significant difference between HU-Sham and associated groups, and intergroup “brackets with a &” denotes significant difference between each group. Filled circles, boxes, and bars denote normal loaded (NL), and non-filled circles, boxes, and bars denote hindlimb unloaded (HU).
+Innate Immune Profiles Revealed Distinct Populations following Simulated Deep Space Exposures
+Subgroups of leukocytes were analyzed to determine the profile of innate immune cells following 24 h of acute, simulated GCR, SPE, or gamma irradiation exposures, singly or in combination with HU (14 days). Gating schemes within CD45
++
+events displayed neutrophils (Ly6g
+high
+CD11b
++
+), eosinophils (Ly6g
+low
+CD11b
++
+), monocytes (Ly6g
+−
+CD11b
++
+), B cells (CD20
++
+NK1.1
+-
+/CD45
++
+) (
+Figures 2
+A,
+3
+A, and
+S1
+A–S1C), and NK/NKT cells (CD20
+−
+NK1.1
++
+/CD45
++
+) (
+Figures 3
+A, 3C and
+S1
+D). The results revealed elevated neutrophil populations in HU-Sham, - SPE, and gamma irradiation in combination with HU groups, compared with NL-Sham controls (
+Figure 2
+C). No significant differences were seen between monocytes (
+Figure 2
+B) or neutrophils (
+Figure 2
+C) with GCR or SPE irradiation alone compared with NL-Sham controls. There were no differences noted across all innate immune groups following GCR irradiation, singly or in combination with HU (
+Figures 2
+B–2D and
+3
+C). Interestingly, a significant elevation in eosinophils (
+Figure 2
+D) and NK/NKT (
+Figure 3
+C) cells was observed in single SPE and gamma irradiation, that was suppressed in combination with HU, which indicates SPE and gamma irradiation selectively targets these cell types compared to NL-Sham controls. Moreover, these results also indicate suppressed inflammation in response to combination SPE and gamma irradiation with HU. Interestingly, gamma irradiation alone induced all innate immune profiles, compared with NL-Sham controls, which was reduced in combination with HU (
+Figures 2
+B–2D and
+3
+C), indicating suppressed inflammation in gamma irradiation in combination with HU. Collectively, these trends suggest that higher doses of ionizing irradiation may be more toxic, causing heightened immunogenicity.
+Figure 2.
+Open in a new tab
+Innate Immune Profiles Reveal Elevated Populations in SPE and Gamma Irradiation that Are Selectively Suppressed in Combination with HU, No Difference in Population with GCR Irradiation ± HU
+(A–D) (A) Representative flow plots are displayed for percentage CD45
++
+CD11b
+−
+cells (bottom left box), monocytes (bottom right box), neutrophils (top right box), and eosinophils (between right boxes). Percentage (%) of monocytes (Ly6g
+−
+CD11b
++
+/CD45
++
+) (B), neutrophils (Ly6g
+high
+CD11b
++
+/CD45
++
+) (C), and eosinophils (Ly6g
+low
+CD11b
++
+/CD45
++
+) (D), are displayed within each exposure group. Bar graph data represent means ± SEM (
+p
+< 0.05, n = 8–10 per group). Statistical tests and labels are the same as
+Figure 1
+.
+Figure 3.
+Open in a new tab
+B and NK/NKT Cells Reveal Differential Population Percentages following Deep Space Exposures
+(A) Representative flow gating for B and NK/NKT cells percentages.
+(B) Percentage (%) B cells (CD20
++
+NK1.1
+-
+/CD45
++
+) are displayed within total leukocyte populations.
+(C) Median fluorescence intensity (MFI) of cell surface expression of CD20 on all CD45
++
+cells.
+(D) Percent (%) of NK/NKT cells (NK1.1
++
+CD20
+-
+/CD45
++
+). Bar graph data represent means ± SEM (p < 0.05, n = 7–10 per group). Statistical tests and labels are the same as
+Figure 1
+.
+Adaptive Immune Profiles Revealed Select B, T Helper, and T Cytotoxic Lymphocytes Are Negatively Impacted by Simulated Deep Space Exposures
+Lymphocytes are sensitive to ionizing irradiation exposures, whereby irradiation initiates DNA damage triggering apoptosis (
+Schaue and McBride, 2012
+). To assess the effects of deep space-relevant exposures on lymphocyte profiles we first assessed B cell populations. The gating scheme for B cells is displayed in
+Figure 3
+A
+.
+Although no difference was revealed for GCR irradiation alone, compared with NL-Sham controls, all other irradiation groups, singly or in combination with HU resulted in significant reduction of B cells, compared to NL-Sham controls (
+Figures 3
+B and
+S1
+E). These results suggest possible impairments in antibody-producing, plasma cell differentiation. To confirm impaired B cell differentiation median fluorescent intensity (MFI) of cell surface CD20 was assessed, as CD20 expression levels are reduced during B cell maturation into plasma cells (
+Robillard et al., 2014
+;
+Styles et al., 2017
+). There was no reduction in B cell surface expression of CD20 (
+Figure 3
+C), suggesting B cell differentiation processes are impaired with GCR and SPE irradiation, singly or in combination with HU, compared with NL-Sham controls. T cell lineages were also characterized by flow cytometry in blood following space-relevant conditions, including T helper (T
+h
+, CD8
+−
+CD4
++
+/CD3
++
+) and T cytotoxic (T
+c
+, CD8
++
+CD4
+-
+/CD3
++
+) lymphocytes (
+Figure 4
+A). The results revealed GCR irradiation singly and in combination with HU significantly reduced circulating T
+h
+and T
+c
+lymphocytes, compared to NL-Sham controls, whereas no significant effects in T cell populations were observed with gamma irradiation (
+Figures 4
+B–4E). In addition, SPE irradiation exposures (single and combination groups) also reduced T
+c
+lymphocyte numbers (
+Figures 3
+C and 3E). Collectively, these results indicate impairment in B cell and effector/central memory T cell adaptive immune responses following deep space-relevant exposures, which can pose a major health risk limitation on future human exploration missions.
+Figure 4.
+Open in a new tab
+Lymphocyte Immune Profiles Indicate T Cytotoxic and T Helper Effector Cells Are Reduced following GCR and SPE Irradiation
+(A–E) (A) Representative flow gating for T cytotoxic (T
+c
+) and T helper (T
+h
+) cells within CD3
++
+doublet discriminated events. Percentage (%) and absolute counts of T helper (T
+h
+) cells (CD4
++
+CD8
+-
+/CD3
++
+) (B and D, respectively) and T cytotoxic (T
+c
+) cells (CD4
+−
+CD8
++
+/CD3
++
+) (C and E, respectively) are displayed. Bar graph data represent means ± SEM (p < 0.05, n = 7–10 per group). Statistical tests and labels are the same as
+Figure 1
+.
+Lymphocyte Surface Expression of IL-7R Is Impacted by Simulated Deep Space Exposures, with Elevated Neutrophil to Lymphocyte Ratio (NLR)
+To assess the mechanisms involved in reduced T cell percentage, we characterized the cell surface expression of IL-7R on circulating lymphocytes (
+Figures 5
+A and 5B). IL-7R expression varies throughout T cell development, whereby it is expressed on single-positive naive T cells, but not activated T cells, and then is re-expressed on memory T cells (
+Mazzucchelli and Durum, 2007
+). Furthermore, elevated IL-7R has been linked to multiple inflammatory diseases (
+Anderson et al., 2011
+;
+Belarif et al., 2018
+;
+Willis et al., 2012
+). The results revealed cell surface IL-7R median fluorescence intensity (MFI) was elevated in HU-Sham, compared to NL-Sham controls, which suggests enhanced inflammation following HU for 14 days (
+Figure 5
+C). GCR and SPE irradiation, singly and in combination with HU, resulted in no significant differences in IL-7R expression, compared to NL-Sham alone, other than GCR irradiation with HU, suggesting GCR irradiation in combination with HU may have induced T cell activation (
+Figure 5
+C). Percentage (%) lymphocytes (SSC-A versus CD45
++
+, plot example in
+Figure 1
+G) further supports the damaging effects of GCR and SPE irradiation on these population types (
+Figure 5
+D). Elevated neutrophil to lymphocyte ratio (NLR), a clinical biomarker for
+Paul et al., 2020
+inflammation (
+Isaac et al., 2016
+), was elevated in HU-Sham controls, and in all irradiation-only groups, compared to NL-Sham controls, with partial reduction in combination with HU (
+Figure 5
+E). Collectively, these results suggest select T cell activation and inflammation following deep space simulation.
+Figure 5.
+Open in a new tab
+Differential Expression of IL-7R Surface Expression and Elevated Neutrophil to Lymphocyte Ratio (NLR) in Simulated Deep Space Exposures
+(A and B) Representative flow plot (NL-Sham control only) for lymphocytes within all events that have been doublet discriminated (DD) (A) and IL-7R median fluorescent intensity (MFI) histograms (NL- and HU-Sham only) within lymphocytes (B).
+(C) MFI of IL-7R within lymphocytes is shown.
+(D) Percentage (%) lymphocytes are displayed (SSC-A versus CD45
++
+), as shown in
+Figure 1
+G
+.
+(E) Neutrophil to lymphocyte ratio (NLR), a measurement of subclinical
+Paul et al., 2020
+inflammation (
+Isaac et al., 2016
+), is shown. (C–E) Bar graph data represent means ± SEM (p < 0.05, n = 6–10 per group). Statistical tests and labels are the same as
+Figure 1
+.
+Simulated Deep Space Exposures Induced Unique Cytokine Profiles
+Select cytokine biomarkers consisting of pro- and anti-inflammatory markers were assessed in whole blood by qPCR. The cytokine panel included
+Ifn-γ
+,
+Il-4
+,
+Il-1β
+,
+Tnf-ɑ
+,
+iNOS
+,
+Il-6
+, and
+Il-10
+, and showed that unique cytokine profiles are induced in each exposure group (
+Figure 6
+A).
+Il-1β
+, a pro-inflammatory cytokine and marker of the inflammasome complex (
+Rathinam and Fitzgerald, 2016
+), displayed elevated expression following SPE irradiation in the single exposure group, compared to NL-sham controls (
+Figure 6
+B). GCR irradiation displayed significant suppression of
+Il-1β
+in combination with HU, compared to GCR irradiation alone (
+Figure 6
+B). These results suggest combined simulated deep space exposures may have suppressed inflammation.
+Il-6
+, another pro-inflammatory cytokine well known for its involvement in the acute phase response (
+Tanaka et al., 2014
+), was induced in HU, compared with NL-Sham controls (
+Figure 6
+C), suggesting exposure to simulated microgravity may induce inflammation. Interestingly, GCR irradiation in combination with HU resulted in
+Il-6
+suppression (
+Figure 6
+C), supporting suppression of inflammation in combined deep space conditions of GCR irradiation and HU.
+Ifn-
+ɣ, is a cytokine produced by T
+c
+cells, T
+h
+1 cells, NK/NKT cells, and innate lymphoid cells-1 subtype-1 (ILC1) (
+Colonna, 2018
+). It has been associated with NK cell activity (
+Lusty et al., 2017
+) and improved macrophage antigen presentation (
+Kak et al., 2018
+). We found in comparison to NL-sham controls,
+Ifn-γ
+was significantly upregulated in both GCR irradiation exposure groups, singly or combined with HU (
+Figure 6
+D). Furthermore, gamma irradiation resulted in increased expression of
+Ifn-γ
+in combination with HU, compared with gamma irradiation alone (
+Figure 6
+D). IL-4 is typically produced by T
+h
+2 and T follicular helper (T
+fh
+) cells, and its primary role promotes cellular survival (
+Keegan and Zamorano, 1998
+). We found significant fold elevation of
+Il-4
+in all irradiation groups in combination with HU, compared to NL-Sham controls (
+Figure 6
+E), suggesting this cytokine may be critically involved in promoting cell survival in the remaining pool of cells following space-relevant exposures. Collectively, these results suggest unique cytokine signatures are produced following different simulated deep space exposures.
+Figure 6.
+Open in a new tab
+Cytokine Profiles Are Distinct following Simulated Deep Space Exposures
+(A–E) (A) Heatmap-generated log fold change quantitative PCR transcript values for the cytokines
+Ifn-γ
+,
+Il-4
+,
+Il-1β
+,
+Tnf-ɑ
+,
+iNOS
+,
+Il-6
+, and
+Il-10
+. Bar charts are shown for cytokines, including
+Il-1β
+(B)
+, Il-6
+(C)
+, Ifn-
+ɣ (D), and
+Il-4
+(E) using relative fold change (RFC) and
+Gapdh
+as the normalization gene.
+Figures 6
+B–6E bar graph data represents means ± SEM (p < 0.05, n = 4–10 per group). Statistical tests and labels are the same as
+Figure 1
+.
+miRNA Profiling Revealed A Relationship to Immune Dysfunction in Simulated Deep Space Exposures
+miRNAs are non-coding RNA interference molecules involved in silencing post-transcriptional gene expression (
+O'Brien et al., 2018
+). Due to their important role in gene expression regulation (
+O'Brien et al., 2018
+), contribution to immunity (
+Tsitsiou and Lindsay, 2009
+), and importance for therapeutic purposes (
+van Rooij and Kauppinen, 2014
+), we sought to assess the circulating miRNA profile expressed in the plasma following simulated deep space exposures. We focused on miRNAs in plasma, as we have demonstrated that the immune system dysregulation is systemic and circulating (
+Beheshti et al., 2017
+,
+2018
+,
+2019
+;
+Mehta and Baltimore, 2016
+;
+Montagner et al., 2013
+;
+Schwarzenbach and Gahan, 2019
+). To determine the overall impact that miRNAs have on the immune system, we first predicted gene ontology (GO) terms with an false discovery rate < 0.05 from processed miRNA-sequenced plasma data for all conditions and filtered for specific immune GO terms (
+Figure 7
+). The GO immune terms were categorized by utilizing the GO Mouse Genome Informatics (MGI) information for specific GO immune terms (
+Smith and Eppig, 2009
+). An Upset plot (
+Figure S2
+) shows general up and down immune pathways in each listed condition and the overlapping pathways between conditions. Overall, majority of the immune pathways are downregulated. Pathways related to humoral immune responses were the exception and predicted to be upregulated due to miRNAs, as miRNAs in general can elevate humoral immunity (
+Danger et al., 2014
+;
+O'Connell et al., 2010
+). A more detailed analysis of the specific GO immune terms (
+Figure 7
+A) revealed specific pathways clustering together following specific irradiation exposures. We confirmed this pattern of immune dysregulation in deep space exposure groups in Hallmark pathways/gene sets (
+Liberzon et al., 2015
+) regulated by miRNAs, which showed distinct patterns within each group (
+Figure 7
+B). Collectively, these results confirmed that distinct immunogenic impairment following simulated deep space exposures may be regulated by circulating factors, specifically miRNAs.
+Figure 7.
+Open in a new tab
+Gene Ontology (GO) Analyses of miRNA Terms Display Select Exposures Caused Differential Immunogenic Responses
+GO terms with a false discovery rate <0.05 cutoff were considered significant. Specific immune-related GO terms were mapped to the GO Mouse Genome Informatics (MGI) and were plotted with R packages. Biological and molecular immune pathways engaged following ionizing irradiation exposures, singly or in combination with HU.
+(A) Heatmap comparison of GO terms determined by expressed miRNAs.
+(B) Heatmap comparison of Hallmark terms determined by expressed miRNAs.
+Elevated Inflammation in Astronauts on ISS Missions in LEO
+Characterization of biomarkers of inflammation during spaceflight is critical for understanding human adaptation to spaceflight. Although ionizing irradiation exposures in LEO are not at the same as doses experienced in deep space, health risks associated with these doses are still considerable, and career limiting. To characterize inflammation experienced on orbit, we re-purposed retrospective data from ISS crewmembers participating in three experiments: Nutritional Status Assessment (2006–2012), Dietary Intake Can Predict and Protect Against Changes in Bone Metabolism During Space Flight and Recovery (Pro K) (2010–2015), and Biochemical Profile (2013–2018). Subsets of these data have been previously published (
+Crucian et al., 2014
+;
+Smith et al., 2015
+).
+Pro-inflammatory IL-1β and IL-1α and pleiotropic insulin-like growth factor (IGF)-1 and IL-1 receptor antagonist (RA) were analyzed. The results showed that IGF-1 was induced at in-flight day 15 and remained persistent through flight and during post-flight return (
+Figure 8
+and
+Table S1
+). Cytokines IL-1β and IL-1α were also inconsistently elevated during flight, compared with preflight, whereas both returned to pre-flight levels upon return to Earth, suggesting ground readaptation (
+Figure 8
+). In addition, IL-1RA was also elevated in-flight, and returned to pre-flight baseline controls (L-45,
+Figure 8
+), indicating homeostatic inhibition of IL-1α and/or IL-1β may also be regulated in-flight. As both pro-inflammatory IL-1α and IL-1β levels are elevated in-flight, along with their inhibitor IL-1RA, it indicates that other factors involved in pro-inflammatory cytokine expression supersede IL-1RA inhibition. These studies, and others (
+Buchheim et al., 2019
+;
+Garrett-Bakelman et al., 2019
+), indicate that inflammation is induced in LEO, although mechanisms are also in place to maintain homeostasis, which may also apply during missions beyond LEO.
+Figure 8.
+Open in a new tab
+Elevated Markers of Inflammation in Astronauts on 4- to 6-Month ISS Missions
+Blood samples were collected at launch minus (L-) 45 days, on Flight Day (FD)15, FD30, FD60, FD120, and FD180; post-flight samples were collected in the first 24 h after landing and again 30 days later . Inflammatory markers were analyzed in plasma for IGF-1, IL-1β, IL-1α, and IL-1RA. Repeated measures analysis of variance was conducted to test for differences during and after flight compared with preflight, and comparisons among time points were made using a Bonferroni t test. Multiple comparisons were accounted for. Data represent means ± SEM (∗∗∗p < 0.001, n = 59 crewmembers; 47 males, 12 females). Subsets of these data have been previously published (
+Crucian et al., 2014
+;
+Smith et al., 2015
+).
+Herein, the results revealed that at 14 days post-HU and 1 day post-acute irradiation exposure, total body and immune organ (spleen and thymus) weights were reduced, which was accompanied by reduced total leukocytes in combination exposures, compared to NL-Sham controls. Most strikingly, reduced frequency of T effector lymphocytes (i.e., T helper, T
+h
+and T cytotoxic, T
+c
+cells) and B lymphocytes in the presence of combined conditions, compared to NL-Sham controls, were noted indicating the potential for impaired adaptive immunity. Furthermore, differential cytokine profiles were also characterized, which displayed the potential for T
+h
+2 lineages to develop, while Gene Ontology (GO) and Hallmark terms determined by circulating miRNAs displayed similar immune deviations in mice. Similarly, astronaut data revealed inflammation occurs in LEO missions, analogous to our ground-based results in mice. Collectively, these results demonstrate that differential immune profiles are probable throughout the course of long-duration, exploratory missions in deep space and describe circulating immune biomarkers (i.e., select cell types and miRNAs) as potential therapeutic targets to regulate immunity.
+Discussion
+Utilizing the recently developed simplified version of the NASA consensus formula of five different ions to simulate GCR and SPE irradiation at NSRL, our study sought to investigate the immediate-early immune effects following acute simulated deep space exposures of ionizing irradiation, singly or in combination with simulated microgravity in mice. We also sought to describe the contributing role of circulating miRNAs on the immune profile, as miRNAs have been identified as regulators of immunity (
+Baker et al., 2019
+;
+Danger et al., 2014
+;
+Mehta and Baltimore, 2016
+;
+Montagner et al., 2013
+;
+O'Brien et al., 2018
+;
+O'Connell et al., 2010
+;
+Tsitsiou and Lindsay, 2009
+). Known effects of ionizing irradiation can cause immunogenic responses (
+Baselet et al., 2019
+;
+Li et al., 2014
+;
+Teresa Pinto et al., 2016
+). Indeed, high-LET irradiation causes more damaging tracks and elevates apoptosis, compared to low-LET irradiation (
+Niemantsverdriet et al., 2012
+). Yet, comprehensive immune studies on the effects of acute high- and low-LET irradiation are limited (
+Gridley and Pecaut, 2006
+). Therefore, characterizing immune profiles and circulating miRNAs following distinct ionizing irradiation types are essential for successful missions to the lunar surface and Mars.
+In our study, both GCR and SPE irradiation exposures in the presence or absence of HU in mice caused a significant reduction in total leukocytes (
+Figures 1
+F, 1G, and
+S1
+), in particular T
+h
+and T
+c
+cells (
+Figures 4
+B–4E). Whole body weights were significantly reduced in GCR and SPE irradiation groups in combination with HU (
+Figure 1
+B) along with reduced spleen weights in GCR and gamma irradiation (
+Figure 1
+C), which may be due to reduced circulating leukocytes (
+Figures 1
+F and 1G and
+S1
+). Furthermore, reduced thymus weights in HU combination groups with SPE irradiation (
+Figure 1
+D) implies reduced clonal diversity of lymphocytes during deep space exposures, which can affect adaptive immune responses against future challenges. In line with this, miRNA immune GO terms revealed reduced spleen and thymus development following all irradiation groups, further supporting that deep space exposures can impair immune organ development (
+Figure 7
+A). Thus, two possible outcomes are postulated: (1) delayed lymphocyte proliferation or (2) elevated apoptosis of both dividing and non-dividing cells. In addition, B cell differentiation and humoral immunity were also affected in GCR and SPE irradiation groups, compared with NL-Sham controls (
+Figures 3
+B and 3C) that may be partially dependent on cytokine signals (
+Figure 6
+) and T
+h
+cell populations (
+Figures 4
+B and 4D). Innate immune profiles were also differentially affected following distinct exposures, adding another layer of complexity to this model. Nonetheless, these results collectively indicate unique immunogenic profiles following different ionizing irradiation exposures, in the presence or absence of simulated microgravity that may be useful for future space bioscience studies to expand upon.
+Along with different HU cage conditions/designs, head-down tilt angles (degrees of cephalad fluid shifting) used to simulate microgravity may cause distinct immune results. For instance, Wei et al. reported reduced thymic and spleen weights are due to lymphocyte apoptosis induced through elevated stress responses and corticosterone production on day 10 of HU exposure (25°–30° head-tilt angle) (
+Wei et al., 2003
+). However, Ferreira et al. showed no difference in body or adrenal weights following 14 or 28 days (15° head-tilt angle) of HU (
+Ferreira et al., 2011
+). Furthermore, work by Tahimic et al. revealed spleen weights were reduced at 30 days (30° head-tilt angle) of HU, which may have partially depended on the number of circulating T
+h
+cell populations (
+Tahimic et al., 2019
+). In our study, reduced thymus, but not spleen, weights were noted in HU-Sham, compared with NL-Sham controls (30º head-tilt angle) (
+Figures 1
+C and 1D). Furthermore, there was no significant difference between T
+c
+or T
+h
+populations following 14 days of HU, compared with NL-Sham controls (
+Figures 4
+B–4E), but there were significant reductions in total leukocyte populations (
+Figures 1
+F and 1G) and B cells (
+Figure 3
+B). Therefore, reduced thymus weights in HU-Sham compared to NL-Sham controls may be due to overall reduced leukocyte populations. Inflammation following simulated microgravity has been recorded in multiple studies (
+Cavey et al., 2017
+;
+Li et al., 2015
+;
+Zhang et al., 2010
+,
+2014
+), with an associated mechanism of elevated neutrophil counts (
+Dumont et al., 2007
+,
+2008
+;
+Frenette et al., 2002
+;
+Tahimic et al., 2019
+) leading to uncontrolled musculoskeletal damage (
+Dumont et al., 2008
+;
+Frenette et al., 2002
+). In our study, there were elevated neutrophils (
+Figure 2
+C), NLR (
+Figure 5
+E), and
+Il-6
+(
+Figure 6
+C) after 14 days of HU, suggesting neutrophil persistence, as IL-6 protects neutrophils from apoptosis (
+Asensi et al., 2004
+). Certainly, inflammatory neutrophil persistence can be damaging if not adequately controlled (
+Mortaz et al., 2018
+). Therefore, these results indicate HU, dependent on cage conditions/designs, may promote inflammation.
+Innate immune populations were also evaluated. For one, SPE irradiation alone resulted in significant elevation of eosinophils (
+Figure 2
+D) and NK/NKT cell (
+Figure 3
+D) percentages, compared to NL-Sham controls. Interestingly, ionizing irradiation can cause cardiovascular complications (
+Puukila et al., 2017
+), while elevated NK cells (
+Ong et al., 2017
+) and eosinophils (
+Séguéla et al., 2015
+) can contribute to these pathologies. Gamma irradiation alone resulted in a significant elevation in monocytes, neutrophils, eosinophils, and NK/NKT cell percentages, compared with NL-Sham controls (
+Figures 2
+B–2D and
+Figure 3
+D), suggesting distinct immune profiles are generated between different ionizing irradiation types. Indeed, gamma irradiation had considerable effects on innate immune cell recruitment into blood circulation, compared with GCR and SPE irradiation, indicating different mechanisms of immunogenicity following irradiation damage, which may be a factor of the high dose of gamma irradiation. Indeed, overall cell numbers were reduced within all radiation exposures, compared to NL-Sham controls, indicating the damaging effects of ionizing irradiation on the immune system (
+Figures 1
+F, 1G, and
+S1
+). However, for the purpose of establishing the RBE in this study, gamma was used at a higher dose to make comparisons between charged particles (GCR, SPE) and photons (gamma). In addition, there are qualitative differences between the biological effects of each, such that gamma irradiation serves as a useful high-ionization control. Interestingly, all four innate populations studied are inflammation-producing cells upon activation and were suppressed when gamma irradiation was combined with HU, indicating the potential for inhibited inflammation. Similar impairment was observed in SPE irradiation in combination with HU groups in terms of reduced eosinophil (
+Figure 2
+D) and NK/NKT cell percentages (
+Figure 3
+D). As such, a reduced number of select innate immune cells 24 h following distinct irradiation treatments in combination with simulated microgravity, may be a result of impaired innate immune cell recruitment. In addition, miRNA immune GO term analyses indicated a general reduction in myeloid cell differentiation and F
+c
+R-mediated signaling in all exposure groups, suggesting distinct biological pathways involved in phagocytosis (
+Koenderman, 2019
+) are suppressed during simulated deep space exposures (
+Figure 7
+A). Collectively, impairment in both leukocyte recruitment and phagocytic function can result in inefficient innate responses against challenges, i.e., microbial or viral. In line with this, astronauts on board the ISS experience immune dysregulation and heightened infections (
+Cervantes and Hong, 2016
+;
+Crucian et al., 2015
+;
+Mehta et al., 2017
+;
+Nash, 2000
+), which may be a result of poor immunogenic innate immune responses and recruitment. However, further studies with these distinct deep space-relevant exposures, circulating miRNAs, and cell types are required.
+Aside from elevated
+Ifn-γ
+in GCR irradiation exposure groups, compared to NL-Sham controls (
+Figure 6
+D), GCR irradiation in combination with HU displayed reduced inflammation compared with GCR irradiation alone, as measured by the pro-inflammatory cytokines,
+Il-1β
+and
+Il-6
+. These results suggest simulated microgravity suppressed inflammation in combination with GCR irradiation (
+Figures 6
+B and 6C). Indeed, this may partially explain reduced B cell percentage in GCR irradiation with simulated microgravity (
+Figure 3
+B), as IL-6 is a plasma cell differentiator that enhances humoral immunity (
+Dienz et al., 2009
+). Furthermore, IL-6 differentiates naive T cells into T follicular helper (T
+fh
+) cells, which drives B cell maturation into plasma cells (
+Crotty, 2014
+). IL-1β has also recently been characterized to play an important role in T
+fh
+effector cell development as well (
+Ritvo and Klatzmann, 2019
+). Therefore, reduced expression of both of these cytokines in combined GCR irradiation with HU may be indirectly linked to reduced B cell differentiation. In line with this, both GCR irradiation groups displayed a significant reduction in T
+h
+cells compared to NL-Sham controls (
+Figures 4
+B and 4D). Although distinct effector T cell profiles, including T
+fh
+, were not thoroughly characterized, T
+fh
+effector cell lineage would have been included in these overall T
+h
+cell populations. Additionally, CD20 surface molecule expression on B cells is reduced during B cell maturation into plasma cells (
+Robillard et al., 2014
+;
+Styles et al., 2017
+). However, we did not see any difference in cell surface expression of CD20 MFI (
+Figure 3
+C), suggesting B cell differentiation into antibody-secreting plasma cells may be impaired in GCR and SPE irradiation groups, compared to NL-Sham controls. As B cell numbers are reduced (with no difference in CD20 surface expression) within GCR and SPE in combination with HU groups, there is a lower pool of antibody-production vehicles essential for effective humoral immunity. miRNA GO immune terms displayed reduced B cell differentiation and homeostasis in SPE irradiation and gamma irradiation, compared with HU-Sham controls, but was no different with GCR irradiation groups (
+Figure 7
+A), further suggesting distinct immune-related pathways are regulated following deep space simulations. Of interest, robust gene expression of
+Il-4
+(
+Figure 6
+E), which is produced by T
+h
+2 and T
+fh
+cells, directly promotes B cell maturation to plasma cells and ultimately the release of antibodies. Therefore, although initial B cell populations are reduced, functional output may be compensated for via robust expression of
+Il-4
+. LEO spaceflight missions have described minimal differences in B cell numbers and antibody production of IgG or IgM; however, IgA levels in flight were significantly upregulated compared with ground controls (
+Spielmann et al., 2019
+). This effect may be explained by the general effects of circulating miRNAs, as humoral immunity is predicted to be elevated by miRNAs (
+Danger et al., 2014
+;
+O'Connell et al., 2010
+). In our study, general upregulation of humoral responses are shown, yet multiple miRNA GO terms revealed that the humoral immune responses mediated by circulating Igs and B cells were suppressed with GCR combined with HU, compared to HU-Sham controls, further supporting humoral immunity may be dysregulated following deep space simulations (
+Figure 7
+A). Future studies addressing the level of Ig antibodies, B cell/plasma cell distribution, and circulating miRNAs involved during deep space missions would provide further insight into mechanisms involved in humoral immunity.
+A principal finding in our study was reduced expression of T
+h
+and T
+c
+cells, compared to NL-Sham controls. As main components of the adaptive immune system, both T
+h
+and T
+c
+cells provide the advantage of immunological memory and assist with humoral immunity, which are important to prevent recurrent infections and tumor development. This becomes particularly important during long-duration missions, where medial intervention is limited. Indeed, infectious agents such as herpes simplex virus reactivate during LEO spaceflight and are dependent on impaired cytotoxic T cells (
+Mehta et al., 2017
+;
+Nash, 2000
+). Furthermore, previous reports have indicated ionizing irradiation activates T cells (
+Schaue and McBride, 2012
+). However, the overall effect of ionizing irradiation on lymphocyte outcomes (i.e., activation or apoptosis) depends on multiple factors, most notably the dose and dose schedule (
+MacLennan and Kay, 1978
+;
+Schaue and McBride, 2012
+). For instance, preconditioning mice, i.e., irradiation for graft transplantation, relies on lethal bone marrow irradiation doses and fractionations to reduce lymphocyte counts (
+Bagley et al., 2002
+). In our study, GCR irradiation caused extensive reduction in both T
+h
+and T
+c
+cells, compared with SPE or gamma irradiation (
+Figures 4
+B–4E), indicating GCR irradiation produced more damaging effects on these cell types. Inhomogeneous dose depth between charged particles (GCR, SPE) and photon (gamma) tracks may be involved in this effect, as gamma irradiation exposure groups did not significantly affect T
+h
+or T
+c
+numbers, compared with SPE and GCR irradiation groups. Thus, GCR and SPE irradiation may target deeper immune tissues, such as lymph nodes, where the majority of T naive and circulating T effector cells reside when not trafficking in the bloodstream (
+Hunter et al., 2016
+). The radiosensitivity of lymphocytes is dependent on the speed of DNA repair mechanisms relative to division, as non-proliferating cells are more radioresistant (
+Schaue and McBride, 2012
+). Radioresistance is observed in non-dividing cells as these cells are in G0 stage, during which DNA is compact and stable, protein-protected heterochromatin (
+Falk et al., 2008
+;
+Karagiannis et al., 2007
+). Proliferating lymphocytes, on the other hand, have exited the G0 stage and are in the DNA synthesis phase, which makes them more vulnerable to irradiation damage (
+Falk et al., 2008
+;
+Karagiannis et al., 2007
+). Cellular division requires correct, undamaged DNA to be copied to their progeny, and if repair mechanisms are not fast enough, elevated apoptosis results (
+Niemantsverdriet et al., 2012
+). Indeed, miRNA Hallmark terms for DNA repair are upregulated, indicating after exposure to deep space simulations, circulating miRNAs are involved in DNA repair machinery, whereby DNA damage has occurred (
+Figure 7
+B). Although we did not measure apoptosis directly, miRNA Hallmark terms also identified select apoptosis pathways were engaged during GCR irradiation exposures, compared to HU-Sham controls (
+Figure 7
+B), suggesting elevated DNA damage may be beyond repair, leading to apoptosis, following GCR irradiation conditions.
+We further assessed lymphocyte surface receptor expression of IL-7R. As described above, IL-7R is expressed on naive T cells, but not activated T cells, and then is re-expressed on memory T cells (
+Mazzucchelli and Durum, 2007
+). Indeed, IL-7R MFI was reduced in GCR irradiation combined with HU, compared to NL-Sham controls, suggesting T cell activation (
+Figure 5
+C). In line with this,
+Il7R
+knockout mice have significantly reduced developmental T and B cells, and are similar phenotypically as SCID mice, which are immunocompromised (
+Peschon et al., 1994
+). This may somewhat explain overall reduced lymphocyte populations following simulated spaceflight exposures, along with reduced thymic and splenic weights, as well. Interestingly, miR-199a and miR-142–3p target
+Il7R
+(
+Luo and Fu, 2018
+), reducing its expression levels; however, in our report, mechanisms of this requires further investigation. Conversely, elevated IL-7R has been linked to multiple inflammatory diseases (
+Anderson et al., 2011
+;
+Belarif et al., 2018
+;
+Willis et al., 2012
+). For example, blocking IL-7R inhibited JAK/STAT, ERK, and PI3K signaling of IFN-γ from memory cytotoxic T cells, limiting chronic inflammation (
+Belarif et al., 2018
+). In line with this, miRNA Hallmark terms displayed general reduction of PI3K/AKT signaling and inflammatory response pathways across all simulated deep space exposures, indicating miRNA involvement in suppression of these pathways (
+Figure 7
+B). Alternatively, HU-Sham groups had elevated IL-7R MFI, which suggests elevated inflammation. Indeed, miRNA Hallmark terms displayed elevated reactive oxygen species (ROS) across all exposure groups, and HU-Sham controls displayed heightened ROS expression levels (
+Figure 7
+B). Heightened ROS can cause inflammation both in spaceflight and on Earth (
+Crucian et al., 2018
+;
+Garrett-Bakelman et al., 2019
+;
+Nguyen et al., 2017
+), which may be an associated mechanism involved during heightened inflammation in the HU-Sham groups. Therefore, IL-7R, along with neutrophil counts (
+Figure 2
+C), NLR (
+Figure 5
+E),
+Il-6
+expression (
+Figure 6
+C), and ROS Hallmark terms regulated by miRNAs (
+Figure 7
+B) are all elevated in HU-Sham mice, further supporting inflammatory outcomes following prolonged microgravity. In line with this, ISS LEO crew member data displayed inflammation via elevated IL-1β and IL-1α compared with pre-flight controls (
+Figure 8
+,
+Table S1
+). Importantly, these molecules were induced early (day 15) during spaceflight, whereby the effects of ionizing irradiation exposures would have been minimal (
+Figure 8
+,
+Table S1
+), confirming inflammation is induced in LEO astronauts, similar to our ground HU model.
+Lymphopenia, or reduced T and B cell counts, poses a problem for adequate immunological protection against challenges (
+Schaue and McBride, 2012
+). Furthermore, lymphopenia recovery results in immune profiling changes that may be either detrimental or helpful to the host. In this report, compared to NL-Sham controls, robust induction of
+Il-4
+following all ionizing irradiation groups combined with HU was noted. IL-4 is typically associated with T
+h
+2 effector cells, which are chiefly involved in allergic inflammation, including asthma, chronic rhinosinusitis, atopic dermatitis, and eosinophilic gastrointestinal inflammatory disease (
+Nakayama et al., 2017
+). Interestingly, during spaceflight astronauts experience elevated allergic-like symptoms including rashes (
+Dunn et al., 2018
+) and hypersensitivity episodes (
+Voorhies et al., 2019
+). Therefore, T
+h
+2 immunity may be the principal immune response generated during deep space exposures; however, further evaluation of the type of T
+h
+cell subtypes produced in response to simulated deep space exposures are necessary.
+Deep spaceflight exposures present immunologically complicated outcomes. Synergistic inflammatory or immunogenic responses were variable in some, but not all, measurements, and in some cases were non-productive. Furthermore, circulating miRNAs (cell-to-cell transfer via exosomes) (
+Montagner et al., 2013
+;
+Schwarzenbach and Gahan, 2019
+) contribute to unique immune profiles, therefore miRNAs may be important for immune-targeted therapies. Although not studied in this report, added complexities involving combined types of ionizing irradiation, as well as protracted versus acute irradiation exposures that would also be experienced during deep spaceflight, are necessary to consider in future studies. Furthermore, only a small snippet into the immune response was assessed in this study; therefore, longitudinal responses and functional consequences are also required in future studies. Nonetheless, we found distinct immune profiles and miRNA signatures are produced by each irradiation exposure group, singly or in combination with HU in mice. Therefore, selective countermeasures targeting distinct immune responses in crew members may be required during long-duration exploratory missions to the lunar surface and Mars.
+Limitations of the Study
+In this study, we report the immune and miRNA differentials of mice following ground-based simulations of deep spaceflight, along with analyses of crew member inflammation in LEO. As this study utilized ground-based simulations in mice, deep spaceflight comparisons would be required to confirm similar profiles. Additionally, interpretation of whole-blood transcriptomics to specific cell types is limited in this study; however, these data provide insight into the overall cytokine profile induced by each condition that is independent of cell frequency. Furthermore, the contribution of miRNAs to the generated immune populations is described; however, an understanding into mechanism and/or functional outcomes would fully elucidate their role to overall immunity. In addition, the time point of collections was at an immediate response, yet the long-term response would also be of benefit, in particular, for long-duration missions. Finally, the comparisons between the immune differentials in mice and humans is a limitation; however, this study can give some insight into the significant immune population changes (i.e., T cytotoxic lymphocytes) that can be studied in humans during deep spaceflight mission in the near future.
+Resource Availability
+Lead Contact
+Further information and requests for resources and reagents should be directed to the Lead Contact, Afshin Beheshti, PhD (
+afshin.beheshti@nasa.gov
+).
+Materials Availability
+This study did not generate any unique reagents.
+Data and Code Availability
+The plasma miRNA-seq raw fastq files can be found on Database: NASA's GeneLab data repository/platform (
+https://genelab.nasa.gov/
+). The accession number for the miRNA-seq data reported in this paper is GeneLab: with the following identifiers: GLDS-336,
+https://doi.org/10.26030/qasa-rr29
+.
+Methods
+All methods can be found in the accompanying
+Transparent Methods supplemental file
+.
+Acknowledgments
+We would like to thank Drs. Peter Guida, Adam Rusek, and Michael Sivertz and the NSRL team at BNL for their assistance and expertise with irradiation studies. This work is supported by the Translational Research Institute for Space Health through NASA Cooperative Agreement NNX16AO69A (T-0404) awarded to A.B. and by the Universities Space Research Association (USRA) and NASA Space Biology Program post-doctoral fellowship to A.M.P. The astronaut data were provided by the Nutritional Status Assessment, Dietary Intake Can Predict and Protect Against Changes in Bone Metabolism During Space Flight and Recovery (Pro K), and the Biochemical Profile projects (PI: Smith and Zwart), which were supported by the NASA Human Research Program's Human Health Countermeasure Element. We thank the Nutritional Biochemistry Lab for their efforts in making these projects successful.
+Author Contributions
+Conceptualization, A.M.P.; Methodology, E.A.B., M.C.-C., and A.B.; Formal Analysis, A.M.P. A.B., and S.A.; Investigation, A.M.P., E.A.B, M.C.-C., and A.B.; Resources, A.M.P., E.A.B, M.C.-C., R.M., and A.B.; Data Curation, A.M.P., E.A.B, M.C.-C., S.M.S., and A.B., Writing – Original draft, A.M.P.; Writing – Review & Editing, A.M.P., E.A.B., S.A., S.B., R.M., P.G., S.M.S., B.E.C., S.R.Z., and A.B.; Visualization, A.M.P. and A.B.; Supervision, A.B.; Project Administration, A.M.P., E.A.B, M.C.-C., and A.B.; and Funding Acquisition, A.M.P. and A.B.
+Declaration of Interests
+All authors declare no competing interests.
+Published: November 25, 2020
+Footnotes
+Supplemental Information can be found online at
+https://doi.org/10.1016/j.isci.2020.101747
+.
+Supplemental Information
+Document S1. Transparent Methods, Figures S1 and S2, and Table S1
+mmc1.pdf
+(873.1KB, pdf)
+References
+Anderson C.A., Boucher G., Lees C.W., Franke A., D'Amato M., Taylor K.D., Lee J.C., Goyette P., Imielinski M., Latiano A. Meta-analysis identifies 29 additional ulcerative colitis risk loci, increasing the number of confirmed associations to 47. Nat. Genet. 2011;43:246–252. doi: 10.1038/ng.764.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Asensi V., Valle E., Meana A., Fierer J., Celada A., Alvarez V., Paz J., Coto E., Carton J.A., Maradona J.A. In vivo interleukin-6 protects neutrophils from apoptosis in osteomyelitis. Infect Immun. 2004;72:3823–3828. doi: 10.1128/IAI.72.7.3823-3828.2004.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Bagley J., Tian C., Sachs D.H., Iacomini J. T cells mediate resistance to genetically modified bone marrow in lethally irradiated recipients. Transplantation. 2002;74:1454–1460. doi: 10.1097/00007890-200211270-00019.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Baker J.R., Vuppusetty C., Colley T., Hassibi S., Fenwick P.S., Donnelly L.E., Ito K., Barnes P.J. MicroRNA-570 is a novel regulator of cellular senescence and inflammaging. FASEB J. 2019;33:1605–1616. doi: 10.1096/fj.201800965R.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Baselet B., Sonveaux P., Baatout S., Aerts A. Pathological effects of ionizing radiation: endothelial activation and dysfunction. Cell. Mol. Life Sci. 2019;76:699–728. doi: 10.1007/s00018-018-2956-z.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Beheshti A., Ray S., Fogle H., Berrios D., Costes S.V. A microRNA signature and TGF-β1 response were identified as the key master regulators for spaceflight response. PLoS One. 2018;13:e0199621. doi: 10.1371/journal.pone.0199621.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Beheshti A., Stevenson K., Vanderburg C., Ravi D., McDonald J.T., Christie A.L., Shigemori K., Jester H., Weinstock D.M., Evens A.M. Identification of circulating serum Multi-MicroRNA signatures in human DLBCL models. Sci. Rep. 2019;9:17161. doi: 10.1038/s41598-019-52985-x.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Beheshti A., Vanderburg C., McDonald J.T., Ramkumar C., Kadungure T., Zhang H., Gartenhaus R.B., Evens A.M. A circulating microRNA signature predicts age-based development of lymphoma. PLoS One. 2017;12:e0170521. doi: 10.1371/journal.pone.0170521.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Belarif L., Mary C., Jacquemont L., Mai H.L., Danger R., Hervouet J., Minault D., Thepenier V., Nerrière-Daguin V., Nguyen E. IL-7 receptor blockade blunts antigen-specific memory T cell responses and chronic inflammation in primates. Nat. Commun. 2018;9:4483. doi: 10.1038/s41467-018-06804-y.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Buchheim J.I., Matzel S., Rykova M., Vassilieva G., Ponomarev S., Nichiporuk I., Hörl M., Moser D., Biere K., Feuerecker M. Stress related shift toward inflammaging in cosmonauts after long-duration space flight. Front. Physiol. 2019;10:85. doi: 10.3389/fphys.2019.00085.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Cavey T., Pierre N., Nay K., Allain C., Ropert M., Loréal O., Derbré F. Simulated microgravity decreases circulating iron in rats: role of inflammation-induced hepcidin upregulation. Exp. Physiol. 2017;102:291–298. doi: 10.1113/EP086188.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Cekanaviciute E., Rosi S., Costes S.V. Central nervous system responses to simulated galactic cosmic rays. Int. J. Mol. Sci. 2018;19:3669. doi: 10.3390/ijms19113669.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Cervantes J.L., Hong B.Y. Dysbiosis and immune dysregulation in outer space. Int. Rev. Immunol. 2016;35:67–82. doi: 10.3109/08830185.2015.1027821.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Chancellor J.C., Blue R.S., Cengel K.A., Auñón-Chancellor S.M., Rubins K.H., Katzgraber H.G., Kennedy A.R. Limitations in predicting the space radiation health risk for exploration astronauts. NPJ Microgravity. 2018;4:8. doi: 10.1038/s41526-018-0043-2.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Colonna M. Innate lymphoid cells: diversity, plasticity, and unique functions in immunity. Immunity. 2018;48:1104–1117. doi: 10.1016/j.immuni.2018.05.013.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Crotty S. T follicular helper cell differentiation, function, and roles in disease. Immunity. 2014;41:529–542. doi: 10.1016/j.immuni.2014.10.004.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Crucian B., Stowe R.P., Mehta S., Quiriarte H., Pierson D., Sams C. Alterations in adaptive immunity persist during long-duration spaceflight. NPJ Microgravity. 2015;1:15013. doi: 10.1038/npjmgrav.2015.13.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Crucian B.E., Chouker A., Simpson R.J., Mehta S., Marshall G., Smith S.M., Zwart S.R., Heer M., Ponomarev S., Whitmire A. Immune system dysregulation during spaceflight: potential countermeasures for deep space exploration missions. Front. Immunol. 2018;9:1437. doi: 10.3389/fimmu.2018.01437.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Crucian B.E., Zwart S.R., Mehta S., Uchakin P., Quiriarte H.D., Pierson D., Sams C.F., Smith S.M. Plasma cytokine concentrations indicate that in vivo hormonal regulation of immunity is altered during long-duration spaceflight. J. Interferon Cytokine Res. 2014;34:778–786. doi: 10.1089/jir.2013.0129.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Danger R., Braza F., Giral M., Soulillou J.P., Brouard S. MicroRNAs, major players in B cells homeostasis and function. Front. Immunol. 2014;5:98. doi: 10.3389/fimmu.2014.00098.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Dienz O., Eaton S.M., Bond J.P., Neveu W., Moquin D., Noubade R., Briso E.M., Charland C., Leonard W.J., Ciliberto G. The induction of antibody production by IL-6 is indirectly mediated by IL-21 produced by CD4+ T cells. J. Exp. Med. 2009;206:69–78. doi: 10.1084/jem.20081571.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Douda D.N., Khan M.A., Grasemann H., Palaniyar N. SK3 channel and mitochondrial ROS mediate NADPH oxidase-independent NETosis induced by calcium influx. Proc. Natl. Acad. Sci. U S A. 2015;112:2817–2822. doi: 10.1073/pnas.1414055112.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Dumont N., Bouchard P., Frenette J. Neutrophil-induced skeletal muscle damage: a calculated and controlled response following hindlimb unloading and reloading. Am. J. Physiol. Regul. Integr. Comp. Physiol. 2008;295:R1831–R1838. doi: 10.1152/ajpregu.90318.2008.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Dumont N., Lepage K., Côté C.H., Frenette J. Mast cells can modulate leukocyte accumulation and skeletal muscle function following hindlimb unloading. J. Appl. Phys. 2007;103:97–104. doi: 10.1152/japplphysiol.01132.2006.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Dunn C., Boyd M., Orengo I. Dermatologic manifestations in spaceflight: a review. Dermatol. Online J. 2018;24:1–8.
+[
+PubMed
+] [
+Google Scholar
+]
+Falk M., Lukásová E., Kozubek S. Chromatin structure influences the sensitivity of DNA to gamma-radiation. Biochim. Biophys. Acta. 2008;1783:2398–2414. doi: 10.1016/j.bbamcr.2008.07.010.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Fernandez-Gonzalo R., Baatout S., Moreels M. Impact of particle irradiation on the immune system: from the clinic to Mars. Front. Immunol. 2017;8:177. doi: 10.3389/fimmu.2017.00177.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ferreira J.A., Crissey J.M., Brown M. An alternant method to the traditional NASA hindlimb unloading model in mice. J. Vis. Exp. 2011;49:2467. doi: 10.3791/2467.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Frenette J., St-Pierre M., Côté C.H., Mylona E., Pizza F.X. Muscle impairment occurs rapidly and precedes inflammatory cell accumulation after mechanical loading. Am. J. Physiol. Regul. Integr. Comp. Physiol. 2002;282:R351–R357. doi: 10.1152/ajpregu.00189.2001.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Garrett-Bakelman F.E., Darshi M., Green S.J., Gur R.C., Lin L., Macias B.R., McKenna M.J., Meydan C., Mishra T., Nasrini J. The NASA Twins Study: a multidimensional analysis of a year-long human spaceflight. Science. 2019;364:eaau8650. doi: 10.1126/science.aau8650.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Grabham P., Sharma P., Bigelow A., Geard C. Two distinct types of the inhibition of vasculogenesis by different species of charged particles. Vasc. Cell. 2013;5:16. doi: 10.1186/2045-824X-5-16.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Gridley D.S., Pecaut M.J. Whole-body irradiation and long-term modification of bone marrow-derived cell populations by low- and high-LET radiation. Vivo. 2006;20:781–789.
+[
+PubMed
+] [
+Google Scholar
+]
+Gridley D.S., Pecaut M.J. Genetic background and lymphocyte populations after total-body exposure to iron ion radiation. Int. J. Radiat. Biol. 2011;87:8–23. doi: 10.3109/09553002.2010.518203.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Gridley D.S., Pecaut M.J., Nelson G.A. Total-body irradiation with high-LET particles: acute and chronic effects on the immune system. Am. J. Physiol. Regul. Integr. Comp. Physiol. 2002;282:R677–R688. doi: 10.1152/ajpregu.00435.2001.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Hu S.  Solar particle events and radiation exposure in space. In: THREE Editorial Board, editor. NASA Space Radiation Program Element. NASA Space Radiation Program Element, Human Research Program; 2017. pp. 1–15.
+[
+Google Scholar
+]
+Hunter M.C., Teijeira A., Halin C. T cell trafficking through lymphatic vessels. Front. Immunol. 2016;7:613. doi: 10.3389/fimmu.2016.00613.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Isaac V., Wu C.Y., Huang C.T., Baune B.T., Tseng C.L., McLachlan C.S. Elevated neutrophil to lymphocyte ratio predicts mortality in medical inpatients with multiple chronic conditions. Medicine (Baltimore) 2016;95:e3832. doi: 10.1097/MD.0000000000003832.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kak G., Raza M., Tiwari B.K. Interferon-gamma (IFN-ɣ): exploring its implications in infectious diseases. Biomol. Concepts. 2018;9:64–79. doi: 10.1515/bmc-2018-0007.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Karagiannis T.C., Harikrishnan K.N., Kn H., El-Osta A. Disparity of histone deacetylase inhibition on repair of radiation-induced DNA damage on euchromatin and constitutive heterochromatin compartments. Oncogene. 2007;26:3963–3971. doi: 10.1038/sj.onc.1210174.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Keegan A.D., Zamorano J. Regulation of gene expression, growth, and cell survival by IL-4: contribution of multiple signaling pathways. Cell Res. 1998;8:1–13. doi: 10.1038/cr.1998.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Koenderman L. Inside-out control of fc-receptors. Front. Immunol. 2019;10:544. doi: 10.3389/fimmu.2019.00544.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Leliefeld P.H., Wessels C.M., Leenen L.P., Koenderman L., Pillay J. The role of neutrophils in immune dysfunction during severe inflammation. Crit. Care. 2016;20:73. doi: 10.1186/s13054-016-1250-4.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Li M., Holmes V., Zhou Y., Ni H., Sanzari J.K., Kennedy A.R., Weissman D. Hindlimb suspension and SPE-like radiation impairs clearance of bacterial infections. PLoS One. 2014;9:e85665. doi: 10.1371/journal.pone.0085665.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Li P., Shi J., Zhang P., Wang K., Li J., Liu H., Zhou Y., Xu X., Hao J., Sun X. Simulated microgravity disrupts intestinal homeostasis and increases colitis susceptibility. FASEB J. 2015;29:3263–3273. doi: 10.1096/fj.15-271700.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Liberzon A., Birger C., Thorvaldsdóttir H., Ghandi M., Mesirov J.P., Tamayo P. The Molecular Signatures Database (MSigDB) hallmark gene set collection. Cell Systems. 2015;1:417–425. doi: 10.1016/j.cels.2015.12.004.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Luo D., Fu J. Identifying characteristic miRNAs-genes and risk pathways of multiple sclerosis based on bioinformatics analysis. Oncotarget. 2018;9:5287–5300. doi: 10.18632/oncotarget.23866.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Lusty E., Poznanski S.M., Kwofie K., Mandur T.S., Lee D.A., Richards C.D., Ashkar A.A. IL-18/IL-15/IL-12 synergy induces elevated and prolonged IFN-γ production by ex vivo expanded NK cells which is not due to enhanced STAT4 activation. Mol. Immunol. 2017;88:138–147. doi: 10.1016/j.molimm.2017.06.025.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+MacLennan I.C., Kay H.E. Analysis of treatment in childhood leukemia. IV. The critical association between dose fractionation and immunosuppression induced by cranial irradiation. Cancer. 1978;41:108–111. doi: 10.1002/1097-0142(197801)41:1<108::aid-cncr2820410116>3.0.co;2-z.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Martinez E.M., Yoshida M.C., Candelario T.L., Hughes-Fulford M. Spaceflight and simulated microgravity cause a significant reduction of key gene expression in early T-cell activation. Am. J. Physiol. Regul. Integr. Comp. Physiol. 2015;308:R480–R488. doi: 10.1152/ajpregu.00449.2014.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Mazzucchelli R., Durum S.K. Interleukin-7 receptor expression: intelligent design. Nat. Rev. Immunol. 2007;7:144–154. doi: 10.1038/nri2023.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Mehta A., Baltimore D. MicroRNAs as regulatory elements in immune system logic. Nat. Rev. Immunol. 2016;16:279–294. doi: 10.1038/nri.2016.40.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Mehta S.K., Laudenslager M.L., Stowe R.P., Crucian B.E., Feiveson A.H., Sams C.F., Pierson D.L. Latent virus reactivation in astronauts on the international space station. NPJ Microgravity. 2017;3:11. doi: 10.1038/s41526-017-0015-y.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Miller J.  NASA GeneLab; 2020. Radiation Data for GLDS Studies on the International Space Station.
+[
+Google Scholar
+]
+Montagner S., Orlandi E.M., Merante S., Monticelli S. The role of miRNAs in mast cells and other innate immune cells. Immunol. Rev. 2013;253:12–24. doi: 10.1111/imr.12042.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Mortaz E., Alipoor S.D., Adcock I.M., Mumby S., Koenderman L. Update on neutrophil function in severe inflammation. Front. Immunol. 2018;9:2171. doi: 10.3389/fimmu.2018.02171.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Nakayama T., Hirahara K., Onodera A., Endo Y., Hosokawa H., Shinoda K., Tumes D.J., Okamoto Y. Th2 cells in health and disease. Annu. Rev. Immunol. 2017;35:53–84. doi: 10.1146/annurev-immunol-051116-052350.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Narici L., Rizzo A., Berrilli F., Del Moro D.  Elsevier; 2018. Extreme Events in Geospace - Origins, Predictability, and Consequences.
+[
+Google Scholar
+]
+Nash A.A. T cells and the regulation of herpes simplex virus latency and reactivation. J. Exp. Med. 2000;191:1455–1458. doi: 10.1084/jem.191.9.1455.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Nelson G.A. Space radiation and human exposures, A primer. Radiat. Res. 2016;185:349–358. doi: 10.1667/RR14311.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Nguyen G.T., Green E.R., Mecsas J. Neutrophils to the ROScue: mechanisms of NADPH oxidase activation and bacterial resistance. Front. Cell Infect. Microbiol. 2017;7:373. doi: 10.3389/fcimb.2017.00373.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Niemantsverdriet M., van Goethem M.J., Bron R., Hogewerf W., Brandenburg S., Langendijk J.A., van Luijk P., Coppes R.P. High and low LET radiation differentially induce normal tissue damage signals. Int. J. Radiat. Oncol. Biol. Phys. 2012;83:1291–1297. doi: 10.1016/j.ijrobp.2011.09.057.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+O'Brien J., Hayder H., Zayed Y., Peng C. Overview of MicroRNA biogenesis, mechanisms of actions, and circulation. Front. Endocrinol. (Lausanne) 2018;9:402. doi: 10.3389/fendo.2018.00402.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+O'Connell R.M., Rao D.S., Chaudhuri A.A., Baltimore D. Physiological and pathological roles for microRNAs in the immune system. Nat. Rev. Immunol. 2010;10:111–122. doi: 10.1038/nri2708.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Ong S., Rose N.R., Čiháková D. Natural killer cells in inflammatory heart disease. Clin. Immunol. 2017;175:26–33. doi: 10.1016/j.clim.2016.11.010.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Paul A.M., Mhatre S.D., Cekanaviciute E., Schreurs A.-S., Tahimic C.G.T., Globus R.K., Anand S., Crucian B.E., Bhattacharya S. Neutrophil-to-Lymphocyte Ratio: A Biomarker to Monitor the Immune Status of Astronauts. Front. Immunol. 2020;11:564950. doi: 10.3389/fimmu.2020.564950.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Pecaut M.J., Mao X.W., Bellinger D.L., Jonscher K.R., Stodieck L.S., Ferguson V.L., Bateman T.A., Mohney R.P., Gridley D.S. Is spaceflight-induced immune dysfunction linked to systemic changes in metabolism? PLoS One. 2017;12:e0174174. doi: 10.1371/journal.pone.0174174.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Peschon J.J., Morrissey P.J., Grabstein K.H., Ramsdell F.J., Maraskovsky E., Gliniak B.C., Park L.S., Ziegler S.F., Williams D.E., Ware C.B. Early lymphocyte expansion is severely impaired in interleukin 7 receptor-deficient mice. J. Exp. Med. 1994;180:1955–1960. doi: 10.1084/jem.180.5.1955.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Puukila S., Lemon J.A., Lees S.J., Tai T.C., Boreham D.R., Khaper N. Impact of ionizing radiation on the cardiovascular system: a review. Radiat. Res. 2017;188:539–546. doi: 10.1667/RR14864.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Rathinam V.A., Fitzgerald K.A. Inflammasome complexes: emerging mechanisms and effector functions. Cell. 2016;165:792–800. doi: 10.1016/j.cell.2016.03.046.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ritvo P.G., Klatzmann D. Interleukin-1 in the response of follicular helper and follicular regulatory T cells. Front. Immunol. 2019;10:250. doi: 10.3389/fimmu.2019.00250.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Robillard N., Wuillème S., Moreau P., Béné M.C. Immunophenotype of normal and myelomatous plasma-cell subsets. Front. Immunol. 2014;5:137. doi: 10.3389/fimmu.2014.00137.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Romero-Weaver A.L., Wan X.S., Diffenderfer E.S., Lin L., Kennedy A.R. Effect of SPE-like proton or photon radiation on the kinetics of mouse peripheral blood cells and radiation biological effectiveness determinations. Astrobiology. 2013;13:570–577. doi: 10.1089/ast.2012.0916.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Saha J., Wilson P., Thieberger P., Lowenstein D., Wang M., Cucinotta F.A. Biological characterization of low-energy ions with high-energy deposition on human cells. Radiat. Res. 2014;182:282–291. doi: 10.1667/RR13747.1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Sanzari J.K., Diffenderfer E.S., Hagan S., Billings P.C., Gridley D.S., Seykora J.T., Kennedy A.R., Cengel K.A. Dermatopathology effects of simulated solar particle event radiation exposure in the porcine model. Life Sci. Space Res. (Amst) 2015;6:21–28. doi: 10.1016/j.lssr.2015.06.003.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Sanzari J.K., Wan X.S., Krigsfeld G.S., Wroe A.J., Gridley D.S., Kennedy A.R. The effects of gamma and proton radiation exposure on hematopoietic cell counts in the ferret model. Gravit. Space Res. 2013;1:79–94.
+[
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Schaue D., McBride W.H. T lymphocytes and normal tissue responses to radiation. Front. Oncol. 2012;2:119. doi: 10.3389/fonc.2012.00119.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Schwarzenbach H., Gahan P.B. MicroRNA shuttle from cell-to-cell by exosomes and its impact in cancer. Noncoding RNA. 2019;5:28. doi: 10.3390/ncrna5010028.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Simonsen L.C., Slaba T.C., Guida P., Rusek A. NASA's first ground-based Galactic Cosmic Ray Simulator: enabling a new era in space radiobiology research. PLoS Biol. 2020;18:e3000669. doi: 10.1371/journal.pbio.3000669.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Smith C.L., Eppig J.T. The mammalian phenotype ontology: enabling robust annotation and comparative analysis. Wiley Interdiscip. Rev. Syst. Biol. Med. 2009;1:390–399. doi: 10.1002/wsbm.44.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Smith S.M., Heer M., Shackelford L.C., Sibonga J.D., Spatz J., Pietrzyk R.A., Hudson E.K., Zwart S.R. Bone metabolism and renal stone risk during International Space Station missions. Bone. 2015;81:712–720. doi: 10.1016/j.bone.2015.10.002.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Spielmann G., Agha N., Kunz H., Simpson R.J., Crucian B., Mehta S., Laughlin M., Campbell J. B cell homeostasis is maintained during long-duration spaceflight. J. Appl. Phys. 2019;126:469–476. doi: 10.1152/japplphysiol.00789.2018.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Sridharan D.M., Chien L.C., Cucinotta F.A., Pluth J.M. Comparison of signaling profiles in the low dose range following low and high LET radiation. Life Sci. Space Res. (Amst) 2020;25:28–41. doi: 10.1016/j.lssr.2020.02.002.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Styles C.T., Bazot Q., Parker G.A., White R.E., Paschos K., Allday M.J. EBV epigenetically suppresses the B cell-to-plasma cell differentiation pathway while establishing long-term latency. PLoS Biol. 2017;15:e2001992. doi: 10.1371/journal.pbio.2001992.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Séguéla P.E., Iriart X., Acar P., Montaudon M., Roudaut R., Thambo J.B. Eosinophilic cardiac disease: molecular, clinical and imaging aspects. Arch. Cardiovasc. Dis. 2015;108:258–268. doi: 10.1016/j.acvd.2015.01.006.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Tahimic C.G.T., Paul A.M., Schreurs A.S., Torres S.M., Rubinstein L., Steczina S., Lowe M., Bhattacharya S., Alwood J.S., Ronca A.E. Influence of social isolation during prolonged simulated weightlessness by hindlimb unloading. Front. Physiol. 2019;10:1147. doi: 10.3389/fphys.2019.01147.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Tanaka T., Narazaki M., Kishimoto T. IL-6 in inflammation, immunity, and disease. Cold Spring Harb. Perspect. Biol. 2014;6:a016295. doi: 10.1101/cshperspect.a016295.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Teresa Pinto A., Laranjeiro Pinto M., Patrícia Cardoso A., Monteiro C., Teixeira Pinto M., Filipe Maia A., Castro P., Figueira R., Monteiro A., Marques M. Ionizing radiation modulates human macrophages towards a pro-inflammatory phenotype preserving their pro-invasive and pro-angiogenic capacities. Sci. Rep. 2016;6:18765. doi: 10.1038/srep18765.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Tsitsiou E., Lindsay M.A. microRNAs and the immune response. Curr. Opin. Pharmacol. 2009;9:514–520. doi: 10.1016/j.coph.2009.05.003.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+van Rooij E., Kauppinen S. Development of microRNA therapeutics is coming of age. EMBO Mol. Med. 2014;6:851–864. doi: 10.15252/emmm.201100899.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Voorhies A.A., Mark Ott C., Mehta S., Pierson D.L., Crucian B.E., Feiveson A., Oubre C.M., Torralba M., Moncera K., Zhang Y. Study of the impact of long-duration space missions at the International Space Station on the astronaut microbiome. Sci. Rep. 2019;9:9911. doi: 10.1038/s41598-019-46303-8.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Wei L.X., Zhou J.N., Roberts A.I., Shi Y.F. Lymphocyte reduction induced by hindlimb unloading: distinct mechanisms in the spleen and thymus. Cell Res. 2003;13:465–471. doi: 10.1038/sj.cr.7290189.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Willis C.R., Seamons A., Maxwell J., Treuting P.M., Nelson L., Chen G., Phelps S., Smith C.L., Brabb T., Iritani B.M. Interleukin-7 receptor blockade suppresses adaptive and innate inflammatory responses in experimental colitis. J. Inflamm. (Lond) 2012;9:39. doi: 10.1186/1476-9255-9-39.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Wu H., Huff J.L., Casey R., Kim M.-H., Cucinotta F.A.  NASA Space Radiation Program Element, Human Research Program; 2009. Risk of Acute Radiation Syndromes Due to Solar Particle Events.
+[
+Google Scholar
+]
+Zhang R., Ran H.H., Gao Y.L., Ma J., Huang Y., Bai Y.G., Lin L.J. Differential vascular cell adhesion molecule-1 expression and superoxide production in simulated microgravity rat vasculature. EXCLI J. 2010;9:195–204.
+[
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Zhang R., Ran H.H., Peng L., Xu F., Sun J.F., Zhang L.N., Fan Y.Y., Cui G. Mitochondrial regulation of NADPH oxidase in hindlimb unweighting rat cerebral arteries. PLoS One. 2014;9:e95916. doi: 10.1371/journal.pone.0095916.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Document S1. Transparent Methods, Figures S1 and S2, and Table S1
+mmc1.pdf
+(873.1KB, pdf)
+Data Availability Statement
+The plasma miRNA-seq raw fastq files can be found on Database: NASA's GeneLab data repository/platform (
+https://genelab.nasa.gov/
+). The accession number for the miRNA-seq data reported in this paper is GeneLab: with the following identifiers: GLDS-336,
+https://doi.org/10.26030/qasa-rr29
+.
+Articles from iScience are provided here courtesy of
+Elsevier

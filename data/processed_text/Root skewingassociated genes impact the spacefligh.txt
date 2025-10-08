@@ -1,0 +1,3276 @@
+Front Plant Sci
+. 2020 Mar 4;11:239. doi:
+10.3389/fpls.2020.00239
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Root Skewing-Associated Genes Impact the Spaceflight Response of
+Arabidopsis thaliana
+Brandon Califar
+Brandon Califar
+1
+Horticultural Sciences, University of Florida, Gainesville, FL, United States
+2
+The Genetics Institute, University of Florida, Gainesville, FL, United States
+3
+Program in Genetics and Genomics, University of Florida, Gainesville, FL, United States
+Find articles by
+Brandon Califar
+1,
+2,
+3
+,
+Natasha J Sng
+Natasha J Sng
+1
+Horticultural Sciences, University of Florida, Gainesville, FL, United States
+Find articles by
+Natasha J Sng
+1
+,
+Agata Zupanska
+Agata Zupanska
+1
+Horticultural Sciences, University of Florida, Gainesville, FL, United States
+Find articles by
+Agata Zupanska
+1
+,
+Anna-Lisa Paul
+Anna-Lisa Paul
+1
+Horticultural Sciences, University of Florida, Gainesville, FL, United States
+2
+The Genetics Institute, University of Florida, Gainesville, FL, United States
+3
+Program in Genetics and Genomics, University of Florida, Gainesville, FL, United States
+4
+Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, FL, United States
+5
+Interdisciplinary Center for Biotechnology and Research, University of Florida, Gainesville, FL, United States
+Find articles by
+Anna-Lisa Paul
+1,
+2,
+3,
+4,
+5,
+*
+,
+Robert J Ferl
+Robert J Ferl
+1
+Horticultural Sciences, University of Florida, Gainesville, FL, United States
+2
+The Genetics Institute, University of Florida, Gainesville, FL, United States
+3
+Program in Genetics and Genomics, University of Florida, Gainesville, FL, United States
+4
+Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, FL, United States
+Find articles by
+Robert J Ferl
+1,
+2,
+3,
+4,
+*
+Author information
+Article notes
+Copyright and License information
+1
+Horticultural Sciences, University of Florida, Gainesville, FL, United States
+2
+The Genetics Institute, University of Florida, Gainesville, FL, United States
+3
+Program in Genetics and Genomics, University of Florida, Gainesville, FL, United States
+4
+Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, FL, United States
+5
+Interdisciplinary Center for Biotechnology and Research, University of Florida, Gainesville, FL, United States
+Edited by: Valérie Legué, Université Clermont Auvergne, France
+Reviewed by: Stephanie Swarbreck, University of Cambridge, United Kingdom; Francisco Javier Medina, Center for Biological Research, Superior Council of Scientific Investigations, Spain
+✉
+*Correspondence: Anna-Lisa Paul,
+alp@ufl.edu
+*
+Robert J. Ferl,
+robferl@ufl.edu
+This article was submitted to Plant Abiotic Stress, a section of the journal Frontiers in Plant Science
+Received 2019 Sep 7; Accepted 2020 Feb 17; Collection date 2020.
+Copyright © 2020 Califar, Sng, Zupanska, Paul and Ferl.
+This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.
+PMC Copyright notice
+PMCID: PMC7064724  PMID:
+32194611
+Abstract
+The observation that plant roots skew in microgravity recently refuted the long-held conviction that skewing was a gravity-dependent phenomenon. Further, spaceflight root skewing suggests that specific root morphologies and cell wall remodeling systems may be important aspects of spaceflight physiological adaptation. However, connections between skewing, cell wall modification and spaceflight physiology are currently based on inferences rather than direct tests. Therefore, the Advanced Plant Experiments-03-2 (APEX-03-2) spaceflight study was designed to elucidate the contribution of two skewing- and cell wall-associated genes in Arabidopsis to root behavior and gene expression patterns in spaceflight, to assess whether interruptions of different skewing pathways affect the overall spaceflight-associated process. SPIRAL1 is a skewing-related protein implicated in directional cell expansion, and functions by regulating cortical microtubule dynamics. SKU5 is skewing-related glycosylphosphatidylinositol-anchored protein of the plasma membrane and cell wall implicated in stress response signaling. These two genes function in different cellular pathways that affect skewing on the Earth, and enable a test of the relevance of skewing pathways to spaceflight physiological adaptation. In this study, both
+sku5
+and
+spr1
+mutants showed different skewing behavior and markedly different patterns of gene expression in the spaceflight environment. The
+spr1
+mutant showed fewer differentially expressed genes than its Col-0 wild-type, whereas
+sku5
+showed considerably more than its WS wild-type. Developmental age played a substantial role in spaceflight acclimation in all genotypes, but particularly in
+sku5
+plants, where spaceflight 4d seedlings had almost 10-times as many highly differentially expressed genes as the 8d seedlings. These differences demonstrated that the two skewing pathways represented by
+SKU5
+and
+SPR1
+have unique and opposite contributions to physiological adaptation to spaceflight. The
+spr1
+response is less intense than wild type, suggesting that the loss of SPR1 positively impacts spaceflight adaptation. Conversely, the intensity of the
+sku5
+responses suggests that the loss of SKU5 initiates a much more complex, deeper and more stress related response to spaceflight. This suggests that proper SKU5 function is important to spaceflight adaptation.
+Keywords:
+spaceflight, root, skewing, transcriptomics, abiotic stress, acclimation, physiological adaptation
+Introduction
+Spaceflight studies offer unique insights into plant biological processes, and enable the exploration of the relationships between root morphology, gene expression and the physiological adaptation to spaceflight. The developmental patterns of plant organs are continuously altered through perception of the environment, signal integration, and response to environmental stimuli. A diversity of tropic gradients influence the path of growth in roots by initiating localized, asymmetrical changes in cell elongation. These changes are primarily brought about through hormonal interactions and subsequent remodeling of cell physiology (
+Roy and Bassham, 2014
+;
+Vandenbrink et al., 2014
+;
+Schultz et al., 2017
+). Root skewing and waving are phenomena in which root growth deviates from a gravity vector throughout its development, and which vary between the
+Arabidopsis thaliana
+(Arabidopsis) ecotypes Columbia (Col-0) and Wassilewskija (WS) (
+Rutherford and Masson, 1996
+;
+Roy and Bassham, 2014
+;
+Schultz et al., 2017
+). Although once thought to be a gravity-dependent growth behavior (
+Oliva and Dunand, 2007
+), skewing occurs in the microgravity of spaceflight (
+Paul et al., 2012a
+). This suggests that skewing is independent of both the tropic force of gravity and the gravity-induced contact forces between roots and growth media (
+Millar et al., 2011
+;
+Paul et al., 2012a
+,
+2013
+;
+Nakashima et al., 2014
+). Therefore, the spaceflight environment provides a unique and relevant context in which to study genes associated with skewing phenotypes.
+Plants grown in the spaceflight environment exhibit complex and unique gene expression patterns (e.g.,
+Paul et al., 2005
+;
+Paul et al., 2012b
+,
+2013
+,
+2017
+;
+Correll et al., 2013
+;
+Kwon et al., 2015
+;
+Johnson et al., 2017
+;
+Choi et al., 2019
+). The predominant feature of the spaceflight environment is microgravity. The lack of gravity has a direct effect on plant cells and signal transduction; this direct effect represents a novel environment for plants, and any terrestrial organism, and appears to be generally perceived as stressful. In addition, microgravity imposes secondary environmental stresses due to the disruption of fluid movement, and any processes influenced by convection, such as gas exchange and temperature redistribution. Combinatorial stresses induce changes in gene expression and tolerance that are not fully recapitulated by exposure to the individual stressors (e.g.,
+Ramegowda and Senthil-Kumar, 2015
+;
+Suzuki et al., 2016
+). Thus it is important to think of the spaceflight environment as more complex than microgravity alone. Several classes of stress response genes have been identified as consistently involved in the response to spaceflight across ecotypes of Arabidopsis via analyses of gene expression. Heat shock genes are often induced by spaceflight (
+Paul et al., 2005
+,
+2012b
+;
+Salmi and Roux, 2008
+;
+Shagimardanova et al., 2010
+;
+Zupanska et al., 2013
+,
+2017
+,
+2019
+;
+Johnson et al., 2017
+;
+Choi et al., 2019
+). Reactive oxygen species (ROS) signaling and scavenging processes are also common in the spaceflight response, though ROS-associated genes have been observed as both up- and downregulated in spaceflight (
+Shagimardanova et al., 2010
+;
+Correll et al., 2013
+;
+Paul et al., 2013
+,
+2017
+;
+Kwon et al., 2015
+;
+Choi et al., 2019
+;
+Zhou et al., 2019
+). Some stress gene expression changes are also associated with spaceflight-induced changes in the Arabidopsis methylome (
+Zhou et al., 2019
+). Cell wall remodeling processes are enriched in spaceflight gene expression datasets (
+Paul et al., 2012b
+,
+2013
+,
+2017
+;
+Correll et al., 2013
+;
+Kwon et al., 2015
+;
+Johnson et al., 2017
+). Cell wall remodeling genes, typically associated with biotic stress and pathogen defense pathways, also contribute to spaceflight acclimation (
+Paul et al., 2012b
+,
+2013
+,
+2017
+;
+Correll et al., 2013
+;
+Choi et al., 2019
+). Spaceflight also affects abundances of proteins of defense pathways and cell wall remodeling (
+Mazars et al., 2014
+;
+Ferl et al., 2015
+). However, the particular genetic pathways activated and repressed in spaceflight vary among ecotypes of Arabidopsis, demonstrating that there are significant genotypic contributions to spaceflight physiological adaptation (
+Paul et al., 2017
+;
+Beisel et al., 2019
+;
+Choi et al., 2019
+).
+Mutations in genes associated with stress response and signaling pathways can significantly alter the differential gene expression profiles of spaceflight physiological adaptation. Single gene mutations in heat shock transcription factors, gravity perception genes, and light signaling genes in Arabidopsis seedlings and cultures exhibit altered spaceflight responses (
+Paul et al., 2017
+;
+Zupanska et al., 2017
+,
+2019
+). Therefore, we sought to understand better the relationships among spaceflight responses, root morphology, and spaceflight adaptation by exploring the spaceflight responses of two single gene skewing-related mutant lines:
+spiral1
+and
+sku5
+.
+Spiral1
+(
+Spr1
+) is a skewing-related gene that contributes to the process of anisotropic cell expansion by regulating cortical microtubule dynamics. The
+spr1
+mutation results in axial rotation of cell files throughout the plant, which manifests in the roots as skewing to the left when viewed, according to convention, from beneath their growth medium (
+Rutherford and Masson, 1996
+;
+Furutani et al., 2000
+;
+Nakajima et al., 2004
+;
+Sedbrook et al., 2004
+;
+Galva et al., 2014
+). The SPR1 protein is a microtubule plus-end tracking protein that localizes to the plus ends of actively polymerizing cortical microtubules, dissociating upon a shift to microtubule depolymerization (
+Sedbrook et al., 2004
+;
+Galva et al., 2014
+). This association is mediated by two similar motifs on the N- and C-termini of the protein, which allow SPR1 to act as an intermolecular linker (
+Nakajima et al., 2004
+;
+Sedbrook et al., 2004
+;
+Galva et al., 2014
+). The protein END-BINDING 1B (EB1b) co-localizes with SPR1 at the microtubule plus-end, where each protein interacts with the other as well as tubulin subunits (
+Galva et al., 2014
+). This creates the dual effects of SPR1 and EB1b increasing microtubule stability and polymerization rate, while also enhancing the rescue rate of depolymerizing microtubules (
+Galva et al., 2014
+). However, the
+spr1
+mutation also leads to a decreased rate of shrinkage among depolymerizing microtubules (
+Galva et al., 2014
+). The regulation of microtubule dynamics is critical to many environmental responses, such as in salt stress where 26S proteasome-mediated degradation of SPR1 is known to occur in conjunction with microtubule reorganization to enable stress acclimation (
+Shoji et al., 2006
+;
+Wang et al., 2011
+;
+Chen et al., 2016
+). In addition to these micro-scale changes, the skewing phenotype of
+spr1
+is significantly enhanced by cold treatment, and suppressed by both salt and heat stresses (
+Furutani et al., 2000
+;
+Sedbrook et al., 2004
+). This connects
+SPR1
+to processes regulating morphology in both optimal and stressful environments.
+Sku5
+is a skewing-associated gene that encodes a protein in the SKU5-SIMILAR (SKS) family, which is related to known Arabidopsis copper oxidases, but which contains only one Type-II copper-coordinating domain of unknown specificity (
+Sedbrook et al., 2002
+). The
+sku5
+mutant was originally noted for the rightward skewing it exhibits on vertically oriented growth media, which manifests in both WS and Col-0 backgrounds (
+Sedbrook et al., 2002
+;
+Swarbreck et al., 2019
+).
+Sku5
+seedlings exhibit reductions of root length but not of cell size, and SKU5 is hypothesized to act in the process of cell division as a result (
+Sedbrook et al., 2002
+). SKU5 localizes to the plasma membrane, but is also present in soluble and cell wall-binding forms in the extracellular milieu (
+Sedbrook et al., 2002
+;
+Borderies et al., 2003
+;
+Baral et al., 2015
+;
+Chen et al., 2018
+). SKU5 is a glycosylphosphatidylinositol-anchored protein (GPI-AP), and as such is a component of discrete plasma membrane nanodomains known as “lipid rafts” (
+Borner et al., 2005
+;
+Elortza et al., 2006
+;
+Chen et al., 2018
+;
+Mamode Cassim et al., 2019
+). These nanodomains of the plasma membrane and their associated GPI-APs play roles in stress response signaling at the interface between the cell wall and membrane, where they are envisioned to help shape the “signatures” that activate downstream plant adaptive responses to the stresses they experience (
+Minami et al., 2008
+;
+Takahashi et al., 2013
+,
+2016
+,
+2019
+;
+Shabala et al., 2015
+;
+Yeats et al., 2018
+;
+Miki et al., 2019
+). The endocytosis of SKU5 and other GPI-APs is modulated across the root tip by salt and auxin treatments, linking the movement of these proteins to stress responses (
+Baral et al., 2015
+). The expression of SKU5 is itself regulated by boron deprivation, cold, salt, and immune responses, as well as abscisic acid (ABA) treatment (
+Keinath et al., 2010
+;
+Elmore et al., 2012
+;
+Li et al., 2012
+;
+Tanaka et al., 2016
+;
+Shi et al., 2018
+;
+Miki et al., 2019
+). While SKU5 interactors are unknown in Arabidopsis, a maize homolog of SKU5 interacts with a C-terminal peptide of AUXIN-BINDING PROTEIN 1 (ABP1)
+in vitro
+(
+Shimomura, 2006
+). ABP1 is associated with auxin signaling pathways that activate the plant TARGET OF RAPAMYCIN (TOR) regulatory complex, remodel the cortical microtubule network, and induce expansive growth by triggering cation influx (
+Xu et al., 2014
+;
+Chen et al., 2016
+;
+Dahlke et al., 2017
+;
+Schepetilnikov et al., 2017
+). This further connects SKU5 to characterized pathways which affect stress responses and regulate the balance between growth and autophagic processes under stressful conditions, such as that of spaceflight.
+SKU5 and SPR1 are therefore very different proteins in seemingly unrelated physiological processes, but both proteins have roles in root skewing. Both of these proteins are also associated with cell wall remodeling, a process that is regularly involved in spaceflight acclimation. As such, these genes offer an appropriate initial genetic dissection of root skewing and the effect of skewing pathways in the microgravity of spaceflight environments. Extensive discussion of the relevance of skewing and waving in microgravity has been presented elsewhere (e.g.,
+Paul et al., 2012a
+), but to paraphrase from that paper, prior to spaceflight research, the consensus was that gravitropism was the directional driver in skewing (e.g.,
+Simmons et al., 1995
+;
+Oliva and Dunand, 2007
+). Yet we now know that gravity is not required, and root skewing in spaceflight appears to be an inherent feature of many Arabidopsis ecotypes, even in conditions lacking both light and gravity (
+Millar et al., 2011
+;
+Paul et al., 2012a
+,
+2017
+;
+Nakashima et al., 2014
+). These observations suggest a testable relationship among root morphologies governed by skewing regulation pathways. The hypothesis is that skewing pathways play a large role in spaceflight adaptation via the inherent cell wall remodeling that accompanies those morphologies and the physiological adaptation to spaceflight. This relationship was examined by growing
+spr1
+,
+sku5
+and their wild type controls for 4 and 8 days on the International Space Station and at the Kennedy Space Center, then observing both their growth morphologies and gene expression profiles in response to spaceflight as measures of response quality and complexity. A change in gene expression or morphology during spaceflight would suggest a significant role for these skewing genes in the physiological adaptation process.
+Differential gene expression profiles are often deployed as measures of the underlying gene expression changes needed for physiological adaptation and developmental changes within an organism. Differential gene expression responses, in terms of the number of genes involved and their fold-change levels, may be considered a measure of the metabolic cost of adapting to that environment (e.g.:
+Chan et al., 2016
+). Therefore gene expression profiles morphologies were used to examine the relationships between skewing genes and the resulting complexity of spaceflight acclimation. SKU5 and SPR1 function in different cellular pathways that affect skewing on the Earth, which enabled a test of the relevance of contrasting skewing pathways to spaceflight physiological adaptation. Growth morphologies were used to examine the productivity and developmental success of these genotypes in spaceflight.
+Materials and Methods
+Plant Material and Plate Setup
+Arabidopsis thaliana
+wild ecotype Columbia (Col-0, CS70000) seed stock, and T-DNA insertion lines for the
+spr1
+(CS6547 – Col-0 background) and
+sku5
+(CS16268 – WS background), were acquired from the Arabidopsis Biological Resource Center (ABRC) (
+arabidopsis.org
+;
+Lamesch et al., 2011
+). The wild type Wassilewskija (WS) line used in this study was propagated in our laboratory for more than 25 years. This WS line has been used in multiple spaceflight studies (
+Paul et al., 2012a
+,
+2013
+,
+2017
+;
+Zhou et al., 2019
+), and seed samples are available upon request. The ABRC denotes WS as stock CS915. Petri dishes (100 mm × 15 mm; Fisher Scientific, Pittsburgh, PA, United States), containing 50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5× Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1× Gamborg’s Vitamin Mixture, were prepared aseptically for planting. Seeds were sterilized and planted according to methods allowing for the maintenance of seed dormancy (
+Sng et al., 2014
+). Briefly, seeds were stored with Desiccant-Anhydrous Indicating Drierite (W.A. Hammond Drierite Company, stock #24001) for 1 week before sterilization. The seeds were sterilized with 70% ethanol for 10 min and dried in a laminar flow hood. Seeds were stored at 4°C in sterile screw-cap microcentrifuge tubes until planting. Seeds were suspended in sterile water and dispensed onto the media surface. Approximately 12–15 seeds were planted in a row on each plate, with one row on the 8-day (8d) plates and two rows on the 4-day (4d) plates. At time of harvest, each genotype and age was represented by 9–25 viable, replicate seedlings. All replicates contributed to morphological observations, whereas the transcriptome analyses were conducted with four biological replicates, comprising 5–8 4d plant roots, or 2–3 8d plant roots. The plates were sealed with Micropore
+®
+(3M, Maplewood, MN, United States) tape, and wrapped in Duvetyne Black-Out Fabric (Seattle Fabrics). The time from suspending dry seeds in water to the completed wrapping of the plate in Duvetyne was less than 10 min; this timing was essential to maintain seed dormancy. Wrapped plates were then transported to the Kennedy Space Center (KSC, FL, United States) under cold stowage, maintaining temperatures of 4–10°C until launch.
+Spaceflight Experimental Workflow
+The Advanced Plant Experiments 03-2 (APEX-03-2) study, also known under NASA Operational Nomenclature as the Transgenic Arabidopsis Gene Expression System – Intracellular Signaling Architecture (TAGES-ISA) study, has been previously described (
+Ferl and Paul, 2016
+;
+Beisel et al., 2019
+;
+Zhou et al., 2019
+). The SpaceX CRS-5 mission, carrying the dormant, seeded growth plates as part of its cargo, was launched to the International Space Center (ISS) from KSC on January 10, 2015. Capsule docking and transfer of materials to the ISS occurred on January 12 and 13, respectively. The growth plates were removed from cold stowage onboard the ISS on January 26, unwrapped, and inserted into the Vegetable Production System (VPS, colloquially “Veggie”) perpendicular to the light bank (
+Figure 1A
+). During the growth period, constant lighting at a level of 100–135 μmol m
+–2
+s
+–1
+was used. Each age and genotype was represented by a 10 cm Petri plate. There were 12–15 seedlings on the 8-day-old plates (8d) and 35–40 seedlings on the 4-day-old plates (4d). The plates were removed from the Veggie plant growth hardware after 4 and 8 days of growth, at which time they were photographed by the crew. The seedlings of each plate were then harvested into individual KSC Fixation Tubes (KFTs) pre-loaded with RNAlater
+TM
+(Ambion, Grand Island, NY, United States) preservative (one plate per KFT) (
+Figure 1A
+). Actuation of the KFT submerged the seedlings in RNAlater and sealed the tube. The harvest tubes remained at ambient temperature for 12 h to allow full perfusion of the tissues, and were then transferred to the MELFI −80°C freezer. The samples were transferred from the MELFI to cold stowage onboard the Dragon capsule on February 9
+th
+and remained frozen in transit to KSC for de-integration on February 15, at which time the samples were transferred to 50 mL Falcon tubes with minimal thawing. The samples were transferred to the Principal Investigators and were transported to the University of Florida, where they were kept under −80°C storage.
+FIGURE 1.
+Open in a new tab
+Advanced Plant Experiments-03-2 overview.
+(A)
+Images detailing the standard procedures used onboard the ISS during the experiment. In Panel 1, the Vegetable Production System (VPS, “Veggie”) and its local environment can be seen, while panel 2 provides a close-up of the plate setup inside Veggie after insertion. Panel 3 shows astronaut Butch Wilmore harvesting seedlings into a KFT (Kennedy Space Center Fixation Tube), and the workstation used for the orbital harvests. The images of the Veggie hardware and Butch Wilmore were taken on the ISS by NASA; all NASA photos are in the public domain.
+(B)
+Full images of plates taken at the time of harvest and from which tissue was used in the APEX-03-2 RNA-Seq experiment. Images from the ground control are in the top two rows, while those from the spaceflight experiment are in the bottom two rows. The genotype and developmental age of the seedlings are listed on each image. The provided images were taken from above the surface of the growth medium.
+The ground control (GC) for the experiment, composed of an identical set of plants and plates, was performed on a 48-h delay at KSC using Veggie hardware within the ISS Environmental Simulator (ISSES) chamber. The same growth timeline was used, with seedlings being imaged and harvested into RNAlater-containing KFTs at 4d and 8d time points. The GC operations were as described above for the spaceflight experiment, with KSC personnel following the precise timing of the astronaut activities. Telemetry data also enabled the ISSES chamber to replicate the CO
+2
+levels, temperature, and ambient lighting in the vicinity of the Veggie hardware onboard the ISS across the course of the experiment.
+The consistency of operations between spaceflight and GCs was also checked against video data captured on the ISS. Over-the-shoulder videos of astronaut activities for the 4d and 8d harvests were examined for timing of operations and showed that spaceflight seedling harvests were not disproportionately treated during the process at either time point or compared to GC harvests. The plates were harvested in comparable windows of time, ensuring that no additional stress, such as drought stress, was introduced into the harvest process (
+Supplementary Table S1
+).
+RNA Isolation
+The spaceflight and GC seedlings, stored in RNAlater, were transferred from −80°C storage to 4°C overnight to thaw. Seedlings in RNAlater were examined with an Olympus SZX12 stereoscope (Olympus Corporation, Tokyo, Japan) and whole roots were dissected away from the shoot and hypocotyl. The remaining shoot and hypocotyl tissues were restored to −80°C in RNAlater. RNA was prepared from 5–8 4d plant roots, and 2–3 8d plant roots. Total RNA was extracted using the Qiashredder and RNAeasy kits from QIAGEN (QIAGEN Sciences, MD, United States) according to the manufacturer’s instructions. An on-column digestion with RNase-free DNase (QIAGEN GmbH, Hilden, Germany) was used to remove residual DNA.
+Library Preparation
+Library preparation was performed at the University of Florida’s Interdisciplinary Center for Biotechnology Research (ICBR) Gene Expression Core. RNA integrity was verified using the Agilent 2100 BioAnalyzer (Agilent Technologies, Santa Clara, CA, United States). Of the total RNA, 10 ng were used to construct cDNA libraries with the ClonTech SMART-Seq v4 ultra-low input RNA kit for sequencing (Clontech Laboratories, Inc., Cat#: 634890), according to the manufacturer’s instructions. Briefly, 1st strand cDNA was primed by the SMART-Seq v4 oligonucleotide, which then base-pairs with these additional nucleotides, creating an extended template. The reverse transcriptase then switches templates and continues transcribing to the end of the oligonucleotide, resulting full-length cDNA that contains an anchor sequence that serves as a universal priming site for second strand synthesis. Then, cDNA was amplified with primer II A for 8 PCR cycles. Illumina sequencing libraries were then generated with 150 pg of cDNA using the Illumina Nextera DNA Sample Preparation Kit (Cat#: FC-131-1024) according to the manufacturer’s instructions. Briefly, 150 pg of cDNA were fragmented by tagmentation reaction and adapter sequences were added onto template cDNA by PCR amplification. Libraries were quantitated using both the 2100 BioAnalyzer and qPCR (Kapa Biosystems, catalog number: KK4824).
+RNA-Seq
+Sequencing experiments were performed at the UF ICBR Next-Generation DNA Sequencing Core. In preparation for sequencing, barcoded libraries were sized on the 2100 BioAnalyzer, and quantitated by QUBIT (Thermo Fisher Scientific, Waltham, MA, United States) and qPCR (Kapa Biosystems, catalog number: KK4824). Individual libraries were pooled equimolarly at 4 nM. This “working pool” was used as input in the NextSeq500 instrument sample preparation protocol (Illumina, Part#: 15048776, Rev A). Typically, a 1.3 pM library concentration resulted in an optimal clustering density in our instrument (i.e., ∼200,000 clusters per mm
+2
+). Samples were sequenced on 5 flow cells (5 NextSeq500 runs), using a 2 × 75 cycles (paired-end) configuration. A typical sequencing run in the NextSeq500 produced 750–800 million paired-end reads with a Q30 ≥ 85%. For RNA-Seq, around 40 million paired-end reads per sample provided sufficient depth for transcriptome analysis (
+Tarazona et al., 2011
+).
+Bioinformatic Analysis
+Bioinformatic processing of the sequencing data was performed at the UF ICBR Bioinformatics Core. Fastq files were trimmed to remove sequencing adapters and low-quality base calls using Trimmomatic (version 0.36) with the parameters: LEADING:3, TRAILING:3, SLIDINGWINDOW:4:15, MINLEN:50 (
+Bolger et al., 2014
+). Quality control of the trimmed reads was performed using FastQC (version 0.11.2) (
+Andrews, 2010
+). Reads for each set of Arabidopsis lines were aligned to their respective reference genomes using the STAR aligner (version 2.5.1b) (
+Dobin et al., 2012
+). The Col-0 TAIR10 genome release was used for reads from Col-0 and
+spr1
+(
+Lamesch et al., 2011
+;
+Berardini et al., 2015
+), while reads from WS and
+sku5
+were aligned to the WS reference genome (
+Gan et al., 2011
+). Duplicate reads resulting from PCR artifacts were then removed using the Picard MarkDuplicates tool (
+Broad Institute, 2019b
+). In total, 502 million transcriptomic reads were aligned. Following alignment, expression quantification and differential gene expression analysis were performed using Cufflinks and Cuffdiff (version 2.2.1), respectively, with default parameters (
+Trapnell et al., 2010
+,
+2012
+). Output from Cuffdiff was then parsed with custom scripts to generate the final annotated tables of differentially expressed genes (DEGs). A cut-off false-discovery rate (FDR) of 0.05 was used for calling statistical significance in differential gene expression
+RNA-Seq Data Analysis
+Tables of DEGs for each comparison were combined and analyzed through Microsoft Excel, in order to generate lists of Arabidopsis Genome Initiative (AGI) identifiers with their corresponding [Log
+2
+(Fold Change)] values. Machine annotation of AGI ID lists was carried out using G:Profiler (
+Raudvere et al., 2019
+), while the TAIR (
+Lamesch et al., 2011
+;
+Berardini et al., 2015
+) and Araport ThaleMine (
+Krishnakumar et al., 2016
+) databases were used to investigate genes of interest. DEGs of a comparison (e.g., FLT vs. GC) with a greater than twofold change in at least one context of the comparison were retained for analysis (
+Supplementary File S1
+). This was done in order to minimize the effect instituting a cut-off would have on analyzing the expression patterns of a gene. Significant DEGs with a fold-change of “inf” or “-inf” were retained and assigned a [Log
+2
+(Fold Change)] value of 10 for heat-mapping, as they have a consistent FPKM of zero in one context but are consistently detected at a significantly higher level in the opposing context. Gene ontology (GO) analyses of only those DEGs with a greater than twofold change were carried out using the lists of their AGI IDs, separated by their up- or downregulation, with the PANTHER statistical overrepresentation tool (
+Mi et al., 2018
+). GO terms for each comparison were separated into those unique to one context and those overlapping between contexts, and the output is available in
+Supplementary File S2
+. Of those resulting, all GO terms overlapping between contexts were retained for heatmapping. Either one-half or five, whichever was greater, of each context’s unique GO terms were retained after sorting by
+q
+-value from most to least significant. GO term lists were then manually pruned in order to reduce highly redundant information (e.g., “cellular response to chemical” and “response to chemical”) only when the redundant terms demonstrated the same pattern of over- or underrepresentation across contexts. Complete lists of genes annotated to specific GO Terms of interest were gathered from AmiGO2 (
+Carbon et al., 2008
+). Heatmaps were then generated using DEG [Log
+2
+(Fold Change)] values or GO term [-Log(
+q
+-value)] values as input for the Morpheus webtool (
+Broad Institute, 2019a
+).
+Measurements of Seedling Roots
+Germination rates and the growth of roots in each environment were derived from images taken of the growth plates at the times of harvest (
+Figure 1B
+). Germination rates were assessed by counting the number of seedlings and ungerminated seeds from the 4-day images taken just prior to harvest. Statistical significance of germination rate changes were assessed using χ
+2
+tests with the conservative Yates correction (
+Yates, 1934
+). The comparisons made were between mutant and wild-type lines, and between spaceflight and GC growth conditions. To measure roots, images were analyzed using the FIJI distribution of ImageJ (
+Schindelin et al., 2012
+;
+Rueden et al., 2017
+). The JFilament plugin was used to track primary roots, creating a set of points describing each root (
+Smith et al., 2010
+). These data were processed using an R script that provided the length of each primary root as output, alongside other measures (
+Schultz et al., 2016
+;
+R Core Team, 2019
+). Lengths were corrected for scale based on the pixel length of the Petri dish grid-squares to allow for comparisons between images. Differences in root length were assessed through two-tailed Student’s
+t
+-tests, with the Bonferroni correction for multiple testing applied (
+Snedecor and Cochran, 1989
+). The comparisons made were between spaceflight and GC seedlings for each genotype, and between each skewing mutant and its respective wild-type. As conventional measurements of angles of root growth are dependent upon a reference gravity vector, the roots of 4-day-old seedlings were measured manually using FIJI (
+Schindelin et al., 2012
+;
+Rueden et al., 2017
+). The angle between the root tip and the growth direction of the beginning of the root was used. Positive and negative angles were used to represent rightward and leftward changes in directionality, respectively, relative to the initial direction of growth when viewed from below the growth media. Angles were plotted using the ggplot2 package in R (
+Wickham, 2016
+). In these polar plots, the magnitude of a bar corresponds to the number of roots within a particular bin, with the placement of the bar corresponding to the measured angle. Differing upper limits were used for spaceflight (0–20) and GC (0–10) plots in order to allow the many lower-magnitude bins in the spaceflight plots to be visualized by effectively zooming-in on the data. However, the scaling between inner rings is consistent between plots. As such, a bar meeting the second ring at the −25° line indicates that ten roots had an angle shift between 15° and 30° to the left during their growth.
+Results
+APEX-03 seedling growth in occurred in the Veggie hardware on the ISS (
+Figure 1A
+). Veggie is housed in the Columbus module (
+Figure 1A
+, left), and for the APEX-03 experiment, configured to accommodate racks of 10 cm Petri plates (
+Figure 1A
+, middle). Images of plant growth and morphology were recorded by astronaut Butch Wilmore just prior to harvest (
+Figures 1A
+, right,
+B
+). Col-0 and WS can display distinct patterns of root growth in response to environmental stimuli. In terrestrial environments, changing the angle of the growth surface can create ecotype-specific patterns of skewing (
+Rutherford and Masson, 1996
+;
+Schultz et al., 2017
+). In a microgravity environment with a gradient light source to impart a tropic cue, skewing patterns of WS and Col-0 recapitulate the patterns seen on terrestrial angled growth surfaces (
+Paul et al., 2012a
+). However, in a microgravity environment with uniform, non-directional lighting such as provided by the Veggie hardware in the current experiment, root growth patterns are more disorganized (
+Figure 1B
+). Nonetheless, skewing trends can still be discerned by following the angles of growth as the roots develop, and these are quantified in
+Figure 2A
+for Col-0 and
+spr1
+, and in
+Figure 2B
+for WS and
+sku5
+. In all representations and discussions of skewing, the direction indicated is from the perspective of being viewed from behind the growth medium.
+FIGURE 2.
+Open in a new tab
+Quantification of APEX-03-2 Root Growth. Images acquired at the time of harvest of spaceflight (FLT) and ground control (GC) plants were used for measurements. Primary root length measurements for
+(A)
+Col-0 and
+spr1
+and
+(B)
+WS and
+sku5
+were taken using Jfilament and analyzed in R. Significant differences between genotypes (
+spr1
+vs. Col-0,
+sku5
+vs. WS) and growth conditions (FLT vs. GC) were assessed via two-tailed
+t
+-tests and are indicated by asterisks above bars connecting the relevant sets of measurements (Bonferroni correction:
+∗
+p
+< 0.0125;
+∗∗
+p
+< 0.001). The 8d Col-0 FLT vs. GC comparison did not meet this cutoff (
+p
+= 0.0151). Error bars show the SEM of each set of measurements.
+(C)
+The angle measured between the root tip and the initial direction of root growth in the 4-day-old seedlings. Plots are separated into rows by growth condition, and into columns by genotype. Positive and negative angles represent rightward and leftward growth of roots, respectively, when viewed from behind the media. Angles are binned in 10° intervals, with each bar’s length representing the number of roots within that bin. As such, a bar reaching the second ring of each plot represents ten roots within that bin. However, note that the upper limit of bin size is lowered in the spaceflight plots to accommodate the higher variation in these data. The total number of roots represented in each plot is indicated in its bottom-right corner, and the mean angle of each plot is noted in its bottom-left corner. FLT, spaceflight; GC, ground control.
+Col-0 and
+Spr1
+Germination and Morphology of
+spr1
+in Spaceflight
+Phenotypic differences among the Col-0 background plants in GC and spaceflight (FLT) environments were primarily limited to skewing angles in the roots (
+Figures 2
+,
+3
+). There were no statistically significant differences in the primary root length between GC and FLT in either Col-0 or
+spr1
+4d or 8d plants. Although Col-0 root length appeared to be reduced in spaceflight in 8d plants, the
+p-
+value did not quite meet the requirements for significance (two-tailed
+t
+-test,
+p
+= 0.0152, whereas cut-off was
+p
+< 0.0150) (
+Figure 2A
+). There were differences in root length between Col-0 and
+spr1
+genotypes in the GC (
+p
+= 1.48 E-9) but FLT Col-0 and FLT
+spr1
+roots were not statistically different.
+FIGURE 3.
+Open in a new tab
+High resolution images of the Col-0 and
+spr1
+growth patterns. Images are arranged such that the ground control seedlings
+(A–D)
+are in the left column while spaceflight seedlings are on the right
+(E–H)
+. Vertically, images alternate between Col-0
+(A,C,E,G)
+and
+spr1
+(B,D,F,H)
+. The images taken at the 4 day time point
+(A,B,E,F)
+are grouped above those taken at the 8 day time point
+(C,D,G,H)
+. Images taken from above the growth medium at the time of harvest. Grid squares are 13 mm wide.
+Both 4d and 8d GC Col-0 seedlings grew with very little left or right deviation down the vertical face of the plate medium, while the GC
+spr1
+mutant plants of both ages showed distinct skewing to the left (
+Figures 2C
+,
+3A–D
+). The 4d FLT Col-0 plants generally skewed slightly to the left with some variation (
+Figures 2C
+,
+3E
+). In contrast, the roots of the 4d FLT
+spr1
+plants demonstrated an increased severity of skewing, which was manifested as a strong left-hand curved growth pattern (
+Figures 2C
+,
+3E,F
+) that was significantly different between GC and FLT (two-tailed
+t
+-test,
+p
+= 0.00385). For both genotypes the variance in the growth angle (as noted in the SD values in
+Figure 2
+) was greater in the spaceflight samples. After 8d of growth, the increased skewing in FLT
+spr1
+led to associations with other roots, in contrast to FLT Col-0 which tended to spread more evenly across the plate (
+Figures 3G,H
+).
+There were no differences between GC and FLT the germination rates of either Col-0 or
+spr1
+. The 4d harvest images (
+Figures 3A,B,E,F
+) were used to compare seedlings with any ungerminated seeds; germination in both genotypes was 100% under both GC and FLT conditions (
+Supplementary Table S2
+).
+The
+spr1
+Spaceflight Response Involved Fewer Transcriptomic Changes Than Col-0
+Spaceflight-conditioned differential gene expression patterns were highly dependent upon the genotype, ecotype, and developmental age of seedlings. Quantitative gene expression data revealed patterns from three perspectives: spaceflight versus GCs for each genotype at each developmental age (
+Figure 4A
+: FLT vs. GC), wild type plants versus the mutant genotype in each environment and age (
+Figure 4B
+:
+spr1
+vs. Col-0) and between the two developmental ages (
+Figure 4C
+: 4d vs. 8d). The numbers of differentially expressed genes (DEGs) were categorized according to the magnitude of their fold-change values in the Col-0 and
+spr1
+roots. In the FLT vs. GC comparison (
+Figure 4A
+), both lines differentially expressed fewer genes at the 8d timepoint than at 4d in all fold-change categories. The spaceflight acclimation of
+spr1
+also required fewer genes than Col-0 to be differentially expressed. In the direct comparison of
+spr1
+with Col-0 (
+Figure 4B
+), more DEGs were observed within each growth condition at 4d than at 8d. The difference in total DEG count between conditions was also reduced at 8d. This occurred in almost all fold-change categories, and differences in total DEGs between the lines diminished between timepoints irrespective of the growth condition. In the developmental comparison of expression between the 4d and 8d timepoints (
+Figure 4C
+), the roots from the FLT context showed lower counts of total DEGs than their respective GC roots. However, while
+spr1
+required slightly fewer genes to be differentially expressed during development in the GC context, the opposite was true in FLT, where
+spr1
+required more DEGs for spaceflight development than Col-0. Twofold-change categories that did not follow these trends were those of the DEGs upregulated and downregulated more than twofold across
+spr1
+and Col-0 development, respectively, which were larger in FLT than in GC.
+FIGURE 4.
+Open in a new tab
+Col-0 and
+spr1
+overall differential gene expression levels. A graphic representation of the genes differentially expressed in the
+(A)
+FLT vs. GC,
+(B)
+4d vs. 8d, and
+(C)
+spr1
+vs. Col-0 comparisons. Upregulation of a gene denotes a higher expression level in the first context of the comparison. Genes are separated into categories based on direction of differential expression and a Log
+2
+(Fold-Change) magnitude cut-off of one. d, day; DEG, differentially expressed gene; Downreg, downregulated; FLT, spaceflight; GC, ground control; Mag, magnitude; Upreg, upregulated. Data are based on four biological replicates.
+The relative contributions of DEGs with high degrees of differential expression (greater than twofold change) in response to spaceflight were variable among genotypes and developmental age. In the FLT vs. GC comparison (
+Figure 4A
+), the proportion of these DEGs was elevated in
+spr1
+(4d: 41.8%, 8d: 22.0%) relative to Col-0 (4d: 17.8%, 8d: 12.5%), and the difference in this proportion between the lines declined over time. However, when the genotypic comparison of s
+pr1
+vs. Col-0 (
+Figure 4B
+) was made, the proportion of these DEGs showed the opposite trend. In this case, the level of differential expression was slightly higher in FLT at 4d (GC: 16.5%, FLT: 23.9%) and at 8d the proportion of these DEGs was elevated in GC (GC: 30.2%, FLT: 11.9%). In the developmental comparison (
+Figure 4C
+), the primary point of interest was the low number of genes whose expression increased to a high degree over time in Col-0 GC roots (33 DEGs) when compared to the other contexts. In the same time frame,
+spr1
+increased expression of 424 genes over twofold to accomplish the same development.
+spr1
+Differentially Expressed Defense Pathways in Its Spaceflight Response
+Most of the genes that are highly differentially expressed between the Col-0 and
+spr1
+are unique within the context of developmental age or growth environment (
+Figure 5A
+). However, a small number were differentially expressed between genotype irrespective of environment or age (
+Figure 5A
+). The coordinately expressed upregulated genes were related to the regulation of defense responses (NIMIN-1, ALD1, DLO1). The only genes that registered as coordinately downregulated in this comparison were SPIRAL1 and an antisense transcript (AT3G29644) of a transposable element which did not show differential expression itself.
+FIGURE 5.
+Open in a new tab
+Spr1
+vs. Col-0; the effects of
+SPR1
+loss on gene expression.
+(A)
+Differentially expressed genes (DEGs) between the
+spr1
+mutant and its Col-0 wild-type background with greater than twofold magnitude in at least one context. DEG heatmaps are scaled such that yellow and blue represent more extreme levels of up- and downregulation, respectively, while red and green represent lower fold-changes in the same manner. In this case, upregulation of a gene indicates a higher expression level in
+spr1
+than in Col-0.
+(B,C)
+Gene ontology (GO) terms for
+(B)
+biological processes and
+(C)
+cellular compartments whose annotated genes were over- and underrepresented in the lists of DEGs for each context which met the twofold cutoff. The significance of the GO terms’ enrichment is represented by the –Log
+10
+transform of its
+q
+-value. The scaling scheme used for the GO term heatmaps was similar to that described for DEGs, where yellow and red denote overrepresented terms, and blue and green denote underrepresented terms. Data are based on four biological replicates.
+The theme of stress response and defense was also evident in the GO enrichment analyses of the genes differentially expressed between Col-0 and
+spr1
+in the spaceflight environment. The significantly over- and underrepresented GO terms among biological processes are indicated in
+Figure 5B
+. Genes associated with general stress responses and environmental stimuli were prominent, as well as those annotated to terms related to defense responses. DEGs associated with these defense and stress pathways have been noted in the FLT vs. GC comparisons of previous studies (e.g.,
+Correll et al., 2013
+;
+Paul et al., 2013
+,
+2017
+;
+Choi et al., 2019
+). Genes involved in responses to salicylic acid, a phytohormone linked to both plant defense signaling and regulation of plant development (
+Klessig et al., 2018
+), were also enriched. Carbon fixation pathways, and specifically multiple ribulose bisphosphate carboxylase (RuBisCo) genes, were also upregulated in 4d FLT
+spr1
+(
+Figures 5B,C
+). Genes encoding proteins localized to the apoplast were also enriched among those upregulated in FLT
+spr1
+, indicating that significant remodeling of processes within the cell was also needed by
+spr1
+within the spaceflight environment (
+Figure 5C
+).
+Many of the DEGs associated with the acclimation to spaceflight were unique to genotype and to the developmental age of the plants (
+Figure 6A
+). There were 554 genes differentially expressed by at least twofold between spaceflight and ground among the two age groups (4d and 8d) of the two genotypes (Col-0 and
+spr1
+), with 63 genes coordinately expressed across all plants. Developmental age had a substantial impact on the spaceflight response of both genotypes; in both Col-0 and spr1, the 4d plants had a higher number of DEGs than the 8d plants. There was a large amount of overlap between the GO processes identified from the DEGs used to acclimate to the FLT condition for
+spr1
+and Col-0 (
+Figure 6B
+). Among the more widely shared GO categories in the 4d plants of both genotypes were those corresponding to the regulation of gene expression and transcriptional processes. These were more highly enriched in
+spr1
+roots than in Col-0, however, it can also be seen that there is a
+spr1
+-specific enrichment of the same terms among those genes which are downregulated in the response to FLT. The term for a response to karrikin compounds (phytohormone-like molecules derived from burning plant material) was also indicated. Many light signaling terms also appeared as enriched among DEGs downregulated in FLT, and these were involved with the response to various wavelengths of light as well as the response to elevated light intensity. However, specific photosynthetic terms appeared amongst those which were downregulated only at 8d in Col-0. Similar localization terms appeared specifically in 8d Col-0 as well (
+Figure 6C
+), indicating that these were changes in the expression of genes directly involved in the photosynthetic machinery. While both
+spr1
+and Col-0 4d were enriched with DEGs localized to the apoplast, these were among the upregulated genes in
+spr1
+and the downregulated genes in Col-0, alongside other terms related to extracellular structures. Furthermore, terms related to organellar localization were significantly underrepresented in those genes upregulated in Col-0 at 4d.
+FIGURE 6.
+Open in a new tab
+FLT vs. GC for Col-0 and
+spr1
+; the DEGs involved in spaceflight acclimation.
+(A)
+Differentially expressed genes (DEGs) between the GC and FLT conditions with greater than twofold magnitude in at least one context. DEG heatmaps are scaled such that yellow and blue represent more extreme levels of up- and downregulation, respectively, while red and green represent lower fold-changes in the same manner. In this case, upregulation of a gene indicates a higher expression level in FLT than the GC.
+(B,C)
+Gene ontology (GO) terms for
+(B)
+biological processes and
+(C)
+cellular compartments whose annotated genes were over- and underrepresented in the lists of DEGs for each context which met the twofold cutoff. The significance of the GO terms’ enrichment is represented by the –Log
+10
+transform of its
+q
+-value. The scaling scheme used for the GO term heatmaps was similar to that described for DEGs, where yellow and red denote overrepresented terms, and blue and green denote underrepresented terms. Data are based on four biological replicates.
+The expression of genes associated with the developmental age was impacted by the spaceflight environment (
+Figure 7A
+). Approximately 26% of the total DEGs meeting the criteria for inclusion were required to be differentially expressed at some level regardless of the growth condition or genotypic background to facilitate development. However, among only those DEGs which met the twofold change cutoff, there were not GO terms shared so ubiquitously between contexts (
+Figure 7B
+). While broad GO terms for gene expression and metabolic processes were underrepresented in many of the contexts, more specific terms related to developmental and metabolic regulation were enriched during development in Col-0. Genes related to oxidative stress were also enriched among those genes more highly expressed at 4d in FLT in both genotypes. Localization GO term enrichments were highly divided between intracellular and extracellular compartments, which were consistently underrepresented and overrepresented, respectively (
+Figure 7C
+). These underrepresented GO terms occur mostly within the sets of DEGs which were upregulated between 4d and 8d, with many more significantly enriched in
+spr1
+. The primary exception to this was a set of terms related to the chloroplast and the RuBisCo complex, which were mostly enriched in those DEGs more highly expressed in early development of
+spr1
+.
+FIGURE 7.
+Open in a new tab
+4d vs. 8d seedlings of Col-0 and
+spr1
+; developmentally-associated DEGs.
+(A)
+Differentially expressed genes (DEGs) between the 4d and 8d timepoints with greater than twofold magnitude in at least one context. DEG heatmaps are scaled such that yellow and blue represent more extreme levels of up- and downregulation, respectively, while red and green represent lower fold-changes in the same manner. In this case, upregulation of a gene indicates a higher expression level at 4d than at 8d.
+(B,C)
+Gene ontology (GO) terms for
+(B)
+biological processes and
+(C)
+cellular compartments whose annotated genes were over- and underrepresented in the lists of DEGs for each context which met the twofold cutoff. The significance of the GO terms’ enrichment is represented by the –Log
+10
+transform of its
+q
+-value. The scaling scheme used for the GO term heatmaps was similar to that described for DEGs, where yellow and red denote overrepresented terms, and blue and green denote underrepresented terms. Data are based on four biological replicates.
+WS and
+Sku5
+Germination and Morphology of
+sku5
+in Spaceflight
+Phenotypic differences among the WS background plants in GC and FLT environments included root length and skewing angles (
+Figures 2
+,
+8
+). The primary root lengths of FLT WS were decreased significantly compared to GC at 8d (two-tailed
+t-
+test,
+p
+= 0.000209), but not at 4d. There were no differences in root lengths between GC and FLT
+sku5
+plants of either 4d or 8d plants (
+Figures 2B
+,
+8C,D,G,H
+). There were differences in root length between WS and
+sku5
+genotypes in the GC (
+p
+= 0.0013) but FLT WS and FLT
+sku5
+roots were not statistically different (
+Figures 2B
+,
+8C,D,G,H
+).
+FIGURE 8.
+Open in a new tab
+High resolution images of the WS and
+sku5
+growth patterns. Images are arranged such that the ground control seedlings
+(A–D)
+are in the left column while spaceflight seedlings are on the right
+(E–H)
+. Vertically, images alternate between WS
+(A,C,E,G)
+and
+sku5
+(B,D,F,H)
+. The images taken at the 4d time point
+(A,B,E,F)
+are above those taken at the 8d time point
+(C,D,G,H)
+. Images taken from above the growth medium at the time of harvest. Grid squares are 13 mm wide.
+There were no statistically significant differences in the overall change from vertical between WS and
+sku5
+in either GC or FLT environments (
+Figures 2C
+,
+8A–D
+). The differences in root angles between GC and FLT for each genotype, and between the WS and
+sku5
+genotypes in both FLT and GC environments, also failed to meet statistical criteria. However, visual inspection of the images, and also the plots of
+Figure 2C
+, illustrate the difference in the directional trends for root growth in each genotype and environment. For both genotypes the variance in the growth angle (as noted in the SD values in
+Figure 2
+) was greater in the spaceflight samples.
+The FLT
+sku5
+seeds germinated at a significantly reduced rate (48%) compared to WS FLT (85%), and to
+sku5
+GC (77%) and WS GC (93%) [χ
+2
+(3,
+N
+= 185) = 15.01,
+p
+= 0.00181] (
+Supplementary Table S2
+and
+Figures 8A,B,E,F
+). However, the FLT
+sku5
+seeds that germinated produced plants that were comparable to their GC counterparts, as evidenced both by plate images and by the lack of difference in root length between FLT and GC
+sku5
+at 4 and 8d (
+Figures 2B
+,
+8B,D,F,H
+).
+The Expression of More Genes Is Altered in
+sku5
+Than in WS During Spaceflight
+The trends of differential expression in WS and the
+sku5
+line contrasted with those seen in Col-0 and
+spr1
+in that WS and
+sku5
+show an elevated transcriptomic response to spaceflight over time, with
+sku5
+further differentially expressing more genes than WS (
+Figure 9
+). The clearest example of this was the FLT vs. GC comparison of gene expression for these lines, where the number of DEGs required for spaceflight acclimation of
+sku5
+were fivefold and twofold more than WS at 4d and 8d, respectively (
+Figure 9A
+: FLT vs. GC). However, both genotypes increase in their DEG counts between 4d and 8d. The proportion of DEGs with a greater than twofold change also decreased to a very similar degree for both WS (4d: 63.2%, 8d: 14.5%) and
+sku5
+(4d: 62.8%, 8d: 14.2%) despite the large difference in counts. When the genotypes were compared directly, the transcriptomic differences between them were exacerbated as they acclimated to the flight condition over time (
+Figure 9B
+:
+sku5
+vs. WS). The proportion of DEGs meeting the twofold change criteria followed a similar trend to that seen in flight acclimation, where it decreased in both GC (4d: 40.9%, 8d: 13.0%) and FLT (4d: 52.8%, 8d: 9.3%). Despite these trends, most genes among the FLT 4d DEGs that had greater than twofold change were those that were expressed more highly in
+sku5
+. This trend persisted into the 4d vs. 8d comparison (
+Figure 9C
+: 4d vs. 8d), where
+sku5
+in the FLT condition required more genes to be differentially expressed in order to develop. S
+ku5
+in the GC condition behaved much like WS in both FLT and GC conditions in terms of DEG counts in each fold-change category. Together, these patterns of gene expression indicated that the conditions of spaceflight had a disproportionate effect on the
+sku5
+roots’ transcriptomic responses, but that each genotype’s response to spaceflight over time involved a greater number of DEGs of lower fold-changes.
+FIGURE 9.
+Open in a new tab
+WS and
+sku5
+overall differential gene expression levels. A graphic representation of the genes differentially expressed in the
+(A)
+FLT vs. GC,
+(B)
+sku
+5 vs. WS, and
+(C)
+4d vs. 8d comparisons. Upregulation of a gene denotes a higher expression level in the first context of the comparison. Genes are separated into categories based on direction of differential expression and a Log2(Fold-Change) magnitude cut-off of one. d, day; DEG, differentially expressed gene; Downreg, downregulated; FLT, spaceflight; GC, ground control; Mag, magnitude; Upreg, upregulated. Data are based on four biological replicates.
+Sku5
+Highly Induced ABA- and Stress-Associated Genes in Spaceflight
+The genes differentially expressed between
+sku5
+and WS were similar between GC and FLT growth conditions (
+Figure 10A
+), in that the same genes that were highly upregulated in WS GC were highly upregulated in FLT for
+sku5
+. Among these were many late embryogenesis abundant (LEA) family proteins, whose expression has been connected to enhanced resistance to abiotic stresses and alterations in ABA sensitivity (
+Zhao et al., 2011
+;
+Candat et al., 2014
+). Additional LEA family genes and seed storage proteins, such as CRUCIFERINA (CRA1) and CRUCIFERIN 3 (CRA3) were seen as upregulated uniquely in
+sku5
+FLT. Alongside these were further genes associated with ABA- or ABA-independent dormancy signaling, notably REDUCED DORMANCY 5 (RDO5), DELAY OF GERMINATION 1 (DOG1), and HIGHLY ABA-INDUCED PROTEIN 2 and 3 (HAI2, HAI3). In 4d
+sku5
+spaceflight plants, genes encoding LEAs and other seed-associated proteins are among the most highly induced (Log
+2
+[5 to 10], or 30 to 1000-fold). Many of these patterns are further supported by GO biological process term enrichments (
+Figure 10B
+), where almost all of the overrepresented terms are enriched within the group of genes more highly expressed by
+sku5
+roots at 4d in FLT. Outside of the mentioned ABA signaling and seed development genes, terms for regulation of seed dormancy and negative regulation of post-embryonic development are overrepresented, alongside more general terms such as responses to temperature and stress. All of the significant GO localization enrichments were for genes more highly expressed in WS in the 4d FLT context, involving either DEGs related to the RuBisCo complex or extracellular structures (
+Figure 10C
+). DEGs encoding proteins anchored to the PM are enriched for this group, indicating an important role for them in WS.
+FIGURE 10.
+Open in a new tab
+sku5
+vs. WS; the effects of
+SKU5
+loss on gene expression.
+(A)
+Differentially expressed genes (DEGs) between the
+sku5
+mutant and its WS wild-type background with greater than twofold magnitude in at least one context. DEG heatmaps are scaled such that yellow and blue represent more extreme levels of up- and downregulation, respectively, while red and green represent lower fold-changes in the same manner. In this case, upregulation of a gene indicates a higher expression level in
+sku5
+than in WS.
+(B,C)
+Gene ontology (GO) terms for
+(B)
+biological processes and
+(C)
+cellular compartments whose annotated genes were over- and underrepresented in the lists of DEGs for each context which met the twofold cutoff. The significance of the GO terms’ enrichment is represented by the –Log
+10
+transform of its
+q
+-value. The scaling scheme used for the GO term heatmaps was similar to that described for DEGs, where yellow and red denote overrepresented terms, and blue and green denote underrepresented terms. Data are based on four biological replicates.
+Many of the LEAs and ABA-responsive DEGs in the
+sku5
+vs. WS comparison were also highly upregulated by
+sku5
+in the FLT vs. GC comparison, and some were unique to the spaceflight acclimation of
+sku5
+(
+Figures 10A
+,
+11A
+). The majority of FLT vs. GC DEGs (70.3%) were only detected in one of the
+sku5
+FLT vs. GC comparison contexts. As such, the majority of the GO biological process terms found to be enriched were unique to the DEGs upregulated in FLT
+sku5
+at the 4d time point (
+Figure 11B
+). Hormone response and signal transduction terms were enriched, with ethylene signaling, ROS response, and light signaling among the more specific pathways to be represented. In tandem, these 4d
+sku5
+roots had decreased enrichment of DEGs associated with the synthesis of suberin. Uniquely to this comparison, 8d FLT WS roots upregulated genes related to chromatin remodeling. As seen in other comparisons (
+Figures 6C
+,
+7C
+,
+10C
+), WS upregulated genes annotated to the RuBisCo complex in FLT (
+Figure 11C
+). Additionally, the 8d downregulated DEGs for WS were overrepresented for extracellular localization, and DEGs whose products localized to intracellular and organellar compartments were underrepresented (
+Figure 11C
+). However,
+sku5
+showed overrepresentation of downregulated DEGs annotated to the extracellular region at the earlier time point of 4d.
+FIGURE 11.
+Open in a new tab
+FLT vs. GC for WS and
+sku5
+; DEGs involved in spaceflight acclimation.
+(A)
+Differentially expressed genes (DEGs) between the GC and FLT conditions with greater than twofold magnitude in at least one context. DEG heatmaps are scaled such that yellow and blue represent more extreme levels of up- and downregulation, respectively, while red and green represent lower fold-changes in the same manner. In this case, upregulation of a gene indicates a higher expression level in FLT than the GC.
+(B,C)
+Gene ontology (GO) terms for b biological processes and
+(C)
+cellular compartments whose annotated genes were over- and underrepresented in the lists of DEGs for each context which met the twofold cutoff. The significance of the GO terms’ enrichment is represented by the –Log
+10
+transform of its
+q
+-value. The scaling scheme used for the GO term heatmaps was similar to that described for DEGs, where yellow and red denote overrepresented terms, and blue and green denote underrepresented terms. Data are based on four biological replicates.
+Late embryogenesis abundant family genes were also prominently represented in the 4d vs. 8d comparison within GC and FLT environments (
+Figure 12A
+). Examination of the GO biological process terms yielded by the individual lists of DEGs showed many similar stress response terms, but these were primarily in the context of genes more highly expressed at the 4d time point (
+Figure 12B
+). However, based on the level of significance of the terms, the enrichment of DEGs related to many of these stress responses was enhanced in FLT. In the cases of oxidative stress and cold response
+sku5
+showed this enhancement. However, in some cases, such as the response to desiccation, both genotypes showed a lack of significant term enrichment in FLT. The
+sku5
+roots also showed slightly higher significance of enrichment of DEGs associated with responses to water deprivation and light stimuli in early FLT development, compared to WS. GO terms related to cell wall remodeling and immune responses, commonly seen in FLT acclimation, were also enhanced in their enrichment during FLT development of
+sku5
+compared to GC development. The remainder of the significant GO terms were unique to one context, and among these is the response to karrikin, which was previously seen in the context of
+spr1
+and Col-0 FLT vs. GC comparisons (
+Figure 6B
+). Of the terms enriched specifically in
+sku5
+FLT development, processes involved with salt and ROS stress, as well as light responses, were significantly higher at 4d. At 8d, the terms associated with
+sku5
+in FLT were primarily focused on cell wall remodeling and biosynthetic processes.
+FIGURE 12.
+Open in a new tab
+4d vs. 8d seedlings of WS and
+sku5
+; developmentally-associated DEGs.
+(A)
+Differentially expressed genes (DEGs) between the 4d and 8d timepoints with greater than twofold magnitude in at least one context. DEG heatmaps are scaled such that yellow and blue represent more extreme levels of up- and downregulation, respectively, while red and green represent lower fold-changes in the same manner. In this case, upregulation of a gene indicates a higher expression level at 4d than at 8d.
+(B,C)
+Gene ontology (GO) terms for
+(B)
+biological processes and
+(C)
+cellular compartments whose annotated genes were over- and underrepresented in the lists of DEGs for each context which met the twofold cutoff. The significance of the GO terms’ enrichment is represented by the –Log
+10
+transform of its
+q
+-value. The scaling scheme used for the GO term heatmaps was similar to that described for DEGs, where yellow and red denote overrepresented terms, and blue and green denote underrepresented terms. Data are based on four biological replicates.
+Discussion
+The discovery that root skewing was not gravity-dependent, and prevalent in both light-grown and dark-grown plants in spaceflight habitats (
+Millar et al., 2011
+;
+Paul et al., 2012a
+;
+Nakashima et al., 2014
+), invited questions about the underlying mechanisms of this behavior in the microgravity environment and the relationship between those mechanisms and physiological adaptation to spaceflight. The experiments described here examined the contribution of two well-characterized skewing genes that are in two different ecotypic backgrounds and which affect different skewing control pathways. SPIRAL1 plays a role in directional cell expansion by regulating cortical microtubule dynamics (
+Furutani et al., 2000
+;
+Nakajima et al., 2004
+;
+Sedbrook et al., 2004
+;
+Galva et al., 2014
+). SKU5 is a skewing-related glycosylphosphatidylinositol-anchored cell wall and plasma membrane protein, which has also been implicated in stress response signaling (
+Sedbrook et al., 2002
+). The
+sku5
+and
+spr1
+mutants are well characterized in terrestrial environments, skewing rightward and leftward, respectively, when grown vertically (
+Furutani et al., 2000
+;
+Sedbrook et al., 2002
+,
+2004
+;
+Nakajima et al., 2004
+). The experimental readouts used to assess the physiological adjustment of seedlings to spaceflight were root and germination measurements, and the differences in transcriptomic responses among the genotypes. The opposing directions of the skewing phenotypes of the mutant lines are believed to stem from alterations of distinct cellular processes, and this is most clearly evidenced by the differential effects of microtubule-destabilizing agents on these mutants (
+Furutani et al., 2000
+;
+Sedbrook et al., 2002
+,
+2004
+;
+Nakajima et al., 2004
+;
+Galva et al., 2014
+). The distinct roles of these two genes in determining root directionality is supported by their different individual responses to spaceflight in the present experiments. The data from
+sku5
+and
+spiral1
+are analyzed in context with their parent genotype, WS and Col-0 respectively, as WS shows a much smaller number of spaceflight differentially expressed genes than Col-0 (
+Paul et al., 2017
+, and
+Figures 4
+,
+12
+).
+Spr1
+Skews Leftward on Earth and Moreso in Space
+Terrestrial studies concluded that SPR1 reinforces rightward root growth by affecting the balance of thigmotropism and gravitropism (
+Galva et al., 2014
+). Morphological data from APEX-03-2 support this notion. At the 4d time point,
+spr1
+seedlings showed a consistent leftward skewing phenotype on Earth, and the leftward skewing was substantially enhanced by spaceflight (
+Figures 2C
+,
+3B,F
+). However,
+spr1
+and Col-0 roots were the same length in spaceflight, indicating that the role of SPR1 lies in directionality rather than overall root length in spaceflight (
+Figure 2A
+). These data suggest that in the absence of gravitropism during spaceflight, thigmotropism plays a dominant role in growth directionality and that SPR1 acts to positively enhance skewing while not affecting root length in spaceflight. The spaceflight effect of
+spr1
+lies in morphology management rather than growth management.
+SPR1 binds with another microtubule plus-end tracking protein, EB1b (
+Galva et al., 2014
+). It has been postulated that EB1b and SPR1 work in concert to regulate mechanical force-based directional growth with a balance of gravitropism and thigmotropism, where SPR1 participates in the reinforcement of rightward growth through thigmotropic processes, while EB1b negatively regulates thigmotropism and positively regulates gravitropism (
+Galva et al., 2014
+). In an environment lacking a gravity cue such as spaceflight, this gravitropic reinforcement has no effect, resulting in the enhanced skewing of
+spr1.
+Similarly elevated leftward skewing of
+spr1
+occurs under cold conditions alongside alterations of the microtubule network, and skewing is conversely suppressed by heat or salt treatments (
+Furutani et al., 2000
+;
+Sedbrook et al., 2004
+). The elevated skewing seen in
+spr1
+may therefore be the result of spaceflight-induced signals in the root which are similar to those involved in cold response signaling. The microtubule-associated protein MAP65-1 is more abundant in spaceflight, and is also hypothesized to be linked to cold-responsive microtubule stabilization (
+Chen et al., 2016
+;
+Soga et al., 2018
+). Actin cytoskeleton mutants also exhibit a greater degree of skewing in microgravity when compared to wild-type and GC plants, though this skewing occurs to the right when regarded from behind the media (
+Nakashima et al., 2014
+). These structural systems both appear to have roles in suppressing endogenous root skewing patterns in spaceflight. The spaceflight-enhanced skewing of
+spr1
+may therefore be attributed to its altered microtubule dynamics in the spaceflight response, similar to altered dynamics induced by terrestrial cold stress.
+Sku5
+Skews Inappropriately in Spaceflight
+The
+sku5
+mutant did not show an enhancement of skewing in spaceflight as compared to the GC, nor did
+sku5
+respond to the spaceflight environment in the same manner as it does to terrestrial disruption of the gravity vector (
+Figure 2C
+) (
+Sedbrook et al., 2002
+). However,
+sku5
+and WS roots were the same length in spaceflight, indicating that the role of SKU5 also lies in directionality rather than overall root length in spaceflight (
+Figure 2B
+). These data suggest that SKU5, like SPR1, regulates morphology and directionality rather than growth. However, SKU5 regulation is very different from SPR1 regulation of skewing morphology in that lack of SKU5 function prevents appropriate skewing in spaceflight. This prevention of skewing, the
+sku5
+interruption of the pathways involved in skewing, leads to dramatic changes in differential expression of genes for physiological adaptation to spaceflight.
+Differential Gene Expression as a Measure of the Quantity and Character of the Physiological Adaptation to Spaceflight
+Differential gene expression profiles reveal the underlying gene expression changes needed for physiological adaptation to environmental changes. There are numerous, well-documented environmentally-induced gene expression profiles in plants, all of which detail specific physiological changes related to the specific stresses. The intensity of the differential gene expression response, in terms of the number of genes involved and their fold-change levels, may be considered a measure of the metabolic cost of adapting to that environment. A terrestrial example of this metabolic cost is in the transcriptomic response to cold stress in Arabidopsis lines that are either sensitive or resistant to cold (
+Chan et al., 2016
+). Plants that overexpressed RNA-DIRECTED DNA METHYLATION 4 (RDM4) had a cold-tolerant phenotype, and exhibited a greatly reduced transcriptomic response to cold stress compared to the more cold-sensitive wild-type and
+rdm4
+knock-out plants (
+Chan et al., 2016
+). The plants that were least able to tolerate cold environments displayed a far higher number (up to 100×) of differentially expressed genes in response to cold than the cold-tolerant plants exposed to the same environment (
+Chan et al., 2016
+).
+Spr1
+adapts to spaceflight with far fewer DEGs than Col-0. This suggests that mutation of the SPR1 skewing pathway enhances spaceflight physiological adaptation. In contrast, the
+sku5
+mutation results in a doubling of DEGs in response to spaceflight, and many of those DEGs are members of strong environmental stress responses. This strong response suggests that the SKU5 pathway plays a key role in spaceflight physiological adaptation.
+Sku5
+Mutation Produces a Dramatic Increase in Differential Gene Expression in Spaceflight
+Sku5
+showed a dramatic program of differential gene expression compared to the GCs, a program that was more pronounced and diverse than that of
+spr1
+. Many of the genes that are significantly differentially expressed between spaceflight and GCs are associated with skewing and cell wall remodeling, irrespective of intensity of skewing phenotype in the spaceflight-grown plants (
+Figure 13
+).
+FIGURE 13.
+Open in a new tab
+Differentially expressed genes between FLT and GC of particular interest. Statistically significant DEGs with greater than twofold magnitude in at least one context. Each gene in this list corresponded to the following categories: potential and highly probable skew gene candidates (Skewing, HPSGC;
+Schultz et al., 2017
+), late embryogenesis abundant (LEA;
+Hundertmark and Hincha, 2008
+), associated with gravitropism (GO Terms;
+Carbon et al., 2008
+), and abscisic acid (ABA, GO Terms;
+Carbon et al., 2008
+). The heat map scale Log
+2
+(Fold-Change) is indicated in the bottom right corner. Categorical information is provided beside each gene group. Data are based on four biological replicates.
+One of the unique aspects of the
+sku5
+spaceflight differential gene expression program involved genes usually associated with dehydration and ABA signaling. The FLT
+sku5
+expression patterns of LEAs and other ABA-associated genes suggest a spaceflight adaptation phenomenon involving, but not limited to, an altered ABA sensitivity in these plants. Many of the highest magnitude DEGs in the spaceflight acclimation of
+sku5
+were in the LEA family, primarily dehydrins and group-4 LEAs; many of these genes were induced by greater than 30-fold [Log
+2
+(5)] (
+Figure 13
+). LEAs are responsive to ABA signaling resulting from osmotic, cold, and drought stresses and act to enhance stress resistance through membrane stabilization, sequestration of ROS, and prevention of protein aggregation (
+Hundertmark and Hincha, 2008
+;
+Zhao et al., 2011
+;
+Candat et al., 2014
+;
+Fang and Xiong, 2015
+;
+Suzuki et al., 2016
+).
+Many of the DEGs and LEAs upregulated in the spaceflight acclimation of
+sku5
+are associated with embryonic programs that are adjusted at the chromatin level during germination in response to environmental factors (
+Tai et al., 2005
+;
+Tang et al., 2012
+;
+Molitor et al., 2014
+). DOG1, for example, increases in expression in cold temperatures, acting to repress germination during those unfavorable conditions (
+Footitt et al., 2013
+,
+2014
+). The
+sku5
+DEGs HAI2 and HAI3 are involved in regulating ABA signaling and responding to soil water potential (
+Bhaskara et al., 2012
+;
+Kim et al., 2013
+). REDUCED DORMANCY 5 also acts to inhibit germination, but functions independently of DOG1 and ABA signaling pathways (
+Xiang et al., 2014
+). The GO term enrichments for
+sku5
+also support this, as DEGs associated with dormancy regulation are overrepresented in the dataset (
+Figures 10B
+,
+12B
+). It is important to note that SKU5 is expressed in floral tissue (
+Sedbrook et al., 2002
+). This altered ABA signaling in
+sku5
+could therefore be attributed to downstream effects of altered seed development. In support of these interpretations, germination rates were repressed in FLT
+sku5
+(
+Figures 8F,H
+) relative to GC
+sku5
+(
+Figures 8B,D
+), and to FLT WS (
+Figures 8E,G
+), as evidenced by counts of ungerminated seeds in the harvest images (
+Supplementary Table S2
+). While
+spr1
+is also expressed in reproductive tissues, the differential expression of dormancy signaling genes was not prevalent in the Col-0 and
+spr1
+comparisons (
+Nakajima et al., 2004
+;
+Sedbrook et al., 2004
+). In fact, those few DEGs related to ABA signaling observed in Col-0 and
+spr1
+displayed a trend in expression that was opposite of what was seen in FLT
+sku5
+. As a prime example, the LEA ABA-RESPONSE PROTEIN (ABR) was only slightly downregulated in the spaceflight acclimation of 8d
+spr1
+. ABA-related dormancy signaling may be affected by the spaceflight environment.
+Differential expression patterns also indicate that
+sku5
+mutants experience changes in the plasma membrane during spaceflight. Alterations in plasma membrane dynamics and composition occur in plant responses to terrestrial stressors (e.g., cold stress) and in the response of
+Chlorella vulgaris
+to spaceflight (
+Popova et al., 1989
+;
+Solanke and Sharma, 2008
+;
+Kazemi-Shahandashti and Maali-Amiri, 2018
+). Roots of
+Pisum sativum
+grown under clinorotation also show shifts in membrane composition in sterol-enriched membrane domains known as “lipid rafts” (
+Kordyum et al., 2018
+). Membrane-bound GPI-APs, such as SKU5, localize to these lipid raft nanodomains and are important to stress acclimation, including spaceflight-associated stress (
+Minami et al., 2008
+;
+Mazars et al., 2014
+;
+Ferl et al., 2015
+;
+Takahashi et al., 2016
+,
+2019
+;
+Yeats et al., 2018
+). ABA signaling proteins also localize to these membrane domains in a sterol-dependent manner (
+Demir et al., 2013
+). Given that
+sku5
+shows alterations of ABA signaling pathways in spaceflight (
+Figure 13
+), it can be hypothesized that the lack of SKU5 may affect the function of these nanodomain-localized ABA signaling processes under stress conditions. The expression of a chloroplastic aldehyde reductase, ChlADR (AT1G54870), involved in the detoxification of reactive carbonyls formed as a result of lipid peroxidation, and TSPO, which participates in mobilization of lipids, are induced by stress and highly induced in the spaceflight acclimation of
+sku5
+(
+Guillaumot et al., 2009
+;
+Yamauchi et al., 2011
+;
+Jurkiewicz et al., 2018
+). These patterns match the gene expression trends of the spaceflight-induced LEA family genes that are thought to directly participate in membrane stabilization under stress (
+Battaglia et al., 2008
+;
+Hundertmark and Hincha, 2008
+;
+Candat et al., 2014
+). The gene expression patterns of these ABA-responsive genes in
+sku5
+suggest that SKU5 affects ABA signaling in response to stresses. Furthermore, this shows that pathways affecting membrane stabilization and remodeling are required for the spaceflight acclimation of
+sku5
+that are not essential for its growth in terrestrial environments.
+SKU5 may also directly participate in stress response signaling or cellular remodeling due to its localization to the outer aspects of the plasma membrane. A SKU5 homolog is highly upregulated [Log
+2
+(14)] in tobacco overexpressing a FATTY ACID DESATURASE 3 (CbFAD3-OE) homolog derived from the cryophyte
+Chorispora bungeana
+when compared to a wild-type line in the response to salt stress (
+Shi et al., 2018
+). CbFAD3-OE lines exhibited enhanced membrane fluidity and survival under cold, salt, and drought stresses, and demonstrated reduced lipid peroxidation and membrane leakage via activation of calcium signaling and suppression of ROS (
+Shi et al., 2018
+). As such, the
+sku5
+line may require alternative pathways to be activated to maintain membrane fluidity and integrity during spaceflight acclimation due to the removal of SKU5 from this response pathway. The transcriptomic response of
+sku5
+to the spaceflight condition was elevated compared to WS, which would support the activation of additional pathways (
+Figures 10A
+,
+11A
+). ROS-related genes are abundant in spaceflight transcriptomes, and reflect a response to spaceflight that is conserved among Arabidopsis cultivars and related species (
+Paul et al., 2013
+,
+2017
+;
+Sugimoto et al., 2014
+;
+Ferl et al., 2015
+;
+Sng et al., 2018
+;
+Choi et al., 2019
+;
+Zhou et al., 2019
+). Our findings were consistent with this trend across genotypes and the skewing mutants based on GO term enrichments associated with the spaceflight response (
+Figures 6B
+,
+11B
+). Notably,
+sku5
+FLT showed elevated expression of genes required to be expressed in response to ROS at the 4d when compared to FLT WS (
+Figures 9B
+,
+10B
+), supporting this hypothesized function of SKU5 in this membrane-associated ROS suppression. While FAD3 was not among the
+sku5
+FLT DEGs, FLORAL TRANSITION AT THE MERISTEM1 (FTM1), which catalyzes the desaturation of stearic acid to oleic acid upstream of FAD3, was upregulated in WS and
+spr1
+spaceflight acclimation, and downregulated in that of Col-0 and
+sku5.
+FTM1 participates alongside FAD3 in the mediation of stresses associated with Arabidopsis crown gall development through their enrichment with C18:3 fatty acids (
+Klinkenberg et al., 2014
+). The increase of C18:3 class of fatty acids also correlated with the enhanced membrane stability measures in the CbFAD3-OE lines (
+Shi et al., 2018
+). These results therefore suggest a role for SKU5 in stress metabolism with respect to the plasma membrane, a role that was not revealed in previous ground experiments.
+An additional explanation for the altered spaceflight response of
+sku5
+comes from its likely association with auxin metabolism and signaling upstream of the plant TOR complex. A SKU5 homolog in maize encodes an interactor of AUXIN-BINDNG PROTEIN 1 (ABP1) (
+Shimomura, 2006
+). The
+abp1
+mutant demonstrates a leftward-skewing phenotype opposite to that seen in
+sku5
+(
+Sedbrook et al., 2002
+;
+Gao et al., 2015
+). Auxin gradients are still present in spaceflight root tips despite the lack of a gravity cue in the spaceflight environment (
+Ferl and Paul, 2016
+). The presence of SKU5 acting to mediate anisotropic cell growth in response to endogenous auxin gradients could facilitate the spaceflight acclimation of wild-type seedlings. GO terms associated with the DEGs of 4d spaceflight response of
+sku5
+suggested this connection as well, with many alterations occurring in signaling pathways related to ethylene, ROS, and light signaling (
+Figure 11B
+). Furthermore, ABP1 is associated with the activation of TOR and the promotion of growth through the action of an auxin-activated signaling pathway mediated by the RHO OF PLANTS 2 (ROP2) GTPase (
+Xu et al., 2014
+;
+Schepetilnikov et al., 2017
+;
+Ryabova et al., 2019
+). The TOR complex integrates diverse environmental signals to regulate growth, and ABA signaling inhibits TOR, promoting autophagy to allow for stress tolerance acquisition (
+Ryabova et al., 2019
+;
+Signorelli et al., 2019
+). SKU5 may impact this mechanism indirectly through affecting the action of ABP1, and a reduction of the auxin signaling into TOR would shift the balance in favor of stronger ABA responses, such as that seen in the spaceflight acclimation of
+sku5
+. A ROP6 pathway also mediated by ABP1 affects the activity of KATANIN, which severs cortical microtubules to facilitate reorganization of the microtubule network in response to environmental stimuli (
+Chen et al., 2016
+). As a result, the
+spr1
+mutant may be faster to form a spaceflight-tolerant microtubule network due to its altered microtubule kinetics, while the
+sku5
+mutant may not be able to perform this function as rapidly due to altered ABP1 signaling.
+Spr1
+Mutation Produces a Decrease in Differential Gene Expression in Spaceflight
+The spaceflight DEGs of
+spr1
+and Col-0 were primarily in the defense and salicylic acid-mediated signaling related to cell wall remodeling (
+Figures 5B
+,
+6B
+). Genes related to these cell wall pathways are common in spaceflight transcriptomes (
+Paul et al., 2012b
+,
+2013
+,
+2017
+;
+Correll et al., 2013
+;
+Kwon et al., 2015
+;
+Johnson et al., 2017
+). While plants grown in microgravity may be more susceptible to pathogenic infection (
+Leach et al., 2001
+;
+Ryba-White et al., 2001
+), the fact that all examples to date of upregulated pathogen response genes are from plants grown in sterile conditions suggests that these genes are serving other purposes of cell wall remodeling in spaceflight (
+Paul et al., 2012b
+,
+2013
+,
+2017
+;
+Correll et al., 2013
+;
+Choi et al., 2019
+). ALD1 is a positive regulator of salicylic acid accumulation pathways through the generation of metabolites (
+Nie et al., 2011
+;
+Cecchini et al., 2015
+). NIMIN1 and DLO1 contribute to opposing processes, acting to repress immune responses at the level of expression regulation (
+Kohler et al., 2002
+;
+Zhang et al., 2013
+;
+Zeilmaker et al., 2015
+). Salicylic acid induces the lipid raft-localized pathways induced by ABA, in order to promote cellular uptake of water (
+Demir et al., 2013
+;
+Prodhan et al., 2018
+). The upregulation of salicylic acid signaling in
+spr1
+may act through these pathways, promoting abiotic stress response through pathways normally associated with defense responses (
+Figures 5B
+,
+6B
+). This hypothesis might also explain why the induction of “defense” and wound response pathways occurs in spaceflight in the absence of pathogenic infections (
+Nejat and Mantri, 2017
+). The recently characterized ORBITALLY MANIFESTED GENE 1, a regulator of ROS signaling that is both flg22- and wound-inducible, provides a spaceflight-relevant example (
+Sng et al., 2018
+). Considering that wounding and pathogen invasion also mechanically disrupt membranes and cell walls (
+Chen et al., 2016
+), these pathways may be signaling remodeling of cellular structures and the microtubule network in spaceflight. Flg22 application to Arabidopsis cell cultures and induction of MAMP-triggered immunity also has the effect of redistributing flavonoid compounds from biosynthetic processes important to oxidative stress response processes to the production of compounds important to defense (
+Schenke et al., 2019
+). Genes associated with the production of phenylpropanoids are less-represented among the
+spr1
+DEGs downregulated in spaceflight compared to Col-0, although they are also more highly represented among
+spr1
+DEGs downregulated across development in spaceflight (
+Figures 6B
+,
+7B
+). As such, these DEGs negatively regulating defense signaling in
+spr1
+may contribute to an enhanced ability to mediate ROS generated in spaceflight through the redistribution of limited resources early in its development. This conclusion is also supported by the gene categories enriched in the spaceflight acclimations of Col-0 and
+spr1
+, where DEGs associated with responses to oxidative stress are more enriched among genes upregulated in FLT in
+spr1
+than in Col-0 (
+Figure 6B
+).
+Many abiotic stresses trigger remodeling of cortical microtubules, with salt stress tolerance requiring the 26S proteasome-mediated degradation of SPR1 (
+Shoji et al., 2006
+;
+Wang et al., 2011
+;
+Chen et al., 2016
+). Microtubule reorientation also contributes to cell elongation in the spaceflight response of hypocotyls (
+Soga et al., 2018
+). The
+spr1
+mutant, which has altered microtubule dynamics in favor of decreased stability, may have enhanced capabilities for remodeling of microtubule networks in the response to many forms of environmental stress (
+Galva et al., 2014
+).
+Spr1
+and
+Sku5
+Mutants Both Differentially Regulate Skewing-Associated Genes in Response to Spaceflight
+Despite the many differing spaceflight responses of
+spr1
+and
+sku5
+, DEGs identified as likely to be associated with the integrative signaling of skewing (
+Schultz et al., 2017
+) were among those differentially expressed in both mutants in spaceflight (
+Figure 13
+). Two of the highly likely skewing genes, SENESCENCE 1 (SEN1) and ASPARAGINE SYNTHETASE 1 (ASN1) are induced in spaceflight (
+Figure 13
+). The SKU5 protein is endocytosed through different pathways within the root tip dependent on local auxin signals and perceived stress conditions (
+Baral et al., 2015
+). SKU5 could act to modulate growth regulation through its aforementioned association with the ABP1 apoplastic signaling pathway upstream of TOR, and both SKU5 and SPR1 can affect microtubule reorganizing pathways. This would enable SKU5 to impact the spaceflight response via the regulation of meristematic competence and cell cycle progression, processes that are affected in spaceflight (
+Matía et al., 2010
+), clinorotation, RPM exposure, and magnetic levitation (
+Herranz and Medina, 2014
+;
+Herranz et al., 2014
+;
+Boucheron-Dubuisson et al., 2016
+). This is supported by the M-phase peak of SKU5 expression and its previously hypothesized role in regulating the cell cycle (
+Menges et al., 2002
+;
+Sedbrook et al., 2002
+). However, the importance of senescence in the context of root skewing has not been well-studied. The recent association of strigolactone-independent karrikin-sensing pathways with skewing provides a potential direction for study (
+Swarbreck et al., 2019
+). The loss of the protein MORE AXILLARY BRANCHES 2 (MAX2), which also participates in strigolactone-associated senescence signaling, exacerbates the skewing phenotype of
+sku5
+in a
+sku5 max2
+line (
+Ueda and Kusaba, 2015
+;
+Swarbreck et al., 2019
+). Therefore, these results reinforce connections between environmental and senescence signaling and root skewing. The association of skewing-associated genes with these regulatory networks provide a means by which the mutation of these genes can alter the response to the spaceflight condition.
+Conclusion
+The physiological adaptation of
+sku5
+to spaceflight is characterized by powerful stress responses, as well as the strong induction of LEAs and other genes associated with seed development. In contrast to
+sku5
+,
+spr1
+differentially expressed fewer genes than Col-0 to physiologically adapt to spaceflight. This observation suggests that the
+spr1
+mutation imbued an enhanced ability for rapid spaceflight acclimation while
+sku5
+required an extended spaceflight response to accomplish acclimation, even to the point of initiating classic deep stress responses. These observations further suggest that the functional distinctions between
+sku5
+and
+spr1
+inform distinct aspects of the spaceflight response in plants, in particular the responses of young seedlings. The dramatic responses of
+sku5
+suggest that lipid raft nanodomains of the plasma membrane and their associated GPI-APs play important roles in spaceflight physiological adaptation.
+The fact that
+sku5
+and
+spr1
+show markedly different gene expression patterns in spaceflight suggests that the two skewing pathways highlighted by SKU5 and SPR1 differentially affect the mechanisms used by plants to physiologically acclimate to spaceflight. Since
+spr1
+and
+sku5
+root lengths are not altered by spaceflight, the effects of these mutations lie not in the process of growth, but in the processes that direct morphology and structure, likely tying together the large number of cell wall remodeling genes observed as differentially expressed in spaceflight. The data from APEX-03-2 therefore provide an initial functional dissection of the spaceflight response in roots, one that allows an integration of pathways associated with root directionality, morphology and physiological responses to spaceflight.
+Data Availability Statement
+The datasets generated and analyzed, composed of the RNA-Seq data and full output of the differential gene expression pipeline, for this study can be found in the Gene Expression Omnibus (GEO –
+https://www.ncbi.nlm.nih.gov/geo/
+) under the accessions
+GSE95620
+(
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?&acc=GSE95620
+) and
+GSE95582
+(
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95582
+), and also in NASA’s GeneLab Database (GLDS-218). A presentation outlining the experimental process and which contains video data of the harvests can be found at the NASA LSDA (Life Sciences Data Archive (
+https://lsda.jsc.nasa.gov/Dataset/dataset_info/13840
+).
+Author Contributions
+A-LP and RF conceived the experiments and acquired funding for the experiments. A-LP, RF, NS, and AZ prepared and carried out the experiments. All authors contributed to the data analyses. BC, A-LP, and RF prepared the manuscript.
+Conflict of Interest
+The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+Acknowledgments
+We thank the Interdisciplinary Center for Biotechnology Research at UF for analytical support, particularly the Gene Expression and Bioinformatics Cores. The operational activities of Astronaut Butch Wilmore, who conducted the on orbit operations, and the Kennedy Space Center personnel who supported the ground operations and launch, are both acknowledged and much appreciated. We especially thank the members of the UF Space Plants lab who have contributed their time and energy to our spaceflight research.
+Abbreviations
+d
+day
+DEG
+differentially expressed gene
+FLT
+spaceflight
+GC
+ground control
+GO
+gene ontology
+GPI-AP
+glycosylphosphatidylinositol-anchored protein.
+Footnotes
+Funding.
+This work was supported by the NASA SLPSRA grants NNX12AN69G and NNX14AT24G awarded to RF and A-LP.
+Supplementary Material
+The Supplementary Material for this article can be found online at:
+https://www.frontiersin.org/articles/10.3389/fpls.2020.00239/full#supplementary-material
+Click here for additional data file.
+(387.6KB, zip)
+References
+Andrews S. (2010).
+FastQC
+: A Quality Control Tool for High-Throughput Sequence Data [Online].
+Available online at:
+https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+(accessed January 20, 2016).
+[
+Google Scholar
+]
+Baral A., Irani N. G., Fujimoto M., Nakano A., Mayor S., Mathew M. K. (2015). Salt-induced remodeling of spatially restricted clathrin-independent endocytic pathways in Arabidopsis root.
+Plant Cell
+27
+1297–1315. 10.1105/tpc.15.00154
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Battaglia M., Olvera-Carrillo Y., Garciarrubio A., Campos F., Covarrubias A. A. (2008). The enigmatic LEA proteins and other hydrophilins.
+Plant Physiol.
+148
+6–24. 10.1104/pp.108.120725
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Beisel N. S., Noble J., Barbazuk W. B., Paul A.-L., Ferl R. J. (2019). Spaceflight-induced alternative splicing during seedling development in
+Arabidopsis thaliana
+.
+NPJ Microgravity
+5:9. 10.1038/s41526-019-0070-7
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Berardini T. Z., Reiser L., Li D., Mezheritsky Y., Muller R., Strait E., et al.  (2015). The Arabidopsis information resource: making and mining the “gold standard” annotated reference plant genome.
+Genesis
+53
+474–485. 10.1002/dvg.22877
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Bhaskara G. B., Nguyen T. T., Verslues P. E. (2012). Unique drought resistance functions of the highly ABA-induced clade A protein phosphatase 2Cs.
+Plant Physiol.
+160
+379–395. 10.1104/pp.112.202408
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Bolger A. M., Lohse M., Usadel B. (2014). Trimmomatic: a flexible trimmer for Illumina sequence data.
+Bioinformatics
+30
+2114–2120. 10.1093/bioinformatics/btu170
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Borderies G., Jamet E., Lafitte C., Rossignol M., Jauneau A., Boudart G., et al.  (2003). Proteomics of loosely bound cell wall proteins of
+Arabidopsis thaliana
+cell suspension cultures: a critical analysis.
+Electrophoresis
+24
+3421–3432. 10.1002/elps.200305608
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Borner G. H., Sherrier D. J., Weimar T., Michaelson L. V., Hawkins N. D., Macaskill A., et al.  (2005). Analysis of detergent-resistant membranes in Arabidopsis. Evidence for plasma membrane lipid rafts.
+Plant Physiol.
+137
+104–116. 10.1104/pp.104.053041
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Boucheron-Dubuisson E., Manzano A. I., Le Disquet I., Matía I., Sáez-Vasquez J., van Loon J. J., et al.  (2016). Functional alterations of root meristematic cells of
+Arabidopsis thaliana
+induced by a simulated microgravity environment.
+J. Plant Physiol.
+207
+30–41. 10.1016/j.jplph.2016.09.011
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Broad Institute (2019a).
+Morpheus [Online].
+Available online at:
+https://software.broadinstitute.org/morpheus
+(accessed September 5, 2019).
+[
+Google Scholar
+]
+Broad Institute (2019b).
+Picard Toolkit [Online].
+Available online at:
+http://broadinstitute.github.io/picard/
+(accessed January 20, 2016).
+[
+Google Scholar
+]
+Candat A., Paszkiewicz G., Neveu M., Gautier R., Logan D. C., Avelange-Macherel M.-H., et al.  (2014). The ubiquitous distribution of late embryogenesis abundant proteins across cell compartments in
+Arabidopsis
+offers tailored protection against abiotic stress.
+Plant Cell
+26
+3148–3166. 10.1105/tpc.114.127316
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Carbon S., Ireland A., Mungall C. J., Shu S., Marshall B., Lewis S., et al.  (2008). AmiGO: online access to ontology and annotation data.
+Bioinformatics
+25
+288–289. 10.1093/bioinformatics/btn615
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Cecchini N. M., Jung H. W., Engle N. L., Tschaplinski T. J., Greenberg J. T. (2015). ALD1 regulates basal immune components and early inducible defense responses in
+Arabidopsis
+.
+Mol. Plant Microbe Interact.
+28
+455–466. 10.1094/mpmi-06-14-0187-r
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Chan Z., Wang Y., Cao M., Gong Y., Mu Z., Wang H., et al.  (2016).
+RDM4
+modulates cold stress resistance in
+Arabidopsis
+partially through the
+CBF
+-mediated pathway.
+New Phytol.
+209
+1527–1539. 10.1111/nph.13727
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Chen T., Ji D., Tian S. (2018). Variable-angle epifluorescence microscopy characterizes protein dynamics in the vicinity of plasma membrane in plant cells.
+BMC Plant Biol.
+18:43. 10.1186/s12870-018-1246-0
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Chen X., Wu S., Liu Z., Friml J. (2016). Environmental and endogenous control of cortical microtubule orientation.
+Trends Cell Biol.
+26
+409–419. 10.1016/j.tcb.2016.02.003
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Choi W.-G., Barker R. J., Kim S.-H., Swanson S. J., Gilroy S. (2019). Variation in the transcriptome of different ecotypes of
+Arabidopsis thaliana
+reveals signatures of oxidative stress in plant responses to spaceflight.
+Am. J. Bot.
+106
+123–136. 10.1002/ajb2.1223
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Correll M. J., Pyle T. P., Millar K. D. L., Sun Y., Yao J., Edelmann R. E., et al.  (2013). Transcriptome analyses of
+Arabidopsis thaliana
+seedlings grown in space: implications for gravity-responsive genes.
+Planta
+238
+519–533. 10.1007/s00425-013-1909-x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Dahlke R. I., Fraas S., Ullrich K. K., Heinemann K., Romeiks M., Rickmeyer T., et al.  (2017). Protoplast swelling and hypocotyl growth depend on different auxin signaling pathways.
+Plant Physiol.
+175
+982–994. 10.1104/pp.17.00733
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Demir F., Horntrich C., Blachutzik J. O., Scherzer S., Reinders Y., Kierszniowska S., et al.  (2013).
+Arabidopsis
+nanodomain-delimited ABA signaling pathway regulates the anion channel SLAH3.
+Proc. Natl. Acad. Sci. U.S.A.
+110
+8296–8301. 10.1073/pnas.1211667110
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Dobin A., Davis C. A., Schlesinger F., Drenkow J., Zaleski C., Jha S., et al.  (2012). STAR: ultrafast universal RNA-seq aligner.
+Bioinformatics
+29
+15–21. 10.1093/bioinformatics/bts635
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Elmore J. M., Liu J., Smith B., Phinney B., Coaker G. (2012). Quantitative proteomics reveals dynamic changes in the plasma membrane during Arabidopsis immune signaling.
+Mol. Cell. Proteomics
+11:M111.014555. 10.1074/mcp.M111.014555
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Elortza F., Mohammed S., Bunkenborg J., Foster L. J., Nuhse T. S., Brodbeck U., et al.  (2006). Modification-specific proteomics of plasma membrane proteins: identification and characterization of glycosylphosphatidylinositol-anchored proteins released upon phospholipase D treatment.
+J. Proteome Res.
+5
+935–943. 10.1021/pr050419u
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Fang Y., Xiong L. (2015). General mechanisms of drought response and their application in drought resistance improvement in plants.
+Cell. Mol. Life Sci.
+72
+673–689. 10.1007/s00018-014-1767-0
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ferl R. J., Koh J., Denison F., Paul A.-L. (2015). Spaceflight induces specific alterations in the proteomes of Arabidopsis.
+Astrobiology
+15
+32–56. 10.1089/ast.2014.1210
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ferl R. J., Paul A.-L. (2016). The effect of spaceflight on the gravity-sensing auxin gradient of roots: GFP reporter gene microscopy on orbit.
+NPJ Microgravity
+2:15023. 10.1038/npjmgrav.2015.23
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Footitt S., Clay H. A., Dent K., Finch-Savage W. E. (2014). Environment sensing in spring-dispersed seeds of a winter annual Arabidopsis influences the regulation of dormancy to align germination potential with seasonal changes.
+New Phytol.
+202
+929–939. 10.1111/nph.12694
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Footitt S., Huang Z., Clay H. A., Mead A., Finch-Savage W. E. (2013). Temperature, light and nitrate sensing coordinate Arabidopsis seed dormancy cycling, resulting in winter and summer annual phenotypes.
+Plant J.
+74
+1003–1015. 10.1111/tpj.12186
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Furutani I., Watanabe Y., Prieto R., Masukawa M., Suzuki K., Naoi K., et al.  (2000). The SPIRAL genes are required for directional control of cell elongation in
+Arabidopsis thaliana
+.
+Development
+127
+4443–4453.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Galva C., Kirik V., Lindeboom J. J., Kaloriti D., Rancour D. M., Hussey P. J., et al.  (2014). The microtubule plus-end tracking proteins SPR1 and EB1b interact to maintain polar cell elongation and directional organ growth in
+Arabidopsis
+.
+Plant Cell
+26
+4409–4425. 10.1105/tpc.114.131482
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Gan X., Stegle O., Behr J., Steffen J. G., Drewe P., Hildebrand K. L., et al.  (2011). Multiple reference genomes and transcriptomes for
+Arabidopsis thaliana
+.
+Nature
+477
+419–423. 10.1038/nature10414
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Gao Y., Zhang Y., Zhang D., Dai X., Estelle M., Zhao Y. (2015). Auxin binding protein 1 (ABP1) is not required for either auxin signaling or Arabidopsis development.
+Proc. Natl. Acad. Sci. U.S.A.
+112
+2275–2280. 10.1073/pnas.1500365112
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Guillaumot D., Guillon S., Déplanque T., Vanhee C., Gumy C., Masquelier D., et al.  (2009). The Arabidopsis TSPO-related protein is a stress and abscisic acid-regulated, endoplasmic reticulum–Golgi-localized membrane protein.
+Plant J.
+60
+242–256. 10.1111/j.1365-313X.2009.03950.x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Herranz R., Medina F. J. (2014). Cell proliferation and plant development under novel altered gravity environments.
+Plant Biol.
+16
+23–30. 10.1111/plb.12103
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Herranz R., Valbuena M. A., Youssef K., Medina F.-J. (2014). Mechanisms of disruption of meristematic competence by microgravity in
+Arabidopsis
+seedlings.
+Plant Signal. Behav.
+9:e28289. 10.4161/psb.28289
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Hundertmark M., Hincha D. K. (2008). LEA (Late Embryogenesis Abundant) proteins and their encoding genes in
+Arabidopsis thaliana
+.
+BMC Genomics
+9:118. 10.1186/1471-2164-9-118
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Johnson C. M., Subramanian A., Pattathil S., Correll M. J., Kiss J. Z. (2017). Comparative transcriptomics indicate changes in cell wall organization and stress response in seedlings during spaceflight.
+Am. J. Bot.
+104
+1219–1231. 10.3732/ajb.1700079
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Jurkiewicz P., Melser S., Maucourt M., Ayeb H., Veljanovski V., Maneta-Peyret L., et al.  (2018). The multistress-induced Translocator protein (TSPO) differentially modulates storage lipids metabolism in seeds and seedlings.
+Plant J.
+96
+274–286. 10.1111/tpj.14028
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Kazemi-Shahandashti S.-S., Maali-Amiri R. (2018). Global insights of protein responses to cold stress in plants: signaling, defence, and degradation.
+J. Plant Physiol.
+226
+123–135. 10.1016/j.jplph.2018.03.022
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Keinath N. F., Kierszniowska S., Lorek J., Bourdais G., Kessler S. A., Shimosato-Asano H., et al.  (2010). PAMP (Pathogen-associated Molecular Pattern)-induced changes in plasma membrane compartmentalization reveal novel components of plant immunity.
+J. Biol. Chem.
+285
+39140–39149. 10.1074/jbc.M110.160531
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kim W., Lee Y., Park J., Lee N., Choi G. (2013). HONSU, a protein phosphatase 2C, regulates seed dormancy by inhibiting ABA signaling in Arabidopsis.
+Plant Cell Physiol.
+54
+555–572. 10.1093/pcp/pct017
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Klessig D. F., Choi H. W., Dempsey D. M. A. (2018). Systemic acquired resistance and salicylic acid: past, present, and future.
+Mol. Plant Microbe Interact.
+31
+871–888. 10.1094/mpmi-03-18-0067-cr
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Klinkenberg J., Faist H., Saupe S., Lambertz S., Krischke M., Stingl N., et al.  (2014). Two fatty acid desaturases, STEAROYL-ACYL CARRIER PROTEIN Δ9-DESATURASE6 and FATTY ACID DESATURASE3, are involved in drought and hypoxia stress signaling in Arabidopsis crown galls.
+Plant Physiol.
+164
+570–583. 10.1104/pp.113.230326
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kohler A., Schwindling S., Conrath U. (2002). Benzothiadiazole-induced priming for potentiated responses to pathogen infection, wounding, and infiltration of water into leaves requires the
+NPR1/NIM1
+gene in Arabidopsis.
+Plant Physiol.
+128
+1046–1056. 10.1104/pp.010744
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kordyum E. L., Zhupanov I., Klymenko O., Bulavin I., Vorobiova T. (2018). “Simulated microgravity impacts the lipid rafts in plant cells,” in
+Proceedings of the 42nd COSPAR Scientific Assembly
+, Pasadena, CA.
+[
+Google Scholar
+]
+Krishnakumar V., Contrino S., Cheng C.-Y., Belyaeva I., Ferlanti E. S., Miller J. R., et al.  (2016). ThaleMine: a warehouse for Arabidopsis data integration and discovery.
+Plant Cell Physiol.
+58:e4. 10.1093/pcp/pcw200
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Kwon T., Sparks J. A., Nakashima J., Allen S. N., Tang Y., Blancaflor E. B. (2015). Transcriptional response of Arabidopsis seedlings during spaceflight reveals peroxidase and cell wall remodeling genes associated with root hair development.
+Am. J. Bot.
+102
+21–35. 10.3732/ajb.1400458
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Lamesch P., Berardini T. Z., Li D., Swarbreck D., Wilks C., Sasidharan R., et al.  (2011). The Arabidopsis information resource (TAIR): improved gene annotation and new tools.
+Nucleic Acids Res.
+40
+D1202–D1210. 10.1093/nar/gkr1090
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Leach J. E., Ryba-White M., Sun Q., Wu C., Hilaire E., Gartner C., et al.  (2001). Plants, plant pathogens, and microgravity—A deadly trio.
+Gravit. Space Res.
+14
+15–23.
+[
+PubMed
+] [
+Google Scholar
+]
+Li B., Takahashi D., Kawamura Y., Uemura M. (2012). Comparison of plasma membrane proteomic changes of Arabidopsis suspension-cultured cells (T87 Line) after Cold and ABA treatment in association with freezing tolerance development.
+Plant Cell Physiol.
+53
+543–554. 10.1093/pcp/pcs010
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Mamode Cassim A., Gouguet P., Gronnier J., Laurent N., Germain V., Grison M., et al.  (2019). Plant lipids: key players of plasma membrane organization and function.
+Prog. Lipid Res.
+73
+1–27. 10.1016/j.plipres.2018.11.002
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Matía I., González-Camacho F., Herranz R., Kiss J. Z., Gasset G., van Loon J. J. W. A., et al.  (2010). Plant cell proliferation and growth are altered by microgravity conditions in spaceflight.
+J. Plant Physiol.
+167
+184–193. 10.1016/j.jplph.2009.08.012
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Mazars C., Brière C., Grat S., Pichereaux C., Rossignol M., Pereda-Loth V., et al.  (2014). Microgravity induces changes in microsome-associated proteins of Arabidopsis seedlings grown on board the international space station.
+PLoS One
+9:e91814. 10.1371/journal.pone.0091814
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Menges M., Hennig L., Gruissem W., Murray J. A. H. (2002). Cell cycle-regulated gene expression in Arabidopsis.
+J. Biol. Chem.
+277
+41987–42002. 10.1074/jbc.M207570200
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Mi H., Muruganujan A., Ebert D., Huang X., Thomas P. D. (2018). PANTHER version 14: more genomes, a new PANTHER GO-slim and improvements in enrichment analysis tools.
+Nucleic Acids Res.
+47
+D419–D426. 10.1093/nar/gky1038
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Miki Y., Takahashi D., Kawamura Y., Uemura M. (2019). Temporal proteomics of Arabidopsis plasma membrane during cold- and de-acclimation.
+J. Proteomics
+197
+71–81. 10.1016/j.jprot.2018.11.008
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Millar K. D. L., Johnson C. M., Edelmann R. E., Kiss J. Z. (2011). An endogenous growth pattern of roots is revealed in seedlings grown in microgravity.
+Astrobiology
+11
+787–797. 10.1089/ast.2011.0699
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Minami A., Fujiwara M., Furuto A., Fukao Y., Yamashita T., Kamo M., et al.  (2008). Alterations in detergent-resistant plasma membrane microdomains in
+Arabidopsis thaliana
+during cold acclimation.
+Plant Cell Physiol.
+50
+341–359. 10.1093/pcp/pcn202
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Molitor A. M., Bu Z., Yu Y., Shen W.-H. (2014). Arabidopsis AL PHD-PRC1 complexes promote seed germination through H3K4me3-to-H3K27me3 chromatin state switch in repression of seed developmental genes.
+PLoS Genet.
+10:e1004091. 10.1371/journal.pgen.1004091
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Nakajima K., Furutani I., Tachimoto H., Matsubara H., Hashimoto T. (2004).
+SPIRAL1
+encodes a plant-specific microtubule-localized protein required for directional control of rapidly expanding Arabidopsis cells.
+Plant Cell
+16
+1178–1190. 10.1105/tpc.017830
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Nakashima J., Liao F., Sparks J. A., Tang Y., Blancaflor E. B. (2014). The actin cytoskeleton is a suppressor of the endogenous skewing behaviour of Arabidopsis primary roots in microgravity.
+Plant Biol.
+16(Suppl. 1), 142–150. 10.1111/plb.12062
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Nejat N., Mantri N. (2017). Plant immune system: crosstalk between responses to biotic and abiotic stresses the missing link in understanding plant defence.
+Curr. Issues Mol. Biol.
+23
+1–16. 10.21775/cimb.023.001
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Nie H., Wu Y., Yao C., Tang D. (2011). Suppression of edr2-mediated powdery mildew resistance, cell death and ethylene-induced senescence by mutations in ALD1 in Arabidopsis.
+J. Genet. Genomics
+38
+137–148. 10.1016/j.jgg.2011.03.001
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Oliva M., Dunand C. (2007). Waving and skewing: how gravity and the surface of growth media affect root development in Arabidopsis.
+New Phytol.
+176
+37–43. 10.1111/j.1469-8137.2007.02184.x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Paul A.-L., Amalfitano C., Ferl R. (2012a). Plant growth strategies are remodeled by spaceflight.
+BMC Plant Biol.
+12:232. 10.1186/1471-2229-12-232
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Paul A.-L., Popp M. P., Gurley W. B., Guy C., Norwood K. L., Ferl R. J. (2005). Arabidopsis gene expression patterns are altered during spaceflight.
+Adv. Space Res.
+36
+1175–1181. 10.1016/j.asr.2005.03.066
+23919896
+[
+DOI
+] [
+Google Scholar
+]
+Paul A.-L., Sng N., Zupanska A., Krishnamurthy A., Schultz E., Ferl R. (2017). Genetic dissection of the Arabidopsis spaceflight transcriptome: are some responses dispensable for the physiological adaptation of plants to spaceflight?
+PLoS One
+12:e0180186. 10.1371/journal.pone.0180186
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Paul A.-L., Zupanska A. K., Ostrow D. T., Zhang Y., Sun Y., Li J. L., et al.  (2012b). Spaceflight transcriptomes: unique responses to a novel environment.
+Astrobiology
+12
+40–56. 10.1089/ast.2011.0696
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Paul A.-L., Zupanska A., Schultz E., Ferl R. (2013). Organ-specific remodeling of the Arabidopsis transcriptome in response to spaceflight.
+BMC Plant Biol.
+13:112. 10.1186/1471-2229-13-112
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Popova A. F., Sytnik K. M., Kordyum E. L., Meleshko G. I., Sychev V. N., Levinskykh M. A. (1989). Ultrastructural and growth indices of chlorella culture in multicomponent aquatic systems under space flight conditions.
+Adv. Space Res.
+9
+79–82. 10.1016/0273-1177(89)90059-8
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Prodhan M. Y., Munemasa S., Nahar M. N.-E.-N., Nakamura Y., Murata Y. (2018). Guard cell salicylic acid signaling is integrated into abscisic acid signaling via the Ca2+/CPK-dependent pathway.
+Plant Physiol.
+178
+441–450. 10.1104/pp.18.00321
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+R Core Team (2019).
+R: A Language and Environment for Statistical Computing.
+Vienna: R Foundation for Statistical Computing.
+[
+Google Scholar
+]
+Ramegowda V., Senthil-Kumar M. (2015). The interactive effects of simultaneous biotic and abiotic stresses on plants: mechanistic understanding from drought and pathogen combination.
+J. Plant Physiol.
+176
+47–54. 10.1016/j.jplph.2014.11.008
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Raudvere U., Kolberg L., Kuzmin I., Arak T., Adler P., Peterson H., et al.  (2019). g:Profiler: a web server for functional enrichment analysis and conversions of gene lists (2019 update).
+Nucleic Acids Res.
+47
+W191–W198. 10.1093/nar/gkz369
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Roy R., Bassham D. C. (2014). Root growth movements: waving and skewing.
+Plant Sci.
+221–222
+42–47. 10.1016/j.plantsci.2014.01.007
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Rueden C. T., Schindelin J., Hiner M. C., DeZonia B. E., Walter A. E., Arena E. T., et al.  (2017). ImageJ2: imageJ for the next generation of scientific image data.
+BMC Bioinformatics
+18:529. 10.1186/s12859-017-1934-z
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Rutherford R., Masson P. H. (1996).
+Arabidopsis thaliana
+sku mutant seedlings show exaggerated surface-dependent alteration in root growth vector.
+Plant Physiol.
+111
+987–998. 10.1104/pp.111.4.987
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ryabova L. A., Robaglia C., Meyer C. (2019). Target of rapamycin kinase: central regulatory hub for plant growth and metabolism.
+J. Exp. Bot.
+70
+2211–2216. 10.1093/jxb/erz108
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ryba-White M., Nedukha O., Hilaire E., Guikema J. A., Kordyum E., Leach J. E. (2001). Growth in microgravity increases susceptibility of soybean to a fungal pathogen.
+Plant Cell Physiol.
+42
+657–664. 10.1093/pcp/pce082
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Salmi M. L., Roux S. J. (2008). Gene expression changes induced by space flight in single-cells of the fern
+Ceratopteris richardii
+.
+Planta
+229
+151–159. 10.1007/s00425-008-0817-y
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Schenke D., Utami H. P., Zhou Z., Gallegos M.-T., Cai D. (2019). Suppression of UV-B stress induced flavonoids by biotic stress: is there reciprocal crosstalk?
+Plant Physiol. Biochem.
+134
+53–63. 10.1016/j.plaphy.2018.06.026
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Schepetilnikov M., Makarian J., Srour O., Geldreich A., Yang Z., Chicher J., et al.  (2017). GTPase ROP2 binds and promotes activation of target of rapamycin, TOR, in response to auxin.
+EMBO J.
+36
+886–903. 10.15252/embj.201694816
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Schindelin J., Arganda-Carreras I., Frise E., Kaynig V., Longair M., Pietzsch T., et al.  (2012). Fiji: an open-source platform for biological-image analysis.
+Nat. Methods
+9
+676–682. 10.1038/nmeth.2019
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Schultz E., Paul A.-L., Ferl R. (2016). Root growth patterns and morphometric change based on the growth media.
+Microgravity Sci. Technol.
+28
+621–631. 10.1007/s12217-016-9514-9
+[
+DOI
+] [
+Google Scholar
+]
+Schultz E. R., Zupanska A. K., Sng N. J., Paul A.-L., Ferl R. J. (2017). Skewing in Arabidopsis roots involves disparate environmental signaling pathways.
+BMC Plant Biol.
+17:31. 10.1186/s12870-017-0975-9
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Sedbrook J. C., Carroll K. L., Hung K. F., Masson P. H., Somerville C. R. (2002). The Arabidopsis
+SKU5
+gene encodes an extracellular glycosyl phosphatidylinositol-anchored glycoprotein involved in directional root growth.
+Plant Cell
+14
+1635–1648. 10.1105/tpc.002360
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Sedbrook J. C., Ehrhardt D. W., Fisher S. E., Scheible W.-R., Somerville C. R. (2004). The Arabidopsis
+SKU6/SPIRAL1
+gene encodes a plus end–localized microtubule-interacting protein involved in directional cell expansion.
+Plant Cell
+16
+1506–1520. 10.1105/tpc.020644
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Shabala S., Bose J., Fuglsang A. T., Pottosin I. (2015). On a quest for stress tolerance genes: membrane transporters in sensing and adapting to hostile soils.
+J. Exp. Bot.
+67
+1015–1031. 10.1093/jxb/erv465
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Shagimardanova E. I., Gusev O. A., Sychev V. N., Levinskikh M. A., Sharipova M. R., Il’inskaya O. N., et al.  (2010). Expression of stress response genes in barley
+Hordeum vulgare
+in a spaceflight environment.
+Mol. Biol.
+44
+734–740. 10.1134/s0026893310050080
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Shi Y., Yue X., An L. (2018). Integrated regulation triggered by a cryophyte ω-3 desaturase gene confers multiple-stress tolerance in tobacco.
+J. Exp. Bot.
+69
+2131–2148. 10.1093/jxb/ery050
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Shimomura S. (2006). Identification of a glycosylphosphatidylinositol-anchored plasma membrane protein interacting with the C-terminus of auxin-binding protein 1: a photoaffinity crosslinking study.
+Plant Mol. Biol.
+60
+663–677. 10.1007/s11103-005-5471-1
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Shoji T., Suzuki K., Abe T., Kaneko Y., Shi H., Zhu J. K., et al.  (2006). Salt stress affects cortical microtubule organization and helical growth in Arabidopsis.
+Plant Cell Physiol.
+47
+1158–1168. 10.1093/pcp/pcj090
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Signorelli S., Tarkowski Ł. P., Van den Ende W., Bassham D. C. (2019). Linking autophagy to abiotic and biotic stress responses.
+Trends Plant Sci.
+24
+413–430. 10.1016/j.tplants.2019.02.001
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Simmons C., Söll D., Migliaccio F. (1995). Circumnutation and gravitropism cause root waving in
+Arabidopsis thaliana
+.
+J. Exp. Bot.
+46
+143–150. 10.1093/jxb/46.1.143
+[
+DOI
+] [
+Google Scholar
+]
+Smith M. B., Li H., Shen T., Huang X., Yusuf E., Vavylonis D. (2010). Segmentation and tracking of cytoskeletal filaments using open active contours.
+Cytoskeleton
+67
+693–705. 10.1002/cm.20481
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Snedecor G. W., Cochran W. G. (1989).
+Statistical Methods
+, 8th Edn
+Ames: Iowa State University Press.
+[
+Google Scholar
+]
+Sng N. J., Callaham J., Ferl R. J., Paul A.-L. (2014).
+Arabidopsis thaliana
+for spaceflight applications–preparing dormant biology for passive stowage and on orbit activation.
+Gravit. Space Res.
+2
+81–89.
+[
+Google Scholar
+]
+Sng N. J., Kolaczkowski B., Ferl R. J., Paul A.-L. (2018). A member of the CONSTANS-like protein family is a putative regulator of reactive oxygen species homeostasis and spaceflight physiological adaptation.
+Ann. Bot. Plants
+11:ply075. 10.1093/aobpla/ply075
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Soga K., Yamazaki C., Kamada M., Tanigawa N., Kasahara H., Yano S., et al.  (2018). Modification of growth anisotropy and cortical microtubule dynamics in Arabidopsis hypocotyls grown under microgravity conditions in space.
+Physiol. Plant.
+162
+135–144. 10.1111/ppl.12640
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Solanke A. U., Sharma A. K. (2008). Signal transduction during cold stress in plants.
+Physiol. Mol. Biol. Plants
+14
+69–79. 10.1007/s12298-008-0006-2
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Sugimoto M., Oono Y., Gusev O., Matsumoto T., Yazawa T., Levinskikh M. A., et al.  (2014). Genome-wide expression analysis of reactive oxygen species gene network in Mizuna plants grown in long-term spaceflight.
+BMC Plant Biol.
+14:4. 10.1186/1471-2229-14-4
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Suzuki N., Bassil E., Hamilton J. S., Inupakutika M. A., Zandalinas S. I., Tripathy D., et al.  (2016). ABA is required for plant acclimation to a combination of salt and heat stress.
+PLoS One
+11:e0147625. 10.1371/journal.pone.0147625
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Swarbreck S. M., Guerringue Y., Matthus E., Jamieson F. J. C., Davies J. M. (2019). Impairment in karrikin but not strigolactone sensing enhances root skewing in
+Arabidopsis thaliana
+.
+Plant J.
+98
+607–621. 10.1111/tpj.14233
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Tai H. H., Tai G. C., Beardmore T. (2005). Dynamic histone acetylation of late embryonic genes during seed germination.
+Plant Mol. Biol.
+59
+909–925. 10.1007/s11103-005-2081-x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Takahashi D., Gorka M., Erban A., Graf A., Kopka J., Zuther E., et al.  (2019). Both cold and sub-zero acclimation induce cell wall modification and changes in the extracellular proteome in
+Arabidopsis thaliana
+.
+Sci. Rep.
+9:2289. 10.1038/s41598-019-38688-3
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Takahashi D., Kawamura Y., Uemura M. (2013). Detergent-resistant plasma membrane proteome to elucidate microdomain functions in plant cells.
+Front. Plant Sci.
+4:27. 10.3389/fpls.2013.00027
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Takahashi D., Kawamura Y., Uemura M. (2016). Cold acclimation is accompanied by complex responses of glycosylphosphatidylinositol (GPI)-anchored proteins in Arabidopsis.
+J. Exp. Bot.
+67
+5203–5215. 10.1093/jxb/erw279
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Tanaka M., Sotta N., Yamazumi Y., Yamashita Y., Miwa K., Murota K., et al.  (2016). The minimum open reading frame, AUG-stop, induces boron-dependent ribosome stalling and mRNA degradation.
+Plant Cell
+28
+2830–2849. 10.1105/tpc.16.00481
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Tang X., Lim M. H., Pelletier J., Tang M., Nguyen V., Keller W. A., et al.  (2012). Synergistic repression of the embryonic programme by SET DOMAIN GROUP 8 and EMBRYONIC FLOWER 2 in Arabidopsis seedlings.
+J. Exp. Bot.
+63
+1391–1404. 10.1093/jxb/err383
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Tarazona S., García-Alcalde F., Dopazo J., Ferrer A., Conesa A. (2011). Differential expression in RNA-seq: a matter of depth.
+Genome Res.
+21
+2213–2223. 10.1101/gr.124321.111
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Trapnell C., Hendrickson D. G., Sauvageau M., Goff L., Rinn J. L., Pachter L. (2012). Differential analysis of gene regulation at transcript resolution with RNA-seq.
+Nat. Biotechnol.
+31
+46–53. 10.1038/nbt.2450
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Trapnell C., Williams B. A., Pertea G., Mortazavi A., Kwan G., van Baren M. J., et al.  (2010). Transcript assembly and quantification by RNA-Seq reveals unannotated transcripts and isoform switching during cell differentiation.
+Nat. Biotechnol.
+28
+511–515. 10.1038/nbt.1621
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ueda H., Kusaba M. (2015). Strigolactone regulates leaf senescence in concert with ethylene in Arabidopsis.
+Plant Physiol.
+169
+138–147. 10.1104/pp.15.00325
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Vandenbrink J. P., Kiss J. Z., Herranz R., Medina F. J. (2014). Light and gravity signals synergize in modulating plant development.
+Front. Plant Sci.
+5:563. 10.3389/fpls.2014.00563
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Wang S., Kurepa J., Hashimoto T., Smalle J. A. (2011). Salt stress–induced disassembly of Arabidopsis cortical microtubule arrays involves 26S proteasome–dependent degradation of SPIRAL1.
+Plant Cell
+23
+3412–3427. 10.1105/tpc.111.089920
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Wickham H. (2016).
+ggplot2: Elegant Graphics for Data Analysis.
+New York, NY: Springer-Verlag.
+[
+Google Scholar
+]
+Xiang Y., Nakabayashi K., Ding J., He F., Bentsink L., Soppe W. J. J. (2014). REDUCED DORMANCY5 encodes a protein phosphatase 2C that is required for seed dormancy in Arabidopsis.
+Plant Cell
+26
+4362–4375. 10.1105/tpc.114.132811
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Xu T., Dai N., Chen J., Nagawa S., Cao M., Li H., et al.  (2014). Cell surface ABP1-TMK auxin-sensing complex activates ROP GTPase signaling.
+Science
+343
+1025–1028. 10.1126/science.1245125
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Yamauchi Y., Hasegawa A., Taninaka A., Mizutani M., Sugimoto Y. (2011). NADPH-dependent reductases involved in the detoxification of reactive carbonyls in plants.
+J. Biol. Chem.
+286
+6999–7009. 10.1074/jbc.m110.202226
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Yates F. (1934). Contingency tables involving small numbers and the χ2 test.
+Suppl. J. R. Stat. Soc.
+1
+217–235. 10.2307/2983604
+[
+DOI
+] [
+Google Scholar
+]
+Yeats T. H., Bacic A., Johnson K. L. (2018). Plant glycosylphosphatidylinositol anchored proteins at the plasma membrane-cell wall nexus.
+J. Integr. Plant Biol.
+60
+649–669. 10.1111/jipb.12659
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zeilmaker T., Ludwig N. R., Elberse J., Seidl M. F., Berke L., Van Doorn A., et al.  (2015). DOWNY MILDEW RESISTANT 6 and DMR6-LIKE OXYGENASE 1 are partially redundant but distinct suppressors of immunity in Arabidopsis.
+Plant J.
+81
+210–222. 10.1111/tpj.12719
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zhang K., Halitschke R., Yin C., Liu C.-J., Gan S.-S. (2013). Salicylic acid 3-hydroxylase regulates
+Arabidopsis
+leaf longevity by mediating salicylic acid catabolism.
+Proc. Natl. Acad. Sci. U.S.A.
+110
+14807–14812. 10.1073/pnas.1302702110
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Zhao P., Liu F., Ma M., Gong J., Wang Q., Jia P., et al.  (2011). Overexpression of AtLEA3-3 confers resistance to cold stress in
+Escherichia coli
+and provides enhanced osmotic stress tolerance and ABA sensitivity in
+Arabidopsis thaliana
+.
+Mol. Biol.
+45
+851–862. 10.1134/S0026893311050165
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zhou M., Sng N. J., LeFrois C. E., Paul A.-L., Ferl R. J. (2019). Epigenomics in an extraterrestrial environment: organ-specific alteration of DNA methylation and gene expression elicited by spaceflight in
+Arabidopsis thaliana
+.
+BMC Genomics
+20:205. 10.1186/s12864-019-5554-z
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Zupanska A. K., Denison F. C., Ferl R. J., Paul A.-L. (2013). Spaceflight engages heat shock protein and other molecular chaperone genes in tissue culture cells of
+Arabidopsis thaliana
+.
+Am. J. Bot.
+100
+235–248. 10.3732/ajb.1200343
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zupanska A. K., LeFrois C., Ferl R. J., Paul A.-L. (2019). HSFA2 functions in the physiological adaptation of undifferentiated plant cells to spaceflight.
+Int. J. Mol. Sci.
+20:E390. 10.3390/ijms20020390
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Zupanska A. K., Schultz E. R., Yao J., Sng N. J., Zhou M., Callaham J. B., et al.  (2017). ARG1 functions in the physiological adaptation of undifferentiated plant cells to spaceflight.
+Astrobiology
+17
+1077–1111. 10.1089/ast.2016.1538
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Click here for additional data file.
+(387.6KB, zip)
+Data Availability Statement
+The datasets generated and analyzed, composed of the RNA-Seq data and full output of the differential gene expression pipeline, for this study can be found in the Gene Expression Omnibus (GEO –
+https://www.ncbi.nlm.nih.gov/geo/
+) under the accessions
+GSE95620
+(
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?&acc=GSE95620
+) and
+GSE95582
+(
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95582
+), and also in NASA’s GeneLab Database (GLDS-218). A presentation outlining the experimental process and which contains video data of the harvests can be found at the NASA LSDA (Life Sciences Data Archive (
+https://lsda.jsc.nasa.gov/Dataset/dataset_info/13840
+).
+Articles from Frontiers in Plant Science are provided here courtesy of
+Frontiers Media SA

@@ -1,0 +1,2133 @@
+Life (Basel)
+. 2023 Feb 18;13(2):576. doi:
+10.3390/life13020576
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Designing a Novel Monitoring Approach for the Effects of Space Travel on Astronauts’ Health
+Anurag Sakharkar
+Anurag Sakharkar
+1
+College of Arts and Science, University of Saskatchewan, 9 Campus Drive, Saskatoon, SK S7N 5A5, Canada
+Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing – original draft, Visualization
+Find articles by
+Anurag Sakharkar
+1
+,
+Jian Yang
+Jian Yang
+2
+College of Pharmacy and Nutrition, University of Saskatchewan, 107 Wiggins Road, Saskatoon, SK S7N 5E5, Canada
+Conceptualization, Methodology, Validation, Formal analysis, Investigation, Resources, Data curation, Writing – review & editing, Supervision, Project administration, Funding acquisition
+Find articles by
+Jian Yang
+2,
+*
+Editors:
+Claudia Pacelli
+,
+Francesca Ferranti
+,
+Marta del Bianco
+Author information
+Article notes
+Copyright and License information
+1
+College of Arts and Science, University of Saskatchewan, 9 Campus Drive, Saskatoon, SK S7N 5A5, Canada
+2
+College of Pharmacy and Nutrition, University of Saskatchewan, 107 Wiggins Road, Saskatoon, SK S7N 5E5, Canada
+*
+Correspondence:
+jian.yang@usask.ca
+Roles
+Anurag Sakharkar
+:
+Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing – original draft, Visualization
+Jian Yang
+:
+Conceptualization, Methodology, Validation, Formal analysis, Investigation, Resources, Data curation, Writing – review & editing, Supervision, Project administration, Funding acquisition
+Claudia Pacelli
+:
+Academic Editor
+Francesca Ferranti
+:
+Academic Editor
+Marta del Bianco
+:
+Academic Editor
+Received 2023 Jan 9; Revised 2023 Feb 2; Accepted 2023 Feb 6; Collection date 2023 Feb.
+© 2023 by the authors.
+Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (
+https://creativecommons.org/licenses/by/4.0/
+).
+PMC Copyright notice
+PMCID: PMC9964234  PMID:
+36836933
+Abstract
+Space exploration and extraterrestrial civilization have fascinated humankind since the earliest days of human history. It was only in the last century that humankind finally began taking significant steps towards these goals by sending astronauts into space, landing on the moon, and building the International Space Station. However, space voyage is very challenging and dangerous, and astronauts are under constant space radiation and microgravity. It has been shown that astronauts are at a high risk of developing a broad range of diseases/disorders. Thus, it is critical to develop a rapid and effective assay to monitor astronauts’ health in space. In this study, gene expression and correlation patterns were analyzed for 10 astronauts (8 male and 2 female) using the publicly available microarray dataset E-GEOD-74708. We identified 218 differentially expressed genes between In-flight and Pre-flight and noticed that space travel decreased genome regulation and gene correlations across the entire genome, as well as individual signaling pathways. Furthermore, we systematically developed a shortlist of 32 genes that could be used to monitor astronauts’ health during space travel. Further studies, including microgravity experiments, are warranted to optimize and validate the proposed assay.
+Keywords:
+space biology, diagnostic assay, health, transcriptome, space flight
+1. Introduction
+“Space: the final frontier.” [
+1
+]. Every fan of the American science fiction TV series Star Trek is likely to remember this cardinal line of the opening monologue. Indeed, space exploration and extraterrestrial civilization have continually fascinated humankind; however, it was only in the last century that humankind finally took a solid step forward by sending astronauts into space and landing on the moon [
+2
+,
+3
+]. In the 21
+st
+century, humankind has made another great leap forward in space exploration: expediting the International Space Station (ISS) program [
+4
+], sending unmanned rovers to seek signs of life on Mars [
+5
+,
+6
+], and starting private space ventures [
+7
+,
+8
+]. In addition, NASA (The National Aeronautics and Space Administration) is planning to send astronauts back to the moon in 2024 and to Mars in the 2030s [
+9
+]. Through all these endeavors, we have seen the twilight of crewed space missions going beyond our harbor (Earth) and into deep space.
+Space travel is challenging, dangerous, and full of uncertainty. Astronauts are under sustained microgravity and cosmic radiation. Prolonged exposure to microgravity and cosmic radiation has been shown to cause a series of health problems, including loss of muscle mass [
+10
+,
+11
+], reduced bone density [
+12
+,
+13
+], compromised immune responses [
+14
+,
+15
+], impaired renal functions [
+16
+], neurological system irresponsiveness [
+17
+,
+18
+], and development of cardiovascular diseases [
+19
+,
+20
+]. Furthermore, microgravity and cosmic radiation can cause several types of cancer, such as leukemia, likely due to compromised immunity [
+21
+]. However, studies under simulated microgravity also show that microgravity affects cell proliferation and apoptosis and can change cancer cells into less malignant phenotypes [
+22
+,
+23
+,
+24
+]. These studies indicate that the impact of microgravity and cosmic radiation on human health is profound, and it is unlikely that this impact is due to changes in one gene or a small group of genes. Therefore, genomic, transcriptomic, and/or proteomic studies are crucial to fully understand the effects of microgravity and cosmic radiation on human health. These studies can lead to the development of effective strategies to monitor, prevent, and/or alleviate the effects on human health caused by space travel.
+Approximately 12 years ago, NASA and JAXA (Japan Aerospace Exploration Agency) undertook a microarray study on 10 astronauts (8 male and 2 female) who had a six-month mission at the ISS [
+25
+]. Terada et al. used qPCR to confirm that space flight changed gene expression in astronauts [
+25
+]. Several genes, including
+FGF18
+,
+ANGPTL7
+, and
+COMP
+, were upregulated and might play a role in inhibiting cell proliferation in hair follicles. However, they neither discussed the potential effects of the differentially expressed genes on the astronauts’ health nor provided any strategy to monitor these effects. Thus, in the current study, we reanalyzed this microarray dataset, conceptualized a method that could monitor the effects of space travel on astronauts’ health, and searched for potential intervention options.
+2. Materials and Methods
+2.1. Data Acquisition
+Microarray dataset E-GEOD-74708, which is the largest publicly available space gene expression dataset, was downloaded from the NASA GeneLab Database (
+https://genelab-data.ndc.nasa.gov/genelab
+, accessed on 15 March 2021). It contains gene expression profiles for 10 astronauts (8 male and 2 female) that stayed in the ISS between July 2009 and February 2013. For each astronaut, 2 profiles were collected at each of the three time points, Pre-flight (prior to departing for the ISS), In-flight (while staying at the ISS), and Post-flight (after return to the ground).
+2.2. Data Processing
+Individual gene expression profiles were combined into three DataFrames: Pre-flight, In-flight, and Post-flight using the Pandas package (version 1.3.0) in Python [
+26
+]. These DataFrames were analyzed for possible outliers and verified for accuracy. Gene expression readings with null values were removed. Then, Agilent IDs in the data were mapped to gene names using the Ensembl BioMart database (
+https://www.ensembl.org/biomart/martview
+, accessed on 15 March 2021).
+2.3. DEG Identification and Signaling Pathway Analysis
+Differentially expressed genes (DEGs: ∣log
+2
+FC∣ ≥ 3.00 and
+p
+< 0.05) were identified between the In-flight and the Pre-flight DataFrames using the DEGseq package (version 1.42.0) in R [
+27
+]. The Likelihood Ratio Test (LRT) function was applied in the calculation. No DEGs were identified between the Post-flight and the In-flight DataFrames. The DEGs between In-flight and Pre-flight were then subjected to signaling pathway analysis using the InnateDB tool [
+28
+].
+2.4. Calculation of Gene Pair Correlation Matrices
+Pairwise Pearson correlation coefficient matrices for the 3 gene expression DataFrames were calculated using formula
+r
+=
+Σ
+(
+x
+i
+−
+x
+_
+)
+(
+y
+i
+−
+y
+_
+)
+Σ
+(
+x
+i
+−
+x
+_
+)
+2
+Σ
+(
+y
+i
+−
+y
+_
+)
+2
+. The correlation matrices were subsequently transferred to be visualized using an R platform. To analyze gene pair correlations for the signaling pathways, the expression profiles of the genes for the pathways were extracted from the DataFrames to produce the DataFrame subsets. For each signaling pathway, pairwise Pearson correlation coefficients were calculated and visualized as outlined above between the In-flight and Pre-flight subsets and between the Post-flight and In-flight subsets. Positive and negative correlations were represented in blue and red, respectively. Additionally, gene pair correlation coefficient differentials, ΔCC (In-Pre) = CC
+In-flight
+– CC
+Pre-flight
+and ΔCC (Post-In) = CC
+Post-flight
+– CC
+In-flight
+were calculated by matrix subtraction between the In-flight and Pre-flight subsets and between the Post-flight and In-flight subsets. These were subsequently visualized with correlation difference plots with positive and negative ΔCCs shown in green and red, respectively.
+2.5. Protein–Protein Interaction Network and Disease Network Constructions
+The BioGrid database [
+29
+] and DisGeNET database [
+30
+] were downloaded in March 2021 to create a protein–protein interaction (PPI) network and extract the disease interaction information, respectively, for the DEGs. The networks were then constructed using Python and visualized using Cytoscape [
+31
+].
+2.6. Drug and miRNA Screenings
+The Drugbank [
+32
+] and miRTARBase [
+33
+] databases were also downloaded in March 2021 to extract the drug and miRNA interaction information for the DEGs. The networks were subsequently constructed using Python and visualized using Cytoscape. From these two networks, we identified potential drugs and miRNAs targeting the 32 genes that were identified to be used in a rapid RT
+2
+-PCR assay for space travel.
+3. Results and Discussion
+3.1. Differentially Expressed Genes (DEGs)
+NASA and JAXA undertook Study GLDS-174: “Effects of a closed space environment on gene expression in hair follicles of astronauts in the International Space Station” between 2009 and 2013. Hair follicles were chosen for this study because they are the easiest attainable and noninvasive samples that are understood to be representative of most large-scale changes in the body [
+25
+]. However, Terada et al. only reported the expression of selected genes in this study and did not undertake further analysis [
+25
+]. To better understand how space travel affects astronauts’ health, we downloaded the microarray dataset (E-GEOD-74708) from the NASA GeneLab open data repository. The microarray dataset includes gene expression information for three stages: Pre-flight (6 months to 2 weeks before launch), In-flight (while staying in the ISS), and Post-flight (2 days to 3 months after returning from the ISS). We then analyzed the dataset for gene expression and gene pair correlation. Using cut-off criteria of ∣log
+2
+FC∣ ≥ 3.00 and
+p
+< 0.05, 218 DEGs were identified between In-flight and Pre-flight (
+Supplementary File S1: DEG_list.xls
+). The top 20 up- and downregulated genes are summarized in
+Table 1
+. However, no DEGs were detected between Post-flight and In-flight, suggesting that the astronauts may need a longer time than current guidelines for the body to adjust to the ground environment. Furthermore, astronauts have a much higher risk of developing various types of diseases than normal people and precautionary measures are critical to protect their health after returning to ground.
+Table 1.
+Top 20 up- and down-regulated DEGs (differentially expressed genes) between In-flight and Pre-flight. The cut-off criteria for DEGs are ∣log
+2
+FC∣ ≥ 3.00 and
+p
+< 0.05.
+Up-Regulated Genes
+Down-Regulated Genes
+Gene Name
+Log
+2
+FC
+p
+-Value
+Gene Name
+Log
+2
+FC
+p
+-Value
+LIMCH1
+7.59
+0.03
+NFATC1
+−10.40
+0.00
+IER3
+7.45
+0.03
+KIDINS220
+−10.35
+0.03
+ZNF664
+6.57
+0.03
+ZCCHC9
+−7.82
+0.00
+NDUFA1
+6.27
+0.03
+IGSF9
+−6.08
+0.03
+AL391650.1
+5.28
+0.03
+HSD11B1L
+−5.76
+0.00
+TUBGCP5
+5.07
+0.03
+CLTB
+−5.69
+0.00
+GAPVD1
+5.03
+0.03
+YIPF2
+−5.68
+0.03
+AARS2
+4.81
+0.03
+BTBD9
+−5.49
+0.00
+AC004080.5
+4.77
+0.03
+LINC00668
+−5.41
+0.00
+NAA60
+4.72
+0.03
+AL096711.2
+−4.97
+0.03
+IGBP1P1
+4.41
+0.03
+EIF4E2
+−4.97
+0.03
+FANCD2
+4.28
+0.03
+SHE
+−4.41
+0.03
+AMT
+4.20
+0.03
+HOXC4
+−4.27
+0.00
+PNPLA4
+4.11
+0.03
+THBS3
+−4.17
+0.00
+RABGAP1
+4.10
+0.03
+PGM2L1
+−3.95
+0.00
+MAPKAPK5
+3.89
+0.03
+TCEANC
+−3.93
+0.03
+DFFBP1
+3.83
+0.03
+ARHGAP9
+−3.91
+0.00
+STAG1
+3.71
+0.03
+ZNF451
+−3.80
+0.03
+SPON2
+3.62
+0.04
+NCEH1
+−3.73
+0.00
+CHN1
+3.59
+0.04
+AC010531.1
+−3.71
+0.03
+Open in a new tab
+As expected, the DEGs between In-flight and Pre-flight regulate a broad spectrum of biological and physiological functions. For example, the most up-regulated gene
+LIMCH1
+, encoding LIM and calponin-homology domains 1, activates the non-muscle myosin Iia complex, stabilizes focal adhesion, and inhibits cell migration [
+34
+,
+35
+]. Thus, the upregulation of
+LIMCH1
+may explain observations that microgravity exposure can change cancer cells into less malignant phenotypes [
+22
+,
+23
+,
+24
+]. The second most up-regulated gene
+IER3
+encodes Immediate Early Response 3 and regulates cell apoptosis [
+36
+], inflammation [
+37
+], and tumorigenesis [
+38
+]. Upregulation of
+IER3
+has been observed in several types of cancer and may regulate cancer progression [
+39
+,
+40
+]. This implies another possible reason, other than radiation exposure, that increases the risk of astronauts developing cancer during a prolonged period of space travel. The most down-regulated gene,
+NFATC1,
+encodes Nuclear Factor of Activated T Cells 1 and plays an important role in osteoblast differentiation [
+41
+], osteoclastogenesis [
+42
+], T-cell differentiation [
+43
+], lymphatic endothelial development [
+44
+], cardiac valve morphogenesis [
+45
+], and tumorigenesis [
+46
+]. The downregulation of
+NFATC1
+may result in osteoporosis, immunocompromised conditions, and prostate cancer in astronauts during a prolonged space stay. The second most down-regulated gene,
+KIDINS220
+, encoding Kinase D Interacting Substrate 220, modulates the development and function of the nerve and cardiovascular systems [
+47
+,
+48
+]. The downregulation of
+KIDINS220
+may contribute to the development of neurological disorders and cardiovascular diseases in astronauts. In summary, the large variation of the biological processes regulated by the DEGs provides a valuable resource of genes for us to develop a rapid assay kit (~20–30 genes) to monitor astronauts’ health conditions in space. However, it is noteworthy that the three genes reported by Terada et al.,
+FGF18
+,
+ANGPTL7
+, and
+COMP
+, are not in the aforementioned DEG list because they failed to meet the cut-off criteria.
+3.2. Gene Pair Correlations
+As mentioned above, the effect of space travel on an astronaut’s health is comprehensive and involves the regulation of many genes. It is also well-known that any biological, physiological, or pathophysiological change requires a delicate coordination of multiple genes. Therefore, we decided to carry out a gene pair correlation analysis for the whole genome (30,645 transcripts for 23,115 genes) among the Pre-flight, In-flight, and Post-flight expression profiles. As shown in
+Figure 1
+A, the genes are highly correlated in the Pre-flight, which is consistent with previous studies showing that gene expressions are correlated in normal human tissues [
+49
+]. Upon staying in the ISS for an extended period of 6 months, the genome significantly lost its regulation of the gene expression and gene coordination was scrambled (
+Figure 1
+B). Our previous studies have shown that loss of gene pair correlations is a hallmark of carcinogenesis and/or cancer progression [
+50
+,
+51
+,
+52
+]. Therefore, loss of coordination of gene expression, other than cosmic radiation and compromised immune system, is likely to be another factor that increases the risk of cancer development in astronauts. Analysis of the Post-flight dataset showed that returning to ground did not significantly improve genome regulation and coordination of gene expression (
+Figure 1
+C), implying that the effect of space travel on human health is more profound and longer lasting than currently thought. Extended care is necessary for astronauts to minimize the risk of disease development. As we progress towards crewed missions into outer space (for example, to the Moon and Mars) and other prolonged space stays, it is critical to develop rapid approaches to monitor genome regulation and establish corresponding protocols to alleviate the effects of space travel on human health. Another important question that needs to be addressed is whether the human body could establish a new “routine” for prolonged space stays and what this would look like in terms of astronauts’ health. We speculate that loss of gene expression coordination might also be responsible for other diseases/conditions astronauts experience, such as muscle loss and compromised immune system. Extensive further studies in space biomedicine and space pharmacology are warranted to prepare us for longer-term outer space exploration.
+Figure 1.
+Open in a new tab
+Gene pair correlations of the whole genome (30,645 transcripts for 23,115 genes) for 10 astronauts during Pre-flight (
+A
+), In-flight (
+B
+), and Post-flight (
+C
+). Positive and negative correlations are represented in blue and red, respectively.
+3.3. Signaling Pathway and Disease Network of the DEGs
+Because DEGs are the most altered genes during a biological process, we conducted a signaling pathway analysis of the 218 DEGs between In-flight and Pre-flight to figure out which biological functions are regulated by these genes. The top 11 signaling pathways were identified to be signal transduction, immune system, gene expression, metabolism, metabolism of proteins, generic transcription pathway, developmental biology, metabolism of lipids and lipoproteins, axon guidance, innate immune system, and disease (
+Table 2
+). In total, 48 genes were found to be involved in the regulation of these top 11 signaling pathways. Moreover, it is obvious that most of these DEGs are involved in the regulation of multiple signaling pathways, and that these signaling pathways regulate a broad range of biological, physiological, and/or pathophysiological processes. This analysis reconfirms that space travel imposes comprehensive effects on the human system rather than affecting an individual organ or tissue.
+Table 2.
+Differentially expressed genes (DEGs) present in the top 11 signaling pathways.
+Signaling Pathways
+Gene Names
+Signal transduction
+ARHGAP9
+,
+CCL2
+,
+CCNC
+,
+CHN1
+,
+CLTB
+,
+COL4A4
+,
+CREB1
+,
+CRHR1
+,
+CTNNBIP1
+,
+HIF1A
+,
+KIDINS220
+,
+NFATC1
+,
+PDPK1
+,
+SOS2
+,
+THBS3
+,
+YES1
+Immune system
+ATF2
+,
+BIRC2
+,
+CREB1
+,
+EIF4E2
+,
+IL7
+,
+NFATC1
+,
+PDPK1
+,
+UBA5
+,
+UBR4
+,
+XAF1
+,
+YES1
+Gene expression
+AARS2
+,
+CCNC
+,
+RRN3
+,
+ZNF184
+,
+ZNF253
+,
+ZNF529
+,
+ZNF606
+,
+ZNF664
+,
+ZNF699
+,
+ZNF711
+Metabolism
+ACSL4
+,
+ARSK
+,
+CCNC
+,
+GM2A
+,
+GPT
+,
+HACL1
+,
+NDUFA1
+,
+PIKFYVE
+,
+PSAT1
+Metabolism of proteins
+ARSK
+,
+CCL2
+,
+DPP4
+,
+GNE
+,
+MAGT1
+,
+PCSK1
+,
+SPON2
+,
+XRN2
+Generic transcription pathway
+CCNC
+,
+ZNF184
+,
+ZNF253
+,
+ZNF529
+,
+ZNF606
+,
+ZNF664
+,
+ZNF699
+,
+ZNF711
+Developmental biology
+CCNC
+,
+CLTB
+,
+COL4A4
+,
+CREB1
+,
+SCN2B
+,
+SOS2
+,
+YES1
+Metabolism of lipids and lipoproteins
+ACSL4
+,
+ARSK
+,
+CCNC
+,
+GM2A
+,
+HACL1
+,
+PIKFYVE
+Axon guidance
+CLTB
+,
+COL4A4
+,
+CREB1
+,
+SCN2B
+,
+SOS2
+,
+YES1
+Innate immune system
+ATF2
+,
+BIRC2
+,
+CREB1
+,
+NFATC1
+,
+PDPK1
+,
+YES1
+Disease
+CCNC
+,
+CHMP4C
+,
+CREB1
+,
+CTNNBIP1
+,
+HIF1A
+,
+PDPK1
+Open in a new tab
+We further analyzed the disease network for the 218 DEGs between the In-flight and Pre-flight expression profiles to identify the major disease/disorder conditions associated with space travel (
+Supplementary File S2: Disease_DEG.xls
+). As shown in
+Table 3
+, the top 20 disease/disorder conditions can broadly be divided into three categories: neoplasia/carcinoma, neurological disorder, and liver function, with the top three conditions being malignant neoplasm of the breast, colorectal carcinoma, and malignant neoplasm of the prostate. More DEGs were associated with tumor development than other diseases/disorders. In 2019, Reynolds et al. reported the effect of space radiation on astronauts’ death using a statistical analysis [
+53
+]. Of the astronauts who traveled to space between 1960 and 2018, 53 NASA astronauts have died, with 16 of those deaths (30.2%) being caused by cancer. Nevertheless, their study indicates that space radiation does not strongly impact the mortality of astronauts. This implies that weakened genome regulation (i.e., reduced gene expression correlation) is likely to be another key factor, in addition to compromised immune function, in causing tumor development in astronauts. However, these tumors may be less malignant or even benign [
+22
+,
+23
+,
+24
+]. Moreover, consistent with previous studies [
+54
+,
+55
+], our results showed that space travel significantly affects astronauts’ liver function and liver metabolism. Key genes identified from our analysis, such as
+GPT
+and
+UBA5
+, might serve as valuable monitoring biomarkers of astronauts’ liver function and even possible medical intervention points to protect astronauts’ health. Because liver is a major organ for drug metabolism, a systematic space pharmacology study is needed to establish drug profiles—including dosing, ADMET (absorption, distribution, metabolism, excretion, and toxicity), and even formulation—in preparation for future voyages into outer space. Space drug usage based on current information may be less effective or even detrimental to astronauts’ health.
+Table 3.
+Top 20 disease/disorder conditions and their respectively associated DEGs based on disease network analysis of 218 DEGs between In-flight and Pre-flight.
+Disease/Disorder
+Genes
+Malignant Neoplasm of Breast
+THBS3
+,
+UBR4
+,
+ATF2
+,
+NBN
+,
+CRHR1
+,
+AREG
+,
+HIF1A
+,
+PDPK1
+,
+COL7A1
+,
+ZNF404
+,
+BIRC2
+Colorectal Carcinoma
+POSTN
+,
+SACS
+,
+FANCG
+,
+XAF1
+,
+ACSL4
+,
+INTS13
+,
+COL7A1
+,
+NFATC1
+,
+C12ORF76
+,
+NDUFA1
+Malignant Neoplasm of Prostate
+GREB1
+,
+HMGN5
+,
+SPON2
+,
+HIF1A
+,
+CRYL1
+,
+CASZ1
+,
+ACSL4
+,
+NBN
+Prostatic Neoplasms
+CASZ1
+,
+NBN
+,
+GREB1
+,
+HIF1A
+,
+CRYL1
+,
+ACSL4
+,
+SPON2
+,
+HMGN5
+Schizophrenia
+PSAT1
+,
+BTBD9
+,
+CFAP65
+,
+CREB1
+,
+CCL2
+,
+HSPA12A
+,
+DKK3
+,
+VRK2
+Breast Carcinoma
+BIRC2
+,
+COL7A1
+,
+ZNF404
+,
+HIF1A
+,
+AREG
+,
+CRHR1
+,
+PDPK1
+Mammary Carcinoma, Human
+AREG
+,
+COL7A1
+,
+HIF1A
+,
+CRHR1
+,
+ZNF404
+,
+PDPK1
+,
+BIRC2
+Mammary Neoplasms
+AREG
+,
+COL7A1
+,
+PDPK1
+,
+ZNF404
+,
+CRHR1
+,
+HIF1A
+,
+BIRC2
+Mammary Neoplasms, Human
+ZNF404
+,
+COL7A1
+,
+PDPK1
+,
+CRHR1
+,
+BIRC2
+,
+HIF1A
+,
+AREG
+Unipolar Depression
+CCL2
+,
+PEA15
+,
+HIF1A
+,
+CRHR1
+,
+CREB1
+,
+ACSL4
+Liver Cirrhosis, Experimental
+GPT
+,
+TM6SF1
+,
+SGCB
+,
+ARHGAP9
+,
+CCL2
+Major Depressive Disorder
+HIF1A
+,
+CRHR1
+,
+PEA15
+,
+CCL2
+,
+CREB1
+Non-small Cell Lung Carcinoma
+E2F8
+,
+PSAT1
+,
+AREG
+,
+HIF1A
+,
+COL7A1
+Bipolar Disorder
+HIF1A
+,
+CRHR1
+,
+CREB1
+,
+HMGXB4
+Chemical And Drug Induced Liver Injury
+HACL1
+,
+GPT
+,
+UBA5
+,
+CCL2
+Chemical-induced Liver Toxicity
+HACL1
+,
+UBA5
+,
+GPT
+,
+CCL2
+Depressive Disorder
+CREB1
+,
+CRHR1
+,
+DPP4
+,
+ACSL4
+Disease Exacerbation
+COL7A1
+,
+E2F8
+,
+ATF2
+,
+HIF1A
+Drug-induced Acute Liver Injury
+GPT
+,
+HACL1
+,
+CCL2
+,
+UBA5
+Drug-induced Liver Disease
+HACL1
+,
+GPT
+,
+CCL2
+,
+UBA5
+Open in a new tab
+3.4. Design of a Rapid Assay for Space Travel
+Any biological or physiological process requires a delicate regulation of genes, including gene expression levels, interactions, and correlations. However, most genomics/genetic studies are focused on gene expression level rather than gene pair correlation. Although gene co-expressions and protein co-localizations are commonly studied in biomedical research, our research laboratory, to the best of our knowledge, is the first to apply gene pair correlation coefficient (a mathematical term) to describe and explain biological and medical questions [
+50
+,
+51
+,
+52
+]. Thus, to design a rapid assay to monitor astronauts’ health, we selected a set of genes with expression levels and gene pair correlations significantly altered by space travel.
+We calculated gene pair correlation coefficients (designated as CC) of the DEGs associated with the top 11 signaling pathways for the Pre-flight, In-flight, and Post-flight datasets, and analyzed the gene pair correlation coefficient differentials (designated as ΔCC) between the In-flight and Pre-flight and between the Post-flight and In-flight (
+Figure 2
+). The changes in gene pair CCs between the In-flight and Pre-flight datasets were obvious for every signaling pathway, except the generic transcription pathway. However, the changes between Post-flight and In-flight CCs were minimal. Thus, using ∣ΔCC∣ > 0.70 as a cut-off, we identified gene pairs with their correlation coefficients significantly altered between the In-flight and Pre-flight datasets and summarized them in
+Table 4
+. These gene pairs were then classified into four categories based on changes in correlation coefficients: Category 1—positive to more/less positive (highlighted in blue), Category 2—positive to negative (highlighted in green), Category 3—negative to positive (highlighted in brown), and Category 4—negative to more/less negative (highlighted in red). It is noteworthy that Categories 2 and 3 contained more gene pairs than Categories 1 and 4, implying that many genes lost their coordination and even started counteractive processes in space. This observation supports previous studies that found that spaceflight significantly affects gene expression and homeostasis [
+56
+]. This dramatic change in gene expression coordination is thought to affect normal biological and physiological functions in the human body and is likely detrimental to astronauts’ health.
+Figure 2.
+Open in a new tab
+Gene pair correlations ((
+1
+): Pre-flight, (
+2
+): In-flight, and (
+3
+): Post-flight) and differentials of gene pair correlations (
+4
+): between In-flight and Pre-flight and (
+5
+): between Post-flight and In-flight for the differentially expressed genes (DEGs) in the top 11 signaling pathways. The top 11 signaling pathways are signal transduction, immune system, gene expression, metabolism, metabolism of proteins, generic transcription pathway, developmental biology, metabolism of lipids and lipoproteins, axon guidance, innate immune system, and disease. The top 11 signaling pathways were identified from InnateDB analysis of the 218 DEGs (∣log
+2
+FC∣ ≥ 3.00 and
+p
+< 0.05). Positive and negative gene pair correlations are represented in blue and red, respectively; and positive and negative differentials of gene pair correlations are represented in green and red, respectively.
+Table 4.
+Gene pairs with significantly altered correlation coefficients between In-flight and Pre-flight (i.e., ∣ΔCC (CC
+In-flight
+– CC
+Pre-flight
+)∣ > 0.70) in the top 11 signaling pathways identified from signaling pathway analysis of the 218 DEGs between In-flight and Pre-flight. Gene pairs with correlation coefficients changed from positive to less/more positive (Category 1), positive to negative (Category 2), negative to positive (Category 3), and negative to less/more negative (Category 4) were highlighted in blue, green, brown, and red, respectively.
+GENE PAIRS
+CC
+Pre-flight
+CC
+In-flight
+ΔCC
+Signal transduction
+ARHGAP9–COL4A4
+−0.51
+0.28
+0.79
+ARHGAP9–THBS3
+0.39
+−0.48
+−0.87
+CCL2–COL4A4
+−0.95
+−0.07
+0.88
+CCL2–CREB1
+0.93
+−0.09
+−1.02
+CCL2–CRHR1
+0.68
+−0.11
+−0.79
+CCL2–THBS3
+0.68
+−0.19
+−0.87
+CCNC–COL4A4
+0.46
+−0.65
+−1.11
+CCNC–CRHR1
+−0.58
+0.65
+1.23
+CCNC–THBS3
+−0.41
+0.34
+0.75
+CHN1–CRHR1
+0.43
+−0.59
+−1.02
+CHN1–HIF1A
+−0.36
+0.34
+0.70
+COL4A4–CREB1
+−0.93
+−0.03
+0.90
+COL4A4–NFATC1
+−0.77
+0.50
+1.27
+COL4A4–PDPK1
+0.41
+−0.50
+−0.91
+CREB1–CRHR1
+0.80
+−0.03
+−0.83
+CREB1–THBS3
+0.79
+0.05
+−0.74
+CRHR1–KIDINS220
+0.59
+−0.14
+−0.73
+CRHR1–NFATC1
+0.83
+−0.47
+−1.30
+CRHR1–PDPK1
+−0.57
+0.34
+0.91
+CRHR1–YES1
+0.40
+−0.71
+−1.11
+CTNNBIP1–NFATC1
+0.07
+0.85
+0.78
+KIDINS220–PDPK1
+−0.74
+0.30
+1.04
+KIDINS220–SOS2
+−0.86
+0.29
+1.15
+KIDINS220–YES1
+0.70
+0.00
+−0.70
+NFATC1–THBS3
+0.72
+−0.34
+−1.06
+PDPK1–SOS2
+0.63
+−0.22
+−0.85
+SOS2–YES1
+−0.61
+0.17
+0.78
+Immune system
+ATF2–NFATC1
+−0.03
+−0.75
+−0.72
+BIRC2–PDPK1
+−0.73
+0.13
+0.86
+CREB1–EIF4E2
+−0.94
+0.07
+1.01
+CREB1–IL7
+0.91
+−0.03
+−0.94
+CREB1–UBR4
+0.90
+−0.28
+−1.18
+CREB1–XAF1
+0.71
+−0.03
+−0.74
+EIF4E2–IL7
+−0.87
+0.10
+0.97
+EIF4E2–NFATC1
+−0.87
+0.46
+1.33
+EIF4E2–UBR4
+−0.95
+0.40
+1.35
+EIF4E2–XAF1
+−0.72
+0.10
+0.82
+IL7–UBR4
+0.88
+−0.34
+−1.22
+NFATC1–UBR4
+0.85
+−0.18
+−1.03
+PDPK1–UBR4
+−0.55
+0.34
+0.89
+UBA5–UBR4
+0.59
+−0.27
+−0.86
+UBR4–XAF1
+0.88
+−0.16
+−1.04
+UBR4–YES1
+0.35
+−0.59
+−0.94
+Gene expression
+AARS2–ZNF253
+−0.57
+0.23
+0.80
+AARS2–ZNF606
+−0.91
+0.21
+1.12
+AARS2–ZNF711
+−0.60
+0.31
+0.91
+RRN3–ZNF184
+−0.51
+0.34
+0.85
+RRN3–ZNF606
+−0.06
+0.87
+0.93
+RRN3–ZNF711
+−0.22
+0.50
+0.72
+Metabolism
+ACSL4–ARSK
+0.56
+−0.66
+−1.22
+ACSL4–CCNC
+0.75
+−0.74
+−1.49
+ACSL4–GPT
+−0.66
+0.85
+1.61
+ACSL4–NDUFA1
+0.81
+0.05
+−0.76
+ACSL4–PIKFYVE
+−0.22
+0.69
+0.91
+ARSK–GM2A
+0.48
+−0.34
+−0.82
+CCNC–GM2A
+0.65
+−0.44
+−1.09
+CCNC–PSAT1
+0.88
+−0.23
+−1.11
+GPT–NDUFA1
+−0.59
+0.24
+0.83
+GPT–PIKFYVE
+−0.05
+0.79
+0.84
+GPT–PSAT1
+−0.65
+0.46
+1.11
+Metabolism of proteins
+ARSK–DPP4
+−0.27
+0.57
+0.84
+CCL2–DPP4
+0.79
+−0.26
+−1.05
+CCL2–PCSK1
+0.90
+−0.16
+−1.06
+CCL2–SPON2
+0.77
+−0.03
+−0.80
+DPP4–GNE
+0.74
+−0.21
+−0.95
+DPP4–MAGT1
+−0.57
+0.37
+0.94
+MAGT1–PCSK1
+−0.85
+0.21
+1.06
+PCSK1–SPON2
+0.84
+0.01
+−0.83
+Developmental biology
+CCNC–COL4A4
+0.46
+−0.65
+−1.11
+CLTB–SCN2B
+−0.39
+0.37
+0.76
+COL4A4–CREB1
+−0.93
+−0.03
+0.90
+SOS2–YES1
+−0.61
+0.17
+0.78
+Metabolism of lipids and lipoproteins
+ACSL4–ARSK
+0.56
+−0.66
+−1.22
+ACSL4–CCNC
+0.75
+−0.74
+−1.49
+ACSL4–PIKFYVE
+−0.22
+0.69
+0.91
+ARSK–GM2A
+0.48
+−0.34
+−0.82
+CCNC–GM2A
+0.65
+−0.44
+−1.09
+Axon guidance
+CLTB–SCN2B
+−0.39
+0.37
+0.76
+COL4A4–CREB1
+−0.93
+−0.03
+0.90
+SOS2–YES1
+−0.61
+0.17
+0.78
+Innate immune system
+ATF2–NFATC1
+−0.03
+−0.75
+−0.72
+BIRC2–PDPK1
+−0.73
+0.13
+0.86
+Disease
+CCNC–CHMP4C
+0.60
+−0.38
+−0.98
+CHMP4C–CREB1
+−0.85
+0.31
+1.16
+CHMP4C–PDPK1
+0.44
+−0.63
+−1.07
+Open in a new tab
+In a previous study, correlation was classified into three categories based on correlation coefficients: strong (0.68 ≤ ∣CC∣ ≤ 1.00), moderate (0.36 ≤ ∣CC∣ ≤ 0.67), and weak (∣CC∣ ≤ 0.35) [
+57
+]. To increase the sensitivity of the assay for space travel, it is rational to only include gene pairs with correlations changing from strong to weak, weak to strong, or strong to opposite strong with ∣ΔCC∣ > 0.70. Using this guideline, we identified the following gene pairs: 12 gene pairs from signal transduction, 11 gene pairs from immune system, 2 gene pairs from gene expression, 5 gene pairs from metabolism, 6 gene pairs from metabolism of proteins, 1 gene pair from developmental biology, 2 gene pairs from metabolism of lipids and lipoprotein, 1 gene pair from axon guidance, 2 gene pairs from innate immune system, and 1 gene pair from disease (
+Table 5
+). In total, 32 genes were selected, and they are
+AARS2
+,
+ACSL4
+,
+ATF2
+,
+BIRC2
+,
+CCL2
+,
+CCNC
+,
+CHMP4C
+,
+COL4A4
+,
+CREB1
+,
+CRHR1
+,
+CTNNBIP1
+,
+DPP4
+,
+EIF4E2
+,
+GNE
+,
+GPT
+,
+IL7
+,
+KIDINS220
+,
+MAGT1
+,
+NDUFA1
+,
+NFATC1
+,
+PCSK1
+,
+PDPK1
+,
+PIKFYVE
+,
+PSAT1
+,
+RRN3
+,
+SOS2
+,
+SPON2
+,
+THBS3
+,
+UBR4
+,
+XAF1
+,
+YES1
+, and
+ZNF606
+.
+Table 5.
+Gene pairs with criteria of ∣ΔCC∣ > 0.70 and correlation changing from strong to weak, weak to strong, or strong to opposite strong from the top 11 signaling pathways.
+Signaling Pathways
+Gene Pairs
+Signal transduction
+CCL2–COL4A4
+,
+CCL2
+–
+CREB1
+,
+CCL2
+–
+CRHR1
+,
+CCL2
+–
+THBS3
+,
+COL4A4
+–
+CREB1
+,
+CREB1
+–
+CRHR1
+,
+CREB1
+–
+THBS3
+,
+CTNNBIP1
+–
+NFATC1
+,
+KIDINS220
+–
+PDPK1
+,
+KIDINS220
+–
+SOS2
+,
+KIDINS220
+–
+YES1
+,
+NFATC1
+–
+THBS3
+Immune system
+ATF2
+–
+NFATC1
+,
+BIRC2
+–
+PDPK1
+,
+CREB1
+–
+EIF4E2
+,
+CREB1
+–IL7,
+CREB1
+–
+UBR4
+,
+CREB1
+–
+XAF1
+,
+EIF4E2
+–
+IL7
+,
+EIF4E2
+–
+XAF1
+,
+IL7
+–
+UBR4
+,
+NFATC1
+–
+UBR4
+,
+UBR4
+–
+XAF1
+Gene expression
+AARS2
+–
+ZNF606
+,
+RRN3
+–
+ZNF606
+Metabolism
+ACSL4
+–
+CCNC
+,
+ACSL4
+–
+NDUFA1
+,
+ACSL4
+–
+PIKFYVE
+,
+CCNC
+–
+PSAT1
+,
+GPT
+–
+PIKFYVE
+Metabolism of proteins
+CCL2
+–
+DPP4
+,
+CCL2
+–
+PCSK1
+,
+CCL2
+–
+SPON2
+,
+DPP4
+–
+GNE
+,
+MAGT1
+–
+PCSK1
+,
+PCSK1
+–
+SPON2
+Developmental biology
+COL4A4
+–
+CREB1
+Metabolism of lipids and lipoproteins
+ACSL4
+–
+CCNC
+,
+ACSL4
+–
+PIKFYVE
+Axon guidance
+COL4A4
+–
+CREB1
+Innate immune system
+ATF2
+–
+NFATC1
+,
+BIRC2
+–
+PDPK1
+Disease
+CHMP4C
+–
+CREB1
+Open in a new tab
+To get a global view of the 32 genes regulating biological functions, we constructed the protein–protein interaction (PPI), disease-gene, drug-gene, and miRNA-gene networks for the 218 DEGs and labelled the 32 genes in the networks (
+Supplementary Figure S1
+). Genes that were present in the 32-gene list but not in the networks were not labelled. Most of the 32 identified genes have high degrees of connectivity and are likely to be biological hubs. Thus, we propose that an RT
+2
+-PCR assay of these 32 genes could be a novel, effective, and comparatively cheap way to continuously monitor astronauts’ health in space. Validation of this assay under microgravity simulation conditions is warranted for further optimization of the gene list before sending an assay kit for practical tests in space. Finally, we extracted the drug molecules (both approved and experimental, listed in
+Supplementary File S3: Drug_list.xls
+) and miRNAs (listed in
+Supplementary File S4: miRNA_list.xls
+) that potentially target these 32 genes from the drug-gene and miRNA-gene networks. These drugs and miRNAs could be applied as possible medical interventions for health conditions associated with space travel.
+4. Conclusions
+In this study, we analyzed the effects of space travel on gene expression and correlation using the publicly available microarray dataset E-GEOD-74708, and systematically developed a shortlist of genes for a novel rapid assay that could be used to monitor astronauts’ health in space. However, this study faces a few limitations. First, the sample size (10 astronauts) is small due to the nature of space travel and unstandardized space biology research. More sample collection is needed to optimize the monitoring assay. Secondly, there were only two female astronauts in the microarray dataset. To get better representation and higher accuracy in the analysis, more gene expression profiles from a diverse population of astronauts should be obtained. Future studies in simulated microgravity conditions will allow for the optimization and validation of the proposed assay. It is noteworthy that this assay may address only one facet of a complete monitoring and treatment approach for astronauts’ health in space. In practice, other factors such as biomarkers and physiological metrics should also be included in the approach. Despite these drawbacks, our current study proposes a new strategy to develop genome-based rapid assays. This strategy could also be applied to other research fields such as cancer diagnostic assays.
+Supplementary Materials
+The following supporting information can be downloaded at:
+https://www.mdpi.com/article/10.3390/life13020576/s1
+, File S1: DEG_list.xls; File S2: Disease_DEG.xls; File S3: Drug_list.xls; File S4: miRNA_list.xls; Supplementary Figure S1: Protein-protein interaction (A), disease-gene (B), drug-gene (C) and miRNA-gene (D) networks for the 218 differentially expressed genes (DEGs) between Pre-flight and In-flight gene expression datasets collected from 10 astronauts (8 males and 2 females). Nodes with higher degrees of connectivity were shown in larger size and darker color. Genes identified for the rapid RT2-PCR assay kit were labelled in the networks. Genes
+CCNC, CTNNBIP1, EIF4E2
+and
+RRN3
+are not present in the disease-gene network; genes
+BIRC2, CCNC, CHMP4C, CTNNBIP1, EIF4E2, IL7, KIDINS220, MAGT1, PIKFYVE, RRN3, SOS2, SPON2, THBS3, XAF1
+and
+ZNF606
+are not present in the drug-gene network; and genes
+CRHR1, DPP4, GPT
+and
+SPON2
+are not present in the miRNA-gene network, respectively.
+Click here for additional data file.
+(2.3MB, zip)
+Author Contributions
+Conceptualization, J.Y.; methodology, A.S. and J.Y.; software, A.S.; validation, A.S. and J.Y.; formal analysis, A.S. and J.Y.; investigation, A.S. and J.Y.; resources, J.Y.; data curation, A.S. and J.Y.; writing—original draft preparation, A.S.; writing—review and editing, J.Y.; visualization, A.S. and J.Y.; supervision, J.Y.; project administration, J.Y.; funding acquisition, J.Y. All authors have read and agreed to the published version of the manuscript.
+Institutional Review Board Statement
+Not applicable.
+Informed Consent Statement
+Not applicable.
+Data Availability Statement
+Not applicable.
+Conflicts of Interest
+The authors declare no conflict of interest.
+Funding Statement
+The APC was funded by a President’s NSERC Research Fund from the University of Saskatchewan (Saskatoon, Saskatchewan, Canada), grant number 424844 (J.Y.).
+Footnotes
+Disclaimer/Publisher’s Note:
+The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+References
+1.
+Fontana D.C., Roddenberry G. Star Trek: The Next Generation 1; 1987.  [(accessed on 7 February 2023)].  Available online:
+http://www.leethomson.myzen.co.uk/Star_Trek/2_The_Next_Generation/Star_Trek_-_The_Next_Generation_Season_1/Star_Trek_-_The_Next_Generation_1x01-102_-_Encounter_at_Farpoint.pdf
+.
+2.
+Cole M.D.  Vostok 1: First Human in Space. Enslow Publishing LLC; New York, NY, USA: 1995.
+[
+Google Scholar
+]
+3.
+Loff S. Apollo 11 Mission Overview, NASA.  [(accessed on 24 March 2022)];2015  Available online:
+https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
+.
+4.
+Garcia M. International Space Station. NASA.  [(accessed on 24 March 2022)];2015  Available online:
+https://www.nasa.gov/mission_pages/station/main
+.
+5.
+Greicius T. Mars Perseverance Rover. NASA.  [(accessed on 24 March 2022)];2016  Available online:
+https://www.nasa.gov/perseverance
+.
+6.
+Mars Exploration Program. Mars Curiosity Rover. NASA.  [(accessed on 24 March 2022)];2021  Available online:
+https://mars.nasa.gov/msl/
+7.
+Loff S. Commercial Space Transportation. NASA.  [(accessed on 24 March 2022)];2015  Available online:
+https://www.nasa.gov/exploration/commercial
+.
+8.
+Guzman A. Low-Earth Orbit Economy. NASA.  [(accessed on 24 March 2022)];2021  Available online:
+https://www.nasa.gov/leo-economy
+.
+9.
+Gateway, NASA.  [(accessed on 24 March 2022)];2019  Available online:
+https://www.nasa.gov/gateway
+.
+10.
+Gopalakrishnan R., Genc K.O., Rice A.J., Lee S.M., Evans H.J., Maender C.C., Ilaslan H., Cavanagh P.R. Muscle volume, strength, endurance, and exercise loads during 6-month missions in space. Aviat. Space Environ. Med. 2010;81:91–102. doi: 10.3357/ASEM.2583.2010.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Trappe S., Costill D., Gallagher P., Creer A., Peters J.R., Evans H., Riley D.A., Fitts R.H. Exercise in space: Human skeletal muscle after 6 months aboard the International Space Station. J. Appl. Physiol. 2009;106:1159–1168. doi: 10.1152/japplphysiol.91578.2008.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Vogel J.M., Whittle M.W. Proceedings: Bone mineral content changes in the Skylab astronauts. Am. J. Roentgenol. 1976;126:1296–1297. doi: 10.2214/ajr.126.6.1296.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Vico L., Hargens A. Skeletal changes during and after spaceflight. Nat. Rev. Rheumatol. 2018;14:229–245. doi: 10.1038/nrrheum.2018.37.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+Akiyama T., Horie K., Hinoi E., Hiraiwa M., Kato A., Maekawa Y., Takahashi A., Furukawa S. How does spaceflight affect the acquired immune system? NPJ Microgravity. 2020;6:14. doi: 10.1038/s41526-020-0104-1.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Crucian B.E., Choukèr A., Simpson R.J., Mehta S., Marshall G., Smith S.M., Zwart S.R., Heer M., Ponomarev S., Whitmire A., et al.  Immune System Dysregulation During Spaceflight: Potential Countermeasures for Deep Space Exploration Missions. Front. Immunol. 2018;9:1437. doi: 10.3389/fimmu.2018.01437.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Smith S.M., Heer M., Shackelford L.C., Sibonga J.D., Spatz J., Pietrzyk R.A., Hudson E.K., Zwart S.R. Bone metabolism and renal stone risk during International Space Station missions. Bone. 2015;81:712–720. doi: 10.1016/j.bone.2015.10.002.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Roy-O’Reilly M., Mulavara A., Williams T. A review of alterations to the brain during spaceflight and the potential relevance to crew in long-duration space exploration. NPJ Microgravity. 2021;7:5. doi: 10.1038/s41526-021-00133-z.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Kalb R., Solomon D. Space exploration, Mars, and the nervous system. Arch. Neurol. 2007;64:485–490. doi: 10.1001/archneur.64.4.485.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Vernice N.A., Meydan C., Afshinnekoo E., Mason C.E. Long-term spaceflight and the cardiovascular system. Precis. Clin. Med. 2020;3:284–291. doi: 10.1093/pcmedi/pbaa022.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Hughson R.L., Helm A., Durante M. Heart in space: Effect of the extraterrestrial environment on the cardiovascular system. Nat. Rev. Cardiol. 2018;15:167–180. doi: 10.1038/nrcardio.2017.157.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Cucinotta F.A., Schimmerling W., Wilson J.W., Peterson L.E., Badhwar G.D., Saganti P.B., Dicello J.F. Space radiation cancer risks and uncertainties for Mars missions. Radiat. Res. 2001;156:682–688. doi: 10.1667/0033-7587(2001)156[0682:SRCRAU]2.0.CO;2.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Ahn C.B., Lee J.H., Han D.G., Kang H.W., Lee S.H., Lee J.I., Son K.H., Lee J.W. Simulated microgravity with floating environment promotes migration of non-small cell lung cancers. Sci. Rep. 2019;9:14553. doi: 10.1038/s41598-019-50736-6.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Lewis M.L., Reynolds J.L., Cubano L.A., Hatton J.P., Lawless B.D., Piepmeier E.H. Spaceflight alters microtubules and increases apoptosis in human lymphocytes (Jurkat) FASEB J. 1998;12:1007–1018. doi: 10.1096/fasebj.12.11.1007.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Krüger M., Melnik D., Kopp S., Buken C., Sahana J., Bauer J., Wehland M., Hemmersbach R., Corydon T.J., Infanger M., et al.  Fighting Thyroid Cancer with Microgravity Research. Int. J. Mol. Sci. 2019;20:2553.  doi: 10.3390/ijms20102553.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+25.
+Terada M., Seki M., Takahashi R., Yamada S., Higashibata A., Majima H.J., Sudoh M., Mukai C., Ishioka N. Effects of a Closed Space Environment on Gene Expression in Hair Follicles of Astronauts in the International Space Station. PloS one. 2016;11:e0150801.  doi: 10.1371/journal.pone.0150801.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+26.
+McKinney W. Data Structures for Statistical Computing in python; Proceedings of the Python in Science Conference; Austin TX, USA. 28–30 June 2010.
+[
+Google Scholar
+]
+27.
+Wang L., Feng Z., Wang X., Wang X., Zhang X. DEGseq: An R package for identifying differentially expressed genes from RNA-seq data. Bioinformatics. 2010;26:136–138. doi: 10.1093/bioinformatics/btp612.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Lynn D.J., Winsor G.L., Chan C., Richard N., Laird M.R., Barsky A., Gardy J.L., Roche F.M., Chan T.H., Shah N., et al.  InnateDB: Facilitating systems-level analyses of the mammalian innate immune response. Mol. Syst. Biol. 2008;4:218. doi: 10.1038/msb.2008.55.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Stark C., Breitkreutz B.J., Reguly T., Boucher L., Breitkreutz A., Tyers M. BioGRID: A general repository for interaction datasets. Nucleic Acids Res. 2006;34:D535–D539. doi: 10.1093/nar/gkj109.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+Piñero J., Ramírez-Anguita J.M., Saüch-Pitarch J., Ronzano F., Centeno E., Sanz F., Furlong L.I. The DisGeNET knowledge platform for disease genomics: 2019 update. Nucleic Acids Res. 2020;48:D845–D855. doi: 10.1093/nar/gkz1021.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+31.
+Shannon P., Markiel A., Ozier O., Baliga N.S., Wang J.T., Ramage D., Amin N., Schwikowski B., Ideker T. Cytoscape: A software environment for integrated models of biomolecular interaction networks. Genome Res. 2003;13:2498–2504. doi: 10.1101/gr.1239303.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+32.
+Wishart D.S., Knox C., Guo A.C., Shrivastava S., Hassanali M., Stothard P., Chang Z., Woolsey J. DrugBank: A comprehensive resource for in silico drug discovery and exploration. Nucleic Acids Res. 2006;34:D668–D672. doi: 10.1093/nar/gkj067.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Huang H.Y., Lin Y.C., Li J., Huang K.Y., Shrestha S., Hong H.C., Tang Y., Chen Y.G., Jin C.N., Yu Y., et al.  miRTarBase 2020: Updates to the experimentally validated microRNA-target interaction database. Nucleic Acids Res. 2020;48:D148–D154. doi: 10.1093/nar/gkz896.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Lin Y.H., Zhen Y.Y., Chien K.Y., Lee I.C., Lin W.C., Chen M.Y., Pai L.M. LIMCH1 regulates nonmuscle myosin-II activity and suppresses cell migration. Mol. Bio. Cell. 2017;28:1054–1065. doi: 10.1091/mbc.e15-04-0218.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Aguilar-Cuenca R., Juanes-García A., Vicente-Manzanares M. Myosin II in mechanotransduction: Master and commander of cell migration, morphogenesis, and cancer. Cell Mol. Life Sci. 2013;71:479–492. doi: 10.1007/s00018-013-1439-5.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+36.
+Schilling D., Pittelkow M.R., Kumar R. IEX-1, an immediate early gene, increases the rate of apoptosis in keratinocytes. Oncogene. 2001;20:7992–7997. doi: 10.1038/sj.onc.1204965.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+37.
+Arlt A., Schäfer H. Role of the immediate early response 3 (IER3) gene in cellular stress response, inflammation and tumorigenesis. Eur. J. Cell Biol. 2011;90:545–552. doi: 10.1016/j.ejcb.2010.10.002.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+38.
+Ustyugova I.V., Zhi L., Abramowitz J., Birnbaumer L., Wu M.X. IEX-1 deficiency protects against colonic cancer. Mol. Cancer Res. 2012;10:760–767. doi: 10.1158/1541-7786.MCR-11-0556.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+39.
+Akilov O.E., Wu M.X., Ustyugova I.V., Falo L.D., Geskin L.J. Resistance of Sézary cells to TNF-α-induced apoptosis is mediated in part by a loss of TNFR1 and a high level of the IER3 expression. Exp. Dermatol. 2012;21:287–292. doi: 10.1111/j.1600-0625.2012.01452.x.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+40.
+Rasmussen L.M., Frederiksen K.S., Din N., Galsgaard E., Christensen L., Berchtold M.W., Panina S. Prolactin and oestrogen synergistically regulate gene expression and proliferation of breast cancer cells. Endocr. Relat. Cancer. 2010;17:809–822. doi: 10.1677/ERC-09-0326.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+41.
+Bergamin L.S., Penolazzi L., Lambertini E., Falzoni S., Sarti A.C., Molle C.M., Gendron F.P., De Bonis P., Di Virgilio F., Piva R. Expression and function of the P2X7 receptor in human osteoblasts: The role of NFATc1 transcription factor. J. Cell Physiol. 2021;236:641–652. doi: 10.1002/jcp.29891.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+42.
+Winslow M.M., Pan M., Starbuck M., Gallo E.M., Deng L., Karsenty G., Crabtree G.R. Calcineurin/NFAT signaling in osteoblasts regulates bone mass. Dev. Cell. 2006;10:771–782. doi: 10.1016/j.devcel.2006.04.006.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+43.
+Klein-Hessling S., Muhammad K., Klein M., Pusch T., Rudolf R., Flöter J., Qureischi M., Beilhack A., Vaeth M., Kummerow C., et al.  NFATc1 controls the cytotoxicity of CD8+ T cells. Nat. Commun. 2017;8:511. doi: 10.1038/s41467-017-00612-6.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+44.
+Kulkarni R.M., Greenberg J.M., Akeson A.L. NFATc1 regulates lymphatic endothelial development. Mech. Dev. 2009;126:350–365. doi: 10.1016/j.mod.2009.02.003.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+45.
+Chang C.P., Neilson J.R., Bayle J.H., Gestwicki J.E., Kuo A., Stankunas K., Graef I.A., Crabtree G.R. A field of myocardial-endocardial NFAT signaling underlies heart valve morphogenesis. Cell. 2004;118:649–663. doi: 10.1016/j.cell.2004.08.010.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+46.
+Xu W., Gu J., Ren Q., Shi Y., Xia Q., Wang J., Wang S., Wang Y., Wang J. NFATC1 promotes cell growth and tumorigenesis in ovarian cancer up-regulating c-Myc through ERK1/2/p38 MAPK signal pathway. Tumour Biol. 2016;37:4493–4500. doi: 10.1007/s13277-015-4245-x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+47.
+Cesca F., Yabe A., Spencer-Dene B., Arrigoni A., Al-Qatari M., Henderson D., Phillips H., Koltzenburg M., Benfenati F., Schiavo G. Kidins220/ARMS is an essential modulator of cardiovascular and nervous system development. Cell Death Dis. 2011;2:e226. doi: 10.1038/cddis.2011.108.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+48.
+Cesca F., Yabe A., Spencer-Dene B., Scholz-Starke J., Medrihan L., Maden C.H., Gerhardt H., Orriss I.R., Baldelli P., Al-Qatari M., et al.  Kidins220/ARMS mediates the integration of the neurotrophin and VEGF pathways in the vascular and nervous systems. Cell Death Differ. 2012;19:194–208. doi: 10.1038/cdd.2011.141.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+49.
+van Dam S., Võsa U., van der Graaf A., Franke L., de Magalhães J.P. Gene co-expression analysis for functional classification and gene-disease predictions. Brief. Bioinform. 2018;19:575–592. doi: 10.1093/bib/bbw139.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+50.
+Sakharkar M.K., Dhillon S.K., Chidambaram S.B., Essa M.M., Yang J. Gene Pair Correlation Coefficients in Sphingolipid Metabolic Pathway as a Potential Prognostic Biomarker for Breast Cancer. Cancers. 2020;12:1747.  doi: 10.3390/cancers12071747.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+51.
+Sakharkar M.K., Dhillon S.K., Rajamanickam K., Heng B., Braidy N., Guillemin G.J., Yang J. Alteration in Gene Pair Correlations in Tryptophan Metabolism as a Hallmark in Cancer Diagnosis. Int. J. Tryptophan Res. 2020;13:1178646920977013. doi: 10.1177/1178646920977013.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+52.
+Sakharkar M.K., Rajamanickam K., Ji S., Dhillon S.K., Yang J. Pairwise correlation of genes involved in glucose metabolism: A potential diagnostic marker of cancer? Genes Cancer. 2021;12:69–76. doi: 10.18632/genesandcancer.216.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+53.
+Reynolds R.J., Bukhtiyarov I.V., Tikhonova G.I., Day S.M., Ushakov I.B., Gorchakova T. Contrapositive logic suggests space radiation not having a strong impact on mortality of US astronauts and Soviet and Russian cosmonauts. Sci. Rep. 2019;9:8583. doi: 10.1038/s41598-019-44858-0.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+54.
+Beheshti A., Chakravarty K., Fogle H., Fazelinia H., Silveira W., Boyko V., Polo S.L., Saravia-Butler A.M., Hardiman G., Taylor D., et al.  Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver. Sci. Rep. 2019;9:19195. doi: 10.1038/s41598-019-55869-2.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+55.
+Kurosawa R., Sugimoto R., Imai H., Atsuji K., Yamada K., Kawano Y., Ohtsu I., Suzuki K. Impact of spaceflight and artificial gravity on sulfur metabolism in mouse liver: Sulfur metabolomic and transcriptomic analysis. Sci. Rep. 2021;11:21786. doi: 10.1038/s41598-021-01129-1.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+56.
+Garrett-Bakelman F.E., Darshi M., Green S.J., Gur R.C., Lin L., Macias B.R., McKenna M.J., Meydan C., Mishra T., Nasrini J., et al.  The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight. Science. 2019;364:eaau8650. doi: 10.1126/science.aau8650.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+57.
+Taylor R. Interpretation of the correlation coefficient: A basic review. J. Diagn. Med. Sonogr. 1990;6:35–39. doi: 10.1177/875647939000600106.
+[
+DOI
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Click here for additional data file.
+(2.3MB, zip)
+Data Availability Statement
+Not applicable.
+Articles from Life are provided here courtesy of
+Multidisciplinary Digital Publishing Institute  (MDPI)

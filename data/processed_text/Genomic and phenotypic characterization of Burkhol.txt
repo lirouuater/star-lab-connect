@@ -1,0 +1,1749 @@
+Biofilm
+. 2023 Mar 2;5:100108. doi:
+10.1016/j.bioflm.2023.100108
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Microbial isolation and characterization from two flex lines from the urine processor assembly onboard the international space station
+Hang Ngoc Nguyen
+Hang Ngoc Nguyen
+a
+JES Tech, Houston, TX, USA
+Find articles by
+Hang Ngoc Nguyen
+a
+,
+G Marie Sharp
+G Marie Sharp
+b
+KBR, Houston, TX, USA
+Find articles by
+G Marie Sharp
+b
+,
+Sarah Stahl-Rommel
+Sarah Stahl-Rommel
+a
+JES Tech, Houston, TX, USA
+Find articles by
+Sarah Stahl-Rommel
+a
+,
+Yo-Ann Velez Justiniano
+Yo-Ann Velez Justiniano
+c
+Space Systems Department, NASA Marshall Space Flight Center, Huntsville, AL, USA
+Find articles by
+Yo-Ann Velez Justiniano
+c
+,
+Christian L Castro
+Christian L Castro
+a
+JES Tech, Houston, TX, USA
+Find articles by
+Christian L Castro
+a
+,
+Mayra Nelman-Gonzalez
+Mayra Nelman-Gonzalez
+b
+KBR, Houston, TX, USA
+Find articles by
+Mayra Nelman-Gonzalez
+b
+,
+Aubrie O’Rourke
+Aubrie O’Rourke
+d
+Exploration Research and Technology, NASA Kennedy Space Center, Merritt Island, FL, USA
+Find articles by
+Aubrie O’Rourke
+d
+,
+Michael D Lee
+Michael D Lee
+e
+KBR, Moffett Field, CA, USA
+Find articles by
+Michael D Lee
+e
+,
+Jill Williamson
+Jill Williamson
+c
+Space Systems Department, NASA Marshall Space Flight Center, Huntsville, AL, USA
+Find articles by
+Jill Williamson
+c
+,
+Chelsea McCool
+Chelsea McCool
+f
+Jacobs, Huntsville, AL, USA
+Find articles by
+Chelsea McCool
+f
+,
+Brian Crucian
+Brian Crucian
+g
+Biomedical Research and Environmental Sciences Division, NASA Johnson Space Center, Houston, TX, USA
+Find articles by
+Brian Crucian
+g
+,
+Kenneth W Clark
+Kenneth W Clark
+a
+JES Tech, Houston, TX, USA
+Find articles by
+Kenneth W Clark
+a
+,
+Miten Jain
+Miten Jain
+h
+Department of Bioengineering, Department of Physics, Northeastern University, Boston, MA, USA
+Find articles by
+Miten Jain
+h
+,
+Sarah L Castro-Wallace
+Sarah L Castro-Wallace
+g
+Biomedical Research and Environmental Sciences Division, NASA Johnson Space Center, Houston, TX, USA
+Find articles by
+Sarah L Castro-Wallace
+g,
+∗
+Author information
+Article notes
+Copyright and License information
+a
+JES Tech, Houston, TX, USA
+b
+KBR, Houston, TX, USA
+c
+Space Systems Department, NASA Marshall Space Flight Center, Huntsville, AL, USA
+d
+Exploration Research and Technology, NASA Kennedy Space Center, Merritt Island, FL, USA
+e
+KBR, Moffett Field, CA, USA
+f
+Jacobs, Huntsville, AL, USA
+g
+Biomedical Research and Environmental Sciences Division, NASA Johnson Space Center, Houston, TX, USA
+h
+Department of Bioengineering, Department of Physics, Northeastern University, Boston, MA, USA
+∗
+Corresponding author.
+sarah.wallace@nasa.gov
+Received 2022 Oct 28; Revised 2023 Jan 13; Accepted 2023 Feb 16; Collection date 2023 Dec.
+© 2023 Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+PMC Copyright notice
+PMCID: PMC10020673  PMID:
+36938359
+Abstract
+Urine, humidity condensate, and other sources of non-potable water are processed onboard the International Space Station (ISS) by the Water Recovery System (WRS) yielding potable water. While some means of microbial control are in place, including a phosphoric acid/hexavalent chromium urine pretreatment solution, many areas within the WRS are not available for routine microbial monitoring. Due to refurbishment needs, two flex lines from the Urine Processor Assembly (UPA) within the WRS were removed and returned to Earth. The water from within these lines, as well as flush water, was microbially evaluated. Culture and culture-independent analysis revealed the presence of
+Burkholderia
+,
+Paraburkholderia
+, and
+Leifsonia
+. Fungal culture also identified
+Fusarium
+and
+Lecythophora
+. Hybrid
+de novo
+genome analysis of the five distinct
+Burkholderia
+isolates identified them as
+B. contaminans,
+while the two
+Paraburkholderia
+isolates were identified as
+P. fungorum
+. Chromate-resistance gene clusters were identified through pangenomic analysis that differentiated these genomes from previously studied isolates recovered from the point-of-use potable water dispenser and/or current NCBI references, indicating that unique populations exist within distinct niches in the WRS. Beyond genomic analysis, fixed samples directly from the lines were imaged by environmental scanning electron microscopy, which detailed networks of fungal-bacterial biofilms. This is the first evidence of biofilm formation within flex lines from the UPA onboard the ISS. For all bacteria isolated, biofilm potential was further characterized, with the
+B. contaminans
+isolates demonstrating the most considerable biofilm formation. Moreover, the genomes of the
+B. contaminans
+revealed secondary metabolite gene clusters associated with quorum sensing, biofilm formation, antifungal compounds, and hemolysins. The potential production of these gene cluster metabolites was phenotypically evaluated through biofilm, bacterial-fungal interaction, and hemolytic assays. Collectively, these data identify the UPA flex lines as a unique ecological niche and novel area of biofilm growth within the WRS. Further investigation of these organisms and their resistance profiles will enable engineering controls directed toward biofilm prevention in future space station water systems.
+Keywords:
+Spaceflight, Biofilms, Environmental microbiology, International space station, Pangenome
+1. Introduction
+A clean and reliable source of water is critical for human spaceflight. With increases in the duration of crewed mission onboard the International Space Station (ISS), the practice of manifesting water, implemented during the Shuttle Program, has become insufficient to meet water demands. As a result, the U.S. Water Recovery System (WRS) was launched to the ISS in 2008 with the goal of generating potable water from urine distillate, humidity condensate, and Sabatier product water, as well as the occasional off-loading of ground-supplied water [
+1
+]. The WRS consists of the Urine Processor Assembly (UPA) and the Water Processor Assembly (WPA).
+As the UPA processes urine, some batches may sit stagnant for hours to days before moving through the system. Therefore, a pretreatment solution containing phosphoric acid (H
+3
+PO
+4
+), and hexavalent chromium (Cr
+6+
+), an oxidizing agent, is added to the urine as a stabilizer. This pretreatment solution serves in both microbial control and chemical stability [
+2
+]. Upon reacting with the organics in the urine, Cr
+6+
+is reduced to Cr
+3+
+and due to the phosphoric acid, the overall pH of the treated urine falls to less than two. Treated urine then enters the Distillation Assembly (DA) of the UPA (
+Fig. 1
+). Following processing by the DA, two byproducts remain, distillate and urine brine. The urine distillate undergoes additional processing by the WPA before being considered potable, while the brine is left behind. This brine solution contains approximately 13% of the starting water in the urine as well as low-boiling point organics and inorganics. The DA functions under a vacuum to reduce the heat required to reach boiling point. Following distillation, UPA flex line 115 (UPA115) carries water vapor to the purge pump, where condensation occurs prior to collection for further processing by the WPA [
+4
+] (
+Fig. 1
+). The urine brine is transferred from the DA by UPA flex line 95 (UPA95) into the recycling tank (
+Fig. 1
+). The recycling tank accumulates brine, and current technology demonstrations onboard the ISS are achieving further water recovery by processing the brine [
+5
+]. Based on the current system, a maximum of 87% of the water from urine is removed and processed for downstream potable needs.
+Fig. 1.
+Open in a new tab
+Urine Processor Assembly schematic detailing the positions of the two flex line hoses (UPA95 and UPA115) (
+Fig. S3
+). Modified from Carter
+et al
+, 2011 [
+3
+].
+Upon departing the UPA, the condensed water enters the WPA wastewater tank, which does not have a validated means of microbial control. As such, approximately a year after being put into operation, the flow of water from this tank decreased due to an obstructing biofilm [
+1
+]. Biofouling within the ISS water system presents a significant risk to both vehicle and crew health. Biofilms can block lines and restrict access to clean water. Should pathogens be present, the risk of crew infection dramatically increases. Additionally, the persistence of biofilms can result in corrosion, overall materials degradation, and a failed water system. For these reasons, as a remedy to the biofilm noted downstream of the wastewater tank, additional filtration was added. While this water is examined periodically, the microbial profiles are determined after return of samples to Earth. The time in-between sample collection and analysis, and the lack of preservation, results in a skewed representation of the microbial population. The wastewater tank likely contains a thriving microbial community, but low diversity is noted upon ground evaluation, and no insight is gained toward the presence of possible biofilms. It is critical to enhance our understanding toward the microbial profiles, as well as associated biofilm potential, within the existing ISS WRS to the fullest extent to prepare for the next generation of spaceflight water systems.
+Catalytic oxidation, filtration, and the addition of a biocide during WPA processing serve to substantially reduce microbial contamination in the potable water. This water is held to stringent acceptability limits: 50 colony forming units (CFU)/mL for total bacteria and no detectable coliforms per 100 mL [
+6
+]. The presence of coliforms is assessed monthly, while total bacteria are evaluated every quarter. There has never been a true positive coliform detected, and apart from the early checkout process, the levels of culturable bacteria are well below the requirement. However, following assessments of the wastewater tank, solenoid valve crevices, and filter mesh for the U.S. and Russian water systems, increased microbial levels have been noted [
+7
+].
+To survey the unique microbial community that is present in the water from the Potable Water Dispenser (PWD), the crew filters and cultures the bacteria onboard the ISS, then returns them to the Johnson Space Center (JSC) Microbiology Laboratory for identification via partial 16S rRNA gene sequencing [
+6
+]. These techniques can determine both the overall bacterial levels (through in-flight colony counting) and the identification of culturable taxa. Typically, the level of bacteria is in the range of a few CFUs per ml. The bacterial genera routinely include common water contaminants such as
+Burkholderia
+,
+Ralstonia
+,
+Curvibacter
+,
+Cupriavidus
+,
+Sphingobium
+, and, frequently, other Gram-negative organisms that cannot be identified through the laboratory’s standard methods. As mentioned, the present method has important limitations, including the length of time between sample collection on orbit and subsequent analysis and possible degradation during transport from the ISS to the laboratory. Therefore, understanding of the actual microbial profiles within these systems would be enhanced by near real-time monitoring capabilities. Previous work has already demonstrated that sequencing in space is possible and can be performed with identical outcomes to those on the ground [
+[8]
+,
+[9]
+,
+[10]
+]. This shift in paradigm from Earth-based to spaceflight-based analysis has implications for a broad range of other molecular applications onboard the ISS, including water monitoring.
+Future NASA Programs such as Gateway, a lunar outpost allowing greater access to the lunar surface and a staging point for Mars missions, is expected to have a water recovery and recycling system. However, current planning anticipates Gateway will be unoccupied for up to 11 months per year, resulting in a dormant wetted, water system. A means of microbial control is paramount to this future system. NASA has initiated a robust anti-biofouling program in which many teams are investigating a diverse means of biofilm prevention and mitigation, but the organisms to use in these varied investigations are extremely limited. This coupled with a lack of insight beyond returned PWD and WPA wastewater tank samples, drove pursuing of the opportunity to microbially characterize UPA95 and UPA115 flex lines during refurbishment. The work described here aims to characterize the microorganisms found in the returned UPA flex lines and potentially identify the hosing positions as novel areas of interest for biofilm growth studies in the system. The current WRS employs numerous hosing connections with materials and sizes defined by the initial architecture plan. Determining potential microbial impacts regarding the WRS hosing will enable further engineering controls directed toward biofilm prevention.
+2. Materials and methods
+2.1. Sample collection and fixation
+The ISS UPA flex lines assessed included the recycled brine line (UPA 95” flex line 96 M 12561- 099 [UPA95]), which was installed in February 2010, and the purge line (UPA 115” flex line 96 M 12561- 100 [UPA115]) installed in May 2015 (
+Fig. 1
+). The polytetrafluoroethylene (PTFE) flex lines transport water vapor and brine beyond the Distillation Assembly (DA) as part of the overall UPA. For refurbishment, these two flex lines were sealed with quick disconnects in October 2019 and remained onboard the ISS until their return to Earth on SpaceX-21 in January 2021. At Marshall Space Flight Center (MSFC), stagnant water was collected aseptically from both lines, after which the lines were flushed with 250 mL of sterile water. Visual aggregates were present in the stagnant water from UPA115 (
+Fig. S1
+). For both lines, 0.5 mL of liquid from the stagnant collection were immediately fixed for downstream environmental scanning electron microscopy (ESEM) using a solution containing 2% glutaraldehyde (Sigma-Aldrich, St. Louis, MO, USA) and 3% formaldehyde (Sigma-Aldrich) in sterile phosphate buffer solution (PBS, pH 7.4, ThermoFisher Scientific,
+Waltham, MA
+, USA). The fixed solutions were covered in aluminum foil and kept at ambient temperature for 30 min. The fixed samples were then stored at 4 °C. These samples, as well as water samples from both flex lines, stagnant and flush, as well as the sterile flush water, were shipped on wet ice to the JSC Microbiology Laboratory for further analysis.
+2.2. Chromium analysis
+Chromium concentrations in the water removed from the flex lines were measured using a modified version of Standard Methods for the Examination of Water and Wastewater 3125 (Metals by Inductively Coupled Plasma-Mass Spectrometry) with a PerkinElmer Nexion 300D. Prior to analysis, sample and dilution tubes were soaked in 1% nitric acid for 24 h before a distilled water rinse to eliminate potential contaminants in the 15 mL and 50 mL metal-free tubes. With the expected presence of elevated chromium and the knowledge of the concentration expected from fluids associated with the UPA, the samples removed from the UPA95 and UPA115 flex lines were diluted to fall within the calibration range of the instrument and analyzed with control samples to ensure quality.
+2.3. Bacterial and fungal isolation and identification
+Upon arriving at the JSC Microbiology Laboratory, all samples, excluding those for ESEM imaging, were processed and analyzed following the laboratory’s standard operating procedures for bacterial and fungal enumeration and identification. Briefly, the samples were filtered using a Milliflex system with a Reasoner's 2A (R2A) agar cassette and a Sabouraud dextrose with chloramphenicol (SABC) cassette (MilliporeSigma, Burlington, MA, USA) for bacterial and fungal enumeration and isolation, respectively. In addition, serial dilutions of samples were plated on R2A and SABC plates (Hardy Diagnostics, Santa Maria, CA, USA). All cassettes and plates were incubated for two to five days at 35 °C for bacteria and five to seven days at 30 °C for fungi. Following incubation, colonies were enumerated, and each distinct morphological colony was subcultured onto fresh media. Following growth, DNA was extracted from pure colonies representing each morphology using the PrepMan® Ultra Sample Preparation Reagent (ThermoFisher) following the manufacture’s protocol. The DNA was prepared for sequencing according to the MicroSEQ® 500 16S rDNA PCR Kit or Fast MicroSEQ® D2 Fungal rDNA PCR Kit (ThermoFisher) and associated sequencing kits, MicroSEQ® 500 16S rDNA Sequencing Kit or MicroSEQ® D2 rDNA Fungal Sequencing Kit. The prepared libraries were sequenced using Sanger sequencing, Applied BioSystems® 3500 Genetic Analyzer (ThermoFisher), and the sequencing peaks were analyzed using MicroSEQ® ID microbial identification v3.1 (ThermoFisher). For fungal identifications, the isolates were also confirmed morphologically and microscopically. Sanger sequencing data has been deposited in the European Nucleotide Archive (ENA) under accession number PRJEB58840.
+2.4. Culture-independent, 16S rRNA nanopore sequencing and analysis
+To potentially identify non-culturable taxa from samples, established laboratory protocols for culture-independent, targeted nanopore sequencing were used [
+9
+]. Using a syringe, samples were passed through a 0.22 μm mixed cellulose esters (MCE) filter on a 13 mm filter holder (MilliporeSigma). The filter was then removed and placed into PCR tubes containing QuickExtract™ DNA Extraction Solution (Lucigen Cooperation, Middleton, WI, USA) for DNA extraction. Following extraction within the miniPCR™ thermal cycler (miniPCR bio™, Cambridge, MA, USA), DNA purifications, quality assessments, and library preparation followed the established method described in Stahl-Rommel et al. 2021 [
+9
+]. The multiplexed libraries were loaded into the flow cell (Oxford Nanopore Technologies (ONT), Oxford, UK) version R9.4.1 and sequenced for 12 h using MinKNOW version 21.02.2 on MinION Mk1C (ONT).
+Data analysis was conducted as previously described [
+9
+]. Briefly, basecalling and demultiplexing was completed using GPU-enabled Guppy Basecalling Software 4.3.4 (ONT). Reads of 1350–1650 bp in length were selected using NanoFilt Version 2.6.0 [
+11
+] and mapped to the NCBI Reference Sequence Database using Minimap2 version 2.24-r1122 (-ax map-ont) (Li 2018). SAMtools version 1.14, MAPping Quality (MAPQ) threshold of 1 [
+12
+] and MarginStats (marginStats.py 0.1) [
+13
+] were used for sequencing statistics. Data visualizations were created in R version 4.2.0 using the ggplot package and heatmap [
+[14]
+,
+[15]
+,
+[16]
+,
+[17]
+]. Nanopore sequencing data has been deposited in the European Nucleotide Archive (ENA) under accession number PRJEB58840.
+2.5. Genomic DNA extraction
+To acquire genomic DNA for hybrid full genome sequencing analysis, bacterial isolates were subcultured onto fresh R2A plates and incubated at 35 °C for 24–48 h. A 1 μL loop was used to pick a single colony from each isolate for inoculation into 10 mL of Tryptic Soy Broth (TSB) (Hardy Diagnostics). The inoculation was incubated at 35 °C with shaking at 150 revolution per minute (rpm) for ∼17 h. To collect a cell pellet, inoculum of 1 mL was centrifuged at 16,000 relative centrifugal force (rcf) for 2 min at 4 °C (Eppendorf Centrifuge, 5810R, Enfield, CT, USA). The supernatant was discarded, and the cell pellet was rinsed with PBS before resuspending with 40 μL of PBS by vortexing. DNA was extracted using the Circulomics Nanobind CBB Big DNA kit (PacBio, Menlo Park, CA, USA) following the manufacturer’s protocol optimized for high molecular weight DNA for Gram-negative bacteria. Extracted DNA was checked for quality and quantity using the Qubit
+TM
+dsDNA BR assay kit with a Qubit 4 Fluorometer (ThermoFisher), Nanodrop
+TM
+(Nanodrop One, ThermoFisher), and TapeStation Genomic ScreenTape using 4200 TapeStation System reagents (Agilent, Santa Clara, CA, USA).
+2.6. Illumina and nanopore genomic sequencing
+Short-read Illumina and long-read nanopore sequencing was performed to generate hybrid
+de-novo
+genomes. For Illumina sequencing, 100–500 ng of extracted genomic DNA was used for library preparation following the Illumina DNA Prep (M) Tagmentation (24 samples) (Illumina, San Diego, CA, USA) and Nextera DNA CD 24 Indexes (Illumina) manufacturer’s protocol. Following library purification, the DNA was assessed for quality, quantity, and size (∼500–600 bp) using Qubit
+TM
+1x dsDNA High Sensitivity Kit (ThermoFisher) and D1000 ScreenTape and reagents (Agilent). Samples were normalized to 4 nM, then pooled and diluted to a final concentration of 10 pM using HT1 buffer (Illumina). PhiX control V3 was prepared at 4 nM and diluted to 20 pM using HT1 buffer (Illumina). The 10 pM pooled library and 20 pM PhiX control v3 (Illumina) were denatured using fresh 0.2 N NaOH for 5 min at room temperature. The 1% PhiX control was added to the pooled DNA libraries. Pooled libraries were heated to 98 °C for 2 min for additional denaturation prior to loading into a MiSeq® Reagent v3 cartridge (600 cycles) (Illumina) and starting the run on the Illumina MiSeq.
+For nanopore sequencing, the genomic DNA was sequenced using the Rapid Barcoding Kit (SQK-RBK004, ONT) following the manufacturer’s protocol. Briefly, up to 12 genomic DNA samples at 400 – 1000 ng were fragmented, barcoded, and pooled before being purified using a 1:1 AMPure XP bead reaction (Beckman Coulter, Indianapolis, IN, USA). The library was quantified using Qubit
+TM
+1X HS Kit (ThermoFisher) then combined with 1 μl of RAP (ONT) and incubated at room temperature for 5 min. The pooled libraries were loaded into a R9.4.1 flow cell (ONT) within the MinION Mk1C running MinKNOW version 21.02.2 (ONT) and sequenced for 72 h.
+2.7. Hybrid genome assemblies, annotation, and analysis
+Illumina short reads were demultiplexed and fastq files generated using MiSeq Reporter Software version 2.6.2.3 (Illumina). Fastq files were filtered to remove sequencing adaptors, reads less than 50 bases in length, and the PhiX sequencing control using BBduk (BBTools version 38.54) [
+18
+]. BBduk also trimmed both ends of the fastq and selected reads with a quality score of 25 of higher.
+Nanopore long reads were basecalled and demultiplexed using the high accuracy configuration of Guppy (version 4.3.4) with a minimum quality score of 7 and minimum barcode score of 40. Sequencing adapters were removed from reads using Porechop version 0.2.4 [
+19
+] and the top 80% of reads were subsequently filtered for sequences >2000 bp with Filtlong version 0.2.0 [
+20
+]. Illumina and nanopore Hybrid
+de-novo
+genomes were assembled using Unicycler version 0.4.8 [
+21
+]. Genome assemblies were checked for quality and completeness using CheckM version 1.0.18 [
+22
+]. The identities of the assemblies were confirmed with average nucleotide identity (ANI) using fastANI version 1.3 against the NCBI complete genome database [
+23
+].
+Hybrid
+de-novo
+genomes were annotated for bacterial chromosomes and plasmids using the command line version of the NCBI Prokaryotic Genome Annotation Pipeline (PGAP) version 6.0 [
+24
+]. PGAP was run using normal parameters with quality control analysis enabled. This version of PGAP included GeneMarkS-2 and GeneMark.hmm-2 for enhanced gene prediction using protein profile hidden Markov models (HMMs). AntiSMASH was used for recognition of secondary metabolite biosynthesis gene clusters (GC) from the isolates [
+25
+]. A search for plasmids in the isolated genomes was conducted using the PlasmidFinder [
+26
+]. Figures and tables were constructed in R [
+14
+]. Graphs were rendered using the ggplot2 program and dependencies [
+16
+].
+2.8. Pangenome analysis
+In total, 86
+B. contaminans
+and 10
+P. fungorum
+genome assemblies were downloaded from the NCBI RefSeq genome database as references [
+24
+,
+27
+]. Of the 86
+B. contaminans
+RefSeq assemblies downloaded, six were duplicates and two lacked complete annotations, resulting in 78 NCBI references used this study. The five
+B. contaminans
+and two
+P. fungorum
+isolates identified in this study and annotated with PGAP were transformed into Anvio contig databases to be comparable with the downloaded NCBI genomes during the anvi’o pangenome analysis [
+24
+]. Using anvi’o, (version 7.1) pangenome analysis was run to compare the single copy genes from our isolates to those in the NCBI database using hidden Markov models (HMMs) [
+28
+]. Differences in gene number and gene clusters between the isolates and NCBI genomes were observed. The anvi’o summary files were rendered and imported into R where the groups and bins were searched using dplyr (1.0.9) to filter rows based on presence and absence of matches.
+2.9. Environmental scanning electron microscope imaging
+Approximately 100 μL of fixed sample was loaded onto an Isopore membrane filter (0.8 μm pore size, 13 mm diameter, MilliporeSigma) and gravity filtered to reduce disturbance to any structure present in the sample. The samples were washed twice with 200 μL PBS (ThermoFisher Scientific) then rinsed with 1000 μL of filtered, sterile Milli-Q water. Sample dehydration was performed with serial rinses using freshly prepared ethanol (200 proof, Sigma-Aldrich) in filtered, sterile Milli-Q water. Initial dehydration involved two sequential 30 min rinses with 500 μL of 25% ethanol then 500 μL of 50% ethanol. This process was continued by applying increasing concentrations of ethanol at 60%, 70%, 80%, 90% and 100% for 15 min each. Following dehydration, the filter was removed with the sample side up and flipped onto an aluminum mount flat pin with carbon conductive tab (Electron Microscopy Sciences, EMS, Hatfield, PA, USA). The samples were allowed to dry inside a biosafety cabinet and then placed into the ESEM chamber for additional drying under vacuum. Following drying, the samples were sputter coated with ∼2 nm iridium on a Cressington Sputter Coater 298 HR that uses a Cressington Thickness Controller MTM 20. Imaging was performed with a ThermoFisher Scientific FEI Quanta 250 using the ESEM mode. All images were acquired at 10 kV in back scatter electron mode at a pressure of ∼1.3 Torr.
+2.10. Biofilm assay
+Bacterial isolates were cultured on R2A media (Hardy Diagnostics) and incubated for at least 24 h at 35 °C or until visual colonies were observed. A 1 μL loop was used to pick a single colony from each isolate for inoculation into 10 mL of TSB (Hardy Diagnostics). The inoculation was incubated at 35 °C with shaking at 150 rpm for ∼17 h. The liquid culture was diluted 100X, and 200 μL was added to a well of a 96-well plate. Eight replicates of each isolate were prepared. The plates were then incubated at 35 °C without shaking. Beyond the isolates from the flex lines, positive and negative controls were prepared in the same manner with
+Burkholderia cepacia
+ATCC 25416 and TSB only, respectively. The plates were incubated for 24, 48 and 72 h. After each incubation period, washing, tapping, and dissociation of the biofilms was performed, and the biofilms were assessed as described previously [
+29
+]. A 200 μL of 0.1% crystal violet (Sigma-Aldrich) was added to each well and the washing was repeated after incubation time. The absorbance of the remaining crystal violet was evaluated at 540 nm using a SpectraMax® 190 plate reader (Molecular Devices LLC, San Jose, CA, USA). Three set of plates were processed as described. The results are expressed as an average and standard deviation of four technical replicates and two biological replicates after background subtraction from the negative control. One-way ANOVA were performed using R v. 4.2.0.
+2.11. Bacterial-fungal interaction
+Aspergillus flavus
+, isolated from the ISS in samples returned on Soyuz 51, was used as a model to characterize the bacterial-fungal interactions of the flex line isolates.
+A. flavus
+, from a room temperature molecular water stock, was cultured on SABC for five days at 25 °C. To generate an experimental culture, a 1 μL loop was used to transfer spores to fresh SABC, which was then incubated for seven days at 25 °C. Synchronous bacterial isolates were cultured on R2A for 24–48 h at 35 °C. A 1 μL loop was used to pick a single colony from each isolate for inoculation into 10 mL of TSB (Hardy Diagnostics). The inoculation was incubated at 35 °C with shaking at 150 rpm for ∼17 h. Three different types of growth media were assessed by placing three 25 μL drops of the inoculum on R2A, potato dextrose (PDA) (Hardy Diagnostics) or SABC plates in a triangular pattern approximately 2 cm from the edge of the plate. After 24 h of incubation at 25 °C or 35 °C, a plug of 7-day-old
+A. flavus
+was introduced to the center of the three triangular bacterial drops. Fungal controls without bacteria were prepared in a similar manner. Two growth temperatures were investigated by placing the plates in either an incubator at 25 °C or 35 °C for five days. Following incubation, the growth diameter of the bacteria and the distance between the bacteria and fungi was measured. This was repeated using biological triplicates. The average and standard deviation of the measurements were calculated.
+2.12. Hemolysis activity
+Bacterial cultures of the flex line isolates were prepared as described above. Hemolysis activity was performed by placing three, 25 μL drops of liquid inoculum onto TSA containing 5% sheep’s blood (Hardy Diagnostics). The plates were incubated at 35 °C for 48 h and the zone of hemolysis was recorded.
+3. Results and discussions
+3.1. Identification of microbial isolates from UPA95 and UPA115 flex lines
+Three bacteria and one fungus were recovered from UPA95, while six bacteria and two fungi were recovered from UPA115, as detailed in
+Table 1
+. The three bacteria from UPA95 were all found to be
+Burkholderia
+species by Sanger sequencing but revealed distinct colony morphologies. Isolate 3.1
+Burkholderia
+sp. colonies were milky white, isolate 3.2
+Burkholderia
+sp. colonies were yellow, while isolate 3.3
+B. fungorum
+colonies were smooth and white in appearance. The fungal isolate F3.1 was identified as a
+Fusarium
+sp. From UPA115, isolate 4.1 demonstrated rough, white colonies that were identified as
+B. fungorum.
+Additionally, three different
+Burkholderia
+morphologies were noted. Isolate 4.2 was white, whereas isolate 4.3 was yellow and isolate 4.5 was wet in appearance. The
+Burkholderia
+sp. 4.5 wet morphology was not noted from UPA95 and the two
+B. fungorum
+displayed different morphologies. Isolate 4.4 was a Gram-positive bacterium but could not be identified to the genus level. Isolate 5.2 was determined to be
+Leifsonia lichenia
+. The two fungal isolates from UPA115 were 4.1
+Fusarium
+sp. and 4.2
+Lecythophora mutabilis
+.
+Table 1.
+Culture-based identifications from UPA95 and UPA115 flex line hoses isolates via Sanger sequencing.
+Recycled brine line (UPA95' Flex line 96 M 12561-099)
+Purge line (UPA115' Flex line 96 M 12561-100)
+Bacterial Culture
+Fungal culture
+Bacterial Culture
+Fungal culture
+3.1.
+Burkholderia
+sp._White
+F3.1.
+Fusarium
+sp.
+4.1.
+Burkholderia fungorum
+F4.1.
+Fusarium
+sp.
+3.2.
+Burkholderia
+sp._Yellow
+4.2.
+Burkholderia
+sp._White
+F4.2.
+Lecythophora mutabilis
+3.3.
+Burkholderia fungorum
+4.3
+. Burkholderia
+sp._Yellow
+4.4. Unidentified Gram-positive species
+4.5.
+Burkholderia
+sp._Wet
+5.2.
+Leifsonia lichenia
+Open in a new tab
+It is not unexpected that a higher diversity of organisms was recovered from UPA115 as compared to UPA95, as UPA95 experiences a higher concentration and prolonged exposure of the urine pre-treat solution during the recycling of the brine, as noted in
+Table 2
+. Bacterial isolate identification corresponds with historical data, as
+Burkholderia
+sp. is one of the most dominant bacterial genera recovered from the PWD and wastewater tank onboard the ISS [
+[30]
+,
+[31]
+,
+[32]
+]. The high prevalence of
+Burkholderia
+sp. is likely due to their resistance capabilities toward a broad range of metals [
+33
+,
+34
+] Historically, unidentified Gram-positive organisms and
+L. lichenia
+have been noted in samples returned from the ISS, but more common is the isolation of unidentified Gram-negative organisms. It is unclear if these bacteria survived the pre-treat solution or are part of the population downstream of the DA. While attempts are made to launch microbially-clean hardware for use onboard the ISS, hardware is not launched sterile. The recovered fungus,
+L. mutabilis,
+has been isolated by the JSC Microbiology Laboratory from returned wastewater (JSC archive, data not shown) and has also been noted from a filter within the WRS [
+30
+,
+31
+].
+Fusarium
+sp. have been documented in the ISS environment, and it has associated with plant disease within the VEGGIE plant payload [
+35
+]. However, to the best of our knowledge,
+Fusarium
+sp. have not previously been isolated from any returned PWD or wastewater samples from the ISS.
+Table 2.
+Selected chemical components recovered from UPA95 and UPA115 flex line hoses.
+Recycled brine line (UPA95' Flex line 96 M 12561-099)
+Purge line (UPA115' Flex line 96 M 12561-100)
+Analyte
+Concentration (mg/L)
+Analyte
+Concentration (mg/L)
+Calcium
+51.5
+Calcium
+0.14
+Chromium
+280
+Chromium
+1.02
+Magnesium
+27.1
+Magnesium
+0.26
+Phosphate (as P)
+1190
+Phosphate (as P)
+13.7
+Potassium
+624
+Potassium
+3.33
+Sodium
+483
+Sodium
+1.57
+Open in a new tab
+3.2. Culture-independent, 16S nanopore-generated microbial profiles
+A culture-independent method that is currently being used onboard the ISS for bacterial surface monitoring [
+9
+] was applied to the remaining volume of flush water not consumed by other evaluations. Greater diversity was noted using this method compared to the culture-based data (
+Fig. 2
+). Paralleling the culture-based data,
+Burkholderia
+and
+Leifsonia
+were present, and UPA115 demonstrated overall greater diversity as compared to UPA95 (
+Fig. 2
+).
+Fig. 2.
+Open in a new tab
+Microbial profile of the predominate genera within the UPA95 and UPA11 flex line hoses generated through culture-independent 16S rRNA nanopore sequencing. Alignments were generated with minimap2 (-ax map-ont).
+3.3. Full genome analysis of bacterial isolates from UPA95 and UPA115
+To construct their genomes, short read (Illumina) and long read (nanopore) sequencing was conducted for the nine bacterial isolates recovered from the two flex lines. Genome summary metrics are listed in
+Table 2
+. Hybrid genome assemblies range from 3.8 to 9.7 million base pairs with 3–20 contigs (
+Table 3
+). The total genome size, percent GC content, and total gene clusters were comparable to NCBI references (
+Table 3
+). The average nucleotide identity (ANI) of the nine isolates ranged from 80.1 to 99.9 similarity to other genomes within NCBI. Based on these data, isolate identifications have been further defined beyond the Sanger 16S rRNA data. Isolates 3.1, 4.2, and 3.2, 4.3, and 4.5 were identified to
+B. contaminans,
+with an ANI 95.6 and 99.9 respectively [
+23
+] (
+Table 3
+). Isolates 3.3 and 4.1 were identified as
+Paraburkholderia fungorum
+, based on updated nomenclature [
+36
+]. Isolates 4.4 and 5.2 did not change and will be described as a Gram-positive bacterium, and
+Leifsonia lichenia
+, respectively, due to low ANI percentages likely resulting from low representation of these organisms’ genomes.
+Table 3.
+Hybrid genome sequencing summary (additional details available in
+Table S5
+).
+Sample Source
+Sample
+Genome size (bp)
+Contigs
+Total Genes
+GC %
+Best Match NCBI
+ANI
+NCBI
+Burkholderia contaminans
+SK875 10922
+8,596,045
+3
+7,784
+66.1
+Burkholderia contaminans
+LMG 23361
+100
+UPA95
+3.1.
+8,652,817
+20
+8,026
+66.2
+Burkholderia contaminans
+SK875 10922
+95.6
+UPA95
+3.2.
+8,726,360
+3
+7,932
+66.3
+Burkholderia contaminans
+SK875 10922
+99.9
+UPA115
+4.2.
+8,625,377
+6
+7,996
+66.2
+Burkholderia contaminans
+SK875 10922
+95.6
+UPA115
+4.3.
+8,680,200
+5
+7,876
+66.3
+Burkholderia contaminans
+SK875 10922
+99.9
+UPA115
+4.5.
+8,773,879
+7
+7,974
+66.2
+Burkholderia contaminans
+SK875 10922
+99.9
+NCBI
+Burkholderia fungorum
+ATCC BAA-463
+9,058,983
+3
+8,190
+62
+Paraburkholderia fungorum
+NBRC 102489
+98.6
+UPA95
+3.3.
+9,564,261
+5
+8,799
+61.6
+Burkholderia fungorum
+ATCC BAA-463
+98.6
+UPA115
+4.1.
+9,745,290
+6
+8,950
+61.6
+Burkholderia fungorum
+ATCC BAA-463
+98.6
+NCBI
+Cellulomonas fimi
+ATCC 484
+4,266,344
+1
+3,851
+75.0
+Cellulomonas fimi
+ATCC 484
+100
+UPA115
+4.4.
+3,862,723
+9
+3,608
+73.2
+Cellulomonas fimi
+ATCC 484
+80.1
+NCBI
+Leifsonia
+sp. PS1209
+4,091,164
+1
+3,916
+69.7
+Leifsonia aquatica
+ATCC 14665
+84.0
+UPA115
+5.2.
+5,084,807
+3
+4,961
+69.5
+Leifsonia
+sp. PS1209
+81.0
+Open in a new tab
+Complete plasmids were not observed in any of nine isolates; however, multiple gene clusters associated with plasmids were noted. This corresponds to previous research detailing the loss of plasmids as a result of co-location and evolution among species in the
+Burkholderia cepacia
+complex [
+37
+]. Additionally, this parallels preceding reports assessing other
+B. contaminans
+isolates from the ISS potable water system [
+38
+]. Plasmid loss could potentially be a response of these organisms to the environment within the ISS water system where the associated genes do not lend a competitive advantage.
+Expanded evaluation of the bacterial isolates that could be identified was conducted through pangenomic analysis using the genomes of
+P. fungorum
+and
+B. contaminans
+. The
+B. contaminans
+pangenome analysis resulted in 13,598 unique gene clusters across the 78 NCBI reference genomes and the 5 isolates: 3.1, 3.2, 4.2, 4.3, and 4.4 (
+Fig. 3
+). Of the unique gene clusters, 3,720 did not have a known function from the NCBI PGAP annotations. There was a high average geometric homogeneity index (GHI) and a functional homogeneity index (FHI) of 0.97. The high GHI of the analysis indicates that the patterns of residues within gene clusters are mostly uniform, and the high FHI in this study indicates that any differences are minimal and likely will not impact the protein products between genomes sharing unique clusters. Chromate and biofilm-related gene functions were searched for across pangenome annotations and marked in orange and yellow, respectively (
+Fig. 3
+). Biofilm gene clusters and quorum system sensor gene clusters were observed in all 83 genomes. Multiple chromate resistance and transporter protein gene clusters stood out as features that set the five isolates from this study apart from the NCBI assemblies and from the other previously reported ISS isolates (
+Fig. 3
+,
+Table S1
+). The presence of these resistance gene clusters is not surprising and provides insight to the organism’s ability to survive the pretreatment solution within the UPA.
+Fig. 3.
+Open in a new tab
+A) Pangenomic analysis of the five B. contaminans isolates sequenced in this study. 3.1, 3.2, 4.2, 4.3 and 4.5, which are noted by pink and purple, with the 78 available assemblies from NCBI, in black, while the red denotes the previous isolates from the ISS potable water dispenser [
+38
+]. Orange text represents gene clusters associated with chromate resistance according to function. The light blue text represents gene clusters associated with biofilm formation. The details of all the B. contaminans functional genes and gene clusters can be found in
+Table S1
+. B) Pangenomic analysis of the two P. fungorium isolates 3.3 and 4.1 sequenced in this study, which are noted in teal, with 10 available assemblies from NCBI, noted in black. Here, as well as A, the orange text represents gene clusters associated with chromate resistance according to function. The details of the P. fungorium functional genes and gene clusters can be found in
+Table S2
+. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+The
+B. contaminans
+isolates from this study clustered together into two distinct groups based on amino acid similarity. The isolates 3.2, 4.3 and 4.5 (shown in pink,
+Fig. 3
+) are grouped together while other isolates 3.1 and 4.2 (shown in purple,
+Fig. 3
+) are grouped. These isolates from this investigation grouped separately from the previous ISS potable water
+B. contaminans
+assemblies (shown in red,
+Fig. 3
+) [
+38
+]. The five
+B. contaminans
+isolates from this investigation did not share any unique gene clusters that were not observed in the reference genomes. However, isolates 3.2, 4.3 and 4.5 had 42 unique gene clusters with 23 of those having identified functions. Isolates 3.1 and 4.2 had 417 unique gene clusters, with 145 of those having identified functions that were not found in the other isolate groups or genome references. Isolates 3.2, 4.3 and 4.5 had several unique gene clusters of interest related to cadmium, toxin-antitoxin, flavodoxin and hemolysin proteins (
+Table S1
+). These gene clusters could potentially be associated to the enhancement of virulence, a broad range of metal resistance, active metabolism, and high hemolytic activity [
+[39]
+,
+[40]
+,
+[41]
+,
+[42]
+]. Moreover, the toxin-antitoxin gene clusters have been previously connected to dormancy scenarios and a persister phenotype [
+43
+,
+44
+]. For isolates 3.1 and 4.2, some unique gene clusters of interest are associated with pilin, porin, copper-binding protein, zincin, arsenate and arsenic transporter, type II and IV secretion, and type II toxin-antitoxin. These gene clusters could correspond to cell adhesion ability, molecule transport, heavy metal resistance, and toxin-antitoxin ability [
+[45]
+,
+[46]
+,
+[47]
+,
+[48]
+,
+[49]
+]. While further evaluation into the expression and protein function is required, the differences in these gene clusters within the genome may provide insight into the morphological differences among the
+B. contaminans
+isolates.
+The
+P. fungorum
+pangenome analysis had 9,804 unique gene clusters across the 10 NCBI reference genomes and the two isolates: 3.3 and 4.1 (
+Fig. 3
+). Of these unique gene clusters, 2,314 did not have a known function from the PGAP annotations. The FHI was 0.97 and the GHI was 0.98. These values indicate that the gene cluster residues are uniform with a low chance of protein functional change inside unique gene clusters. Gene clusters directly associated with biofilms were not observed across these 12 genomes. However, one unique quorum sensing gene cluster and 10 unique chromate-associated gene clusters were observed across all 12 genomes. There were 371 unique gene clusters shared between the 3.3 and 4.1 isolates that were not present in the 10 NCBI references. Notably, a unique gene cluster associated with the chromate resistance protein (ChrB) was observed in both 3.3 and 4.1 but absent from the NCBI references. It is important to note that the significant difference in the number of unique gene clusters could be due to the lower number of available references from the current database for
+P. fungorum
+. Beyond chromate, resistance associated gene clusters were also noted for copper, arsenic, cadmium, and zinc (
+Table S2
+). Again, while expression and protein products require further investigation, based on the genomic analysis, these organisms are likely to have tailored their genomes to support persistence within the flex line hoses.
+3.4. Environmental scanning electron microscopy of UPA95 and UPA115 samples
+While the microbial population within the two flex lines had not previously been investigated or understood, previous biofilm-related issues within the ISS WPA resulted in questions of potential biofilms within other parts of the system. As such, samples of stagnant water within the flex lines were fixed immediately upon opening UPA95 and UPA115. Fungal biofilm networks were distinctly apparent in the samples from both flex lines (
+Fig. 4
+A, B, G, and H). However, fungal biofilm growth was more pronounced in UPA115 (
+Fig. 4
+G and H), as opposed to UPA95 (
+Fig. 4
+A and B). This observation parallels the higher microbial concentration noted from UPA115 as compared to UPA95, which is most likely due to the elevated levels of pre-treat solution in UPA95 preventing some microbial outgrowth (
+Table 2
+).
+Fig. 4.
+Open in a new tab
+Environmental scanning electron microscopy images of water from the UPA flex lines. A – F) Samples resulting from flex line UPA95, in which high concentrations of the urine pretreatment solution are encountered. G – L) Samples resulting from flex line UPA115, in which the urine pretreatment solution is diluted as water vapor is carried to the distillation assembly. Red arrows denote potential biofilm biproducts such as EPS, yellow arrows denote bacterial cells, and blue arrows denote fungal hyphae. The increased abundance of the microbial growth displayed from the UPA115 flex lines (A and B low magnification) as compared to that noted from the UPA95 flex lines (G and H low magnification), demonstrates the more favorable and growth promoting conditions and clear fungal-bacterial biofilm formation (as also noted in higher magnification J – L) within the UPA115 flex line. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+Upon magnification, present fungal hyphae were noted in various morphologies with smooth, twisted, straight, and rough surfaces revealed. Additionally, presence of bacteria on the fungal hyphae was noted at higher magnification (
+Fig. 4
+I). Bacteria and fungi interactively growing in the same environment has been investigated intensively and it is established that bacteria can grow both on and within the fungal hyphae [
+50
+]. This, along with other variables such as the presence of chemicals and/or bioproducts such as extracellular polymeric substance (EPS) could explain alterations in the hyphae surface [
+[51]
+,
+[52]
+,
+[53]
+]. While it is unknown which organisms produced it, EPS was noted in among the images (
+Fig. 4
+C, F, 4K, 4L). Taken together, this is the first evidence of biofilm formation within flex lines from the UPA onboard the ISS.
+3.5. Biofilm potential of bacterial UPA95 and UPA115 isolates
+To empirically evaluate biofilm potential of the flex line bacterial isolates, a traditional crystal violet assay was performed following 24, 48, and 72 h of growth. At the earliest 24-h timepoint, significantly enhanced biofilm formation was noted for
+B. contaminans
+3.1, 3.2, and 4.2, as compared to the reference control (
+Fig. 5
+). Interestingly, this was not seen at 48 h, which could be attributed to weak cell to cell adhesion or cell communication and a longer required time for quorum sensing to regulate EPS production and stabilize biofilm structure [
+54
+]. As expected, at 72 h, more mature biofilms were present for all the isolates including the reference control. However,
+B. contaminans
+3.1 and 4.2 displayed significantly higher biofilm production as compared to the reference (
+Fig. 5
+). While it was not surprising to see biofilm formation from
+Burkholderia
+[
+55
+,
+56
+], the production by some of the UPA isolates was notable and depicts the biofilm potential of these organisms.
+Fig. 5.
+Open in a new tab
+Biofilm formation of bacterial isolates from the UPA flex lines. Crystal violet intensity was evaluated at 540 nm. Isolates 3.1, 3.2, 4.2, 4.3 demonstrated pronounced biofilm formation as compared to the control at 24 h. Isolates 3.1 and 4.2 also demonstrated pronounced biofilm formation as compared to the controls at 72 h (*, P < 0.05). Statistical data can be found in
+Table S3
+. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+Probing the genomes for secondary metabolites revealed gene clusters associated with pyoverdin in
+B. contaminans
+3.1 and 4.2, but not other isolates (
+Fig. 6
+). Pyoverdin production directly correlates with biofilm formation, as has been documented regarding the pathogenicity of
+Pseudomonas aeruginosa
+[
+57
+,
+58
+]. With regard to
+Burkholderia,
+pyoverdine production has been associated with biofilm formation and pathogenicity in
+B. thailandensis
+[
+59
+]. However, the association of pyoverdin is unknown in the majority of this genera. Furthermore, the genomic data also reveal gene clusters associated with secondary metabolites involved in quorum sensing activity for all the
+B. contaminans
+and
+P. fungorum
+isolates
+,
+but not for the
+L. lichenia
+or unidentified Gram-positive bacterium (
+Fig. 6
+). The iron-binding or antifungal functional group such as occidiofungin, pyrrolnitrin, pyochelin and ornibactin are regulated by quorum sensing activity [
+60
+,
+61
+], which is major regulator of biofilm formation. Also, iron-signaling mechanisms contribute to biofilm development, which have been previously investigated with
+P. aeruginosa
+biofilms [
+62
+]. The crystal violet assay demonstrates the biofilm potential of these isolates, which corresponds with the presence of secondary metabolite gene clusters associated with biofilm production.
+Fig. 6.
+Open in a new tab
+Gene clusters associated with known secondary metabolites from genomes from the UPA flex lines isolates identified using antiSMASH. The secondary metabolites of interest pyoverdine, occidiofungin, pyrrolnitrin, pyochelin, and ornibactin are associated with biofilm production, quorum sensing, antifungal properties, and hemolytic activity. The intensity of the color represents the completeness of the gene cluster compared to NCBI reference. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+3.6. Characterization of bacterial-fungal interactions and hemolytic activity
+Assessing phenotypic traits from monocultures benefits microbial characterization. However, the importance of investigating interactions between organisms can provide greater insight toward community dynamics and is essential to our understanding of an environment’s microbiome. Bacterial-fungal interactions can result in molecular alterations that have the potential to influence pathogenicity, biofilm formation, or morphology of the microorganisms [
+63
+]. Likely as a result of predation within their environment,
+B. contaminans
+generates protective antifungal compounds that were noted within the genomes [
+61
+,
+64
+]. Of interest were biosynthetic gene clusters associated with the secondary metabolites occidiofungin and pyrrolnitrin, which were observed in
+B. contaminans
+3.2 and 4.3 genomes. Organisms within the
+Burkholderia cepacia
+complex (BCC) synthesize the antifungal occidiofungin through a non-ribosomal peptide synthetase mechanism [
+65
+,
+66
+]. Pyrrolnitrin, also an antifungal, is a product of quorum sensing [
+60
+]. Occidiofungin and pyrrolnitrin have shown antifungal activity against
+Aspergillus flavus
+[
+67
+,
+68
+]. Additionally, both antifungal compounds have also been tightly associated to hemolytic activity [
+38
+,
+61
+]. Therefore, the impact of potential secondary metabolite production from all the UPA isolates on
+A. flavus
+was evaluated using three types of media under two temperatures. Hemolytic potential was also assessed.
+At 25 °C incubation,
+B. contaminans
+isolates 3.2, 4.3, 4.5 from both UPA flex lines generated the highest zone of inhibition on
+A. flavus
+as compared to the other isolates, including the reference control
+B. cepacia
+(
+Fig. 7
+A). Other
+B. contaminans
+3.1, and 4.2,
+P. fungorum
+3.3 and 4.1, and
+B. cepacia
+did express the capability of inhibiting the growth of
+A. flavus
+but at a much lower intensity (
+Fig. 7
+A). This was enhanced by culture on PDA (
+Fig. 7
+A and 7B). Not unexpectedly, the growth media impacted the antagonistic effect on
+A. flavus
+, as was observed for R2A, while
+B. contaminans
+3.1, and 4.2 and
+P. fungorum
+3.3 and 4.1 did not strongly inhibit
+A. flavus
+growth (
+Fig. 7
+A). Regarding SABC, a zone of inhibition was not noted for any of the isolates, likely resulting from the interfering chloramphenicol. However,
+P. fungorum
+3.3 and 4.1 showed very weak antagonistic effect, as fungal growth was observed.
+Fig. 7.
+Open in a new tab
+A) Bacterial-fungal interaction between UPA flex line bacterial isolates and
+A. flavus
+at two temperatures (25 °C and 35 °C) and three growth media (R2A, PDA and SABC). Bar plot denotes the fungal diameter while the dot plot in red displays distance. B) The interaction of
+A. flavus
+with UPA flex line bacterial isolates on PDA at 25 °C. All measurements were in triplicate for each isolate. The distance for antagonistic activity was measured between the fungal growth and bacterial deposit (red arrow). The fungal growth diameter was measured triplicate. For irregularly shaped fungal growth, the measurement was taken from three different growth directions, assuming it was a diameter (blue arrow). See
+Table S3
+for statistical data. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+A more optimal growth temperature for bacteria, 35 °C incubation was also investigated. Generally, there was no difference in the trend of antagonistic growth toward
+A. flavus
+as compared to 25 °C incubation. The growth diameter of
+A. falvus
+did not change between the temperatures for R2A and PDA media, but more growth was noted on SABC at 35 °C (
+Fig. 7
+A.).
+B. contaminans
+3.2 and 4.3 expressed the highest antifungal capability at both temperatures and on all media assessed. The antagonistic distance was reduced at 35 °C on PDA media for
+B. contaminans
+3.2, 4.3 and 4.5., which indicated the reduction of antifungal activity. Although there was no change in fungal growth,
+B. contaminans
+4.5 showed much lower antagonistic distance on R2A at 35 °C.
+The unidentified Gram-positive 4.4 and
+L. lichenia
+5.2. did not express observable antifungal activity toward
+A. flavus
+on any of the tested media at either temperature (
+Fig. 7
+A). The association of
+L. lichenia
+with fungi is not well established.
+L. xyli
+has exhibited plant growth promoting and low level antifungal properties against certain plant pathogens [
+69
+]. In this investigation antifungal behavior was not noted with
+L. lichenia
+, nor were known gene clusters associated with fungal inhibition present.
+Pyochelin biosynthesis cluster was observed in the
+B. contaminans
+3.1, 3.2, 4.2, 4.3, and 4.5 genomes and ornibactin gene cluster found in
+B. contaminans
+3.1, 4.2, 4.3, and 4.5 and
+P. fungorum
+3.3 and 4.1 (
+Fig. 6
+). These secondary metabolites are siderophores [
+70
+]. Although pyochelin and ornibactin are not well-known as antifungal agents secreted by
+Paraburkholderia
+and
+Burkholderia
+, they have shown their antifungal and antimicrobial activity under iron deficiency [
+[71]
+,
+[72]
+,
+[73]
+]. Hemolytic activity was noted for
+B. contaminans
+4.5, which demonstrated α-hemolysis activity, while
+B. contaminans
+3.2 and 4.3. expressed strong β-hemolysis (
+Table S4
+and
+Fig. S2
+). All other isolates displayed γ-hemolysis (no hemolytic activity) following 48 h of incubation (
+Table S4
+and
+Fig. S2
+).
+4. Conclusions
+The WRS has been providing potable water to astronauts onboard the ISS since 2009. However, our current understanding of the microbial community within the system is limited to the WPA wastewater tank and point-of-use PWD samples. This work represents the first investigation into the unique community that inhabits the UPA. From the UPA115 flex line, a purge line carrying water vapor to the DA, three differing morphologies of
+B. contaminans
+, as well as
+P. fungorum
+,
+L. lichenia
+, and an unidentified Gram-positive bacterium, were isolated; additionally, the fungi
+Fusarium
+sp. and
+L. mutabilis
+were isolated. Less diversity was noted from samples recovered from the UPA95 flex line, where concentrated levels of chromium are encountered, from which two different morphologies of
+B. contaminans
+,
+P. fungorum,
+and
+Fusarium
+sp. were isolated. For the five
+B. contaminans
+isolates, multiple chromate-resistance and transporter protein gene clusters were identified through pangenomic analysis that differentiated these genomes from previously studied isolates recovered from the PWD. Moreover, the UPA
+P. fungorum
+isolates contained a gene cluster associated with chromate resistance that was absent in the current NCBI references. The acquisition of these resistance gene clusters by these organisms, as compared to both those from the WPA and terrestrial environments, distinguishes these flex lines as a unique ecological niche. Furthermore, this highlights that the flex lines, as well as other areas within the UPA, are ideal candidate areas to investigate horizontal gene transfer. As a dormant water system is a likely option for future spacecraft, e.g. the Lunar Gateway, where biofouling is a significant concern, biofilm analysis and imaging was performed. ESEM imaging of the water from the flex lines and biofilm potential of the recovered isolates demonstrated that these hoses are novel areas for fungal-bacterial biofilm growth. While NASA has a strong biofilm control campaign, the organisms used in these studies have been limited to those isolated from the WPA. Further analysis of isolates from the UPA, displaying a greater range of genetic and phenotypic properties, as well as the fungal-bacterial interactions at play within these biofilms, should be a high priority to aid in the design of engineering controls directed toward biofilm prevention in next generation water systems.
+Funding
+This work was supported by NASA Exploration Capabilities and the Johnson Space Center’s Office of the Chief Technologist.
+CRediT authorship contribution statement
+Hang Ngoc Nguyen:
+General, Methodology, Sequencing, Phenotypic Evaluation, Bioinformatics, Data, Formal analysis, Writing – original draft, preparation, All authors agreed to the published version of this manuscript.
+G. Marie Sharp:
+Bioinformatics, Data, Formal analysis, Writing – original draft, preparation, Writing – review & editing, All authors agreed to the published version of this manuscript.
+Sarah Stahl-Rommel:
+General, Methodology, Sequencing, Bioinformatics, Data, Formal analysis, Writing – original draft, preparation, Writing – review & editing, Project administration, All authors agreed to the published version of this manuscript.
+Yo-Ann Velez Justiniano:
+Conceptualization, Sample Collection and Fixation, Writing – review & editing, All authors agreed to the published version of this manuscript.
+Christian L. Castro:
+Bioinformatics, Data, Formal analysis, Writing – review & editing, All authors agreed to the published version of this manuscript.
+Mayra Nelman-Gonzalez:
+ESEM Imaging, Writing – review & editing, All authors agreed to the published version of this manuscript.
+Aubrie O’Rourke:
+Bioinformatics, Data, Formal analysis, Writing – review & editing.
+Michael D. Lee:
+Bioinformatics, Data, Formal analysis, Writing – review & editing.
+Jill Williamson:
+Conceptualization, Sample Collection and Fixation, Writing – review & editing, All authors agreed to the published version of this manuscript.
+Chelsea McCool:
+Sample Collection and Fixation, Writing – review & editing, All authors agreed to the published version of this manuscript.
+Brian Crucian:
+ESEM Imaging, Writing – review & editing.
+Kenneth W. Clark:
+ESEM Imaging.
+Miten Jain:
+Bioinformatics, Data, Formal analysis, Writing – review & editing, All authors agreed to the published version of this manuscript.
+Sarah L. Castro-Wallace:
+Conceptualization, General, Methodology, Writing – original draft, preparation, Writing – review & editing, Supervision, Project administration, Funding acquisition, All authors agreed to the published version of this manuscript.
+Declaration of competing interest
+The authors declare that there are no known competing finical interests or personal relationships that could influence the data or conclusions reported here. All authors have confirmed and verified.
+Acknowledgements
+We gratefully acknowledge Exploration Capabilities (formerly Advanced Exploration Systems) Life Support Systems Program Management W. Schneider and I. Stambaugh (and previously C. Meyers) for support of this project. We also are grateful to the JSC Chief Technology Office and R. Clayton for supplementary support. We acknowledge D. Long from MSFC for flex line flushing support and D. Diak for plate reader assistance. We also thank W. T. Wallace and N. W. Rommel for spreadsheet formulations, formatting, and editorial support.
+Footnotes
+Appendix A
+Supplementary data to this article can be found online at
+https://doi.org/10.1016/j.bioflm.2023.100108
+.
+Appendix A. Supplementary data
+The following is the Supplementary data to this article.
+Multimedia component 1
+mmc1.pdf
+(54.6MB, pdf)
+Data availability
+We are sharing all data.
+References
+1.
+Carter D.L.  Proceedings of international conference on environmental systems. 2009. Status of the regenerative ECLSS water recovery system; pp. 2688–3627.
+[
+Google Scholar
+]
+2.
+Volpin F., Badeti U., Wang C., Jiang J., Vogel J., Freguia S., Fam D., Cho J., Phuntsho S., Shon H.K. Urine treatment on the international space station: current practice and novel approaches. Membranes. 2020;10 doi: 10.3390/membranes10110327.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Carter D., Wilson L., Orozco N.  41st international conference on environmental systems. 2011. Status of ISS water management and recovery.
+[
+DOI
+] [
+Google Scholar
+]
+4.
+Williamson J., Carter L., Hill J., Jones D.L., Morris D., Graves R.E.  Proceedings of 49th international conference on environmental systems. 2019. Upgrades to the international space station urine processor assembly. Boston, Massachusetts.
+[
+Google Scholar
+]
+5.
+Kelsey L.K., Boyce S.P., Speight G., Pasadilla P., Tewes P., Rabel E., Meyer C.  Proceedings of the 50th international conference on environmental systems. 2021. Closing the water loop for exploration: 2020-2021 status of the brine processor assembly.
+https://ttu-ir.tdl.org/handle/2346/87310
+50th, p. ICES-2021-2428.
+[
+Google Scholar
+]
+6.
+Yamaguchi N., Roberts M., Castro S., Oubre C., Makimura K., Leys N., Grohmann E., Sugita T., Ichijo T., Nasu M. Microbial monitoring of crewed habitats in space-current status and future perspectives. Microb Environ. 2014;29:250–260. doi: 10.1264/jsme2.me14031.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Zea L., Nisar Z., Rubin P., Cortesão M., Luo J., McBride S.A., Moeller R., Klaus D., Müller D., Varanasi K.K., et al.  Design of a spaceflight biofilm experiment. Acta Astronaut. 2018;148:294–300. doi: 10.1016/j.actaastro.2018.04.039.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Castro-Wallace S.L., Chiu C.Y., John K.K., Stahl S.E., Rubins K.H., McIntyre A.B.R., Dworkin J.P., Lupisella M.L., Smith D.J., Botkin D.J., et al.  Nanopore DNA sequencing and genome assembly on the international space station. Sci Rep. 2017;7 doi: 10.1038/s41598-017-18364-0.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Stahl-Rommel S., Jain M., Nguyen H.N., Arnold R.R., Aunon-Chancellor S.M., Sharp G.M., Castro C.L., John K.K., Juul S., Turner D.J., et al.  Real-time culture-independent microbial profiling onboard the international space station using nanopore sequencing. Genes. 2021;12:106. doi: 10.3390/genes12010106.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Burton A.S., Stahl S.E., John K.K., Jain M., Juul S., Turner D.J., Harrington E.D., Stoddart D., Paten B., Akeson M., et al.  Off Earth identification of bacterial populations using 16S rDNA nanopore sequencing. Genes. 2020;11 doi: 10.3390/genes11010076.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+De Coster W., D'Hert S., Schultz D.T., Cruts M., Van Broeckhoven, NanoPack C. Visualizing and processing long-read sequencing data. Bioinformatics. 2018;34:2666–2669. doi: 10.1093/bioinformatics/bty149.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Li H., Handsaker B., Wysoker A., Fennell T., Ruan J., Homer N., Marth G., Abecasis G., Durbin R., Subgroup G.P.D.P. The sequence alignment/map format and SAMtools. Bioinformatics. 2009;25:2078–2079. doi: 10.1093/bioinformatics/btp352.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Jain M., Fiddes I.T., Miga K.H., Olsen H.E., Paten B., Akeson M. Improved data analysis for the MinION nanopore sequencer. Nat Methods. 2015;12:351–356. doi: 10.1038/nmeth.3290.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+R Core Team  . R Foundation for Statistical Computing, R Foundation for Statistical Computing; Vienna, Austria: 2021. R: A language and environment for statistical computing.
+[
+Google Scholar
+]
+15.
+Epskamp S., Cramer A.O.J., Waldorp L.J., Schmittmann V.D. Borsboom, D. Qgraph: network visualizations of relationships in psychometric data. J Stat Software. 2012;48:1–18. doi: 10.18637/jss.v048.i04.
+[
+DOI
+] [
+Google Scholar
+]
+16.
+Wickham H.  Springer; New York: 2009. ggplot2: elegant graphics for data Analysis.
+[
+Google Scholar
+]
+17.
+Kolde R., Kolde M.R.  2015. Package ‘pheatmap’.
+[
+Google Scholar
+]
+18.
+Bushnell B. BBTools software package. 2014.
+http://sourceforge.net/projects/bbmap
+578, 579.
+19.
+Wick R.R., Judd L.M., Gorrie C.L., Holt K.E. Completing bacterial genome assemblies with multiplex MinION sequencing. Microb Genom. 2017;3 doi: 10.1099/mgen.0.000132.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Wick R., Menzel P. Filtlong. Github. 2017.
+https://github.com/rrwick/Filtlong
+21.
+Wick R.R., Judd L.M., Gorrie C.L., Holt K.E. Unicycler: resolving bacterial genome assemblies from short and long sequencing reads. PLoS Comput Biol. 2017;13 doi: 10.1371/journal.pcbi.1005595.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Parks D.H., Imelfort M., Skennerton C.T., Hugenholtz P., Tyson G.W. CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes. Genome Res. 2015;25:1043–1055. doi: 10.1101/gr.186072.114.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Jain C., Rodriguez-R L.M., Phillippy A.M., Konstantinidis K.T., Aluru S. High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries. Nat Commun. 2018;9:5114. doi: 10.1038/s41467-018-07641-9.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Tatusova T., DiCuccio M., Badretdin A., Chetvernin V., Nawrocki E.P., Zaslavsky L., Lomsadze A., Pruitt K.D., Borodovsky M., Ostell J. NCBI prokaryotic genome annotation pipeline. Nucleic Acids Res. 2016;44:6614–6624. doi: 10.1093/nar/gkw569.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+25.
+Blin K., Shaw S., Kloosterman A.M., Charlop-Powers Z., van Wezel G.P., Medema M.H., Weber T. antiSMASH 6.0: improving cluster detection and comparison capabilities. Nucleic Acids Res. 2021;49:W29–W35. doi: 10.1093/nar/gkab335.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+26.
+Carattoli A., Hasman H.  In: Horizontal gene transfer: methods and protocols. de la Cruz F., editor. Springer US; New York, NY: 2020. PlasmidFinder and in silico pMLST: identification and typing of plasmid replicons in whole-genome sequencing (WGS) pp. 285–294.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Clark K., Karsch-Mizrachi I., Lipman D.J., Ostell J., Sayers E.W. GenBank. Nucleic Acids Res. 2015;44:D67–D72. doi: 10.1093/nar/gkv1276.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Eren A.M., Kiefl E., Shaiber A., Veseli I., Miller S.E., Schechter M.S., Fink I., Pan J.N., Yousef M., Fogarty E.C., et al.  Community-led, integrated, reproducible multi-omics with anvi'o. Nature microbiology. 2021;6:3–6. doi: 10.1038/s41564-020-00834-3.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Nguyen H.N., Nadres E.T., Alamani B.G., Rodrigues D.F. Designing polymeric adhesives for antimicrobial materials: poly(ethylene imine) polymer, graphene, graphene oxide and molybdenum trioxide – a biomimetic approach. J Mater Chem B. 2017;5:6616–6628. doi: 10.1039/C7TB00722A.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+Weir, N., Wilson, M., Yoets, A., Molina, T., Bruce, R., Carter, L. Microbiological characterization of the international space station water processor assembly external filter assembly S/N 01. In Proceedings of 42nd international conference on environmental systems; p. 3595..
+31.
+Zea L., McLean R.J.C., Rook T.A., Angle G., Carter D.L., Delegard A., Denvir A., Gerlach R., Gorti S., McIlwaine D., et al.  Potential biofilm control strategies for extended spaceflight missions. Biofilms. 2020;2 doi: 10.1016/j.bioflm.2020.100026.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+32.
+Yang J., Barrila J., Mark Ott C., King O., Bruce R., McLean R.J.C., Nickerson C.A. Longitudinal characterization of multispecies microbial populations recovered from spaceflight potable water. npj Biofilms and Microbiomes. 2021;7:70. doi: 10.1038/s41522-021-00240-5.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Pathak A., Chauhan A., Stothard P., Green S., Maienschein-Cline M., Jaswal R., Seaman J. Genome-centric evaluation of Burkholderia sp. strain SRS-W-2-2016 resistant to high concentrations of uranium and nickel isolated from the Savannah River Site (SRS), USA. Genomics Data. 2017;12:62–68. doi: 10.1016/j.gdata.2017.02.011.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+You L.-X., Zhang R.-R., Dai J.-X., Lin Z.-T., Li Y.-P., Herzberg M., Zhang J.-L., Al-Wathnani H., Zhang C.-K., Feng R.-W., et al.  Potential of cadmium resistant Burkholderia contaminans strain ZCC in promoting growth of soy beans in the presence of cadmium. Ecotoxicol Environ Saf. 2021;211 doi: 10.1016/j.ecoenv.2021.111914.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Schuerger A.C., Amaradasa Bimal S., Dufault Nicholas S., Hummerick M.E., Richards J.T., Khodadad C.L., Smith T.M., Massa G.D. Fusarium oxysporum as an opportunistic fungal pathogen on zinnia hybrida plants grown on board the international space station. Astrobiology. 2021;21:1029–1048. doi: 10.1089/ast.2020.2399.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+36.
+Sawana A., Adeolu M., Gupta R.S. Molecular signatures and phylogenomic analysis of the genus Burkholderia: proposal for division of this genus into the emended genus Burkholderia containing pathogenic organisms and a new genus Paraburkholderia gen. nov. harboring environmental species. Front Genet. 2014;5 doi: 10.3389/fgene.2014.00429. 429-429.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+37.
+Lood C., Peeters C., Lamy-Besnier Q., Wagemans J., De Vos D., Proesmans M., Pirnay J.-P., Echahidi F., Piérard D., Thimmesch M., et al.  Genomics of an endemic cystic fibrosis Burkholderia multivorans strain reveals low within-patient evolution but high between-patient diversity. PLoS Pathog. 2021;17 doi: 10.1371/journal.ppat.1009418.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+38.
+O'Rourke A., Lee M.D., Nierman W.C., Everroad R.C., Dupont C.L. Genomic and phenotypic characterization of Burkholderia isolates from the potable water system of the International Space Station. PLoS One. 2020;15 doi: 10.1371/journal.pone.0227152.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+39.
+Yu X., Ding Z., Ji Y., Zhao J., Liu X., Tian J., Wu N., Fan Y. An operon consisting of a P-type ATPase gene and a transcriptional regulator gene responsible for cadmium resistances in Bacillus vietamensis 151–6 and Bacillus marisflavi 151–25. BMC Microbiol. 2020;20:18. doi: 10.1186/s12866-020-1705-2.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+40.
+Leplae R., Geeraerts D., Hallez R., Guglielmini J., Drèze P., Van Melderen L. Diversity of bacterial type II toxin-antitoxin systems: a comprehensive search and functional analysis of novel families. Nucleic Acids Res. 2011;39:5513–5525. doi: 10.1093/nar/gkr131.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+41.
+Prakash D., Iyer P.R., Suharti S., Walters K.A., Santiago-Martinez M.G., Golbeck J.H., Murakami K.S., Ferry J.G. Structure and function of an unusual flavodoxin from the domain Archaea. Proc Natl Acad Sci U S A. 2019;116:25917–25922. doi: 10.1073/pnas.1908578116.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+42.
+Elliott S.J., Srinivas S., Albert M.J., Alam K., Robins-Browne R.M., Gunzburg S.T., Mee B.J., Chang B.J. Characterization of the roles of hemolysin and other toxins in enteropathy caused by alpha-hemolytic Escherichia coli linked to human diarrhea. Infect Immun. 1998;66:2040–2051. doi: 10.1128/iai.66.5.2040-2051.1998.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+43.
+O'Rourke A., Yee N., Nierman W.C., Beyhan S. Environmental and genetic factors controlling Burkholderia pseudomallei persister phenotypes. Current Tropical Medicine Reports. 2017;4:111–116. doi: 10.1007/s40475-017-0116-4.
+[
+DOI
+] [
+Google Scholar
+]
+44.
+Jeon H., Choi E., Hwang J. Identification and characterization of VapBC toxin–antitoxin system in Bosea sp. PAMC 26642 isolated from Arctic lichens. RNA. 2021;27:1374–1389. doi: 10.1261/rna.078786.121.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+45.
+Telford J.L., Barocchi M.A., Margarit I., Rappuoli R., Grandi G. Pili in gram-positive pathogens. Nat Rev Microbiol. 2006;4:509–519. doi: 10.1038/nrmicro1443.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+46.
+Epler Barbercheck C.R., Bullitt E., Andersson M.  In: Membrane protein complexes: structure and function. Harris J.R., Boekema E.J., editors. Springer Singapore; Singapore: 2018. Bacterial adhesion pili; pp. 1–8.
+[
+DOI
+] [
+Google Scholar
+]
+47.
+Galdiero S., Falanga A., Cantisani M., Tarallo R., Della Pepa M.E., D'Oriano V., Galdiero M. Microbe-host interactions: structure and role of Gram-negative bacterial porins. Curr Protein Pept Sci. 2012;13:843–854. doi: 10.2174/138920312804871120.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+48.
+Cerdà-Costa N., Gomis-Rüth F.X. Architecture and function of metallopeptidase catalytic domains. Protein Sci : Publ Protein Soc. 2014;23:123–144. doi: 10.1002/pro.2400.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+49.
+Garbinski L.D., Rosen B.P., Chen J. Pathways of arsenic uptake and efflux. Environ Int. 2019;126:585–597. doi: 10.1016/j.envint.2019.02.058.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+50.
+Steffan B.N., Venkatesh N., Keller N.P. Let’s get physical: bacterial-fungal interactions and their consequences in agriculture and health. J Fungi. 2020;6:243. doi: 10.3390/jof6040243.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+51.
+Ray R.C., Swain M.R.  In: Bacteria in agrobiology: disease management. Maheshwari D.K., editor. Springer Berlin Heidelberg; Berlin, Heidelberg: 2013. Bio (bacterial) control of pre- and postharvest diseases of root and tuber crops; pp. 321–348.
+[
+DOI
+] [
+Google Scholar
+]
+52.
+Córdova-Alcántara I., Venegas-Cortés D., Martínez-Rivera M., Perez N., Rodríguez-Tovar A. Biofilm characterization of Fusarium solani keratitis isolate: increased resistance to antifungals and UV light. J Microbiol. 2019;57:485–497. doi: 10.1007/s12275-019-8637-2.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+53.
+Castro-Bravo N., Wells J.M., Margolles A., Ruas-Madiedo P. Interactions of surface exopolysaccharides from bifidobacterium and lactobacillus within the intestinal environment. Front Microbiol. 2018;9 doi: 10.3389/fmicb.2018.02426.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+54.
+Muhammad M.H., Idris A.L., Fan X., Guo Y., Yu Y., Jin X., Qiu J., Guan X., Huang T. Beyond risk: bacterial biofilms and their regulating approaches. Front Microbiol. 2020:11. doi: 10.3389/fmicb.2020.00928.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+55.
+Sousa S.A., Feliciano J.R., Pita T., Guerreiro S.I., Leitão J.H. Burkholderia cepacia complex regulation of virulence gene expression: a review. Genes. 2017;8:43. doi: 10.3390/genes8010043.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+56.
+seyed khoei N., Andreolli M., Lampis S., Vallini G., Turner R. Comparative response of two Burkholderia fungorum strains grown as planktonic cells versus biofilm to dibenzothiophene and select polycyclic aromatic hydrocarbons. Can J Microbiol. 2016;62 doi: 10.1139/cjm-2016-0160.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+57.
+Kang D., Kirienko N.V. High-Throughput genetic screen reveals that early attachment and biofilm formation are necessary for full pyoverdine production by Pseudomonas aeruginosa. Front Microbiol. 2017;8 doi: 10.3389/fmicb.2017.01707.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+58.
+Kang D., Turner K.E., Kirienko N.V. PqsA promotes pyoverdine production via biofilm formation. Pathogens. 2017;7:3. doi: 10.3390/pathogens7010003.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+59.
+Gupta A., Bedre R., Thapa S.S., Sabrin A., Wang G., Dassanayake M., Grove A. Global awakening of cryptic biosynthetic gene clusters in Burkholderia thailandensis. ACS Chem Biol. 2017;12:3012–3021. doi: 10.1021/acschembio.7b00681.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+60.
+Schmidt S., Blom J.F., Pernthaler J., Berg G., Baldwin A., Mahenthiralingam E., Eberl L. Production of the antifungal compound pyrrolnitrin is quorum sensing-regulated in members of the Burkholderia cepacia complex. Environ Microbiol. 2009;11:1422–1437. doi: 10.1111/j.1462-2920.2009.01870.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+61.
+Nunvar J., Kalferstova L., Bloodworth R.A.M., Kolar M., Degrossi J., Lubovich S., Cardona S.T., Drevinek P. Understanding the pathogenicity of Burkholderia contaminans, an emerging pathogen in cystic fibrosis. PLoS One. 2016;11 doi: 10.1371/journal.pone.0160975.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+62.
+Banin E., Vasil M.L., Greenberg E.P. Iron and Pseudomonas aeruginosa biofilm formation. Proc Natl Acad Sci USA. 2005;102:11076–11081. doi: 10.1073/pnas.0504266102.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+63.
+Frey-Klett P., Burlinson P., Deveau A., Barret M., Tarkka M., Sarniguet A. Bacterial-fungal interactions: hyphens between agricultural, clinical, environmental, and food microbiologists. Microbiol Mol Biol Rev. 2011;75:583–609. doi: 10.1128/MMBR.00020-11.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+64.
+Gu G., Smith L., Liu A., Lu S.-E. Genetic and biochemical map for the biosynthesis of occidiofungin, an antifungal produced by Burkholderia contaminans strain MS14. Appl Environ Microbiol. 2011;77:6189–6198. doi: 10.1128/AEM.00377-11.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+65.
+Thomson E.L.S., Dennis J.J. A Burkholderia cepacia complex non-ribosomal peptide-synthesized toxin is hemolytic and required for full virulence. Virulence. 2012;3:286–298. doi: 10.4161/viru.19355.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+66.
+Jenul C., Sieber S., Daeppen C., Mathew A., Lardi M., Pessi G., Hoepfner D., Neuburger M., Linden A., Gademann K., et al.  Biosynthesis of fragin is controlled by a novel quorum sensing signal. Nat Commun. 2018;9:1297. doi: 10.1038/s41467-018-03690-2.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+67.
+Palumbo J.D., O'Keeffe T.L., Abbas H.K. Isolation of maize soil and rhizosphere bacteria with antagonistic activity against Aspergillus flavus and Fusarium verticillioides. J Food Protect. 2007;70:1615–1621. doi: 10.4315/0362-028x-70.7.1615.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+68.
+Jia J., Ford E., Hobbs S.M., Baird S.M., Lu S.-E. Occidiofungin is the key metabolite for antifungal activity of the endophytic bacterium Burkholderia sp. MS455 against Aspergillus flavus. Phytopathology®. 2022;112:481–491. doi: 10.1094/phyto-06-21-0225-r.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+69.
+Passari A.K., Mishra V.K., Gupta V.K., Yadav M.K., Saikia R., Singh B.P. In vitro and in vivo plant growth promoting activities and DNA fingerprinting of antagonistic endophytic actinomycetes associates with medicinal plants. PLoS One. 2015;10 doi: 10.1371/journal.pone.0139468.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+70.
+Visser M.B., Majumdar S., Hani E., Sokol P.A. Importance of the ornibactin and pyochelin siderophore transport systems in Burkholderia cenocepacia lung infections. Infect Immun. 2004;72:2850–2857. doi: 10.1128/IAI.72.5.2850-2857.2004.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+71.
+Depoorter E., De Canck E., Coenye T., Vandamme P. Burkholderia bacteria produce multiple potentially novel molecules that inhibit carbapenem-resistant gram-negative bacterial pathogens. Antibiotics. 2021;10:147. doi: 10.3390/antibiotics10020147.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+72.
+Ho Y.-N., Hoo S.Y., Wang B.-W., Hsieh C.-T., Lin C.-C., Sun C.-H., Peng C.-C., Lin C., Yang Y.-L. Specific inactivation of an antifungal bacterial siderophore by a fungal plant pathogen. ISME J. 2021;15:1858–1861. doi: 10.1038/s41396-020-00871-0.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+73.
+Thapa S.S., Grove A. Do global regulators hold the key to production of bacterial secondary metabolites? Antibiotics. 2019;8:160. doi: 10.3390/antibiotics8040160.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Multimedia component 1
+mmc1.pdf
+(54.6MB, pdf)
+Data Availability Statement
+We are sharing all data.
+Articles from Biofilm are provided here courtesy of
+Elsevier

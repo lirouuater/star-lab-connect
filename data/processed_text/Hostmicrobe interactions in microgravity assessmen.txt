@@ -1,0 +1,1567 @@
+Life (Basel)
+. 2014 May 26;4(2):250–266. doi:
+10.3390/life4020250
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Host-Microbe Interactions in Microgravity: Assessment and Implications
+Jamie S Foster
+Jamie S Foster
+1
+Space Life Science Lab, University of Florida, 505 Odyssey Way, Merritt Island, FL 32953, USA; E-Mail: reginep116@ufl.edu
+Find articles by
+Jamie S Foster
+1,
+*
+,
+Raymond M Wheeler
+Raymond M Wheeler
+2
+Kennedy Space Center, FL 32899, USA; E-Mail: raymond.m.wheeler@nasa.gov
+Find articles by
+Raymond M Wheeler
+2
+,
+Regine Pamphile
+Regine Pamphile
+1
+Space Life Science Lab, University of Florida, 505 Odyssey Way, Merritt Island, FL 32953, USA; E-Mail: reginep116@ufl.edu
+Find articles by
+Regine Pamphile
+1
+Author information
+Article notes
+Copyright and License information
+1
+Space Life Science Lab, University of Florida, 505 Odyssey Way, Merritt Island, FL 32953, USA; E-Mail: reginep116@ufl.edu
+2
+Kennedy Space Center, FL 32899, USA; E-Mail: raymond.m.wheeler@nasa.gov
+*
+Author to whom correspondence should be addressed; E-Mail:
+jfoster@ufl.edu
+; Tel.: +1-321-261-3772.
+Received 2014 Feb 8; Revised 2014 May 14; Accepted 2014 May 20; Collection date 2014 Jun.
+© 2014 by the authors; licensee MDPI, Basel, Switzerland.
+This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (
+http://creativecommons.org/licenses/by/3.0/
+).
+PMC Copyright notice
+PMCID: PMC4187166  PMID:
+25370197
+Abstract
+Spaceflight imposes several unique stresses on biological life that together can have a profound impact on the homeostasis between eukaryotes and their associated microbes. One such stressor, microgravity, has been shown to alter host-microbe interactions at the genetic and physiological levels. Recent sequencing of the microbiomes associated with plants and animals have shown that these interactions are essential for maintaining host health through the regulation of several metabolic and immune responses. Disruptions to various environmental parameters or community characteristics may impact the resiliency of the microbiome, thus potentially driving host-microbe associations towards disease. In this review, we discuss our current understanding of host-microbe interactions in microgravity and assess the impact of this unique environmental stress on the normal physiological and genetic responses of both pathogenic and mutualistic associations. As humans move beyond our biosphere and undergo longer duration space flights, it will be essential to more fully understand microbial fitness in microgravity conditions in order to maintain a healthy homeostasis between humans, plants and their respective microbiomes.
+Keywords:
+host-microbe interactions, microgravity, microbiome, space flight
+1. Introduction
+Spaceflight impacts all living organisms from their genome to physiome. Whether it is the reduction in gravity, increased exposure to low dose radiation, chronic elevated CO
+2
+levels or time dislocation, the physical factors associated with the spaceflight environment presents a unique set of stresses on biological systems. Of these physical factors, the reduction in gravity, or microgravity, is one of the most widely studied [
+1
+,
+2
+,
+3
+,
+4
+,
+5
+,
+6
+,
+7
+]. Gravity represents one of the most constant evolutionary drivers of life on Earth [
+8
+,
+9
+], and understanding how organisms respond to the absence of this ever-present force not only provides information on how gravity has shaped life on Earth, but also provides key insight into potential mechanisms to mitigate the negative effects of microgravity during spaceflight. The large-scale physiological effects of microgravity-induced stress on animals and plants are relatively well known. For example, in humans, microgravity conditions result in bone loss, upwards to 3% per month [
+4
+,
+10
+,
+11
+], permutations to both the adaptive and innate immune systems [
+12
+], and an increased potential risk of bacterial and viral infections [
+13
+,
+14
+]. Plants also have an increased susceptibility to pathogenic colonization in microgravity [
+15
+], as well as altered rates of cell division, changes in morphological structures of cell tissues, such as root hairs, and induced chromosomal aberrations [
+16
+,
+17
+,
+18
+]. Although these overarching phenotypes associated with microgravity exposure have been observed for decades, ascertaining whether the phenotypes are specific to microgravity or other environmental variables, as well as the underlying etiology of these effects at the cellular and biomolecular level are not yet fully delineated.
+Compounding our understanding of the mechanisms underlying these physiological effects is the relatively unknown impact of microgravity on the microbiome associated with eukaryotic organisms. A microbiome is typically defined as the sum of the microbes, genomes and community interactions that occur in a particular environment. The term was first applied to humans to understand the ecology of those microbes that interact with the body [
+19
+] but has been quickly adopted to represent a holistic approach to understanding the connectivity and interactions within any complex host-microbe association [
+20
+]. In humans, the recent human microbiome sequencing project has revealed that the collective metagenome of those microbes that associate with humans dwarfs the size of the human genome and contains a consortia of bacteria, archaea, fungi and viruses, the specific contributions of which are not yet fully delineated (
+Figure 1
+) [
+21
+]. Initial surveys indicate that for every one human gene there are approximately 360 bacterial genes, thereby providing humans with millions of genes of additional metabolisms and cellular activities [
+22
+,
+23
+].
+Figure 1.
+Open in a new tab
+Overview of the complexity of human microbiome. Circle size reflects the approximate relative abundance of the various microbes known to associate with humans. Relative gene abundance is derived from the human microbiome sequencing project [
+19
+,
+22
+]. Question marks reflect uncertainty or potential underestimation of gene abundance.
+Over the past decade, there has been a paradigm shift in our understanding of the importance the microbiome plays in maintaining plant and animal health [
+22
+,
+24
+]. Aspects previously attributed to the host are now recognized as being the result of interactions with microbes [
+22
+,
+25
+,
+26
+]. For example, analyses of germ-free and normally colonized mice have shown that the gut microbiota is responsible for most of the metabolites found in mammalian blood [
+27
+]. Additionally, some species of bacteria within human gut have been recently correlated to the onset of several autoimmune diseases, such as rheumatoid arthritis and Type 1 diabetes [
+28
+,
+29
+,
+30
+,
+31
+]; colorectal cancers [
+32
+]; and obesity [
+33
+] suggesting that perturbations to the gut environment (e.g., antibiotic treatments) can increase the potential risk of disease. However, in many of these same cases, modulations of the gut microbiota and probiotic therapies have been shown to attenuate the condition and treat the host organism [
+24
+].
+Together, these studies indicate that stable diverse microbial communities and functional gene redundancies can provide resiliency to the host’s microbiota to withstand temporary community disturbances and potentially resist invasion by exogenous pathogenic microbes [
+24
+,
+34
+]. However, continuous or regular perturbations to the environment, such as exposure to microgravity, may result in loss of biodiversity or extirpation (
+i.e.
+, the extinction of a species in localized areas of the microbiome), potentially driving the community towards disease.
+Although the short- and long-term resilience (
+i.e.
+, susceptibility of community to disturbances or extirpation) of animal and plant microbiomes in response to microgravity is virtually unknown, microbial exchange and transfers do occur between microbiomes during spaceflight [
+35
+,
+36
+] and there is increasing evidence that microgravity induces physiological and developmental changes within specific host-microbe interactions as discussed below. Assessing the impact of microgravity on a host organism and its microbiota requires a comprehensive analysis that includes the study of both pathogenic and mutualistic bacteria as cultures and
+in situ
+to fully understand the requirements needed to maintain host health in the space flight environment.
+2. Spaceflight and Simulated Microgravity Environments
+Experimentally testing the effects of microgravity on host-microbe interactions at the cellular and biomolecular level often requires a two-pronged approach. First, in ideal situations the impact of microgravity on both host and symbiont physiology can be investigated under a high-quality microgravity (10
+−6
+g) environment, such the International Space Station U.S. National Laboratory [
+5
+,
+37
+]. However, logistics with regard to access to the station, astronaut time, the need for specialized equipment and overall costs can impose limitations on experimental design and reproducibility. A second approach to microgravity research has been the development of Earth-based systems to simulate or model the microgravity environment. Examples include drop towers at various NASA facilities, and parabola flights in aircraft (e.g., Zero-G), which can provide several seconds of microgravity, albeit at a lower quality (10
+−3
+g). A new frontier in microgravity research is the emergence of numerous commercial suborbital companies such as Virgin Galactic, XCOR Aerospace, Blue Origin, and Masten Space Systems that in the next few years will offer lower flight cost, and more frequent and rapid flights rates for microgravity research.
+Although these alternative approaches may provide up to several minutes of microgravity exposure, other ground-based tools have emerged over the past few decades that can model the low-shear, low-turbulent effects of microgravity over longer periods of time and will be discussed in this review. Two of these technologies, the clinostat and rotating wall vessel (RWV), provide a relatively low cost approach to investigate the cumulative effects of microgravity on both pathogenic and mutualistic microbes [
+1
+,
+4
+,
+13
+,
+38
+,
+39
+,
+40
+,
+41
+]. Both technologies facilitate constant rotation that is perpendicular to the gravitational vector thus maintaining the cell cultures in a low shear suspension where the hydrodynamic forces offset gravitational settling, thus enabling the organism to be in a simulated microgravity state [
+1
+,
+39
+].
+Rotating bioreactors can effectively replicate the low shear environments of many parts of the human body where bacteria typically associate, such as the brush-border of epithelial cells, one of the most common sites for host-microbe interactions in animals [
+42
+,
+43
+]. Although initially the reactors were used for bacterial suspensions, the technology has been successfully adapted to examine more complex aspects of host-microbe interactions. For example, the RWV bioreactors have been used to stimulate the formation of three-dimensional eukaryotic cell cultures that more realistically approximate the function and cellular tissue structure an exogenous microbe might encounter. More recently, RWV bioreactors have been used to look at the impact of microgravity on the colonization of host tissues
+in situ
+, where both the host and symbiotic partners are co-incubated within the rotating vessels [
+41
+,
+44
+,
+45
+]. Although the shear forces increase when working with larger organisms in the RWV bioreactors, previous modeling experiments have shown that the fluid shear levels of objects up to 3 mm mimic those typically seen by microbes when they associate with host tissues [
+46
+,
+47
+].
+3. Impact of Microgravity on Animal-Microbe Associations
+3.1. Pathogenic Interactions with Animals
+Over the past few decades, numerous studies have examined the effects of both natural and modeled microgravity on pathogenic microbes revealing several pronounced physiological responses [
+1
+,
+7
+,
+37
+,
+40
+,
+44
+,
+48
+,
+49
+]. These microgravity-induced changes include: changes in growth rate and higher cell densities; increased membrane integrity [
+7
+,
+45
+,
+50
+,
+51
+]; differential secondary metabolite production [
+52
+]; elevated transfer rates of genetic material between cells [
+53
+,
+54
+] and increased biofilm formation [
+5
+,
+6
+,
+55
+,
+56
+].
+In addition to these basic physiological responses, several well-characterized pathogenic microbes have also exhibited changes at the molecular level by altering expression of genes known to be associated with virulence in microgravity including:
+Salmonella enterica
+serovar Typhimurium cultures;
+Escherichia coli
+; and
+Pseudomonas aeruginosa
+[
+5
+,
+57
+,
+58
+,
+59
+,
+60
+]. In
+S. typhimurium
+cultures grown in both space flight and ground-based analog microgravity environments, there was faster colonization of mouse spleen and liver tissues and shortened time-to-death rates [
+5
+,
+57
+]. This enhanced pathogenicity in
+S. typhimurium
+has also been correlated to the overall fitness of the cultures in microgravity, including increased resistance to antibiotics, pH, temperature and osmotic stresses [
+1
+,
+3
+,
+37
+,
+55
+]. Transcriptional and proteomic analysis of microgravity-exposed
+S. typhimurium
+has revealed the differential expression of numerous genes and proteins associated with stress responses and virulence, such as lipopolysaccharide synthesis enzymes, cell invasion genes, and the global regulator Hfq [
+5
+,
+61
+,
+62
+]. Hfq, a RNA binding protein known to have a diverse role in bacterial physiology [
+63
+], has been shown to be essential for
+S. typhimurium
+virulence [
+64
+] as well as numerous other pathogenic microbes [
+59
+,
+62
+,
+65
+,
+66
+]. Of the many genes associated with microgravity exposure, the global Hfq regulator was one of the few differentially expressed genes to be identified in other pathogenic species, such as
+Pseudomonas aeruginosa
+and
+Staphylococcus aureus
+[
+5
+,
+59
+,
+62
+], suggesting it plays a diverse and critical role in mediating the microgravity response in bacteria.
+Although
+S. typhimurium
+clearly exhibited increased virulence in both natural and modeled microgravity, the response was environment-dependent [
+49
+]. Altering the inorganic salt concentration of the surrounding media effectively inhibited the enhanced virulence [
+49
+] suggesting that it may be possible to mitigate aspects of pathogenicity during space flight. Additionally, recent examination of the ability of several clinical pathogens to infect an animal host
+in situ
+, where both organisms were maintained under both space flight and modeled microgravity conditions, showed an overall decrease in virulence [
+44
+]. In this study, four diverse pathogens including:
+Listeria monocytogens
+, a common food-borne pathogen;
+Staphylococcus aureus
+, associated with skin and respiratory infections;
+Enterococcus faecalis
+, a prevalent antibiotic resistant species associated with gastrointestinal track; and
+Candida albicans,
+a fungus known to associate with skin and mucus membranes, were incubated with the nematode
+Caenorhabditis elegans
+for up to 48 h and then the host was assessed for viability. The overall decrease in virulence may be the result of basic morphological (
+i.e.
+, coccoid
+versus
+filamentous) or motility differences between the microbial ecotypes that alter the low-shear environment of space flight, thus impacting the ability of the pathogen to colonize and infect host tissues [
+67
+]. These results may also simply reflect host-specific or even tissue-specific differential gene expression in response to various pathogens under microgravity conditions. Such studies reinforce the need to fully assess the environmental or community characteristics that predispose or drive host-microbe interactions towards disease.
+3.2. Mutualistic Interactions with Animals
+Although disease-causing microbes represent a potential risk to astronauts in microgravity conditions, it is also essential to have a corresponding understanding of mutualistic microbes to learn what drives microbial fitness in the spaceflight environment and how to maintain a healthy homeostasis between humans and their microbiome. To address these issues, one model system has recently emerged to assess the interactions between animal cells and beneficial microbes
+in situ
+under microgravity conditions (
+Figure 2
+). The binary symbiosis between the Hawaiian bobtail squid
+Euprymna scolopes
+and its luminescent partner
+Vibrio fischeri
+was established over two decades ago as a tractable model for examining beneficial animal-microbe interactions [
+68
+,
+69
+].
+Figure 2.
+Open in a new tab
+Impact of microgravity on the developmental time line of mutualistic symbiosis between the squid
+Euprymna scolopes
+and bacterial partner
+Vibrio fischeri
+. (
+A
+) Juvenile squid just after hatching. Blue rectangle marks the location within the host mantle cavity of light organ, the site of symbiosis. Bar, 0.25 mm (
+B
+) Light organ at hatching showing the elongated surface epithelium that forms appendage like structures on either side of the light organ. Bar, 75 μm. (
+C
+) One half of light organ depicting the movement of hemocytes (green) moving into the blood sinus contained within the surface epithelium upon exposure to bacteria. Bar, 30 μm. (
+D
+) Light organ exposed to bacterial lipopolysaccharide showing pronounced cell death staining pattern along the superficial epithelium. Bar, 30 µm. (
+E
+) Image of one half of light organ depicting the loss of the superficial epithelial appendage structures 96 h after colonization with
+V. fischeri
+. Bar, 30 µm. (
+F
+) Exposure to microgravity alters the developmental time line of the symbiosis under normal gravity and modeled microgravity conditions using a RWV bioreactor. Events listed in black do not change under microgravity conditions. Those events in red are delayed during modeled microgravity, where as those events in green are accelerated.
+The site of symbiosis occurs in the host light organ, located within the squid’s mantle cavity (
+Figure 2
+A). The light organ contains a series of superficial invaginations that form long ciliated ducts, which terminate into a series of epithelial lined crypt spaces where the bacteria eventually reside and grow. On the surface of the light organ is a superficial field of epithelial cells overlaying a blood sinus that form two appendage-like structures and are critical for facilitating the initiation of the symbiosis (
+Figure 2
+B). Studies have revealed that the colonization and maintenance of the light organ symbiosis is highly specific and requires a complex exchange of signaling molecules and cell–cell communication that is in part mediated by the host immune system [
+70
+,
+71
+].
+One of the initial signals involved in establishing the symbiosis is the use of micro-associated molecular pattern (MAMP) molecules, such as lipopolysaccharides (LPS) and peptidoglycan. Originally characterized in pathogenic associations, LPS and peptidoglycan have been recently shown to be critical for maintaining gut homeostasis in mammals and insects [
+25
+,
+72
+]. The squid–vibrio symbiosis is initiated when upon hatching from their egg case the squid is exposed to bacteria-rich seawater. Peptidoglycan that is shed from these surrounding microbes induces mucus to be secreted by the surface epithelial appendage cells of the host light organ. The accumulation of mucus selectively enriches
+V. fischeri
+from the other surrounding microbes and within 2–3 h after hatching the
+V. fischeri
+begins to colonize the light organ by entering pores on the surface of the light organ then migrating through ducts until they reach the crypt spaces. During the colonization of the light organ, the bacteria induce a series of developmental events in the host squid that eventually results in a remodeling of the host light organ structure.
+One of the first symbiont-induced phenotypes in the host squid is the activation of the host’s innate immune response [
+69
+,
+71
+,
+73
+]. With two hours of exposure to
+V. fischeri
+cells, host-derived hemocytes, a macrophage-like cell, are trafficked into the blood sinus of the superficial epithelial cell appendage (
+Figure 2
+C). The precise role these host immune cells play in the symbiosis is not well defined, however, it is thought they facilitate the regression of superficial epithelial cells once colonization has been initiated [
+69
+]. The regression event is triggered by a bacteria-induced apoptosis event by the synergistic activity of the bacterial MAMP molecules LPS and a derivative of peptidoglycan, tracheal cytotoxin (
+Figure 2
+D) [
+74
+,
+75
+]. The apoptosis event peaks 16 h after exposure to the
+V. fischeri
+MAMPS and regression of the epithelial appendages is visible by 24 h and takes approximately 96 h for complete regression (
+Figure 2
+E) [
+76
+,
+77
+,
+78
+].
+In modeled microgravity conditions, where both partners are co-incubated using RWV bioreactors, the bacteria-induced developmental time line in the host light organ is altered (
+Figure 2
+F). One of the first observed differences is that the trafficking of host-derived hemocytes into the light organ blood sinus, which normally occurs within two hours of bacteria exposure, is delayed until 12 h in modeled microgravity [
+41
+]. The cause for the delay is not known, but the amount of hemocyte cells in the blood sinus is significantly lower than in gravity controls suggesting that the low-shear, modeled microgravity environment suppresses the activation and transport of hemocytes to the light organ [
+41
+]. One potential explanation is that the squid hemocytes proliferation or cytokine signaling may be reduced in microgravity-like conditions. Similar results have been seen in mammalian immune systems during space flight [
+79
+,
+80
+].
+Another key phenotype that changes in the squid–vibrio system during modeled microgravity is the acceleration of the light organ morphogenesis; specifically, the LPS-induced apoptotic cell death event throughout the superficial field of epithelial cells. Normally, the LPS triggered apoptosis event peaks approximately 16 h after bacterial exposure, however, in modeled microgravity it occurs around 8 h after exposure [
+41
+]. The epithelial cells comprising this structure appear to have an increased sensitivity to extracellular LPS in modeled microgravity conditions, although the mechanism is not fully understood [
+45
+]. The acceleration of the LPS-induced apoptosis event may be tied to the global regulator Hfq, which similar to
+S. typhimurium
+and
+P. aeruginosa
+is down regulated in
+V. fischeri
+during modeled microgravity conditions [
+45
+]. Additionally, mutants defective in the
+hfq
+gene exhibited attenuated levels of apoptotic cell death in microgravity although the timing was still accelerated compared to gravity controls [
+45
+]. Experiments are currently underway to examine changes in microgravity-induced gene expression of wild-type
+V. fischeri
+and mutants defective in the
+hfq
+gene to assess the impact of modeled microgravity on the symbiont transcriptome (J. Foster unpublished).
+4. Impact of Microgravity on Plant-Microbe Associations
+As humans move beyond Earth’s biosphere and undergo the long-term habitation of space, life support systems will inevitably require plants. Understanding the physical and genetic impact of microgravity on plant physiology and their associated microbes will be critical [
+16
+,
+18
+]. Much like the animal microbiome, plants are also colonized by trillions of microbial cells that form complex and metabolically diverse ecosystems influencing their health and growth [
+81
+,
+82
+]. In terrestrial systems, these beneficial microbes are typically associated with the rhizosphere, a narrow zone surrounding the plant roots. Plants can exude up to 21% of their photosynthetically fixed carbon into the root–soil interface [
+83
+], which can influence the microbial activity and diversity, thereby enhancing seed germination rates, nutrient uptake, plant growth and development [
+82
+,
+84
+]. Recent studies have shown that plants actively recruit disease-suppressive microbes that can protect the host from various infections through the production specific molecules, such as nonribosomal peptide synthases [
+85
+,
+86
+], and boost the plant immune system [
+87
+]. For example, in
+Arabidopsis thaliana
+, the rhizobacterium
+Pseudomonas fluorescence
+can induce the induced systemic resistance (ISR) response of the host by the apoplastic secretion of low molecular weight molecules that locally suppress flagellin-triggered immune responses [
+88
+]. Activation of ISR can accelerate defense-associated gene expression in the host, thus priming the plant immune system and facilitating resistance to a wide range of pathogens [
+89
+].
+In spaceflight, however, the structural complexity and species richness of the plant rhizosphere can be reduced due to the limitations on using friable soils in microgravity and the lack of natural water drainage, which can result in poor aeration in the root zone [
+90
+,
+91
+]. Plants cultivated in space flight conditions have been grown in various media, including agar plates, growth pouches, absorbent “floral foams”, and in sub-irrigated porous arcillite (calcined clay chips) [
+92
+,
+93
+]. These studies have often used specialized growth chambers (e.g., Astroculture, the Biomass Production System, Lada, and others), which typically control light, humidity, carbon dioxide and regulated temperature [
+18
+,
+90
+,
+92
+,
+94
+,
+95
+,
+96
+,
+97
+,
+98
+]. Some of these chambers, such as the Russian Svet (on Mir) and the Lada on the International Space Station (ISS) are open to the cabin air [
+97
+] and hence exposed to the organic volatiles and very high CO
+2
+levels of the cabin air, which can affect the plants in ways unrelated to microgravity [
+99
+,
+100
+]. It is not unreasonable to assume that these other space environment effects could then also influence host-microbe interactions.
+Several investigations have revealed that plants grown in microgravity exhibit an increased susceptibility to plant pathogens [
+15
+,
+96
+,
+101
+,
+102
+]. For example, soybeans cultivated under space flight conditions in the presence of the pathogenic fungus
+Phytophthora sojae
+showed high levels of disease symptoms (
+i.e.
+, browning and maceration of the roots) compared to ground controls. Additionally, increased levels of fungal structures penetrating the vascular tissue of the plant were also observed suggesting that under microgravity conditions the pathogen more effectively colonized the host tissues [
+96
+]. Microgravity exposure has also been shown to negatively impact plant cell wall integrity, as both cell wall regeneration and lignin biosynthesis can be repressed under spaceflight conditions thereby facilitating colonization of fungal pathogens [
+18
+,
+102
+]. This increase in pathogenesis during spaceflight may reflect the disruption to the normal healthy rhizosphere microbiome.
+Although the effects of microgravity appear to increase susceptibility of the plant host to disease, less is known of its impact on associations with beneficial microbes. One of the few known examples includes the symbioses between nitrogen-fixing bacteria and leguminous plants. Nitrogen fixation is a critical bacterial metabolism for future life support systems to help cycle inert dinitrogen to the more usable ammonia [
+103
+], however, the effects of microgravity on the major stages of root nodule formation and colonization are not well known. Early studies have shown that under modeled microgravity conditions,
+Rhizobium leguminosarum
+cells can increase binding of succinate, a key molecule in the differentiation of the bacteria to bacteroids, a distinct cell-type capable of fixing nitrogen [
+103
+,
+104
+]. This increased binding, however, did not alter the developmental time line of the bacteroid formation and there were no statistical differences between microgravity and gravity controls [
+103
+]. Similar experiments have been since replicated during spaceflight for longer durations using the partners
+Medicago truncatula
+, the barrel clover, and the bacterial symbiont
+Sinorhizobium meliloti
+(G. Stutte and M. Roberts unpublished). No developmental delays were observed between spaceflight and 1 × g gravity controls conditions. The
+S. meliloti
+cells were able to effectively colonize and induce normal nodule formation in the plant host suggesting this symbiosis may play an important role in future life support systems (G. Stutte and M. Roberts unpublished). Although additional work is required to characterize the impact of spaceflight on these rhizobia-legume symbioses and other members of the plant microbiome, especially at the genome-level, these initial results suggest that microgravity does not impair the initial colonization and cell–cell communication required by the host and microbial association. As the plant microbiome can, in turn, directly influence the human microbiome through the ingestion of raw plants or through environmental interactions in a closed life support system, it will become critical to expand our understanding of the effects of microgravity on these key plant–microbe interactions.
+5. Summary
+The recent advance in our understanding of human and plant biology with respect to their microbiomes represents a new frontier for space biology research [
+105
+]. It is increasingly clear that astronauts, and other eukaryotic hosts, should be considered as metaorganisms, whose crosstalk and interactions with their microbes at the genetic and cellular level have redefined our definition of health and disease [
+106
+]. As manned exploration of space continues beyond the biosphere, it will be critical to examine the stability and resiliency of the human and plant metaorganism to spaceflight-induced stresses, including microgravity. For example, if keystone microbes are lost in the host community, this may result in a shift in species diversity and richness of the microbiome, thus potentially facilitating the rise of opportunistic pathogens that might otherwise be contained by the normal microbial community.
+To the microbe, eukaryotes simply represent a complex environment in which it must perpetually navigate and adapt to maintain its fitness [
+22
+]. This adaptation can occur through horizontal gene transfer events, and recent sequencing evidence suggests that in humans, the microbiome is a hotspot for genetic transfer, facilitating the exchange of antibiotic resistance, food digestion and nutrient metabolism genes that may provide the microbe a competitive advantage within the host community [
+3
+,
+107
+]. Understanding the nature and frequency of such events, as well as the overall stability of the microbiome under microgravity conditions, will not only help elucidate how microgravity alters this dynamic microbial landscape but will help enable the formation of new strategies for maintenance and potential restoration of the healthy microbiome during spaceflight.
+Acknowledgments
+The authors would like to thank Jennifer Mobberley for her useful comments on this manuscript. This work was supported by the Florida Space Research Institute and the NASA Space Biology program (NNX13AM44G) awarded to J.S.F.
+Author Contributions
+All authors contributed to the development, organization, and writing of this manuscript. All authors have read and approved the final manuscript.
+Conflicts of Interest
+The authors declare no conflict of interest.
+References
+1.
+Nickerson C.A., Ott C.M., Wilson J.W., Ramamurthy R., Pierson D.L. Microbial responses to microgravity and other low-shear environments. Microbiol. Mol. Biol. Rev. 2004;68:345–361. doi: 10.1128/MMBR.68.2.345-361.2004.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Chopra V., Fadl A.A., Sha J., Chopra S., Galindo C.L., Chopra A.K. Alterations in the virulence potential of enteric pathogens and bacterial-host cell interactions under simulated microgravity conditions. J. Toxicol. Environ. Health A. 2006;69:1345–1370. doi: 10.1080/15287390500361792.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Klaus D.M., Howard H.N. Antibiotic efficacy and microbial virulence during space flight. Trends Biotechnol. 2006;24:131–136. doi: 10.1016/j.tibtech.2006.01.008.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Lynch S.V., Matin A. Travails of microgravity: Man and microbes in space. Biologist. 2005;52:80–92.
+[
+Google Scholar
+]
+5.
+Wilson J.W., Ott C.M., Honer zu Bentrup K., Ramamurthy R., Quick L., Porwollik S., Cheng P., McClelland M., Tsaprailis G., et al.  Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq. Proc. Natl. Acad. Sci. USA. 2007;104:16299–16304. doi: 10.1073/pnas.0707155104.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Mauclaire L., Egli M. Effect of simulated microgravity on growth and production of exopolymeric substances of Micrococcus luteus space and Earth isolates. FEMS Immunol. Med. Microbiol. 2010;59:350–356. doi: 10.1111/j.1574-695X.2010.00683.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Vukanti R., Model M.A., Leff L.G. Effect of modeled reduced gravity conditions on bacterial morphology and physiology. BMC Microbiol. 2012;12 doi: 10.1186/1471-2180-12-4.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Morey-Holton E.R.  The Impact of Gravity on Life. In: Rothschild L.J., Lister A., editors. Evolution on Planet Earth: The Impact of the Physical Environment. Academic Press; New York, NY, USA: 2003. pp. 143–159.
+[
+Google Scholar
+]
+9.
+Volkmann D., Baluska F. Gravity: One of the driving forces for evolution. Protoplasma. 2006;229:143–148. doi: 10.1007/s00709-006-0200-4.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Globus R.K., Morey-Holton E.R. Advances in understanding the skeletal biology of spaceflight. Grav. Space Biol. 2009;22:3–12.
+[
+Google Scholar
+]
+11.
+Stein T.P. Weight, muscle and bone loss during space flight: Another perspective. Eur. J. Appl. Physiol. 2013;113:2171–2181. doi: 10.1007/s00421-012-2548-9.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Guéguinou N., Huin-Schohn C., Bascove M., Bueb J.L., Tschirhart E., Legrand-Frossi C., Frippiat J.P. Could spaceflight-associated immune system weakening preclude the expansion of human presence beyond Earth’s orbit? J. Leukoc. Biol. 2009;86:1027–1038. doi: 10.1189/jlb.0309167.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Ott C.M., Crabbe A., Wilson J.W., Barrila J., Castro S.L., Nickerson C.A.  Microbial Stress: Spaceflight-Induced Alterations in Microbial Virulence nad Infectious Disease Risks for the Crew. In: Chouker A., editor. Stress Challenges and IMMUNITY in Space. Springer-Verlag; Berlin/Heidelberg, Gemany: 2012. pp. 203–225.
+[
+Google Scholar
+]
+14.
+Mermel L.A. Infection prevention and control during prolonged human space travel. Clin. Infect. Dis. 2013;56:123–130. doi: 10.1093/cid/cis861.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Leach J.E., Ryba-White M., Sun Q., Wu C.J., Hilaire E., Gartner C., Nedukha O., Kordyum E., Keck M., Leung H., et al.  Plants, plant pathogens, and microgravity—A deadly trio. Grav. Space Biol. 2001;14:15–23.
+[
+PubMed
+] [
+Google Scholar
+]
+16.
+Halstead T.W., Dutcher F.R. Plants in space. Annu. Rev. Plant Physiol. 1987;38:317–345. doi: 10.1146/annurev.pp.38.060187.001533.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Henry R.L., Green P.D., Wong P.P., Guikema J.A. Binding of isolated plant lectin by rhizobia during episodes of reduced gravity obtained by parabolic flight. Plant Physiol. 1990;92:262–264. doi: 10.1104/pp.92.1.262.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Ferl R., Wheeler R., Levine H.G., Paul A.L. Plants in space. Curr. Opin. Plant Biol. 2002;5:258–263. doi: 10.1016/S1369-5266(02)00254-6.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Lederberg J., McCray A. The scientis: ‘Ome sweet’ omics—A geneological treasury of words. Scientist. 2001;17:No. 7.
+[
+Google Scholar
+]
+20.
+Shade A., Hogan C.S., Klimowicz A.K., Linske M., McManus P.S., Handelsman J. Culturing captures members of the soil rare biosphere. Environ. Microbiol. 2012;14:2247–2252. doi: 10.1111/j.1462-2920.2012.02817.x.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Human Microbiome Consortium  Structure, function and diversity of the healthy human microbiome. Nature. 2012;486:207–214. doi: 10.1038/nature11234.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Dethlefsen L., McFall-Ngai M., Relman D.A. An ecological and evolutionary perspective on human-microbe mutualism and disease. Nature. 2007;449:811–818. doi: 10.1038/nature06245.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Mitreva M. The genome of a blood fluke associated with human cancer. Nat. Genet. 2012;44:116–118. doi: 10.1038/ng.1082.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Cho I., Blaser M.J. The human microbiome: At the interface of health and disease. Nat. Rev. Genet. 2012;13:260–270. doi: 10.1038/nrg3182.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+25.
+Rakoff-Nahoum S., Paglino J., Eslami-Varzaneh F., Edberg S., Medzhitov R. Recognition of commensal microflora by toll-like receptors is required for intestinal homeostasis. Cell. 2004;118:229–241. doi: 10.1016/j.cell.2004.07.002.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+26.
+Mazmanian S.K., Liu C.H., Tzianabos A.O., Kasper D.L. An immunomodulatory molecule of symbiotic bacteria directs maturation of the host immune system. Cell. 2005;122:107–118. doi: 10.1016/j.cell.2005.05.007.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Wikoff W.R., Anfora A.T., Liu J., Schultz P.G., Lesley S.A., Peters E.C., Siuzdak G. Metabolomics analysis reveals large effects of gut microflora on mammalian blood metabolites. Proc. Natl. Acad. Sci. USA. 2009;106:3698–3703. doi: 10.1073/pnas.0812874106.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Wen L., Ley R.E., Volchkov P.Y., Stranges P.B., Avanesyan L., Stonebraker A.C., Hu C., Wong F.S., Szot G.L., Bluestone J.A., et al.  Innate immunity and intestinal microbiota in the development of type 1 diabetes. Nature. 2008;455:1109–1113. doi: 10.1038/nature07336.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Ivanov I.I., Atarashi K., Manel N., Brodie E.L., Shima T., Karaoz U., Wei D., Goldfarb K.C., Santee C.A., Lynch S.V., et al.  Induction of intestinal Th17 cells by segmented filamentous bacteria. Cell. 2009;139:485–498. doi: 10.1016/j.cell.2009.09.033.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+Brown C.T., Davis-Richardson A.G., Giongo A., Gano K.A., Crabb D.B., Mukherjee N., Casella G., Drew J.C., Ilonen J., Knip M., et al.  Gut microbiome metagenomics analysis suggests a functional model for the development of autoimmunity for type 1 diabetes. PLoS One. 2011;6:e25792. doi: 10.1371/journal.pone.0025792.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+31.
+Giongo A., Gano K.A., Crabb D.B., Mukherjee N., Novelo L.L., Casella G., Drew J.C., Ilonen J., Knip M., Hyoty H., et al.  Toward defining the autoimmune microbiome for type 1 diabetes. ISME J. 2011;5:82–91. doi: 10.1038/ismej.2010.92.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+32.
+Plottel C.S., Blaser M.J. Microbiome and malignancy. Cell Host Microbe. 2011;10:324–335. doi: 10.1016/j.chom.2011.10.003.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Ley R.E., Turnbaugh P.J., Klein S., Gordon J.I. Microbial ecology: Human gut microbes associated with obesity. Nature. 2006;444:1022–1023. doi: 10.1038/4441022a.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Kennedy T.A., Naeem S., Howe K.M., Knops J.M., Tilman D., Reich P. Biodiversity as a barrier to ecological invasion. Nature. 2002;417:636–638. doi: 10.1038/nature00776.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Taylor G.R. Recovery of medically important microorganisms from Apollo astronauts. Aerosp. Med. 1974;45:824–828.
+[
+PubMed
+] [
+Google Scholar
+]
+36.
+Pierson D.L., Chidambaram M., Heath J.D., Mallary L., Mishra S.K., Sharma B., Weinstock G.M. Epidemiology of Staphylococcus aureus during space flight. FEMS Immunol. Med. Microbiol. 1996;16:273–281. doi: 10.1111/j.1574-695X.1996.tb00146.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+37.
+Rosenzweig J.A., Abogunde O., Thomas K., Lawal A., Nguyen Y., Sodipe A., Jejelowo O. Space flight and modeled microgravity effects on microbial growth and virulence. Appl. Microbiol. Biotechnol. 2010;85:885–891. doi: 10.1007/s00253-009-2237-8.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+38.
+Schwarz R.P., Goodwin T.J., Wolf D.A. Cell culture for three-dimensional modeling in rotating-wall vessels: An application of simulated microgravity. J. Tissue Cult. Methods. 1992;14:51–58. doi: 10.1007/BF01404744.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+39.
+Klaus D. Clinostats and bioreactors. Grav. Space Biol. 2001;14:55–64.
+[
+PubMed
+] [
+Google Scholar
+]
+40.
+Horneck G., Klaus D.M., Mancinelli R.L. Space microbiology. Microbiol. Mol. Biol. Rev. 2010;74:121–156. doi: 10.1128/MMBR.00016-09.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+41.
+Foster J.S., Khodadad C.L., Ahrendt S.R., Parrish M.L. Impact of simulated microgravity on the normal developmental time line of an animal-bacterial symbiosis. Sci. Rep. 2013;3 doi: 10.1038/srep01340.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+42.
+Nyholm S.V., McFall-Ngai M.J. The winnowing: Establishing the squid-vibrio symbiosis. Nat. Rev. Microbiol. 2004;2:632–642. doi: 10.1038/nrmicro957.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+43.
+Barrila J., Radtke A.L., Crabbe A., Sarker S.F., Herbst-Kralovetz M.M., Ott C.M., Nickerson C.A. Organotypic 3D cell culture models: Using the rotating wall vessel to study host-pathogen interactions. Nat. Rev. Microbiol. 2010;8:791–801. doi: 10.1038/nrmicro2423.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+44.
+Hammond T.G., Stodieck L., Birdsall H.H., Becker J.L., Koenig P., Hammond J.S., Gunter M.A., Allen P.L. Effects of Microgravity on the Virulence of Listeria monocytogenes, Enterococcus faecalis, Candida albicans, and Methicillin-Resistant Staphylococcus aureus. Astrobiology. 2013;13:1081–1090. doi: 10.1089/ast.2013.0986.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+45.
+Grant K.A., Khodadad C.L., Foster J.S. Role of Hfq in an animal-microbe symbiosis under simulated microgravity conditions. Int. J. Astrobiol. 2014;13:53–61. doi: 10.1017/S1473550413000359.
+[
+DOI
+] [
+Google Scholar
+]
+46.
+Fang A., Pierson D.L., Koenig D.W., Mishra S.K., Demain A.L. Effect of simulated microgravity and shear stress on microcin B17 production by Escherichia coli and on its excretion into the medium. Appl. Environ. Microbiol. 1997;63:4090–4092. doi: 10.1128/aem.63.10.4090-4092.1997.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+47.
+Nauman E.A., Ott C.M., Sander E., Tucker D.L., Pierson D., Wilson J.W., Nickerson C.A. Novel quantitative biosystem for modeling physiological fluid shear stress on cells. Appl. Environ. Microbiol. 2007;73:699–705. doi: 10.1128/AEM.02428-06.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+48.
+Nickerson C.A., Ott C.M., Wilson J.W., Ramamurthy R., LeBlanc C.L., Honer zu Bentrup K., Hammond T., Pierson D.L. Low-shear modeled microgravity: A global environmental regulatory signal affecting bacterial gene expression, physiology, and pathogenesis. J. Microbiol. Methods. 2003;54:1–11. doi: 10.1016/S0167-7012(03)00018-6.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+49.
+Wilson J.W., Ott C.M., Quick L., Davis R., Honer zu Bentrup K., Crabbe A., Richter E., Sarker S., Barrila J., Porwollik S., et al.  Media ion composition controls regulatory and virulence response of Salmonella in spaceflight. PLoS One. 2008;3:e3923. doi: 10.1371/journal.pone.0003923.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+50.
+Klaus D., Simske S., Todd P., Stodieck L. Investigation of space flight effects on Escherichia coli and a proposed model of underlying physical mechanisms. Microbiology. 1997;143:449–455. doi: 10.1099/00221287-143-2-449.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+51.
+Kacena M.A., Merrell G.A., Manfredi B., Smith E.E., Klaus D.M., Todd P. Bacterial growth in space flight: Logistic growth curve parameters for Eschechia coli and Bacillus subtilus. Appl. Microbiol. Biotechnol. 1999;51:229–234. doi: 10.1007/s002530051386.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+52.
+Demain A.L., Fang A. Secondary metabolism in simulated microgravity. Chem. Rec. 2001;1:333–346. doi: 10.1002/tcr.1018.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+53.
+Ciferri O., Tiboni O., di Pasquale G., Orlandoni A.M., Marchesi M.L. Effects of microgravity on genetic recombination in Escherichia coli. Naturwissenschaften. 1986;73:418–421. doi: 10.1007/BF00367284.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+54.
+De Boever P., Mergeay M., Ilyin V., van der Auwera G., Mahillon J. Conjugation-mediated plasmid exchange between bacteria grown under space flight conditions. Microgravity Sci. Technol. 2007;19:138–144. doi: 10.1007/BF02919469.
+[
+DOI
+] [
+Google Scholar
+]
+55.
+Lynch S.V., Mukundakrishnan K., Benoit M.R., Ayyaswamy P.S., Matin A. Escherichia coli biofilms formed under low-shear modeled microgravity in a ground-based system. Appl. Environ. Microbiol. 2006;72:7701–7710. doi: 10.1128/AEM.01294-06.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+56.
+Searles S.C., Woolley C.M., Petersen R.A., Hyman L.E., Nielsen-Preiss S.M. Modeled microgravity increases filamentation, biofilm formation, phenotypic switching, and antimicrobial resistance in Candida albicans. Astrobiology. 2011;11:825–836. doi: 10.1089/ast.2011.0664.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+57.
+Wilson J.W., Ott C.M., Ramamurthy R., Porwollik S., McClelland M., Pierson D.L., Nickerson C.A. Low-Shear modeled microgravity alters the Salmonella enterica serovar typhimurium stress response in an RpoS-independent manner. Appl. Environ. Microbiol. 2002;68:5408–5416. doi: 10.1128/AEM.68.11.5408-5416.2002.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+58.
+Kaur I., Simons E.R., Kapadia A.S., Ott C.M., Pierson D.L. Effect of spaceflight on ability of monocytes to respond to endotoxins of gram-negative bacteria. Clin. Vaccine Immunol. 2008;15:1523–1528. doi: 10.1128/CVI.00065-08.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+59.
+Crabbé A., Schurr M.J., Monsieurs P., Morici L., Schurr J., Wilson J.W., Ott C.M., Tsaprailis G., Pierson D.L., Stefanyshyn-Piper H., et al.  Transcriptional and proteomic responses of Pseudomonas aeruginosa PAO1 to spaceflight conditions involve Hfq regulation and reveal a role for oxygen. Appl. Environ. Microbiol. 2011;77:1221–1230. doi: 10.1128/AEM.01582-10.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+60.
+Arunasri K., Adil M., Venu Charan K., Suvro C., Himabindu Reddy S., Shivaji S. Effect of simulated microgravity on E. coli K12 MG1655 growth and gene expression. PLoS One. 2013;8:e57860. doi: 10.1371/journal.pone.0057860.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+61.
+Wilson J.W., Ramamurthy R., Porwollik S., McClelland M., Hammond T., Allen P., Ott C.M., Pierson D.L., Nickerson C.A. Microarray analysis identifies Salmonella genes belonging to the low-shear modeled microgravity regulon. Proc. Natl. Acad. Sci. USA. 2002;99:13807–13812. doi: 10.1073/pnas.212387899.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+62.
+Castro S.L., Nelman-Gonzalez M., Nickerson C.A., Ott C.M. Induction of attachment-independent biofilm formation and repression of Hfq expression by low-fluid-shear culture of Staphylococcus aureus. Appl. Environ. Microbiol. 2011;77:6368–6378. doi: 10.1128/AEM.00175-11.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+63.
+Valentin-Hansen P., Eriksen M., Udesen C. The bacterial Sm-like protein Hfq: A key player in RNA transactions. Mol. Microbiol. 2004;51:1525–1533. doi: 10.1111/j.1365-2958.2003.03935.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+64.
+Sittka A., Pfeiffer V., Tedin K., Vogel J. The RNA chaperone Hfq is essential for the virulence of Salmonella typhimurium. Mol. Microbiol. 2007;63:193–217. doi: 10.1111/j.1365-2958.2006.05489.x.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+65.
+Robertson G.T., Roop R.M., Jr. The Brucella abortus host factor I (HF-I) protein contributes to stress resistance during stationary phase and is a major determinant of virulence in mice. Mol. Microbiol. 1999;34:690–700. doi: 10.1046/j.1365-2958.1999.01629.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+66.
+Ding Y., Davis B.M., Waldor M.K. Hfq is essential for Vibrio cholerae virulence and downregulates sigma expression. Mol. Microbiol. 2004;53:345–354. doi: 10.1111/j.1365-2958.2004.04142.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+67.
+Hammond T.G., Hammond J.M. Optimized suspension culture: The rotating-wall vessel. Am. J. Physiol. 2001;281:F12–F25. doi: 10.1152/ajprenal.2001.281.1.F12.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+68.
+McFall-Ngai M.J., Ruby E.G. Symbiont recognition and subsequent morphogenesis as early events in an animal-bacterial mutualism. Science. 1991;254:1491–1494. doi: 10.1126/science.1962208.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+69.
+McFall-Ngai M., Nyholm S.V., Castillo M.G. The role of the immune system in the initiation and persistence of the Euprymna scolopes—Vibrio fischeri symbiosis. Semin. Immunol. 2010;22:48–53. doi: 10.1016/j.smim.2009.11.003.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+70.
+Altura M.A., Stabb E., Goldman W., Apicella M., McFall-Ngai M.J. Attenuation of host No production by MAMPs potentiates development of the host in the squid-vibrio symbiosis. Cell. Microbiol. 2011;13:527–537. doi: 10.1111/j.1462-5822.2010.01552.x.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+71.
+McFall-Ngai M., Heath-Heckman E.A., Gillette A.A., Peyer S.M., Harvie E.A. The secret languages of coevolved symbioses: Insights from the Euprymna scolopes-Vibrio fischeri symbiosis. Semin. Immunol. 2012;24:3–8. doi: 10.1016/j.smim.2011.11.006.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+72.
+Buchon N., Broderick N.A., Lemaitre B. Gut homeostasis in a microbial world: Insights from Drosophila melanogaster. Nat. Rev. Microbiol. 2013;11:615–626. doi: 10.1038/nrmicro3074.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+73.
+Nyholm S.V., Stabb E.V., Ruby E.G., McFall-Ngai M.J. Establishment of an animal-bacterial association: Recruiting symbiotic vibrios from the environment. Proc. Natl. Acad. Sci. USA. 2000;97:10231–10235. doi: 10.1073/pnas.97.18.10231.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+74.
+Foster J.S., Apicella M.A., McFall-Ngai M.J. Vibrio fischeri lipopolysaccharide induces developmental apoptosis, but not complete morphogenesis, of the Euprymna scolopes symbiotic light organ. Dev. Biol. 2000;226:242–254. doi: 10.1006/dbio.2000.9868.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+75.
+Koropatnick T.A., Engle J.T., Apicella M.A., Stabb E.V., Goldman W.E., McFall-Ngai M.J. Microbial factor-mediated development in a host-bacterial mutualism. Science. 2004;306:1186–1188. doi: 10.1126/science.1102218.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+76.
+Montgomery M.K., McFall-Ngai M. Bacterial symbionts induce host organ morphogenesis during early postembryonic development of the squid Euprymna scolopes. Development. 1994;120:1719–1729. doi: 10.1242/dev.120.7.1719.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+77.
+Doino J.A., McFall-Ngai M. Transient exposures to competent bacteria initiates symbiosis-specific squid light organ morphogenesis. Biol. Bull. 1995;189:347–355. doi: 10.2307/1542152.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+78.
+Foster J.S., McFall-Ngai M.J. Induction of apoptosis by cooperative bacteria in the morphogenesis of host epithelial tissues. Dev. Genes Evol. 1998;208:295–303. doi: 10.1007/s004270050185.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+79.
+Crucian B.E., Stowe R.P., Pierson D.L., Sams C.F. Immune system dysregulation following short- vs long-duration space flight. Aviat. Space Environ. Med. 2008;79:835–843. doi: 10.3357/ASEM.2276.2008.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+80.
+Baqai F.P., Gridley D.S., Slater J.M., Luo-Owen X., Stodieck L.S., Ferguson V., Chapes S.K., Pecaut M.J. Effects of spaceflight on innate immune function and antioxidant gene expression. J. Appl. Physiol. 2009;106:1935–1942. doi: 10.1152/japplphysiol.91361.2008.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+81.
+Read D.J., Perez-Moreno J. Mycorrhizas and nutrient cycling in ecosystems—A journy towards relevance? New Phytol. 2003;157:475–492. doi: 10.1046/j.1469-8137.2003.00704.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+82.
+Harrison M.J. Signaling in the arbuscular mycorrhizal symbiosis. Annu. Rev. Microbiol. 2005;59:19–42. doi: 10.1146/annurev.micro.58.030603.123749.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+83.
+Marschner H., Kirkby E.A., Cakmak I. Effect of mineral nutritional status on shoot-root partitioning of photoassimilates and cycling of mineral nutrients. J. Exp. Bot. 1996;47:1255–1263. doi: 10.1093/jxb/47.Special_Issue.1255.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+84.
+Mendes R., Garbeva P., Raaijmakers J.M. The rhizosphere microbiome: Significance of plant beneficial, plant pathogenic, and human pathogenic microorganisms. FEMS Microbiol. Rev. 2013;37:634–663. doi: 10.1111/1574-6976.12028.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+85.
+Mendes R., Kruijt M., de Bruijn I., Dekkers E., van der Voort M., Schneider J.H., Piceno Y.M., DeSantis T.Z., Andersen G.L., Bakker P.A., et al.  Deciphering the rhizosphere microbiome for disease-suppressive bacteria. Science. 2011;332:1097–1100. doi: 10.1126/science.1203980.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+86.
+Berendsen R.L., Pieterse C.M., Bakker P.A. The rhizosphere microbiome and plant health. Trends Plant Sci. 2012;17:478–486. doi: 10.1016/j.tplants.2012.04.001.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+87.
+Zamioudis C., Pieterse C.M. Modulation of host immunity by beneficial microbes. Mol. Plant Microbe Interact. 2012;25:139–150. doi: 10.1094/MPMI-06-11-0179.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+88.
+Millet Y.A., Danna C.H., Clay N.K., Songnuan W., Simon M.D., Werck-Reichhart D., Ausubel F.M. Innate immune responses activated in Arabidopsis roots by microbe-associated molecular patterns. Plant Cell. 2010;22:973–990. doi: 10.1105/tpc.109.069658.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+89.
+Van der Ent S., van Wees S.C., Pieterse C.M. Jasmonate signaling in plant interactions with resistance-inducing beneficial microbes. Phytochemistry. 2009;70:1581–1588. doi: 10.1016/j.phytochem.2009.06.009.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+90.
+Porterfield D.M. Astroculture root metabolism and cytochemical analysis. Adv. Space Res. 2000;26:315–318. doi: 10.1016/S0273-1177(99)00578-5.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+91.
+Heinse R., Jones S.B., Steinberg S.L., Tuller M., Or D. Measurements and modeling of variable gravity effects on water distribution and flow in unsaturated ourous media. Vadose Zone J. 2007;6:713–724. doi: 10.2136/vzj2006.0105.
+[
+DOI
+] [
+Google Scholar
+]
+92.
+Stutte G.W., Monje O., Goins G.D., Tripathy B.C. Microgravity effects on thylakoid, single leaf, and whole canopy photosynthesis of dwarf wheat. Planta. 2005;223:46–56. doi: 10.1007/s00425-005-0066-2.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+93.
+Paul A.L., Wheeler R.M., Levine H.G., Ferl R.J. Fundamental plant biology enabled by the space shuttle. Am. J. Bot. 2013;100:226–234. doi: 10.3732/ajb.1200338.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+94.
+Croxdale J., Cook M., Tibbitts T.W., Brown C.S., Wheeler R.M. Structure of potato tubers formed during spaceflight. J. Exp. Bot. 1997;48:2037–2043. doi: 10.1093/jexbot/48.317.2037.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+95.
+Paul A.L., Daugherty C.J., Bihn E.A., Chapman D.K., Norwood K.L., Ferl R.J. Transgene expression patterns indicate that spaceflight affects stress signal perception and transduction in arabidopsis. Plant Physiol. 2001;126:613–621. doi: 10.1104/pp.126.2.613.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+96.
+Ryba-White M., Nedukha O., Hilaire E., Guikema J.A., Kordyum E., Leach J.E. Growth in microgravity increases susceptibility of soybean to a fungal pathogen. Plant Cell Phyiol. 2001;42:657–664. doi: 10.1093/pcp/pce082.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+97.
+Bingham G.E., Podolsky I.G., Topham T.S., Mullholland J.M.  Lada: The ISS Plant Substrate Microgravity Testbed. Society of Automotive Engineers (SAE); Warrendale, PA, USA: 2002.  SAE Technical Paper, No. 2002-01-187.
+[
+Google Scholar
+]
+98.
+Hummerick M.E., Garland J., Bingham G.E., Sychev V.N., Podolsky I.G. Microbiological analysis of Lada vegetable units (VPU) to define critical control points and procedures to endure the safety of space grown vegetables; Proceedings of the Internaitonal Conference on Environmental Systems; Barcelona, Spain. 11–15 July 2010;  Volume AIAA-2010–6253.
+[
+Google Scholar
+]
+99.
+Wheeler R.M., Mackowiak C.L., Yorio N.C., Sager J.C. Effects of CO2 on stomatal conductance: Do stomata open at very high CO2 concentrations? Ann. Bot. 1999;83:234–251. doi: 10.1006/anbo.1998.0813.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+100.
+Kaplan F., Zhao W., Richards J.T., Wheeler R.M., Guy C.L., Levine L.H. Transcriptional and metabolic insights into the differential physiological responses of Arabidopsis to optimal and supraoptimal atmospheric CO2. PLoS One. 2012;7:e43583. doi: 10.1371/journal.pone.0043583.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+101.
+Bishop D.L., Levine H.G., Kropp B.R., Anderson A.J. Seedborne fungal contamination: Consequences in space-grown wheat. Phytopathology. 1997;87:1125–1133. doi: 10.1094/PHYTO.1997.87.11.1125.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+102.
+Nedukha E.M. Possible mechanisms of plant cell wall changes at microgravity. Adv. Space Res. 1996;17:37–45. doi: 10.1016/0273-1177(95)00610-Q.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+103.
+Urban J.E., Gerren R., Zoelle J. Effets of microgravity on the binding of acetylsalicylic acid by Rhizobium leguminosarum bv. trifolii. Acta Astronaut. 1995;36:129–133. doi: 10.1016/0094-5765(95)00047-4.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+104.
+Oke V., Long S.R. Bacterial genes induced within the nodule during the Rhizobium-legume symbiosis. Mol. Microbiol. 1999;32:837–849. doi: 10.1046/j.1365-2958.1999.01402.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+105.
+National Research Council  . In: Recapturing a Future for Space Exploration; Life and Physical Sciences Research for a New Era. Council N.R., editor. The National Academies Press; Washington, DC, USA: 2011.
+[
+Google Scholar
+]
+106.
+Bosch T.C.G., McFall-Ngai M.J. Metaorganisms as the new frontier. Zoology. 2011;114:185–190. doi: 10.1016/j.zool.2011.04.001.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+107.
+Liu L., Chen X., Skogerbo G., Zhang P., Chen R., He S., Huang D.W. The human microbiome: A hot spot of microbial horizontal gene transfer. Genomics. 2012;100:265–270. doi: 10.1016/j.ygeno.2012.07.012.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Articles from Life : Open Access Journal are provided here courtesy of
+Multidisciplinary Digital Publishing Institute  (MDPI)

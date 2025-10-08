@@ -1,0 +1,4191 @@
+Astrobiology
+. 2017 Nov 1;17(11):1077–1111. doi:
+10.1089/ast.2016.1538
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+ARG1 Functions in the Physiological Adaptation of Undifferentiated Plant Cells to Spaceflight
+Agata K Zupanska
+Agata K Zupanska
+1
+Horticultural Science Department, Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, Florida.
+Find articles by
+Agata K Zupanska
+1
+,
+Eric R Schultz
+Eric R Schultz
+1
+Horticultural Science Department, Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, Florida.
+Find articles by
+Eric R Schultz
+1
+,
+JiQiang Yao
+JiQiang Yao
+2
+Interdisciplinary Center for Biotechnology Research, University of Florida, Gainesville, Florida.
+3
+Present address: Moffitt Cancer Center, Tampa, Florida.
+Find articles by
+JiQiang Yao
+2,
+3
+,
+Natasha J Sng
+Natasha J Sng
+1
+Horticultural Science Department, Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, Florida.
+Find articles by
+Natasha J Sng
+1
+,
+Mingqi Zhou
+Mingqi Zhou
+1
+Horticultural Science Department, Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, Florida.
+Find articles by
+Mingqi Zhou
+1
+,
+Jordan B Callaham
+Jordan B Callaham
+1
+Horticultural Science Department, Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, Florida.
+Find articles by
+Jordan B Callaham
+1
+,
+Robert J Ferl
+Robert J Ferl
+1
+Horticultural Science Department, Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, Florida.
+2
+Interdisciplinary Center for Biotechnology Research, University of Florida, Gainesville, Florida.
+Find articles by
+Robert J Ferl
+1,
+2
+,
+Anna-Lisa Paul
+Anna-Lisa Paul
+1
+Horticultural Science Department, Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, Florida.
+Find articles by
+Anna-Lisa Paul
+1,
+✉
+Author information
+Article notes
+Copyright and License information
+1
+Horticultural Science Department, Program in Plant Molecular and Cellular Biology, University of Florida, Gainesville, Florida.
+2
+Interdisciplinary Center for Biotechnology Research, University of Florida, Gainesville, Florida.
+3
+Present address: Moffitt Cancer Center, Tampa, Florida.
+✉
+Address correspondence to:,
+Anna-Lisa Paul
+,
+University of Florida
+,
+Horticultural Science Department
+,
+Program in Plant Molecular and Cellular Biology
+,
+1301 Fifield Hall
+,
+Gainesville, FL 32611
+E-mail:
+alp@ufl.edu
+✉
+Corresponding author.
+Received 2016 May 17; Accepted 2017 Feb 1; Issue date 2017 Nov 1.
+Copyright 2017, Mary Ann Liebert, Inc.
+PMC Copyright notice
+PMCID: PMC8024390  PMID:
+29088549
+Abstract
+Scientific access to spaceflight and especially the International Space Station has revealed that physiological adaptation to spaceflight is accompanied or enabled by changes in gene expression that significantly alter the transcriptome of cells in spaceflight. A wide range of experiments have shown that plant physiological adaptation to spaceflight involves gene expression changes that alter cell wall and other metabolisms. However, while transcriptome profiling aptly illuminates changes in gene expression that accompany spaceflight adaptation, mutation analysis is required to illuminate key elements required for that adaptation.
+Here we report how transcriptome profiling was used to gain insight into the spaceflight adaptation role of
+Altered response to gravity 1
+(
+Arg1
+), a gene known to affect gravity responses in plants on Earth. The study compared expression profiles of cultured lines of
+Arabidopsis thaliana
+derived from wild-type (WT) cultivar Col-0 to profiles from a knock-out line deficient in the gene encoding ARG1 (ARG1 KO), both on the ground and in space. The cell lines were launched on SpaceX CRS-2 as part of the Cellular Expression Logic (CEL) experiment of the BRIC-17 spaceflight mission. The cultured cell lines were grown within 60 mm Petri plates in Petri Dish Fixation Units (PDFUs) that were housed within the Biological Research In Canisters (BRIC) hardware. Spaceflight samples were fixed on orbit. Differentially expressed genes were identified between the two environments (spaceflight and comparable ground controls) and the two genotypes (WT and ARG1 KO). Each genotype engaged unique genes during physiological adaptation to the spaceflight environment, with little overlap. Most of the genes altered in expression in spaceflight in WT cells were found to be
+Arg1
+-dependent, suggesting a major role for that gene in the physiological adaptation of undifferentiated cells to spaceflight. Key Words: ARG1—Spaceflight—Gene expression—Physiological adaptation—BRIC. Astrobiology 17, 1077–1111.
+1. Introduction
+M
+ost multicellular organisms
+have specialized organs, structures, cells, and signaling pathways dedicated to sensing their environment, such as the gravity-sensing columella cells found in the plant root tip (Sato
+et al.,
+2015
+). However, the ability to sense and physiologically adapt to a new environment is not limited to organisms with specialized cells and organs; undifferentiated plant cells lacking specialization engage a complex response when exposed to an environment without gravity (Paul
+et al.,
+2012
+). Yet the fundamental question of how an undifferentiated cell senses gravity remains unanswered. Microgravity experimentation, enabled by the International Space Station (ISS), can essentially remove the effects of this ubiquitous force that affects all life on Earth and provide unique experimental information about gravity-sensing mechanisms and gravity-based processes, while also describing the physiological changes needed to survive in spaceflight (Rea
+et al.,
+2016
+; Vandenbrink and Kiss,
+2016
+). Understanding the events of physiological adaptation in undifferentiated cells in spaceflight advances fundamental knowledge about how cells recognize the gravity stimulus and provides insight as to how gravity-associated signal transduction occurs within a single cell. Both types of insight enhance our ability to prepare for long-term space exploration.
+Even though undifferentiated cells and single-celled organisms lack specialized organs for gravity sensing, they are indeed able to detect changes in gravity and are affected by the spaceflight environment. In the microgravity of spaceflight, cells adapt by making changes to their metabolism that are guided by, and reflected in, differential gene expression when compared to living on the ground (Salmi and Roux,
+2008
+; Paul
+et al.,
+2012
+; Fengler
+et al.,
+2015
+). Further, undifferentiated cells survive and multiply in space, implying that cells manage to reestablish a favorable physiological equilibrium in microgravity (Paul
+et al.,
+2012
+; Fengler
+et al.,
+2015
+). Individual cells can sense and respond to changes in their gravity environment, but the mechanism by which these signals are received and then transduced is poorly understood. Our work with the response of plants and undifferentiated cell cultures to spaceflight revealed a number of potential molecular constituents that may be involved in gravisensing and adaptation to spaceflight environments. The approach in the present study was to examine patterns of gene expression in undifferentiated cell lines of
+Arabidopsis thaliana
+(Arabidopsis) developed from wild-type Columbia-0 (Col-0) and from Col-0 plants deficient in a known gravity-sensing gene:
+Altered response to gravity 1
+(
+Arg1
+).
+Several reasons contributed to the selection of
+Arg1
+for closer study. Central to the decision was the evidence that
+Arg1
+functions in the early events in gravitropic signal transduction in plant roots (Sedbrook
+et al.,
+1998
+; Blancaflor,
+2013
+). During root gravistimulation, ARG1 helps guide the relocalization of membrane-bound auxin efflux carrier proteins—such as PIN2 and PIN3—to the basal side of the statocytes, which contributes to the establishment of a lateral gradient of auxin across the root cap (Abas
+et al.,
+2006
+; Harrison and Masson,
+2008b
+; Kleine-Vehn
+et al.,
+2010
+). Although this process has not been demonstrated in non-statocyte cells, ARG1 seems to be well positioned for a role in response to gravity in undifferentiated cells as well. Several additional characteristics made
+Arg1
+a particularly interesting subject with regard to undifferentiated cells.
+Arg1
+is expressed throughout the entire plant; it is not a root-specific gene. Further, ARG1 is not localized to plastids and does not appear to be dependent on mechanisms related to amyloplast movement in specialized cells, such as is typified by PGM, another protein linked to gravitropism (Guan
+et al.,
+2003
+; Stanga
+et al.,
+2009
+; Morita and Nakamura,
+2012
+). Since specialized cells are absent in the cell cultures, the apparent ability of ARG1 to contribute to gravity sensing without these specializations reinforced its candidacy. In addition, ARG1 is localized throughout the endosomal/secretory pathway, enabling it to interact with both vesicular trafficking and integral membrane proteins (Boonsirichai
+et al.,
+2003
+). ARG1 localization cycles along the endomembrane system between the plasma membrane and intracellular compartments (Boonsirichai
+et al.,
+2003
+; Stanga
+et al.,
+2009
+); thus ARG1 could play a role in gravisensing based on its association with internal cellular structures in the undifferentiated cells. The highly conserved
+J
+domain at ARG1's N-terminus, a structural hallmark of proteins involved in stress response and signal transduction (Caplan
+et al.,
+1993
+; Kimura
+et al.,
+1995
+), also supports a gravisignaling role for ARG1 in the cell. The
+J
+-domain proteins typically function as molecular co-chaperones by interacting with HSC70 (Young
+et al.,
+2003
+), and the ARG1/HSC70 connection has been made in the TOC complex on the outer chloroplast membrane, where it plays a role in protein transfer (Jouhet and Gray,
+2009
+; Su and Li,
+2010
+). HSC70 isoform HSP70 is induced by spaceflight in several plant systems (reviewed in Schüler
+et al.,
+2015
+), including undifferentiated cells (Paul
+et al.,
+2012
+; Zupanska
+et al.,
+2013
+), strengthening the connection of HSC70 chaperones with gravity sensing and signal transduction. In addition to a
+J
+domain, ARG1 also contains a coiled-coil region in its C-terminus that likely enhances its ability to interact with actin in the cytoskeleton (Sedbrook
+et al.,
+1999
+; Boonsirichai
+et al.,
+2003
+; Harrison and Masson,
+2008a
+). The cytoskeleton is central to many models of single-cell gravity sensing (Ingber,
+1999
+; Vorselen
+et al.,
+2014
+), and actin has been specifically implicated in gravisensing (Kamada
+et al.,
+2005
+; Kwon
+et al.,
+2015
+). Thus ARG1's extensive role in targeted protein distribution, signal transduction, and interaction with cytoskeleton makes it a strong candidate for a role in gravity responses in undifferentiated cells.
+Cell lines from wild-type (WT) Col-0 and an ARG1 knock-out (ARG1 KO) in the same Col-0 background were launched to the ISS for the CEL experiment, which was a component of the Biological Research In Canisters-17 (BRIC-17) payload. The experiments described here compare samples fixed in orbit after growth in space to comparable samples grown in precisely the same hardware on the ground. The focus of the experiment was to evaluate the overall effect of the spaceflight environment on these cells.
+The objective of these experiments was to develop a better understanding of the sensitivity of undifferentiated cells to the spaceflight environment and, in particular, test the effect of removing
+Arg1
+, a gene we hypothesized would be a gene of importance to the adaptive process. The utilization of this mutant also revealed genes important to spaceflight adaptation that would not normally be recognized, as they are not differentially regulated by spaceflight in WT cells. In the case of these genes, the level at which they are expressed on the ground in WT cells is the level that is also required in the physiological adaptation to spaceflight, so no differential expression is seen between ground and spaceflight in WT cells. However, if the expression levels on the ground are altered for these genes, as can be found in a mutant cell line such as ARG1 KO, then the expression levels must be adjusted to the normal WT levels to enable spaceflight adaptation. Thus the altered expression level of these genes is irrelevant for the ground adaptation but is important for the spaceflight adaptation.
+The results of the spaceflight experiment presented here have enhanced our understanding of ARG1's role in adjusting to this novel environment and have also enabled us to look further into the adaptive process engaged by cells lacking specific, differentiated cells and organs for environmental sensing.
+2. Materials and Methods
+2.1. Concept of operations and comparison approach
+When a cell transitions from Earth to orbit, it responds and begins to adjust its metabolism to the stimuli offered by the new environment. In this experiment, the patterns of gene expression established after 10 days of growth in the BRIC hardware were used to illuminate the strategies undifferentiated cells used to physiologically adapt to the spaceflight environment. Microarray gene expression data were analyzed using a two-part approach. First, differentially expressed genes were identified between cells grown in the two environments: spaceflight and the comparable ground controls. The genes identified in this “vertical” comparison reflected physiological adaptation to the spaceflight environment within each genotype. Second, differentially expressed genes were identified between wild-type (WT) and
+arg1
+mutant (ARG1 KO) genotypes. The genes identified in this “horizontal” genotype comparison showed the impact of removing ARG1 from metabolic processes in both the normal ground control environment as well as in the spaceflight environment. Comparing gene expression patterns revealed potential roles for ARG1 in both environments. An overview is shown in
+Fig. 1
+and details of the approach provided below.
+FIG. 1.
+Open in a new tab
+Graphical presentation of the two approaches used in the microarray data analysis. (
+A
+) ARG1 KO and WT mark the gene expression profiles for respective cell samples. Solid arrows represent the direction of comparison of the gene expression profiles. The red box and arrows indicate the first approach for data analysis—differentially expressed genes were identified between cells grown in the two environments: spaceflight and the comparable ground controls. The green box and arrow indicate the first part of the second approach for data analysis—differentially expressed genes were identified between wild-type (WT) and
+arg1
+mutant (ARG1 KO) genotypes on the ground. The blue box and arrow indicate the second part of the second approach for data analysis—differentially expressed genes were identified between wild-type (WT) and
+arg1
+mutant (ARG1 KO) genotypes in spaceflight. (
+B
+) Microarray data comparison groups used to obtain the significantly differentially expressed genes between the samples.
+This first analytical approach involves the typical comparison of the gene expression profiles of spaceflight-grown cells to the ground controls for each of the two cell lines, thereby characterizing the physiological adaptation of each genotype to spaceflight (red box in
+Fig. 1A
+and red arrows in
+1B
+). Genes identified in WT cells contribute to understanding which cellular processes were sensitive to microgravity and spaceflight. If physiological adaptation to spaceflight depends entirely on functional
+Arg1
+, then the ARG1 KO cell line would be in severe decline, and the spaceflight-to-ground gene expression profiles would reflect that stress. If ARG1 is not involved in physiological adaptation to spaceflight, then the spaceflight-to-ground gene expression profiles from ARG1 KO cells would be largely the same as WT. However if ARG1 functions simply as part of the pathways engaged by spaceflight, then the pattern of genes differentially expressed to adapt to spaceflight will differ between WT and the knock-out cell line but retain some degree of overlap.
+The second analytical approach involves the comparison of gene expression profiles between WT and ARG1 KO cells both on the ground and during spaceflight (green and blue box of
+Fig. 1A
+and green and blue arrows of 1B). This approach reveals gene expression differences in the cells adapted to either environment with a disabled
+Arg1
+gene. Since ARG1 has a role in typical cell maintenance, it was likely that the gene expression profiles of ARG1 KO cell culture would differ from WT in the ground environment, as a knock-out cell line would adapt its metabolism to compensate for the absence of the important gene. Since the gene expression patterns on the ground will likely affect the nature of adaptation to spaceflight, it is important to compare the gene expression profiles between the two genotypes of the ground controls (green box of
+Fig. 1A
+and green arrows of
+1B
+).
+Finally, every individual gene engaged in the WT physiological adaptation to spaceflight experiment was examined in the ARG1 KO cells to determine whether the gene was similarly expressed or changed in the knock-out line. If a gene was changed in the same way in both genotypes, then we concluded it was
+Arg1
+independent. However, if a gene was not engaged in the ARG1 KO cells, or was engaged in a different manner than in the WT cells, then the expression of that gene in the WT adaptation to spaceflight was determined to be dependent upon ARG1 function.
+2.1.1. The CEL experiment of BRIC-17
+The CEL experiment setup and organization was a modification of a previous Arabidopsis cell culture experiment in BRIC-16 (Paul
+et al.,
+2012
+). The CEL BRIC-17 experiment was launched on board the Dragon capsule of the SpaceX-2 Commercial Resupply Service (CRS) mission to the ISS on 1 March 2013. The cultured cell lines (both the ground control and the spaceflight samples) were grown within 60 mm Petri plates in Petri Dish Fixation Units (PDFUs) that were housed within the BRIC hardware. The BRIC hardware remains stationary after it is de-stowed from the Dragon Capsule and deployed to the ISS. The BRIC hardware does not have a centrifuge component, nor is it compatible with the limited centrifuge facilities on the ISS, such as the European Modular Cultivation System (EMCS) centrifuge. Additional hardware details and BRIC illustrations can be found in Paul
+et al.
+(
+2012
+). The experiment made a direct comparison of spaceflight-grown cells to those grown as controls on the ground for the purpose of exploring the complete range of effects that spaceflight presents to plant cells, which includes but is not limited to the effects of microgravity.
+Two BRIC containers (A and B) were assigned to CEL within the BRIC-17 payload. Each chamber housed five PDFUs, each PDFU holding one 60 mm Petri plate. In each BRIC container there were two plates with WT cells and three plates with knock-out cells of two genotypes. The exact same PDFU composition was recapitulated in BRIC containers on the ground in the International Space Station Environmental Simulator (ISSES) chamber at Kennedy Space Center (KSC) as ground controls. The ground controls were initiated with a 48 h delay so that the precise temperature environment of the ISS could be recreated for the ground controls in the ISSES chamber. Cells were fixed on the ISS with RNAlater™ (Ambion) on the 10
+th
+day on orbit, and the ground controls were fixed 48 h later. RNAlater fixation was initiated by the crew using an activation tool that moves RNAlater from a storage container in the PDFU into the Petri plate. Twenty four hours after fixation, the entire BRIC was moved to the Minus Eighty-degree Laboratory Freezer for ISS (MELFI), where it resided until cold stowage transport back to Earth within the Dragon capsule. After returning to Earth, the samples were reclaimed at KSC and then transported to the University of Florida laboratories. As described below, the total RNA was extracted from spaceflight samples and corresponding ground control samples and subjected to microarrays. Although the BRIC hardware has virtually no air circulation, no gas exchange, and no light, that hardware configuration is not substantially different from the normal growing conditions of the undifferentiated tissue culture cells, which are typically grown in sealed Petri plates in the dark (Johnson
+et al.,
+2015
+).
+2.2. Tissue culture cell lines
+Arabidopsis callus cultures were established
+de novo
+from well-established plant lines available through The Arabidopsis Information Resource (TAIR,
+www.arabidopsis.org
+) and are indicated below. Each cell line was initiated simultaneously approximately 6 months before launch. Cells derived from hypocotyls were grown and maintained on plates with solid media containing MS salts (4.33 g/L), 3% sucrose (30 g/L), MS vitamins (1 mL of 1000 × solution), 2,4-D (0.3 mL/L), 0.5% agar (5 g/L) and kinetin (0.2 mg/L) until dedifferentiated into callus. The callus cells were then transferred to the standard liquid media containing MS salts (4.33 g/L), 3% sucrose (30 g/L), MS vitamins (1 mL of 1000 × solution) and 2,4-D (0.5 mL/L) and maintained in a sterile continuous cell suspension culture. Two cell lines each of Col-0 ecotype were the subject of this study: WT and
+arg1,
+the latter being a knock-out line generated from the
+ARG1
+T-DNA insertion (SALK_024542C). The
+arg1
+cell line is referred to as ARG1 KO throughout. The SALK line was obtained through TAIR. The SALK mutant line (
+arg1-3
+) is characterized by a T-DNA insertion at position 952 (in an intron). Although the mutated gene can produce a truncated transcript, it is not functional, and
+arg1-3
+is considered a null allele (Gleeson
+et al.,
+2012
+; Zou
+et al.,
+2013
+).
+2.3. Preparation of BRIC-17 CEL cell culture plates
+Liquid suspension cells growing in log phase were transferred to solid media two and a half days prior to turning over the payload in preparation for launch. The liquid media was decanted, the material washed once with fresh liquid media, and then the sample was decanted again. A sterile scoop was used to place about 1 g of cells on the surface of a 60 mm Petri plate (Falcon, Becton Dickinson Labware, Franklin Lakes, USA) that contained 6.5 mL nutrient agar media [MS salts (4.33 g/L), 3% sucrose (30 g/L), MS vitamins, 2,4-D MES buffer (0.5 g/L), 0.8% agar (8 g/L)]. The cells were then dispersed evenly across the surface. All plate manipulations were conducted under sterile conditions in a laminar flow hood to ensure sterility of both the interior and exterior of the plates. Plates were put into a sterile Nalgene™ BioTransport Carrier (Thermo Scientific), each layer of plates separated with a sterile non-skid plastic insert. The BioTransporter was then sealed with gas-permeable tape (3M), wrapped in Steri-Wrap™ autoclave wraps (Fisher), and then driven to KSC. The BRIC-17 CEL experiment was turned over to payload engineers in the SSPF (Space Station Processing Facility) at KSC 48 h before the scheduled launch time.
+2.4. RNA extractions
+Total RNA was extracted using Qiashredder and RNAeasy™ kits from QIAGEN (QIAGEN Sciences, MD, USA) according to the manufacturer's instructions. Residual DNA was removed by performing an on-column digestion using an RNase Free DNase (QIAGEN GmbH, Hilden, Germany). Integrity of the RNA was evaluated using the Agilent 2100 BioAnalyzer (Agilent Technologies, Santa Clara, CA, USA).
+2.5. Microarrays
+cDNA was synthesized using Ovation Pico WTA System (NuGEN Technologies, Inc.), and cDNA was labeled using Encore Biotin Module (NuGEN Technologies, Inc.). Amplified and labeled cDNA (5 μg/sample) was fragmented and hybridized with rotation onto Affymetrix GeneChip Arabidopsis ATH1 Genome Arrays for 16 h at 45°C. Arrays were washed on a Fluidics Station 450 (Affymetrix) with the Hybridization Wash and Stain Kit (Affymetrix) and the Washing Procedure FS450_0004. Scanning was performed using Affymetrix GeneChip Scanner 3000 7G. For both spaceflight and ground control, five plates of WT and four plates of ARG1 KO were analyzed as biological replicates.
+2.5.1. Microarrays data analysis
+Affymetrix Expression Console Software (Version 1.3) was used to generate .CEL files for each RNA hybridization. All analysis was performed in R 3.0.0 and Bioconductor version 2.12 (R Development Core Team, 2012). Background adjustment, summarization, and quantile normalization were performed using Limma package (Smyth,
+2004
+). Normalization was made using the Affymetrix MAS 5.0 normalization algorithm (Hubbell
+et al.,
+2002
+). Data quality was assessed using the arrayQualityMetrics package and various QC charts (Density & Intensity plot, NUSE, RLE, and RNA Degradation Plot). Probes that had absent signals in all samples were removed. For each replicate array, each probe-set signal value from spaceflight samples was compared to the probe-set signal value of ground control samples to give gene expression ratios. Differentially expressed genes were identified using the Limma package with a Benjamini and Hochberg false discovery rate multiple testing correction. Genes were considered as differentially expressed with stringent criteria at
+p
+value <0.01, abs Fold Change >2 (−1 < FC log2 > +1; labeled as log2 Fold Change) unless stated otherwise.
+The microarray data are publicly available from Gene Expression Omnibus (GEO) of the National Center for Biotechnology Information (NCBI) data repository under accession number
+GSE81442
+.
+2.5.2. Comparison groups
+The groups outlined in the concept of operations and comparisons were established and abbreviated with combination of two capital letters and a short version of the cell line name in superscript (
+Fig. 1B
+). Letters are as follows: G for ground control, F for spaceflight; superscripts are Wt for WT cells, Arg for ARG1 KO cells.
+2.6. Functional gene categorization, Gene Ontology annotations
+Gene function was annotated by associations of controlled vocabularies or keywords to data objects (Gene Ontology, GO). Multiple GO toolkits of this controlled vocabulary system were used to collect annotations of gene function. Various lists of gene names were created, and enrichment GO terms were searched after statistical tests from precalculated backgrounds. All three aspects of gene products (molecular function, biological process, and subcellular location) described by GO-controlled vocabularies were considered. A significance level of 0.05 and five genes as minimum number of mapping entries were implemented for the analysis parameters in the following tools.
+AgriGO
+: An integrated web-based GO analysis toolkit for the agricultural community AgriGO was used (Du
+et al.,
+2010
+). AgriGO query criteria were as follows: Singular Enrichment Analysis (SEA), Arabidopsis gene model (TAIR9) precomputed background, Fisher was selected as a statistical test method of choice with NOT-adjust multi-test adjustment method, Significance level was set at 0.01 or 0.05, Minimum number of mapping of entries was set at five, Plant GO slim was selected from other GO types. The Benjamini-Hochberg adjusted
+p
+value (FDR) was calculated manually using R function on the significant GO terms. For Parametric Analysis of Gene Set Enrichment (PAGE), selected species was
+Arabidopsis thaliana
+, NOT-adjust was selected for multitest adjustment method, significance level was set at 0.05, Minimum number of mapping of entries was set at 10, and Plant GO slim was selected from other GO types.
+AmiGO:
+If needed, the GO database was accessed through the AmiGO query tool.
+ATTED-II:
+ATTED-II database of coexpressed genes developed to identify functionally related genes in Arabidopsis was also used (Obayashi
+et al.,
+2009
+). Making gene function table function was implemented to retrieve organized information on gene function (based on TAIR annotation) and subcellular localization (as predicted by TargetP and WOLF PSORT).
+gProfiler:
+A web-based toolset for functional profiling of gene lists was used.
+Arabidopsis thaliana
+was a selected organism with most of the default options except the Benjamini-Hochberg FDR significance threshold was selected (Reimand
+et al.,
+2007
+).
+2.7. Real quantitative reverse transcription–polymerase chain reaction, RT-qPCR
+The total RNA (850 ng) was reverse transcribed into cDNA using High Capacity RNA to cDNA Master Mix (Applied Biosystems, Foster City, CA, USA). One-tenth of total cDNA was used as a template for a single RT-qPCR run. RT-qPCR was carried out using TaqMan™ technology on the ABI 7500 Fast instrument (Applied Biosystems, Foster City, CA, USA). The TaqMan™ Fast Advanced Master Mix (Applied Biosystems, Foster City, CA, USA) reagent was used for the duplex RT-qPCR reaction with 6FAM and VIC-dye labeled, TAMRA-quenched probes. In all reactions the Ubq11 (At4g05050) served as an internal control. Each duplex PCR mixture contained 900 n
+M
+target gene-specific forward and reverse primers each, 150 n
+M
+Ubq11 forward and reverse primers each, 250 n
+M
+6FAM labeled target gene-specific probe, and 250 n
+M
+VIC-labeled Ubq11 probe. Primers and probes were designed with Primer Express software and supplied by Applied Biosystems. The primers/probes sequences shown as 5′→3′ were as follows:
+Ubq11
+(At4g05050) forward: AACTTGAGGA CGGCAGAACTTT, reverse: GTGATGGTCTTTCCGGTC AAA3, probe: VIC-CAGAAGGAGTCTACGCTTCATTT GGTCTTGC-TAMRA;
+Agp12
+(At3g13520) forward: TCT CCGCCGTAGGAAACGT, reverse: AGCATCGGAAGT AGGACTTGGA, probe: 6FAM-CTGCGCAGACAGAG GCTCCGG-TAMRA;
+Skb1
+(At4g31120) forward: TGATACCTCAGAGGGACTGAATGAT, reverse: GCTTAC TGTCATGCTCACAAAGAAG, probe: 6FAM-CCTGGGA GCTGTGGAATTCGTTTCG-TAMRA;
+HsfA2
+(At2g26150) forward: GGTGTGCTTGTAGCTGAGGTAGTTAG, reverse: TGCTCCATAGCTGCAACTTGA, probe: 6FAM-TTGAGGCAACAGCAACACAGCTCCA-TAMRA.
+Real quantitative reverse transcription–polymerase chain reaction was performed as reported previously. Briefly, the thermal cycling program consisted of 20 s at 95°C, followed by 40 cycles of 3 s at 95°C, and 30 s at 59°C. Reactions were quantified by threshold cycle, Ct. Primers and probe sets were first subjected to validation experiments to test the efficiency of the target and reference amplifications. The Ct values for respective number of biological replicas of each experimental group (treated, control) were analyzed using 7500 Software v2.0.5 along with Microsoft Excel and the comparative CT(ΔΔCT) method. The ΔCt was calculated as the difference between the threshold cycle value of a target gene and that of Ubq11 (endogenous control) in the same sample, while ΔΔCt was calculated as the difference between the ΔCt value of a treated sample and that of the control (calibrator). The fold difference of the target gene expression in treated samples relative to control samples (calibrator) was calculated as 2^(–ΔΔCt) and then log2-transformed.
+3. Results
+Microarray gene expression data were analyzed using a two-part comparative approach. First, differentially expressed genes were identified between the two environments: spaceflight cells and comparable ground controls, which reflected the physiological adaptation to the spaceflight environment. Second, differentially expressed genes were identified between the two genotypes: WT and ARG1 KO cells, which provide a comparison of cell responses in spaceflight and on the ground.
+Figure 1A and 1B
+illustrates the matrix that was used to compare the two genotypes and two environmental conditions of this experiment: Ground Control WT (
+G
+Wt
+), Ground Control ARG1 KO (
+G
+Arg
+), Spaceflight WT (
+F
+Wt
+), and Spaceflight ARG1 KO (
+F
+Arg
+). The specifics of each comparison follow.
+3.1. The
+Arg1
+expression across samples
+The
+Arg1
+transcript level in the ARG1 KO cells is substantially lower (6.4-fold) than in WT cells; however, this difference did not register as statistically significant. The average raw transcript of the
+Arg1
+gene in the four biological replicates of the WT ground control cells is 307, whereas the average raw
+Arg1
+transcript in the three biological replicas of the ARG1 KO ground control cells is 48. The value from the ARG1 KO cells was derived from three replicate values that were sufficiently dissimilar (80, 11, 53) as to be scored as not statistically valid.
+There was virtually no difference in
+Arg1
+transcript levels between the ground and the spaceflight samples in either WT cells or ARG1 KO cells. The average raw transcript level of
+Arg1
+in the four biological replicas of the WT spaceflight cells was 313 compared to that expression in WT cells on the ground, 307 (
+Supplementary Fig. S1
+; Supplementary Data are available at
+http://online.liebertpub.com/doi/suppl/10.1089/ast.2016.1538
+). The average raw
+Arg1
+gene expression in the three biological replicas of the ARG1 KO spaceflight cells was 25 compared to 48 in ARG1 KO cells on the ground.
+Although
+Arg1
+transcription itself does not appear to be influenced by the spaceflight environment, the impact of removing a functional
+Arg1
+gene has a dramatic effect on the expression patterns of many other genes (see following sections).
+3.2. Differentially expressed genes in all four comparison groups
+3.2.1. Alterations in the expression of 78 genes characterize the physiological adaptation of WT cells to spaceflight—F
+Wt
+: G
+Wt
+The genes involved in physiological adaptation to the spaceflight environment were identified for WT cells by comparing the gene expression profiles in WT spaceflight cells (F
+Wt
+) to WT ground control cells (G
+Wt
+) in the F
+Wt
+: G
+Wt
+group comparison (
+Fig. 1B
+). In that comparison 78 genes were significantly differentially expressed between the two cell treatments at
+p
+value <0.01 and log2 Fold Change >1; 46 genes were upregulated, and 32 genes were downregulated (
+Fig. 2
+;
+Table S1 Gene list 78
+).
+FIG. 2.
+Open in a new tab
+The number of the significantly differentially expressed genes identified in all comparison groups. The color code corresponds to the color of arrows in
+Fig.1
+: red represents the significantly differentially expressed genes of the physiological adaptation to the spaceflight environment, green represents significantly differentially expressed genes of the ground transcriptome, and blue represents significantly differentially expressed genes of the spaceflight transcriptome.
+The functional annotation of the genes of the F
+Wt
+: G
+Wt
+group comparison indicated that genes of the endomembrane system, Golgi apparatus, and plant-type cell wall were highly represented in the WT adaptation to spaceflight. For instance, genes localized to Golgi apparatus were all upregulated in the WT spaceflight cells compared to the ground counterparts (
+e.g.,
+At3g18260 Reticulon family protein; At1g77510 PDIL1-2 PDI-like 1-2 protein disulfide isomerase-like 1-2 localized to the endomembrane system; At4g07960 CSLC12 cellulose-synthase-like C12 and At2g03760 ST1 sulphotransferase 12;
+Table 1
+GO 78;
+Table S1 Gene list 78
+). The defense response group was also highly represented among the Biological Process ontology (gProfiler, TAIR, AgriGO), with pathogen/cell wall–associated genes At3g43250, At2g44490 (
+PEN2
+), and At2g03760 (
+ST1
+) being upregulated.
+Table
+1.
+GO 78
+GO term name
+Ontology
+Transcript ID
+Gene symbol
+Gene description
+F
+Wt
+: G
+Wt
+FC (log2)
+Cellular Component
+endomembrane system GO:0012505
+Golgi apparatus GO:0005794
+At3g18260
+Reticulon family protein
+3.1
+At4g07960
+CSLC12
+Cellulose-synthase-like C12
+1.9
+At1g77510
+PDIL1-2
+PDI-like 1-2 protein disulfide isomerase-like 1-2
+1.2
+At2g03760
+ST1
+sulphotransferase 12
+1.1
+At3g49780
+PSK4
+phytosulfokine 4 precursor
+−1.2
+At2g32720
+CB5-B
+cytochrome B5 isoform B
+−1.5
+At4g36640
+Sec14p-like phosphatidylinositol transfer family protein
+−1.8
+At5g44130
+FLA13
+FASCICLIN-like arabinogalactan protein 13 precursor
+−2.1
+At2g22900
+Galactosyl transferase GMA12/MNN10 family protein
+−2.4
+plant-type cell wall GO:0009505
+AT1G30600
+Subtilase family protein
+2.5
+AT1G78860
+D-mannose binding lectin protein
+1.3
+AT5G44130
+FLA13
+FASCICLIN-like arabinogalactan protein 13 precursor
+−2.1
+Biological Process
+defense response to other organism GO:0098542
+AT5G38980
+unknown
+3.3
+AT3G43250
+Family of unknown function (DUF572)
+2.6
+AT4G02460
+PMS1
+DNA mismatch repair protein, putative
+2.2
+AT2G44490
+PEN2
+Glycosyl hydrolase superfamily protein
+1.4
+AT1G77510
+PDIL1-2
+PDI-like 1-2
+1.2
+AT2G03760
+ST1
+sulphotransferase 12
+1.1
+AT3G60740
+TTN1
+ARM repeat superfamily protein
+−2.2
+regulation of biological process GO:0050789
+regulation of metabolic process GO:0019222
+regulation of cellular metabolic process GO:0031323
+response to stimulus GO:0050896
+AT3G62080
+SNF7 family protein
+2.6
+AT5G48560
+basic helix-loop-helix (bHLH) DNA-binding
+2.4
+AT5G01920
+STN8
+Protein kinase superfamily protein
+2.4
+AT2G46225
+ABIL1
+ABI-1-like 1
+2.2
+AT5G56270
+WRKY2
+WRKY DNA-binding protein 2
+1.9
+AT1G27370
+SPL10
+squamosa promoter binding protein-like 10
+1.7
+AT5G62710
+Leucine-rich repeat protein kinase family protein
+1.4
+AT5G05130
+DNA/RNA helicase protein
+1.1
+AT1G78080
+WIND1
+related to AP2 4
+−1.2
+AT4G36530
+alpha/beta-Hydrolases superfamily protein
+−1.2
+AT1G78980
+SRF5
+STRUBBELIG-receptor family 5
+−2.4
+AT2G35530
+bZIP16
+basic region/leucine zipper transcription factor 16
+−2.7
+AT4G21380
+RK3
+receptor kinase 3
+−2.9
+AT5G07580
+Integrase-type DNA-binding superfamily protein
+−3.3
+Open in a new tab
+The significant GO terms assigned with AgriGO and gProfiler to 78 genes of the physiological adaptation to the spaceflight environment in WT cells. Gene duplicates within oncology were removed and assigned to the most specific available GO term class.
+3.2.2. Cells lacking functional
+Arg1
+changed the expression of 130 genes to adapt to spaceflight, and those genes were fundamentally different than those of WT cells—F
+Arg
+: G
+Arg
+The genes involved in physiological adaptation to the spaceflight environment were identified for ARG1 KO cells by comparing the gene expression profiles in ARG1 KO spaceflight cells (F
+Arg
+) to ARG1 KO ground control cells (G
+Arg
+) in the F
+Arg
+: G
+Arg
+group comparison of (
+Fig. 1B
+). There were 130 genes significantly differentially expressed between spaceflight and ground control at
+p
+value <0.01 and log2 Fold Change >1; 68 genes were upregulated, and 62 genes were downregulated (
+Fig. 2
+;
+Table S2 Gene list 130
+).
+The functional annotation of the genes of the F
+Arg
+: G
+Arg
+group comparison indicated that physiological adaptation of the ARG1 KO cells relied on metabolic processes distinct from those used in WT cells. Genes of the cell periphery from the GO Cellular Components category, response to hormone and response to lipid, and xyloglucan metabolic process of the GO Biological Processes, and transporter activity from the GO Molecular Function categories, were highly represented among the genes ARG1 KO cells differentially expressed to adapt to spaceflight. For example, three genes of the cell wall–related xyloglucan metabolic processes (At1g68560 XYL1 alpha-xylosidase 1; At4g03210 XTH9 xyloglucan endotransglucosylase/hydrolase 9 and At2g06850 XTH4 xyloglucan endotransglucosylase/hydrolase 4) were substantially downregulated in spaceflight ARG1 KO cells (
+Table S2 Gene list 130
+;
+Table 2
+GO 130), whereas cell wall–associated genes were upregulated in WT cells. Genes encoding cellular transporters were generally upregulated in ARG KO as compared to their ground counterparts' cells; examples include At1g80510 Transmembrane amino acid transporter family protein, At2g38330 MATE efflux family protein, At2g36830 TIP1;1 gamma tonoplast intrinsic protein, At1g63440 HMA5 heavy metal ATPase 5, At3g14770 SWEET2 Nodulin MtN3 family protein, At3g05030 NHX2 sodium hydrogen exchanger 2, and At1g72700, a E1-E2 type ATPase family.
+Table
+2.
+GO 130
+GO term name
+Ontology
+Transcript ID
+Gene symbol
+Gene description
+F
+Arg
+: G
+Arg
+FC (log2)
+Cellular Component
+cell periphery GO:0071944
+At1g32950
+Subtilase family protein
+3.3
+At1g11690
+3.3
+At1g03920
+Protein kinase family protein
+2.9
+At1g80510
+Transmembrane amino acid transporter family protein
+2.8
+At3g07320
+O-Glycosyl hydrolases family 17 protein
+2.8
+At4g12770
+Chaperone DnaJ-domain superfamily protein
+2.4
+At2g38330
+MATE efflux family protein
+1.7
+At5g24970
+Protein kinase superfamily protein
+1.6
+At1g63440
+HMA5
+heavy metal atpase 5
+1.4
+At3g14770
+SWEET2
+Nodulin MtN3 family protein
+1.4
+At5g20280
+SPSA1
+sucrose phosphate synthase 1F
+1.2
+At3g05030
+NHX2
+sodium hydrogen exchanger 2
+1.2
+At1g78820
+D-mannose binding lectin protein with Apple-like
+1.2
+At3g20410
+CPK9
+calmodulin-domain protein kinase 9
+1.0
+At3g13520
+ATAGP12
+arabinogalactan protein 12
+−1.0
+At1g60740
+Thioredoxin superfamily protein
+−1.0
+At4g08950
+EXO
+Phosphate-responsive 1 family protein
+−1.1
+At5g65390
+AGP7
+arabinogalactan protein 7
+−1.2
+At1g68560
+XYL1
+alpha-xylosidase 1
+−1.2
+At5g15350
+ENODL17
+early nodulin-like protein 17
+−1.2
+At5g12140
+CYS1
+cystatin-1
+−1.3
+At1g12950
+RSH2
+root hair specific 2
+−1.5
+At5g14920
+Gibberellin-regulated family protein
+−1.6
+At4g03210
+XTH9
+xyloglucan endotransglucosylase/hydrolase 9
+−1.9
+At2g06850
+XTH4
+xyloglucan endotransglucosylase/hydrolase 4
+−1.9
+At5g03280
+PIR2
+NRAMP metal ion transporter family protein
+−2.1
+At3g23810
+SAHH2
+S-adenosyl-L-homocysteine (SAH) hydrolase 2
+−2.9
+At3g60270
+Cupredoxin superfamily protein
+−3.2
+At1g22710
+SUT1
+sucrose-proton symporter 2
+−3.3
+Biological Process
+response to hormone GO:0009725
+response to lipid GO:0033993
+At2g39540
+Gibberellin-regulated family protein
+2.7
+At1g03060
+SPI
+Beige/BEACH domain; WD domain, G-beta repeat protein
+2.4
+At1g29395
+COR414-TM1
+COLD REGULATED 314 INNER MEMBRANE 1
+2.4
+At4g37580
+UNS2
+Acyl-CoA N-acyltransferases (NAT) superfamily protein
+2.3
+At2g43010
+SRL2
+phytochrome interacting factor 4
+2.0
+At2g36830
+TIP1;1
+gamma tonoplast intrinsic protein
+1.6
+At4g08950
+EXO
+Phosphate-responsive 1 family protein
+−1.1
+At3g16570
+RALF23
+rapid alkalinization factor 23
+−1.2
+At3g10520
+NSHB2
+haemoglobin 2
+−1.4
+At1g69690
+TCP15
+TCP family transcription factor
+−1.4
+At1g12950
+RSH2
+root hair specific 2
+−1.5
+At5g14920
+Gibberellin-regulated family protein
+−1.6
+At5g03280
+PIR2
+NRAMP metal ion transporter family protein
+−2.1
+xyloglucan metabolic process GO:0010411
+At1g68560
+XYL1
+alpha-xylosidase 1
+−1.2
+At4g03210
+XTH9
+xyloglucan endotransglucosylase/hydrolase 9
+−1.9
+At2g06850
+XTH4
+xyloglucan endotransglucosylase/hydrolase 4
+−1.9
+Molecular Function
+transporter activity GO:0005215
+At1g80510
+Transmembrane amino acid transporter family protein
+2.8
+At2g38330
+MATE efflux family protein
+1.7
+At2g36830
+TIP1;1
+gamma tonoplast intrinsic protein
+1.6
+At5g66650
+Protein of unknown function (DUF607)
+1.6
+At1g63440
+HMA5
+heavy metal atpase 5
+1.4
+At3g14770
+SWEET2
+Nodulin MtN3 family protein
+1.4
+At3g05030
+NHX2
+sodium hydrogen exchanger 2
+1.2
+At1g72700
+ATPase E1-E2 type family protein / haloacid dehalogenase-like hydrolase family protein
+1.1
+At3g10520
+NSHB2
+haemoglobin 2
+−1.4
+At1g12950
+RSH2
+root hair specific 2
+−1.5
+At5g03280
+PIR2
+NRAMP metal ion transporter family protein
+−2.1
+At2g26900
+BASS2
+Sodium Bile acid symporter family
+−2.9
+At1g22710
+SUT1
+sucrose-proton symporter 2
+−3.3
+Open in a new tab
+The significant GO terms assigned with AgriGO and gProfiler to 130 genes of the physiological adaptation to the spaceflight environment in ARG1 KO cells. Gene duplicates within oncology were removed and assigned to the most specific available GO term class.
+3.2.3 Comparison of the gene expression profiles between the ARG1 KO and WT cells shows unique genotype-specific expression patterns—G
+Arg
+: G
+Wt
+Comparisons between ARG1 KO and WT transcriptomes within each environment show unique genotype-specific expression patterns. The genes differentially expressed in the ground transcriptomes between ARG1 KO cells and WT cells were identified by comparing the gene expression profiles in ARG1 KO ground cells (G
+Arg
+) to WT ground control cells (G
+Wt
+) in the G
+Arg
+: G
+Wt
+group comparison of
+Fig. 1B
+. The 90 genes were differentially expressed due to the
+Arg1
+mutation on the ground with approximately as many genes upregulated (39) as downregulated (51) (
+Fig. 2
+;
+Table S3 Gene list 90
+).
+Many genes with adjusted expression to the
+Arg1
+mutation on the ground classified as plasma membrane, membrane, and cell periphery Cellular Component ontology (gProfiler). For instance, genes At2g44490 PEN2 Glycosyl hydrolase superfamily protein localized to the membrane and participating in the defense response and At4g40070 RING/U-box superfamily protein localized to the extracellular region were upregulated. On the other hand, genes At4g30660 Low temperature and salt responsive, At2g36830 TIP1;1 gamma tonoplast intrinsic protein, At3g26830 PAD3 PHYTOALEXIN DEFICIENT 3 had substantially diminished expression level in ARG1 KO cells on the ground than WT cells (
+Table 3
+GO 90;
+Table S3 Gene list 90
+). The heterocycle metabolic process and organelle organization were among the Biological Process ontology terms represented by genes affected by
+Arg1
+mutation on the ground. For instance, genes At5g39500 GNL1 GNOM-like 1 participating in the ER body organization, endocytosis and the retrograde vesicle-mediated transport, Golgi to ER, chromosome maintenance genes At4g02060 PRL Minichromosome maintenance (MCM2/3/5) family protein, and At5g48600 SMC3 structural maintenance of chromosome 3 had diminished expression on the ground in ARG1 KO cells relative to WT cells.
+Table
+3.
+GO 90
+GO term name
+Ontology
+Transcript ID
+Gene symbol
+Gene description
+G
+Arg
+: G
+Wt
+FC (log2)
+Cellular Component
+plasma membrane GO:0005886
+At3g24840
+Sec14p-like phosphatidylinositol transfer
+3.1
+At3g60270
+Cupredoxin superfamily protein
+2.8
+At1g55200
+Protein kinase protein with adenine
+2.7
+At5g17980
+C2 calcium/lipid-binding plant
+2.0
+At4g11850
+PLDGAMMA1
+phospholipase D gamma 1
+1.1
+At2g02170
+Remorin family protein
+−1.2
+At5g52440
+HCF106
+Bacterial sec-independent translocation
+−1.2
+At1g03590
+Protein phosphatase 2C family protein
+−1.3
+At5g24970
+Protein kinase superfamily protein
+−1.8
+At2g38330
+MATE efflux family protein
+−1.9
+At3g07320
+O-Glycosyl hydrolases family 17 protein
+−2.2
+At1g73740
+UDP-Glycosyltransferase superfamily protein
+−2.3
+At1g51540
+Galactose oxidase/kelch repeat superfamily
+−2.4
+At2g31010
+Protein kinase superfamily protein
+−2.7
+At5g66490
+unknown
+−2.8
+membrane GO:0016020
+At4g21490
+NDB3
+NAD(P)H dehydrogenase B3
+2.9
+At4g40070
+RING/U-box superfamily protein
+2.4
+At1g13080
+CYP71B2
+cytochrome P450, family 71, subfamily B, polypeptide 2
+1.7
+At2g44490
+PEN2
+Glycosyl hydrolase superfamily protein
+1.4
+At5g57030
+LUT2
+Lycopene beta/epsilon cyclase protein
+1.1
+At5g39500
+GNL1
+GNOM-like 1
+−1.3
+At4g30660
+Low temperature and salt responsive
+−1.5
+At2g36830
+TIP1;1
+gamma tonoplast intrinsic protein
+−1.6
+At1g74680
+Exostosin family protein
+−1.9
+At3g26830
+PAD3
+PHYTOALEXIN DEFICIENT 3, Cytochrome P450 superfamily protein
+−2.6
+At5g04660
+CYP77A4
+cytochrome P450, family 77, subfamily A, polypeptide 4
+−2.8
+cell periphery GO:0071944
+At1g30600
+Subtilase family protein
+2.1
+At1g32950
+Subtilase family protein
+−2.3
+Biological Process
+heterocycle metabolic process GO:0046483
+At3g61970
+NGA2
+AP2/B3-like transcriptional factor family
+2.3
+At1g66550
+WRKY67
+WRKY DNA-binding protein 67
+2.3
+At2g44490
+PEN2
+Glycosyl hydrolase superfamily protein
+1.4
+At2g43500
+Plant regulator RWP-RK family protein
+−1.0
+At2g22540
+SVP
+K-box region and MADS-box transcription
+−1.4
+At5g43810
+ZLL
+Stabilizer of iron transporter SufD /
+−1.5
+At3g57040
+ATRR4
+response regulator 9
+−1.5
+At4g17610
+tRNA/rRNA methyltransferase (SpoU) family
+−1.7
+At2g43010
+SRL2
+phytochrome interacting factor 4
+−1.8
+At1g73740
+UDP-Glycosyltransferase superfamily protein
+−2.3
+At3g26830
+PAD3
+Cytochrome P450 superfamily protein
+−2.6
+At1g66730
+LIG6
+DNA LIGASE 6
+−2.9
+organelle organization GO:0006996
+At2g21800
+EME1A
+essential meiotic endonuclease 1A
+2.4
+At5g39500
+GNL1
+GNOM-like 1
+−1.3
+At4g02060
+PRL
+Minichromosome maintenance (MCM2/3/5)
+−2.3
+At5g48600
+SMC3
+structural maintenance of chromosome 3
+−2.5
+At1g54230
+Winged helix-turn-helix transcription
+−3.1
+At5g63700
+zinc ion binding; DNA binding
+−3.6
+Open in a new tab
+The significant GO terms assigned with AgriGO and gProfiler to 90 genes differentially expressed in the ground transcriptome between WT and ARG1 KO cells. Gene duplicates within oncology were removed and assigned to the most specific available GO term class.
+3.2.4. Comparison of the gene expression profiles between ARG1 KO and WT genotypes during spaceflight shows unique genotype-specific expression patterns—F
+Arg
+: F
+Wt
+The genes differentially expressed between ARG1 KO cells and WT cells in the spaceflight environment were identified by comparing the gene expression profiles in ARG1 KO spaceflight cells (F
+Arg
+) to WT spaceflight cells (F
+Wt
+) in the F
+Arg
+: F
+Wt
+group comparison (
+Fig. 1B
+). There were 107 genes significantly differentially expressed between ARG1 KO and WT cell samples in spaceflight (
+Fig. 2
+). Nearly half the genes were upregulated in ARG1 KO cells in spaceflight and half downregulated as compared to WT cells in spaceflight (
+Table S4 Gene list 107
+).
+Many genes differentially expressed between the WT and ARG1 KO cells in spaceflight were classified in GO Biological Processes ontology (gProfiler, AgriGO) as transport and establishment of localization, developmental, and xyloglucan metabolic processes (
+Table 4
+GO 107;
+Table S4 Gene list 107
+). Interestingly, the genes related to transport processes (At4g37640 ACA2 calcium ATPase 2, At2g01980 SOS1 sodium proton exchanger, At5g49500 SRP54 Signal recognition particle, At5g03280 PIR2 NRAMP metal ion transporter, At4g35410 Clathrin adaptor complex, At2g26900 BASS2 Sodium Bile acid symporter, and At1g22710 SUT1 sucrose-proton symporter 2) all showed much reduced expression in spaceflight in ARG1 KO cells as compared to WT cells. Similarly, all four genes associated with the xyloglucan metabolic process (At1g68560 XYL1 alpha-xylosidase 1, At4g03210 XTH9 xyloglucan endotransglucosylase/hydrolase 9, At1g11545 XTH8, and At2g06850 XTH4) were also significantly diminished in the spaceflight ARG1 KO cells compared to the spaceflight WT cells. Finally, 14 genes out of 15 representing the transporter activity term of the Molecular Function ontology were also under-expressed in ARG1 KO spaceflight cells as compared to WT spaceflight cells (
+Table S4 Gene list 107
+).
+Table
+4.
+GO 107
+GO term name
+Ontology
+Transcript ID
+Gene symbol
+Gene description
+F
+Arg
+: F
+Wt
+FC (log2)
+Biological Process
+transport GO:0006810
+establishment of localization GO:0051234
+At5g56230
+PRA1.G2
+prenylated RAB acceptor 1.G2
+2.5
+At1g80900
+MRS2-10
+magnesium transporter 1
+2.4
+At1g77210
+STP14
+sugar transporter 14
+2.2
+At2g43240
+Nucleotide-sugar transporter family protein
+1.3
+At4g37640
+ACA2
+calcium ATPase 2
+−1.7
+At2g01980
+SOS1
+sodium proton exchanger, putative (NHX7) (SOS1)
+−1.8
+At5g49500
+Signal recognition particle, SRP54 subunit protein
+−1.8
+At5g03280
+PIR2
+NRAMP metal ion transporter family protein
+−1.8
+At4g35410
+Clathrin adaptor complex small chain family protein
+−2.1
+At2g26900
+BASS2
+Sodium Bile acid symporter family
+−2.9
+At1g22710
+SUT1
+sucrose-proton symporter 2
+−2.9
+developmental process GO:0032502
+At2g16970
+MEE15
+Major facilitator superfamily protein
+2.4
+At4g01500
+NGA4
+AP2/B3-like transcriptional factor family protein
+1.5
+At3g48360
+BT2
+BTB and TAZ domain protein 2
+1.1
+At3g49780
+PSK4
+phytosulfokine 4 precursor
+1.0
+At5g66700
+HB53
+homeobox 53
+−1.0
+At4g37650
+SHR
+GRAS family transcription factor
+−1.5
+At2g46920
+POL
+Protein phosphatase 2C family protein
+−2.4
+xyloglucan metabolic process GO:0010411
+At1g68560
+XYL1
+alpha-xylosidase 1
+−1.4
+At4g03210
+XTH9
+xyloglucan endotransglucosylase/hydrolase 9
+−1.4
+At1g11545
+XTH8
+xyloglucan endotransglucosylase/hydrolase 8
+−2.0
+At2g06850
+XTH4
+xyloglucan endotransglucosylase/hydrolase 4
+−2.0
+Molecular Function
+transporter activity GO:0005215
+At1g78980
+SRF5
+STRUBBELIG-receptor family 5
+2.6
+At4g03210
+XTH9
+xyloglucan endotransglucosylase/hydrolase 9
+−1.4
+At1g32070
+NSI
+nuclear shuttle interacting
+−1.4
+At4g22530
+S-adenosyl-L-methionine-dependent methyltransferases superfamily protein
+−1.4
+At1g68020
+TPS6
+UDP-Glycosyltransferase / trehalose-phosphatase family protein
+−1.6
+At2g05990
+MOD1
+NAD(P)-binding Rossmann-fold superfamily protein
+−2.0
+At1g11545
+XTH8
+xyloglucan endotransglucosylase/hydrolase 8
+−2.0
+At2g06850
+XTH4
+xyloglucan endotransglucosylase/hydrolase 4
+−2.0
+At3g61990
+OMTF3
+S-adenosyl-L-methionine-dependent methyltransferases superfamily protein
+−2.1
+At3g20540
+PolIB
+polymerase gamma 1
+−2.3
+At1g22370
+UGT85A5
+UDP-glucosyl transferase 85A5
+−2.3
+At4g35150
+O-methyltransferase family protein
+−2.3
+At2g15090
+KCS8
+3-ketoacyl-CoA synthase 8
+−2.5
+At5g02410
+ALG10
+DIE2/ALG10 family
+−3.0
+At5g26780
+SHM2
+serine hydroxymethyltransferase 2
+−3.0
+Open in a new tab
+The significant GO terms assigned with AgriGO and gProfiler to 107 genes differentially expressed in the spaceflight transcriptome between WT and ARG1 KO cells. Gene duplicates within oncology were removed and assigned to the most specific available GO term class.
+3.3. Physiological adaptation to spaceflight of ARG1 KO cells is fundamentally different from WT cells—comparing F
+Wt
+: G
+Wt
+to F
+Arg
+: G
+Arg
+Most of the genes engaged in the physiological adaptation to spaceflight in ARG1 KO cells were fundamentally different than those engaged in WT cells. When the 130 genes differentially expressed in the F
+Arg
+: G
+Arg
+group comparison were compared to the 78 genes differentially expressed in the F
+Wt
+: G
+Wt
+group comparison, only three genes changed in the exact same way: At3g08590 putative 2,3-bisphosphoglycerate-independent phosphoglycerate mutase, At3g30843 hypothetical protein, and At5g56270 transcription factor WRKY2 (
+Fig. 2
+,
+Table S1 Gene list 78
+and
+Table S2 Gene list 130
+). These three genes, therefore, constitute the only genes of the WT response that are totally independent of ARG1 function. The remaining 127 genes of the ARG1 adaptation to the spaceflight environment constitute an adaptation unique to the ARG1 KO genotype.
+3.4. The gene expression patterns on the ground play a fundamental role in the gene expression patterns of spaceflight—comparing G
+Arg
+: G
+Wt
+The information about the expression pattern of the 90 genes differentially expressed on the ground between the WT and ARG1 KO cells, G
+Arg
+: G
+Wt
+, was assessed in all other comparison groups: the physiological adaptation to spaceflight in WT cells, F
+Wt
+: G
+Wt
+, the physiological adaptation to spaceflight in ARG1 KO cells, F
+Arg
+: G
+Arg
+, and between genotypes in spaceflight, F
+Arg
+: F
+Wt
+(
+Fig. 3
+).
+FIG. 3.
+Open in a new tab
+Heat map visualizing the expression patterns of the 90 differentially expressed genes in the ground transcriptome between the WT and ARG1 KO cells (G
+Arg
+: G
+Wt
+) as arranged into Categories I–III by the expression profiles in four comparison groups (G
+Arg
+: G
+Wt
+, F
+Wt
+: G
+Wt
+, F
+Arg
+: G
+Arg
+, F
+Arg
+: F
+Wt
+).
+Category I
+Corrected
+—25 genes differentially expressed in the ground transcriptome engaged in the ARG1 KO in the physiological adaptation to the spaceflight to match the WT expression level in the spaceflight transcriptome. These genes showed differential expression in G
+Arg
+: G
+Wt
+, no differential expression in F
+Wt
+: G
+Wt
+, differential expression in F
+Arg
+: G
+Arg
+, and no differential expression in F
+Arg
+: F
+Wt
+.
+Category II
+Required
+—12 genes differentially expressed in the ground transcriptome at the level required for the spaceflight transcriptome, engaged in the physiological adaptation to spaceflight in WT cells, were not differentially expressed in the spaceflight transcriptome between WT and ARG1 KO cells; these genes showed differential expression in G
+Arg
+: G
+Wt
+, differential expression in F
+Wt
+: G
+Wt
+, no differential expression in F
+Arg
+: G
+Arg
+, and no differential expression in F
+Arg
+: F
+Wt
+.
+Category III—53 genes showed significant differential expression in the ground transcriptome (G
+Arg
+: G
+Wt
+) alone. These genes showed differential expression in G
+Arg
+: G
+Wt
+, no differential expression in F
+Wt
+: G
+Wt
+, no differential expression in F
+Arg
+: G
+Arg
+, and no differential expression in F
+Arg
+: F
+Wt
+.
+The 25 genes of the 90 (G
+Arg
+: G
+Wt
+) showed significantly differential expression in the physiological adaptation to spaceflight in ARG1 KO cells, F
+Arg
+: G
+Arg
+, but no significant differential expression in WT cells, F
+Wt
+: G
+Wt
+(
+Fig. 3
+, Category I). Thus the ARG1 KO cells corrected the expression of those genes as they adapted to spaceflight, apparently to reestablish the WT level of expression that is needed in that environment. These genes included, for example, At1g32950 (Subtilase genes commonly associated with plant defense and cell wall metabolism) and At2g36830 (TIP1;1 gamma tonoplast intrinsic protein) (
+Table 5
+GO
+Fig. 3
+;
+Table S5 Gene list Fig. 3
+).
+Table
+5.
+GO Fig. 3
+GO term name
+Characteristics
+Ontology
+Transcript ID
+Gene symbol
+Gene description
+G
+Arg
+: G
+W
+FC (log2)
+F
+Arg
+: G
+Arg
+FC (log2)
+Figure 3, Category I CORRECTED, 25 GENES
+Cellular Component
+plasma membrane GO:0005886
+cell periphery GO:0071944
+At3g60270
+Cupredoxin superfamily protein
+2.8
+−3.2
+At5g24970
+Protein kinase superfamily protein
+−1.8
+1.6
+At2g38330
+MATE efflux family protein
+−1.9
+1.7
+At3g07320
+O-Glycosyl hydrolases family 17 protein
+−2.2
+2.8
+At1g32950
+Subtilase family protein
+−2.3
+3.3
+membrane GO:0016020
+At2g36830
+TIP1;1
+gamma tonoplast intrinsic protein
+−1.6
+1.6
+At1g74680
+Exostosin family protein
+−1.9
+2.4
+GO term name
+Characteristics
+Ontology
+Transcript ID
+Gene symbol
+Gene description
+G
+Arg
+: G
+Wt
+FC (log2)
+F
+Wt
+: G
+Wt
+FC (log2)
+Figure 3, Category II REQUIRED 12 GENES
+Cellular Component
+extracellular region GO:0005576
+At1g30600
+Subtilase family protein
+2.1
+2.5
+At1g10740
+lipase
+2.0
+1.9
+At1g13080
+CYP71B2
+cytochrome P450, family 71, subfamily B, polyp. 2
+1.7
+2.6
+At1g07380
+ceramidase activity
+1.6
+1.5
+Biological Process
+defense response by callose deposition in cell wall GO:0052544
+At2g44490
+PEN2
+Glycosyl hydrolase superfamily protein
+1.4
+1.4
+GO term name
+Characteristics
+Ontology
+Transcript ID
+Gene symbol
+Gene description
+G
+Arg
+: G
+Wt
+FC (log2)
+Figure 3, Category III, 53 GENES
+Cellular Component
+plasma membrane GO:0005886
+At3g24840
+Sec14p-like phosphatidylinositol transfer
+3.1
+At1g55200
+Protein kinase
+2.7
+At5g17980
+C2 calcium/lipid-binding
+2.0
+At4g11850
+PLDGAMMA1
+phospholipase D gamma 1
+1.1
+At2g02170
+Remorin family protein
+−1.2
+At5g52440
+HCF106
+Bacterial sec-independent translocation
+−1.2
+At1g03590
+Protein phosphatase 2C family protein
+−1.3
+At1g73740
+UDP-Glycosyltransferase superfamily protein
+−2.3
+At1g51540
+Galactose oxidase/kelch repeat
+−2.4
+At2g31010
+Protein kinase superfamily protein
+−2.7
+At5g66490
+unknown
+−2.8
+membrane GO:0016020
+At4g21490
+NDB3
+NAD(P)H dehydrogenase B3
+2.9
+At4g40070
+RING/U-box superfamily protein
+2.4
+At5g57030
+LUT2
+Lycopene beta/epsilon cyclase protein
+1.1
+At5g39500
+GNL1
+GNOM-like 1
+−1.3
+At4g30660
+Low temperature and salt responsive
+−1.5
+At3g26830
+PAD3
+Cytochrome P450 superfamily protein
+−2.6
+At5g04660
+CYP77A4
+cytochrome P450
+−2.8
+Biological Process
+heterocycle metabolic process GO:0046483
+At1g66550
+WRKY67
+WRKY DNA-binding protein 67
+2.3
+At5g43810
+ZLL
+Stabilizer of iron transporter SufD
+−1.5
+At3g57040
+ATRR4
+response regulator 9
+−1.5
+At4g17610
+tRNA/rRNA methyltransferase (SpoU)
+−1.7
+At1g66730
+LIG6
+DNA LIGASE 6
+−2.9
+single organism reproductive process GO:0044702
+At3g61970
+NGA2
+AP2/B3-like transcriptional factor
+2.3
+At2g22540
+SVP
+K-box region and MADS-box transcription factor
+−1.4
+At1g49320
+USPL1
+unknown seed protein like 1
+−3.1
+At1g65010
+Plant protein of unknown function (DUF827)
+−3.1
+Open in a new tab
+The significant GO terms assigned with AgriGO and gProfiler to
+Corrected
+,
+Required
+, and remaining categories of genes among the 90 genes differentially expressed in ground transcriptome between WT and ARG1 KO cells. Blank cells indicate that the gene was not significantly differentially expressed in a respective comparison group. Gene duplicates within oncology were removed and assigned to the most specific available GO term class.
+The 12 genes out of 90 (G
+Arg
+: G
+Wt
+) showed significant differential expression in the physiological adaptation to spaceflight in WT cells (F
+Wt
+: G
+Wt
+) but no significant expression in the physiological adaptation to spaceflight in ARG1 KO cells (F
+Arg
+: G
+Arg
+) (
+Fig. 3
+, Category II). This genotype-based change in the ARG1 KO ground control cells resulted in the expression levels of these genes on the ground matching the WT expression levels in spaceflight. There was a single gene (At2g40020, hypothetical histone-lysine N-methyltransferase protein) among these 12 with an unusual behavior, as it was also differentially expressed in spaceflight between the two genotypes. However all 12 genes were considered to be expressed in the ARG1 KO on the ground at the level required for the WT physiological adaptation to spaceflight.
+These genes included genes associated with the extracellular region (
+e.g.,
+At1g30600 Subtilase family protein; At1g10740 lipase; At1g13080 CYP71B2 cytochrome P450; At1g07380 ceramidase activity; At2g44490 PEN2 Glycosyl hydrolase superfamily protein associated with plant defense and cell wall metabolism;
+Table 5
+GO
+Fig. 3
+;
+Table S5 Gene list Fig. 3
+).
+The 53 genes out of 90 (G
+Arg
+: G
+Wt
+) showed no differential expression in any other comparison group (
+Fig. 3
+, Category III). Thus, although the gene expression patterns between genotypes on the ground were different, both cell lines likely made only small adjustments to gene expression, which resulted in no change in expression levels when the two genotypes from spaceflight were compared. Some of these genes represented plasma membrane and membrane related processes: At4g11850 PLDGAMMA1 phospholipase D gamma, At2g02170 Remorin family protein, At5g52440 HCF106 Bacterial sec-independent translocation protein mttA/Hcf1061 importing protein into chloroplast thylakoid membrane, At5g39500 GNL1 GNOM-like 1 participating in the ER body organization, endocytosis and the retrograde vesicle-mediated transport, Golgi to ER (
+Table 5
+GO
+Fig. 3
+;
+Table S5 Gene list Fig. 3
+).
+With the exception of At2g40020, none of the 90 genes that were differentially expressed between genotypes on the ground (G
+Arg
+: G
+Wt
+) showed differential expression between genotypes in the spaceflight environment (F
+Arg
+: F
+Wt
+).
+3.5. Corrected and compensated expression
+3.5.1. Corrected expression: the patterns of the genes associated with spaceflight physiological adaptation affected by
+Arg1
+mutation—comparing F
+Arg
+: G
+Arg
+, F
+Wt
+: G
+Wt
+, and F
+Arg
+: F
+Wt
+Information about the differential expression of the 130 genes differentially expressed in the physiological adaptation to spaceflight in ARG1 KO cells (F
+Arg
+: G
+Arg
+) was assessed in the physiological adaptation to spaceflight of WT cells (F
+Wt
+: G
+Wt
+) group comparison and in the spaceflight genotype comparison group (F
+Arg
+: F
+Wt
+;
+Table S6 Gene list 102 CORRECTED Fig. 4A
+). Each of the 130 genes was significantly differentially expressed in the physiological adaptation to spaceflight in ARG1 KO cells, F
+Arg
+: G
+Arg
+and could be also significantly differentially expressed in other comparison groups.
+There were three genes out of 130 (F
+Arg
+: G
+Arg
+) that showed significant differential expression in the physiological adaptation to spaceflight of WT cells (F
+Wt
+: G
+Wt
+) group comparison and no differential expression in the spaceflight genotype comparison group (F
+Arg
+: F
+Wt
+;
+Fig. 4
+, Category I).
+FIG. 4.
+Open in a new tab
+(
+A
+) The heat map visualization of the 130 differentially expressed genes of the physiological adaptation in the ARG1 KO cells (F
+Arg
+: G
+Arg
+), as arranged into Categories I–IV by the expression profiles in four comparison groups (F
+Arg
+: G
+Arg
+, F
+Wt
+: G
+Wt
+, G
+Arg
+: G
+Wt
+, F
+Arg
+: F
+Wt
+).
+Category I
+Independent
+—3 genes of the physiological adaptation to spaceflight in ARG1 KO cells changed in the same way as in the physiological adaptation to spaceflight in WT cells. These genes showed differential expression in F
+Arg
+: G
+Arg
+, differential expression in F
+Wt
+: G
+Wt
+, no differential expression in G
+Arg
+: G
+Wt
+, and no differential expression in F
+Arg
+: F
+Wt
+.
+Category II
+Corrected
+—25 genes being part of the 102 pool of genes were differentially expressed in the ground transcriptome between WT and ARG1 KO cells and were corrected during the physiological adaptation to spaceflight in ARG1 KO cells to achieve the WT expression level in the spaceflight transcriptome. The gene expression pattern was graphically represented in the box labeled Corrected PATTERN 1 102 genes. These genes showed differential expression in F
+Arg
+: G
+Arg
+, no differential expression in F
+Wt
+: G
+Wt
+, differential expression in G
+Arg
+: G
+Wt
+, and no differential expression in F
+Arg
+: F
+Wt
+.
+Category III
+Corrected
+—77 genes being part of the 102 pool of genes, corrected during the physiological adaptation to spaceflight in ARG1 KO cells to achieve the WT expression level in the spaceflight transcriptome, the gene expression pattern was graphically represented in the box labeled Corrected PATTERN 1 102 genes. These genes showed differential expression in F
+Arg
+: G
+Arg
+, no differential expression in F
+Wt
+: G
+Wt
+, no differential expression in G
+Arg
+: G
+Wt
+, and no differential expression in F
+Arg
+: F
+Wt
+.
+Category IV
+Compensated
+—25 genes being part of the 107 pool of genes (see
+Fig. 4B
+) that represent the compensated genotypic adaptation of the ARG1 KO cells to the spaceflight environment as they showed differential expression between ARG1 KO and WT cells in the spaceflight transcriptome. These genes showed differential expression in F
+Arg
+: G
+Arg
+, no differential expression in F
+Wt
+: G
+Wt
+, no differential expression in G
+Arg
+: G
+Wt
+, and differential expression in F
+Arg
+: F
+Wt
+.
+(
+B
+) The heat map visualization of the 107 differentially expressed genes in the spaceflight transcriptome between WT and ARG1 KO cells (F
+Arg
+: F
+Wt
+) as arranged into Categories I–III by the expression profiles in four comparison groups (F
+Arg
+: F
+Wt
+, F
+Wt
+: G
+Wt
+, F
+Arg
+: G
+Arg
+, G
+Arg
+: G
+Wt
+).
+Category I
+Compensated
+—25 genes being part of the 107 pool of genes (see
+Fig. 4A
+) that represent the compensated genotypic adaptation of the ARG1 KO cells to the spaceflight environment. The gene expression pattern was graphically represented in the box labeled Compensated PATTERN 2 25 genes. These genes showed differential expression in F
+Arg
+: F
+Wt
+, no differential expression in F
+Wt
+: G
+Wt
+, differential expression in F
+Arg
+: G
+Arg
+, and no differential expression in G
+Arg
+: G
+Wt
+.
+Category II
+Compensated
+—13 genes being part of the 82 genes in the 107 pool of genes that represent the compensated genotypic adaptation of the ARG1 KO cells to the spaceflight environment. The gene expression pattern was graphically represented in the box labeled Compensated PATTERN 3 82 genes. These genes showed differential expression in F
+Arg
+: F
+Wt
+, differential expression in F
+Wt
+: G
+Wt
+, no differential expression in F
+Arg
+: G
+Arg
+, and no differential expression in G
+Arg
+: G
+Wt
+(except one gene).
+Category III
+Compensated
+—69 genes being part of the 82 genes in the 107 pool of genes that represent the compensated genotypic adaptation of the ARG1 KO cells to the spaceflight environment. The gene expression pattern was graphically represented in the box labeled Compensated PATTERN 3 82 genes. These genes showed differential expression in F
+Arg
+: F
+Wt
+, no differential expression in F
+Wt
+: G
+Wt
+, no differential expression in F
+Arg
+: G
+Arg
+, and no differential expression in G
+Arg
+: G
+Wt
+.
+There were 102 genes out of 130 (F
+Arg
+: G
+Arg
+) that showed no significantly differential expression in the physiological adaptation to spaceflight of WT cells, F
+Wt
+: G
+Wt
+group comparison and no differential expression in the spaceflight genotype comparison group F
+Arg
+: F
+Wt
+(
+Fig. 4
+, Category II). Thus, these 102 genes are potentially genes whose expression needs correction from the ground genotype of ARG1 KO so as to be returned to a necessary expression level for spaceflight adaptation.
+These 102 genes represented genes typically associated with the cell periphery, endomembrane system and Golgi apparatus, plastid and chloroplast of the Cellular Component as well as the single-organism localization and transport and signaling of the Biological Process ontology terms. Particularly genes of the transmembrane transport of various moieties were highly represented (
+e.g.,
+AT1G80510 Transmembrane amino acid transporter family protein, AT2G38330 MATE efflux family protein, AT2G36830 TIP1;1 gamma tonoplast intrinsic protein, AT5G20280 SPSA1 sucrose phosphate synthase 1F, AT3G05030 NHX2 sodium hydrogen exchanger 2, and AT1G71050 HIPP20 Heavy metal transport/detoxification superfamily protein) (
+Table 6
+GO
+Fig. 4A
+;
+Table S6 Gene list 102 CORRECTED Fig. 4A
+). Genes associated with cell signaling were also found among these 102 genes (AT1G03060 SPI Beige/BEACH domain; WD domain, G-beta repeat protein, AT2G43010 SRL2 phytochrome interacting factor 4, AT3G20410 CPK9 calmodulin-domain protein kinase 9, AT3G16570 RALF23 rapid alkalinization factor 23).
+Table
+6.
+GO Fig. 4A
+GO term name
+Characteristics
+Ontology
+Transcript ID
+Gene symbol
+Gene description
+F
+Arg
+: G
+Arg
+FC (log2)
+F
+Arg
+: F
+Wt
+FC (log2)
+Figure 4A, Category II, III 102 genes DIFFERENTIAL IN THE SPACEFLIGHT ADAPTATION IN ARG1 KO CELLS BUT SHOW NO DIFFERENTIAL EXPRESSION BETWEEN GENOTYPES WITHIN THE SPACEFLIGHT ENVIRONMENT
+Cellular Component
+cell periphery GO:0071944
+plasma membrane GO:0005886
+cell-cell junction GO:0005911
+AT1G32950
+Subtilase family protein
+3.3
+AT1G11690
+3.3
+AT1G03920
+Protein kinase family protein
+2.9
+AT3G07320
+O-Glycosyl hydrolases family 17 protein
+2.8
+AT4G12770
+Chaperone DnaJ-domain superfamily protein
+2.4
+AT2G38330
+MATE efflux family protein
+1.7
+AT5G24970
+Protein kinase superfamily protein
+1.6
+AT1G78820
+D-mannose binding lectin protein
+1.2
+AT3G20410
+CPK9
+calmodulin-domain protein kinase 9
+1.0
+AT3G13520
+ATAGP12
+arabinogalactan protein 12
+−1.0
+AT1G60740
+Thioredoxin superfamily protein
+−1.0
+AT5G65390
+AGP7
+arabinogalactan protein 7
+−1.2
+AT5G15350
+ENODL17
+early nodulin-like protein 17
+−1.2
+AT1G12950
+RSH2
+root hair specific 2
+−1.5
+AT5G14920
+Gibberellin-regulated family protein
+−1.6
+AT3G60270
+Cupredoxin superfamily protein
+−3.2
+endomembrane system GO:0012505
+Golgi apparatus GO:0005794
+AT1G74680
+Exostosin family protein
+2.4
+AT4G39890
+RABH1c
+RAB GTPase homolog H1C
+1.4
+AT5G20280
+SPSA1
+sucrose phosphate synthase 1F
+1.2
+AT1G49710
+FUT12
+fucosyltransferase 12
+1.1
+AT4G08950
+EXO
+Phosphate-responsive 1 family protein
+−1.1
+AT5G12140
+CYS1
+cystatin-1
+−1.3
+AT3G52940
+HYD2
+Ergosterol biosynthesis ERG4/ERG24 family
+−2.3
+membrane-bounded organelle GO:0043227
+intracellular membrane-bounded organelle GO:0043231
+AT2G40260
+Homeodomain-like superfamily protein
+3.3
+AT1G16500
+unknown
+2.8
+AT5G63700
+zinc ion binding;DNA binding
+2.8
+AT1G54230
+Winged helix-turn-helix transcription repressor
+2.8
+AT3G51470
+Protein phosphatase 2C family protein
+2.8
+AT1G18485
+Pentatricopeptide repeat (PPR)
+2.6
+AT1G03060
+SPI
+Beige/BEACH domain;WD domain, G-beta repeat
+2.4
+AT3G62110
+Pectin lyase-like superfamily protein
+2.4
+AT4G17150
+alpha/beta-Hydrolases superfamily protein
+2.2
+AT5G14600
+S-adenosyl-LMet-dependent methyltransferase
+2.1
+AT2G43010
+SRL2
+phytochrome interacting factor 4
+2.0
+AT1G70480
+Domain of unknown function (DUF220)
+1.7
+AT5G02440
+unknown
+1.3
+AT5G22880
+HTB2
+histone B2
+1.3
+AT2G38390
+Peroxidase superfamily protein
+1.3
+AT2G38800
+Plant calmodulin-binding protein-related
+1.2
+AT5G43150
+1.1
+AT3G53710
+AGD6
+ARF-GAP domain 6
+1.1
+AT5G38850
+Disease resistance protein (TIR-NBS-LRR class)
+1.1
+AT4G33980
+1.1
+AT2G43500
+Plant regulator RWP-RK family protein
+1.1
+AT4G36620
+HANL2
+GATA transcription factor 19
+−1.1
+AT3G60530
+GATA4
+GATA transcription factor 4
+−1.1
+AT5G15910
+NAD(P)-binding Rossmann-fold
+−1.3
+ORF111B
+−1.3
+AT1G69690
+TCP15
+TCP family transcription factor
+−1.4
+AT1G69010
+BIM2
+BES1-interacting Myc-like protein 2
+−1.9
+AT3G43280
+−1.9
+AT4G35070
+SBP (S-ribonuclease binding protein)
+−2.1
+AT3G09060
+Pentatricopeptide repeat (PPR)
+−2.3
+AT2G19460
+Protein of unknown function (DUF3511)
+−2.4
+AT5G38350
+Disease resistance protein (NBS-LRR class)
+−2.5
+ORF121A
+−2.6
+AT5G53840
+F-box/RNI-like/FBD-like domains
+−2.9
+AT1G71050
+HIPP20
+Heavy metal transport/detoxification
+−3.5
+plastid GO:0009536
+chloroplast GO:0009507
+AT2G24880
+Plant self-incompatibility protein S1 family
+2.8
+AT1G29395
+COR414-TM1
+COLD REGULATED 314 INNER MEMBRANE 1
+2.4
+AT2G36830
+TIP1;1
+gamma tonoplast intrinsic protein
+1.6
+AT1G10070
+BCAT-2
+branched-chain amino acid transaminase 2
+1.4
+AT3G11560
+LETM1-like protein
+1.2
+AT1G66090
+Disease resistance protein (TIR-NBS class)
+−1.0
+AT4G05390
+RFNR1
+root FNR 1
+−1.2
+AT1G60950
+FED A
+2Fe-2S ferredoxin-like superfamily protein
+−1.5
+AT4G24090
+−2.6
+AT5G59410
+Rab5-interacting family protein
+−2.9
+AT2G31270
+CDT1A
+homolog of yeast CDT1 A
+−3.2
+AT4G17600
+LIL3:1
+Chlorophyll A-B binding family protein
+−3.6
+Biological Process
+localization GO:0051179
+single-organism localization GO:1902578
+establishment of localization GO:0051234
+transport GO:0006810
+single-organism transport GO:0044765
+AT1G80510
+Transmembrane amino acid transporter
+2.8
+AT2G38330
+MATE efflux family protein
+1.7
+AT2G36830
+TIP1;1
+gamma tonoplast intrinsic protein
+1.6
+AT1G63440
+HMA5
+heavy metal ATPase 5
+1.4
+AT5G20280
+SPSA1
+sucrose phosphate synthase 1F
+1.2
+AT3G05030
+NHX2
+sodium hydrogen exchanger 2
+1.2
+AT3G10520
+NSHB2
+haemoglobin 2
+−1.4
+AT1G12950
+RSH2
+root hair specific 2
+−1.5
+AT1G71050
+HIPP20
+Heavy metal transport/detoxification
+−3.5
+signaling GO:0023052
+cell communication GO:0007154
+AT1G03060
+SPI
+Beige/BEACH domain; WD domain, G-beta repeat protein
+2.4
+AT4G37580
+UNS2
+Acyl-CoA N-acyltransferases (NAT)
+2.3
+AT2G43010
+SRL2
+phytochrome interacting factor 4
+2.0
+AT5G38850
+Disease resistance protein (TIR-NBS-LRR class)
+1.1
+AT3G20410
+CPK9
+calmodulin-domain protein kinase 9
+1.0
+AT3G16570
+RALF23
+rapid alkalinization factor 23
+−1.2
+AT5G14920
+Gibberellin-regulated family protein
+−1.6
+Open in a new tab
+The significant GO terms assigned with AgriGO and gProfiler to 102
+Corrected
+genes, which showed the expression change in the physiological adaptation to the spaceflight environment in ARG1 KO cells but no differential expression in spaceflight transcriptome between the ARG1 KO and WT cells. Blank cells indicate that the gene was not significantly differentially expressed in a respective comparison group. Gene duplicates within oncology were removed and assigned to the most specific available GO term class.
+There were 25 genes out of 130 (F
+Arg
+: G
+Arg
+) that showed no significant differential expression in the physiological adaptation to spaceflight of WT cells (F
+Wt
+: G
+Wt
+) group comparison and significant differential expression in the spaceflight genotype comparison group (F
+Arg
+: F
+Wt
+) (
+Fig. 4
+Category III). Thus, these 25 genes are potentially genes of the genotype-specific strategy to adapt to the spaceflight. Some of these genes encoded genes represented in the xyloglucan metabolic processes related to the cell wall remodeling: AT1G68560 XYL1 alpha-xylosidase 1, AT4G03210 XTH9 xyloglucan endotransglucosylase/hydrolase 9, AT2G06850 XTH4 xyloglucan endotransglucosylase/hydrolase 4 (
+Table 7
+GO
+Fig. 4B
+;
+Table S6 Gene list 102 CORRECTED Fig. 4A
+).
+Table
+7.
+GO Fig. 4B
+GO term name
+Characteristics
+Ontology
+Transcript ID
+Gene symbol
+Gene description
+F
+Arg
+: G
+Arg
+FC (log2)
+F
+Arg
+: F
+Wt
+FC (log2)
+Figure 4B, Category I, 25 genes DIFFERENTIAL IN THE SPACEFLIGHT ADAPTATION IN ARG1 KO CELLS AND DIFFERENTIAL BETWEEN GENOTYPES WITHIN THE SPACEFLIGHT ENVIRONMENT
+Biological Process
+xyloglucan metabolic process GO:0010411
+AT1G68560
+XYL1
+alpha-xylosidase 1
+−1.2
+−1.4
+AT4G03210
+XTH9
+xyloglucan endotransglucosylase/hydrolase 9
+−1.9
+−1.4
+AT2G06850
+XTH4
+xyloglucan endotransglucosylase/hydrolase 4
+−1.9
+−2.0
+GO term name
+Characteristics
+Ontology
+Transcript ID
+Gene symbol
+Gene description
+F
+Arg
+: F
+Wt
+FC (log2)
+Figure 4B, Category II, III, 82 genes NOT DIFFERENTIAL IN THE SPACEFLIGHT ADAPTATION IN ARG1 KO CELLS AND DIFFERENTIAL BETWEEN GENOTYPES WITHIN THE SPACEFLIGHT ENVIRONMENT
+Cellular Component
+extracellular region GO:0005576
+cell wall GO:0005618
+Vexternal encapsulating structure GO:0030312
+cell periphery GO:0071944
+plasma membrane GO:0005886
+AT1G03260
+SNARE associated Golgi protein family
+2.9
+AT1G78980
+SRF5
+STRUBBELIG-receptor family 5
+2.6
+At5g08440
+1.4
+AT1G68630
+PLAC8 family protein
+1.3
+At1g03080
+kinase interacting (KIP1-like) family protein
+1.3
+AT2G28790
+Pathogenesis-related thaumatin
+−1.0
+AT2G03830
+RGF8
+−1.6
+AT1G11545
+XTH8
+xyloglucan endotransglucosylase/hydrolase 8
+−2.0
+AT2G46920
+POL
+Protein phosphatase 2C family protein
+−2.4
+AT5G19070
+SNARE associated Golgi protein family
+−3.2
+AT1G01900
+SBTI1.1
+subtilase family protein
+−3.3
+endomembrane system GO:0012505
+endoplasmic reticulum GO:0005783
+Golgi apparatus GO:0005794
+AT5G56230
+PRA1.G2
+prenylated RAB acceptor 1.G2
+2.5
+AT3G44480
+RPP1
+Disease resistance protein (TIR-NBS-LRR class)
+1.6
+AT2G43240
+Nucleotide-sugar transporter family protein
+1.3
+AT3G49780
+PSK4
+phytosulfokine 4 precursor
+1.0
+AT2G46180
+GC4
+golgin candidate 4
+1.0
+AT4G37650
+SHR
+GRAS family transcription factor
+−1.5
+AT4G37640
+ACA2
+calcium ATPase 2
+−1.7
+AT3G61990
+OMTF3
+S-adenosyl-L-Met-dependent methyltransferase
+−2.1
+AT4G35410
+Clathrin adaptor complex small chain
+−2.1
+AT2G15090
+KCS8
+3-ketoacyl-CoA synthase 8
+−2.5
+plastid GO:0009536
+chloroplast GO:0009507
+AT2G26850
+F-box family protein
+3.9
+AT3G01670
+SEOa
+2.6
+AT4G24930
+thylakoid lumenal 17.9 kDa protein, chloroplast
+1.6
+AT3G53130
+LUT1
+Cytochrome P450 superfamily protein
+1.4
+At4g35770
+SEN1
+Rhodanese/Cell cycle control phosphatase
+1.4
+AT2G03800
+GEK1
+D-aminoacyl-tRNA deacylases
+1.2
+AT1G33265
+Transmembrane proteins 14C
+−1.2
+AT1G32070
+NSI
+nuclear shuttle interacting
+−1.4
+AT1G22240
+PUM8
+pumilio 8
+−1.6
+AT1G78620
+DUF92, transmembrane
+−1.8
+AT3G56430
+−2.2
+AT1G22370
+UGT85A5
+UDP-glucosyl transferase 85A5
+−2.3
+AT3G20540
+PolIB
+polymerase gamma 1
+−2.3
+AT1G70200
+RNA-binding (RRM/RBD/RNP motifs)
+−2.4
+intracellular membrane-bounded organelle GO:0043231
+AT2G35530
+bZIP16
+basic region/leucine zipper transcription factor 16
+3.0
+AT3G16800
+Protein phosphatase 2C family protein
+2.5
+AT5G20450
+2.4
+AT3G50340
+1.9
+AT2G17900
+SDG37
+SET domain group 37
+1.6
+AT4G01500
+NGA4
+AP2/B3-like transcriptional factor
+1.5
+At1g08630
+THA1
+threonine aldolase 1
+1.4
+AT2G18780
+F-box and associated interaction domains
+1.4
+AT5G11090
+serine-rich protein-related
+1.3
+AT2G14210
+ANR1
+AGAMOUS-like 44
+1.2
+AT2G40020
+Nucleolar histone methyltransferase-related
+1.1
+AT3G48360
+BT2
+BTB and TAZ domain protein 2
+1.1
+AT2G42660
+Homeodomain-like superfamily protein
+−1.0
+AT5G66700
+HB53
+homeobox 53
+−1.0
+AT4G22530
+S-adenosyl-L-Met-dependent methyltransferases
+−1.4
+AT1G09700
+HYL1
+dsRNA-binding domain-like superfamily protein
+−2.9
+Biological Process
+cellular aromatic compound metabolic process GO:0006725
+response to auxin GO:0009733
+AT2G35530
+bZIP16
+basic region/leucine zipper transcription factor 16
+3.0
+AT4G01500
+NGA4
+AP2/B3-like transcriptional factor
+1.5
+At4g35770
+SEN1
+Rhodanese/Cell cycle control phosphatase
+1.4
+AT2G14210
+ANR1
+AGAMOUS-like 44
+1.2
+AT3G48360
+BT2
+BTB and TAZ domain protein 2
+1.1
+AT2G42660
+Homeodomain-like superfamily protein
+−1.0
+AT5G66700
+HB53
+homeobox 53
+−1.0
+AT1G32070
+NSI
+nuclear shuttle interacting
+−1.4
+AT4G37650
+SHR
+GRAS family transcription factor
+−1.5
+AT3G20540
+PolIB
+polymerase gamma 1
+−2.3
+AT2G46920
+POL
+Protein phosphatase 2C family protein
+−2.4
+AT1G09700
+HYL1
+dsRNA-binding domain-like protein
+−2.9
+localization GO:0051179
+establishment of localization GO:0051234
+transport GO:0006810
+transmembrane transport GO:0055085
+ion transmembrane transport GO:0034220
+AT5G56230
+PRA1.G2
+prenylated RAB acceptor 1.G2
+2.5
+At1g80900
+MRS2-10
+magnesium transporter 1
+2.4
+At2g16970
+MEE15
+Major facilitator superfamily protein
+2.4
+At1g77210
+STP14
+sugar transporter 14
+2.2
+AT2G43240
+Nucleotide-sugar transporter family protein
+1.3
+AT4G37640
+ACA2
+calcium ATPase 2
+−1.7
+At2g01980
+SOS1
+sodium proton exchanger, putative (NHX7)
+−1.8
+AT5G49500
+Signal recognition particle, SRP54 subunit
+−1.8
+AT4G35410
+Clathrin adaptor complex small chain
+−2.1
+Open in a new tab
+The significant GO terms assigned with AgriGO and gProfiler to 107
+Compensated
+genes that showed differential expression in the spaceflight transcriptome, regardless of differential expression in the spaceflight adaptation of ARG1 KO cells. Blank cells indicate that the gene was not significantly differentially expressed in a respective comparison group. Gene duplicates within oncology were removed and assigned to the most specific available GO term class.
+3.5.2. Compensated adaptation, revealing adaptive strategies to spaceflight—comparing F
+Arg
+: F
+Wt
+, F
+Wt
+: G
+Wt
+, and F
+Arg
+: G
+Arg
+The information about the differential expression of the 107 genes differentially expressed in the spaceflight genotype comparison group (F
+Arg
+: F
+Wt
+) was assessed in the physiological adaptation to spaceflight of WT cells (F
+Wt
+: G
+Wt
+) group comparison and in the physiological adaptation to spaceflight in ARG1 KO cells F
+Arg
+: G
+Arg
+(
+Fig. 4B
+;
+Table S7 Gene list 107 COMPENSATED Fig. 4B
+). Each of the 107 genes was significantly differentially expressed in the spaceflight genotype comparison group F
+Arg
+: F
+Wt
+and could be also significantly differentially expressed in other comparison group, but this was not a required feature of the categorical response.
+There were 25 genes of 107 (F
+Arg
+: F
+Wt
+) that showed significant differential expression in physiological adaptation to spaceflight in the ARG1 KO cells F
+Arg
+: G
+Arg
+group comparison (
+Fig. 4A
+Category IV and
+Fig. 4B
+Category I).
+There were 82 genes of 107 (F
+Arg
+: F
+Wt
+) that showed no significantly differential expression in the physiological adaptation to spaceflight in the ARG1 KO cells F
+Arg
+: G
+Arg
+(
+Fig. 4B
+Category II and III).
+Some of these 82 genes were associated with components of the extracellular region, cell wall, external encapsulating structure, cell periphery, plasma membrane, endomembrane system, endoplasmic reticulum, Golgi apparatus of the Cellular Compartment ontology terms (gProfiler). Also, cellular aromatic compound metabolic process, localization, and transmembrane transport were represented among the Biological Process ontology terms. Two genes represented the cellular aromatic compound metabolic process (At4g37650 SHR GRAS family transcription factor and At3g20540 PolIB polymerase gamma 1). Genes involved in sugar transport (
+e.g.,
+At1g77210 STP14 sugar transporter 14 and At2g43240 Nucleotide-sugar transporter family protein) and genes involved in vesicle-mediated transport (
+e.g.,
+At5g56230 PRA1.G2 prenylated RAB acceptor 1.G2 and At4g35410 Clathrin adaptor complex small-chain family protein) were representative of other transport processes (
+Table 7
+GO
+Fig. 4B
+;
+Table S7 Gene list 107 COMPENSATED Fig. 4B
+).
+With the exception of At2g40020 mentioned above, none of the 107 genes that were significantly differentially expressed in the spaceflight genotype comparison group F
+Arg
+: F
+Wt
+showed significant differential expression in the ground genotype comparison group G
+Arg
+: G
+Wt
+(
+Fig. 4B
+).
+3.5.3. The
+Arg1
+-dependent genes in the WT adaptive strategy—comparing F
+Wt
+: G
+Wt
+and F
+Arg
+: G
+Arg
+The 78 genes significantly differentially expressed between the ground and spaceflight in WT cells established the base of genes needed to adapt to spaceflight. Each gene of 78 F
+Wt
+: G
+Wt
+was categorized into
+Arg1
+-independent,
+Arg1
+-dependent, or partially
+Arg1
+-dependent.
+A gene was considered
+Arg1
+independent if it showed the same expression behavior during the physiological adaptation to the spaceflight environment in both WT and ARG1 KO cells; thus the same change in gene expression was observed in F
+Wt
+: G
+Wt
+and F
+Arg
+: G
+Arg
+(
+Fig. 5A
+). The expression of such a gene was adapted to the spaceflight environment in the same fashion regardless of the
+Arg1
+mutation. There were three genes where Arg1 seemed to have no role in the physiological adaptation (
+Fig. 5A
+Category I;
+Table S8 Gene list 78 DEPENDENCE Fig. 5
+).
+FIG. 5.
+Open in a new tab
+(
+A
+) The effects of the
+Arg1
+mutation on the WT physiological adaptation to the spaceflight environment. The heat map visualization of the 78 differentially expressed genes in the WT physiological adaptation to spaceflight (F
+Wt
+: G
+Wt
+), as arranged into Categories I–IV by the expression profiles in four comparison groups (F
+Wt
+: G
+Wt
+, F
+Arg
+: G
+Arg
+, G
+Arg
+: G
+Wt
+, F
+Arg
+: F
+Wt
+).
+Independent Group
+, Category I—3 genes showed same expression behavior during the physiological adaptation to the spaceflight environment in both WT and ARG1 KO cells and showed no differential expression in either transcriptome. These genes showed differential expression in F
+Wt
+: G
+Wt
+, differential expression in F
+Arg
+: G
+Arg
+, no differential expression in G
+Arg
+: G
+Wt
+, and no differential expression in F
+Arg
+: F
+Wt
+.
+Dependent Group
+, Category II—12 genes showed differential expression in the physiological adaptation to spaceflight in WT but were voided during the physiological adaptation to the spaceflight environment when
+Arg1
+was mutated. These genes showed differential expression in F
+Wt
+: G
+Wt
+, no differential expression in F
+Arg
+: G
+Arg
+, no differential expression in G
+Arg
+: G
+Wt
+, and differential expression in F
+Arg
+: F
+Wt
+.
+Dependent Group
+, Category III—12 genes showed differential expression in the physiological adaptation to spaceflight in WT cells and differential expression in the ground transcriptome between ARG1 KO and WT, matching the WT spaceflight expression level. These genes showed differential expression in F
+Wt
+: G
+Wt
+, no differential expression in F
+Arg
+: G
+Arg
+, differential expression in G
+Arg
+: G
+Wt
+, and no differential expression in F
+Arg
+: F
+Wt
+.
+Partially Dependent Group
+, Category IV—51 genes showed differential expression in the physiological adaptation to spaceflight in WT cells alone. These genes showed differential expression in F
+Wt
+: G
+Wt
+, no differential expression in F
+Arg
+: G
+Arg
+, no differential expression in G
+Arg
+: G
+Wt
+, and no differential expression in F
+Arg
+: F
+Wt
+.
+(
+B
+) The distribution of the genes across dependence groups with relaxed
+p
+value requirements.
+Heat map visualization of the 78 genes differentially expressed in the WT physiological adaptation to spaceflight (F
+Wt
+: G
+Wt
+) across all group comparisons (F
+Wt
+: G
+Wt
+, F
+Arg
+: G
+Arg
+, G
+Arg
+: G
+Wt
+, and F
+Arg
+: F
+Wt
+) with increasingly relaxed
+p
+value stringency criteria clustered by the dependence pattern. The Category I, II, III, and IV of the respective dependence groups are same as defined in
+Fig. 5A
+.
+Dependent Group
+, Category V—genes were differentially expressed one way in the WT spaceflight-to-ground transcriptomes and the other way in the ARG1 KO spaceflight-to-ground transcriptomes, and were also opposite in patterns between WT and ARG1 KO within environments. These genes showed differential expression in F
+Wt
+: G
+Wt
+, differential expression in F
+Arg
+: G
+Arg
+, differential expression in G
+Arg
+: G
+Wt
+, and differential expression in F
+Arg
+: F
+Wt
+. The column in gray font corresponds to
+Fig. 5A
+and the gene distribution at the
+p
+value <0.01. The columns in black font summarize the gene number distributions showed on the heat maps. Abbreviations: ND = not detected; .02, .03, .04, .05 = stringency criteria of the
+p
+value <0.02, <0.03, <0.04, or <0.05, respectively.
+A gene was considered
+Arg1
+dependent if it did not show the same expression behavior during the physiological adaptation to the spaceflight environment in ARG1 KO cells, F
+Arg
+: G
+Arg
+, as it did in WT cells F
+Wt
+: G
+Wt
+(
+Fig. 5A
+). There were 24 genes exhibiting the
+Arg1
+dependence (
+Fig. 5A
+Categories II, III,
+Table S8 Gene list 78 DEPENDENCE Fig. 5
+).
+These 24
+Arg1
+-dependent genes could be divided into two categories based on the source of the
+Arg1
+dependency: Category II or III of
+Fig. 5A
+. Category II genes of
+Fig. 5A
+were not differentially expressed in either the physiological adaptation to spaceflight in ARG1 KO cells (F
+Arg
+: G
+Arg
+) or ground genotype comparison (G
+Arg
+: G
+Wt
+), but showed differential expression in the spaceflight genotype comparison (F
+Arg
+: F
+Wt
+). Thus, the absence of a functional
+Arg1
+gene had the impact of rendering the adaptive-to-spaceflight genes unresponsive (
+Fig. 5A
+, Category II). The majority of those genes were associated with the endomembrane system and Golgi apparatus or the intracellular membrane-bounded organelle and cell periphery and plasma membrane GO terms of the Cellular Component ontology (
+e.g.,
+At3g49780, PSK4 phytosulfokine 4 precursor and At2g43240, Nucleotide-sugar transporter family protein) (
+Table 8
+GO DEPENDENCE
+Fig. 5A
+;
+Table S8 Gene list 78 DEPENDENCE Fig. 5
+). Category III genes of
+Fig. 5A
+were not differentially expressed in the physiological adaptation to spaceflight in ARG1 KO cells (F
+Arg
+: G
+Arg
+), were differentially expressed in ground genotype comparison (G
+Arg
+: G
+Wt
+), but showed no differential expression in spaceflight genotype comparison (F
+Arg
+: F
+Wt
+). These genes were already altered on the ground in ARG1 KO cells to match the spaceflight expression levels in WT (
+Fig. 5A
+, Category III). There were 12 genes showing such an expression pattern, some of which were associated with plant defense and cell wall metabolism (
+e.g.,
+At1g30600, Subtilase family protein; At1g10740 alpha/beta-Hydrolases superfamily protein and At2g44490, PEN2 Glycosyl hydrolase superfamily protein) (
+Table 8
+GO DEPENDENCE
+Fig. 5A
+;
+Table S8 Gene list 78 DEPENDENCE Fig. 5
+).
+Table
+8.
+GO Dependence Fig. 5A
+Open in a new tab
+The significant GO terms assigned to the genes in
+Arg1-Independent, Arg1-Dependent
+, and
+Arg1-Partially Dependent
+categories based on gProfiler and AgriGO functional annotation. Red cells indicate gene overexpression, green cells indicate gene downregulation, and gray cells indicate no significant differential expression. Gene duplicates within oncology were removed and assigned to the most specific available GO term class.
+There were 51 differentially expressed genes in F
+Wt
+: G
+Wt
+that were not significantly differentially expressed in any other comparison group (
+Fig. 5A
+, Category IV). These genes were considered
+Arg1
+Partially Dependent as there was not enough statistical support to assign them to either the independent or dependent group. These 51 genes were primarily associated with the GO Biological Process of response to stimulus, with few related to the response to light (
+e.g.,
+At3g08570 Phototropic-responsive NPH3 family protein, At5g63600 FLS5 flavonol synthase 5, At1g76570 Chlorophyll A-B binding family protein or to high light stimulus At1g77510 PDIL1-2 PDI-like 1-2) (
+Table 8
+GO DEPENDENCE
+Fig. 5A
+;
+Table S8 Gene list 78 DEPENDENCE Fig. 5
+).
+The distribution of 78 genes significantly differentially expressed between the ground and spaceflight in WT cells (F
+Wt
+: G
+Wt
+) among the Independent, Dependent, and Partially Dependent was established with increasingly relaxed
+p
+value stringency criteria from
+p
+value <0.01 through
+p
+value <0.05 without changing the stringency of the Fold Change criteria (−1< FC log2 >+1) (
+Fig. 5B
+). The number of Independent genes increased from three through five up to six genes. The Dependent genes not only increased in total numbers, but a new group of Dependent genes emerged. The three to four genes showed the new expression pattern such that they were coordinately differentially expressed in WT spaceflight adaptation (F
+Wt
+: G
+Wt
+) and in the ground genotype comparison between WT and ARG1 KO cells (G
+Arg
+: G
+Wt
+) yet the opposite in the ARG1 KO spaceflight adaptation (F
+Arg
+: G
+Arg
+) and in the spaceflight genotype comparison between the WT and ARG1 KO cells (F
+Arg
+: F
+Wt
+) (
+Fig. 5B
+Category V). The biggest depletion of gene total number was in the Partially Dependent gene pool, from 51 genes at the
+p
+value <0.01, through 43, 37, 35, and 31 at the
+p
+value <0.05 (
+Fig. 5B
+Category IV).
+3.6. The microarray data validation
+To validate the correctness of the significance criteria applied in the microarray data analysis, the RT-qPCR was performed. For objectiveness, the target genes were selected from among the significantly differentially expressed genes in the WT spaceflight cells of the BRIC-16 experiment (Paul
+et al.,
+2012
+). The RT-qPCR results aligned with those of the microarray (
+Supplementary Fig. S2
+). Only one gene, the
+Agp12
+, showed significant under-expression in the spaceflight ARG1 KO cells relative to their ground control counterparts as identified in the microarray data analysis and as measured by the RT-qPCR method. The
+Agp12
+gene target in all other comparison groups as well as the remaining targets across all comparison groups showed no differential expression levels as measured by the means of microarrays or RT-qPCR. The significance stringency criteria applied throughout the microarray analysis seemingly prevent the false-positive or false-negative inclusion.
+4. Discussion
+The gene
+Arg1
+was found to have a dramatic influence on the gene expression profiles that define physiological adaptation of cell cultures to spaceflight. Like WT cells, the ARG1 KO cells thrived in the spaceflight environment, suggesting that the presence of ARG1 is not absolutely required for physiological adaptation to spaceflight. However, the ARG1 has an essential role in defining the WT adaptation to spaceflight. ARG1 KO cells adapted to spaceflight by expressing different genes, providing unique insight into the alternative pathways for physiological adaptation of undifferentiated cells to the spaceflight.
+4.1. WT adaptation to spaceflight is highly dependent upon
+Arg1
+There were 78 genes differentially expressed in WT when comparing spaceflight to ground control. Those 78 genes comprise the obvious primary set of genes involved in spaceflight physiological adaptation of WT cells. Only three of these 78 genes were similarly changed in ARG1 KO cells, suggesting that only these three were completely independent of
+Arg1
+(See
+Independent
+group below and in
+Fig. 2
+,
+Fig. 4A
+Category I,
+Fig. 5A
+Category I). The remaining 75 genes are most likely reliant on
+Arg1
+function. Twenty-four of these genes are definitively dependent upon
+Arg1
+at the highest levels of analytical stringency (Categories II, III of
+Fig. 5A
+). The remaining 51 genes are likely to be dependent upon
+Arg1
+but do not reach
+p
+value of <0.01 (Category IV of
+Fig. 5A
+); however, reducing the required
+p
+value level brings more genes from the
+Partially Dependent
+group into the clearly
+Dependent
+group (
+Fig. 5B
+). This result strongly suggests that
+Arg1
+has a prominent role in generating a large part of what would be considered the proper spaceflight gene expression profile for spaceflight adaptation in WT cells.
+4.2 Without functional
+Arg1
+, cells engage a unique gene expression strategy that further illuminates required elements of the WT spaceflight adaptation
+ARG1 KO cells engaged vastly different genes to adapt to spaceflight than did WT cells, suggesting that not only is Arg1 function required for much of the WT adaptation to spaceflight, but also that cells without
+Arg1
+can compensate for the lack of
+Arg1
+by changing the expression of a different set of genes. This suggests that the genotype, and likely then physiological state, of the cell line on the ground profoundly affects the genes engaged in the physiological adaptation to the spaceflight environment.
+The gene expression profiles seen in the ground genotype comparisons suggested that WT and ARG1 KO cells have different gene expression requirements for the maintenance of a healthy physiology in a normal terrestrial environment.
+The basis for engaging very different genes in the physiological adaptation to spaceflight in the ARG1 KO can be explained along two lines of reasoning. First, some genes involved in WT adaptation to spaceflight were already changed to a spaceflight-adapted level in ARG1 KO on the ground and were therefore not needed to be differentially expressed as the ARG1 KO adapted to spaceflight (
+Fig. 3
+Category II, 12 genes). These genes are
+Required
+in that they must be maintained at the WT spaceflight level in order for these cells to adapt to spaceflight. Second, some of the genes that showed differential expression on the ground between the ARG1 KO and WT cells were
+Corrected
+to match WT expression levels during the ARG1 KO physiological adaptation to spaceflight (
+Fig. 3
+Category I, 25 genes; the same 25 genes found in
+Fig. 4A
+Category II). These genes define a new part of the overall landscape of genes involved in the physiological adaptation to spaceflight: those which are needed to be at a certain level of expression in spaceflight, but if that level is already present in ground transcriptome, it is not necessary to alter expression patterns to achieve the spaceflight transcriptome. However, if their expression on the ground is altered due to confounding factors, such as a mutant background or physiological stress, then expression levels would need to be corrected for spaceflight transcriptome, thereby revealing essential genes that would otherwise be missed.
+An additional set of
+Corrected
+genes are those that are differentially expressed in the physiological adaptation to spaceflight in ARG1 KO. The 77 genes from Category III (
+Fig. 4A
+) comprise such a group. As with the Category II genes in
+Fig. 4A
+, these genes were corrected to WT spaceflight levels during the ARG1 KO adaptation to spaceflight. Taken together, these 77 genes plus the aforementioned 25 reveal 102 genes that comprise a previously unappreciated part of the spaceflight adaptation process.
+Some of the genes that showed differential expression in ARG1 KO cells in spaceflight adaptation were also differentially expressed between ARG1 KO and WT cells in spaceflight. These 25 genes apparently
+Compensated
+for the absence of a functional Arg1 both on the ground and during spaceflight (25 labeled with an asterisk,
+Fig. 4A
+, Category IV). These genes would not be a part of the typical WT spaceflight response but are necessary in the ARG1 KO to adapt to spaceflight.
+4.3. The landscape of genes required for physiological adaptation to spaceflight
+The landscape of the genetic requirements for spaceflight adaptation is much more complex than is revealed by the genes that are changed in expression in WT cells adapted to spaceflight. The complexity of the physiological adaptive processes related to genotype is represented in the Venn diagram of
+Fig. 6
+. In the WT response 78 genes are changed in expression, leading to the conclusion that these are the genes necessary for adaptation. ARG1 KO data suggest that this is an overly simple view of the adaptation requirements of WT cells. ARG1-mutant cells show that many genes whose expression is altered on the ground by that genotype must be corrected to WT levels to adapt to spaceflight.
+FIG. 6.
+Open in a new tab
+The gene landscape for physiological adaptation to spaceflight. At least
+180
+genes are
+Important
+for spaceflight adaptation. These genes were not differentially expressed in the spaceflight transcriptomes between WT and ARG1 KO.
+Seventy-eight
+genes in WT and
+130
+in ARG1 KO were differentially expressed in the physiological adaptation to spaceflight, thus also between spaceflight and ground.
+Three
+of these genes were coordinately expressed in both genotypes; thus they were
+independent
+of
+Arg1
+function. Of the 78 genes of the WT physiological adaptation to spaceflight,
+51
+were at least
+partially dependent
+, and
+24
+were
+dependent
+on
+Arg1
+. There were
+102
+genes whose expression needed to be
+corrected
+to WT spaceflight adaptation levels in the ARG1 KO cells. There were
+107
+genes that were differentially expressed in the spaceflight transcriptomes between ARG1 KO cells in spaceflight and WT cells in spaceflight;
+25
+of these genes
+compensated
+for the lack of a functional
+Arg1
+gene in the ARG1 KO cells and were part of the physiological adaptation to spaceflight ARG1 KO cells alone (
+Fig. 4A
+Category IV and
+Fig. 4B
+, Category I indicated with *),
+82
+of these genes
+compensated
+for the lack of a functional
+Arg1
+gene in the ARG1 KO cells but were not a part of the physiological adaptation to spaceflight.
+These observations suggest that adaptation of a cell line to spaceflight is highly dependent on its physiological state, which is in turn guided by its genotype. The two cell lines in this study arrived at a different gene expression profile on orbit and changed expression of a different set of genes to get to that profile. Therefore, it is likely that there is no single gene expression profile that defines the spaceflight-adapted state for Arabidopsis cells. Rather each cell type and genotype will have a largely unique-appearing change in gene expression profiles in adapting to spaceflight.
+4.4. Biological implications of the gene expression profiles
+The agriGO PAGE tool (
+http://systemsbiology.cau.edu.cn/agriGOv2/
+) was used to evaluate specifically enriched biological processes in each of the comparison sets (
+Fig. 7
+). In addition, the potential roles of individual genes comprising the differential expression groups of the landscape described above (
+Independent
+,
+Dependent
+,
+Required
+,
+Corrected
+,
+Compensated
+;
+Fig. 6
+) were examined in more detail.
+FIG. 7.
+Open in a new tab
+Functional category comparisons among the differentially regulated genes in the four transcriptome comparisons using Parametric Analysis of Gene Expression.
+Yellow-to-red and cyan-to-blue color scale in
+CM
+(color mode) indicate whether the representation of the genes encompassed in that term is up- or downregulated as a group. The
+Gene Groups
+comprising each analysis are provided in the first column.
+No
+(number) represents the number of genes included in each GO term.
+Ont
+refers to the Ontology group represented (
+P
+= biological process,
+F
+= molecular function,
+C
+= cellular component). The
+CM
+comparison categories are as follows:
+1
+is F
+Wt
+: G
+Wt
+,
+2
+is F
+Arg
+: G
+Arg
+,
+3
+is G
+Arg
+: G
+Wt
+, and
+4
+is F
+Arg
+: F
+Wt
+, and the numerical values supporting the color rendering are provided to the right of the CM columns. The blank rows represent the null results obtained from individual analyses of the two components of the Gene Group “78 + 102 = 180 Important to WT spaceflight adaptation” (78: Independent, Dependent, Partially Dependent) and (102: Corrected). Individual comparisons did not display a coordinated pattern of expression according to ontological categories.
+The PAGE analysis revealed that although individual genes may differ in each expression set, those genes are largely representative of the same biological processes, suggesting different paths can be taken to arrive at the same destination. For instance, processing all 180
+Important
+(
+Fig. 6
+) genes in PAGE indicated some variety in the biological processes engaged in each spaceflight-to-ground, and genotype-to-genotype, comparison. If the gene sets comprising the subcategories on Important genes are processed (
+Independent
+,
+Dependent
+,
+Partially Dependent
+, and
+Corrected
+;
+Fig. 6
+), there were no significant differences in the general biological processes used by the two genotypes to physiologically adapt to spaceflight (middle panels
+Fig. 7
+). In other words, depending on the initial resources available in a cell's metabolic “tool box,” slightly different routes of approach appear to be utilized to converge on the same basic adaptive strategies. A closer look at the genomic strategies used by WT and ARG1 KO cells to navigate diverse routes to a common goal revealed genes essential to spaceflight adaptation, including genes that would be masked if we were to have simply essayed WT response strategies alone. Although there was not always a common functionally binding them together, in many cases, genes comprising each category defined above were often aligned in strategic roles.
+4.4.1. Independent genes
+The genes of this small category are tied together by potential roles in the detection and maintenance of cell polarity. The most highly induced of the Independent genes is a WRKY2 (At5g56270) transcription factor known to play a major role in the establishment of cell polarity by regulating apical/basal cell fate by activating WOX8 (Jeong
+et al.,
+2016
+). Cell polarity is also tied to auxin transport (Gao
+et al.,
+2008
+), and if the
+p
+value is relaxed to a value <0.05 (see
+Fig. 5B
+), two of the three additional genes that become included are associated with auxin/brassinosteroid signaling pathways: At1g78860, a curculin-like family protein, and At4g22500, an auxin-induced gene of unknown function (GEO GDS744) (Huang
+et al.,
+2013
+). Curculin-like genes have also been implicated in the regulatory network that establishes the adaxial/abaxial surfaces in Arabidopsis (Reinhart
+et al.,
+2013
+), which also connects to the regulatory pathways that guide polarity in plant cells.
+4.4.2. Dependent genes
+There were 75 genes that were at least somewhat dependent on a functional
+Arg1
+, many of which were transcription factors associated with the regulation of hormone signaling and cell proliferation. The two most highly induced genes were transcription factors bZIP16 and APD1. Factor bZIP16 primarily functions as a transcriptional repressor of genes responsive to light, gibberellic acid (GA) and abscisic acid (ABA) (Hsieh
+et al.,
+2012
+), while RING-finger protein APD1 (ABERRANT POLLEN DEVELOPMENT1) is associated with pollen development and with signaling in the 9-Lipoxygenase pathway central to root development and pathogen defense (Qin
+et al.,
+2014
+; Walper
+et al.,
+2016
+). This latter role could connect it to another highly induced gene in this category: PSK4, which encodes a precursor to Phytosulfokine 4, one of a family of cell wall receptors that function in cell proliferation, expansion, and wound repair (Tameshige
+et al.,
+2015
+). Interestingly, PSK4 has been shown to promote callus growth in root explants and, further, is proteolytically cleaved from its precursor by subtilase SBT1, a gene which is also induced in spaceflight in ARG1 KO cells (Chevalier
+et al.,
+2005
+). The gene SRF5 appears to be a member of the STRUBBELIG family of transmembrane receptor-like kinases that contribute to the regulation of cell morphogenesis and proliferation (Chevalier
+et al.,
+2005
+).
+4.4.3. Required genes
+Among the
+Dependent
+genes there were also 12 genes differentially expressed between WT and ARG1 KO cells on the ground, which were further subcategorized as
+Required
+(
+Fig. 5A
+Category III); many of the
+Required
+genes were associated with pathogen response. Among the highly induced were an uncharacterized lipase that has been associated with auxin signaling and pathogen response, a cytochrome450 (CYP71B2) that has shown downregulation in response to pathogens, and PEN2, which encodes a glycosyl hydrolase that is essential for defense against powdery mildew in barley (Schenk
+et al.,
+2003
+; Cabrera
+et al.,
+2014
+). Likewise with the three upregulated genes encoding proteases—one encoding a Subtilase family protein that has a role in processing a cell wall pectin methylesterase, another was a member of the cystatin/monellin superfamily of proteases, a group which plays a role in pathogen resistance, and finally a ubiquitin-like protease (Senechal
+et al.,
+2014
+; van Wyk
+et al.,
+2014
+). A gene involved in sphingolipid metabolism (neutral/alkaline non-lysosomal ceramidase) was also upregulated. Sphingolipids are a class of lipid signaling molecules that play a role in the apoptotic processes associated with plant pathogen defense, which also ties this
+Required
+gene to defense-related metabolism (Berkey
+et al.,
+2012
+). There was one downregulated gene in this group of genes: an uncharacterized Zinc knuckle (CCHC-type) family protein (At2g12880). A survey of GEO profiles reveals that At2g12880 is highly overexpressed in Arabidopsis mutants of subunit 4 (CSN4) of the COP9 signalosome responsible for the regulation of auxin response (Huang
+et al.,
+2013
+). The abundance of pathogen response and cell wall–related genes in this category suggests that
+Arg1
+plays a role in cell wall remodeling even in the absence of other environmental stimuli, a role that is consistent with ARG1's function within the endomembrane delivery system.
+4.4.4. Corrected genes
+The 102 genes in the
+Corrected
+group (
+Fig. 4A
+, Categories II and III) represent a truly unique and fascinating category of genes—these are genes that, while required for spaceflight adaptation, would not have been revealed by a spaceflight-to-ground comparison in WT cells. About a tenth of the 102 genes corrected to WT levels in the ARG1 KO cells in the spaceflight transcriptome are associated with transport processes. Genes encoding proteins that play a role in the transport of amino acids (Transmembrane amino acid transporter family protein), small molecules (MATE efflux family protein, RSH2 root hair specific 2), water (TIP1;1 gamma tonoplast intrinsic protein), sugar (SPSA1 sucrose phosphate synthase 1F), metal ions (HMA5 heavy metal ATPase 5), and protons (NHX2 sodium hydrogen exchanger 2) all had expression adjusted to levels comparable to the spaceflight transcriptome of WT cells. This is another instance where the association of ARG1 with intracellular vesicle trafficking (Boonsirichai
+et al.,
+2003
+) supports a role for ARG1 in spaceflight adaptation, as cells lacking Arg1 show impairment in the intracellular transport among cell compartments. Further, the abundance of the transporter genes brought to the WT expression levels in the ARG1 KO spaceflight transcriptome could suggest that the transmembrane transport processes may be affected by a reduced gravity environment and that a certain level of transporter gene expression is required to assure the efficient continuum of their performance.
+Genes associated with hormone-mediated signaling are also well represented among the genes that are corrected to WT levels in the ARG1 KO spaceflight transcriptome. Examples include WD domain, G-beta repeat protein gene, SRL2 phytochrome interacting factor 4, and UNS2 Acyl-CoA N-acyltransferases (NAT) These genes are associated primarily with plant growth, cell expansion and architecture, and morphogenesis (Lehman
+et al.,
+1996
+; Schwab
+et al.,
+2003
+; Saedler
+et al.,
+2009
+; Nomoto
+et al.,
+2012
+), suggesting that the cell growth may need to be adjusted in spaceflight and that a certain level expression of development-related genes may be required.
+4.4.5. Compensated genes
+There were 107 genes that appear to help compensate for the lack of
+Arg1
+in cells (
+Fig. 4A
+Category IV;
+Fig. 4B
+). Together, these 107 genes define the genotype-specific strategy employed by cells lacking an active
+Arg1
+gene to physiologically adapt to the spaceflight environment, and provide a link to the role of
+Arg1
+in adapting to spaceflight (
+Fig. 6
+).
+Genes associated with cell-wall metabolism figure prominently in this category. For example, genes participating primarily in molecular grafting of xyloglucan chains such as At1g68560, alpha-xylosidase 1, and the two xyloglucan endotransglucosylase/hydrolases, XTH9 (At4g03210) and XTH4 (At2g06850), were significantly downregulated in ARG1 KO in spaceflight transcriptome compared to WT cells. This activity suggests that the process of splitting and/or reconnection of the xyloglucan cross-links in the cell wall occurred in the spaceflight in cells lacking
+Arg1
+in a manner different from WT cells. Further, the repression of these cell-wall remodeling genes indicates that cell-wall loosening processes and cell expansion were diminished in spaceflight when
+Arg1
+gene is absent. It is well documented that cell wall remodeling is a component of both spaceflight adaptation and as a response to hypergravity (Nedukha,
+1997
+; Soga
+et al.,
+1999
+, 2002; Paul
+et al.,
+2013
+; Kwon
+et al.,
+2015
+). The synthesis and assembly of many cell wall components are dependent on the Golgi apparatus and transport vesicles to the plasma membrane. Genes involved in intracellular transport were also highly represented in those differentially expressed in spaceflight transcriptomes when
+Arg1
+function was disabled. For instance, the genes associated with vesicle-mediated transport such as Prenylated RAB acceptor 1.G2 (At5g56230), SRP54 signal recognition particle (At5g49500) of the signal recognition in the endoplasmic reticulum, SOS1 sodium proton exchanger (At2g01980) of the intra-Golgi vesicle-mediated transport, and a Clathrin adaptor complex protein (At4g35410) were all differentially expressed in the spaceflight samples between ARG1 KO and WT cells. The endomembrane system, intracellular transport, and vesicle trafficking genes were also a large part of the WT physiological adaptation to the spaceflight environment, although the individual representative genes differed from those engaged in the ARG1 KO cells. This finding reinforces the conclusion that these processes are sensitive to the reduced-gravity environment and that cells handle them differently depending on ARG1 availability. The importance of vesicle trafficking and intracellular transport has also been identified in ground studies that demonstrated mutants of a vacuolar membrane system genes exhibited agravitropic phenotypes (Kato
+et al.,
+2002
+; Surpin,
+2014
+). In addition, ground studies have shown that chemical treatments that disrupt gravitropism cause aberrant endomembrane morphologies, particularly of vacuoles, which underscores the link between the endomembrane system and gravitropism in plants (Surpin
+et al.,
+2005
+). If indeed ARG1 executes its role in the adaptation to spaceflight microgravity through the endomembrane system, then the link of the endomembrane system to gravity sensing in the specialized cells of the plant root could be extended to include undifferentiated cells as well. Connecting ARG1 to gravity perception in undifferentiated cells would imply a universal, cell-type independent tool for gravity sensing in plants.
+Another group of genes in this category associate with gravitropism on the ground through auxin signaling and cell polarity. POL, a Protein phosphatase 2C family protein (At2g46920) and the GRAS family transcription factor SGR7 (SHOOT GRAVITROPISM 7-At4g37650) showed substantially diminished expression level in the ARG1 KO spaceflight transcriptome compared to WT cells. POL plays a role in establishing and maintaining the stem cell polarity and localization of auxin signaling (Gagne
+et al.,
+2008
+), and SRG7 is involved in radial organization of the root and shoot axial organs that are responsible for directing asymmetric cell division (Koizumi
+et al.,
+2012
+). The most prominent example of ARG1 engagement in establishing cell polarity occurs in root statocytes upon gravistimulation and is a basis for root gravitropism. In ground studies, ARG1 KO plants exhibit increased auxin accumulation in root tips, which then results in a strong defect in root gravitropism (Sedbrook
+et al.,
+1998
+). Although ARG1 protein is likely to play a role in enabling auxin redistribution in statocytes, ARG1's wide association with the endomembrane system and cytoskeleton suggests a more diverse role in gravity sensing in plants, which is actually well aligned with the concept that ARG1 might be important to undifferentiated cells. ARG1 might mediate gravity signal transduction in undifferentiated cells by promoting the folding, targeting, or degradation of gravitropic regulators in the vicinity of the cytoskeletal network. The observation that the genes related to the gravity sensing and signaling were compensated in the ARG1 KO cells suggests that alternative systems to the ARG1 exist and were required for successful spaceflight adaptation.
+4.5. BRIC-16
+This experiment is the second time that Arabidopsis cell cultures were sent into space. The first cell culture experiment was launched to the ISS in 2010 on STS131 (BRIC-16) (Paul
+et al.,
+2012
+). These two BRIC cell culture experiments were substantially different in many aspects. First, the cells used in BRIC-16 and BRIC-17 were of different “ages” before launch, as defined by the amount of time grown on solid media after being transferred from liquid culture. The BRIC-16 cells spent an additional week on solid media compared to the BRIC-17 cells. Second, the BRIC-17 cultures were freshly established, while the BRIC-16 culture had been established as a culture line for years. When the new mutant (ARG1 KO) cell line was created, we simultaneously created the comparable WT line to minimize physiological differences in the two BRIC-17 lines. And finally, besides the differences in the biological material, there were differences in the experimental profile of BRIC-17 as compared to BRIC-16: the space vehicle used to launch to the ISS, the mission profile, and the days spent in microgravity (
+Table S9
+).
+The spaceflight transcriptomes of the WT cells of BRIC-16 and BRIC-17 CEL had only one differentially expressed gene in common (At5g62710, a protein kinase). However, the general patterns of gene expression in both experiments suggest they held many of the same strategies of physiological adaptation in common. In BRIC-16, although the largest category of genes induced were heat-shock genes, among the next most highly differentially expressed genes were those associated with pathogen response, wounding, and cell wall remodeling; a pattern that is closely aligned with the current study (Paul
+et al.,
+2012
+). The WT cells used in both experiments were of identical genotype; thus the most likely explanation for the paucity of coordinately expressed genes between the two spaceflight experiments is that each cell line began their respective flights with a ground transcriptome profile that reflected environmental and developmental parameters unique to each experiment. The BRIC-16 cells may have already engaged a series of adaptive strategies that were not necessary in the WT cells of BRIC-17; it is likely that the abundance of heat-shock and stress-response genes in the BRIC-16 spaceflight transcriptome pattern was related to a more stressful ground state before launch. Thus, the age and “stress level” of the cell lines before launch make a substantial difference in how the cells respond to the spaceflight environment. However, the very fact that they are different has provided valuable insight into the response that these cells—any cells—have to the novel environment of space. And yet, on this background, these cells also expressed and repressed the genes necessary to engage in cell-wall remodeling processes that now seem to be a hallmark of spaceflight physiological adaptation.
+5. Conclusions
+The results presented here suggest that there is more to understanding spaceflight adaptation than identifying genes that are changed in expression as WT cells adjust to spaceflight. There are also genes whose activity at certain levels is required for spaceflight adaptation but whose expression levels need not be changed from that which occurs on the ground. Those important but nonchanging genes are revealed by comparing expression patterns between WT and mutant lines. In a very real sense, limiting the list of genes required for spaceflight adaptation to those that need to be changed only in WT cells can restrict insight into the full scope of the spaceflight physiological adaptation process.
+The
+Arg1
+gene appears to have a major role in spaceflight adaptation of cultured cells, perhaps through gravity sensing, in these nonspecialized, undifferentiated cells. The major ARG1 role seems to relate to its association with the endomembrane system, mediation of the proper localization/targeting or activity of proteins at the plasma membrane or at organelles of the secretory pathway. These data imply that
+Arg1
+also has a function in spaceflight adaptation in differentiated cells within intact plants. Moreover, these data suggest that the genotype, and therefore the physiological state of a cell, can have a dramatic effect on the expression profile of genes needed for spaceflight adaptation.
+These data also further reinforce the conclusions drawn from a growing body of plant spaceflight literature that suggest that at least one underlying theme of the physiological adaptation of plants to the spaceflight environment is cell-wall remodeling.
+Supplementary Material
+Supplemental data
+Supp_Figure1.pdf
+(45.9KB, pdf)
+Supplemental data
+Table_S1.pdf
+(227.8KB, pdf)
+Supplemental data
+Table_S2.pdf
+(258.8KB, pdf)
+Supplemental data
+Table_S3.pdf
+(233.4KB, pdf)
+Supplemental data
+Table_S4.pdf
+(243.7KB, pdf)
+Supplemental data
+Table_S5.pdf
+(276.6KB, pdf)
+Supplemental data
+Table_S6.pdf
+(319.2KB, pdf)
+Supplemental data
+Table_S7.pdf
+(295KB, pdf)
+Supplemental data
+Table_S8.pdf
+(140.1KB, pdf)
+Supplemental data
+Supp_Figure2.pdf
+(44.2KB, pdf)
+Supplemental data
+Table_S9.pdf
+(288.8KB, pdf)
+Abbreviations Used
+Arg1
+Altered response to gravity 1
+ARG1 KO
+ARG1 knock-out
+BRIC
+Biological Research In Canisters
+CEL
+Cellular Expression Logic
+Col-0
+Columbia-0
+GEO
+Gene Expression Omnibus
+GO
+Gene Ontology
+ISS
+International Space Station
+KSC
+Kennedy Space Center
+PAGE
+Parametric Analysis of Gene Set Enrichment
+PDFUs
+Petri Dish Fixation Units
+RT-qPCR
+real quantitative reverse transcription–polymerase chain reaction
+TAIR
+The Arabidopsis Information Resource
+WT
+wild type
+Acknowledgments
+This work was supported by grants NNX12AK80G and NNX12AN69G to R.J. Ferl and A.-L. Paul from NASA Space Life and Physical Sciences managed through Kennedy Space Center. We would like to acknowledge Lisa David for technical assistance and Lawrence Rasmussen for preflight technical help with the tissue culture cell lines that were used in the BRIC-17 CEL experiment.
+The authors also wish to acknowledge the large and various inputs from the community of scientists pushing the molecular biology frontiers of spaceflight science. That community includes the reviewers of this manuscript, who helped the authors clarify complex issues of presentation and interpretation. In particular the authors appreciate the need and desire of the community (and this paper) to remain diligent in the description of experimental results as comparing spaceflight samples to ground control samples. Isolating the effects of microgravity from the general and combined effects of spaceflight would require the utilization of high-quality long-arm centrifuges on orbit. Therefore, the authors strive to specifically use the terms “spaceflight” and “ground” as the terms for the major experimental contrasts in this study.
+Author Disclosure Statement
+No competing financial interests exist.
+References
+Abas L., Benjamins R., Malenica N., Paciorek T., Wisniewska J., Moulinier-Anzola J.C., Sieberer T., Friml J., and Luschnig C. (2006) Intracellular trafficking and proteolysis of the Arabidopsis auxin-efflux facilitator PIN2 are involved in root gravitropism. Nat Cell Biol
+8:249–256
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Berkey R., Bendigeri D., and Xiao S. (2012) Sphingolipids and plant defense/disease: the “death” connection and beyond. Front Plant Sci
+3, doi: 10.3389/fpls.2012.00068
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Blancaflor E.B. (2013) Regulation of plant gravity sensing and signaling by the actin cytoskeleton. Am J Bot
+100:143–152
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Boonsirichai K., Sedbrook J.C., Chen R., Gilroy S., and Masson P.H. (2003) ALTERED RESPONSE TO GRAVITY is a peripheral membrane protein that modulates gravity-induced cytoplasmic alkalinization and lateral auxin transport in plant statocytes. Plant Cell
+15:2612–2625
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Cabrera J., Barcala M., Fenoll C., and Escobar C. (2014) Transcriptomic signatures of transfer cells in early developing nematode feeding cells of Arabidopsis focused on auxin and ethylene signaling. Front Plant Sci
+5, doi: 10.3389/fpls.2014.00107
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Caplan A.J., Cyr D.M., and Douglas M.G. (1993) Eukaryotic homologues of
+Escherichia coli
+dnaJ: a diverse protein family that functions with hsp70 stress proteins. Mol Biol Cell
+4:555–563
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Chevalier D., Batoux M., Fulton L., Pfister K., Yadav R.K., Schellenberg M., and Schneitz K. (2005) STRUBBELIG defines a receptor kinase-mediated signaling pathway regulating organ development in Arabidopsis. Proc Natl Acad Sci USA
+102:9074–9079
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Du Z., Zhou X., Ling Y., Zhang Z., and Su Z. (2010) agriGO: a GO analysis toolkit for the agricultural community. Nucleic Acids Res
+38:W64–W70
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Fengler S., Spirer I., Neef M., Ecke M., Nieselt K., and Hampp R. (2015) A whole-genome microarray study of
+Arabidopsis thaliana
+semisolid callus cultures exposed to microgravity and nonmicrogravity related spaceflight conditions for 5 days on board of Shenzhou 8. Biomed Res Int
+2015, doi: 10.1155/2015/547495
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Gagne J.M., Song S.K., and Clark S.E. (2008) POLTERGEIST and PLL1 are required for stem cell function with potential roles in cell asymmetry and auxin signaling. Commun Integr Biol
+1:53–55
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Gao X., Nagawa S., Wang G., and Yang Z. (2008) Cell polarity signaling: focus on polar auxin transport. Mol Plant
+1:899–909
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Gleeson L., Squires S., and Bisgrove S.R. (2012) The microtubule associated protein END BINDING 1 represses root responses to mechanical cues. Plant Sci
+187:1–9
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Guan C., Rosen E.S., Boonsirichai K., Poff K.L., and Masson P.H. (2003) The ARG1-LIKE2 gene of Arabidopsis functions in a gravity signal transduction pathway that is genetically distinct from the PGM pathway. Plant Physiol
+133:100–112
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Harrison B. and Masson P.H. (2008a) ARG1 and ARL2 form an actin-based gravity-signaling chaperone complex in root statocytes?
+Plant Signal Behav
+3:650–653
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Harrison B.R. and Masson P.H. (2008b) ARL2, ARG1 and PIN3 define a gravity signal transduction pathway in root statocytes. Plant J
+53:380–392
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Hsieh W.P., Hsieh H.L., and Wu S.H. (2012) Arabidopsis bZIP16 transcription factor integrates light and hormone signaling pathways to regulate early seedling development. Plant Cell
+24:3997–4011
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Huang H., Quint M., and Gray W.M. (2013) The eta7/csn3-3 auxin response mutant of Arabidopsis defines a novel function for the CSN3 subunit of the COP9 signalosome. PLoS One
+8, doi: 10.1371/journal.pone.0066578
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Hubbell E., Liu W.M., and Mei R. (2002) Robust estimators for expression analysis. Bioinformatics
+18:1585–1592
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Ingber D. (1999) How cells (might) sense microgravity. FASEB J
+13:S3–S15
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Jeong S., Eilbert E., Bolbol A., and Lukowitz W. (2016) Going mainstream: how is the body axis of plants first initiated in the embryo?
+Dev Biol
+419:78–84
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Johnson C.M., Subramanian A., Edelmann R.E., and Kiss J.Z. (2015) Morphometric analyses of petioles of seedlings grown in a spaceflight experiment. J Plant Res
+128:1007–1016
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Jouhet J. and Gray J.C. (2009) Interaction of actin and the chloroplast protein import apparatus. J Biol Chem
+284:19132–19141
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kamada M., Higashitani A., and Ishioka N. (2005) Proteomic analysis of Arabidopsis root gravitropism. Biol Sci Space
+19:148–154
+[
+Google Scholar
+]
+Kato T., Morita M.T., Fukaki H., Yamauchi Y., Uehara M., Niihama M., and Tasaka M. (2002) SGR2, a phospholipase-like protein, and ZIG/SGR4, a SNARE, are involved in the shoot gravitropism of Arabidopsis. Plant Cell
+14:33–46
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kimura Y., Yahara I., and Lindquist S. (1995) Role of the protein chaperone YDJ1 in establishing Hsp90-mediated signal transduction pathways. Science
+268:1362–1365
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Kleine-Vehn J., Ding Z., Jones A.R., Tasaka M., Morita M.T., and Friml J. (2010) Gravity-induced PIN transcytosis for polarization of auxin fluxes in gravity-sensing root cells. Proc Natl Acad Sci USA
+107:22344–22349
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Koizumi K., Hayashi T., Wu S., and Gallagher K.L. (2012) The SHORT-ROOT protein acts as a mobile, dose-dependent signal in patterning the ground tissue. Proc Natl Acad Sci USA
+109:13010–13015
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kwon T., Sparks J.A., Nakashima J., Allen S.N., Tang Y., and Blancaflor E.B. (2015) Transcriptional response of Arabidopsis seedlings during spaceflight reveals peroxidase and cell wall remodeling genes associated with root hair development. Am J Bot
+102:21–35
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Lehman A., Black R., and Ecker J.R. (1996) HOOKLESS1, an ethylene response gene, is required for differential cell elongation in the Arabidopsis hypocotyl. Cell
+85:183–194
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Morita M.T. and Nakamura M. (2012) Dynamic behavior of plastids related to environmental response. Curr Opin Plant Biol
+15:722–728
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Nedukha E.M. (1997) Effects of microgravity on the structure and function of plant cell walls. Int Rev Cytol
+170:39–77
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Nomoto Y., Kubozono S., Yamashino T., Nakamichi N., and Mizuno T. (2012) Circadian clock- and PIF4-controlled plant growth: a coincidence mechanism directly integrates a hormone signaling network into the photoperiodic control of plant architectures in
+Arabidopsis thaliana
+. Plant Cell Physiol
+53:1950–1964
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Obayashi T., Hayashi S., Saeki M., Ohta H., and Kinoshita K. (2009) ATTED-II provides coexpressed gene networks for Arabidopsis. Nucleic Acids Res
+37:D987–D991
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Paul A.-L., Zupanska A., Ostrow D.T., Zhang Y., Sun Y., Li J.-L., Shanker S., Farmerie W.G., Amalfitano C.E., and Ferl R.J. (2012) Spaceflight transcriptomes: unique responses to a novel environment. Astrobiology
+12:40–56
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Paul A.-L., Zupanska A.K., Schultz E.R., and Ferl R.J. (2013) Organ-specific remodeling of the Arabidopsis transcriptome in response to spaceflight. BMC Plant Biol
+13, doi: 10.1186/1471-2229-13-112
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Qin Z., Zhang X., Xin W., Li J., and Hu Y. (2014) The Arabidopsis transcription factor IIB-related protein BRP4 is involved in the regulation of mitotic cell-cycle progression during male gametogenesis. J Exp Bot
+65:2521–2531
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+R Development Core Team. (2012) R: A Language and Environment for Statistical Computing,
+R Foundation for Statistical Computing, Vienna, Austria
+[
+Google Scholar
+]
+Rea G., Cristofaro F., Pani G., Pascucci B., Ghuge S.A., Corsetto P.A., Imbriani M., Visai L., and Rizzo A.M. (2016) Microgravity-driven remodeling of the proteome reveals insights into molecular mechanisms and signal networks involved in response to the space flight environment. J Proteomics
+137:3–18
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Reimand J., Kull M., Peterson H., Hansen J., and Vilo J. (2007) g:Profiler—a web-based toolset for functional profiling of gene lists from large-scale experiments. Nucleic Acids Res
+35:W193–W200
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Reinhart B.J., Liu T., Newell N.R., Magnani E., Huang T., Kerstetter R., Michaels S., and Barton M.K. (2013) Establishing a framework for the Ad/Abaxial regulatory network of Arabidopsis: ascertaining targets of Class III HOMEODOMAIN LEUCINE ZIPPER and KANADI regulation. Plant Cell
+25:3228–3249
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Saedler R., Jakoby M., Marin B., Galiana-Jaime E., and Hulskamp M. (2009) The cell morphogenesis gene SPIRRIG in Arabidopsis encodes a WD/BEACH domain protein. Plant J
+59:612–621
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Salmi M.L. and Roux S.J. (2008) Gene expression changes induced by space flight in single-cells of the fern
+Ceratopteris richardii
+. Planta
+229:151–159
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Sato E.M., Hijazi H., Bennett M.J., Vissenberg K., and Swarup R. (2015) New insights into root gravitropic signalling. J Exp Bot
+66:2155–2165
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Schenk P.M., Kazan K., Manners J.M., Anderson J.P., Simpson R.S., Wilson I.W., Somerville S.C., and Maclean D.J. (2003) Systemic gene expression in Arabidopsis during an incompatible interaction with
+Alternaria brassicicola
+. Plant Physiol
+132:999–1010
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Schüler O., Hemmersbach R., and Böhmer M. (2015) A bird's-eye view of molecular changes in plant gravitropism using omics techniques. Front Plant Sci
+6, doi: 10.3389/fpls.2015.01176
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Schwab B., Mathur J., Saedler R., Schwarz H., Frey B., Scheidegger C., and Hulskamp M. (2003) Regulation of cell expansion by the DISTORTED genes in
+Arabidopsis thaliana:
+actin controls the spatial organization of microtubules. Mol Genet Genomics
+269:350–360
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Sedbrook J., Boonsirichai K., Chen R., Hilson P., Pearlman R., Rosen E., Rutherford R., Batiza A., Carroll K., Schulz T., and Masson P.H. (1998) Molecular genetics of root gravitropism and waving in
+Arabidopsis thaliana
+. Gravit Space Biol Bull
+11:71–78
+[
+PubMed
+] [
+Google Scholar
+]
+Sedbrook J.C., Chen R., and Masson P.H. (1999) ARG1 (altered response to gravity) encodes a DnaJ-like protein that potentially interacts with the cytoskeleton. Proc Natl Acad Sci USA
+96:1140–1145
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Senechal F., Graff L., Surcouf O., Marcelo P., Rayon C., Bouton S., Mareck A., Mouille G., Stintzi A., Höfte H., Lerouge P., Schaller A., and Pelloux J. (2014) Arabidopsis PECTIN METHYLESTERASE17 is co-expressed with and processed by SBT3.5, a subtilisin-like serine protease. Ann Bot
+114:1161–1175
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Smyth G.K. (2004) Linear models and empirical Bayes methods for assessing differential expression in microarray experiments.
+Stat Appl Genet Mol Biol
+3,
+Article3.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Soga K., Harada K., Wakabayashi K., Hoson T., and Kamisaka S. (1999) Increased molecular mass of hemicellulosic polysaccharides is involved in growth inhibition of maize coleoptiles and mesocotyls under hypergravity conditions. J Plant Res
+112:273–278
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Soga K., Wakabayashi K., Kamisaka S., and Hoson T. (2002) Stimulation of elongation growth and xyloglucan breakdown in Arabidopsis hypocotyls under microgravity conditions in space. Planta
+215:1040–1046
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Stanga J.P., Boonsirichai K., Sedbrook J.C., Otegui M.S., and Masson P.H. (2009) A role for the TOC complex in Arabidopsis root gravitropism. Plant Physiol
+149:1896–1905
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Su P.H. and Li H.M. (2010) Stromal Hsp70 is important for protein translocation into pea and Arabidopsis chloroplasts. Plant Cell
+22:1516–1531
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Surpin M. (2014) Plant chemical genomics: gravity sensing and response. Methods Mol Biol
+1056:115–124
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Surpin M., Rojas-Pierce M., Carter C., Hicks G.R., Vasquez J., and Raikhel N.V. (2005) The power of chemical genomics to study the link between endomembrane system components and the gravitropic response. Proc Natl Acad Sci USA
+102:4902–4907
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Tameshige T., Hirakawa Y., Torii K.U., and Uchida N. (2015) Cell walls as a stage for intercellular communication regulating shoot meristem development. Front Plant Sci
+6, doi: 10.3389/fpls.2015.00324
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+van Wyk S.G., Du Plessis M., Cullis C.A., Kunert K.J., and Vorster B.J. (2014) Cysteine protease and cystatin expression and activity during soybean nodule development and senescence. BMC Plant Biol
+14, doi: 10.1186/s12870-014-0294-3
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Vandenbrink J.P. and Kiss J.Z. (2016) Space, the final frontier: a critical review of recent experiments performed in microgravity. Plant Sci
+243:115–119
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Vorselen D., Roos W.H., MacKintosh F.C., Wuite G.J., and van Loon J.J. (2014) The role of the cytoskeleton in sensing changes in gravity by nonspecialized cells. FASEB J
+28:536–547
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Walper E., Weiste C., Mueller M.J., Hamberg M., and Droge-Laser W. (2016) Screen identifying Arabidopsis transcription factors involved in the response to 9-lipoxygenase-derived oxylipins. PLoS One
+11, doi: 10.1371/journal.pone.0153216
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Young J.C., Barral J.M., and Ulrich Hartl F. (2003) More than folding: localized functions of cytosolic chaperones. Trends Biochem Sci
+28:541–547
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zou N., Li B., Chen H., Su Y., Kronzucker H.J., Xiong L., Baluska F., and Shi W. (2013) GSA-1/ARG1 protects root gravitropism in Arabidopsis under ammonium stress. New Phytol
+200:97–111
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zupanska A.K., Denison F.C., Ferl R.J., and Paul A.-L. (2013) Spaceflight engages heat shock protein and other molecular chaperone genes in tissue culture cells of
+Arabidopsis thaliana
+. Am J Bot
+100:235–248
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Supplemental data
+Supp_Figure1.pdf
+(45.9KB, pdf)
+Supplemental data
+Table_S1.pdf
+(227.8KB, pdf)
+Supplemental data
+Table_S2.pdf
+(258.8KB, pdf)
+Supplemental data
+Table_S3.pdf
+(233.4KB, pdf)
+Supplemental data
+Table_S4.pdf
+(243.7KB, pdf)
+Supplemental data
+Table_S5.pdf
+(276.6KB, pdf)
+Supplemental data
+Table_S6.pdf
+(319.2KB, pdf)
+Supplemental data
+Table_S7.pdf
+(295KB, pdf)
+Supplemental data
+Table_S8.pdf
+(140.1KB, pdf)
+Supplemental data
+Supp_Figure2.pdf
+(44.2KB, pdf)
+Supplemental data
+Table_S9.pdf
+(288.8KB, pdf)
+Articles from Astrobiology are provided here courtesy of
+Mary Ann Liebert, Inc.

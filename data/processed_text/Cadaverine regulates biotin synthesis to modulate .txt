@@ -1,0 +1,2309 @@
+Plant J
+. 2021 Aug 12;107(5):1283–1298. doi:
+10.1111/tpj.15417
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Cadaverine regulates biotin synthesis to modulate primary root growth in Arabidopsis
+Nicole M Gibbs
+Nicole M Gibbs
+1
+Laboratory of Genetics, University of Wisconsin‐Madison, Madison, WI, 53706, USA
+5
+Present address:
+Plant Molecular and Cellular Biology Laboratory
+Salk Institute for Biological Studies
+La Jolla
+CA
+92037
+USA
+Find articles by
+Nicole M Gibbs
+1,
+5
+,
+Shih‐Heng Su
+Shih‐Heng Su
+1
+Laboratory of Genetics, University of Wisconsin‐Madison, Madison, WI, 53706, USA
+Find articles by
+Shih‐Heng Su
+1
+,
+Samuel Lopez‐Nieves
+Samuel Lopez‐Nieves
+2
+Department of Botany, University of Wisconsin‐Madison, Madison, WI, 53706, USA
+Find articles by
+Samuel Lopez‐Nieves
+2
+,
+Stéphane Mann
+Stéphane Mann
+3
+Muséum National d'Histoire Naturelle, UMR 7245, CNRS, MNHN, Molécules de Communication et Adaptation des Micro‐organismes, CP 54, 57 Rue Cuvier, Paris, 75005, France
+Find articles by
+Stéphane Mann
+3
+,
+Claude Alban
+Claude Alban
+4
+Université Grenoble Alpes, INRAE, CEA, CNRS, IRIG, LPCV, Grenoble, 38000, France
+Find articles by
+Claude Alban
+4
+,
+Hiroshi A Maeda
+Hiroshi A Maeda
+2
+Department of Botany, University of Wisconsin‐Madison, Madison, WI, 53706, USA
+Find articles by
+Hiroshi A Maeda
+2
+,
+Patrick H Masson
+Patrick H Masson
+1
+Laboratory of Genetics, University of Wisconsin‐Madison, Madison, WI, 53706, USA
+Find articles by
+Patrick H Masson
+1,
+✉
+Author information
+Article notes
+Copyright and License information
+1
+Laboratory of Genetics, University of Wisconsin‐Madison, Madison, WI, 53706, USA
+2
+Department of Botany, University of Wisconsin‐Madison, Madison, WI, 53706, USA
+3
+Muséum National d'Histoire Naturelle, UMR 7245, CNRS, MNHN, Molécules de Communication et Adaptation des Micro‐organismes, CP 54, 57 Rue Cuvier, Paris, 75005, France
+4
+Université Grenoble Alpes, INRAE, CEA, CNRS, IRIG, LPCV, Grenoble, 38000, France
+5
+Present address:
+Plant Molecular and Cellular Biology Laboratory
+Salk Institute for Biological Studies
+La Jolla
+CA
+92037
+USA
+*
+For correspondence (
+phmasson@wisc.edu
+).
+✉
+Corresponding author.
+Revised 2021 Jun 23; Received 2021 Mar 17; Accepted 2021 Jul 6; Issue date 2021 Sep.
+© 2021 The Authors.
+The Plant Journal
+published by Society for Experimental Biology and John Wiley & Sons Ltd.
+This is an open access article under the terms of the
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.
+PMC Copyright notice
+PMCID: PMC8518694  PMID:
+34250670
+SUMMARY
+Cadaverine, a polyamine, has been linked to modification of root growth architecture and response to environmental stresses in plants. However, the molecular mechanisms that govern the regulation of root growth by cadaverine are largely unexplored. Here we conducted a forward genetic screen and isolated a mutation,
+cadaverine hypersensitive 3
+(
+cdh3
+), which resulted in increased root‐growth sensitivity to cadaverine, but not other polyamines. This mutation affects the
+BIO3‐BIO1
+biotin biosynthesis gene. Exogenous supply of biotin and a pathway intermediate downstream of BIO1, 7,8‐diaminopelargonic acid, suppressed this cadaverine sensitivity phenotype. An
+in vitro
+enzyme assay showed cadaverine inhibits the BIO3‐BIO1 activity. Furthermore, cadaverine‐treated seedlings displayed reduced biotinylation of Biotin Carboxyl Carrier Protein 1 of the acetyl‐coenzyme A carboxylase complex involved in
+de novo
+fatty acid biosynthesis, resulting in decreased accumulation of triacylglycerides. Taken together, these results revealed an unexpected role of cadaverine in the regulation of biotin biosynthesis, which leads to modulation of primary root growth of plants.
+Keywords:
+polyamines, cadaverine, biotin, root architecture,
+Arabidopsis thaliana
+Significance Statement
+Cadaverine is a polyamine produced by plants and microbes, which has been shown to accumulate in plants under stress conditions and to inhibit primary root growth. Here, we show that cadaverine affects Arabidopsis root growth primarily by inhibiting the biotin biosynthesis pathway, thereby affecting primary metabolism and the lipid profile.
+INTRODUCTION
+Cadaverine (1,5‐diaminopentane) is a polyamine associated with environmental perception and modulation of biological processes in prokaryotic and eukaryotic organisms. In plants, alterations in cadaverine levels induce changes in root architecture (Gamarnik and Frydman,
+1991
+; Liu et al.,
+2014
+; Niemi et al.,
+2002
+; Strohm et al.,
+2015
+), fresh weight (Cassán,
+2009
+; Tomar et al.,
+2013
+), and stress response (Aziz et al.,
+1998
+; Cassán,
+2009
+; Kuznetsov et al.,
+2007
+; Liu et al.,
+2000
+; Shevyakova et al.,
+2001
+; Sziderics et al.,
+2010
+) with implications in crop yield and environmental stress resistance (reviewed in Jancewicz et al.,
+2016
+).
+Cadaverine is produced by decarboxylation of lysine in plastids (Bunsupa et al.,
+2012
+), a process that has been shown to be upregulated by environmental stresses, including heat, drought, and salt stress, in ice plant (Kuznetsov et al.,
+2007
+; Shevyakova et al.,
+2001
+), pepper (Sziderics et al.,
+2010
+), and maize (Simon‐Sarkadi et al.,
+2014
+). On the other hand, free cadaverine levels are below the limit of detection in
+Arabidopsis thaliana
+(Bunsupa et al.,
+2012
+; Shimizu et al.,
+2019
+). However, all plants can accumulate cadaverine directly from their environment, in the form of molecules secreted by microbes from the phyllosphere, rhizosphere or endosphere, or diffusing from decomposing matter (Cassán,
+2009
+). Importantly, both endogenous cadaverine and exogenously applied cadaverine can modulate plant growth and environment‐related stress resistance (reviewed in Jancewicz et al.,
+2016
+).
+A. thaliana
+seedlings exposed to exogenous cadaverine display altered root‐growth behavior, clearly indicating a role for this compound in root‐growth regulation (Strohm et al.,
+2015
+).
+Similar to other polyamines, cadaverine catabolism produces hydrogen peroxide and other derived compounds, which serve as transducers in a variety of physiological, developmental, and environmental stress responses in animals, plants, and microbes. In
+Leguminosae
+, cadaverine is a precursor for quinolizidine alkaloids, which act to deter insects (Bunsupa et al.,
+2012
+). Much of the polyamine content within plant cells has been shown to be in the conjugated form (Torrigiani et al.,
+1987
+). Cadaverine can conjugate to lignin precursors, although other acceptors of conjugation are possible (Negrel et al.,
+1992
+).
+Despite these important roles of cadaverine in a broad aspect of plant development and physiology, very little is known about the molecular mechanisms that modulate plant responses to cadaverine. To date, three cadaverine‐response genes have been identified in
+A. thaliana
+:
+OCT1
+,
+PAO4
+, and
+SPMS
+(Liu et al.,
+2014
+; Strohm et al.,
+2015
+).
+OCT1
+encodes an organic cation transporter previously implicated in carnitine transport (Lelandais‐Brière et al.,
+2007
+; Strohm et al.,
+2015
+).
+PAO4,
+on the other hand, encodes a polyamine oxidase that functions in the back‐conversion of spermine into spermidine, and spermidine into putrescine (Liu et al.,
+2014
+).
+SPMS
+encodes a spermine synthase.
+To understand this process better, we carried out a forward genetic screen in
+A. thaliana
+, seeking mutations that affect root‐growth responses to exogenous cadaverine. This screen revealed biotin as a possible target for the cadaverine‐induced pathway. In addition, the named vitamin B7 or H, biotin is an essential cofactor that functions in carboxylation reactions associated with
+de novo
+fatty acid biosynthesis and amino acid homeostasis (Alban et al.,
+2000
+).
+In both plants and fungi, biotin synthesis starts with the conversion of pimeloyl‐coenzyme A (pimeloyl‐CoA) to 7‐keto‐8‐aminoperlargonic acid (KAPA), which is catalyzed by the cytosol‐ and peroxisome‐localized KAPA synthase enzyme (encoded by the
+BIO4
+gene in Arabidopsis) (Pinon,
+2005
+; Tanabe et al.,
+2011
+). Subsequent reactions occur in the mitochondria, and produce 7,8‐diaminopelargonic acid (DAPA), dethiobiotin (DTB), and finally biotin. These reactions are catalyzed by the DAPA synthase (BIO1), DTB synthase (BIO3), and biotin synthase (BIO2) enzymes, respectively (Cobessi et al.,
+2012
+; Muralla et al.,
+2007
+; Picciocchi et al.,
+2001
+; Shellhammer and Meinke,
+1990
+). In plants and fungi, BIO1 and BIO3 form a bifunctional, homodimeric enzyme that is encoded by a single gene (Arabidopsis
+BIO3‐BIO1
+,
+At5G57590
+) (Muralla et al.,
+2007
+).
+In Arabidopsis, five carboxylases have been shown to use biotin as a cofactor: acetyl‐CoA carboxylase (ACCase; which catalyzes the first step in
+de novo
+fatty acid biosynthesis) (Sasaki et al.,
+1993
+; Yanai et al.,
+1995
+), 3‐methylcrotonyl‐CoA carboxylase (MCCase; which contributes to leucine catabolism) (Alban et al.,
+1993
+; Song et al.,
+1994
+), propionyl‐CoA carboxylase (an enzyme that functions at the intersection between fatty acid, amino acid, and sugar metabolism pathways) (Wurtele and Nikolau,
+1990
+), geranoyl‐CoA carboxylase (Guan et al.,
+1999
+), and pyruvate carboxylase (a key contributor to gluconeogenesis and lipogenesis) (Wurtele and Nikolau,
+1990
+; reviewed in Nikolau et al.,
+2003
+). A role for biotin beyond its function as a cofactor in carboxylases has also been suggested (Che,
+2003
+), as has its potential contribution to the regulation of expression of defense‐related genes (Li et al.,
+2012
+). Furthermore, an uncharacterized nuclear‐localized biotinylated protein has also been identified as potential regulator of target gene expression (Li et al.,
+2012
+).
+In this work, we show that cadaverine modulates primary root growth, mainly, by altering the biotin metabolic pathway in
+A. thaliana
+. Cadaverine‐induced inhibition of root growth can be rescued with supplementation of biotin and biotin‐pathway intermediates downstream of BIO1. Furthermore, we observed that decreased biotinylation of ACCase subunit BCCP1, as a result of cadaverine treatment, leads to a reduction of fatty acid synthesis. This study will contribute toward understanding how biotin limitation affects plant growth, and the role of cadaverine as a natural biotin inhibitor.
+RESULTS
+cdh3
+mutation enhances primary root growth sensitivity to cadaverine in Arabidopsis
+To identify molecular candidates in cadaverine response in plants, we carried out a forward genetic screen using a population of ethyl methanesulfonate (EMS)‐mutagenized
+A. thaliana
+plants in the Columbia‐0 (Col‐0) background. We screened M2 seedlings for altered root growth on media containing 200 µ
+m
+cadaverine. One of the cadaverine‐hypersensitive mutants identified in this screen, named
+cadaverine hypersensitive 3
+(
+cdh3
+), showed a significant inhibition of primary root growth on cadaverine‐containing media relative to wild type (Figure
+1a
+and Figure
+S1
+). This mutant is the main subject of investigation in this manuscript.
+Figure 1.
+Open in a new tab
+cdh3
+is hypersensitive to cadaverine (Cad).
+(a) 10‐day‐old Columbia‐0 (Col‐0) and
+cdh3
+seedlings germinated on vertical plates containing 200 μ
+m
+cadaverine or control media.
+(b) Dose–response of seedlings germinated on cadaverine media. Root growth between day 6 and 10 is quantified. Root growth on control media (average ± standard error): Col 2.29 ± 0.045 cm;
+cdh3
+1.94 ± 0.096 cm. Whiskers represent minimum to maximum values.
+(c) Seedlings were germinated on 200 μ
+m
+cadaverine or control media and treated with propidium iodide to stain the cell walls. Stained roots were then analyzed using confocal microscopy. Five seedlings were analyzed per treatment group. White stars indicate the quiescent center. White arrowheads indicate the end of the root meristem.
+(d) Length of the meristem was quantified by identifying cells in the cortex whose length is greater than the width, and measuring the distance from the distal wall this cell to the distal wall of the quiescent center. Bars represent standard error, with dots showing data points.
+(e) Numbers of cells in the meristems were counted from the quiescent center to the end of the meristem along the cortex. Bars represent standard error, with dots showing data points.
+(f) Root tip growth following transfer of 5‐day‐old seedlings from control to split agar plates containing either control media, or media supplemented with 200 μ
+m
+cadaverine. Root tip growth was recorded using a high‐resolution camera for 96 h and quantified using ImageJ. Data points represent the three seedlings per treatment. Bars indicate standard error. *
+P
+< 0.05, **
+P
+< 0.01, ***
+P
+< 0.001 analyzed by a mixed‐effects model with an
+F
+‐test for the interaction between time and treatment with Tukey’s adjustment for multiple comparisons.
+(g)
+cdh3
+and wild‐type root growths were measured from day 6 to 10 on control or media supplemented with the indicated concentrations of putrescine, spermidine, and spermine. Root growths were standardized to growth on control media for each genotype. Whiskers show minimum to maximum values. ANOVA with Tukey's HSD correction was used to determine significance.
+Cadaverine decreases primary root growth earlier in the
+cdh3
+mutant than the wild type
+To characterize
+cdh3
+further, we first plated wild‐type and
+cdh3
+mutant seeds on media containing cadaverine, ranging from 2 µ
+m
+to 2 m
+m
+, and quantified primary root growth under these conditions. The results demonstrated a strong inhibitory effect of cadaverine at concentrations as low as 2 µ
+m
+for
+cdh3
+, whereas a significant effect of cadaverine on wild‐type root growth was observed only at concentrations of 20 µ
+m
+and higher (Figure
+1b
+). At 20 µ
+m
+cdh3
+primary roots were 58.4% shorter than wild type. On control media lacking cadaverine,
+cdh3
+seedlings showed only a minor decrease in primary root growth compared with wild type (Figure
+1a
+).
+In previous work involving wild‐type L
+er
+seedlings, Strohm
+et al
+. showed that exogenous cadaverine inhibits primary root growth mostly by affecting cell elongation (Strohm et al.,
+2015
+). They also demonstrated the existence of substantial natural variation between Arabidopsis accessions in their primary root growth responses to exogenous cadaverine (Strohm et al.,
+2015
+). Therefore, we tested the effects of exogenous cadaverine on wild‐type Col‐0, analyzing cell elongation and apical root meristem size. Eight‐day‐old seedlings were grown on 200 µ
+m
+cadaverine or control media, and roots were treated with propidium iodide, a cell‐wall stain (Strohm et al.,
+2015
+), to determine cell sizes and zone boundaries in the root tip. The decrease in primary root growth was found to be mostly associated with alterations in cell size within the elongation zone (Figure
+S2
+), whereas the number of cells in the root apical meristem was not substantially affected in the wild type (Figure
+1c–e
+). However,
+cdh3
+showed a significantly smaller root meristem upon cadaverine treatment, while
+cdh3
+grown on control media showed an equal number of cells compared with wild type. In addition to decreased cell division and cell expansion in
+cdh3
+, propidium iodide permeated a number of cells within the elongation zone, suggesting cell death (Figure
+1c
+).
+We next wanted to determine the time at which cell elongation is modified following cadaverine treatment by measuring changes in tip growth over time. Five‐day‐old seedlings were transferred on to split agar plates containing control or 200 µ
+m
+cadaverine media and imaged for 4 days using a high‐resolution camera. Wild‐type roots began to show a significant decrease in tip growth after 96 h of cadaverine treatment.
+cdh3
+, on the other hand, showed a decrease in root tip growth already 40 h after onset of cadaverine treatment (Figure
+1f
+). Therefore, the
+cdh3
+mutation substantially increases the speed of root‐tip response to exogenous cadaverine.
+Because arginine‐derived polyamines, such as putrescine and putrescine‐derived spermidine and spermine, were previously shown to also affect primary root growth in young Arabidopsis seedlings, we tested ability of
+cdh3
+to respond to these polyamines as well (Liu et al.,
+2014
+; Strohm et al.,
+2015
+). The results demonstrated that
+cdh3
+and wild type show similar root‐growth response to putrescine and spermine, with
+cdh3
+showing only a mild resistance to 500 µ
+m
+spermidine (Figure
+1g
+). Hence, the
+cdh3
+mutation increases root‐growth sensitivity to cadaverine, and it has little to no effect on root responses to putrescine and putrescine‐derived polyamines.
+Taken together, our data indicate that
+cdh3
+alters a mechanism involved in the control of primary root growth in response to cadaverine, a process that targets the regulation of anisotropic cell expansion occurring in the main elongation zone as well as the meristem.
+cdh3
+’s enhanced cadaverine response is the result of a mutation in
+BIO3‐BIO1
+To evaluate the genetic makeup of
+cdh3
+, we backcrossed it to Col‐0, and self‐pollinated the corresponding F1. Segregating F2 progeny were investigated for root‐growth sensitivity to cadaverine. Results showed 22.6% seedlings (12 of 53) exhibiting hypersensitive cadaverine response, consistent with a single, recessive mutation (chi‐squared value of 0.1179;
+P
+˜ 0.3). To clone
+CDH3
+, we generated a pool of 162 cadaverine‐hypersensitive
+cdh3
+F2 seedlings from this segregating population, extracted DNA from this pool, and subjected it to whole genome next‐generation sequencing. The candidate mutation was mapped to a 4.6 Mb region of chromosome 5, using the approach described in Schneeberger et al. (
+2009
+). Within this region, a non‐synonymous mutation was found within the
+BIO3‐BIO1
+gene (
+At5G57590
+), which encodes a bifunctional enzyme involved in biotin synthesis (Cobessi et al.,
+2012
+). This mutation resulted in an A662T amino acid change within the BIO1 catalytic pocket of the protein (Figure
+2a,b
+), which functions as an aminotransferase that catalyzes the conversion of KAPA into DAPA within the pathway. The A662 amino acid is located in close proximity to the pyridoxal phosphate (PLP)‐cofactor binding site, potentially affecting enzymatic activity (Figure
+2c
+).
+Figure 2.
+Open in a new tab
+cdh3
+contains a mutation in
+BIO3‐BIO1
+.
+(a) Next‐generation sequencing revealed a peak on chromosome 5 with a high proportion of single nucleotide polymorphisms (SNPs) compared with the reference sequence. Table shows mutations within the 4.6‐Mb peak region containing non‐synonymous SNPs in protein‐coding genes.
+(b) Gene structure for
+BIO3‐BIO1
+is shown indicating the position of the SNP in
+cdh3
+.
+(c) 3D structure of the catalytic site of BIO1, deduced from the crystal structure resolved in Cobessi et al. (
+2012
+). This structure, imaged with
+pymol
+software, shows the substrate (7‐keto‐8‐aminoperlargonic acid [KAPA], in pink) and the cofactor (pyridoxal phosphate [PLP], in blue) bound to L666. Position of Ala662, which is converted into a threonine in
+cdh3
+, is indicated in yellow.
+(d) Quantification of standardized root growth on control and 200 μ
+m
+cadaverine‐containing media from day 6 to 10 of wild‐type,
+cdh3
+, or
+cdh3
+transformation–rescue lines (
+cdh3
+[
+BIO3‐BIO1pro:BIO3‐BIO1
+]) with the wild type
+BIO3‐BIO1
+transgene under the control of its native promoter.
+BIO3‐BIO1
+rescue lines are at the T3 generation. Root growth on control media (average ± standard error): Columbia‐0 (Col‐0) 2.54 cm ± 0.045;
+cdh3
+2.05 cm ± 0.073 cm;
+cdh3[BIO3‐BIO1pro:BIO3‐BIO1 1
+2.73 cm ± 0.075;
+cdh3[BIO3‐BIO1pro:BIO3‐BIO1 2
+2.37 cm ± 0.104 cm;
+cdh3[BIO3‐BIO1pro:BIO3‐BIO1 3
+2.36 cm ± 0.063 cm;
+cdh3[BIO3‐BIO1pro:BIO3‐BIO1 4
+2.53 cm ± 0.073 cm. Whiskers represent minimum to maximum.
+(e) Quantitative reverse transcription–polymerase chain reaction analysis of
+BIO3‐BIO1
+in 8‐day‐old wild‐type,
+cdh3
+, and
+cdh3[BIO3‐BIO1pro:BIO3‐BIO1]
+seedlings grown on control media. Bars represent standard error, with dots showing biological replicates. (d,e) Significant differences between groups detected using ANOVA with Tukey’s HSD correction (
+P
+< 0.05), are indicated with distinct letters.
+To confirm the association of the cadaverine‐hypersensitive phenotype of
+cdh3
+with the A662T mutation in
+BIO3‐BIO1
+, we transformed a wild‐type
+BIO3‐BIO1
+transgene under the control of its native promoter into
+cdh3
+. Four independent, homozygous transgenic lines (
+cdh3
+[
+BIO3‐BIO1pro
+::
+BIO3‐BIO1
+]) were recovered and screened on cadaverine‐containing media. Results shown in Figure
+2d
+demonstrated rescue of the cadaverine‐hypersensitive phenotype of
+cdh3
+by the wild‐type
+BIO3‐BIO1pro
+::
+BIO3‐BIO1
+transgene in all four independent lines. Furthermore, the transgene also rescued the decreased root‐growth phenotype displayed by
+cdh3
+on control media, suggesting the corresponding A662T mutation in
+BIO3‐BIO1
+was also responsible for
+cdh3
+root‐growth restriction on control media (Figure
+1a
+).
+While performing these transformation–rescue experiments, we also noted that three of the four transformation–rescue lines (lines 1, 3, and 4) displayed increased root‐growth resistance to cadaverine, a phenotype that is opposite to the hypersensitive response displayed by
+cdh3
+. To determine if the transformation–rescue lines displayed increased transgene expression level,
+BIO3‐BIO1
+expression was quantified using reverse transcription (RT)‐quantitative polymerase chain reaction (qPCR) on 8‐day‐old seedlings grown on control media. While no significant expression alterations were found between
+cdh3
+and wild‐type seedlings, transformation–rescue lines displayed 4.5–14.8‐fold increases in
+BIO3‐BIO1
+expression relative to wild type (Figure
+2e
+). The level of root‐growth insensitivity to cadaverine correlated with increased expression in resistant transformation–rescue lines (
+R
+2
+= 0.68). Taken together, these results suggest dosage of
+BIO3‐BIO1
+affects the root‐growth response to cadaverine.
+Cadaverine response is chemically suppressed by biotin
+Initial studies with the embryo‐lethal
+bio1‐1
+mutant showed that knockout of biotin synthesis in plants can be rescued by application of exogenous biotin (Schneider et al.,
+1989
+). To determine if
+cdh3
+’s hypersensitive root‐growth response to cadaverine is the result of decreased biotin, we supplemented 200 μ
+m
+cadaverine‐containing media with biotin at concentrations ranging from 10 to 100 n
+m
+(Schneider et al.,
+1989
+). The cadaverine‐hypersensitive phenotype displayed by
+cdh3
+roots was rescued in a dose‐dependent manner to near wild‐type root growth by addition of biotin (Figure
+3a
+). In addition, the inhibitory effect of cadaverine on wild‐type root growth was also suppressed by addition of 80 n
+m
+biotin to the medium (Figure
+3a
+). These data are compatible with cadaverine targeting the biotin pathway or modulating biotin availability or function. Alternatively, cadaverine and biotin could function through parallel pathways to modify primary root growth.
+Figure 3.
+Open in a new tab
+Biotin suppresses wild‐type primary root growth response to cadaverine (Cad) and rescues the hypersensitive root growth response of
+cdh3
+.
+(a) Standardized root growth of wild‐type and
+cdh3
+mutant seedlings on 200 μ
+m
+cadaverine‐containing media in the presence of 0–100 n
+m
+biotin. ***
+P
+< 0.001 using Student’s
+t
+‐test. Root growth on control media (average ± standard error): Columbia‐0 (Col‐0) 3.505 ± 0.0925 cm;
+cdh3
+2.605 ± 0.326 cm. Whiskers show minimum to maximum values.
+(b) Wild‐type and
+cdh3
+mutant root growth from day 6 to 10 on media with or without 200 μ
+m
+cadaverine, in the presence of 1 μ
+m
+biotin, 7‐keto‐8‐aminoperlargonic acid (KAPA) or 7,8‐diaminopelargonic acid (DAPA). A simplified biotin synthesis pathway is shown on the right of this graph. Root growth on control media (average ± standard error): Col‐0 3.452 ± 0.582 cm;
+cdh3
+2.985 ± 0.115 cm. Minimum to maximum values are represented by whiskers.
+(c) Root growth of
+oct1
+mutants on media without or with 200 μ
+m
+cadaverine and 1 μ
+m
+biotin.
+oct1‐1
+is in the WS accession background, and
+oct1‐2
+is in the Col‐0 background. Root growth on control media (average ± standard error): WS 1.663 ± 0.0322 cm;
+oct1‐1
+1.569 ± 0.066 cm; Col‐0 1.523 ± 0.174 cm;
+oct1‐2
+1.44 ± 0.033 cm. Whiskers show minimum to maximum values.
+(d) Standardized root growth of wild‐type Col‐0 and
+pao4‐1 and pao4‐2
+mutant seedlings on media with or without 200 μ
+m
+cadaverine, in the presence or absence of 1 μ
+m
+biotin. Root growth on control media (average ± standard error): Col 1.938 ± 0.457 cm;
+pao4‐1
+2.230 ± 0.046 cm;
+pao4‐2
+2.361 ± 0.043 cm. (b–d) Significance was determined using ANOVA with Tukey’s HSD correction. Different letters indicate statistically different groups (
+P
+< 0.05). Whiskers show minimum to maximum values.
+To identify a step in the biotin synthesis pathway that may be potentially affected by cadaverine, we tested intermediate compounds of the biotin biosynthesis pathway for their abilities to suppress root‐growth response to cadaverine. Figure
+3b
+shows that addition of 1 μ
+m
+DAPA, the product of BIO1 activity, resulted in complete suppression of cadaverine's effects on root growth, whereas addition of 1 μ
+m
+KAPA, the BIO1 substrate, did not. These results suggest that BIO2, BIO3, and BIO4 functions are not impaired by cadaverine. Rather, BIO1 enzymatic activity, channeling of DAPA to the BIO3 active site, or KAPA’s availability or transport, is/are inhibited by cadaverine.
+As root‐growth response to cadaverine can be alleviated by biotin supplementation in both
+cdh3
+and wild‐type seedlings, we tested if we could identify cadaverine‐hypersensitive lines that cannot be rescued by biotin, thereby identifying downstream regulators in the cadaverine‐response pathway.
+ORGANIC CATION TRANSPORTER 1
+mutant,
+oct1‐1
+, and
+POLYAMINE OXIDASE 4
+mutant,
+pao4‐1
+, have been shown to be hypersensitive to cadaverine (Liu et al.,
+2014
+; Strohm et al.,
+2015
+).
+oct1
+and
+pao4
+mutants were tested for chemical rescue on biotin‐ and cadaverine‐containing media. As shown in Figure
+3c,d
+oct1
+and
+pao4
+mutant roots no longer displayed cadaverine hypersensitivity in the presence of biotin. Hence, biotin appears to function downstream of, or parallel to,
+OCT1
+and
+PAO4
+in the cadaverine‐response pathway.
+Cadaverine directly modulates biotin synthesis by altering BIO3‐BIO1 enzymatic activity
+As the results of the chemical rescue experiment suggest that cadaverine may target DAPA synthase, we expressed wild‐type BIO3‐BIO1 recombinant protein
+in vitro
+to test whether its enzymatic activity was fully functional upon cadaverine treatment. Previous
+in vitro
+studies by Cobessi
+et al
+., have shown that the product of the BIO1 reaction, DAPA, is channeled from the BIO1 active site to the BIO3 active site, and thus not released into the solution. Therefore, we chose to detect the product of BIO3, DTB using a FRET‐based competition assay, in which DTB will displace the lower affinity 4′‐hydroxyazobenzene‐2‐carboxylic acid quencher from fluorescently tagged avidin (Batchelor et al.,
+2007
+). We set up
+in vitro
+reactions in the presence or absence of cadaverine to determine whether cadaverine alters the enzyme activity. The result shown in Figure
+4a
+indicates less formation of DTB in reactions containing cadaverine compared with control. The data suggest that cadaverine affects the flow of molecules through the biotin synthesis pathway at the level of DAPA or DTB synthesis, leading to decreased biotin synthesis and altered root growth. Attempts to express the
+cdh3
+mutant protein
+in vitro
+were unsucessful, suggesting the A662T mutation may affect BIO3‐BIO1 protein stability.
+Figure 4.
+Open in a new tab
+Cadaverine (Cad) inhibits BIO3‐BIO1 enzymatic activity.
+(a) BIO3‐BIO1 enzyme was expressed in
+Escherichia coli
+and affinity‐purified.
+In vitro
+enzymatic assays contained 50 μ
+m
+cadaverine and 20 μ
+m
+KAPA. A negative control assay was carried out with 0 μ
+m
+KAPA with or without 50 μ
+m
+cadaverine, to control for background fluorescence (see Experimental procedures). Reactions were run for 8 min before heat‐treating to stop the reaction. *
+P
+< 0.05 based on Student’s
+t
+‐test. Bars represent standard error, with individual data points showing biological replicates. DTB, dethiobiotin.
+(b)
+BIO3‐BIO1
+expression is unaltered by cadaverine treatment.
+BIO3‐BIO1
+expression was quantified using quantitative reverse transcription–polymerase chain reaction on cDNA prepared from RNA extracted from 8‐day‐old seedlings germinated on 200 μ
+m
+cadaverine or control media, or transferred to cadaverine for 24, 48, or 72 h. Expression is standardized to
+PP2A
+reference gene. No statistically significant differences were observed using ANOVA. Bars represent standard error with values of individual biological replicates shown as symbols according to genotype and treatment indicated in the key.
+(c) BIO3‐BIO1 protein expression was quantified using a western‐blot approach. 8‐day‐old seedlings were grown on cadaverine‐containing media for 72 h. Proteins were extracted from whole seedlings and run on a sodium dodecyl sulfate–polyacrylamide gel electrophoresis gel. Following electro‐transfer, the PVDF membrane was exposed to a BIO3‐BIO1‐specific antibody to determine protein level. An antibody directed against a proteasomal protein, RPT4A was also used as a loading control. Blot shown here is representative of three biological replicates that gave similar results. In each blot, band intensities were quantified and standardized to RPT4A for each lane. Results of these quantifications are plotted in the graph shown to the right of the blot, with the value of each biological replicate shown as a symbol indicated in the key. Bars indicate standard error. **
+P
+< 0.01 using Student’s
+t
+‐test against Columbia‐0 (Col‐0) on control condition.
+BIO3‐BIO1
+transcript and protein are unaffected by cadaverine treatment
+To determine if cadaverine also affects the regulation of
+BIO3‐BIO1
+expression, we next quantified the levels of
+BIO3‐BIO1
+transcripts in control and cadaverine‐treated wild‐type and
+cdh3
+seedlings. RNA was extracted from whole seedlings germinated on cadaverine‐containing media, or treated with cadaverine for 24, 48, or 72 h, along with controls grown on cadaverine‐free medium. No significant differences were identified between cadaverine‐treated and control samples, or between
+cdh3
+and wild‐type seedlings (Figure
+4b
+). In addition, cadaverine did not influence the expression of other biotin synthesis genes,
+BIO4
+(
+At5G04620
+) and
+BIO2
+(
+At2G43360
+) (Figure
+S3
+). This result contrasts with an earlier report that showed increased
+BIO2
+expression upon biotin depletion (Patton et al.,
+1996
+). Together, these data suggest that cadaverine‐induced inhibition of biotin synthesis under our conditions is not sufficiently severe to result in increased
+BIO2
+expression.
+To investigate a potential effect of cadaverine on BIO3‐BIO1 protein abundance, wild‐type,
+cdh3
+, and
+cdh3
+[
+BIO3‐BIO1pro
+::
+BIO3‐BIO1
+] rescue line #2 were germinated and grown on either control or cadaverine‐containing media for 8 days. Proteins were extracted from dissected root and shoot tissues, separated by sodium dodecyl sulfate–polyacrylamide gel electrophoresis, and subjected to Western blot analysis, probing with a BIO3‐BIO1‐specific antibody (Cobessi et al.,
+2012
+). The
+cdh3
+[
+BIO3‐BIO1pro
+::
+BIO3‐BIO1
+] rescue line expressed increased amounts of BIO3‐BIO1 protein relative to wild type, irrespective of cadaverine treatment (Figure
+4c
+), consistent with its increased
+BIO3‐BIO1
+transcripts (Figure
+2e
+). Minimal differences in relative BIO3‐BIO1 protein abundance were observed between cadaverine‐treated and control samples for all genotypes and tissues tested (Figure
+4c
+), suggesting that cadaverine has limited impacts on overall expression of the BIO3‐BIO1 protein in Arabidopsis.
+Cadaverine treatment decreases the biotinylation of biotin carboxyl carrier proteins
+in planta
+Considering that cadaverine inhibits biotin synthesis, we hypothesized that treating Arabidopsis seedlings with cadaverine should result in decreased biotinylation of target proteins in plant tissues. Previous studies have shown that probing Western blot membranes with a streptavidin probe allows the detection of a minimum of three biotinylated plant proteins, including MCCA, involved in amino acid metabolism, and the biotin carboxyl carrier protein 1 and 2 subunits (BCCP1 and BCCP2) of chloroplastic, heterodimeric ACCase, involved in fatty acid metabolism (Aubert et al.,
+1996
+; Che,
+2003
+; Li et al.,
+2012
+). BCCP2 is primarily expressed in flowers and developing seeds, but scarcely detectable in seedling tissues (Thelen et al.,
+2001
+). We used a similar Western blot analysis to determine whether cadaverine treatment is sufficient to induce differences in MCAA and/or BCCP proteins biotinylation in dissected root and/or shoot tissues.
+Wild‐type,
+cdh3
+, and
+cdh3
+[
+BIO3‐BIO1pro
+::
+BIO3‐BIO1
+] #
+2
+rescue seedlings were germinated and grown on control or cadaverine‐containing media for 8 days. Roots and shoots were then dissected. Proteins extracted from these samples were subjected to Western blot analysis using a streptavidin probe. The amounts of biotinylated MCCA protein showed little change upon cadaverine treatment in the root (Figure
+5a,c
+) or shoot (Figure
+5b,d
+). On the other hand, a decrease in biotinylated BCCP1 protein was observed in both roots (Figure
+5a,e
+) and shoots (Figure
+5b,f
+), with a larger magnitude of decrease occurring in the roots.
+Figure 5.
+Open in a new tab
+Levels of biotinylated proteins are altered following cadaverine (Cad) treatment.
+(a,b) Seed were germinated on control or cadaverine‐containing media. Following 8 days of treatment, roots (a) and shoots (b) were dissected and protein was extracted. 150 µg of protein were loaded on to sodium dodecyl sulfate–polyacrylamide gel and electrophoresed. After electro‐transfer on to a PVDF membrane, biotinylated proteins were detected with Licor IRDye CW800‐labeled streptavidin or anti‐biotin carboxyl carrier protein (anti‐BCCP) 1 and 3‐methylcrotonyl‐CoA carboxylase (MCCA) antibodies. In all cases, anti‐RPT4A antibodies were used to control for loading differences between samples. Blots shown in (a,b) are representative of three biological replicates showing similar results. Quantifications of band intensities from these blots are summarized in (c–f) for all three biological replicates.
+(c–f) Protein amount and biotinylation were quantified based on band intensity, standardized to the RPT4A signals, and then standardized again to Columbia‐0 (Col‐0). Expression results shown in the graphs represent three biological replicates, with a circle or square indicating the value of each control or cadaverine replicate, respectively. Bars indicate standard error. *Student's
+t
+‐test
+P
+< 0.05. **
+P
+< 0.01, compared with Col‐0 control treatment. (c) MCCA total protein and MCCA biotinylation in roots. (d) MCCA total protein and biotinylation in shoots. (e) BCCP1 total protein and BCCP1 biotinylation in roots. (f) BCCP1 total protein and BCCP1 biotinylation in shoots.
+Cadaverine‐induced changes in biotinylated protein abundance could be due to decreased levels of target protein biotinylation, and/or relate to changes in abundance of the corresponding proteins. To investigate these possibilities, we used MCCA‐ and BCCP1‐specific antibodies to analyze the abundance of these proteins in control and cadaverine‐treated seedlings. Results shown in Figure
+5c
+demonstrated increased MCCA levels in the root upon cadaverine treatment only in
+cdh3
+, while no significant changes were observed in the shoot (Figure
+5d
+). BCCP1 protein abundance in cadaverine‐treated samples relative to controls, showed no significant changes in the root or shoot (Figure
+5e,f
+).
+qRT‐PCR analysis of
+MCCA
+and
+BCCP1
+expression showed no significant transcriptional alteration in
+cdh3
+and Col‐0 upon cadaverine treatment, whether applied since germination, or for 24, 48, or 72 h (Figure
+S4
+). Taken together, our data are consistent with cadaverine treatment leading to decreased biotin synthesis, thereby resulting in decreased biotinylation in BCCP1 protein in both shoots and roots. They are also consistent with decreased biotinylation levels of MCCA protein in
+cdh3
+mutant roots, as increased MCCA apoprotein abundance is not accompanied by increased levels of biotinylated MCCA (Figure
+5c
+).
+In summary, cadaverine treatment significantly affects the amount of biotinylated BCCP1 protein in both shoots and roots.
+Lipid composition is altered by cadaverine
+ACCase requires biotinylation of the BCCP1 subunit to generate malonyl‐CoA from acetyl‐CoA at the first step of fatty acid biosynthesis. The cadaverine‐induced reduction in biotinylated BCCP1 protein in plant tissues is expected to decrease fatty acid production. To test this hypothesis, we determined the impact of cadaverine treatment on the lipid profile of Arabidopsis seedlings. Wild‐type Col‐0 seeds were germinated and grown on control media for 5 days, then transferred to either control media or media containing 200 µ
+m
+cadaverine, and allowed to grow for 72 more hours, a time previously determined to be sufficient to allow primary root growth inhibition by cadaverine (Figure
+1
+). At that time, lipids were extracted from these samples, and subjected to lipidomics analyses by tandem mass spectrometry (Shiva et al.,
+2013
+). Total polar lipids as well as diacylglycerol (DAG) and triacylglycerol (TAG) lipids, were analyzed with five biological replicates.
+The results showed that total TAG decreased in abundance upon cadaverine treatment, with six of 31 TAG species showing significant decreases (Figure
+6
+), all of which were TAGs having 18:3 acyls. On the other hand, TAGs containing short‐chain fatty acids, 16:0 and 16:1, had little changes with the treatment (Figure
+6
+). The reduced TAG synthesis along with the higher percentage of short‐chain fatty acid compositions in TAGs were also previously observed in Arabidopsis plants with limited biotin availability (Pommerrenig et al.,
+2012
+). Therefore, these results are consistent with the negative effect of cadaverine on biotin availability and TAG production.
+Figure 6.
+Open in a new tab
+Triacylglycerol content following 72 h of cadaverine (Cad) treatment.
+Columbia‐0 seedlings were germinated on control media and transferred to either control or 200 μ
+m
+cadaverine‐containing media after 5 days. 72 h post‐treatment, whole seedlings were harvested and used for lipid extraction and analysis using tandem mass spectrometry. The average of five biological replicates are shown containing approximately 200 seedlings per replicate, with dots representing each replicate. Bars indicate standard error. Student’s
+t
+‐test was done to determine significance between cadaverine treatment and control. *
+P
+< 0.05. **
+P
+< 0.01.
+We observed similar levels of total polar lipid species between cadaverine‐treated and control seedlings, with slight decreases observed in total PA and phosphatidylinositol (PI), and an increase in phosphatidylcholine (PC) (Table
+S1
+). Although total DAG levels were not altered by cadaverine treatment, specific DAGs changed in abundance in response to cadaverine, including increases in DAG 16:0/16:1, DAG 18:0/16:2 and DAG 18:3/dnOPDA, and decreases in DAG 18:3/18:3 content (Table
+S1
+). In addition, we have also seen modification of phospholipids, albeit below the significance threshold, with PI and PA decreasing with cadaverine treatment.
+DISCUSSION
+We have shown that cadaverine functions to inhibit primary root growth by modulating biotin synthesis through inhibition of the BIO3‐BIO1 enzyme. Cadaverine response can be chemically rescued with biotin, DAPA, but not KAPA. While KAPA could potentially be excluded from transport into seedlings, the results of our
+in vitro
+reaction show cadaverine to inhibit BIO3‐BIO1 activity. Furthermore, cadaverine did not alter the expression of BIO3‐BIO1 at the protein level in wild‐type or
+cdh3,
+and overexpression of
+BIO3‐BIO1
+from our
+cdh3
+rescue line resulted in increased BIO3‐BIO1 protein and resistance to cadaverine, in agreement with an effect on BIO3‐BIO1 enzymatic function.
+Analysis of the
+BIO3‐BIO1
+mutant,
+cdh3
+, reported here shows biotin deficiency results in decreased primary root growth, which is similar to the phenotype observed in the hypomorphic mutation in
+BIO4
+(Li et al.,
+2012
+). Furthermore, analysis of
+cdh3
+root growth on cadaverine‐containing media also shows evidence of cell death in the elongation zone upon staining with propidium iodide (Figure
+1c
+). Evidence of cell death was also reported in shoots of a hypomorphic mutant of
+BIO4
+(Li et al.,
+2012
+), indicating that decreases in biotin cause cell death in both roots and shoots. The localization of cell death to the elongation zone of cadaverine‐treated
+cdh3
+may reflect an increased requirement for biotin in tissues that undergo rapid cell growth and expansion. Alternatively, deficiencies in fatty acid synthesis have been shown to result in an accumulation of reactive oxygen species in the mitochondria, along with cell death (Wu et al.,
+2015
+). The similar phenotypes observed in cadaverine‐treated
+cdh3
+mutant seedlings (this study) and biotin‐deficient mutants (Li et al.,
+2012
+; Wu et al.,
+2015
+) thus suggest that a deficiency in biotin synthesis may underlie the developmental impact of cadaverine.
+Inhibition of biotin synthesis has long been a target for herbicides and antibiotics. While numerous compounds have been identified to inhibit biotin biosynthesis, to date only one natural product, amiclenomycin, had been identified to inhibit DAPA synthase in bacteria, through formation of a covalent adduct with PLP (Sandmark et al.,
+2002
+). Our results indicate cadaverine is a natural DAPA synthase inhibitor in Arabidopsis. Cadaverine may function to inhibit BIO3‐BIO1 through formation of a Schiff base with PLP, as observed with amiclenomycin, or through direct interaction with the binding site. BIO3‐BIO1 inhibition by cadaverine cannot be mimicked by treatments with putrescine and/or putrescine‐derived polyamines. The different inhibitory activities displayed by distinct polyamines may be determined by charge distribution of the amine groups or subcellular compartmentalization. Given the proximity of A662 to PLP, the hypersensitive response of
+cdh3
+mutant to cadaverine could be explained by an altered conformation of the mutant protein resulting in decreased reaction efficiency. However, multiple attempts at producing recombinant
+cdh3
+mutant enzyme failed, preventing us from directly testing this hypothesis. Future work will be aimed at characterizing cadaverine’s inhibitory effect on DAPA synthase activity in plants.
+As we have shown exogenous biotin rescues the cadaverine response phenotype, the effect of cadaverine treatment on primary root growth is in part associated with induced alterations in lipid composition, including decreased TAG content, and/or signaling phospholipids. Analysis of
+SUC5,
+required for biotin transport into the developing embryo from the maternal plant, shows the
+suc5
+and
+bio1
+or
+bio2
+double mutants rescued with exogenous biotin have an increased proportion of short chain fatty acids (16:0 and 16:1), in accordance with our observation of cadaverine treatment (Figure
+6
+; Table
+S1
+) (Pommerrenig et al.,
+2012
+). The decrease in PI and PA could be due to increased activity through the phosphoinositide pathway to generate DAG to compensate for decreases in TAG. Alternatively, cadaverine may function to affect the components of the phosphoinositide pathway, independently from its effect on biotin, contributing to the root growth phenotype we see in response to cadaverine.
+Biotin is also involved in amino acid homeostasis, gluconeogenesis, and other aspects of central metabolism. MCCase has previously been shown to accumulate in response to biotin depletion or starvation to allow for recycling of amino acids (Aubert et al.,
+1996
+; Che,
+2003
+; Ding et al.,
+2012
+). The increase of MCCA apoprotein in
+cdh3
+(Figure
+5a,c
+) is compatible with a mechanism that allows modulation of target MCCA protein abundance by biotin availability, in agreement with previous studies (Che,
+2003
+; Li et al.,
+2012
+). The absence of such changes in cadaverine‐treated wild‐type plants may simply reflect a lower level of biotin limitation in wild‐type roots.
+While root growth inhibition of
+cdh3
+was not observed with putrescine‐derived polyamines (Figure
+1g
+), the
+pao4
+phenotype and subsequent rescue by biotin (Figure
+3d
+) suggests a connection between cadaverine and the putrescine‐derived polyamines. Polyamine oxidases, such as PAO4, oxidize polyamines spermidine and spermine, thereby contributing to putrescine‐derived polyamines homeostasis (Kamada‐Nobusada et al.,
+2008
+; Liu et al.,
+2014
+).
+pao4
+mutants show increased spermine content, decreased spermidine and hydrogen peroxide, and changes in primary metabolism (Sequera‐Mutiozabal et al.,
+2016
+). Altered primary metabolism associated with the
+pao4
+mutation may reflect an indirect role for the putrescine‐derived polyamines or their catabolic products in biotin synthesis or the downstream effects of biotin.
+The putrescine‐derived polyamines are essential components for growth and development; for example, thermospermine is required for vasculature development in Arabidopsis (Kakehi et al.,
+2008
+) and spermidine is required for eukaryotic translation (Park et al.,
+1982
+). Studies on the functions of putrescine‐derived polyamines have been hampered by the embryo lethality associated with spermidine depletion (Imai et al.,
+2004
+). Therefore, it is possible that putrescine‐derived polyamines provide other essential roles that have yet to be uncovered.
+OCT1
+has been characterized as a carnitine transporter and was proposed to transport cations, such as polyamines (Lelandais‐Brière et al.,
+2007
+; Strohm et al.,
+2015
+). In mammals the carnitine cycle allows acyl transport into the mitochondria for beta‐oxidation. An analogous mechanism has been proposed in plants after identification of a carnitine acyl carrier‐like protein with homology to mammalian carnitine acyl carrier, but the role of carnitine in plants has yet to be further elucidated (Lawand et al.,
+2002
+).
+oct1
+mutants could be sensitive to cadaverine because of altered polyamines homeostasis and/or localization. Alternatively, cadaverine‐induced lipid deficiency could be exacerbated by altered acyl transport capabilities in the
+oct1
+mutants.
+In some plants, cadaverine abundance has been found to increase in response to environmental stress, a process that is believed to contribute to stress mitigation. Furthermore, microbes from the phyllosphere, rhizosphere, or endosphere have also been shown to provide plants with cadaverine, as does decomposing matter in proximity of a root system (Cassán,
+2009
+). Both endogenous and exogenously applied cadaverine can modulate plant growth and environment‐related stress resistance (reviewed in Jancewicz et al.,
+2016
+). We present here that cadaverine inhibits biotin biosynthesis and primary metabolism in Arabidopsis through direct inhibition of DAPA synthase, thereby reducing the accumulation of TAGs. If the physiological responses to cadaverine are adaptive, the presence of cadaverine, either through association with microbes (in most plants including
+A. thaliana
+) or through stress‐induced synthesis, where observed, may serve to divert a plant’s resources from growth to defense responses. Future investigations addressing the conservation of cadaverine‐response pathways in plants, and the development of methods aimed at better controlling the effects of cadaverine on biotin synthesis, its impact on primary metabolism within the biomass, and on root‐system architecture, should yield important new insights, facilitating the development of new crop varieties with improved productivity, enhanced energy content of the biomass, and increased adaptability to the stresses associated with climate change or growth on marginal lands.
+EXPERIMENTAL PROCEDURES
+Seedling root growth measurements
+Seedlings were grown on plates containing 1.5% agar, 0.5× Linsmaier and Skoog (LS) media pH 5.7 with 1.5% sucrose unless otherwise noted. After 48 h of stratification, plates were moved to a 22°C growth chamber under long day conditions, 60 μmol m
+–2
+sec
+–1
+white light (cool‐white fluorescent bulbs) and the wave assay was carried out as described in Rutherford and Masson (
+1996
+). Day lengths were 16 h. After 6 days of growth, the position of the root tip was marked and seedlings were grown for 4 more days. After 10 days, plates were scanned using a document scanner and the growth from Day 6 to 10 was measured using the Neuron J plugin of ImageJ. Root growth was standardized to the control of each mutant line.
+To determine if the response was specific to cadaverine, mutant lines were screened on media supplemented with putrescine (5, 10, and 15 m
+m
+), spermidine (300, 500, and 700 μ
+m
+), and spermine (200, 300, and 400 μ
+m
+), and root growth measurements were carried out as described above.
+Meristem morphology and cell size
+Zeiss confocal LSM780 microscope was used to characterize cell size and morphology of cadaverine‐treated roots. Eight‐day‐old seedlings were germinated on control media or 200 μ
+m
+cadaverine‐containing media. Seedlings were grown as described above. After 8 days in the growth chamber, seedlings were stained with 1.0 mg ml
+–1
+propidium iodide for approximately 2 sec and then rinsed with water. Roots were imaged using a 561‐nm laser, 20× objective. Images were analyzed using ImageJ. Meristem was defined from the quiescent center to the first elongated cell in the cortex. The number of cells in the meristem was counted from the quiescent center along files of cortical cells to the first elongated cell (Perilli et al.,
+2010
+). The cell length in the mature zone was quantified by measuring cells in the epidermis using ImageJ.
+Root tip growth measurement
+Seedlings were germinated on control media (as above) and grown vertically to reduce waving. Three days after germination, seedlings were transferred to control or 200 μ
+m
+cadaverine‐containing media and grown under 60 μmol m
+–2
+sec
+–1
+of continuous light. A high‐resolution raspberry pi camera was used to image seedlings every 8 h. Imaging began within 10 min after transfer. ImageJ was used to measure tip growth every 8 h. Statistical difference in root tip growth between cadaverine and control treatment was tested using a mixed effects model with an
+F
+‐test for the interaction between time and treatment, corrected with Tukey’s adjustment for multiple comparisons in SAS Studio Version 3.8 (Gueorguieva and Krystal,
+2004
+).
+Forward genetic screen
+To generate an EMS population, approximately 0.19 g of Col‐0 seeds (M0) were treated with 50 ml of 0.2% EMS for 15 h, then rinsed with water eight times (Weigel and Glazebrook,
+2002
+). On the last wash, seeds were soaked in water for an hour. Seeds were then resuspended in 0.1% agar and pipetted on to soil. After EMS application M0 seeds are referred to as M1. M1 plants were self‐pollinated and M2 seeds were collected in individual pools for each plant. In total, 1064 M2 lines were screened on plates containing LS media supplemented with 200 μ
+m
+cadaverine. Seedlings showing a hypersensitive response, a decrease in root growth compared with the wild type on cadaverine media, were self‐pollinated and the M3 lines were rescreened on 200 μ
+m
+cadaverine and control media. Root growth of these M3 lines was quantified as described above. Student’s
+t
+‐test was done against Col‐0 to determine if the mutant line was hypersensitive to cadaverine (Figure
+S1
+).
+Next‐generation sequencing
+A mapping population of
+cdh3
+was generated by backcrossing
+cdh3
+to wild‐type Col‐0. The segregating F2 population was screened on 50 μ
+m
+cadaverine plates as described above, omitting sucrose. In total, 162 cadaverine hypersensitive seedlings were pooled and frozen in liquid nitrogen, then homogenized with a 4.5‐mm steel bead using Mixmill. DNA was extracted using the QIAGEN DNeasy plant mini kit (Qiagen, Hilden, Germany). Next‐generation sequencing was done using Illumina HiSeq 2000 (UW‐Biotech Facility) with 100 bp, paired‐end reads.
+dnastar
+software (version 12.3) was used for alignment and variant identification. Reads with a Q value <30 were removed from analysis. Variants present in multiple EMS mutant lines and Col‐0 were subtracted from the
+cdh3
+variant list. The location of the mutation was identified by looking at the percentage single nucleotide polymorphism along the position in the genome (Zuryn et al.,
+2010
+).
+Chemical rescue
+Seedlings were germinated on LS media with or without 200 μ
+m
+cadaverine and 10, 20, 40, 60, 80, or 100 n
+m
+biotin. Biotin was prepared as described in Schneider et al. (
+1989
+). Seedling root growth was quantified as described above. Student’s
+t
+‐test was done to determine significance against Col‐0 using
+P
+< 0.05 as a cut off.
+Transformation rescue
+Primers containing adapters for
+Asc
+1 and
+Pac
+1 restriction sites were used to amplify Col‐0 wild‐type
+BIO3‐BIO1
+genomic DNA (
+At5G57590
+), from 1233 bp upstream from the transcriptional start site to 382 bp 3′ of the stop codon, yielding a 5706‐bp product. The PCR reaction was restriction‐digested with
+Asc
+1 and
+Pac
+1 and ligated into pMDC99 (Curtis,
+2003
+). The ligated product was transformed into
+Escherichia coli
+DUO competent cells (Lucigen, Middleton, WI, USA) and selected on 50 μg ml
+–1
+kanamycin. Transformation rescue was done on the
+cdh3
+mutant using the floral dip method as described (Clough and Bent,
+1998
+) using Agrobacteria strain GV3101. T1 seeds were screened on 50 μg ml
+–1
+hygromycin to identify positive transformants.
+Protein expression and isolation
+Protein expression of pET‐mBIO3‐BIO1 was carried out as described previously (Cobessi et al.,
+2012
+). The plasmid was introduced into Rosetta‐2
+E. coli
+competent cells (Novagen, Madison, WI, USA) and cultured overnight at 37°C, 200 r.p.m. in 10 ml LB medium containing 50 μg ml
+–1
+kanamycin. After overnight growth the culture was transferred into 500 ml LB with appropriate antibiotic and supplemented with 10 μ
+m
+pyridoxine and 15 μ
+m
+thiamin (Cobessi et al.,
+2012
+). The culture was incubated at 37°C until the OD
+600
+reached 0.3. At this point, 0.4 m
+m
+isopropylthio‐β‐
+d
+‐galactoside was added, and the culture was grown for 16 h at 18°C, shaking at 200 rpm. Cells were then harvested by centrifuged at 4°C for 20 min at 4000
+g
+. Pellet was resuspend in lysis buffer with additional 1× protease inhibitor cocktail (Roche, Basel, Switzerland) and 500 μ
+m
+PLP. Cell lysate was centrifuged at 10 000
+g
+for 30 min at 4°C. Supernatant was collected and subjected to QIAexpress Ni‐NTA column purification (Qiagen). Eluted protein was desalted using Amicon Ultra centrifugal filter units, Ultra‐15 MWCO 50 kDa (Millipore Sigma, Burlington, MA, USA). Protein was stored and diluted in 100 m
+m
+HEPPS pH 8.6.
+BIO3‐BIO1
+in vitro
+enzymatic assay
+The assay was modified from the method developed by Cobessi et al. (
+2012
+). Reaction buffer contained the following: 100 m
+m
+HEPPS pH 8.6, 1 m
+m
+DTT, 100 m
+m
+NaCl, 5 m
+m
+MgCl
+2
+, 3 m
+m
+AdoMet, 10 m
+m
+NaHCO
+3
+, and 0.3 m
+m
+ATP. Each reaction included various concentrations of racemic hydrochloride‐KAPA (synthesized according to the procedure described by Nudelman et al. (
+2004
+) as substrate (0 or 20 µ
+m
+), along with 0 or 50 µ
+m
+cadaverine dihydrochloride. The BIO3‐BIO1 enzyme at a final concentration of 6.9 µ
+m
+was added to start the reactions. Reactions were run at 25°C for 8 min. At the end of each reaction, the enzyme was inactivated by addition of 20% acetic acid. Inactivated enzyme was removed from the reaction using a 10‐kDa column (Pall NanoSep). DTB was detected using FluoReporter Biotin Quantitation Assay Kit (
+F30751
+; Thermo Fisher, Waltham, MA, USA). Twenty‐five microliters of reaction product was mixed with 25 µl 2× Biotective Green Reagent and incubated for 5 min in the dark before detection using a Tecan Infinite M1000 Pro microplate reader with 495 nm (10 nm bandwidth) excitation and 530 nm (10 nm bandwidth) emission. A standard curve of DTB was generated from 0 to 80 pmol and used to determine the amount of DTB per sample.
+Seedling growth for gene expression analysis
+Seedlings were germinated on control media and transferred to plates containing control or 200 μ
+m
+cadaverine media for 24, 48, or 72 h before collecting tissue at 8 days after germination. An additional subset of seedlings was germinated directly on control or 200 μ
+m
+cadaverine media. To harvest, seedlings were flash frozen in liquid nitrogen and homogenized using a 4.5‐mm steel bead and a Mixmill.
+Gene expression analysis
+RNA extraction was done using TRIzol reagent and Direct‐zol RNA MiniPrep Kit, with a chloroform phase separation, according to manufacturer’s specifications (ZymoResearch, Irvine, CA, USA). cDNA synthesis was done using SuperScript III. qRT‐PCR was done using Bullseye EvaGreen qPCR Mastermix (MidSci) and run on a LightCycler 480 II Instrument (Roche). Gene expression was calculated by the delta delta
+C
+t
+method and standardized to the PP2A (At1G59830) reference gene (Czechowski et al.,
+2005
+; Ramakers et al.,
+2003
+). Fold‐change of expression for all samples was then set relative to a control sample. Statistical significance was identified by ANOVA with Tukey’s HSD correction (SAS version 9.3).
+Protein analysis
+Seedling growth is as described above, with seedlings germinated on 1.5% agar, 0.5× LS media pH 5.7 with 1.5% sucrose with or without or 200 μ
+m
+cadaverine. Tissue was frozen using dry ice after 8 days of growth. Frozen samples were homogenized using MixMill. Protein was extracted in the equivalent of 1 ml of protein extraction buffer (20 m
+m
+MOPS [pH 7.5], 5 m
+m
+MgCl
+2
+, 5 m
+m
+KCl, 50 m
+m
+Sucrose [Roche inhibitor cocktail tablet], 1 m
+m
+DTT, 7% glycerol [adapted from (Li et al.,
+2012
+]) per 250 mg of tissue. The homogenate was gently mixed at 4°C for 30 min, then centrifuged at 4°C for 30 min, 18 000
+g
+to pellet the debris. Total protein was quantified and standardized for each gel using the Roche BCA assay. Approximately 150 μg of protein was loaded on to a 12% Tris‐Bis NuPAGE gel (Invitrogen, Waltham, MA, USA) and run using the Invitrogen X‐cell SureLock Mini‐Cell Electrophoresis System. After electroblotting, the Immunobilon‐FL PVDF membrane was blocked for 1 h at 4°C with a 5% milk/TBS solution (25 m
+m
+Tris‐HCl, 140 m
+m
+NaCl, 3.0 m
+m
+KCl). Anti‐RPT4A, a proteasome subunit‐specific antibody generated in rabbit, was used as a loading control at 1:4000 dilution. BIO3‐BIO1 antibody was generated against guinea pig by Claude Alban and used at 1:25 000 (Cobessi et al.,
+2012
+). BCCP1 and MCCA antibodies were generated against rabbit by Basil Nikolau and obtained from the Plant Antibody Facility (PAF, Ohio State) (Che,
+2003
+; Li et al.,
+2011
+). MCCA and BCCP1 antibodies were used at a concentration of 1:10 000. LiCor CW800, secondary antibodies were used according to manufacturer’s instructions at 1:10 000 dilution. Membranes were scanned using LICOR Odyssey. Image studio software version 5.2.5 and Adobe Photoshop was used to quantify band intensity.
+Biotin‐containing protein analysis
+Biotin‐containing proteins were quantified following protocol from Li et al. (
+2012
+). RPT4A loading control was used as described above. Membranes were blocked in TBST with 1% Tween20 before treating with streptavidin. Streptavadin CW800 was used to detect biotinylated proteins at a concentration of 0.5 µg ml
+–1
+in 1% milk TBST.
+Lipid profiling
+Col‐0 wild‐type seedlings were grown on LS media as described above. After 5 days in the growth chamber, seedlings were transferred to plates containing control or 200 μ
+m
+cadaverine media, and allowed to grow for an additional 72 h. Fresh tissue was submerged immediately in 75°C isopropanol with 0.01% butylated hydroxytoluene. Lipid extraction procedure was done according to Devaiah et al. (
+2006
+). Samples were dried under nitrogen gas and shipped to Kansas State Lipidomics Research Center for analysis (Vu et al.,
+2014
+). Lipids were standardized to dry weight for each sample. Total acyl lipids, DAG and TAG were analyzed on a Waters Xevo TQS mass spectrometer (Waters, Milford, MA, USA). Samples contained 200 seedlings per biological replica, with a total of five biological repeats.
+ACCESSION NUMBERS
+Sequence data from this article can be found in the EMBL/GenBank data libraries under accession numbers: BIO3‐BIO1 (AT5G57590), BIO2 (AT2G43360), BIO4 (AT5G04620), MCCA (AT1G03090), BCCP1 (AT5G16390), PAO4 (AT1G65840), OCT1 (AT1G73220), PP2A (AT1G69960), and RPT4A (AT5G43010).
+AUTHOR CONTRIBUTIONS
+NMG, HAM, and PHM designed the research; NMG, S‐HS, SL‐N, SM, and CA performed the research; NMG, S‐HS, SL‐N, HAM, and PHM analyzed the data; NMG and PHM wrote the paper.
+CONFLICT OF INTERESTS
+The authors declare that they have no competing interests.
+Supporting information
+Figure S1
+. Thirteen cadaverine hypersensitive mutants (
+cdh1
+–
+cdh13
+) were identified by screening for alterations in root responses to cadaverine. Root growth from day 6 to day 10 was measured on cadaverine and control media. Each mutant line was standardized to growth on control media, and standardized again to growth of the wild type.
+cdh
+mutants 1–7 fall into distinct complementation groups. Other mutants were not included in this genetic complementation test. Bars indicate standard error. ***
+P
+< 0.001 as determined by Student’s
+t
+‐test. Whiskers indicate minimum to maximum values.
+Figure S2
+. Cadaverine decreases cell elongation. (a) Seedlings were germinated on 200 μM cadaverine or control media and propidium iodide treatment was used to stain the cell walls. Stained roots were then analyzed using confocal microscopy. Five seedlings were analyzed per treatment group. Cell length in the mature zone was analyzed using the same treatment conditions described in Figure 1. (b) Length of epidermal cells in the mature zone was quantified for each treatment described in (a). Statistical differences were defined by ANOVA with Tukey’s HSD correction with similar letters indicating no statistical difference. Bars represent standard error.
+Figure S3
+. Expression of genes involved in biotin synthesis is unaffected by cadaverine treatment. Wild‐type and
+cdh3
+seeds were germinated on control media, with a subset germinated on media containing 200 μM cadaverine. Seedlings were transferred to 200 μM cadaverine‐containing or control media for the indicated duration, 24, 48, or 72 h post‐transfer. A subset of seeds (indicated as 8*) was germinated directly on control or 200 μM cadaverine‐containing media. Seedlings were collected after 8 days in light. Twelve seedlings were collected per biological replicate, and three biological replicates were generated per treatment group. qRT‐PCR was carried out using
+PP2A
+as a reference gene. Bars indicate standard error with dots showing biological replicates. Statistical significance was determined using ANOVA with Tukey’s HSD correction. Similar letters indicate no significant difference between samples.
+Figure S4
+.
+MCCA
+and
+BCCP1
+gene expression is unaffected by cadaverine treatment. Wild‐type and
+cdh3
+seeds were germinated on control media and transferred to 200 μM cadaverine or control media and grown for the indicated duration (24, 48, or 72 h). A subset of seeds (8*) was germinated directly on control or 200 μM cadaverine media. Twelve seeds were collected per biological replicate, and three biological replicates were generated per treatment group. qRT‐PCR was carried out using PP2A as a reference gene. Bars indicate standard error with dots showing biological replicates. Statistical significance was determined using ANOVA with Tukey’s HSD correction. Similar letters indicate no significant differences between samples.
+Click here for additional data file.
+(597.9KB, docx)
+Table S1
+. Lipid Analysis of 72‐hour cadaverine treated seedlings. 5 day‐old Col‐0 seedlings were transferred to 200 μM cadaverine‐containing or control media and grown for an additional 72 hours. Lipids were extracted and samples sent to the Kansas State Lipidomics Research Facility for MS/MS analysis. Values are listed as nmol signal/ mg dry weight. Student’s T‐test was done to determine significance.
+Click here for additional data file.
+(19.8KB, xlsx)
+ACKNOWLEDGEMENTS
+This work was funded by HATCH award #WIS10338 from the College of Agriculture and Life Sciences, Fall Competition Award #MSN226688 from Office of the Vice Chancellor for Research and Graduate Education, University of Wisconsin‐Madison, and grant #80NSSC19K1483 from the National Aeronautics and Space Administration. We would like to thank David Meinke and Joe Shellhammer for technical advice regarding biotin quantification, Benjamin Minkoff and Thao Nygen for help troubleshooting protein purification, and David Cobessi for help with BIO3‐BIO1 structure analysis. We are grateful for Sarah Swanson at the Newcomb Imaging Center, Department of Botany, UW‐Madison, for confocal imaging. Tecan Infinite M1000 Pro data were obtained at the University of Wisconsin‐Madison Biophysics Instrumentation Facility, which was established with support from the University of Wisconsin‐Madison and grants BIR‐9512577 (NSF) and S10RR13790 (NIH). The lipid analyses described in this work were performed at the Kansas Lipidomics Research Center Analytical Laboratory. Instrument acquisition and lipidomics method development was supported by National Science Foundation (EPS 0236913, MCB 1413036, DBI 0521587, DBI1228622), Kansas Technology Enterprise Corporation, K‐IDeA Networks of Biomedical Research Excellence (INBRE) of National Institute of Health (P20GM103418), and Kansas State University.
+Linked article:
+This paper is the subject of a Research Highlight article. To view this Research Highlight article visit
+https://doi.org/10.1111/tpj.15471
+DATA AVAILABILITY STATEMENT
+Data from this study can be provided by the corresponding author upon request.
+REFERENCES
+Alban, C.
+, 
+Baldet, P.
+, 
+Axiotis, S.
+ & 
+Douce, R.
+ (1993) Purification and characterization of 3‐methylcrotonyl‐coenzyme A carboxylase from higher plant mitochondria. Plant Physiology, 102, 957–965.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Alban, C.
+, 
+Job, D.
+ & 
+Douce, R.
+ (2000) Biotin metabolism in plants. Annual Review of Plant Physiology and Plant Molecular Biology, 51, 17–47.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Aubert, S.
+, 
+Alban, C.
+, 
+Bligny, R.
+ & 
+Douce, R.
+ (1996) Induction of beta‐methylcrotonyl‐coenzyme A carboxylase in higher plant cells during carbohydrate starvation: evidence for a role of MCCase in leucine catabolism. FEBS Letters, 383, 175–180.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Aziz, A.
+, 
+Martin‐Tanguy, J.
+ & 
+Larher, F.
+ (1998) Stress‐induced changes in polyamine and tyramine levels can regulate proline accumulation in tomato leaf discs treated with sodium chloride. Physiologia Plantarum, 104, 195–202. Available at:
+https://www.researchgate.net/profile/Aziz_Aziz3/publication/225274396_Stress‐induced_changes_in_polyamine_and_tyramine_levels_can_regulate_proline_accumulation_in_tomato_leaf_discs_treated_with_sodium_chloride_Physiol_Plant/links/0fcfd51152e5d86d26000000.pdf
+.
+[
+Google Scholar
+]
+Batchelor, R.
+, 
+Sarkez, A.
+, 
+Cox, W.G.
+ & 
+Johnson, I.
+ (2007) Fluorometric assay for quantitation of biotin covalently attached to proteins and nucleic acids. BioTechniques, 43, 503–507.
+https://doi.org/10.2144/000112564
+.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Bunsupa, S.
+, 
+Katayama, K.
+, 
+Ikeura, E.
+, 
+Oikawa, A.
+, 
+Toyooka, K.
+, 
+Saito, K.
+ et al. (2012) Lysine decarboxylase catalyzes the first step of quinolizidine alkaloid biosynthesis and coevolved with alkaloid production in leguminosae. The Plant Cell, 24, 1202–1216.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Cassán, F.
+, 
+Maiale, S.
+, 
+Masciarelli, O.
+, 
+Vidal, A.
+, 
+Luna, V.
+ & 
+Ruiz, O.
+ (2009) Cadaverine production by Azospirillum brasilense and its possible role in plant growth promotion and osmotic stress mitigation. European Journal of Soil Biology, 45, 12–19.
+[
+Google Scholar
+]
+Che, P.
+, 
+Weaver, L.M.
+, 
+Wurtele, E.S.
+ & 
+Nikolau, B.J.
+ (2003) The role of biotin in regulating 3‐methylcrotonyl‐coenzyme A carboxylase expression in arabidopsis. Plant Physiology, 131, 1479–1486.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Clough, S.J.
+ & 
+Bent, A.F.
+ (1998) Floral dip: a simplified method for agrobacterium‐mediated transformation of Arabidopsis thaliana. The Plant journal, 16, 735–743.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Cobessi, D.
+, 
+Dumas, R.
+, 
+Pautre, V.
+, 
+Meinguet, C.
+, 
+Ferrer, J.‐L.
+ & 
+Alban, C.
+ (2012) Biochemical and structural characterization of the Arabidopsis bifunctional enzyme dethiobiotin synthetase‐diaminopelargonic acid aminotransferase: evidence for substrate channeling in biotin synthesis. The Plant Cell, 24, 1608–1625.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Curtis, M.D.
+ & 
+Grossniklaus, U.
+ (2003) A gateway cloning vector set for high‐throughput functional analysis of genes in planta. Plant Physiology, 133, 462–469. Available at:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC523872/pdf/1330462.pdf
+.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Czechowski, T.
+, 
+Stitt, M.
+, 
+Altmann, T.
+, 
+Udvardi, M.K.
+ & 
+Scheible, W.‐R.
+ (2005) Genome‐wide identification and testing of superior reference genes for transcript normalization in Arabidopsis. Plant Physiology, 139, 5–17.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Devaiah, S.P.
+, 
+Roth, M.R.
+, 
+Baughman, E.
+, 
+Li, M.
+, 
+Tamura, P.
+, 
+Jeannotte, R.
+ et al. (2006) Quantitative profiling of polar glycerolipid species from organs of wild‐type Arabidopsis and a PHOSPHOLIPASE Dα1 knockout mutant. Phytochemistry, 67, 1907–1924.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Ding, G.
+, 
+Che, P.
+, 
+Ilarslan, H.
+, 
+Wurtele, E.S.
+ & 
+Nikolau, B.J.
+ (2012) Genetic dissection of methylcrotonyl CoA carboxylase indicates a complex role for mitochondrial leucine catabolism during seed development and germination. The Plant Journal, 70, 562–577. Available at: .
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Gamarnik, A.A.
+ & 
+Frydman, R.B.R.
+ (1991) Cadaverine, an essential diamine for the normal root development of germinating soybean (Glycine max) seeds. Plant Physiology, 97, 778–785.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Guan, X.
+, 
+Diez, T.
+, 
+Prasad, T.K.
+, 
+Nikolau, B.J.
+ & 
+Wurtele, E.S.
+ (1999) Geranoyl‐CoA carboxylase: a novel biotin‐containing enzyme in plants. Archives of Biochemistry and Biophysics, 362, 12–21.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Gueorguieva, R.
+ & 
+Krystal, J.H.
+ (2004) Move over ANOVA: progress in analyzing repeated‐measures data and its reflection in papers published in the archives of general psychiatry. Archives of General Psychiatry, 61, 310.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Imai, A.
+, 
+Matsuyama, T.
+, 
+Hanzawa, Y.
+, 
+Akiyama, T.
+, 
+Tamaoki, M.
+, 
+Saji, H.
+ et al. (2004) Spermidine synthase genes are essential for survival of Arabidopsis. Plant Physiology, 135, 1565–1573.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Jancewicz, A.L.
+, 
+Gibbs, N.M.
+ & 
+Masson, P.H.
+ (2016) Cadaverine’s functional role in plant development and environmental response. Frontiers in Plant Science, 7, 870. 10.3389/fpls.2016.00870.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Kakehi, J.I.
+, 
+Kuwashiro, Y.
+, 
+Niitsu, M.
+ & 
+Takahashi, T.
+ (2008) Thermospermine is required for stem elongation in Arabidopsis thaliana. Plant and Cell Physiology, 49, 1342–1349.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Kamada‐Nobusada, T.
+, 
+Hayashi, M.
+, 
+Fukazawa, M.
+, 
+Sakakibara, H.
+ & 
+Nishimura, M.
+ (2008) A putative peroxisomal polyamine oxidase, AtPAO4, is involved in polyamine catabolism in Arabidopsis thaliana. Plant and Cell Physiology, 49, 1272–1282.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Kuznetsov, V.
+, 
+Shorina, M.
+, 
+Aronova, E.
+, 
+Stetsenko, L.
+, 
+Rakitin, V.
+ & 
+Shevyakova, N.
+ (2007) NaCl‐ and ethylene‐dependent cadaverine accumulation and its possible protective role in the adaptation of the common ice plant to salt stress. Plant Science, 172, 363–370.
+[
+Google Scholar
+]
+Lawand, S.
+, 
+Dorne, A.‐J.
+, 
+Long, D.
+, 
+Coupland, G.
+, 
+Mache, R.
+ & 
+Carol, P.
+ (2002) Arabidopsis A BOUT DE SOUFFLE, which is homologous with mammalian carnitine Acyl carrier, is required for postembryonic growth in the light. The Plant Cell, 14, 2161–2173.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Lelandais‐Brière, C.
+, 
+Jovanovic, M.
+, 
+Torres, G.A.M.
+, 
+Perrin, Y.
+, 
+Lemoine, R.
+, 
+Corre‐Menguy, F.
+ et al. (2007) Disruption of AtOCT1, an organic cation transporter gene, affects root development and carnitine‐related responses in Arabidopsis. The Plant Journal, 51, 154–164.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Li, J.
+, 
+Brader, G.
+, 
+Helenius, E.
+, 
+Kariola, T.
+ & 
+Palva, E.T.
+ (2012) Biotin deficiency causes spontaneous cell death and activation of defense signaling. The Plant Journal, 70, 315–326.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Li, X.
+, 
+Ilarslan, H.
+, 
+Brachova, L.
+, 
+Qian, H.‐R.
+, 
+Li, L.
+, 
+Che, P.
+ et al. (2011) Reverse‐genetic analysis of the two biotin‐containing subunit genes of the heteromeric acetyl‐coenzyme A carboxylase in Arabidopsis indicates a unidirectional functional redundancy. Plant Physiology, 155, 293–314.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Liu, K.
+, 
+Fu, H.
+, 
+Bei, Q.
+ & 
+Luan, S.
+ (2000) Inward potassium channel in guard cells as a target for polyamine regulation of stomatal movements. Plant Physiology, 124, 1315–1326.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Liu, T.
+, 
+Dobashi, H.
+, 
+Kim, D.W.
+, 
+Sagor, G.H.M.
+, 
+Niitsu, M.
+, 
+Berberich, T.
+ et al. (2014) Arabidopsis mutant plants with diverse defects in polyamine metabolism show unequal sensitivity to exogenous cadaverine probably based on their spermine content. Physiology and Molecular Biology of Plants, 20, 151–159. 10.1007/s12298-014-0227-5.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Muralla, R.
+, 
+Chen, E.
+, 
+Sweeney, C.
+, 
+Gray, J.A.
+, 
+Dickerman, A.
+, 
+Nikolau, B.J.
+ et al. (2007) A bifunctional locus (BIO3‐BIO1) required for biotin biosynthesis in Arabidopsis. Plant Physiology, 146, 60–73. 10.1104/pp.107.107409.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Negrel, J.
+, 
+Paynot, M.
+ & 
+Javelle, F.
+ (1992) Purification and properties of putrescine hydroxycinnamoyl transferase from tobacco (Nicotiana tabacum) cell suspensions. Plant Physiology, 98, 1264–1269.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Niemi, K.
+, 
+Häggman, H.
+ & 
+Sarjala, T.
+ (2002) Effects of exogenous diamines on the interaction between ectomycorrhizal fungi and adventitious root formation in Scots pine in vitro. Tree Physology, 1–9.
+https://doi.org/10.1093/treephys/22.6.373
+.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Nikolau, B.J.
+, 
+Ohlrogge, J.B.
+ & 
+Wurtele, E.S.
+ (2003) Plant biotin‐containing carboxylases. Archives of Biochemistry and Biophysics, 414, 211–222.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Nudelman, A.
+, 
+Marcovici‐Mizrahi, D.
+, 
+Nudelman, A.
+, 
+Flint, D.
+ & 
+Wittenbach, V.
+ (2004) Inhibitors of biotin biosynthesis as potential herbicides. Tetrahedron, 60, 1731–1748.
+[
+Google Scholar
+]
+Park, M.H.
+, 
+Cooper, H.L.
+ & 
+Folk, J.E.
+ (1982) The biosynthesis of protein‐bound hypusine (N epsilon ‐(4‐amino‐2‐hydroxybutyl)lysine). Lysine as the amino acid precursor and the intermediate role of deoxyhypusine (N epsilon ‐(4‐aminobutyl)lysine). Journal of Biological Chemistry, 257, 7217–7222.
+[
+PubMed
+] [
+Google Scholar
+]
+Patton, D.A.
+, 
+Volrath, S.
+ & 
+Ward, E.R.
+ (1996) Complementation of an Arabidopsis thaliana biotin auxotroph with an Escherichia coli biotin biosynthetic gene. Molecular & General Genetics, 251, 261–266.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Perilli, S.
+ & 
+Sabatini, S.
+ (2010) Analysis of root meristem size development. Methods in Molecular Biology, 655, 177–187.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Picciocchi, A.
+, 
+Douce, R.
+ & 
+Alban, C.
+ (2001) Biochemical characterization of the Arabidopsis biotin synthase reaction. The importance of mitochondria in biotin synthesis. Plant Physiology, 127, 1224–1233. Available at:
+http://www.plantphysiol.org/content/plantphysiol/127/3/1224.full.pdf
+.
+[
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Pinon, V.
+, 
+Ravanel, S.
+, 
+Douce, R.
+ & 
+Alban, C.
+ (2005) Biotin synthesis in plants. The first committed step of the pathway is catalyzed by a cytosolic 7‐keto‐8‐aminopelargonic acid synthase. Plant Physiology, 139, 1666–1676.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Pommerrenig, B.
+, 
+Popko, J.
+, 
+Heilmann, M.
+, 
+Schulmeister, S.
+, 
+Dietel, K.
+, 
+Schmitt, B.
+ et al. (2012) SUCROSE TRANSPORTER 5 supplies Arabidopsis embryos with biotin and affects triacylglycerol accumulation. The Plant Journal, 73, 392–404.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Ramakers, C.
+, 
+Ruijter, J.M.
+, 
+Deprez, R.H.L.
+ & 
+Moorman, A.F.M.
+ (2003) Assumption‐free analysis of quantitative real‐time polymerase chain reaction (PCR) data. Neuroscience Letters, 339, 62–66. Available at:
+https://doi.org/10.1016/S0304‐3940(02)01423‐4
+.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Rutherford, R.
+ & 
+Masson, P.H.
+ (1996) Arabidopsis thaliana sku mutant seedlings show exaggerated surface‐dependent alteration in root growth vector. Plant Physiology, 111, 987–998.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Sandmark, J.
+, 
+Mann, S.
+, 
+Marquet, A.
+ & 
+Schneider, G.
+ (2002) Structural basis for the inhibition of the biosynthesis of biotin by the antibiotic amiclenomycin. Journal of Biological Chemistry, 277, 43352–43358.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Sasaki, Y.
+, 
+Hakamada, K.
+, 
+Suama, Y.
+, 
+Nagano, Y.
+, 
+Furusawa, I.
+ & 
+Matsuno, R.
+ (1993) Chloroplast‐encoded protein as a subunit of acetyl‐CoA carboxylase in pea plant. Journal of Biological Chemistry, 268, 25118–25123.
+[
+PubMed
+] [
+Google Scholar
+]
+Schneeberger, K.
+, 
+Ossowski, S.
+, 
+Lanz, C.
+, 
+Juul, T.
+, 
+Petersen, A.H.
+, 
+Nielsen, K.L.
+ et al. (2009) SHOREmap: simultaneous mapping and mutation identification by deep sequencing. Nature Publishing Group, 6, 550–551.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Schneider, T.
+, 
+Dinkins, R.
+, 
+Robinson, K.
+, 
+Shellhammer, J.
+ & 
+Meinke, D.W.
+ (1989) An embryo‐lethal mutant of Arabidopsis thaliana is a biotin auxotroph. Developmental biology, 131, 161–167.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Sequera‐Mutiozabal, M.I.
+, 
+Erban, A.
+, 
+Kopka, J.
+, 
+Atanasov, K.E.
+, 
+Bastida, J.
+, 
+Fotopoulos, V.
+ et al. (2016) Global metabolic profiling of Arabidopsis Polyamine Oxidase 4 (AtPAO4) loss‐of‐function mutants exhibiting delayed dark‐induced senescence. Frontiers in Plant Science, 7, 1237–1313. Available at:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4757743/pdf/fpls‐07‐00173.pdf
+.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Shellhammer, J.
+ & 
+Meinke, D.
+ (1990) Arrested embryos from the bio1 auxotroph of Arabidopsis thaliana contain reduced levels of biotin. Plant Physiology, 93, 1162–1167.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Shevyakova, N.I.
+, 
+Rakitin, V.Y.
+, 
+Duong, D.B.
+, 
+Sadomov, N.G.
+ & 
+Kuznetsov, V.V.
+ (2001) Heat shock‐induced cadaverine accumulation and translocation throughout the plant. Plant Science, 161(6), 1125–1133.
+[
+Google Scholar
+]
+Shimizu, Y.
+, 
+Rai, A.
+, 
+Okawa, Y.
+, 
+Tomatsu, H.
+, 
+Sato, M.
+, 
+Kera, K.
+ et al. (2019) Metabolic diversification of nitrogen‐containing metabolites by the expression of a heterologous lysine decarboxylase gene in Arabidopsis. The Plant Journal, 100, 505–521.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Shiva, S.
+, 
+Vu, H.S.
+, 
+Roth, M.R.
+, 
+Zhou, Z.
+, 
+Marepally, S.R.
+, 
+Nune, D.S.
+ et al. (2013) Lipidomic analysis of plant membrane lipids by direct infusion tandem mass spectrometry. Methods in Molecular Biology (Clifton NJ), 1009, 79–91.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Simon‐Sarkadi, L.
+, 
+Ludidi, N.
+ & 
+Kocsy, G.
+ (2014) Modification of cadaverine content by NO in salt‐stressed maize. Plant Signaling & Behavior, 9, e27598.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Song, J.
+, 
+Wurtele, E.S.
+ & 
+Nikolau, B.J.
+ (1994) Molecular cloning and characterization of the cDNA coding for the biotin‐containing subunit of 3‐methylcrotonoyl‐CoA carboxylase: identification of the biotin carboxylase and biotin‐carrier domains. Proceedings of the National Academy of Sciences, 91, 5779–5783.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Strohm, A.K.
+, 
+Vaughn, L.M.
+ & 
+Masson, P.H.
+ (2015) Natural variation in the expression of ORGANIC CATION TRANSPORTER 1 affects root length responses to cadaverine in Arabidopsis. Journal of Experimental Botany, 66, 853–862. Available at:
+http://jxb.oxfordjournals.org/content/66/3/853
+.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Sziderics, A.H.
+, 
+Oufir, M.
+, 
+Trognitz, F.
+, 
+Kopecky, D.
+, 
+Matušíková, I.
+, 
+Hausman, J.‐F.
+ et al. (2010) Organ‐specific defence strategies of pepper (Capsicum annuum L.) during early phase of water deficit. Plant Cell Reports, 29, 295–305.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Tanabe, Y.
+, 
+Maruyama, J.
+, 
+Yamaoka, S.
+, 
+Yahagi, D.
+, 
+Matsuo, I.
+, 
+Tsutsumi, N.
+ et al. (2011) Peroxisomes are involved in biotin biosynthesis in Aspergillus and Arabidopsis. Journal of Biological Chemistry, 286, 30455–30461.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Thelen, J.J.
+, 
+Mekhedov, S.
+ & 
+Ohlrogge, J.B.
+ (2001) Brassicaceae express multiple isoforms of biotin carboxyl carrier protein in a tissue‐specific manner. Plant Physiology, 125, 2016–2028.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Tomar, P.C.
+, 
+Lakra, N.
+ & 
+Mishra, S.N.
+ (2013) Effect of cadaverine on Brassica juncea (L.) under multiple stress. Indian Journal of Experimental Biology, 51, 758–763.
+[
+PubMed
+] [
+Google Scholar
+]
+Torrigiani, P.
+, 
+Serafini‐Fracassini, D.
+ & 
+Bagni, N.
+ (1987) Polyamine biosynthesis and effect of dicyclohexylamine during the cell cycle of Helianthus tuberosus tuber. Plant Physiology, 84, 148–152.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Vu, H.S.
+, 
+Shiva, S.
+, 
+Roth, M.R.
+, 
+Tamura, P.
+, 
+Zheng, L.
+
+
+Li, M.
+ et al. (2014) Lipid changes after leaf wounding in Arabidopsis thaliana: expanded lipidomic data form the basis for lipid co‐occurrence analysis. The Plant Journal, 80, 728–743.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Weigel, D.G.
+ & 
+Glazebrook, J.
+ (2002) Arabidopsis: A Laboratory Manual. Cold Spring Harbor Laboratory Press,
+[
+Google Scholar
+]
+Wu, J.
+, 
+Sun, Y.
+, 
+Zhao, Y.
+, 
+Zhang, J.
+, 
+Luo, L.
+, 
+Li, M.
+ et al. (2015) Deficient plastidic fatty acid synthesis triggers cell death by modulating mitochondrial reactive oxygen species. Nature Publishing Group, 25, 621–633.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Wurtele, E.S.
+ & 
+Nikolau, B.J.
+ (1990) Plants contain multiple biotin enzymes: discovery of 3‐methylcrotonyl‐CoA carboxylase, propionyl‐CoA carboxylase and pyruvate carboxylase in the plant kingdom. Archives of Biochemistry and Biophysics, 278, 179–186.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Yanai, Y.
+, 
+Kawasaki, T.
+, 
+Shimada, H.
+, 
+Wurtele, E.S.
+, 
+Nikolau, B.J.
+ & 
+Ichikawa, N.
+ (1995) Genomic Organization of 251 kDa acetyl‐CoA carboxylase genes in Arabidopsis: tandem gene duplication has made two differentially expressed isozymes. Plant and Cell Physiology, 36, 779–787.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zuryn, S.
+, 
+Gras, S.L.
+, 
+Jamet, K.
+ & 
+Jarriault, S.
+ (2010) A strategy for direct mapping and identification of mutations by whole‐genome sequencing. Genetics, 186, 427–430.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Figure S1
+. Thirteen cadaverine hypersensitive mutants (
+cdh1
+–
+cdh13
+) were identified by screening for alterations in root responses to cadaverine. Root growth from day 6 to day 10 was measured on cadaverine and control media. Each mutant line was standardized to growth on control media, and standardized again to growth of the wild type.
+cdh
+mutants 1–7 fall into distinct complementation groups. Other mutants were not included in this genetic complementation test. Bars indicate standard error. ***
+P
+< 0.001 as determined by Student’s
+t
+‐test. Whiskers indicate minimum to maximum values.
+Figure S2
+. Cadaverine decreases cell elongation. (a) Seedlings were germinated on 200 μM cadaverine or control media and propidium iodide treatment was used to stain the cell walls. Stained roots were then analyzed using confocal microscopy. Five seedlings were analyzed per treatment group. Cell length in the mature zone was analyzed using the same treatment conditions described in Figure 1. (b) Length of epidermal cells in the mature zone was quantified for each treatment described in (a). Statistical differences were defined by ANOVA with Tukey’s HSD correction with similar letters indicating no statistical difference. Bars represent standard error.
+Figure S3
+. Expression of genes involved in biotin synthesis is unaffected by cadaverine treatment. Wild‐type and
+cdh3
+seeds were germinated on control media, with a subset germinated on media containing 200 μM cadaverine. Seedlings were transferred to 200 μM cadaverine‐containing or control media for the indicated duration, 24, 48, or 72 h post‐transfer. A subset of seeds (indicated as 8*) was germinated directly on control or 200 μM cadaverine‐containing media. Seedlings were collected after 8 days in light. Twelve seedlings were collected per biological replicate, and three biological replicates were generated per treatment group. qRT‐PCR was carried out using
+PP2A
+as a reference gene. Bars indicate standard error with dots showing biological replicates. Statistical significance was determined using ANOVA with Tukey’s HSD correction. Similar letters indicate no significant difference between samples.
+Figure S4
+.
+MCCA
+and
+BCCP1
+gene expression is unaffected by cadaverine treatment. Wild‐type and
+cdh3
+seeds were germinated on control media and transferred to 200 μM cadaverine or control media and grown for the indicated duration (24, 48, or 72 h). A subset of seeds (8*) was germinated directly on control or 200 μM cadaverine media. Twelve seeds were collected per biological replicate, and three biological replicates were generated per treatment group. qRT‐PCR was carried out using PP2A as a reference gene. Bars indicate standard error with dots showing biological replicates. Statistical significance was determined using ANOVA with Tukey’s HSD correction. Similar letters indicate no significant differences between samples.
+Click here for additional data file.
+(597.9KB, docx)
+Table S1
+. Lipid Analysis of 72‐hour cadaverine treated seedlings. 5 day‐old Col‐0 seedlings were transferred to 200 μM cadaverine‐containing or control media and grown for an additional 72 hours. Lipids were extracted and samples sent to the Kansas State Lipidomics Research Facility for MS/MS analysis. Values are listed as nmol signal/ mg dry weight. Student’s T‐test was done to determine significance.
+Click here for additional data file.
+(19.8KB, xlsx)
+Data Availability Statement
+Data from this study can be provided by the corresponding author upon request.
+Articles from The Plant Journal are provided here courtesy of
+Wiley
